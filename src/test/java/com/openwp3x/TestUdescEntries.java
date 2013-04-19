@@ -34,11 +34,11 @@ public class TestUdescEntries {
         final Collection<Entry> entries = this.newsReader.getEntries();
         System.out.println(entries);
         final Entry firstEntry = entries.iterator().next();
-        Assert.assertEquals(firstEntry.getTitle(), "Termina neste domingo prazo para submiss„o de trabalhos no Encontro Catarinense de LibreOffice");
-        Assert.assertEquals(firstEntry.getDate(), "17/04/2013");
-        Assert.assertEquals(firstEntry.getUrl(), "index.php?id=5160&pg=1");
-        Assert.assertEquals(firstEntry.getFormattedURL(), "http://www.joinville.udesc.br/portal/noticias/index.php?id=5160&pg=1");
-        Assert.assertEquals(firstEntry.getDateAsLong().longValue(), 1366167600000L);
+        Assert.assertEquals("Termina neste domingo prazo para submiss√£o de trabalhos no Encontro Catarinense de LibreOffice", firstEntry.getTitle());
+        Assert.assertEquals("17/04/2013", firstEntry.getDate());
+        Assert.assertEquals("index.php?id=5160&pg=1", firstEntry.getUrl());
+        Assert.assertEquals("http://www.joinville.udesc.br/portal/noticias/index.php?id=5160&pg=1", firstEntry.getFormattedURL());
+        Assert.assertEquals(1366167600000L, firstEntry.getDateAsLong().longValue());
         Assert.assertEquals(20, entries.size());
     }
 }

@@ -27,9 +27,7 @@ public class EntryPattern {
 
     String urlResource;
 
-    String urlPrefixPattern;
-
-    String urlSufixPattern;
+    String titlePrefixPattern;
 
     String urlPattern;
 
@@ -125,20 +123,12 @@ public class EntryPattern {
         this.maxResult = maxResult;
     }
 
-    public String getUrlSufixPattern() {
-        return this.urlSufixPattern;
+    public String getTitlePrefixPattern() {
+        return this.titlePrefixPattern;
     }
 
-    public void setUrlSufixPattern(final String urlSufix) {
-        this.urlSufixPattern = urlSufix;
-    }
-
-    public String getUrlPrefixPattern() {
-        return this.urlPrefixPattern;
-    }
-
-    public void setUrlPrefixPattern(final String urlPrefix) {
-        this.urlPrefixPattern = urlPrefix;
+    public void setTitlePrefixPattern(final String urlPrefix) {
+        this.titlePrefixPattern = urlPrefix;
     }
 
     public Locale getLocale() {

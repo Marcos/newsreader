@@ -34,7 +34,7 @@ public class TestUnivilleEntries {
         final Collection<Entry> entries = this.newsReader.getEntries();
         System.out.println(entries);
         final Entry firstEntry = entries.iterator().next();
-        Assert.assertEquals(firstEntry.getTitle(), "Aprovada doação de terreno para construção do Centro de Inovação no Inovaparq");
+        Assert.assertEquals(firstEntry.getTitle(), "Aprovada doaÃ§Ã£o de terreno para construÃ§Ã£o do Centro de InovaÃ§Ã£o no Inovaparq");
         Assert.assertEquals(firstEntry.getDate(), "16.04.2013");
         Assert.assertEquals(firstEntry.getUrl(), "http://www.univille.edu.br/contentId/458963");
         Assert.assertEquals(firstEntry.getFormattedURL(), "http://www.univille.edu.br/contentId/458963");

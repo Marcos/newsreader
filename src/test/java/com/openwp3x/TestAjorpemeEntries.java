@@ -36,20 +36,20 @@ public class TestAjorpemeEntries {
         final Collection<Entry> entries = this.newsReader.getEntries();
         System.out.println(entries);
         final Entry firstEntry = entries.iterator().next();
-        Assert.assertEquals(firstEntry.getTitle(), "Reuni„o do Conselho");
-        Assert.assertEquals(firstEntry.getDate(), "12/04/2013");
-        Assert.assertEquals(firstEntry.getUrl(), "/noticias/show/id/902%26");
+        Assert.assertEquals("Reuni√£o do Conselho", firstEntry.getTitle());
+        Assert.assertEquals("12/04/2013", firstEntry.getDate());
+        Assert.assertEquals("/noticias/show/id/902%26", firstEntry.getUrl());
         Assert.assertEquals(10, entries.size());
     }
 
     @Test
     public void testCleanerStart() {
-        final String dirtText = " 18/04/13 - Esta semana tem CafÈ & NegÛcios na Ajorpeme";
+        final String dirtText = " 18/04/13 - Esta semana tem Caf√© & Neg√≥cios na Ajorpeme";
         final Pattern pattern = Pattern.compile("\\.*\\s-\\s");
         final Matcher matcher = pattern.matcher(dirtText);
         matcher.find();
         final String cleanedText = dirtText.substring(matcher.end());
-        Assert.assertEquals(cleanedText, "Esta semana tem CafÈ & NegÛcios na Ajorpeme");
+        Assert.assertEquals(cleanedText, "Esta semana tem Caf√© & Neg√≥cios na Ajorpeme");
     }
 
     @Test

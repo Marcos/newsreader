@@ -34,7 +34,7 @@ public class TestACIJEntries {
         final Collection<Entry> entries = this.newsReader.getEntries();
         System.out.println(entries);
         final Entry firstEntry = entries.iterator().next();
-        Assert.assertEquals(firstEntry.getTitle(), "Reuni„o do Conselho");
+        Assert.assertEquals(firstEntry.getTitle(), "Reuni√£o do Conselho");
         Assert.assertEquals(firstEntry.getDate(), null);
         Assert.assertEquals(firstEntry.getUrl(), "/noticias/show/id/902%26");
         Assert.assertEquals(10, entries.size());

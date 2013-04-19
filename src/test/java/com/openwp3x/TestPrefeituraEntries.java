@@ -35,7 +35,7 @@ public class TestPrefeituraEntries {
         final Collection<Entry> entries = this.newsReader.getEntries();
         System.out.println(entries);
         final Entry firstEntry = entries.iterator().next();
-        Assert.assertEquals(firstEntry.getTitle(), "Fundação 25 de Julho e Secretaria de Desenvolvimento Econômico visitam produtores rurais");
+        Assert.assertEquals(firstEntry.getTitle(), "FundaÃ§Ã£o 25 de Julho e Secretaria de Desenvolvimento EconÃ´mico visitam produtores rurais");
         Assert.assertEquals(firstEntry.getDate(), "17 | ABR | 2013");
         Assert.assertEquals(firstEntry.getUrl(), "/noticia/4202-Funda%C3%A7%C3%A3o+25+de+Julho+e+Secretaria+de+Desenvolvimento+Econ%C3%B4mico+visitam+produtores+rurais.html");
         Assert.assertEquals(firstEntry.getFormattedURL(), "http://www.joinville.sc.gov.br/noticia/4202-Funda%C3%A7%C3%A3o+25+de+Julho+e+Secretaria+de+Desenvolvimento+Econ%C3%B4mico+visitam+produtores+rurais.html");

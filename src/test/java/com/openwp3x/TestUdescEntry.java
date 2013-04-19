@@ -35,7 +35,7 @@ public class TestUdescEntry {
     public void testGetTitle() throws Exception {
         String entry = "";
         entry = this.newsReader.getTitle( "//*[@id=\"wrapper\"]/table[1]/tbody/tr/td[1]/div[1]/p[2]");
-        Assert.assertEquals("Programa \"Extens�o Udesc\" estreia na R�dio Udesc (91.9 FM)", entry);
+        Assert.assertEquals("Programa \"Extensão Udesc\" estreia na Rádio Udesc (91.9 FM)", entry);
     }
 
     @Test
