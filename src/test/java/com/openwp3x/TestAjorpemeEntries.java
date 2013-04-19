@@ -1,0 +1,79 @@
+/**
+ * 
+ */
+package com.openwp3x;
+
+import java.io.IOException;
+import java.net.URL;
+import java.util.Collection;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+import javax.xml.parsers.ParserConfigurationException;
+
+import junit.framework.Assert;
+
+import org.junit.Before;
+import org.junit.Test;
+
+/**
+ * @author marcos.ferreira
+ * 
+ */
+public class TestAjorpemeEntries {
+
+    final URL resource = this.getClass().getClassLoader().getResource("ajorpeme-list.htm");
+    EntryReader newsReader;
+    final String charset = "UTF-8";
+
+    @Before
+    public void beforeTest() throws IOException, ParserConfigurationException {
+        this.newsReader = new EntryReader(this.resource, this.charset, EntryPatternFactory.getAjorpemePattern());
+    }
+
+    @Test
+    public void testGetLinks() throws Exception {
+        final Collection<Entry> entries = this.newsReader.getEntries();
+        System.out.println(entries);
+        final Entry firstEntry = entries.iterator().next();
+        Assert.assertEquals(firstEntry.getTitle(), "Reunião do Conselho");
+        Assert.assertEquals(firstEntry.getDate(), "12/04/2013");
+        Assert.assertEquals(firstEntry.getUrl(), "/noticias/show/id/902%26");
+        Assert.assertEquals(10, entries.size());
+    }
+
+    @Test
+    public void testCleanerStart() {
+        final String dirtText = " 18/04/13 - Esta semana tem Café & Negócios na Ajorpeme";
+        final Pattern pattern = Pattern.compile("\\.*\\s-\\s");
+        final Matcher matcher = pattern.matcher(dirtText);
+        matcher.find();
+        final String cleanedText = dirtText.substring(matcher.end());
+        Assert.assertEquals(cleanedText, "Esta semana tem Café & Negócios na Ajorpeme");
+    }
+
+    @Test
+    public void testInfoPattern() {
+        final String dirtText = "viewRegistro(13680);return false;";
+        final Pattern pattern = Pattern.compile("\\d+");
+        Matcher matcher = pattern.matcher(dirtText);
+        matcher.find();
+        Assert.assertEquals(matcher.group(), "13680");
+
+        final String dirtText2 = "viewRegistro(1368088);return false;";
+        matcher = pattern.matcher(dirtText2);
+        matcher.find();
+        Assert.assertEquals(matcher.group(), "1368088");
+
+        final String dirtText3 = "viewRegistro(1368088);return 123;";
+        matcher = pattern.matcher(dirtText3);
+        matcher.find();
+        final String cleanedText = matcher.group();
+        Assert.assertEquals(cleanedText, "1368088");
+
+        final String dirtText4 = "viewRegistro(1);return false;";
+        matcher = pattern.matcher(dirtText4);
+        matcher.find();
+        Assert.assertEquals(matcher.group(), "1");
+    }
+}
