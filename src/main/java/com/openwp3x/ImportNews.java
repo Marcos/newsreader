@@ -20,7 +20,7 @@ public class ImportNews {
 			importNews(new EntryReader(EntryPatternFactory.getSociescPattern()).getEntries());
 			importNews(new EntryReader(EntryPatternFactory.getUdescPattern()).getEntries());
 			importNews(new EntryReader(EntryPatternFactory.getUnivillePattern()).getEntries());
-			
+
 			importNews(new EntryReader(EntryPatternFactory.getAcijPattern()).getEntries());
 			importNews(new EntryReader(EntryPatternFactory.getAjorpemePattern()).getEntries());
 			importNews(new EntryReader(EntryPatternFactory.getCDLPattern()).getEntries());
@@ -66,15 +66,16 @@ public class ImportNews {
 		PreparedStatement preparedStatement = null;
 		try {
 			connection = DatabaseManager.getConnection();
-			preparedStatement = connection.prepareStatement("insert into entry (date_insert, date_entry, title_entry, url_entry, source, status, link, date_published, source_label, random_factor, title) values(?,?,?,?,?,?,?,?,?,?,?)");
-			preparedStatement.setDate(1, new Date(System.currentTimeMillis()));
+			preparedStatement = connection.prepareStatement(getInsertQuery());
+			Date dateImport = new Date(System.currentTimeMillis());
+			preparedStatement.setDate(1, dateImport);
 			preparedStatement.setString(2, entry.getDate());
 			preparedStatement.setString(3, entry.getFormattedTitle());
 			preparedStatement.setString(4, entry.getUrl());
 			preparedStatement.setString(5, entry.getSource());
 			preparedStatement.setInt(6, StatusEntry.NOT_VERIFIED.ordinal());
 			preparedStatement.setString(7, entry.getFormattedURL());
-			preparedStatement.setDate(8, getDate(entry));
+			preparedStatement.setDate(8, getDatePublished(entry, dateImport));
 			preparedStatement.setString(9, entry.getSourceLabel());
 			preparedStatement.setLong(10, new Random().nextLong());
 			preparedStatement.setString(11, entry.getFormattedTitle());
@@ -92,11 +93,27 @@ public class ImportNews {
 
 	}
 
-	private Date getDate(Entry entry) {
+	private String getInsertQuery() {
+		StringBuilder sb = new StringBuilder();
+		sb.append("insert into entry (");
+		sb.append("date_insert, ");
+		sb.append("date_entry, ");
+		sb.append("title_entry, ");
+		sb.append("url_entry, source, ");
+		sb.append("status, link, ");
+		sb.append("date_published, ");
+		sb.append("source_label, ");
+		sb.append("random_factor, ");
+		sb.append("title) ");
+		sb.append("values(?,?,?,?,?,?,?,?,?,?,?)");
+		return sb.toString();
+	}
+
+	private Date getDatePublished(Entry entry, Date dateImport) {
 		if (entry.getDateAsLong() != null) {
 			return new java.sql.Date(entry.getDateAsLong());
 		}
-		return null;
+		return dateImport;
 	}
 
 }

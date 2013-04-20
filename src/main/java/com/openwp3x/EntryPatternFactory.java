@@ -100,7 +100,7 @@ public class EntryPatternFactory {
 		entryPattern.setUrlXPath("/html/body/div/div[2]/div[1]/div[2]/ul/li[{_counter}]/span/a/@href");
 		entryPattern.setMaxResult(4);
 		entryPattern.setSource("acij");
-		entryPattern.setUrlResource("www.acij.com.br");
+		entryPattern.setUrlResource("http://www.acij.com.br");
 		entryPattern.setSourceLabel("ACIJ");
 		return entryPattern;
 	}
@@ -139,7 +139,8 @@ public class EntryPatternFactory {
 		entryPattern.setUrlResource("http://defesacivil.joinville.sc.gov.br/");
 		entryPattern.setDateTextPattern("\\d{2}\\s\\|\\s\\w{3}\\s\\|\\s\\d{4}");
 		entryPattern.setSource("defesa_civil");
-		entryPattern.setSourceLabel("Prefeitura de Joinville");
+		entryPattern.setDateFormat("dd | MMM | yyyy");
+		entryPattern.setSourceLabel("Defesa Civil de Joinville");
 		return entryPattern;
 	}
 
