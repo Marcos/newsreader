@@ -41,7 +41,7 @@ public class ImportNews {
 		try {
 			connection = DatabaseManager.getConnection();
 			preparedStatement = connection.prepareStatement("select * from entry where title_entry=? and source=?");
-			preparedStatement.setString(1, entry.getTitle());
+			preparedStatement.setString(1, entry.getFormattedTitle());
 			preparedStatement.setString(2, entry.getSource());
 			ResultSet resultSet = preparedStatement.executeQuery();
 			return !resultSet.next();
@@ -62,18 +62,18 @@ public class ImportNews {
 		PreparedStatement preparedStatement = null;
 		try {
 			connection = DatabaseManager.getConnection();
-			 preparedStatement = connection.prepareStatement("insert into entry (date_insert, date_entry, title_entry, url_entry, source, status, link, date_published, source_label, random_factor) values(?,?,?,?,?,?,?,?,?,?)");
+			preparedStatement = connection.prepareStatement("insert into entry (date_insert, date_entry, title_entry, url_entry, source, status, link, date_published, source_label, random_factor, title) values(?,?,?,?,?,?,?,?,?,?,?)");
 			preparedStatement.setDate(1, new Date(System.currentTimeMillis()));
 			preparedStatement.setString(2, entry.getDate());
-			preparedStatement.setString(3, entry.getTitle());
+			preparedStatement.setString(3, entry.getFormattedTitle());
 			preparedStatement.setString(4, entry.getUrl());
 			preparedStatement.setString(5, entry.getSource());
 			preparedStatement.setInt(6, StatusEntry.NOT_VERIFIED.ordinal());
 			preparedStatement.setString(7, entry.getFormattedURL());
 			preparedStatement.setDate(8, getDate(entry));
 			preparedStatement.setString(9, entry.getSourceLabel());
-			Random random = new Random();
-			preparedStatement.setLong(10, random.nextLong());
+			preparedStatement.setLong(10, new Random().nextLong());
+			preparedStatement.setString(11, entry.getFormattedTitle());
 			System.out.println("importing " + entry);
 			preparedStatement.execute();
 		} catch (SQLException e) {

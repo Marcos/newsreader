@@ -36,19 +36,18 @@ public class TestAjorpemeEntries {
         final Collection<Entry> entries = this.newsReader.getEntries();
         System.out.println(entries);
         final Entry firstEntry = entries.iterator().next();
-        Assert.assertEquals("Reunião do Conselho", firstEntry.getTitle());
-        Assert.assertEquals("12/04/2013", firstEntry.getDate());
-        Assert.assertEquals("/noticias/show/id/902%26", firstEntry.getUrl());
+        Assert.assertEquals("\n   18/04/13 - Esta semana tem Café & Negócios na Ajorpeme", firstEntry.getTitle());
+        Assert.assertEquals("18/04/13", firstEntry.getDate());
+        Assert.assertEquals("/site/noticias/1803-180413-esta-semana-tem-cafe-a-negocios-na-ajorpeme", firstEntry.getUrl());
+        Assert.assertEquals("Esta semana tem Café & Negócios na Ajorpeme", firstEntry.getFormattedTitle());
         Assert.assertEquals(10, entries.size());
     }
 
     @Test
     public void testCleanerStart() {
-        final String dirtText = " 18/04/13 - Esta semana tem Café & Negócios na Ajorpeme";
-        final Pattern pattern = Pattern.compile("\\.*\\s-\\s");
-        final Matcher matcher = pattern.matcher(dirtText);
-        matcher.find();
-        final String cleanedText = dirtText.substring(matcher.end());
+        final String dirtText = "\n   18/04/13 - Esta semana tem Café & Negócios na Ajorpeme";
+        String treatPrefixPattern = "\\.*\\s-\\s";
+        final String cleanedText = Entry.treatPrefixPattern(dirtText, treatPrefixPattern);
         Assert.assertEquals(cleanedText, "Esta semana tem Café & Negócios na Ajorpeme");
     }
 

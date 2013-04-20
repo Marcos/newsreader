@@ -35,9 +35,9 @@ public class TestDefesaCivilEntries {
         System.out.println(entries);
 
         final Entry firstEntry = entries.iterator().next();
-        Assert.assertEquals(firstEntry.getTitle(), "Frente fria traz chuva forte e frio para SC e Fim de semana mar agitado na costa catarinense ");
-        Assert.assertEquals(firstEntry.getDate(), "12 | ABR | 2013");
-        Assert.assertEquals(firstEntry.getUrl(), "/noticia/131-Frente+fria+traz+chuva+forte+e+frio+para+SC+e+Fim+de+semana+mar+agitado+na+costa+catarinense+.html");
+        Assert.assertEquals("Frente fria traz chuva forte e frio para SC e Fim de semana mar agitado na costa catarinense ", firstEntry.getTitle());
+        Assert.assertEquals("12 | ABR | 2013", firstEntry.getDate());
+        Assert.assertEquals("/noticia/131-Frente+fria+traz+chuva+forte+e+frio+para+SC+e+Fim+de+semana+mar+agitado+na+costa+catarinense+.html", firstEntry.getUrl());
         Assert.assertEquals(10, entries.size());
     }
 }

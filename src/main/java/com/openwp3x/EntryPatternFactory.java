@@ -79,6 +79,7 @@ public class EntryPatternFactory {
         entryPattern.setMaxResult(20);
         entryPattern.setDateFormat("dd/MM/yy");
         entryPattern.setSourceLabel("Ajorpeme");
+        entryPattern.setTitlePrefixPattern("\\.*\\s-\\s");
         return entryPattern;
     }
 

@@ -39,8 +39,27 @@ public class Entry {
     /**
      * @return the title
      */
-    public String getTitle() {
-        return this.title;
+    public String getFormattedTitle() {
+    	String title = this.getTitle();
+    	title = treatPrefixPattern(title, this.entryPattern.getTitlePrefixPattern());
+    	return title.trim();
+    	
+    }
+    
+    public static String treatPrefixPattern(String title, String titlePrefixPattern) {
+    	if(titlePrefixPattern!=null){
+    		Pattern pattern = Pattern.compile(titlePrefixPattern);
+    		Matcher matcher = pattern.matcher(title);
+    		if(matcher.find()){    			
+    			Integer startPosition = matcher.end();
+				title = title.substring(startPosition);
+    		}
+    	}
+    	return title;
+	}
+
+	public String getTitle(){
+    	return this.title;
     }
 
     /**
@@ -108,7 +127,7 @@ public class Entry {
             url = urlResource + url;
         }
 
-        return url;
+        return url.trim();
     }
 
     public EntryPattern getEntryPattern() {
