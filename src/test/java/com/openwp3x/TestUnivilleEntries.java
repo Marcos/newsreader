@@ -26,7 +26,9 @@ public class TestUnivilleEntries {
 
     @Before
     public void beforeTest() throws IOException, ParserConfigurationException {
-        this.newsReader = new EntryReader(this.resource, this.charset, EntryPatternFactory.getUnivillePattern());
+    	EntryPattern entryPattern = EntryPatternFactory.getUnivillePattern();
+    	entryPattern.setSourceURL(resource);
+        this.newsReader = new EntryReader(entryPattern);
     }
 
     @Test

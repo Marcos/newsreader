@@ -1,6 +1,5 @@
 package com.openwp3x;
 
-import java.net.URL;
 import java.sql.Connection;
 import java.sql.Date;
 import java.sql.PreparedStatement;
@@ -17,10 +16,15 @@ public class ImportNews {
 
 	private void start() {
 		try {
-			importNews(new EntryReader(new URL("http://www.joinville.sc.gov.br/noticia/index"), "UTF-8", EntryPatternFactory.getPrefeituraPattern()).getEntries());
-			importNews(new EntryReader(new URL("http://www.sociesc.org.br/pt/noticias/"), "ISO-8859-1", EntryPatternFactory.getSociescPattern()).getEntries());
-			importNews(new EntryReader(new URL("http://www.joinville.udesc.br/portal/noticias/index.php"), "ISO-8859-1", EntryPatternFactory.getUdescPattern()).getEntries());
-			importNews(new EntryReader(new URL("http://www.univille.edu.br/noticias/index/33793?all=1"), "ISO-8859-1", EntryPatternFactory.getUnivillePattern()).getEntries());
+			importNews(new EntryReader(EntryPatternFactory.getPrefeituraPattern()).getEntries());
+			importNews(new EntryReader(EntryPatternFactory.getSociescPattern()).getEntries());
+			importNews(new EntryReader(EntryPatternFactory.getUdescPattern()).getEntries());
+			importNews(new EntryReader(EntryPatternFactory.getUnivillePattern()).getEntries());
+			
+			importNews(new EntryReader(EntryPatternFactory.getAcijPattern()).getEntries());
+			importNews(new EntryReader(EntryPatternFactory.getAjorpemePattern()).getEntries());
+			importNews(new EntryReader(EntryPatternFactory.getCDLPattern()).getEntries());
+			importNews(new EntryReader(EntryPatternFactory.getDefesaCivilPattern()).getEntries());
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

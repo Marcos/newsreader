@@ -22,11 +22,12 @@ public class TestCDLEntries {
 
     final URL resource = this.getClass().getClassLoader().getResource("cdl-joinville-list.htm");
     EntryReader newsReader;
-    final String charset = "UTF-8";
 
     @Before
     public void beforeTest() throws IOException, ParserConfigurationException {
-        this.newsReader = new EntryReader(this.resource, this.charset, EntryPatternFactory.getCDLPattern());
+    	EntryPattern entryPattern = EntryPatternFactory.getCDLPattern();
+    	entryPattern.setSourceURL(resource);
+        this.newsReader = new EntryReader(entryPattern);
     }
 
     @Test
@@ -37,6 +38,7 @@ public class TestCDLEntries {
         Assert.assertEquals(firstEntry.getTitle(), "Vagas CDL Talentos");
         Assert.assertEquals(firstEntry.getDate(), "12/04/2013");
         Assert.assertEquals(firstEntry.getUrl(), "index.php?cat=noticias&id_noticia=7284");
-        Assert.assertEquals(10, entries.size());
+        Assert.assertEquals("http://cdljoinville.com.br/index.php?cat=noticias&id_noticia=7284", firstEntry.getFormattedURL());
+        Assert.assertEquals(8, entries.size());
     }
 }

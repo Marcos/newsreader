@@ -24,11 +24,12 @@ public class TestAjorpemeEntries {
 
     final URL resource = this.getClass().getClassLoader().getResource("ajorpeme-list.htm");
     EntryReader newsReader;
-    final String charset = "UTF-8";
 
     @Before
     public void beforeTest() throws IOException, ParserConfigurationException {
-        this.newsReader = new EntryReader(this.resource, this.charset, EntryPatternFactory.getAjorpemePattern());
+    	EntryPattern entryPattern = EntryPatternFactory.getAjorpemePattern();
+    	entryPattern.setSourceURL(resource);
+        this.newsReader = new EntryReader(entryPattern);
     }
 
     @Test
@@ -40,6 +41,8 @@ public class TestAjorpemeEntries {
         Assert.assertEquals("18/04/13", firstEntry.getDate());
         Assert.assertEquals("/site/noticias/1803-180413-esta-semana-tem-cafe-a-negocios-na-ajorpeme", firstEntry.getUrl());
         Assert.assertEquals("Esta semana tem Café & Negócios na Ajorpeme", firstEntry.getFormattedTitle());
+        Assert.assertEquals("http://ajorpeme.com.br/site/noticias/1803-180413-esta-semana-tem-cafe-a-negocios-na-ajorpeme", firstEntry.getFormattedURL());
+        
         Assert.assertEquals(10, entries.size());
     }
 

@@ -8,7 +8,7 @@ date_published date,
 link text,
 title text,
 source varchar(255), 
-sourceLabel varchar(255), 
+source_label varchar(255), 
 status tinyint,
 random_factor bigint,
-primary key(id));
+primary key(id))

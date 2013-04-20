@@ -22,11 +22,12 @@ public class TestUdescEntries {
 
     final URL resource = this.getClass().getClassLoader().getResource("udesc-list.htm");
     EntryReader newsReader;
-    final String charset = "ISO-8859-1";
 
     @Before
     public void beforeTest() throws IOException, ParserConfigurationException {
-        this.newsReader = new EntryReader(this.resource, this.charset, EntryPatternFactory.getUdescPattern());
+    	EntryPattern entryPattern = EntryPatternFactory.getUdescPattern();
+    	entryPattern.setSourceURL(resource);
+        this.newsReader = new EntryReader(entryPattern);
     }
 
     @Test

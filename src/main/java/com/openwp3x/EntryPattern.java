@@ -3,6 +3,7 @@
  */
 package com.openwp3x;
 
+import java.net.URL;
 import java.util.Locale;
 
 /**
@@ -10,10 +11,14 @@ import java.util.Locale;
  * 
  */
 public class EntryPattern {
+	
+	URL sourceURL;
+	
+	String sourceCharset;
 
     String dateTextPattern;
 
-    String dateFormat;
+    String dateFormat = "dd/MM/yyyy";
 
     String titleXPath;
 
@@ -37,7 +42,7 @@ public class EntryPattern {
 
     Integer interval = 1;
 
-    Locale locale;
+    Locale locale = new Locale("pt", "BR");
 
     /**
      * @return the title
@@ -199,4 +204,20 @@ public class EntryPattern {
     public void setUrlPattern(final String urlPattern) {
         this.urlPattern = urlPattern;
     }
+
+	public URL getSourceURL() {
+		return sourceURL;
+	}
+
+	public void setSourceURL(URL sourceURL) {
+		this.sourceURL = sourceURL;
+	}
+
+	public String getSourceCharset() {
+		return sourceCharset;
+	}
+
+	public void setSourceCharset(String sourceCharset) {
+		this.sourceCharset = sourceCharset;
+	}
 }

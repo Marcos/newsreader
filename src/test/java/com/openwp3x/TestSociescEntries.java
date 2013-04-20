@@ -22,11 +22,12 @@ public class TestSociescEntries {
 
     final URL resource = this.getClass().getClassLoader().getResource("sociesc-list.htm");
     EntryReader newsReader;
-    final String charset = "ISO-8859-1";
 
     @Before
     public void beforeTest() throws IOException, ParserConfigurationException {
-        this.newsReader = new EntryReader(this.resource, this.charset, EntryPatternFactory.getSociescPattern());
+    	EntryPattern entryPattern = EntryPatternFactory.getSociescPattern();
+    	entryPattern.setSourceURL(resource);
+        this.newsReader = new EntryReader(entryPattern);
     }
 
     @Test

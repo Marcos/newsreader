@@ -34,10 +34,10 @@ public class EntryReader {
     final org.w3c.dom.Document doc;
     final EntryPattern entryPattern;
 
-    public EntryReader(final URL url, final String charset, final EntryPattern entryPattern) throws IOException, ParserConfigurationException {
-        final InputStream inputStream = this.getContent(url);
+    public EntryReader(final EntryPattern entryPattern) throws IOException, ParserConfigurationException {
+        final InputStream inputStream = this.getContent(entryPattern.getSourceURL());
 
-        final TagNode tagNode = new HtmlCleaner().clean(inputStream, charset);
+        final TagNode tagNode = new HtmlCleaner().clean(inputStream, entryPattern.getSourceCharset());
         this.doc = new DomSerializer(new CleanerProperties()).createDOM(tagNode);
         this.entryPattern = entryPattern;
     }

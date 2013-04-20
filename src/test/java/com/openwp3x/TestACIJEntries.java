@@ -22,11 +22,12 @@ public class TestACIJEntries {
 
     final URL resource = this.getClass().getClassLoader().getResource("acij-list.htm");
     EntryReader newsReader;
-    final String charset = "UTF-8";
 
     @Before
     public void beforeTest() throws IOException, ParserConfigurationException {
-        this.newsReader = new EntryReader(this.resource, this.charset, EntryPatternFactory.getAcijPattern());
+    	EntryPattern entryPattern = EntryPatternFactory.getAcijPattern();
+    	entryPattern.setSourceURL(resource);
+        this.newsReader = new EntryReader(entryPattern);
     }
 
     @Test
@@ -34,9 +35,10 @@ public class TestACIJEntries {
         final Collection<Entry> entries = this.newsReader.getEntries();
         System.out.println(entries);
         final Entry firstEntry = entries.iterator().next();
-        Assert.assertEquals(firstEntry.getTitle(), "Reunião do Conselho");
-        Assert.assertEquals(firstEntry.getDate(), null);
-        Assert.assertEquals(firstEntry.getUrl(), "/noticias/show/id/902%26");
-        Assert.assertEquals(10, entries.size());
+        Assert.assertEquals("Revista 21", firstEntry.getTitle());
+        Assert.assertEquals(null, firstEntry.getDate());
+        Assert.assertEquals("/noticias/show/id/901%26", firstEntry.getUrl());
+        Assert.assertEquals("www.acij.com.br/noticias/show/id/901%26", firstEntry.getFormattedURL());
+        Assert.assertEquals(4, entries.size());
     }
 }

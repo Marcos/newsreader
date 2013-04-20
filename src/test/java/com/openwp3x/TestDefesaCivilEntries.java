@@ -22,11 +22,12 @@ public class TestDefesaCivilEntries {
 
     final URL resource = this.getClass().getClassLoader().getResource("defesa-civil-list.htm");
     EntryReader newsReader;
-    final String charset = "UTF-8";
 
     @Before
     public void beforeTest() throws IOException, ParserConfigurationException {
-        this.newsReader = new EntryReader(this.resource, this.charset, EntryPatternFactory.getDefesaCivilPattern());
+    	EntryPattern entryPattern = EntryPatternFactory.getDefesaCivilPattern();
+    	entryPattern.setSourceURL(resource);
+        this.newsReader = new EntryReader(entryPattern);
     }
 
     @Test
@@ -38,6 +39,7 @@ public class TestDefesaCivilEntries {
         Assert.assertEquals("Frente fria traz chuva forte e frio para SC e Fim de semana mar agitado na costa catarinense ", firstEntry.getTitle());
         Assert.assertEquals("12 | ABR | 2013", firstEntry.getDate());
         Assert.assertEquals("/noticia/131-Frente+fria+traz+chuva+forte+e+frio+para+SC+e+Fim+de+semana+mar+agitado+na+costa+catarinense+.html", firstEntry.getUrl());
+        Assert.assertEquals("http://defesacivil.joinville.sc.gov.br//noticia/131-Frente+fria+traz+chuva+forte+e+frio+para+SC+e+Fim+de+semana+mar+agitado+na+costa+catarinense+.html", firstEntry.getFormattedURL());
         Assert.assertEquals(10, entries.size());
     }
 }
