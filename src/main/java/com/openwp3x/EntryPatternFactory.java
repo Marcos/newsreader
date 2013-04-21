@@ -136,7 +136,7 @@ public class EntryPatternFactory {
 		entryPattern.setDateXPath("//*[@id=\"main\"]/div/div/div[1]/ul[1]/li[{_counter}]/span[1]");
 		entryPattern.setTitleXPath("//*[@id=\"main\"]/div/div/div[1]/ul[1]/li[{_counter}]//h3");
 		entryPattern.setUrlXPath("//*[@id=\"main\"]/div/div/div[1]/ul[1]/li[{_counter}]/a/@href");
-		entryPattern.setUrlResource("http://defesacivil.joinville.sc.gov.br/");
+		entryPattern.setUrlResource("http://defesacivil.joinville.sc.gov.br");
 		entryPattern.setDateTextPattern("\\d{2}\\s\\|\\s\\w{3}\\s\\|\\s\\d{4}");
 		entryPattern.setSource("defesa_civil");
 		entryPattern.setDateFormat("dd | MMM | yyyy");

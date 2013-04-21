@@ -8,7 +8,11 @@ import java.sql.SQLException;
 import java.util.Collection;
 import java.util.Random;
 
+import org.apache.log4j.Logger;
+
 public class ImportNews {
+	
+	Logger logger = Logger.getLogger(this.getClass());
 
 	public static void main(String[] args) {
 		new ImportNews().start();
@@ -20,13 +24,12 @@ public class ImportNews {
 			importNews(new EntryReader(EntryPatternFactory.getSociescPattern()).getEntries());
 			importNews(new EntryReader(EntryPatternFactory.getUdescPattern()).getEntries());
 			importNews(new EntryReader(EntryPatternFactory.getUnivillePattern()).getEntries());
-
 			importNews(new EntryReader(EntryPatternFactory.getAcijPattern()).getEntries());
 			importNews(new EntryReader(EntryPatternFactory.getAjorpemePattern()).getEntries());
 			importNews(new EntryReader(EntryPatternFactory.getCDLPattern()).getEntries());
 			importNews(new EntryReader(EntryPatternFactory.getDefesaCivilPattern()).getEntries());
 		} catch (Exception e) {
-			e.printStackTrace();
+			logger.error(e);
 		}
 
 	}
@@ -55,7 +58,7 @@ public class ImportNews {
 			try {
 				preparedStatement.close();
 			} catch (SQLException e) {
-				e.printStackTrace();
+				logger.error(e);
 			}
 		}
 		return false;
@@ -79,10 +82,9 @@ public class ImportNews {
 			preparedStatement.setString(9, entry.getSourceLabel());
 			preparedStatement.setLong(10, new Random().nextLong());
 			preparedStatement.setString(11, entry.getFormattedTitle());
-			System.out.println("importing " + entry);
 			preparedStatement.execute();
-		} catch (SQLException e) {
-			e.printStackTrace();
+		} catch (Exception e) {			
+			logger.error(e, e);
 		} finally {
 			try {
 				preparedStatement.close();

@@ -1,25 +1,24 @@
 package com.openwp3x;
 
+import java.io.InputStream;
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.SQLException;
+import java.util.Properties;
 
 public class DatabaseManager {
 
 	private static Connection connection = null;
 	
-	static {
-		try {
-			Class.forName("com.mysql.jdbc.Driver");
-		} catch (ClassNotFoundException e) {
-			e.printStackTrace();
-		}
-	}
-	
-	public static Connection getConnection() throws SQLException {
+	public static Connection getConnection() throws Exception {
 		if(connection==null){
-			
-			connection = DriverManager.getConnection("jdbc:mysql://192.168.0.10:3306/jlleinfo","root", "root");
+			InputStream propertiesStream = DatabaseManager.class.getClassLoader().getResourceAsStream("db.properties");
+			if(propertiesStream==null){
+				throw new IllegalArgumentException("Invalid database properties file");
+			}
+			Properties properties = new Properties();
+			properties.load(propertiesStream);
+			Class.forName(properties.getProperty("driver"));
+			connection = DriverManager.getConnection(properties.getProperty("url"),properties.getProperty("user"), properties.getProperty("password"));
 		}
 		return connection;
 	}
