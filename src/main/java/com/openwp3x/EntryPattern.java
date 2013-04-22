@@ -12,37 +12,39 @@ import java.util.Locale;
  */
 public class EntryPattern {
 	
-	URL sourceURL;
+	private URL sourceURL;
 	
-	String sourceCharset;
+	private SourceType sourceType = SourceType.HTML;
+	
+	private String sourceCharset;
 
-    String dateTextPattern;
+	private String dateTextPattern;
 
-    String dateFormat = "dd/MM/yyyy";
+	private String dateFormat = "dd/MM/yyyy";
 
-    String titleXPath;
+	private String titleXPath;
 
-    String dateXPath;
+	private String dateXPath;
 
-    String urlXPath;
+	private String urlXPath;
 
-    String source;
+	private String source;
 
-    String sourceLabel;
+	private String sourceLabel;
 
-    String urlResource;
+	private String urlResource;
 
-    String titlePrefixPattern;
+	private String titlePrefixPattern;
 
-    String urlPattern;
+	private String urlPattern;
 
-    Integer maxResult = 10;
+	private Integer maxResult = 10;
 
-    Integer minResult = 1;
+	private Integer minResult = 1;
 
-    Integer interval = 1;
+	private Integer interval = 1;
 
-    Locale locale = new Locale("pt", "BR");
+	private Locale locale = new Locale("pt", "BR");
 
     /**
      * @return the title
@@ -219,5 +221,13 @@ public class EntryPattern {
 
 	public void setSourceCharset(String sourceCharset) {
 		this.sourceCharset = sourceCharset;
+	}
+
+	public SourceType getSourceType() {
+		return sourceType;
+	}
+
+	public void setSourceType(SourceType sourceType) {
+		this.sourceType = sourceType;
 	}
 }

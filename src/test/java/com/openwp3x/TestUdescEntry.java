@@ -22,7 +22,7 @@ import org.junit.Test;
 @Ignore
 public class TestUdescEntry {
 
-	final URL resource = this.getClass().getClassLoader().getResource("prefeitura-list.htm");
+	final URL resource = this.getClass().getClassLoader().getResource("udesc-n1.htm");
     EntryReader newsReader;
 
     @Before
