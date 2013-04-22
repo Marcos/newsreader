@@ -18,14 +18,14 @@ import org.junit.Test;
  * @author marcos.ferreira
  * 
  */
-public class TestACIJEntries {
+public class TestNDEntries {
 
-    final URL resource = this.getClass().getClassLoader().getResource("acij-list.htm");
+    final URL resource = this.getClass().getClassLoader().getResource("nd-joinville-list.htm");
     EntryReader newsReader;
 
     @Before
     public void beforeTest() throws IOException, ParserConfigurationException {
-    	EntryPattern entryPattern = EntryPatternFactory.getAcijPattern();
+    	EntryPattern entryPattern = EntryPatternFactory.getNDJoinvillePattern();
     	entryPattern.setSourceURL(resource);
         this.newsReader = new EntryReader(entryPattern);
     }
@@ -35,10 +35,11 @@ public class TestACIJEntries {
         final Collection<Entry> entries = this.newsReader.getEntries();
         System.out.println(entries);
         final Entry firstEntry = entries.iterator().next();
-        Assert.assertEquals("Revista 21", firstEntry.getTitle());
-        Assert.assertEquals(null, firstEntry.getDate());
-        Assert.assertEquals("/noticias/show/id/901%26", firstEntry.getUrl());
-        Assert.assertEquals("http://www.acij.com.br/noticias/show/id/901%26", firstEntry.getFormattedURL());
-        Assert.assertEquals(4, entries.size());
+        Assert.assertEquals("O arauto da Tapera", firstEntry.getTitle());
+        Assert.assertEquals("22 Apr 2013", firstEntry.getDate());
+        Assert.assertEquals("http://www.ndonline.com.br/joinville/noticias/65628-o-arauto-da-tapera.html", firstEntry.getUrl());
+        Assert.assertEquals("http://www.ndonline.com.br/joinville/noticias/65628-o-arauto-da-tapera.html", firstEntry.getFormattedURL());
+        Assert.assertEquals(1366599600000L, firstEntry.getDateAsLong().longValue());
+        Assert.assertEquals(10, entries.size());
     }
 }

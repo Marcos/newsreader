@@ -2,6 +2,7 @@ package com.openwp3x;
 
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.Locale;
 
 public class EntryPatternFactory {
 
@@ -136,11 +137,27 @@ public class EntryPatternFactory {
 		entryPattern.setDateXPath("//*[@id=\"main\"]/div/div/div[1]/ul[1]/li[{_counter}]/span[1]");
 		entryPattern.setTitleXPath("//*[@id=\"main\"]/div/div/div[1]/ul[1]/li[{_counter}]//h3");
 		entryPattern.setUrlXPath("//*[@id=\"main\"]/div/div/div[1]/ul[1]/li[{_counter}]/a/@href");
-		entryPattern.setUrlResource("http://defesacivil.joinville.sc.gov.br/");
+		entryPattern.setUrlResource("http://defesacivil.joinville.sc.gov.br");
 		entryPattern.setDateTextPattern("\\d{2}\\s\\|\\s\\w{3}\\s\\|\\s\\d{4}");
 		entryPattern.setSource("defesa_civil");
 		entryPattern.setDateFormat("dd | MMM | yyyy");
 		entryPattern.setSourceLabel("Defesa Civil de Joinville");
+		return entryPattern;
+	}
+
+	public static EntryPattern getNDJoinvillePattern() throws MalformedURLException {
+		final EntryPattern entryPattern = new EntryPattern();
+		entryPattern.setSourceURL(new URL("http://feeds.feedburner.com/ndjoinville_noticias"));
+		entryPattern.setSourceCharset("UTF-8");
+		entryPattern.setTitleXPath("/rss/channel/item[1]/title");	
+		entryPattern.setDateXPath("/rss/channel/item[1]/pubDate");
+		entryPattern.setUrlXPath("/rss/channel/item[1]/link");
+		entryPattern.setDateTextPattern("\\d{2}\\s\\w{3}\\s\\d{4}");
+		entryPattern.setSource("nd_joinville");
+		entryPattern.setDateFormat("dd MMM yyyy");
+		entryPattern.setSourceLabel("Notícias do dia Joinville");
+		entryPattern.setSourceType(SourceType.RSS);
+		entryPattern.setLocale(Locale.US);
 		return entryPattern;
 	}
 

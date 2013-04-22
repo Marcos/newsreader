@@ -1,14 +1,13 @@
 create table entry(
-id bigint not null auto_increment, 
-date_entry text, 
-title_entry text, 
-url_entry text,
+id bigint identity primary key, 
+date_entry nvarchar(4000), 
+title_entry nvarchar(4000), 
+url_entry nvarchar(4000),
 date_insert date, 
 date_published date,
-link text,
-title text,
+link nvarchar(4000),
+title nvarchar(4000),
 source varchar(255), 
 source_label varchar(255), 
 status tinyint,
-random_factor bigint,
-primary key(id))
+random_factor bigint)

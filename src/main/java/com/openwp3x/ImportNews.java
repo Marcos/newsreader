@@ -5,33 +5,17 @@ import java.sql.Date;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Timestamp;
 import java.util.Collection;
 import java.util.Random;
 
+import org.apache.log4j.Logger;
+
 public class ImportNews {
+	
+	Logger logger = Logger.getLogger(this.getClass());
 
-	public static void main(String[] args) {
-		new ImportNews().start();
-	}
-
-	private void start() {
-		try {
-			importNews(new EntryReader(EntryPatternFactory.getPrefeituraPattern()).getEntries());
-			importNews(new EntryReader(EntryPatternFactory.getSociescPattern()).getEntries());
-			importNews(new EntryReader(EntryPatternFactory.getUdescPattern()).getEntries());
-			importNews(new EntryReader(EntryPatternFactory.getUnivillePattern()).getEntries());
-
-			importNews(new EntryReader(EntryPatternFactory.getAcijPattern()).getEntries());
-			importNews(new EntryReader(EntryPatternFactory.getAjorpemePattern()).getEntries());
-			importNews(new EntryReader(EntryPatternFactory.getCDLPattern()).getEntries());
-			importNews(new EntryReader(EntryPatternFactory.getDefesaCivilPattern()).getEntries());
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-
-	}
-
-	private void importNews(Collection<Entry> entries) {
+	public void importNews(Collection<Entry> entries) {
 		for (Entry entry : entries) {
 			if (notExist(entry)) {
 				importEntry(entry);
@@ -50,12 +34,12 @@ public class ImportNews {
 			ResultSet resultSet = preparedStatement.executeQuery();
 			return !resultSet.next();
 		} catch (Exception e) {
-			e.printStackTrace();
+			logger.error(e);
 		} finally {
 			try {
 				preparedStatement.close();
 			} catch (SQLException e) {
-				e.printStackTrace();
+				logger.error(e);
 			}
 		}
 		return false;
@@ -67,8 +51,9 @@ public class ImportNews {
 		try {
 			connection = DatabaseManager.getConnection();
 			preparedStatement = connection.prepareStatement(getInsertQuery());
+			Timestamp timeStampImport = new Timestamp(System.currentTimeMillis());
 			Date dateImport = new Date(System.currentTimeMillis());
-			preparedStatement.setDate(1, dateImport);
+			preparedStatement.setTimestamp(1, timeStampImport);
 			preparedStatement.setString(2, entry.getDate());
 			preparedStatement.setString(3, entry.getFormattedTitle());
 			preparedStatement.setString(4, entry.getUrl());
@@ -79,10 +64,9 @@ public class ImportNews {
 			preparedStatement.setString(9, entry.getSourceLabel());
 			preparedStatement.setLong(10, new Random().nextLong());
 			preparedStatement.setString(11, entry.getFormattedTitle());
-			System.out.println("importing " + entry);
 			preparedStatement.execute();
-		} catch (SQLException e) {
-			e.printStackTrace();
+		} catch (Exception e) {			
+			logger.error(e, e);
 		} finally {
 			try {
 				preparedStatement.close();
