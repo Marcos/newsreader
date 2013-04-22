@@ -14,27 +14,7 @@ public class ImportNews {
 	
 	Logger logger = Logger.getLogger(this.getClass());
 
-	public static void main(String[] args) {
-		new ImportNews().start();
-	}
-
-	private void start() {
-		try {
-			importNews(new EntryReader(EntryPatternFactory.getPrefeituraPattern()).getEntries());
-			importNews(new EntryReader(EntryPatternFactory.getSociescPattern()).getEntries());
-			importNews(new EntryReader(EntryPatternFactory.getUdescPattern()).getEntries());
-			importNews(new EntryReader(EntryPatternFactory.getUnivillePattern()).getEntries());
-			importNews(new EntryReader(EntryPatternFactory.getAcijPattern()).getEntries());
-			importNews(new EntryReader(EntryPatternFactory.getAjorpemePattern()).getEntries());
-			importNews(new EntryReader(EntryPatternFactory.getCDLPattern()).getEntries());
-			importNews(new EntryReader(EntryPatternFactory.getDefesaCivilPattern()).getEntries());
-		} catch (Exception e) {
-			logger.error(e);
-		}
-
-	}
-
-	private void importNews(Collection<Entry> entries) {
+	public void importNews(Collection<Entry> entries) {
 		for (Entry entry : entries) {
 			if (notExist(entry)) {
 				importEntry(entry);
