@@ -56,7 +56,7 @@ public class Main {
 			}
 			Random random = new Random();
 			try {
-				Long next = (300L+random.nextInt(300))*1000;
+				Long next = (900L+random.nextInt(900))*1000;
 				Thread.sleep(next);
 			} catch (InterruptedException e) {
 				logger.error(e);

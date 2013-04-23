@@ -5,6 +5,7 @@ import java.sql.Date;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Timestamp;
 import java.util.Collection;
 import java.util.Random;
 
@@ -33,7 +34,7 @@ public class ImportNews {
 			ResultSet resultSet = preparedStatement.executeQuery();
 			return !resultSet.next();
 		} catch (Exception e) {
-			e.printStackTrace();
+			logger.error(e);
 		} finally {
 			try {
 				preparedStatement.close();
@@ -50,8 +51,9 @@ public class ImportNews {
 		try {
 			connection = DatabaseManager.getConnection();
 			preparedStatement = connection.prepareStatement(getInsertQuery());
+			Timestamp timeStampImport = new Timestamp(System.currentTimeMillis());
 			Date dateImport = new Date(System.currentTimeMillis());
-			preparedStatement.setDate(1, dateImport);
+			preparedStatement.setTimestamp(1, timeStampImport);
 			preparedStatement.setString(2, entry.getDate());
 			preparedStatement.setString(3, entry.getFormattedTitle());
 			preparedStatement.setString(4, entry.getUrl());
