@@ -10,7 +10,7 @@ public class DatabaseManager {
 	private static Connection connection = null;
 	
 	public static Connection getConnection() throws Exception {
-		if(connection==null){
+		if(connection==null || connection.isClosed()){
 			InputStream propertiesStream = DatabaseManager.class.getClassLoader().getResourceAsStream("db.properties");
 			if(propertiesStream==null){
 				throw new IllegalArgumentException("Invalid database properties file");
