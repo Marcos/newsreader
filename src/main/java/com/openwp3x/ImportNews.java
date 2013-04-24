@@ -17,10 +17,15 @@ public class ImportNews {
 
 	public void importNews(Collection<Entry> entries) {
 		for (Entry entry : entries) {
-			if (notExist(entry)) {
+			if (isValidEntry(entry) && notExist(entry)) {
 				importEntry(entry);
 			}
 		}
+	}
+
+	private boolean isValidEntry(Entry entry) {
+		return entry!=null && entry.getTitle()!=null && !entry.getTitle().trim().equals("")
+				&& entry.getUrl()!=null && !entry.getUrl().trim().equals("");
 	}
 
 	private boolean notExist(Entry entry) {

@@ -7,6 +7,7 @@ import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.UnsupportedEncodingException;
+import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.Collection;
@@ -126,7 +127,13 @@ public class EntryReader {
 	 * @throws IOException
 	 */
 	private InputStream getStream(final URL url) throws IOException {
-		return url.openStream();
+		HttpURLConnection connection = (HttpURLConnection) url.openConnection();           
+	    connection.setDoOutput(true); 
+	    connection.setInstanceFollowRedirects(false); 
+	    connection.setRequestMethod("GET"); 
+	    connection.setRequestProperty("User-Agent", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.65 Safari/537.31");
+	    connection.connect();
+		return connection.getInputStream();
 	}
 
 	/**

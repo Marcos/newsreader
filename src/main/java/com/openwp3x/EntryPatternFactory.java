@@ -146,16 +146,53 @@ public class EntryPatternFactory {
 	}
 
 	public static EntryPattern getNDJoinvillePattern() throws MalformedURLException {
-		final EntryPattern entryPattern = new EntryPattern();
+		final EntryPattern entryPattern = getRSSEntryPattern();
 		entryPattern.setSourceURL(new URL("http://feeds.feedburner.com/ndjoinville_noticias"));
-		entryPattern.setSourceCharset("UTF-8");
-		entryPattern.setTitleXPath("/rss/channel/item[1]/title");	
-		entryPattern.setDateXPath("/rss/channel/item[1]/pubDate");
-		entryPattern.setUrlXPath("/rss/channel/item[1]/link");
-		entryPattern.setDateTextPattern("\\d{2}\\s\\w{3}\\s\\d{4}");
-		entryPattern.setSource("nd_joinville");
-		entryPattern.setDateFormat("dd MMM yyyy");
 		entryPattern.setSourceLabel("Notícias do dia Joinville");
+		entryPattern.setSource("nd_joinville");
+		return entryPattern;
+	}
+	
+	public static EntryPattern getAnoticiaPattern() throws MalformedURLException {
+		final EntryPattern entryPattern = getRSSEntryPattern();
+		entryPattern.setSourceURL(new URL("http://anoticia.clicrbs.com.br/sc/ultimas-noticias-rss/"));
+		entryPattern.setSourceLabel("ANotícia");
+		entryPattern.setSource("anoticia");
+		return entryPattern;
+	}
+	
+	public static EntryPattern getGazetaJoinvillePattern() throws MalformedURLException {
+		final EntryPattern entryPattern = getRSSEntryPattern();
+		entryPattern.setSourceURL(new URL("http://www.gazetadejoinville.com.br/site/feed"));
+		entryPattern.setSourceLabel("Gazega de Joinville");
+		entryPattern.setSource("gazeta_joinville");
+		return entryPattern;
+	}
+	
+	public static EntryPattern getPortalJoinvillePattern() throws MalformedURLException {
+		final EntryPattern entryPattern = getRSSEntryPattern();
+		entryPattern.setSourceURL(new URL("http://www.portaljoinville.com.br/v4/rss"));
+		entryPattern.setSourceLabel("Portal Joinville");
+		entryPattern.setSource("portal_joinville");
+		return entryPattern;
+	}
+	
+	public static EntryPattern getOsnyMartinsPattern() throws MalformedURLException {
+		final EntryPattern entryPattern = getRSSEntryPattern();
+		entryPattern.setSourceURL(new URL("http://osnymartins.com.br/feed/"));
+		entryPattern.setSourceLabel("Osny Martins");
+		entryPattern.setSource("osny_martins");
+		return entryPattern;
+	}
+
+	private static EntryPattern getRSSEntryPattern() {
+		EntryPattern entryPattern = new EntryPattern();
+		entryPattern.setSourceCharset("UTF-8");
+		entryPattern.setTitleXPath("/rss/channel/item[{_counter}]/title");	
+		entryPattern.setDateXPath("/rss/channel/item[{_counter}]/pubDate");
+		entryPattern.setUrlXPath("/rss/channel/item[{_counter}]/link");
+		entryPattern.setDateTextPattern("\\d{2}\\s\\w{3}\\s\\d{4}");
+		entryPattern.setDateFormat("dd MMM yyyy");
 		entryPattern.setSourceType(SourceType.RSS);
 		entryPattern.setLocale(Locale.US);
 		return entryPattern;

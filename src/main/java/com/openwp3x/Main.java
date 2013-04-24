@@ -26,6 +26,9 @@ public class Main {
 				entryPatternList.add(EntryPatternFactory.getAjorpemePattern());
 				entryPatternList.add(EntryPatternFactory.getCDLPattern());
 				entryPatternList.add(EntryPatternFactory.getDefesaCivilPattern());
+				entryPatternList.add(EntryPatternFactory.getAnoticiaPattern());
+				entryPatternList.add(EntryPatternFactory.getNDJoinvillePattern());
+				entryPatternList.add(EntryPatternFactory.getPortalJoinvillePattern());
 			} catch (MalformedURLException e) {
 				throw new RuntimeException(e);
 			}
