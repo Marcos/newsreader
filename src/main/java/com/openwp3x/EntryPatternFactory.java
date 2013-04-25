@@ -202,7 +202,6 @@ public class EntryPatternFactory {
 		final EntryPattern entryPattern = new EntryPattern();
 		entryPattern.setSourceURL(new URL("http://www.joinville.sc.gov.br/noticia/index"));
 		entryPattern.setSourceCharset("UTF-8");
-<<<<<<< HEAD
 		entryPattern.setTitleXPath("//*[@id=\"system\"]/div[1]/div/article[{_counter}]/header/h1/a");
 		entryPattern.setDateXPath("//*[@id=\"system\"]/div[1]/div/article[{_counter}]/header/time/@datetime");
 		entryPattern.setUrlXPath("//*[@id=\"system\"]/div[1]/div/article[{_counter}]/header/h1/a/@href");
@@ -211,7 +210,6 @@ public class EntryPatternFactory {
 		entryPattern.setUrlResource("http://www.cvj.sc.gov.br");
 		entryPattern.setDateFormat("yyyy-MM-dd");
 		entryPattern.setMaxResult(9);
-=======
 		entryPattern.setDateXPath("//*[@id=\"system\"]/div[1]/div[1]/article/header/time/@datetime");
 		entryPattern.setTitleXPath("//*[@id=\"system\"]/div[1]/div[1]/article/header/h1/a");
 		entryPattern.setUrlXPath("//*[@id=\"system\"]/div[1]/div[1]/article/header/h1/a/@href");
@@ -219,7 +217,6 @@ public class EntryPatternFactory {
 		entryPattern.setSource("prefeitura");
 		entryPattern.setUrlResource("http://www.cvj.sc.gov.br");
 		entryPattern.setDateFormat("yyyy-MM-dd");
->>>>>>> branch 'master' of https://github.com/Marcos/newsreader.git
 		entryPattern.setSourceLabel("Prefeitura de Joinville");
 		return entryPattern;
 	}
