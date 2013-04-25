@@ -167,5 +167,7 @@ public class EntryImpl implements Entry {
     public String getSourceLabel() {
         return this.getEntryPattern().getSourceLabel();
     }
+    
+    
 
 }

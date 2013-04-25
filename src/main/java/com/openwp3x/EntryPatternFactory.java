@@ -198,4 +198,19 @@ public class EntryPatternFactory {
 		return entryPattern;
 	}
 
+	public static EntryPattern getCVJoinvillePattern() throws MalformedURLException {
+		final EntryPattern entryPattern = new EntryPattern();
+		entryPattern.setSourceURL(new URL("http://www.joinville.sc.gov.br/noticia/index"));
+		entryPattern.setSourceCharset("UTF-8");
+		entryPattern.setDateXPath("//*[@id=\"system\"]/div[1]/div[1]/article/header/time/@datetime");
+		entryPattern.setTitleXPath("//*[@id=\"system\"]/div[1]/div[1]/article/header/h1/a");
+		entryPattern.setUrlXPath("//*[@id=\"system\"]/div[1]/div[1]/article/header/h1/a/@href");
+		entryPattern.setDateTextPattern("\\d{4}\\-\\d{2}\\-\\d{2}");
+		entryPattern.setSource("prefeitura");
+		entryPattern.setUrlResource("http://www.cvj.sc.gov.br");
+		entryPattern.setDateFormat("yyyy-MM-dd");
+		entryPattern.setSourceLabel("Prefeitura de Joinville");
+		return entryPattern;
+	}
+
 }
