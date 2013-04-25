@@ -23,20 +23,20 @@ import org.junit.Test;
 public class TestAjorpemeEntries {
 
     final URL resource = this.getClass().getClassLoader().getResource("ajorpeme-list.htm");
-    EntryReader newsReader;
+    Reader newsReader;
 
     @Before
     public void beforeTest() throws IOException, ParserConfigurationException {
     	EntryPattern entryPattern = EntryPatternFactory.getAjorpemePattern();
     	entryPattern.setSourceURL(resource);
-        this.newsReader = new EntryReader(entryPattern);
+        this.newsReader = new ReaderImpl(entryPattern);
     }
 
     @Test
     public void testGetLinks() throws Exception {
-        final Collection<Entry> entries = this.newsReader.getEntries();
+        final Collection<EntryImpl> entries = this.newsReader.getEntries();
         System.out.println(entries);
-        final Entry firstEntry = entries.iterator().next();
+        final EntryImpl firstEntry = entries.iterator().next();
         Assert.assertEquals("\n   18/04/13 - Esta semana tem Café & Negócios na Ajorpeme", firstEntry.getTitle());
         Assert.assertEquals("18/04/13", firstEntry.getDate());
         Assert.assertEquals("/site/noticias/1803-180413-esta-semana-tem-cafe-a-negocios-na-ajorpeme", firstEntry.getUrl());
@@ -50,7 +50,7 @@ public class TestAjorpemeEntries {
     public void testCleanerStart() {
         final String dirtText = "\n   18/04/13 - Esta semana tem Café & Negócios na Ajorpeme";
         String treatPrefixPattern = "\\.*\\s-\\s";
-        final String cleanedText = Entry.treatPrefixPattern(dirtText, treatPrefixPattern);
+        final String cleanedText = new EntryImpl().treatPrefixPattern(dirtText, treatPrefixPattern);
         Assert.assertEquals(cleanedText, "Esta semana tem Café & Negócios na Ajorpeme");
     }
 

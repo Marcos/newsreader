@@ -21,20 +21,20 @@ import org.junit.Test;
 public class TestCDLEntries {
 
     final URL resource = this.getClass().getClassLoader().getResource("cdl-joinville-list.htm");
-    EntryReader newsReader;
+    Reader newsReader;
 
     @Before
     public void beforeTest() throws IOException, ParserConfigurationException {
     	EntryPattern entryPattern = EntryPatternFactory.getCDLPattern();
     	entryPattern.setSourceURL(resource);
-        this.newsReader = new EntryReader(entryPattern);
+        this.newsReader = new ReaderImpl(entryPattern);
     }
 
     @Test
     public void testGetLinks() throws Exception {
-        final Collection<Entry> entries = this.newsReader.getEntries();
+        final Collection<EntryImpl> entries = this.newsReader.getEntries();
         System.out.println(entries);
-        final Entry firstEntry = entries.iterator().next();
+        final EntryImpl firstEntry = entries.iterator().next();
         Assert.assertEquals(firstEntry.getTitle(), "Vagas CDL Talentos");
         Assert.assertEquals(firstEntry.getDate(), "12/04/2013");
         Assert.assertEquals(firstEntry.getUrl(), "index.php?cat=noticias&id_noticia=7284");

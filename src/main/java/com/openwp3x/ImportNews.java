@@ -15,20 +15,20 @@ public class ImportNews {
 	
 	Logger logger = Logger.getLogger(this.getClass());
 
-	public void importNews(Collection<Entry> entries) {
-		for (Entry entry : entries) {
+	public void importNews(Collection<EntryImpl> entries) {
+		for (EntryImpl entry : entries) {
 			if (isValidEntry(entry) && notExist(entry)) {
 				importEntry(entry);
 			}
 		}
 	}
 
-	private boolean isValidEntry(Entry entry) {
+	private boolean isValidEntry(EntryImpl entry) {
 		return entry!=null && entry.getTitle()!=null && !entry.getTitle().trim().equals("")
 				&& entry.getUrl()!=null && !entry.getUrl().trim().equals("");
 	}
 
-	private boolean notExist(Entry entry) {
+	private boolean notExist(EntryImpl entry) {
 		Connection connection = null;
 		PreparedStatement preparedStatement = null;
 		try {
@@ -50,7 +50,7 @@ public class ImportNews {
 		return false;
 	}
 
-	private void importEntry(Entry entry) {
+	private void importEntry(EntryImpl entry) {
 		Connection connection = null;
 		PreparedStatement preparedStatement = null;
 		try {
@@ -98,7 +98,7 @@ public class ImportNews {
 		return sb.toString();
 	}
 
-	private Date getDatePublished(Entry entry, Date dateImport) {
+	private Date getDatePublished(EntryImpl entry, Date dateImport) {
 		if (entry.getDateAsLong() != null) {
 			return new java.sql.Date(entry.getDateAsLong());
 		}

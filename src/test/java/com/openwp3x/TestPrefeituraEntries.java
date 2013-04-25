@@ -22,20 +22,20 @@ import org.junit.Test;
 public class TestPrefeituraEntries {
 
     final URL resource = this.getClass().getClassLoader().getResource("prefeitura-list.htm");
-    EntryReader newsReader;
+    Reader newsReader;
 
     @Before
     public void beforeTest() throws IOException, ParserConfigurationException {
     	EntryPattern entryPattern = EntryPatternFactory.getPrefeituraPattern();
     	entryPattern.setSourceURL(resource);
-        this.newsReader = new EntryReader(entryPattern);
+        this.newsReader = new ReaderImpl(entryPattern);
     }
 
     @Test
     public void testGetLinks() throws Exception {
-        final Collection<Entry> entries = this.newsReader.getEntries();
+        final Collection<EntryImpl> entries = this.newsReader.getEntries();
         System.out.println(entries);
-        final Entry firstEntry = entries.iterator().next();
+        final EntryImpl firstEntry = entries.iterator().next();
         Assert.assertEquals(firstEntry.getTitle(), "Fundação 25 de Julho e Secretaria de Desenvolvimento Econômico visitam produtores rurais");
         Assert.assertEquals(firstEntry.getDate(), "17 | ABR | 2013");
         Assert.assertEquals(firstEntry.getUrl(), "/noticia/4202-Funda%C3%A7%C3%A3o+25+de+Julho+e+Secretaria+de+Desenvolvimento+Econ%C3%B4mico+visitam+produtores+rurais.html");
@@ -46,6 +46,6 @@ public class TestPrefeituraEntries {
 
     @Test
     public void testDateFormat() {
-        System.out.println(Entry.getDateAsLong("17 | ABR | 2013", new Locale("pt", "BR"), "dd | MMM | yyyy"));
+        System.out.println(new EntryImpl().getDateAsLong("17 | ABR | 2013", new Locale("pt", "BR"), "dd | MMM | yyyy"));
     }
 }

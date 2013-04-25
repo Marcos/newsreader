@@ -21,20 +21,20 @@ import org.junit.Test;
 public class TestNDEntries {
 
     final URL resource = this.getClass().getClassLoader().getResource("nd-joinville-list.htm");
-    EntryReader newsReader;
+    Reader newsReader;
 
     @Before
     public void beforeTest() throws IOException, ParserConfigurationException {
     	EntryPattern entryPattern = EntryPatternFactory.getNDJoinvillePattern();
     	entryPattern.setSourceURL(resource);
-        this.newsReader = new EntryReader(entryPattern);
+        this.newsReader = new ReaderImpl(entryPattern);
     }
 
     @Test
     public void testGetLinks() throws Exception {
-        final Collection<Entry> entries = this.newsReader.getEntries();
+        final Collection<EntryImpl> entries = this.newsReader.getEntries();
         System.out.println(entries);
-        final Entry firstEntry = entries.iterator().next();
+        final EntryImpl firstEntry = entries.iterator().next();
         Assert.assertEquals("O arauto da Tapera", firstEntry.getTitle());
         Assert.assertEquals("22 Apr 2013", firstEntry.getDate());
         Assert.assertEquals("http://www.ndonline.com.br/joinville/noticias/65628-o-arauto-da-tapera.html", firstEntry.getUrl());

@@ -26,9 +26,9 @@ public class Main {
 				entryPatternList.add(EntryPatternFactory.getAjorpemePattern());
 				entryPatternList.add(EntryPatternFactory.getCDLPattern());
 				entryPatternList.add(EntryPatternFactory.getDefesaCivilPattern());
-				entryPatternList.add(EntryPatternFactory.getAnoticiaPattern());
-				entryPatternList.add(EntryPatternFactory.getNDJoinvillePattern());
-				entryPatternList.add(EntryPatternFactory.getPortalJoinvillePattern());
+				//entryPatternList.add(EntryPatternFactory.getAnoticiaPattern());
+				//entryPatternList.add(EntryPatternFactory.getNDJoinvillePattern());
+				//entryPatternList.add(EntryPatternFactory.getPortalJoinvillePattern());
 			} catch (MalformedURLException e) {
 				throw new RuntimeException(e);
 			}
@@ -48,7 +48,7 @@ public class Main {
 					public void run() {
 						try {
 							logger.info("Importing from " + entryPattern.getSource() + " " + entryPattern.getSourceURL());
-							importNews.importNews(new EntryReader(entryPattern).getEntries());
+							importNews.importNews(new ReaderImpl(entryPattern).getEntries());
 							logger.info("Finished " + entryPattern.getSource());
 						} catch (Exception e) {
 							logger.error("Error importing " + entryPattern.getSource(), e);

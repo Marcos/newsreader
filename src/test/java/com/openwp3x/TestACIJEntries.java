@@ -21,20 +21,20 @@ import org.junit.Test;
 public class TestACIJEntries {
 
     final URL resource = this.getClass().getClassLoader().getResource("acij-list.htm");
-    EntryReader newsReader;
+    Reader newsReader;
 
     @Before
     public void beforeTest() throws IOException, ParserConfigurationException {
     	EntryPattern entryPattern = EntryPatternFactory.getAcijPattern();
     	entryPattern.setSourceURL(resource);
-        this.newsReader = new EntryReader(entryPattern);
+        this.newsReader = new ReaderImpl(entryPattern);
     }
 
     @Test
     public void testGetLinks() throws Exception {
-        final Collection<Entry> entries = this.newsReader.getEntries();
+        final Collection<EntryImpl> entries = this.newsReader.getEntries();
         System.out.println(entries);
-        final Entry firstEntry = entries.iterator().next();
+        final EntryImpl firstEntry = entries.iterator().next();
         Assert.assertEquals("Revista 21", firstEntry.getTitle());
         Assert.assertEquals(null, firstEntry.getDate());
         Assert.assertEquals("/noticias/show/id/901%26", firstEntry.getUrl());

@@ -21,20 +21,20 @@ import org.junit.Test;
 public class TestSociescEntries {
 
     final URL resource = this.getClass().getClassLoader().getResource("sociesc-list.htm");
-    EntryReader newsReader;
+    Reader newsReader;
 
     @Before
     public void beforeTest() throws IOException, ParserConfigurationException {
     	EntryPattern entryPattern = EntryPatternFactory.getSociescPattern();
     	entryPattern.setSourceURL(resource);
-        this.newsReader = new EntryReader(entryPattern);
+        this.newsReader = new ReaderImpl(entryPattern);
     }
 
     @Test
     public void testGetLinks() throws Exception {
-        final Collection<Entry> entries = this.newsReader.getEntries();
+        final Collection<EntryImpl> entries = this.newsReader.getEntries();
         System.out.println(entries);
-        final Entry firstEntry = entries.iterator().next();
+        final EntryImpl firstEntry = entries.iterator().next();
         Assert.assertEquals("Abertas inscrições para o processo seletivo dos Mestrados em Engenharia Mecânica e Engenharia de Produção...", firstEntry.getFormattedTitle());
         Assert.assertEquals("12/04/2013", firstEntry.getDate());
         Assert.assertEquals("viewRegistro(13680);return false;", firstEntry.getUrl());

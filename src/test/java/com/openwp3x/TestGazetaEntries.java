@@ -21,20 +21,20 @@ import org.junit.Test;
 public class TestGazetaEntries {
 
     final URL resource = this.getClass().getClassLoader().getResource("gazeta-jlle-list.htm");
-    EntryReader newsReader;
+    Reader newsReader;
 
     @Before
     public void beforeTest() throws IOException, ParserConfigurationException {
     	EntryPattern entryPattern = EntryPatternFactory.getNDJoinvillePattern();
     	entryPattern.setSourceURL(resource);
-        this.newsReader = new EntryReader(entryPattern);
+        this.newsReader = new ReaderImpl(entryPattern);
     }
 
     @Test
     public void testGetLinks() throws Exception {
-        final Collection<Entry> entries = this.newsReader.getEntries();
+        final Collection<EntryImpl> entries = this.newsReader.getEntries();
         System.out.println(entries);
-        final Entry firstEntry = entries.iterator().next();
+        final EntryImpl firstEntry = entries.iterator().next();
         Assert.assertEquals("Empresário de Joinville e mais 3 réus são condenados por homicídio", firstEntry.getTitle());
         Assert.assertEquals("22 Apr 2013", firstEntry.getDate());
         Assert.assertEquals("http://www.gazetadejoinville.com.br/site/arquivos/26893", firstEntry.getUrl());

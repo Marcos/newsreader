@@ -9,6 +9,7 @@ import java.io.InputStream;
 import java.io.UnsupportedEncodingException;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.net.URLConnection;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.regex.Matcher;
@@ -39,14 +40,14 @@ import org.xml.sax.SAXException;
  * @author marcos.ferreira
  * 
  */
-public class EntryReader {
+public class ReaderImpl implements Reader {
 	private static final String DEFAULT_CHARSET = "UTF-8";
 	private org.w3c.dom.Document doc;
 	private final EntryPattern entryPattern;
 
 	Logger log = Logger.getLogger(this.getClass());
 
-	public EntryReader(final EntryPattern entryPattern) throws IOException {
+	public ReaderImpl(final EntryPattern entryPattern) throws IOException {
 		log.info("Parsing content from " + entryPattern.getSourceURL());
 		this.entryPattern = entryPattern;
 		final InputStream inputStream = this.getStream(entryPattern.getSourceURL());
@@ -99,15 +100,23 @@ public class EntryReader {
 		return doc;
 	}
 
+	/* (non-Javadoc)
+	 * @see com.openwp3x.Reader#getTitle(java.lang.String)
+	 */
+	@Override
 	public String getTitle(final String xpathPattern) throws IOException, ParserConfigurationException, SAXException, XPathExpressionException {
 		return this.getTextContent(xpathPattern).trim();
 	}
 
+	/* (non-Javadoc)
+	 * @see com.openwp3x.Reader#getTextContent(java.lang.String)
+	 */
+	@Override
 	public String getTextContent(final String xpathPattern) throws IOException, ParserConfigurationException, SAXException, XPathExpressionException {
 		final XPath xpath = XPathFactory.newInstance().newXPath();
 		final String str = (String) xpath.evaluate(xpathPattern, this.doc, XPathConstants.STRING);
 
-		final String standart = this.getStringAsStandart(str, EntryReader.DEFAULT_CHARSET);
+		final String standart = this.getStringAsStandart(str, ReaderImpl.DEFAULT_CHARSET);
 		return standart;
 	}
 
@@ -127,26 +136,21 @@ public class EntryReader {
 	 * @throws IOException
 	 */
 	private InputStream getStream(final URL url) throws IOException {
-		HttpURLConnection connection = (HttpURLConnection) url.openConnection();           
-	    connection.setDoOutput(true); 
-	    connection.setInstanceFollowRedirects(false); 
-	    connection.setRequestMethod("GET"); 
+		URLConnection connection = url.openConnection();
+		if(connection instanceof HttpURLConnection){		
+			((HttpURLConnection)connection).setInstanceFollowRedirects(false); 
+			((HttpURLConnection)connection).setRequestMethod("GET"); 
+		}
+		connection.setDoOutput(true); 
 	    connection.setRequestProperty("User-Agent", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.65 Safari/537.31");
 	    connection.connect();
 		return connection.getInputStream();
 	}
 
-	/**
-	 * @param resource
-	 * @param charset
-	 * @param string
-	 * @param string2
-	 * @return
-	 * @throws SAXException
-	 * @throws ParserConfigurationException
-	 * @throws IOException
-	 * @throws XPathExpressionException
+	/* (non-Javadoc)
+	 * @see com.openwp3x.Reader#getDateContent(java.lang.String, java.lang.String)
 	 */
+	@Override
 	public String getDateContent(final String xpathPattern, final String datePatern) throws XPathExpressionException, IOException, ParserConfigurationException, SAXException {
 		if (xpathPattern != null && datePatern != null) {
 			final String content = this.getTextContent(xpathPattern);
@@ -155,10 +159,10 @@ public class EntryReader {
 		return null;
 	}
 
-	/**
-	 * @param text
-	 * @param datePatern
+	/* (non-Javadoc)
+	 * @see com.openwp3x.Reader#getDateFromText(java.lang.String, java.lang.String)
 	 */
+	@Override
 	public String getDateFromText(final String text, final String datePatern) {
 		final Pattern pattern = Pattern.compile(datePatern);
 		final Matcher matcher = pattern.matcher(text);
@@ -170,23 +174,19 @@ public class EntryReader {
 
 	}
 
-	/**
-	 * @param resource
-	 * @param string
-	 * @throws IOException
-	 * @throws ParserConfigurationException
-	 * @throws XPathExpressionException
-	 * @throws SAXException
+	/* (non-Javadoc)
+	 * @see com.openwp3x.Reader#getEntries()
 	 */
-	public Collection<Entry> getEntries() throws IOException, ParserConfigurationException, XPathExpressionException, SAXException {
-		final Collection<Entry> entries = new ArrayList<Entry>();
+	@Override
+	public Collection<EntryImpl> getEntries() throws IOException, ParserConfigurationException, XPathExpressionException, SAXException {
+		final Collection<EntryImpl> entries = new ArrayList<EntryImpl>();
 
 		Integer counter = this.entryPattern.getMinResult();
 		while (counter <= this.entryPattern.getMaxResult()) {
 			final String date = this.getDateContent(this.getCurrentEntry(this.entryPattern.getDateXPath(), counter), this.entryPattern.getDateTextPattern());
 			final String title = this.getTextContent(this.getCurrentEntry(this.entryPattern.getTitleXPath(), counter));
 			final String link = this.getTextContent(this.getCurrentEntry(this.entryPattern.getUrlXPath(), counter));
-			entries.add(new Entry(date, title, link, this.entryPattern));
+			entries.add(new EntryImpl(date, title, link, this.entryPattern));
 			counter += this.entryPattern.getInterval();
 		}
 
@@ -200,5 +200,24 @@ public class EntryReader {
 	 */
 	private String getCurrentEntry(final String xPath, final Integer i) {
 		return xPath.replace("{_counter}", i.toString());
+	}
+
+	/* (non-Javadoc)
+	 * @see com.openwp3x.Reader#clearText(java.lang.String, java.lang.String, java.lang.String)
+	 */
+	@Override
+	public String clearText(String dirtText, String startPattern, String endPattern) {
+		Pattern patternStart = Pattern.compile(startPattern);
+		Matcher matcherStart = patternStart.matcher(dirtText);
+		matcherStart.find();
+		Integer start = matcherStart.end();
+		
+		Pattern patternEnd = Pattern.compile(endPattern);
+		Matcher matcherEnd = patternEnd.matcher(dirtText);
+		matcherEnd.find();
+		matcherEnd.start();
+		Integer end = matcherEnd.start();
+		
+		return dirtText.substring(start, end);
 	}
 }

@@ -27,6 +27,8 @@ public class EntryPattern {
 	private String dateXPath;
 
 	private String urlXPath;
+	
+	private String textXPath;
 
 	private String source;
 
@@ -229,5 +231,13 @@ public class EntryPattern {
 
 	public void setSourceType(SourceType sourceType) {
 		this.sourceType = sourceType;
+	}
+
+	public String getTextXPath() {
+		return textXPath;
+	}
+
+	public void setTextXPath(String textXPath) {
+		this.textXPath = textXPath;
 	}
 }
