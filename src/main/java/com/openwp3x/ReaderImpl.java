@@ -104,7 +104,7 @@ public class ReaderImpl implements Reader {
 	 * @see com.openwp3x.Reader#getTitle(java.lang.String)
 	 */
 	@Override
-	public String getTitle(final String xpathPattern) throws IOException, ParserConfigurationException, SAXException, XPathExpressionException {
+	public String getFormattedTitle(final String xpathPattern) throws IOException, ParserConfigurationException, SAXException, XPathExpressionException {
 		return this.getTextContent(xpathPattern).trim();
 	}
 

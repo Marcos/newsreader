@@ -10,7 +10,7 @@ import org.xml.sax.SAXException;
 
 public interface Reader {
 
-	public abstract String getTitle(final String xpathPattern) throws IOException, ParserConfigurationException, SAXException, XPathExpressionException;
+	public abstract String getFormattedTitle(final String xpathPattern) throws IOException, ParserConfigurationException, SAXException, XPathExpressionException;
 
 	public abstract String getTextContent(final String xpathPattern) throws IOException, ParserConfigurationException, SAXException, XPathExpressionException;
 
