@@ -26,6 +26,7 @@ public class Main {
 				entryPatternList.add(EntryPatternFactory.getAjorpemePattern());
 				entryPatternList.add(EntryPatternFactory.getCDLPattern());
 				entryPatternList.add(EntryPatternFactory.getDefesaCivilPattern());
+				entryPatternList.add(EntryPatternFactory.getCVJoinvillePattern());
 				//entryPatternList.add(EntryPatternFactory.getAnoticiaPattern());
 				//entryPatternList.add(EntryPatternFactory.getNDJoinvillePattern());
 				//entryPatternList.add(EntryPatternFactory.getPortalJoinvillePattern());
