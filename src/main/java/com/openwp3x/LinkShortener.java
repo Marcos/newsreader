@@ -7,13 +7,13 @@ import java.sql.SQLException;
 
 import org.apache.log4j.Logger;
 
-public class URLShortener {
+public class LinkShortener {
 
 	Logger logger = Logger.getLogger(this.getClass());
 
 	private static final String baseDigits = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 
-	public void start() {
+	public void updateLinks() {
 		Connection connection = null;
 		PreparedStatement preparedStatement = null;
 		try {
@@ -21,11 +21,14 @@ public class URLShortener {
 			preparedStatement = connection.prepareStatement("select id, source from entry where status = 0");
 			ResultSet resultSet = preparedStatement.executeQuery();
 
+			Integer countLinks = 0;
 			while (resultSet.next()) {
 				Long entryId = resultSet.getLong("id");
 				String source = resultSet.getString("source");
 				updateLink(entryId, source);
+				countLinks++;
 			}
+			logger.info("Shorter links updated: " + countLinks);
 		} catch (Exception e) {
 			logger.error(e, e);
 		} finally {
@@ -45,8 +48,7 @@ public class URLShortener {
 			preparedStatement = connection.prepareStatement("update entry set status=1, short_link=? where id = ?");
 			preparedStatement.setString(1, converter(entryId));
 			preparedStatement.setLong(2, entryId);
-			int affectedRows = preparedStatement.executeUpdate();
-			logger.info("Shorter links updated: " + affectedRows);
+			preparedStatement.executeUpdate();
 		} catch (Exception e) {			
 			logger.error(e, e);
 		} finally {
@@ -70,10 +72,6 @@ public class URLShortener {
 			decimalNumber = decimalNumber / base;
 		}
 		return tempVal;
-	}
-
-	public static void main(String args[]) {
-		new URLShortener().start();
 	}
 
 }
