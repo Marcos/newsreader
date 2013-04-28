@@ -79,7 +79,6 @@ public class ImportNews {
 				e.printStackTrace();
 			}
 		}
-
 	}
 
 	private String getInsertQuery() {
