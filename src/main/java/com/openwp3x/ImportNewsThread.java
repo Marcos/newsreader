@@ -56,7 +56,7 @@ public class ImportNewsThread extends Thread{
 							logger.info("Importing from " + entryPattern.getSource() + " " + entryPattern.getSourceURL());
 							importNews.importNews(new ReaderImpl(entryPattern).getEntries());
 							logger.info("Finished " + entryPattern.getSource());
-							new LinkShortener().updateLinks();
+							//new LinkShortener().updateLinks();
 						} catch (Exception e) {
 							logger.error("Error importing " + entryPattern.getSource(), e);
 						} 

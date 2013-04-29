@@ -50,7 +50,8 @@ public class ImportNews {
 		return false;
 	}
 
-	private void importEntry(EntryImpl entry) {
+	private synchronized void importEntry(EntryImpl entry) {
+		Long nextId = getNextId();
 		Connection connection = null;
 		PreparedStatement preparedStatement = null;
 		try {
@@ -58,17 +59,19 @@ public class ImportNews {
 			preparedStatement = connection.prepareStatement(getInsertQuery());
 			Timestamp timeStampImport = new Timestamp(System.currentTimeMillis());
 			Date dateImport = new Date(System.currentTimeMillis());
-			preparedStatement.setTimestamp(1, timeStampImport);
-			preparedStatement.setString(2, entry.getDate());
-			preparedStatement.setString(3, entry.getFormattedTitle());
-			preparedStatement.setString(4, entry.getUrl());
-			preparedStatement.setString(5, entry.getSource());
-			preparedStatement.setInt(6, StatusEntry.NOT_VERIFIED.ordinal());
-			preparedStatement.setString(7, entry.getFormattedURL());
-			preparedStatement.setDate(8, getDatePublished(entry, dateImport));
-			preparedStatement.setString(9, entry.getSourceLabel());
-			preparedStatement.setLong(10, new Random().nextLong());
-			preparedStatement.setString(11, entry.getFormattedTitle());
+			preparedStatement.setLong(1, nextId);
+			preparedStatement.setTimestamp(2, timeStampImport);
+			preparedStatement.setString(3, entry.getDate());
+			preparedStatement.setString(4, entry.getFormattedTitle());
+			preparedStatement.setString(5, entry.getUrl());
+			preparedStatement.setString(6, entry.getSource());
+			preparedStatement.setInt(7, StatusEntry.NOT_VERIFIED.ordinal());
+			preparedStatement.setString(8, entry.getFormattedURL());
+			preparedStatement.setDate(9, getDatePublished(entry, dateImport));
+			preparedStatement.setString(10, entry.getSourceLabel());
+			preparedStatement.setLong(11, new Random().nextLong());
+			preparedStatement.setString(12, entry.getFormattedTitle());
+			preparedStatement.setString(13, LinkShortener.converter(nextId));
 			preparedStatement.execute();
 		} catch (Exception e) {			
 			logger.error(e, e);
@@ -81,9 +84,32 @@ public class ImportNews {
 		}
 	}
 
+	private Long getNextId() {
+		Connection connection = null;
+		PreparedStatement preparedStatement = null;
+		try {
+			connection = DatabaseManager.getConnection();
+			preparedStatement = connection.prepareStatement("select max(id)+1 next_id from entry");
+			ResultSet resultSet = preparedStatement.executeQuery();
+			if(resultSet.next()){
+				return resultSet.getLong("next_id");
+			}
+		} catch (Exception e) {
+			logger.error(e);
+		} finally {
+			try {
+				preparedStatement.close();
+			} catch (SQLException e) {
+				logger.error(e);
+			}
+		}
+		return 1L;
+	}
+
 	private String getInsertQuery() {
 		StringBuilder sb = new StringBuilder();
 		sb.append("insert into entry (");
+		sb.append("id, ");
 		sb.append("date_insert, ");
 		sb.append("date_entry, ");
 		sb.append("title_entry, ");
@@ -92,8 +118,9 @@ public class ImportNews {
 		sb.append("date_published, ");
 		sb.append("source_label, ");
 		sb.append("random_factor, ");
-		sb.append("title) ");
-		sb.append("values(?,?,?,?,?,?,?,?,?,?,?)");
+		sb.append("title, ");
+		sb.append("short_link) ");
+		sb.append("values(?,?,?,?,?,?,?,?,?,?,?,?,?)");
 		return sb.toString();
 	}
 

@@ -1,5 +1,5 @@
 create table entry(
-id bigint identity primary key, 
+id bigint primary key, 
 date_entry nvarchar(4000), 
 title_entry nvarchar(4000), 
 url_entry nvarchar(4000),
@@ -14,6 +14,8 @@ random_factor bigint);
 
 alter table entry add clicks bigint default 0 with values;
 alter table entry add short_link nvarchar(4000);
+
+insert into entry2 select id, date_entry, title_entry, url_entry, date_insert, date_published, link, title, source, source_label, status, random_factor, clicks, short_link from entry
 
 create table tag( 
 entry_id bigint,
