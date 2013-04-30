@@ -2,6 +2,7 @@ package com.openwp3x;
 
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.Arrays;
 import java.util.Locale;
 
 public class EntryPatternFactory {
@@ -18,6 +19,7 @@ public class EntryPatternFactory {
 		entryPattern.setUrlResource("http://www.sociesc.org.br/pt/noticias/ajax_news_view.php?id=");
 		entryPattern.setUrlPattern("\\d+");
 		entryPattern.setSourceLabel("SOCIESC");
+		entryPattern.setTags(Arrays.asList(new Tag[]{Tag.educacao}));
 		return entryPattern;
 	}
 
@@ -33,6 +35,7 @@ public class EntryPatternFactory {
 		entryPattern.setUrlResource("http://www.joinville.udesc.br/portal/noticias/");
 		entryPattern.setMaxResult(20);
 		entryPattern.setSourceLabel("UDESC");
+		entryPattern.setTags(Arrays.asList(new Tag[]{Tag.educacao}));
 		return entryPattern;
 	}
 
@@ -47,6 +50,7 @@ public class EntryPatternFactory {
 		entryPattern.setSource("univille");
 		entryPattern.setDateFormat("dd.MM.yyyy");
 		entryPattern.setSourceLabel("Univille");
+		entryPattern.setTags(Arrays.asList(new Tag[]{Tag.educacao}));
 		return entryPattern;
 	}
 
@@ -62,6 +66,7 @@ public class EntryPatternFactory {
 		entryPattern.setUrlResource("http://www.joinville.sc.gov.br");
 		entryPattern.setDateFormat("dd | MMM | yyyy");
 		entryPattern.setSourceLabel("Prefeitura de Joinville");
+		entryPattern.setTags(Arrays.asList(new Tag[]{Tag.comunidade}));
 		return entryPattern;
 	}
 
@@ -85,6 +90,7 @@ public class EntryPatternFactory {
 		entryPattern.setDateFormat("dd/MM/yy");
 		entryPattern.setSourceLabel("Ajorpeme");
 		entryPattern.setTitlePrefixPattern("\\.*\\s-\\s");
+		entryPattern.setTags(Arrays.asList(new Tag[]{Tag.negocios}));
 		return entryPattern;
 	}
 
@@ -103,6 +109,7 @@ public class EntryPatternFactory {
 		entryPattern.setSource("acij");
 		entryPattern.setUrlResource("http://www.acij.com.br");
 		entryPattern.setSourceLabel("ACIJ");
+		entryPattern.setTags(Arrays.asList(new Tag[]{Tag.negocios}));
 		return entryPattern;
 	}
 
@@ -123,6 +130,7 @@ public class EntryPatternFactory {
 		entryPattern.setSource("cdl_joinville");
 		entryPattern.setUrlResource("http://cdljoinville.com.br/");
 		entryPattern.setSourceLabel("CDL Joinville");
+		entryPattern.setTags(Arrays.asList(new Tag[]{Tag.negocios}));
 		return entryPattern;
 	}
 
@@ -142,6 +150,7 @@ public class EntryPatternFactory {
 		entryPattern.setSource("defesa_civil");
 		entryPattern.setDateFormat("dd | MMM | yyyy");
 		entryPattern.setSourceLabel("Defesa Civil de Joinville");
+		entryPattern.setTags(Arrays.asList(new Tag[]{Tag.comunidade}));
 		return entryPattern;
 	}
 
@@ -150,6 +159,7 @@ public class EntryPatternFactory {
 		entryPattern.setSourceURL(new URL("http://feeds.feedburner.com/ndjoinville_noticias"));
 		entryPattern.setSourceLabel("Notícias do dia Joinville");
 		entryPattern.setSource("nd_joinville");
+		entryPattern.setTags(Arrays.asList(new Tag[]{Tag.geral}));
 		return entryPattern;
 	}
 	
@@ -158,6 +168,7 @@ public class EntryPatternFactory {
 		entryPattern.setSourceURL(new URL("http://anoticia.clicrbs.com.br/sc/ultimas-noticias-rss/"));
 		entryPattern.setSourceLabel("ANotícia");
 		entryPattern.setSource("anoticia");
+		entryPattern.setTags(Arrays.asList(new Tag[]{Tag.geral}));
 		return entryPattern;
 	}
 	
@@ -166,6 +177,7 @@ public class EntryPatternFactory {
 		entryPattern.setSourceURL(new URL("http://www.gazetadejoinville.com.br/site/feed"));
 		entryPattern.setSourceLabel("Gazega de Joinville");
 		entryPattern.setSource("gazeta_joinville");
+		entryPattern.setTags(Arrays.asList(new Tag[]{Tag.geral}));
 		return entryPattern;
 	}
 	
@@ -174,6 +186,7 @@ public class EntryPatternFactory {
 		entryPattern.setSourceURL(new URL("http://www.portaljoinville.com.br/v4/rss"));
 		entryPattern.setSourceLabel("Portal Joinville");
 		entryPattern.setSource("portal_joinville");
+		entryPattern.setTags(Arrays.asList(new Tag[]{Tag.geral}));
 		return entryPattern;
 	}
 	
@@ -182,6 +195,7 @@ public class EntryPatternFactory {
 		entryPattern.setSourceURL(new URL("http://osnymartins.com.br/feed/"));
 		entryPattern.setSourceLabel("Osny Martins");
 		entryPattern.setSource("osny_martins");
+		entryPattern.setTags(Arrays.asList(new Tag[]{Tag.geral}));
 		return entryPattern;
 	}
 
@@ -211,6 +225,7 @@ public class EntryPatternFactory {
 		entryPattern.setUrlResource("http://www.cvj.sc.gov.br");
 		entryPattern.setDateFormat("yyyy-MM-dd");
 		entryPattern.setSourceLabel("Câmara de Vereadores de Joinville");
+		entryPattern.setTags(Arrays.asList(new Tag[]{Tag.comunidade}));
 		return entryPattern;
 	}
 

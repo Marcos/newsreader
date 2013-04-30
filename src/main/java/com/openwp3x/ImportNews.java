@@ -73,15 +73,49 @@ public class ImportNews {
 			preparedStatement.setString(12, entry.getFormattedTitle());
 			preparedStatement.setString(13, LinkShortener.converter(nextId));
 			preparedStatement.execute();
+			
+			importTags(nextId, entry.getEntryPattern().getTags());
 		} catch (Exception e) {			
 			logger.error(e, e);
 		} finally {
 			try {
 				preparedStatement.close();
 			} catch (SQLException e) {
-				e.printStackTrace();
+				logger.error(e, e);
 			}
 		}
+	}
+
+	private void importTags(Long entryId, Collection<Tag> tags) {
+		if(tags!=null){			
+			for(Tag tag : tags){
+				importTag(entryId, tag);
+			}
+		}
+		
+	}
+
+	private void importTag(Long entryId, Tag tag) {
+		Connection connection = null;
+		PreparedStatement preparedStatement = null;
+		try {
+			connection = DatabaseManager.getConnection();
+			preparedStatement = connection.prepareStatement("insert into tag (entry_id, id, label, clicks) values (?,?,?,?)");
+			preparedStatement.setLong(1, entryId);
+			preparedStatement.setString(2, tag.name());
+			preparedStatement.setString(3, tag.getLabel());
+			preparedStatement.setInt(4, 0);
+			preparedStatement.execute();
+		} catch (Exception e) {			
+			logger.error(e, e);
+		} finally {
+			try {
+				preparedStatement.close();
+			} catch (SQLException e) {
+				logger.error(e, e);
+			}
+		}
+		
 	}
 
 	private Long getNextId() {

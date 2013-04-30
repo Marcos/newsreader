@@ -4,6 +4,7 @@
 package com.openwp3x;
 
 import java.net.URL;
+import java.util.Collection;
 import java.util.Locale;
 
 /**
@@ -47,6 +48,8 @@ public class EntryPattern {
 	private Integer interval = 1;
 
 	private Locale locale = new Locale("pt", "BR");
+	
+	private Collection<Tag> tags;
 
     /**
      * @return the title
@@ -239,5 +242,13 @@ public class EntryPattern {
 
 	public void setTextXPath(String textXPath) {
 		this.textXPath = textXPath;
+	}
+
+	public Collection<Tag> getTags() {
+		return tags;
+	}
+
+	public void setTags(Collection<Tag> tags) {
+		this.tags = tags;
 	}
 }
