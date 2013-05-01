@@ -17,22 +17,31 @@ alter table entry add short_link nvarchar(4000);
 
 insert into entry2 select id, date_entry, title_entry, url_entry, date_insert, date_published, link, title, source, source_label, status, random_factor, clicks, short_link from entry
 
-create table tag( 
-entry_id bigint,
-id varchar(255),
-label varchar(255),
-clicks bigint,
-primary key (entry_id, id)
+create table tag(
+	id varchar(255),
+	label varchar(255),
+	clicks bigint,
+	primary key (id)
 );
 
-insert into tag (entry_id, id, label, clicks)
-select id, source, source_label, 0 from entry;
+create table tag_entry( 
+	entry_id bigint,
+	tag_id varchar(255)
+	primary key (entry_id, tag_id)
+);
 
-insert into tag
-select entry_id, id, label, 0 from (
-select id entry_id, 'comunidade' id, 'Comunidade' label from entry where source='cvj' or source='prefeitura' or source='defesa_civil'
+insert into tag (id,label,clicks) values ('comunidade', 'Comunidade', 0)
+insert into tag (id,label,clicks) values ('educacao', 'Educação', 0)
+insert into tag (id,label,clicks) values ('negocios', 'Negócios', 0)
+insert into tag (id,label,clicks) values ('geral', 'Geral', 0)
+
+insert into tag_entry
+select entry_id, tag_id from (
+select id entry_id, 'comunidade' tag_id from entry where source='cvj' or source='prefeitura' or source='defesa_civil'
 union
-select id entry_id, 'negocios' id, 'Negócios' label from entry where source='acij' or source='ajorpeme' or source='cdl_joinville'
+select id entry_id, 'negocios' tag_id from entry where source='acij' or source='ajorpeme' or source='cdl_joinville'
 union
-select id entry_id, 'educacao' id, 'Educação' label from entry where source='sociesc' or source='udesc' or source='univille'
+select id entry_id, 'educacao' tag_id from entry where source='sociesc' or source='udesc' or source='univille'
+union
+select id entry_id, 'geral' tag_id from entry where source='portal_joinville' or source='nd_joinville'
 ) nt;

@@ -165,25 +165,16 @@ public class EntryPatternFactory {
 	
 	public static EntryPattern getAnoticiaPattern() throws MalformedURLException {
 		final EntryPattern entryPattern = getRSSEntryPattern();
-		entryPattern.setSourceURL(new URL("http://anoticia.clicrbs.com.br/sc/ultimas-noticias-rss/"));
+		entryPattern.setSourceURL(new URL("http://anoticia.clicrbs.com.br/sc/geral/ultimas-noticias-rss/"));
 		entryPattern.setSourceLabel("ANotícia");
 		entryPattern.setSource("anoticia");
 		entryPattern.setTags(Arrays.asList(new Tag[]{Tag.geral}));
 		return entryPattern;
 	}
 	
-	public static EntryPattern getGazetaJoinvillePattern() throws MalformedURLException {
-		final EntryPattern entryPattern = getRSSEntryPattern();
-		entryPattern.setSourceURL(new URL("http://www.gazetadejoinville.com.br/site/feed"));
-		entryPattern.setSourceLabel("Gazega de Joinville");
-		entryPattern.setSource("gazeta_joinville");
-		entryPattern.setTags(Arrays.asList(new Tag[]{Tag.geral}));
-		return entryPattern;
-	}
-	
 	public static EntryPattern getPortalJoinvillePattern() throws MalformedURLException {
 		final EntryPattern entryPattern = getRSSEntryPattern();
-		entryPattern.setSourceURL(new URL("http://www.portaljoinville.com.br/v4/rss"));
+		entryPattern.setSourceURL(new URL("http://www.portaljoinville.com.br/v4/rss/noticias"));
 		entryPattern.setSourceLabel("Portal Joinville");
 		entryPattern.setSource("portal_joinville");
 		entryPattern.setTags(Arrays.asList(new Tag[]{Tag.geral}));

@@ -1,0 +1,718 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>CDL Joinville : Not&amp;iacute;cias</title>
+
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+
+<meta content="no-cache" http-equiv="Cache-Control">
+
+<meta content="" name="Description">
+
+<link href="cdljlle.css" rel="stylesheet" type="text/css">
+
+<link href="sphider/templates/standard/search.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-6537257-7");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script src="js/funcs.js" type="text/javascript"></script>
+<script type="text/javascript">
+_uacct = "UA-2378676-1";
+urchinTracker();
+</script>
+
+
+</head>
+<body bgcolor="#ffffff">
+
+
+<script src="js/wz_tooltip.js" type="text/javascript"></script>
+<!--sphider_noindex--> 
+
+<center>
+
+<table border="0" cellpadding="0" cellspacing="0" width="776">
+  
+<tbody>
+<tr>
+    
+<td background="img/fundo_header.gif" valign="top">&nbsp;
+        <a href="http://cdljoinville.com.br"><img border="0" hspace="2" src="img/icones/icone_home.gif" vspace="4"></a>
+        <a href="http://webmail.cdl-sc.org.br/" target="_blank"><img border="0" hspace="2" src="img/icones/icone_mail.gif" vspace="4"></a>
+        <a href="http://cdljoinville.com.br/admin" target="_blank"><img border="0" hspace="2" src="img/icones/icone_admin.gif" vspace="4"></a>
+<br>
+<!--    <a href="http://cdljoinville.com.br/index.php?pag=mapa_site" target="_self"><img src="img/icones/icone_mapa.gif" border="0" hspace="2" vspace="4"></a><br> --> 
+        
+<a href="http://cdljoinville.com.br"><img border="0" hspace="4" src="img/logo_cdl.gif" vspace="4"></a>
+    </td>
+    <td align="right" background="img/fundo_header.gif" colspan="3" valign="top">
+ 
+<div style="float:left; padding-top:27px; padding-left:8px;">
+  
+<a href="http://www.twitter.com/cdljoinville" style="border:0px;" target="_blank">
+   <img alt="Seguir a cdljoinville en Twitter" src="http://twitter-badges.s3.amazonaws.com/twitter-a.png" style="border:0px;">
+  </a>
+ 
+</div>
+ 
+<div style="float:right;">
+ 
+<div style="float:left;">
+<a href="index.php?cat=consumidor&amp;amp;subcat=deacon"><img border="0" src="img/destaques/1.gif" vspace="10"></a><a href="index.php?cat=institucional&amp;amp;subcat=associese&amp;amp;pag=associese"><img border="0" src="img/destaques/6.gif" vspace="10"></a><a href="index.php?cat=prod_serv&amp;amp;subcat=centro_treinamentos&amp;amp;pag=centro_treinamentos"><img border="0" src="img/destaques/9.gif" vspace="10"></a><a href="index.php?cat=prod_serv&amp;amp;subcat=convenios&amp;amp;pag=convenios"><img border="0" src="img/destaques/12.gif" vspace="10"></a> 
+</div>
+ 
+<div style="float:left; margin-top:10px; background-color:#e1ebe2;">
+     
+<div style="float:left; padding:0px 0px 0px 5px">
+  
+<script>
+   nn=(document.layers)?true:false; 
+   ie=(document.all)?true:false; 
+   function keyDown(e) 
+   { 
+    var evt=(e)?e:(window.event)?window.event:null; 
+    if(evt)
+    { 
+     var key=(evt.charCode)?evt.charCode: ((evt.keyCode)?evt.keyCode:((evt.which)?evt.which:0)); 
+     if(key=="13" && document.getElementById('IN_LOGON_OPECOD').value != '' && document.getElementById('IN_LOGON_OPESENHA').value != '') open_window(document.getElementById('IN_LOGON_OPECOD').value,document.getElementById('IN_LOGON_OPESENHA').value); 
+    } 
+   } 
+   document.onkeydown=keyDown; 
+   if(nn) document.captureEvents(Event.KEYDOWN);
+   
+   function open_window(operador,senha)
+   {
+    if(operador == '')
+    {
+     alert('Preencha o campo operador');
+     document.getElementById('IN_LOGON_OPECOD').focus();
+    }
+    if(senha == '')
+    {
+     alert('Preencha o campo senha');
+     document.getElementById('IN_LOGON_OPESENHA').focus();
+    }
+    if(operador != '' && senha != '')
+    {
+     document.getElementById('IN_LOGON_OPECOD').value = "";
+     document.getElementById('IN_LOGON_OPESENHA').value = "";
+     var win1 = window.open('http://www.cdljoinville.com.br/index.php?operador='+operador+'&senha='+base64_encode(senha),'','location=no,menubar=no,width=800,height=600,top=40,left=10, scrollbars=no');
+     win1.focus();
+    }
+   } 
+  </script>
+ <!-- ################################# FORMULÁRIO DE LOGON ##################### -->
+   
+<form action="index.php" method="post" name="LOGON">
+    
+<div style="text-align:left; color:#406142; font-size:14px; padding:5px 0px 9px 5px">
+     
+<b>Consulta SPC</b>
+    
+</div>
+    
+<div style="float:left;">
+     
+<div>
+      
+<div style="float:left; width:55px; padding-top:3px; padding-right:3px;">
+       Usu&amp;aacute;rio: 
+      </div>
+      
+<div style="float:left; padding:0px 0px 2px 0px;">
+       
+<input id="IN_LOGON_OPECOD" length="15" maxlength="20" name="IN_LOGON_OPECOD" size="10" style="border:1px ridge #D9D9B3; background-color: #F7F7EE; font-size: 11 px; font-family: Arial;" type="text">
+      
+</div>
+     
+</div>
+     
+<div style="clear:both;"></div>
+     
+<div>
+      
+<div style="float:left; width:55px; padding-top:3px; padding-right:3px;">
+       Senha: 
+      </div>
+      
+<div style="float:left; padding:0px 0px 2px 0px;">
+       
+<input id="IN_LOGON_OPESENHA" length="15" maxlength="30" name="IN_LOGON_OPESENHA" size="10" style="border:1px ridge #D9D9B3; background-color: #F7F7EE; font-size: 11 px; font-family: Arial;" type="password">
+      
+</div>
+     
+</div>
+    
+</div>
+    
+<div style="float:left; padding:22px 0px 0px 5px;">
+     
+<input name="submit" onclick="open_window(document.getElementById('IN_LOGON_OPECOD').value,document.getElementById('IN_LOGON_OPESENHA').value); return false;" style="background-color: #F7F7EE; font-size: 11 px; color: #000000; font-weight: bold; font-family: Arial; border: 1px outset #D9D9B3;" type="button" value="Entrar">
+    
+</div>
+   
+</form>
+ <!-- ########################################################################### -->  
+     
+</div>
+ 
+</div>
+ 
+</div>
+    
+</td>
+  
+</tr>  
+<tr>
+    
+<td align="left" rowspan="3" valign="top">
+<!-- ============================================================================================== -->
+      
+<table bgcolor="#C4C4C4" border="0" cellpadding="0" cellspacing="1" width="152">
+        
+<tbody>
+<tr>
+          
+<td align="left" background="img/fundo_menu.gif" height="18">
+<!-- ################################### MENU INSTITUCIONAL ####################################### -->
+            <font class="MenuTitAzul">Institucional</font>
+          </td>
+        
+</tr>
+        
+<tr>
+          
+<td align="left" bgcolor="#EFEFED" height="18">
+            <a class="linkMenuAzul" href="index.php?cat=institucional&amp;amp;subcat=apresentacao">Apresenta&amp;ccedil;&amp;atilde;o</a>
+          </td>
+        
+</tr>
+        
+<tr>
+         
+<td align="left" bgcolor="#EFEFED" height="18">
+           <a class="linkMenuAzul" href="index.php?cat=institucional&amp;amp;subcat=associese&amp;amp;pag=associese">Associe-se</a>
+         </td>
+        
+</tr>
+        
+<tr>
+         
+<td align="left" bgcolor="#EFEFED" height="18">
+           <a class="linkMenuAzul" href="index.php?cat=institucional&amp;amp;subcat=diretoria&amp;amp;pag=diretoria">Diretoria</a>
+         </td>
+        
+</tr>
+        
+<tr>
+         
+<td align="left" bgcolor="#EFEFED" height="18">
+           <a class="linkMenuAzul" href="index.php?cat=institucional&amp;amp;subcat=fale_conosco&amp;amp;pag=fale_conosco">Fale Conosco</a>
+         </td>
+        
+</tr>
+        
+<tr>
+         
+<td align="left" bgcolor="#EFEFED" height="18">
+           <a class="linkMenuAzul" href="index.php?cat=institucional&amp;amp;subcat=nossa_historia&amp;amp;pag=nossa_historia">Nossa Hist&amp;oacute;ria</a>
+         </td>
+        
+</tr>
+        
+<tr>
+         
+<td align="left" bgcolor="#EFEFED" height="18">
+           <a class="linkMenuAzul" href="index.php?cat=institucional&amp;amp;subcat=promocoes&amp;amp;pag=promocoes">Promo&amp;ccedil;&amp;otilde;es e Concursos</a>
+         </td>
+        
+</tr>
+      
+</tbody>
+</table>
+
+      
+<table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="1" width="152">
+        
+<tbody>
+<tr>
+          
+<td align="left" background="img/fundo_menu_separador.gif" height="6">
+          </td>
+        
+</tr>
+      
+</tbody>
+</table>
+<!-- ============================================================================================== -->
+      
+<table bgcolor="#C4C4C4" border="0" cellpadding="0" cellspacing="1" width="152">
+        
+<tbody>
+<tr>
+         
+<td align="left" background="img/fundo_menu.gif" height="18">
+<!-- ################################ MENU PRODUTOS E SERVIÇOS #################################### -->
+           <font class="MenuTitVerde">Produtos e Servi&amp;ccedil;os</font>
+         </td>
+        
+</tr>
+<!-- /*
+        <tr>
+         <td height="18" bgcolor="#EFEFED" align="left">
+           <a href="http://cdljoinville.com.br" class="linkMenuVerde" >2ª via do boleto bancário</a>
+         </td>
+        </tr>
+*/ -->
+        
+<tr>
+         
+<td align="left" bgcolor="#EFEFED" height="18">
+           <a class="linkMenuVerde" href="index.php?cat=prod_serv&amp;amp;subcat=biblio_video&amp;amp;pag=biblio_video">Biblioteca / Videoteca</a>
+         </td>
+        
+</tr>
+        
+<tr>
+         
+<td align="left" bgcolor="#EFEFED" height="18">
+           <a class="linkMenuVerde" href="index.php?cat=prod_serv&amp;amp;subcat=camaras&amp;amp;pag=camaras">C&amp;acirc;maras Setoriais</a>
+         </td>
+        
+</tr>
+        
+<tr>
+         
+<td align="left" bgcolor="#EFEFED" height="18">
+           <a class="linkMenuVerde" href="index.php?cat=prod_serv&amp;amp;subcat=centro_treinamentos&amp;amp;pag=centro_treinamentos">Centro de Treinamento</a>
+         </td>
+        
+</tr>
+        
+<tr>
+         
+<td align="left" bgcolor="#EFEFED" height="18">
+           <a class="linkMenuVerde" href="index.php?cat=prod_serv&amp;amp;subcat=cdl_jovem">CDL Jovem</a>
+         </td>
+        
+</tr>
+        
+<tr>
+         
+<td align="left" bgcolor="#EFEFED" height="18">
+           <!-- <a href="http://webmail.cdljoinville.com.br/cgi-bin/openwebmail/openwebmail.pl" target="_blank" class="linkMenuVerde" >CDL Mail</a> -->
+           <a class="linkMenuVerde" href="http://webmail.cdl-sc.org.br/" target="_blank">CDL Mail</a>
+         </td>
+        
+</tr>
+        
+<tr>
+         
+<td align="left" bgcolor="#EFEFED" height="18">
+           <a class="linkMenuVerde" href="index.php?cat=prod_serv&amp;amp;subcat=cdl_talentos&amp;amp;pag=cdl_talentos">CDL Talentos</a>
+         </td>
+        
+</tr>
+        
+<tr>
+         
+<td align="left" bgcolor="#EFEFED" height="18">
+           <a class="linkMenuVerde" href="index.php?cat=prod_serv&amp;amp;subcat=classificados&amp;amp;pag=classificados">Classificados</a>
+         </td>
+        
+</tr>
+        
+<tr>
+         
+<td align="left" bgcolor="#EFEFED" height="18">
+           <a class="linkMenuVerde" href="index.php?cat=prod_serv&amp;amp;subcat=consultorias&amp;amp;pag=consultorias">Consultorias Gratuitas</a>
+         </td>
+        
+</tr>
+        
+<tr>
+         
+<td align="left" bgcolor="#EFEFED" height="18">
+           <a class="linkMenuVerde" href="index.php?cat=prod_serv&amp;amp;subcat=convenios&amp;amp;pag=convenios">Conv&amp;ecirc;nios e Parcerias</a>
+         </td>
+        
+</tr>
+        
+<tr> 
+<td align="left" bgcolor="#EFEFED" height="18">
+           <a class="linkMenuVerde" href="index.php?cat=prod_serv&amp;amp;subcat=indicadores&amp;amp;pag=indicadores">Indicadores Econ&amp;ocirc;micos</a>
+         </td>
+        
+</tr>
+        
+<tr>
+         
+<td align="left" bgcolor="#EFEFED" height="18">
+           <a class="linkMenuVerde" href="index.php?cat=prod_serv&amp;amp;subcat=provedor&amp;amp;pag=provedor">Provedor CDL</a>
+         </td>
+        
+</tr>
+        
+<tr>
+         
+<td align="left" bgcolor="#EFEFED" height="18">
+           <a class="linkMenuVerde" href="index.php?cat=prod_serv&amp;amp;subcat=spc">SPC</a>
+         </td>
+        
+</tr>
+        <!-- <tr>
+         <td height="18" bgcolor="#EFEFED" align="left">
+           <a href="index.php?cat=prod_serv&subcat=cameras&pag=cameras" class="linkMenuVerde" >Câmera</a>
+         </td>
+        </tr> -->
+      
+</tbody>
+</table>
+
+      
+<table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="1" width="152">
+        
+<tbody>
+<tr>
+          
+<td align="left" background="img/fundo_menu_separador.gif" height="6">
+          </td>
+        
+</tr>
+      
+</tbody>
+</table>
+<!-- ============================================================================================== -->
+      
+<table bgcolor="#C4C4C4" border="0" cellpadding="0" cellspacing="1" width="152">
+        
+<tbody>
+<tr>
+         
+<td align="left" background="img/fundo_menu.gif" height="18">
+<!-- ######################################## CONSUMIDOR ########################################## -->
+           <font class="MenuTitVermelho">Consumidor</font>
+         </td>
+        
+</tr>
+        
+<tr>
+         
+<td align="left" bgcolor="#EFEFED" height="18">
+           <a class="linkMenuVermelho" href="index.php?cat=consumidor&amp;amp;subcat=artigos&amp;amp;pag=artigos">Artigos</a>
+         </td>
+        
+</tr>
+        
+<tr>
+         
+<td align="left" bgcolor="#EFEFED" height="18">
+           <a class="linkMenuVermelho" href="index.php?cat=consumidor&amp;amp;subcat=busca_cep&amp;amp;pag=busca_cep">Busca CEP</a>
+         </td>
+        
+</tr>
+        
+<tr>
+         
+<td align="left" bgcolor="#EFEFED" height="18">
+           <a class="linkMenuVermelho" href="index.php?cat=consumidor&amp;amp;subcat=calc_conv">C&amp;aacute;lculos e convers&amp;otilde;es</a>
+         </td>
+        
+</tr>
+<!--
+        <tr>
+         <td height="18" bgcolor="#EFEFED" align="left">
+           <a href="http://cdljoinville.com.br" class="linkMenuVermelho" >CPF na Receita Federal</a>
+         </td>
+        </tr>
+-->
+        
+<tr>
+         
+<td align="left" bgcolor="#EFEFED" height="18">
+           <a class="linkMenuVermelho" href="index.php?cat=consumidor&amp;amp;subcat=deacon">Deacon</a>
+         </td>
+        
+</tr>
+        
+<tr>
+         
+<td align="left" bgcolor="#EFEFED" height="18">
+           <a class="linkMenuVermelho" href="index.php?cat=consumidor&amp;amp;subcat=sites_interesse&amp;amp;pag=sites_interesse">Sites de Interesse</a>
+         </td>
+        
+</tr>
+        
+<tr>
+         
+<td align="left" bgcolor="#EFEFED" height="18">
+           <a class="linkMenuVermelho" href="index.php?cat=consumidor&amp;amp;subcat=tempo&amp;amp;pag=tempo">Tempo em Joinville</a>
+         </td>
+        
+</tr>
+        
+<tr>
+         
+<td align="left" bgcolor="#EFEFED" height="18">
+           <a class="linkMenuVermelho" href="index.php?cat=consumidor&amp;amp;subcat=turismo&amp;amp;pag=turismo">Turismo em Joinville</a>
+         </td>
+        
+</tr>
+      
+</tbody>
+</table>
+
+      
+<table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="1" width="152">
+        
+<tbody>
+<tr>
+          
+<td align="left" background="img/fundo_menu_separador.gif" height="6">
+          </td>
+        
+</tr>
+      
+</tbody>
+</table>
+<!-- ============================================================================================== -->
+      
+<table bgcolor="#C4C4C4" border="0" cellpadding="0" cellspacing="1" width="152">
+        
+<tbody>
+<tr>
+         
+<td align="left" background="img/fundo_menu.gif" height="18">
+<!-- ######################################## COMUNICAÇÃO ########################################## -->
+           <font class="MenuTitAmarelo">Comunica&amp;ccedil;&amp;atilde;o</font>
+          </td>
+        
+</tr>
+        
+<tr>
+         
+<td align="left" bgcolor="#EFEFED" height="18">
+           <a class="linkMenuAmarelo" href="index.php?cat=comunicacao&amp;amp;subcat=artigos&amp;amp;pag=artigos">Artigos</a>
+         </td>
+        
+</tr>
+  
+<tr>
+         
+<td align="left" bgcolor="#EFEFED" height="18">
+           <a class="linkMenuAmarelo" href="index.php?cat=comunicacao&amp;amp;subcat=galeria&amp;amp;pag=galeria_fotos">Galeria de Fotos</a>
+         </td>
+        
+</tr>
+        
+<tr>
+         
+<td align="left" bgcolor="#EFEFED" height="18">
+           <a class="linkMenuAmarelo" href="index.php?cat=comunicacao&amp;amp;subcat=coluna_cdl_an&amp;amp;pag=coluna_cdl_an">Coluna CDL ANot&amp;iacute;cia</a>
+         </td>
+        
+</tr>
+        <!--<tr>
+         <td height="18" bgcolor="#EFEFED" align="left">
+           <a href="index.php?cat=comunicacao&subcat=cdlnatv&pag=cdlnatv" class="linkMenuAmarelo" >CDL na TV</a>
+         </td>
+        </tr>-->
+        
+<tr>
+         
+<td align="left" bgcolor="#EFEFED" height="18">
+           <a class="linkMenuAmarelo" href="index.php?cat=comunicacao&amp;amp;subcat=downloads&amp;amp;pag=downloads">Downloads</a>
+         </td>
+        
+</tr>
+        
+<tr>
+         
+<td align="left" bgcolor="#EFEFED" height="18">
+           <a class="linkMenuAmarelo" href="index.php?cat=comunicacao&amp;amp;subcat=imprensa&amp;amp;pag=imprensa">Imprensa</a>
+         </td>
+        
+</tr>
+        
+<tr>
+         
+<td align="left" bgcolor="#EFEFED" height="18">
+           <a class="linkMenuAmarelo" href="index.php?cat=comunicacao&amp;amp;subcat=jornal&amp;amp;pag=jornal">Informativo da CDL</a>
+         </td>
+      
+</tr>
+</tbody>
+</table>
+      
+<table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="1" width="152">
+        
+<tbody>
+<tr>
+          
+<td align="left" background="img/fundo_menu_separador.gif" height="6">
+          </td>
+        
+</tr>
+      
+</tbody>
+</table>
+    
+</td>
+<!--    <td colspan="3" valign="top" align="right"><img name="conteudo_r2_c2" src="conteudo_r2_c2.jpg" width="624" height="557" border="0"></td> -->
+<!--    <td colspan="3" valign="top" align="right"><img name="conteudo_r2_c2" src="conteudo_r2_c2.jpg" width="624" height="620" border="0"></td> -->
+    <td align="right" colspan="3" valign="top">
+<p></p>
+<table align="left" border="0" cellpadding="0" cellspacing="0" width="624">
+
+<tbody>
+<tr>
+
+<td width="20">&nbsp;</td>
+<td background="img/backchamada.gif" height="25" width="595"> &nbsp; &nbsp; &nbsp;
+<font class="tituloChamadaCapa">Not&amp;iacute;cias </font></td>
+</tr>
+
+<tr>
+
+<td>&nbsp;</td><td>
+<br>
+<!--/sphider_noindex--> 
+
+<p>Total: 89 not&amp;iacute;cias. Mostrando: <select class="select" name="pagResultados" onchange="window.location.href='index.php?cat=noticias&amp;amp;pag=lista_noticias&amp;amp;p=' + this.value;"><option selected value="1">de 1 &amp;agrave; 8</option>
+<option value="2">de 9 &amp;agrave; 16</option>
+<option value="3">de 17 &amp;agrave; 24</option>
+<option value="4">de 25 &amp;agrave; 32</option>
+<option value="5">de 33 &amp;agrave; 40</option>
+<option value="6">de 41 &amp;agrave; 48</option>
+<option value="7">de 49 &amp;agrave; 56</option>
+<option value="8">de 57 &amp;agrave; 64</option>
+<option value="9">de 65 &amp;agrave; 72</option>
+<option value="10">de 73 &amp;agrave; 80</option>
+<option value="11">de 81 &amp;agrave; 88</option>
+<option value="12">de 89 &amp;agrave; 89</option>
+</select>
+</p>
+
+
+<p>
+<i>30/04/2013</i>
+<br>
+
+<b>S&amp;Aacute;BADO MAIS 04 e 11 Maio</b>
+<br>
+Com a finalidade de oportunizar mais tempo para que as pessoas efetuem suas compras, no s&amp;aacute;bado (dia 04 maio) as lojas do COM&amp;Eacute;RCIO DE RUA ... <nobr>[<a href="index.php?cat=noticias&amp;amp;id_noticia=7596">leia mais</a>]</nobr>
+</p>
+
+
+<p>
+<i>30/04/2013</i>
+<br>
+
+<b>Lan&amp;ccedil;ada a Cartilha da Opera&amp;ccedil;&amp;atilde;o Concorr&amp;ecirc;ncia Leal </b>
+<br>
+Depois de vinte dias entre reuni&otilde;es e discuss&otilde;es, o grupo de representantes do CRCSC, Fecontesc, Sescon Grande Florian&amp;oacute;polis, Sescon/SC, Sescon Blumenau, Telini Advogados e Secretaria ... <nobr>[<a href="index.php?cat=noticias&amp;amp;id_noticia=7595">leia mais</a>]</nobr>
+</p>
+
+
+<p>
+<i>25/04/2013</i>
+<br>
+
+<b>Vagas CDL Talentos</b>
+<br>
+Invista no seu conhecimento e enrique&ccedil;a seu curr&amp;iacute;culo!Participe dos cursos oferecidos pela CDL Joinville e aprimore seus conhecimentos. S&atilde;o diversos cursos relacionados a &amp;aacute;rea de ... <nobr>[<a href="index.php?cat=noticias&amp;amp;id_noticia=7284">leia mais</a>]</nobr>
+</p>
+
+
+<p>
+<i>11/04/2013</i>
+<br>
+
+<b>CDL participa do debate sobre rebaixamento das cal&amp;ccedil;adas</b>
+<br>
+A CDL Joinville, atrav&eacute;s do presidente Carlos Grendene, dos vice-presidentes Jos&eacute; Manoel Ramos e Ivonir Meurer e de lojistas associados, participou da Audi&ecirc;ncia P&amp;uacute;blica que ... <nobr>[<a href="index.php?cat=noticias&amp;amp;id_noticia=7594">leia mais</a>]</nobr>
+</p>
+
+
+<p>
+<i>01/04/2013</i>
+<br>
+
+<b>Cria&amp;ccedil;&amp;atilde;o da Secretaria da Micro e pequena empresa sancionada </b>
+<br>
+A presidenta Dilma Rousseff sancionou sem vetos, no dia 28 de mar&ccedil;o, a lei que criou a Secretaria da Micro e Pequena Empresa. A secretaria ... <nobr>[<a href="index.php?cat=noticias&amp;amp;id_noticia=7593">leia mais</a>]</nobr>
+</p>
+
+
+<p>
+<i>01/04/2013</i>
+<br>
+
+<b>CT completa 9 anos com palestra nesta ter&amp;ccedil;a (2) </b>
+<br>
+Para comemorar o anivers&amp;aacute;rio do Centro de Treinamento, a CDL promove uma grande palestra. Com o tema &ldquo;Gest&atilde;o Financeira e Administrativa&rdquo;, o evento acontece nesta ... <nobr>[<a href="index.php?cat=noticias&amp;amp;id_noticia=7592">leia mais</a>]</nobr>
+</p>
+
+
+<p>
+<i>27/03/2013</i>
+<br>
+
+<b>CDL TALENTOS - Cadastre seu Curr&amp;iacute;culo</b>
+<br>
+Voc&ecirc; que est&amp;aacute; &agrave; procura de uma oportunidade de emprego cadastre o seu curr&amp;iacute;culo em nosso site: &nbsp;www.cdljoinville.com.br/cdltalentos &nbsp;Telefone Contato: (47)3461.2532     ... <nobr>[<a href="index.php?cat=noticias&amp;amp;id_noticia=7575">leia mais</a>]</nobr>
+</p>
+
+
+<p>
+<i>25/03/2013</i>
+<br>
+
+<b>A Pesquisa de Inten&amp;ccedil;&amp;atilde;o de Compras para a P&amp;aacute;scoa 2013</b>
+<br>
+Os catarinenses pretendem gastar um pouco mais nas compras de P&amp;aacute;scoa deste ano, de acordo com a Pesquisa de Inten&ccedil;&atilde;o de Compras feita pela Federa&ccedil;&atilde;o ... <nobr>[<a href="index.php?cat=noticias&amp;amp;id_noticia=7590">leia mais</a>]</nobr>
+</p>
+
+<!--sphider_noindex-->
+</td>
+</tr>
+</tbody>
+</table>
+    
+</td>
+  
+</tr>
+  
+<tr align="center" valign="bottom">
+    
+<td colspan="3" rowspan="3">
+<div align="center" border="0" class="subtexto">N&deg; de acessos: &amp;lt;5820&amp;gt;<br>
+<br>
+<font color="#666666" face="Arial, Helvetica, sans-serif" size="1">Desenvolvido por TAN - Tecnologia Aplicada a Neg&oacute;cios Ltda- Joinville - SC - Brasil<br>Melhor Visualizado 1024 X 768. Copyright &copy; 2007 <a href="http://www.tan.com.br" target="_blank">TAN</a>.Todos os direitos reservados.</font>
+</div>    
+</td>
+  
+</tr>
+
+</tbody>
+</table>
+
+</center>
+<!--/sphider_noindex--> 
+
+
+</body>
+</html>

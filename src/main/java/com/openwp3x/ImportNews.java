@@ -6,8 +6,10 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Timestamp;
+import java.util.Calendar;
 import java.util.Collection;
 import java.util.Random;
+import java.util.TimeZone;
 
 import org.apache.log4j.Logger;
 
@@ -57,7 +59,13 @@ public class ImportNews {
 		try {
 			connection = DatabaseManager.getConnection();
 			preparedStatement = connection.prepareStatement(getInsertQuery());
-			Timestamp timeStampImport = new Timestamp(System.currentTimeMillis());
+			
+			TimeZone timeZone = TimeZone.getTimeZone("GMT");
+			Calendar calendar = Calendar.getInstance(timeZone);
+			Timestamp timeStampImport = new Timestamp(calendar.getTimeInMillis());
+			logger.debug("timezone: " + timeZone);
+			logger.debug("current time: " + calendar.getTime());
+			
 			Date dateImport = new Date(System.currentTimeMillis());
 			preparedStatement.setLong(1, nextId);
 			preparedStatement.setTimestamp(2, timeStampImport);
@@ -100,11 +108,9 @@ public class ImportNews {
 		PreparedStatement preparedStatement = null;
 		try {
 			connection = DatabaseManager.getConnection();
-			preparedStatement = connection.prepareStatement("insert into tag (entry_id, id, label, clicks) values (?,?,?,?)");
+			preparedStatement = connection.prepareStatement("insert into tag_entry (entry_id, tag_id) values (?,?)");
 			preparedStatement.setLong(1, entryId);
 			preparedStatement.setString(2, tag.name());
-			preparedStatement.setString(3, tag.getLabel());
-			preparedStatement.setInt(4, 0);
 			preparedStatement.execute();
 		} catch (Exception e) {			
 			logger.error(e, e);

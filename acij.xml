@@ -1,0 +1,1359 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+
+<meta content="ACIJ - Sua Empresa Mais Forte" name="title">
+
+<meta content="ACIJ - Associa&ccedil;&atilde;o Empresarial de Joinville, com 100 anos de exist&ecirc;ncia, &eacute; uma das entidades de maior representa&ccedil;&atilde;o e for&ccedil;a no munic&iacute;pio e no Estado de Santa Catarina." name="description">
+
+<meta content="ACIJ, Associa&ccedil;&atilde;o Empresarial, Joinville, empresa, SC, Santa Catarina" name="keywords">
+
+<title>ACIJ - Sua Empresa Mais Forte</title>
+
+
+<link href="/images/favicon.ico" media="screen" rel="shortcut icon" type="image/x-icon">
+
+
+<link href="/css/style.css" media="screen" rel="stylesheet" type="text/css">
+
+<link href="/css/banner-saojose.css" media="screen" rel="stylesheet" type="text/css">
+
+
+<link href="/css/jquery.lightbox-0.5.css" media="screen" rel="stylesheet" type="text/css">
+
+<link href="/css/jquery.facebox.css" media="screen" rel="stylesheet" type="text/css">
+
+<link href="/css/axurerp_pagespecificstyles.css" media="screen" rel="stylesheet" type="text/css">
+
+<link href="/css/axurerp_pagespecificstyles_ie6.css" media="screen" rel="stylesheet" type="text/css">
+
+<!--[if IE 7]>
+<link rel="stylesheet" type="text/css" media="screen" href="/css/style_ie7.css" />
+<![endif]-->
+
+<!--[if IE 8]>
+<link rel="stylesheet" type="text/css" media="screen" href="/css/style_ie8.css" />
+<![endif]-->
+
+<!--[if IE 9]>
+<link rel="stylesheet" type="text/css" media="screen" href="/css/style_ie9.css" />
+<![endif]-->
+
+
+
+
+<link href="http://feeds.feedburner.com/PortalAcij" rel="alternate" title="Agenda Portal ACIJ" type="application/rss+xml">
+
+<link href="http://feeds.feedburner.com/NoticiasAcij" rel="alternate" title="Not&iacute;cias ACIJ" type="application/rss+xml">
+
+<link href="http://feeds.feedburner.com/ReunioesAcij" rel="alternate" title="Reuni&otilde;es do Conselho ACIJ" type="application/rss+xml">
+
+
+<script src="/js/swfobject.js" type="text/javascript"></script>
+<script src="/js/jquery-1.4.2.min.js" type="text/javascript"></script>
+<script src="/js/jquery.printarea.js" type="text/javascript"></script>
+<script src="/js/jquery.lightbox-0.5.min.js" type="text/javascript"></script>
+<script src="/js/jquery.innerfade.js" type="text/javascript"></script>
+<script src="/js/jquery.facebox.js" type="text/javascript"></script>
+<script src="/js/jquery.maskedinput-1.2.2.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+/*&lt;!--[CDATA[*/  
+jQuery(document).ready(function(){
+ 
+ jQuery('a[rel*=lightbox], a.thickbox').lightBox();
+ 
+
+
+ // Aumentar e diminuir tamanho da fonte
+ jQuery('.esq-div').find('.tamanho_texto').click(function(evento){
+  var $content = jQuery('.esq-div').find('p, span, strong, strong a, h4').not('.caminho a, .caminho strong, .comentarios p, .comentarios .aviso span');
+  var currentSize = $content .css('font-size');
+  var num = parseFloat(currentSize,10);
+  if(this.id == 'aumentar_texto'){
+   $content.css('fontSize', num+1+'px');
+  } else {
+   $content.css('fontSize', num-1+'px');
+  }
+  evento.preventDefault();
+ });
+    
+    
+    // Imprimir
+    jQuery('.esq-div').find('img[alt=imprimir]').parent().click(function(evento){
+          jQuery('.esq-div').append('&lt;div id=&quot;conteudo_impressao&quot; style=&quot;display: none; background: #fff; width: 100%; border: 3px solid #DA261E; padding: 10px;&quot;&gt;'+
+                                        '&lt;table style=&quot;float: left; width: 100%;&quot;&gt;'+
+                                             '&lt;thead&gt;'+
+                                             '&lt;tr&gt;'+
+                                             '&lt;td style=&quot;border-bottom: 1px solid #000; padding: 0 0 10px 0;&quot;&gt;'+
+                                                  '&lt;img src=&quot;/images/acij.png&quot; width=&quot;50&quot; alt=&quot;ACIJ&quot; /&gt;'+
+                                             '&lt;/td&gt;'+
+                                             '&lt;/tr&gt;'+
+                                             '&lt;/thead&gt;'+
+                                             
+                                             '&lt;tbody&gt;'+
+                                             '&lt;tr&gt;'+
+                                             '&lt;td style=&quot;padding: 10px 0 10px 0;&quot;&gt;'+
+                                             
+                                                  '&lt;h2&gt;'+jQuery('.esq-div h4').html()+'&lt;/h2&gt;'+
+                                                  '&lt;div&gt;'+jQuery('.esq-div .container_conteudo').html()+'&lt;/div&gt;'+
+                                             
+                                             '&lt;/td&gt;'+
+                                             '&lt;/tr&gt;'+
+                                             '&lt;/tbody&gt;'+
+                                             
+                                             '&lt;tfoot&gt;'+
+                                             '&lt;tr&gt;'+
+                                             '&lt;td style=&quot;border-top: 1px solid #000; padding: 10px 0 0 0;&quot;&gt;'+
+                                                  'ACIJ - Associa&ccedil;&atilde;o Empresarial de Joinville&lt;br /&gt;'+
+                                                  '+55 47 3461-3333'+
+                                             '&lt;/td&gt;'+
+                                             '&lt;/tr&gt;'+
+                                             '&lt;/tfoot&gt;'+
+                                        '&lt;/table&gt;'+
+                                    '&lt;/div&gt;');
+          jQuery('#conteudo_impressao').printArea();
+          evento.preventDefault();
+    });
+});
+/*]]--&gt;*/
+</script>
+
+
+
+<style type="text/css">
+    #facebox {
+        position: absolute;
+        z-index: 10000;
+            }
+    
+    #facebox .popup{        
+        border:0;
+        -webkit-border-radius:0;
+        -moz-border-radius:0;
+        border-radius:0;
+        -webkit-box-shadow:0;
+        -moz-box-shadow:0;
+        box-shadow:0;
+    }
+    #facebox .content {
+        -webkit-border-radius:0;
+        -moz-border-radius:0;
+        border-radius:0;
+        -webkit-box-shadow:0;
+        -moz-box-shadow:0;
+        box-shadow:0;
+    }
+    #facebox .close img{
+        opacity:1.0;
+    }
+    #facebox .content {
+        font-size: 10pt;
+        display:table;
+        padding: 10px;
+        width: 650px;
+        background: #fff;
+        -webkit-border-radius:4px;
+        -moz-border-radius:4px;
+        border-radius:4px;    
+    }
+ 
+ #float_quizz {
+  height: 400px;
+  left: 50%;
+  margin: -200px 0 0 -320px;
+  position: absolute;
+  top: 50%;
+  width: 640px;
+  z-index: 1000;
+ }
+ 
+ #float_quizz .btn_fechar_quizz {
+  display: block;
+  margin: 4px 0 0 0;
+  position: relative;
+  text-align: right;
+  z-index: 10000;
+ }
+ 
+ #float_quizz .img_quizz {
+  left: 0;
+  position: absolute;
+  top: 0;
+ }
+ 
+ #opcoes.quizz label {
+  display: block;
+  font-weight: normal;
+  margin: -3px 0 15px 0;
+  text-indent: 5px;
+ }
+ 
+ #opcoes.quizz label input[type=radio] {
+  border: 0;
+  float: left;
+  margin: 3px 0 0 0;
+  outline: none;
+  
+ }
+ 
+ #opcoes.quizz label span {
+  font-weight: bold;
+ }
+ 
+ input[type=checkbox] {
+  border: 0;
+ }
+</style>
+
+
+<script type="text/javascript">
+
+jQuery(function($){
+ 
+ $('.btn_fechar_quizz').find('a').click(function(evento){
+  $(this).parent().parent().hide('fast');
+  evento.preventDefault();
+ });
+ 
+ $( window ).load(function(){
+  
+  setInterval(function(){
+   var $liImagemAtual = $( '.listagem-not' ).find( 'ul' ).find( 'li a img.imagem_ativa' ).parents( 'li' );
+   if( $liImagemAtual.next().length ){
+    $liImagemAtual.next().find( 'a' ).click();
+   } else {
+    $liImagemAtual = $( '.listagem-not' ).find( 'ul' ).find( 'li:first' ).find( 'a' ).click();
+   }
+  }, 10000);
+  
+ });
+ 
+});
+
+</script>
+
+
+
+
+
+
+<style type="text/css">
+   .menu-360,
+   .menu-360:hover,
+   .menu-360 a,
+   .menu-360 a:hover { border: 0 !important }
+   
+   .menu-360 a {
+    background: #fc0 !important;
+    height: 35px !important;
+    width: auto;
+   }
+   
+   .menu-360 a span { display: none }
+   
+   .menu-about-acij ul { margin-left: 300px }
+   .menu-about-acij ul li { border-bottom: 0 !important; height: auto; padding-bottom: 0 !important; width: auto !important; }
+   .menu-about-acij ul li p { color: #fff; margin: 0 0 20px 0; }
+  </style>
+</head>
+<body>
+
+
+
+
+ 
+
+<div class="global-div">
+ 
+<script type="text/javascript">
+//&lt;!--[CDATA[
+function removeSpaces(string) {
+ var tstring = &quot;&quot;;
+ string = '' + string;
+ splitstring = string.split(&quot; &quot;);
+ for(i = 0; i &lt; splitstring.length; i++)
+ tstring += splitstring[i];
+ return tstring;
+}
+function ValidarBusca()
+{
+ var dsbusca = document.getElementById('dsbusca');
+
+ if( (removeSpaces(dsbusca.value).length &lt; 3) || (removeSpaces(dsbusca.value) == &quot;/buscarpor&quot;) ) {
+  alert(&quot;Informe no m&iacute;nimo 3 caracteres.&quot;);
+  dsbusca.focus();
+  return false;
+ }
+ 
+}
+
+function ValidarBusca2()
+{
+ var dsbusca = document.getElementById('dsbusca2');
+
+ if( (removeSpaces(dsbusca.value).length &lt; 3) || (removeSpaces(dsbusca.value) == &quot;/buscarpor&quot;) ) {
+  alert(&quot;Informe no m&iacute;nimo 3 caracteres.&quot;);
+  dsbusca.focus();
+  return false;
+ }
+ 
+}
+
+function ValidarBusca3()
+{
+ var dsbusca = document.getElementById('dsbusca3');
+
+ if( (removeSpaces(dsbusca.value).length &lt; 3) || (removeSpaces(dsbusca.value) == &quot;/buscarpor&quot;) ) {
+  alert(&quot;Informe no m&iacute;nimo 3 caracteres.&quot;);
+  dsbusca.focus();
+  return false;
+ }
+ 
+}
+//]]--&gt;
+</script>
+
+<div class="topo-div">
+    
+<a href="/"><img alt="ACIJ" class="left" height="141" src="/images/acij.png" width="149"></a>
+      
+<div>
+          
+<form action="/busca/send" class="busca-geral top5" method="post" onsubmit="return ValidarBusca();" style="padding: 50px 0">
+    
+<input class="clear" id="dsbusca" name="dsbusca" type="text">
+    <input name="identificador" type="hidden" value="20130501110326">
+    <input name="ok" type="submit" value="Ok">
+         
+</form>
+      
+</div>
+      
+      
+<p class="top10 bottom10">Busca Associados</p>
+   
+      
+<form action="/associados/filter" class="busca-associados left jqtransform">
+      
+<div class="rowElem">
+  
+         
+<select id="ramo_atividade_id" name="ramo_atividade_id" size="3">
+     <option selected value="">TODOS OS SEGMENTOS</option><option value="112">&amp;Oacute;TICA / RELOJOARIA</option><option value="317">A&amp;Ccedil;O</option><option value="491">A&amp;Ccedil;O-INOX</option><option value="210">A&amp;Ccedil;OUGUE / ABATE</option><option value="366">ABASTEC / TRAT DE &amp;Aacute;GUA</option><option value="209">ACADEMIA DE ATIVIDADES F&amp;Iacute;SICAS</option><option value="51">ADM DE IM&amp;Oacute;VEIS</option><option value="409">AG&amp;Ecirc;NCIA DE LEIL&amp;Atilde;O</option><option value="213">AG&amp;Ecirc;NCIA DE TURISMO</option><option value="135">AGROPECU&amp;Aacute;RIA / CRIA&amp;Ccedil;&amp;Atilde;O DE AVES</option><option value="477">ALIMENTA&amp;Ccedil;&amp;Atilde;O</option><option value="451">AQUECEDORES A G&amp;Aacute;S</option><option value="307">ARQUITETURA / ENGENHARIA</option><option value="215">ASSES COM&amp;Eacute;RCIO EXTERIOR</option><option value="299">ASSES EMPRES / FINANCEIRA</option><option value="494">ASSES FOLHA DE PAGAMENTO</option><option value="216">ASSES JUR&amp;Iacute;DICA</option><option value="376">ASSIST ODONTOLOGICA</option><option value="280">AUDITORIA</option><option value="218">AUTO ESCOLA</option><option value="393">AUTOMA&amp;Ccedil;&amp;Atilde;O COMERCIAL</option><option value="219">AUTOMA&amp;Ccedil;&amp;Atilde;O INDUSTRIAL</option><option value="254">AUTOMEC&amp;Acirc;NICO</option><option value="151">AUTOPE&amp;Ccedil;AS / PNEUS</option><option value="458">AVIAMENTOS</option><option value="457">BEBIDAS</option><option value="57">BORRACHA</option><option value="266">BRINDES PROMOCIONAIS</option><option value="400">BUFFET PARA EVENTOS</option><option value="445">CAL&amp;Ccedil;ADOS</option><option value="308">CART&amp;Oacute;RIO</option><option value="86">CHAVEIRO</option><option value="127">CHOCOLATE</option><option value="352">COLETA DE RES&amp;Iacute;DUOS</option><option value="483">COMPUTACAO GR&amp;Aacute;FICA</option><option value="277">COMUNICA&amp;Ccedil;&amp;Atilde;O</option><option value="486">COMUNICA&amp;Ccedil;&amp;Atilde;O VISUAL</option><option value="144">CONFEC&amp;Ccedil;&amp;Atilde;O / VESTU&amp;Aacute;RIO</option><option value="284">CONS&amp;Oacute;RCIO</option><option value="58">CONSTRU&amp;Ccedil;&amp;Atilde;O CIVIL</option><option value="267">CONSULT AMBIENTAL</option><option value="281">CONSULTORIA</option><option value="260">CONTABILIDADE</option><option value="91">CORREIO</option><option value="422">CORRETORA DE C&amp;Acirc;MBIO</option><option value="246">CORRETORES DE SEGUROS</option><option value="125">COZINHA INDUSTRIAL</option><option value="97">DECORA&amp;Ccedil;&amp;Atilde;O</option><option value="94">DEDETIZA&amp;Ccedil;&amp;Atilde;O</option><option value="81">DENTISTA / ORTODONTIA</option><option value="66">DESIGN</option><option value="98">DESPACHANTE</option><option value="149">DISTRIBUIDORAS</option><option value="65">EDUCA&amp;Ccedil;&amp;Atilde;O</option><option value="88">EMBALAGEM</option><option value="441">EQUIP AGR&amp;Iacute;COLAS</option><option value="101">EQUIP ELETR&amp;Ocirc;NICOS</option><option value="478">EQUIP ESPORTIVOS</option><option value="133">EQUIP NAVAIS</option><option value="311">EQUIP ODONTOL&amp;Oacute;GICOS</option><option value="464">EQUIP PLUVIAIS</option><option value="469">EQUIP TECNOL&amp;Oacute;GICOS</option><option value="117">ESCOLA DAN&amp;Ccedil;A</option><option value="93">ESTACIONAMENTO</option><option value="440">ESTAMPARIA</option><option value="471">EVENTOS</option><option value="357">FABR DE FUMO</option><option value="223">FABR DE M&amp;Aacute;QUINAS</option><option value="312">FABR DE PE&amp;Ccedil;AS</option><option value="61">FABR DE PERSIANA E CORTINA</option><option value="148">FABR DE TECIDOS</option><option value="489">FABRICACAO DE COMPONENTES AUTOMOTIVOS</option><option value="342">FACTORING</option><option value="474">FARMACEUTICO</option><option value="106">FARM&amp;Aacute;CIA</option><option value="455">FARM&amp;Aacute;CIA DE MANIPULA&amp;Ccedil;&amp;Atilde;O</option><option value="380">FEIRA, CONGRESSO E SIMILARES</option><option value="385">FERRAMENTAS / ESQUADRIAS / FERRAGENS</option><option value="302">FLORICULTURA</option><option value="230">FONOAUDIOLOGIA</option><option value="60">FOTOGRAFIA</option><option value="85">FUNDA&amp;Ccedil;&amp;Otilde;ES, ENTIDADES E ASSOCIACOES</option><option value="438">FUNDI&amp;Ccedil;&amp;Atilde;O</option><option value="141">FUNILARIA E PINTURA</option><option value="442">GALVANIZA&amp;Ccedil;&amp;Atilde;O</option><option value="68">GR&amp;Aacute;FICA / EDITORA</option><option value="500">GUARDA E GERENCIAMENTO DE DOCUMENTOS</option><option value="473">HOTEL</option><option value="103">IDIOMAS</option><option value="227">INFORM&amp;Aacute;TICA</option><option value="298">INST FINANCEIRA</option><option value="323">INST HOSPIT / CL&amp;Iacute;NICAS</option><option value="292">INSTAL REDE DE G&amp;Aacute;S</option><option value="493">INSTALACOES ELETRICAS</option><option value="482">ISOLAMENTO T&amp;Eacute;RMICO</option><option value="399">JARDINAGEM / PAISAGISMO</option><option value="353">JAZIGO</option><option value="119">LABORAT&amp;Oacute;RIO AN&amp;Aacute;LISE</option><option value="130">LAVANDERIA / TINTURARIA</option><option value="499">LAZER E ENTRETENIMENTO</option><option value="390">LIVRARIA / PAPELARIA</option><option value="346">LOCA&amp;Ccedil;&amp;Atilde;O DE M&amp;Aacute;QUINAS</option><option value="115">LOCA&amp;Ccedil;&amp;Atilde;O DE V&amp;Iacute;DEO E DVD</option><option value="82">LOCA&amp;Ccedil;&amp;Atilde;O DE VE&amp;Iacute;CULOS</option><option value="462">M&amp;Oacute;VEIS / ELETRODOM&amp;Eacute;STICOS</option><option value="279">MANUT DE ELETROELETR&amp;Ocirc;NICOS</option><option value="89">MANUT DE GANCHEIRAS</option><option value="153">MANUT IND / RESIDENCIAL</option><option value="290">M&amp;Aacute;QUINAS E EQUIPAMENTOS</option><option value="126">MARCAS E PATENTES</option><option value="53">MARCENARIA</option><option value="129">MARMORARIA</option><option value="475">MASSOTERAPIA / FISIOTERAPIA</option><option value="102">MATERIAIS EL&amp;Eacute;TRICOS</option><option value="72">MATERIAL DE CONSTRU&amp;Ccedil;&amp;Atilde;O</option><option value="251">MEC&amp;Acirc;NICA</option><option value="411">MEC&amp;Acirc;NICA INDUSTRIAL</option><option value="453">MEDIA&amp;Ccedil;&amp;Atilde;O E ARBITRAGEM</option><option value="143">MEDICINA DO TRABALHO</option><option value="410">MEDICINA OCUPACIONAL</option><option value="377">MERCADO AUTOMOBIL&amp;Iacute;STICO</option><option value="256">METALMEC&amp;Acirc;NICO</option><option value="74">METALURGICA</option><option value="446">MONTAGEM DE MAQ INDUSTRIAIS</option><option value="460">N&amp;Aacute;UTICO</option><option value="136">PANIFICADORA / CONFEITARIA</option><option value="496">PERSONALIZACAO</option><option value="407">PESQUISA DE MERCADO</option><option value="293">PET SHOP</option><option value="349">PINTURA A P&amp;Oacute;</option><option value="468">PISCINAS</option><option value="329">PLANOS DE SA&amp;Uacute;DE</option><option value="229">PL&amp;Aacute;STICA</option><option value="137">POSTO DE COMBUST&amp;Iacute;VEL</option><option value="341">PR&amp;Eacute;-MOLDADOS</option><option value="439">PROD ERGONOMICOS</option><option value="287">PROD M&amp;Eacute;DICOS / ODONTOLOGICOS</option><option value="467">PROD QU&amp;Iacute;MICOS</option><option value="449">PROD QU&amp;Iacute;MICOS LABORATORIAIS</option><option value="318">PRODUTORA DE V&amp;Iacute;DEO</option><option value="122">PSICOLOGIA</option><option value="255">PUBLICIDADE E PROPAGANDA</option><option value="306">QU&amp;Iacute;MICA</option><option value="506">Ramo Imobili&amp;aacute;rio</option><option value="495">RECICLAGEM</option><option value="243">RECURSOS HUMANOS</option><option value="436">REFRAT&amp;Aacute;RIOS</option><option value="147">REFRIGER / CLIMATIZA&amp;Ccedil;&amp;Atilde;O</option><option value="62">REPRES COMERCIAL</option><option value="330">RESTAURANTE, BAR E SIMILARES</option><option value="315">REVENDEDORA VE&amp;Iacute;CULOS</option><option value="501">SA&amp;Uacute;DE</option><option value="124">SA&amp;Uacute;DE / BELEZA</option><option value="383">SALGADOS, DOCES E COQUETEIS</option><option value="56">SEGURAN&amp;Ccedil;A</option><option value="265">SERIGRAFIA</option><option value="268">SERRALHERIA</option><option value="379">SHOPPING CENTER</option><option value="132">SIDER&amp;Uacute;RGICA</option><option value="362">SINDICATO</option><option value="487">SOFTWARE</option><option value="301">SUPERMERCADO</option><option value="278">T&amp;Eacute;CNICOS PROFISSIONAIS</option><option value="320">TELEFONIA</option><option value="109">TELEFONIA M&amp;Oacute;VEL</option><option value="138">TELEMARKETING</option><option value="492">TERMINAL PORTUARIO</option><option value="52">TEXTIL</option><option value="67">TRANSPORTE</option><option value="484">TRATAMENTO AMBIENTAL</option><option value="481">TRATAMENTO DE ESGOTO</option><option value="118">TRATAMENTO DE SUPERF&amp;Iacute;CIE</option><option value="63">TREINAMENTOS</option><option value="387">TROF&amp;Eacute;U / GRAVA&amp;Ccedil;&amp;Atilde;O METAL</option><option value="497">UNIFORMES</option><option value="386">VETERIN&amp;Aacute;RIA</option><option value="394">VIDROS, ESPELHOS, MOLDURAS</option><option value="490">VISTORIA VEICULAR</option>                     
+         </select>
+        
+</div>
+   
+<input name="flag_envia" type="hidden" value="1">
+      <input class="top10" id="trecho" name="trecho" onblur="if(this.value == '') this.value='N&atilde;o utilize acentos';" onfocus="if(this.value == 'N&atilde;o utilize acentos') this.value='';" type="text" value="N&atilde;o utilize acentos">
+     
+         
+<br>
+         
+<input name="buscar" type="submit" value="buscar">
+      
+</form>
+      
+   
+</div>
+<!--topo div--> 
+<div class="conteudo-div">
+  
+
+
+<ul class="menu">
+     
+<li class="paddingleft20">
+<a class="menu_top_representatividade sem_submenu" href="/representatividade/show/id/1/origem_id/1/destino_id/4" title="Representatividade">Representatividade</a>
+   <!--
+  <ul style="margin-left: 300px;">
+    <li><a href="">Educação</a></li>
+    <li><a href="">Saúde</a></li>
+    <li><a href="">Meio Ambiente</a></li>
+    <li><a href="">Infra Estrutura</a></li>
+    <li><a href="">Carga Tributária</a></li>
+    <li><a href="">Lazer, Recreação</a></li>
+    <li><a href="">Segurança Pública</a></li>
+      </ul>--> <!--submenu-->
+  
+</li>
+    
+     
+<li>
+<a href="#" title="Servi&ccedil;os">Servi&ccedil;os</a>
+   
+<ul style="margin-left: 300px;">
+    
+<li>
+<a href="http://www.acij.com.br/servicos/show/id/16">Associe-se</a>
+</li> 
+<li>
+<a href="/servicos/show/id/12">BRDE</a>
+</li> 
+<li>
+<a href="/servicos/show/id/5">Certificado de Origem</a>
+</li> 
+<li>
+<a href="/servicos/show/id/9">Espa&amp;ccedil;o Empresarial</a>
+</li> 
+<li>
+<a href="/servicos/show/id/21">Feito em Joinville </a>
+</li> 
+<li>
+<a href="http://www.acij.com.br/salas">Loca&amp;ccedil;&amp;atilde;o de Salas</a>
+</li> 
+<li>
+<a href="http://www.acij.com.br/servicos/show/id/7">Mailing List</a>
+</li> 
+<li>
+<a href="http://www.acij.com.br/banco_conhecimento">Materiais de Cursos/Palestras</a>
+</li> 
+<li>
+<a href="http://www.acij.com.br/servicos/show/id/8/destino_id/14">Miss&amp;atilde;o Empresarial</a>
+</li> 
+<li>
+<a href="/servicos/show/id/19">Programa de Energia</a>
+</li> 
+<li>
+<a href="/servicos/show/id/20">Programa Orientar</a>
+</li> 
+<li>
+<a href="http://www.acij.com.br/servicos/rede">Rede de Vantagens</a>
+</li> 
+<li>
+<a href="/servicos/show/id/6">Serasa</a>
+</li> 
+<li>
+<a href="/servicos/show/id/11">Sess&amp;atilde;o de Neg&amp;oacute;cios</a>
+</li> 
+<li>
+<a href="http://www.acij.com.br/servicos/utilcard">Util Card</a>
+</li>      
+</ul>
+<!--submenu-->
+  
+</li>     
+     
+<li>
+<a href="#" title="N&uacute;cleos">N&uacute;cleos</a>
+      
+<ul style="margin-left: 300px;">
+      
+<li> 
+<a href="/sobre_nucleos">&raquo; Sobre os n&amp;uacute;cleos</a> 
+</li>
+               
+<li>
+<a href="/nucleo/agenciasdepropagandaemarketing">&raquo; Ag&amp;ecirc;ncias de Propaganda e Marketing</a>
+</li>
+               
+<li>
+<a href="/nucleo/automacao">&raquo; Automa&amp;ccedil;&amp;atilde;o</a>
+</li>
+               
+<li>
+<a href="/nucleo/comercioexterior">&raquo; Com&amp;eacute;rcio Exterior</a>
+</li>
+               
+<li>
+<a href="/nucleo/concessionarias">&raquo; Concession&amp;aacute;rias de Ve&amp;iacute;culos</a>
+</li>
+               
+<li>
+<a href="/nucleo/decoracao">&raquo; Decora&amp;ccedil;&amp;atilde;o e Interiores</a>
+</li>
+               
+<li>
+<a href="/nucleo/empresascontabeis">&raquo; Empresas Cont&amp;aacute;beis</a>
+</li>
+               
+<li>
+<a href="/nucleo/escolasdeeducacaoprofissional">&raquo; Escolas de Educa&amp;ccedil;&amp;atilde;o Profissional</a>
+</li>
+               
+<li>
+<a href="/nucleo/gestaoambiental">&raquo; Gest&amp;atilde;o Ambiental</a>
+</li>
+               
+<li>
+<a href="/nucleo/gestaoempresarial">&raquo; Gest&amp;atilde;o Empresarial</a>
+</li>
+               
+<li>
+<a href="/nucleo/saude">&raquo; Gestores da Sa&amp;uacute;de</a>
+</li>
+               
+<li>
+<a href="/nucleo/imobiliarias">&raquo; Imobili&amp;aacute;rias</a>
+</li>
+               
+<li>
+<a href="/nucleo/jovensempresarios">&raquo; Jovens Empres&amp;aacute;rios</a>
+</li>
+               
+<li>
+<a href="/nucleo/juridico">&raquo; Jur&amp;iacute;dico</a>
+</li>
+               
+<li>
+<a href="/nucleo/meioambiente">&raquo; Meio Ambiente</a>
+</li>
+               
+<li>
+<a href="/nucleo/mulheresempresarias">&raquo; Mulheres Empres&amp;aacute;rias</a>
+</li>
+               
+<li>
+<a href="/nucleo/postos">&raquo; Postos de Revenda de Combust&amp;iacute;veis Automotivos</a>
+</li>
+               
+<li>
+<a href="/nucleo/repara%C3%A7%C3%A3oautomotiva">&raquo; Repara&amp;ccedil;&amp;atilde;o Automotiva</a>
+</li>
+               
+<li>
+<a href="/nucleo/segurancaesaunotrabalho">&raquo; Seguran&amp;ccedil;a e Sa&amp;uacute;de no Trabalho</a>
+</li>
+               
+<li>
+<a href="/nucleo/sistemasgestaoqualidade">&raquo; Sistemas de Gest&amp;atilde;o da Qualidade</a>
+</li>
+               
+<li>
+<a href="/nucleo/supermercadosunicerta">&raquo; Supermercados Rede Unicerta</a>
+</li>
+               
+<li>
+<a href="/nucleo/usinagemeferramentaria">&raquo; Usinagem e Ferramentaria</a>
+</li>
+         
+</ul>
+<!--submenu-->
+     
+     
+</li>          
+     
+<li>
+<a class="ativa" href="#" title="Gest&atilde;o Compartilhada">Gest&atilde;o Compartilhada</a>
+   
+<ul style="margin-left: 300px;">
+   
+<li>
+<a href="/conteudos/show/id/12">O Que &amp;eacute; Gest&amp;atilde;o Compartilhada</a>
+</li>
+   
+<li>
+<a href="/noticias/list/origem_id/31/destino_id/3">Not&amp;iacute;cias</a>
+</li>
+   
+<li>
+<a href="/agendas/list2/origem_id/31/destino_id/3">Eventos</a>
+</li>
+  
+</ul>
+  
+</li>
+  
+  
+<li>
+<a class="sem_submenu" href="/noticias" title="Not&iacute;cias">Not&iacute;cias</a>
+</li>
+    
+  
+  
+<li>
+<a class="sem_submenu" href="http://www.guiabrasil360.com.br/index/tour/cliente/41/ambiente/532" target="_blank" title="ACIJ 360&ordm;"><span>ACIJ 360&deg;</span></a>
+</li>
+  
+<li class="menu-about-acij">
+<a href="#" target="_blank" title="About ACIJ"><img alt="About ACIJ" src="/images/flag-eua.png"></a>
+   
+<ul>
+    
+<li>
+     
+<p>      
+<strong>Welcome to the ACIJ - Joinville Business Association website!</strong>     
+</p>
+     
+<p>      Founded on February 16, 1911, ACIJ is the entity with the greatest representation and strength in the city of Joinville and one of the most important in the State of Santa Catarina in southern Brazil.     </p>
+     
+<p>      The Association&amp;rsquo;s greatest purpose is to strengthen the companies in the region, through work that aims to develop the economy in order to improve the quality of life and well-being of the community where it operates.
+     </p>     
+     
+<p>      In 1991, it brought to Brazil the group advisory project, with the Sector Nuclei, uniting companies looking for joint solutions to common problems. The partnership, which opened the doors for the participation of micro and small-sized companies, was signed with the Chamber of Arts and Trades of Munich and Upper Bavaria (Germany).
+     </p>
+     
+<p>      The entity&amp;rsquo;s structure includes Councils (Higher, Deliberative and Fiscal) and a volunteer Board, as well as an executive director with a group of 25 professionals, all college-educated, and most, with post graduation or specializations.
+     </p>
+     
+<p>      ACIJ&amp;rsquo;s slogan is &amp;quot;Your Business Stronger,&amp;quot; and it works for this, through actions and programs aimed to simplify the tax system, reduce the tax burden, constantly improve infrastructure, efficiency in public administration, decrease bureaucracy and increase development and assimilation of knowledge and new technologies.
+     </p>
+     
+<p>      To speak with our team, write to comunicacao@acij.com.br or phone 55 47 3461 3333.
+     </p>     
+<br>
+     
+<p>      
+<strong>ABOUT JOINVILLE</strong>
+     
+</p>
+     
+<p>      The largest city in the state of Santa Catarina and third largest economy in Southern Brazil, Joinville has among its main characteristics entrepreneurship and diversity. There are 515,000 inhabitants, united among settlers including Germans, Italians, and the &amp;quot;Joinvilenses&amp;quot; that come from all parts of the country, looking for employment, looking for opportunities, looking for a better quality of life.
+     </p>
+     
+<p>      Besides the mix of people, &amp;ldquo;Manchester Catarinense&amp;rdquo; has an extremely diverse industry, which helps maintain the economy balanced and in constant development. Featured industries are: metalworking (Tupy, Embraco, Schulz, Athletic, Wetzel), Plastic (Tigre, Amanco, Termot&amp;eacute;cnica), textiles (D&amp;ouml;hler, Lepper) and technology (Totvs and Neogrid), in addition to Perini Business Park, industrial condominium with more than 90 companies.
+     </p>
+     
+<p>      Over the past 15 years, the city has transformed its business profile, with the arrival of the shopping centers: Mueller, Cidade das Flores, Garten and Americanas bringing together close to 600 stores.
+     </p>
+    
+</li>
+   
+</ul>
+  
+</li>
+   
+</ul>
+<!--menu-->
+
+<div class="esq-div">
+  
+   
+   
+   
+<ul class="caminho" id="breadcrumb">
+   
+<li>
+<a href="/">P&amp;aacute;gina inicial </a>&raquo;</li> 
+      
+<li>
+<strong>Not&amp;iacute;cias</strong>
+</li>
+   
+</ul>
+   
+    &#13;
+
+<ul class="controles right">&#13;
+     
+<li>
+<a class="tamanho_texto" href="" id="aumentar_texto"><img alt="aumentar" height="13" src="/images/fontemais.gif" title="Aumentar fonte do texto" width="16"></a>
+</li>&#13;
+     
+<li>
+<a class="tamanho_texto" href="" id="diminuir_texto"><img alt="diminuir" height="13" src="/images/fontemenos.gif" title="Diminuir fonte do texto" width="12"></a>
+</li>&#13;
+     
+<li>
+<a href=""><img alt="imprimir" height="16" src="/images/print.gif" title="Imprimir texto" width="16"></a>
+</li>&#13;
+
+</ul>   
+   
+<h4>Not&amp;iacute;cias</h4>
+      
+   <!-- INICIO PAGINACAO -->
+        
+     
+     
+<div class="centraliza-paginacao">
+           
+<img alt="anterior" class="left right10" height="30" src="/images/esq-seta-sidebar.jpg" width="31">     
+      <ul class="paginacao left">
+       
+      
+<li>
+<a class="pag-atual" href="#">1</a>
+</li>
+<li>
+<a href="/noticias/list/pag/2#breadcrumb">2</a>
+</li>
+<li>
+<a href="/noticias/list/pag/3#breadcrumb">3</a>
+</li>
+<li>
+<a href="/noticias/list/pag/4#breadcrumb">4</a>
+</li>
+<li>
+<a href="/noticias/list/pag/5#breadcrumb">5</a>
+</li>
+<li>
+<a href="/noticias/list/pag/6#breadcrumb">6</a>
+</li>
+<li>
+<a href="/noticias/list/pag/7#breadcrumb">7</a>
+</li>      
+            
+</ul>
+      
+<a href="/noticias/list/pag/2#breadcrumb"><img alt="anterior" class="left right10 bottom25" height="30" src="/images/dir-seta-sidebar.jpg" width="31"></a>     <!--<p>Mostrando <strong>0</strong> - <strong>5</strong> de <strong>435</strong> registros</p>-->
+           
+</div> <!-- .centraliza-paginacao -->
+     <!-- FIM PAGINACAO -->
+   
+   
+   
+   
+<div class="container_noticias">
+    
+   
+<p>
+   
+   
+</p>
+<ul class="lista_noticias">
+       
+   
+<li>
+     <!-- <span class="dataum">30/04</span> -->
+     
+<span>
+      <strong></strong>
+      <a href="/noticias/show/id/905%26">Reuni&amp;atilde;o do Conselho</a>     </span>
+   
+</li>
+    
+   
+<li>
+     <!-- <span class="dataum">16/04</span> -->
+     
+<span>
+      <strong></strong>
+      <a href="/noticias/show/id/901%26">Revista 21</a>     </span>
+   
+</li>
+    
+   
+<li>
+     <!-- <span class="dataum">15/04</span> -->
+     
+<span>
+      <strong>Portal ACIJ<br>
+</strong>
+      <a href="/noticias/show/id/900%26">Sess&amp;atilde;o de Neg&amp;oacute;cios</a>     </span>
+   
+</li>
+    
+   
+<li>
+     <!-- <span class="dataum">02/04</span> -->
+     
+<span>
+      <strong></strong>
+      <a href="/noticias/show/id/893%26">Joinville em Dados</a>     </span>
+   
+</li>
+      
+   
+</ul>
+  
+<br style="clear:both">
+
+   <!-- INICIO PAGINACAO -->
+        
+     
+     
+<div class="centraliza-paginacao">
+              
+<img alt="anterior" class="left right10" height="30" src="/images/esq-seta-sidebar.jpg" width="31">        
+      <ul class="paginacao left">
+       
+      
+<li>
+<a class="pag-atual" href="#">1</a>
+</li>
+<li>
+<a href="/noticias/list/pag/2#breadcrumb">2</a>
+</li>
+<li>
+<a href="/noticias/list/pag/3#breadcrumb">3</a>
+</li>
+<li>
+<a href="/noticias/list/pag/4#breadcrumb">4</a>
+</li>
+<li>
+<a href="/noticias/list/pag/5#breadcrumb">5</a>
+</li>
+<li>
+<a href="/noticias/list/pag/6#breadcrumb">6</a>
+</li>
+<li>
+<a href="/noticias/list/pag/7#breadcrumb">7</a>
+</li>      
+            
+</ul>
+      
+<a href="/noticias/list/pag/2#breadcrumb"><img alt="anterior" class="left right10 bottom25" height="30" src="/images/dir-seta-sidebar.jpg" width="31"></a>     <!--<p>Mostrando <strong>0</strong> - <strong>5</strong> de <strong>435</strong> registros</p>-->
+           
+</div> <!-- .centraliza-paginacao -->
+     <!-- FIM PAGINACAO -->
+     
+     
+     
+     
+   
+</div> <!-- .container_noticias -->
+
+   
+  &#13;
+&#13;
+
+<script type="text/javascript">
+jQuery(document).ready(function(){
+ 
+ fundo_botao = 'url("/images/menu-hover1.gif") repeat-x scroll center bottom';
+ bt_compartilhar = jQuery('.menu-inf').find('a[title=Compartilhar]');
+ bt_comentarios = jQuery('.menu-inf').find('a[title=Comentários]');
+ div_compartilhar = jQuery('.midias_sociais');
+ div_comentarios = jQuery('.comentarios');
+ 
+     jQuery('.midias_sociais').css('display', 'none');
+    bt_comentarios.css('background', fundo_botao);
+  
+ 
+ bt_comentarios.click(function(evento){
+  jQuery(this).css('background', fundo_botao);
+  bt_compartilhar.css('background', 'none');
+  div_compartilhar.hide();
+  div_comentarios.show('normal');
+  evento.preventDefault();
+ })
+ 
+ bt_compartilhar.click(function(evento){
+  jQuery(this).css('background', fundo_botao);
+  bt_comentarios.css('background', 'none');
+  div_comentarios.hide();
+  div_compartilhar.show('normal');
+  evento.preventDefault();
+ })
+ 
+ 
+ 
+});
+</script>&#13;
+&#13;
+
+<br clear="all">&#13;
+&#13;
+
+<span id="ancora_comentario"></span>&#13;
+&#13;
+
+<ul class="menu-inf">&#13;
+ 
+<li>
+<a href="#" title="Compartilhar">Compartilhar</a>
+</li>&#13;
+      
+<li class="border0">
+<a href="#" title="Coment&aacute;rios">Coment&aacute;rios</a>
+</li>&#13;
+   
+</ul>&#13;
+   &#13;
+   &#13;
+&#13;
+   <!-- INÍCIO COMENTÁRIO -->&#13;
+   
+<div class="comentarios">&#13;
+       &#13;
+      
+<div>&#13;
+                                        
+<form action="/comentarios/send" class="comentario-form" id="cform_comentario" method="post" name="cform_comentario">                                                               
+<fieldset class="field_50 odd">&#13;
+        
+<label>*Nome:</label><input class="required" id="nome" name="nome" type="text">&#13;
+       
+</fieldset>&#13;
+       &#13;
+       
+<fieldset class="field_50 even">&#13;
+        
+<label>*E-mail:</label><input class="required email" id="email" name="email" type="text">&#13;
+       
+</fieldset>&#13;
+       &#13;
+       
+<fieldset class="field_100">&#13;
+        
+<label>Mensagem (M&amp;aacute;ximo 250 caracteres):</label><textarea class="required" id="descricao" name="descricao"></textarea>
+<br style="clear:both;">&#13;
+        
+<input name="pagina" type="hidden" value="http://acij.com.br/noticias">&#13;
+        <input name="nucleo_id" type="hidden" value="0">&#13;
+       
+</fieldset>&#13;
+&#13;
+                                                        
+<br clear="all">&#13;
+                                                        
+<fieldset class="field_50">&#13;
+                                                            
+<label for="celular">Digite abaixo o n&amp;uacute;mero destacado acima:</label>&#13;
+                                                            <a href="" onclick="return false" title="Reload image"><img onclick="this.src=&amp;quot;/captcha?r=&amp;quot; + Math.random() + &amp;quot;&amp;amp;reload=1&amp;quot;" src="/captcha?1367420606"></a>&#13;
+                                                            
+<br clear="all">&#13;
+                                                            
+<input class="required" id="captcha" name="captcha" size="30" style="width: 292px; margin-top: 2px;" type="text" value="">
+<br>&#13;
+                                                        
+</fieldset>&#13;
+                                                        
+<br clear="all">&#13;
+&#13;
+       
+<fieldset class="field_100">&#13;
+        
+<input name="enviar" type="submit" value="enviar coment&aacute;rio">&#13;
+       
+</fieldset>&#13;
+      
+</form>&#13;
+      
+<div class="aviso">&#13;
+       
+<p>&#13;
+        
+<span>AVISO:</span> Os coment&aacute;rios s&atilde;o de responsabilidade de seus autores e n&atilde;o apresentam&#13;
+        a opini&atilde;o da ACIJ. &Eacute; vedada a inser&ccedil;&atilde;o de coment&aacute;rios que violem a lei, a moral e os bons&#13;
+        costumes ou violem direitos de terceiros. A ACIJ poder&aacute; retirar, sem pr&eacute;via notifica&ccedil;&atilde;o, coment&aacute;rios&#13;
+        postados que n&atilde;o respeitem os crit&eacute;rios impostos neste aviso ou que estejam fora do tema da mat&eacute;ria comentada.&#13;
+       </p>&#13;
+       &#13;
+      
+</div> <!-- .aviso -->&#13;
+    
+</div>&#13;
+    
+<script>
+     function BuscarPag(caminho)
+     {
+      req180.open("POST", caminho, true);
+      req180.onreadystatechange = function() 
+      {
+       if(req180.readyState == 4) 
+       {
+        var html = req180.responseText
+        var lista = document.getElementById("htmcomentario")
+        lista.innerHTML = html;   
+       }
+      };
+       
+      
+      req180.setRequestHeader('Content-Type', 'text/html; charset=iso-8859-1');
+      req180.send("");
+     
+     }
+    </script>&#13;
+    &#13;
+&#13;
+
+<div class="container_comentarios" id="htmcomentario">&#13;
+
+<script src="/js/comentario.js" type="text/javascript"></script>
+&#13;
+    &#13;
+
+</div> <!-- .container_comentarios -->    &#13;
+   
+</div> <!-- .comentarios -->&#13;
+   &#13;
+   <!-- FIM COMENTÁRIO -->&#13;
+   &#13;
+&#13;
+   &#13;
+   &#13;
+   &#13;
+   &#13;
+   &#13;
+   &#13;
+   &#13;
+   &#13;
+   
+<div class="midias_sociais addthis_toolbox">&#13;
+  
+<ul class="controles left10 custom_images">&#13;
+    
+<li>
+<a class="addthis_button_delicious"><img alt="delicious" src="/images/delicious.jpg"></a>
+</li>&#13;
+    
+<li>
+<a class="addthis_button_google"><img alt="google" src="/images/google.jpg"></a>
+</li>&#13;
+    
+<li>
+<a class="addthis_button_twitter"><img alt="twitter" src="/images/twitter.jpg"></a>
+</li>&#13;
+    
+<li>
+<a class="addthis_button_facebook"><img alt="facebook" src="/images/facebook.jpg"></a>
+</li>&#13;
+    
+<li>
+<a class="addthis_button_myspace"><img alt="myspace" src="/images/myspace.jpg"></a>
+</li>&#13;
+    
+<li>
+<a class="addthis_button_windows"><img alt="windows" src="/images/windows.jpg"></a>
+</li>&#13;
+    
+<li>
+<a class="addthis_button_yahoobkm"><img alt="yahoo" src="/images/yahoo.jpg"></a>
+</li>&#13;
+    
+<li>
+<a class="addthis_button_digg"><img alt="digg" src="/images/digg.jpg"></a>
+</li>&#13;
+  
+</ul>&#13;
+   
+</div> <!-- .midias_sociais -->&#13;
+   
+<script src="http://s7.addthis.com/js/250/addthis_widget.js#username=acij"></script>   &#13;
+   &#13;
+        <!-- SOMENTE PARA NOTÍCIAS -->&#13;
+     
+<br style="clear:both">&#13;
+     
+<ul class="menu-inf clear">&#13;
+    
+<li>
+<a href="#" title="Servi&ccedil;os relacionados">Servi&ccedil;os relacionados</a>
+</li>&#13;
+    
+<li class="border0">
+<a href="/associe_se" title="Associe-se">Associe-se</a>
+</li>     &#13;
+     
+</ul>&#13;
+  &#13;
+   
+<ul class="servicos-rel">&#13;
+       
+</ul>  &#13;
+     <!-- FIM  -->&#13;
+      &#13;
+   &#13;
+   &#13;
+   &#13;
+   &#13;
+  
+   
+     
+   
+</div>
+<!--esq-->
+    
+  
+<div class="dir-div">
+     
+<div class="sidebar">
+ 
+<ul class="sidebar-nav">
+  
+<li class="ativo">
+<a href="#cursos" title="Cursos">Cursos</a>
+</li>
+  
+<li>
+<a class="noborder" href="#palestras" title="Palestras">Palestras</a>
+</li>
+  
+<li>
+<a href="#reunioes" title="Reuni&otilde;es">Eventos</a>
+</li>
+ 
+</ul>   
+      
+<div>
+        
+<div id="cursos">
+      
+<div style="width: 100%; float:left; margin-top: 15px;">&nbsp;</div>       
+       
+<ul class="lista-eventos">
+                 
+<li>
+             
+<h3>
+<a href="/agendas/show/id/1011">Negocia&amp;ccedil;&amp;atilde;o Inteligente em Vendas</a>
+</h3>
+             
+<p>
+             Data: 06 - 09 de Mai<br>
+             Hor&amp;aacute;rio: 19h &amp;agrave;s 22h             </p>
+          
+</li>
+                 
+<li>
+             
+<h3>
+<a href="/agendas/show/id/1020">ENEAGRAMA Aplicado ao Dia-a-Dia</a>
+</h3>
+             
+<p>
+             Data: 09/05<br>
+             Hor&amp;aacute;rio: 19h &amp;agrave;s 22h45min             </p>
+          
+</li>
+                 
+<li>
+             
+<h3>
+<a href="/agendas/show/id/1021">Assistente de Com&amp;eacute;rcio Exterior</a>
+</h3>
+             
+<p>
+             Data: 09 - 10 de Mai<br>
+             Hor&amp;aacute;rio: 8h30 &amp;agrave;s 17h             </p>
+          
+</li>
+                 
+<li>
+             
+<h3>
+<a href="/agendas/show/id/1013">NR 35 - Trabalho em Altura</a>
+</h3>
+             
+<p>
+             Data: 14/05<br>
+             Hor&amp;aacute;rio: 8h &amp;agrave;s 17h30             </p>
+          
+</li>
+              
+</ul>                             
+    
+</div>
+             
+<div id="palestras">
+      
+<div style="width: 100%; float:left; margin-top: 15px;">&nbsp;</div>       
+       
+<ul class="lista-eventos">
+              
+</ul>                             
+    
+</div>
+             
+<div id="reunioes">
+      
+<div style="width: 100%; float:left; margin-top: 15px;">&nbsp;</div>       
+       
+<ul class="lista-eventos">
+                 
+<li>
+             
+<h3>
+<a href="/agendas/show/id/1017">Gest&amp;atilde;o Compartilhada Norte</a>
+</h3>
+             
+<p>
+             Data: 25/04/2013<br>
+             Hor&amp;aacute;rio: 07h45 &amp;agrave;s 09h15             </p>
+          
+</li>
+                 
+<li>
+             
+<h3>
+<a href="/agendas/show/id/1018">Reuni&amp;atilde;o Gest&amp;atilde;o Compartilhada Sul</a>
+</h3>
+             
+<p>
+             Data: 23/04/2013<br>
+             Hor&amp;aacute;rio: 07h45 &amp;agrave;s 09h15             </p>
+          
+</li>
+                 
+<li>
+             
+<h3>
+<a href="/agendas/show/id/1008">Gest&amp;atilde;o Compartilhada Vila Nova</a>
+</h3>
+             
+<p>
+             Data: 10/04/2013<br>
+             Hor&amp;aacute;rio: 07h45 &amp;agrave;s 09h15             </p>
+          
+</li>
+                 
+<li>
+             
+<h3>
+<a href="/agendas/show/id/1003">Gest&amp;atilde;o Compartilhada Leste</a>
+</h3>
+             
+<p>
+             Data: 02/04/2013<br>
+             Hor&amp;aacute;rio: 07h45 &amp;agrave;s 09h15             </p>
+          
+</li>
+              
+</ul>                             
+    
+</div>
+               
+</div>
+      
+</div>
+<!--sidebar-->
+  
+<div class="agenda-completa" style="float: left; width: 307px"> 
+ 
+<p>
+<a href="/agendas" title="veja a agenda completa"><strong>+ VEJA A AGENDA COMPLETA</strong></a>
+</p>
+</div>
+<!--agenda completa-->
+<span style="float: left">&nbsp;</span>  
+<div class="bottom25" style="float:left; width: 100%;"></div>
+      
+<p class="titulo">Destaques da semana</p>
+    
+<div style="width: 100%; float:left;">
+  
+<div style="float:left; margin-left: 0px; width: 100%; text-align: center">
+  
+<div style="height:180px; float:left; text-align:left;width: 100%;">
+ 
+<ul id="baeventos" style="width: 100%;">
+  
+</ul>
+ 
+<script type="text/javascript">  
+  jQuery('#baeventos').innerfade({ animationtype: 'fade', speed: 750, timeout: 8000, type: 'random' }); 
+ </script> 
+
+</div>  
+</div>
+ 
+</div>
+   
+<p class="titulo">Cadastre-se</p>
+ 
+ 
+<p>Preencha os campos abaixo e receba por email as novidades, eventos e not&amp;iacute;cias da ACIJ. &amp;Eacute; a sua empresa mais forte!</p>
+ 
+ 
+<form action="/receber_informacao/index/id/5" class="cadastro-form" method="post">
+ 
+ 
+<fieldset>
+  
+<label id="nome">Nome</label><input class="left10 required" id="nome" name="nome" style="float: right" type="text">
+ 
+</fieldset>
+ 
+ 
+<fieldset>
+  
+<label id="email">E-mail</label><input class="left10 required email" id="email" name="email" style="float: right" type="text">
+ 
+</fieldset>
+ 
+<input class="right53" name="enviar-cadastro" type="submit" value="enviar">
+</form>
+  
+</div>
+<!--dir-->
+
+
+
+   
+<div class="rodape">
+     
+<ul>
+       
+<li>
+<a href="/institucional/show/id/21" title="Perfil">Perfil</a>
+</li>
+       
+<li>
+<a href="/institucional/show/id/22" title="Hist&oacute;rico">Hist&amp;oacute;rico</a>
+</li>       
+       
+<li>
+<a href="/institucional/show/id/23" title="Localiza&amp;ccedil;&amp;atilde;o">Localiza&amp;ccedil;&amp;atilde;o</a>
+</li>
+       
+<li>
+<a href="/institucional/show/id/24" title="Diretoria">Diretoria</a>
+</li>
+       
+<li>
+<a href="/institucional/show/id/25" title="Elei&amp;ccedil;&amp;otilde;es ACIJ">Elei&amp;ccedil;&amp;otilde;es ACIJ</a>
+</li>
+       
+<li>
+<a href="/institucional/show/id/26" title="Equipe ACIJ">Equipe ACIJ</a>
+</li>
+       
+<li>
+<a href="/institucional/show/id/27" title="Entidades Parceiras">Entidades Parceiras</a>
+</li>
+    
+<li>
+<a href="/associe_se" title="Associe-se">Associe-se</a>
+</li>
+    
+<li>
+<a href="/noticias" title="Not&iacute;cias">Not&iacute;cias</a>
+</li>
+    
+<li>
+<a href="/contatos/index/id/8" title="Fale Conosco">Fale Conosco</a>
+</li>
+    
+<li>
+<a href="/conteudos/sitemap" title="Sitemap">Sitemap</a>
+</li>
+     
+</ul>
+    
+     <!--<p class="right right10 desenvolvimento"><a href="http://www.a2c.com.br" title="Criado por A2C" target="_blank"></a></p>-->
+  
+<p class="right right10 desenvolvimento">
+<a href="http://www.a2c.com.br" target="_blank" title="Criado por A2C"><span>A2C</span></a>
+</p>
+     
+     
+<p class="clear top20 left10">
+<strong>&copy; ACIJ 2013</strong> - Avenida Alu&amp;iacute;sio Pires Condeixa, 2.550 - Sagua&amp;ccedil;u - Joinville - SC - Fone: (47) 3461 3333</p>
+   
+</div> <!-- rodape -->
+
+   
+<br clear="all"> 
+</div>
+<!-- conteudo-->
+
+</div>
+
+<script src="/js/jqtransformplugin/jquery.jqtransform.js" type="text/javascript"></script>
+<script src="/js/jquery.validate.min.js" type="text/javascript"></script>
+<script src="/js/javascript.js" type="text/javascript"></script>
+<script src="/js/float-banner.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-708775-42']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+</script>
+
+
+
+</body>
+</html>

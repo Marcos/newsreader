@@ -1,0 +1,1427 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ 
+<meta charset="utf-8">
+ <!--<base href="http://www.joinville.sc.gov.br/" />--> 
+ 
+<meta content="IE=8,chrome=1" http-equiv="X-UA-Compatible">
+ 
+<meta content="pt-br" http-equiv="content-language"> 
+ 
+<meta content="index, follow" name="robots">
+ 
+<meta content="Secretaria de Prote&amp;ccedil;&amp;atilde;o Civil e Seguran&amp;ccedil;a P&amp;uacute;blica" name="title">
+ 
+<meta content="document" name="resource-type">
+ 
+<meta content="1" name="revisit-after">
+ 
+<meta content="internet" name="classification">
+ 
+<meta content="ouvidoria@joinville.sc.gov.br" name="owner">
+ 
+<meta content="http://defesacivil.joinville.sc.gov.br/public/portaldefesa/imagens/logo-pmj.png" property="og:image">
+<meta content="Portal Institucional da Defesa Civil de Joinville-SC." name="description">  
+ 
+<meta content="global" name="distribution">
+ 
+<meta content="general" name="rating">
+ 
+<meta content="completed" name="doc-class">
+ 
+ 
+<title>Secretaria de Prote&amp;ccedil;&amp;atilde;o Civil e Seguran&amp;ccedil;a P&amp;uacute;blica.</title>
+ 
+ 
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+ 
+<link href="/public/portaldefesa/favicon.ico" rel="shortcut icon">
+ 
+<link href="/public/portaldefesa/apple-touch-icon.png" rel="apple-touch-icon">
+  
+<link href="http://defesacivil.joinville.sc.gov.br/index/rss" rel="alternate" title="RSS" type="application/rss+xml">
+ 
+<link href="/public/portaldefesa/css/layout.css" media="all" rel="stylesheet" type="text/css">
+
+<link href="/public/portaldefesa/css/slideshow.css" media="all" rel="stylesheet" type="text/css">
+
+<link href="/public/portaldefesa/css/shadowbox.css" media="all" rel="stylesheet" type="text/css">
+
+<link href="/public/portaldefesa/css/radio.css" media="all" rel="stylesheet" type="text/css">
+
+<link href="/public/portaldefesa/css/datepicker.css" media="all" rel="stylesheet" type="text/css">
+<script src="/public/portaldefesa/js/libs/modernizr-2.0.6.min.js" type="text/javascript"></script>
+
+</head>
+<body>
+<!--[if lt IE 7 ]> <html lang="pt-br" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="pt-br" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="pt-br" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="pt-br" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><!--<![endif]-->
+
+    
+<script src="/public/portaldefesa/js/jquery-1.6.1.min.js"></script>
+ <script type="text/javascript">var shadowbox_config = "none";</script>
+ 
+<div id="container">
+  
+<header>
+   
+<div class="wrapper">&#13;
+ 
+<a class="logo-dc" href="http://defesacivil.joinville.sc.gov.br/" target="_top" title="Defesa Civil de Joinville"><img alt="Defesa Civil" border="0" src="/public/portaldefesa/imagens/logo-defesa-civil.png"></a> &#13;
+ 
+<div id="slidetop">&#13;
+  
+<img alt="" height="110" src="/public/portaldefesa/imagens/topo1.jpg" width="940">&#13;
+  <img alt="" height="110" src="/public/portaldefesa/imagens/topo2.jpg" width="940">&#13;
+ </div>&#13;
+
+</div>  
+</header>
+  
+<div id="mainmenu">
+      
+<div class="wrapper">&#13;
+ 
+<ul class="navigator">&#13;
+     
+<li class="father">
+ 
+<a href="javascript:void(0)" style="color: rgb(255, 255, 255); background-position: 0px 40px;" target="_top" title="Institucional"><span>Institucional</span></a>
+   
+<ul>
+   
+<li>
+ 
+<a href="/conteudo/10-Quem+Somos.html" style="color: rgb(255, 255, 255); background-position: 0px 40px;" target="_top" title="Quem Somos">Quem Somos</a>
+ 
+</li>
+<li>
+ 
+<a href="/conteudo/2-Secretario.html" style="color: rgb(255, 255, 255); background-position: 0px 40px;" target="_top" title="Secretario">Secretario</a>
+ 
+</li>
+<li>
+ 
+<a href="/conteudo/3-Miss&amp;atilde;o.html" style="color: rgb(255, 255, 255); background-position: 0px 40px;" target="_top" title="Miss&amp;atilde;o">Miss&amp;atilde;o</a>
+ 
+</li>
+<li class="father">
+ 
+<a href="/arquivo/lista/codigo/3-Leis+e+Decretos.html" style="color: rgb(255, 255, 255); background-position: 0px 40px;" target="_top" title="Leis e Decretos">Leis e Decretos</a>
+   
+<ul>
+   
+<li>
+ 
+<a href="/arquivo/lista/codigo/3-Legisla&amp;ccedil;&amp;atilde;o+Nacional.html" style="color: rgb(255, 255, 255); background-position: 0px 40px;" target="_top" title="Legisla&amp;ccedil;&amp;atilde;o Nacional">Legisla&amp;ccedil;&amp;atilde;o Nacional</a>
+ 
+</li>  
+</ul>
+ 
+</li>
+<li>
+ 
+<a href="/conteudo/5-Telefones+&amp;Uacute;teis.html" style="color: rgb(255, 255, 255); background-position: 0px 40px;" target="_top" title="Telefones &amp;Uacute;teis">Telefones &amp;Uacute;teis</a>
+ 
+</li>
+<li>
+ 
+<a href="/index/fale-conosco" style="color: rgb(255, 255, 255); background-position: 0px 40px;" target="" title="Fale Conosco">Fale Conosco</a>
+ 
+</li>  
+</ul>
+ 
+</li>
+<li class="father">
+ 
+<a href="/arquivo/lista/item/31-Realiza&amp;ccedil;&amp;otilde;es.html" style="color: rgb(255, 255, 255); background-position: 0px 40px;" target="_top" title="Realiza&amp;ccedil;&amp;otilde;es"><span>Realiza&amp;ccedil;&amp;otilde;es</span></a>
+   
+<ul>
+   
+<li class="father">
+ 
+<a href="/conteudo/4-A&amp;ccedil;&amp;otilde;es+e+Projetos.html" style="color: rgb(255, 255, 255); background-position: 0px 40px;" target="_top" title="A&amp;ccedil;&amp;otilde;es e Projetos">A&amp;ccedil;&amp;otilde;es e Projetos</a>
+   
+<ul>
+   
+<li class="father">
+ 
+<a href="/conteudo/4-Projeto+Piava.html" style="color: rgb(255, 255, 255); background-position: 0px 40px;" target="_top" title="Projeto Piava">Projeto Piava</a>
+   
+<ul>
+   
+<li>
+ 
+<a href="http://defesacivil.joinville.sc.gov.br/arquivo/lista/codigo/21-Projeto%2BPiava.html" style="color: rgb(255, 255, 255); background-position: 0px 40px;" target="_blank" title="Projeto Piava">Projeto Piava</a>
+ 
+</li>  
+</ul>
+ 
+</li>  
+</ul>
+ 
+</li>  
+</ul>
+ 
+</li>
+<li class="father">
+ 
+<a href="javascript:void(0)" style="color: rgb(255, 255, 255); background-position: 0px 40px;" target="_top" title="Servi&amp;ccedil;os"><span>Servi&amp;ccedil;os</span></a>
+   
+<ul>
+   
+<li>
+ 
+<a href="/tempo/index" style="color: rgb(255, 255, 255); background-position: 0px 40px;" target="" title="Previs&amp;atilde;o do Tempo">Previs&amp;atilde;o do Tempo</a>
+ 
+</li>
+<li>
+ 
+<a href="http://prefeituradigital.joinville.sc.gov.br/servico/detalhe-30-Ocorr%C3%AAncias+Voluntariado.html" style="color: rgb(255, 255, 255); background-position: 0px 40px;" target="_top" title="Ocorr&amp;ecirc;ncias/Volunt&amp;aacute;rios">Ocorr&amp;ecirc;ncias/Volunt&amp;aacute;rios</a>
+ 
+</li>
+<li class="father">
+ 
+<a href="http://defesacivil.joinville.sc.gov.br/arquivo/lista/codigo/22-Plano%2Bde%2BConting%C3%AAncia%2BJoinville.html" style="color: rgb(255, 255, 255); background-position: 0px 40px;" target="_blank" title="Plano De conting&amp;ecirc;ncia.">Plano De conting&amp;ecirc;ncia.</a>
+   
+<ul>
+   
+<li>
+ 
+<a href="http://defesacivil.joinville.sc.gov.br/arquivo/lista/codigo/23-Plano%2Bde%2BAlerta%2B%C3%A1%2BInunda%C3%A7%C3%B5es%2Bda%2BBacia%2Bdo%2BCubat%C3%A3o%2B.html" style="color: rgb(255, 255, 255); background-position: 0px 40px;" target="_blank" title="Plano Emerg&amp;ecirc;ncia Cubat&amp;atilde;o">Plano Emerg&amp;ecirc;ncia Cubat&amp;atilde;o</a>
+ 
+</li>  
+</ul>
+ 
+</li>
+<li>
+ 
+<a href="http://defesacivil.joinville.sc.gov.br/monitoramento" style="color: rgb(255, 255, 255); background-position: 0px 40px;" target="_blank" title="Rede de Monitoramento">Rede de Monitoramento </a>
+ 
+</li>  
+</ul>
+ 
+</li>
+<li class="father">
+ 
+<a href="javascript:void(0)" style="color: rgb(255, 255, 255); background-position: 0px 40px;" target="_top" title="Imprensa"><span>Imprensa</span></a>
+   
+<ul>
+   
+<li>
+ 
+<a href="/noticia/index" style="color: rgb(255, 255, 255); background-position: 0px 40px;" target="" title="Not&amp;iacute;cias">Not&amp;iacute;cias</a>
+ 
+</li>
+<li>
+ 
+<a href="/foto/index" style="color: rgb(255, 255, 255); background-position: 0px 40px;" target="" title="Galeria de Fotos">Galeria de Fotos</a>
+ 
+</li>  
+</ul>
+ 
+</li>
+<li class="father">
+ 
+<a href="javascript:void(0)" style="color: rgb(255, 255, 255); background-position: 0px 40px;" target="_top" title="Acervo"><span>Acervo</span></a>
+   
+<ul>
+   
+<li>
+ 
+<a href="/arquivo/lista" style="color: rgb(255, 255, 255); background-position: 0px 40px;" target="" title="Downloads">Downloads</a>
+ 
+</li>
+<li>
+ 
+<a href="/arquivo/lista/codigo/4-FIDE.html" style="color: rgb(255, 255, 255); background-position: 0px 40px;" target="_top" title="FIDE">FIDE</a>
+ 
+</li>  
+</ul>
+ 
+</li>
+<li>
+ 
+<a href="http://www.nudecjoinville.blogspot.com/" style="color: rgb(255, 255, 255); background-position: 0px 40px;" target="_blank" title="Blog Nudec"><span>Blog Nudec</span></a>
+ 
+</li>    
+</ul>&#13;
+ 
+<div id="search">&#13;
+    
+<form action="http://defesacivil.joinville.sc.gov.br/index/busca" id="form-pesquisa-geral" method="POST" target="_top">&#13;
+   
+<input id="keyword-geral" name="keyword" onblur="javascript: if(this.value == ''){ this.value = 'Buscar'}" onfocus="javascript:this.value = ''" type="text" value="Buscar">&#13;
+   <input class="search-bt" id="ok" name="ok" type="submit" value="">&#13;
+   
+<div id="access">&#13;
+    
+<a href="javascript:void(0);" id="a-plus" title="Aumentar Fonte">&#13;
+     <img alt="+" border="0" height="10" src="/public/portaldefesa/imagens/font-access-plus.gif" width="8">&#13;
+    </a>&#13;
+    <a href="javascript:void(0);" id="a-reset" title="Resetar Fonte">&#13;
+     <img alt="A" border="0" height="10" src="/public/portaldefesa/imagens/font-access-reset.gif" width="8">&#13;
+    </a>&#13;
+    <a href="javascript:void(0);" id="a-minus" title="Diminuir Fonte">&#13;
+     <img alt="-" border="0" height="10" src="/public/portaldefesa/imagens/font-access-minus.gif" width="8">&#13;
+    </a>&#13;
+      
+</div>&#13;
+  
+</form>&#13;
+ 
+</div>&#13;
+
+</div>&#13;
+  
+</div>
+  
+<div id="main">
+   
+<div class="wrapper">
+    
+<div class="inner">
+     
+<div class="center-col">
+      
+<h2 class="news-title">Not&amp;iacute;cias</h2>
+
+<ul class="news">
+ 
+
+<li class="col1">
+  
+    
+<a href="/noticia/130-Joinville+monta+Central+Solid%C3%A1ria+para+ajudar+v%C3%ADtimas+da+enchente+em+Barra+Velha.html" target="_top" title=""> </a>
+<h3>
+<a href="/noticia/130-Joinville+monta+Central+Solid%C3%A1ria+para+ajudar+v%C3%ADtimas+da+enchente+em+Barra+Velha.html" target="_top" title="">Joinville monta Central Solid&amp;aacute;ria para ajudar v&amp;iacute;timas da enchente em Barra Velha</a>
+</h3>
+     
+<span class="article-date">
+     <img alt="" class="arrow-bullet" height="11" src="/public/portaldefesa/imagens/arrow-bullet.gif" width="8">&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;
+     <span class="article-subject">
+      Noticias Joinville     </span>
+     <img alt="" class="arrow-bullet" height="11" src="/public/portaldefesa/imagens/arrow-bullet.gif" width="8">&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;
+  12 | ABR | 2013     </span>
+     
+<p>
+        A For&amp;ccedil;a Empresarial para Emerg&amp;ecirc;ncias (FEE) anunciou no fim da tarde desta quinta-feira a implanta&amp;ccedil;&amp;atilde;o de uma Central Solid&amp;aacute;ria em Joinville para ajudar v&amp;iacute;timas da enchente em Barra  [...]     </p>
+    
+<span class="article-separator"></span>
+
+</li>
+
+
+<li class="col2">
+  
+    
+<a href="/noticia/131-Frente+fria+traz+chuva+forte+e+frio+para+SC+e+Fim+de+semana+mar+agitado+na+costa+catarinense+.html" target="_top" title=""> </a>
+<h3>
+<a href="/noticia/131-Frente+fria+traz+chuva+forte+e+frio+para+SC+e+Fim+de+semana+mar+agitado+na+costa+catarinense+.html" target="_top" title="">Frente fria traz chuva forte e frio para SC e Fim de semana mar agitado na costa catarinense </a>
+</h3>
+     
+<span class="article-date">
+     <img alt="" class="arrow-bullet" height="11" src="/public/portaldefesa/imagens/arrow-bullet.gif" width="8">&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;
+     <span class="article-subject">
+      Alerta     </span>
+     <img alt="" class="arrow-bullet" height="11" src="/public/portaldefesa/imagens/arrow-bullet.gif" width="8">&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;
+  12 | ABR | 2013     </span>
+     
+<p>
+        Atualizado 08:00 horas.&#13;
+&#13;
+Sexta-feira com tempo inst&amp;aacute;vel e chuva em SC, com intensidade forte e temporais com ventania em algumas cidades devido ao avan&amp;ccedil;o de uma frente fria. Do Oeste  [...]     </p>
+    
+<span class="article-separator"></span>
+
+</li>
+
+
+<li class="col1">
+  
+    
+<a href="/noticia/129-Previs%C3%A3o+de+chuvas+fortes+nos+pr%C3%B3ximos+dias.html" target="_top" title=""> </a>
+<h3>
+<a href="/noticia/129-Previs%C3%A3o+de+chuvas+fortes+nos+pr%C3%B3ximos+dias.html" target="_top" title="">Previs&amp;atilde;o de chuvas fortes nos pr&amp;oacute;ximos dias</a>
+</h3>
+     
+<span class="article-date">
+     <img alt="" class="arrow-bullet" height="11" src="/public/portaldefesa/imagens/arrow-bullet.gif" width="8">&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;
+     <span class="article-subject">
+      Alerta     </span>
+     <img alt="" class="arrow-bullet" height="11" src="/public/portaldefesa/imagens/arrow-bullet.gif" width="8">&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;
+  10 | ABR | 2013     </span>
+     
+<p>
+        Aten&amp;ccedil;&amp;atilde;o especial para o Litoral, entre a Grande Florian&amp;oacute;polis e Litoral Norte, regi&amp;atilde;o onde j&amp;aacute; choveu forte em algumas cidades nas &amp;uacute;ltimas horas (veja Nota Meteorol&amp;oacute;gica), com ocorr&amp;ecirc;ncia  [...]     </p>
+    
+<span class="article-separator"></span>
+
+</li>
+
+
+<li class="col2">
+  
+    
+<a href="/noticia/128-Defesa+Civil+participa+da+campanha+de+incentivo+ao+consumo+consciente.html" target="_top" title=""> </a>
+<h3>
+<a href="/noticia/128-Defesa+Civil+participa+da+campanha+de+incentivo+ao+consumo+consciente.html" target="_top" title="">Defesa Civil participa da campanha de incentivo ao consumo consciente</a>
+</h3>
+     
+<span class="article-date">
+     <img alt="" class="arrow-bullet" height="11" src="/public/portaldefesa/imagens/arrow-bullet.gif" width="8">&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;
+     <span class="article-subject">
+      Noticias PMJ     </span>
+     <img alt="" class="arrow-bullet" height="11" src="/public/portaldefesa/imagens/arrow-bullet.gif" width="8">&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;
+  08 | ABR | 2013     </span>
+     
+<p>
+        Com a muda de Ip&amp;ecirc; na m&amp;atilde;o e uma bolsa recicl&amp;aacute;vel pendurada no outro bra&amp;ccedil;o, a aposentada Avani Dias, 64 anos, ouvia com muita aten&amp;ccedil;&amp;atilde;o as orienta&amp;ccedil;&amp;otilde;es sobre preserva&amp;ccedil;&amp;atilde;o ambiental,  [...]     </p>
+    
+<span class="article-separator"></span>
+
+</li>
+
+
+<li class="col1">
+  
+    
+<a href="/noticia/127-Defesa+Civil+quer+investir+em+moderniza%C3%A7%C3%A3o+tecnol%C3%B3gica.html" target="_top" title="">
+   <img alt="" src="/public/portaldefesaadm/imagens/fotos/thumb-b188465553da3911816a08a3c54fd196.jpg" width="160">    </a>
+<h3>
+<a href="/noticia/127-Defesa+Civil+quer+investir+em+moderniza%C3%A7%C3%A3o+tecnol%C3%B3gica.html" target="_top" title="">Defesa Civil quer investir em moderniza&amp;ccedil;&amp;atilde;o tecnol&amp;oacute;gica</a>
+</h3>
+     
+<span class="article-date">
+     <img alt="" class="arrow-bullet" height="11" src="/public/portaldefesa/imagens/arrow-bullet.gif" width="8">&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;
+     <span class="article-subject">
+      Secretaria de Prote&amp;ccedil;&amp;atilde;o Civil     </span>
+     <img alt="" class="arrow-bullet" height="11" src="/public/portaldefesa/imagens/arrow-bullet.gif" width="8">&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;
+  19 | MAR | 2013     </span>
+     
+<p>
+        A Secretaria de Prote&amp;ccedil;&amp;atilde;o Civil e Seguran&amp;ccedil;a p&amp;uacute;blica pretende investir mais em equipamentos para a Defesa Civil do munic&amp;iacute;pio. A proposta &amp;eacute; dotar o setor com uma log&amp;iacute;stica mais moderna,  [...]     </p>
+    
+<span class="article-separator"></span>
+
+</li>
+
+
+<li class="col2">
+  
+    
+<a href="/noticia/126-Previs%C3%A3o+de+chuvas+fortes+nesta+ter%C3%A7a-feira+%2812-03%29+em+SC.html" target="_top" title=""> </a>
+<h3>
+<a href="/noticia/126-Previs%C3%A3o+de+chuvas+fortes+nesta+ter%C3%A7a-feira+%2812-03%29+em+SC.html" target="_top" title="">Previs&amp;atilde;o de chuvas fortes nesta ter&amp;ccedil;a-feira (12/03) em SC</a>
+</h3>
+     
+<span class="article-date">
+     <img alt="" class="arrow-bullet" height="11" src="/public/portaldefesa/imagens/arrow-bullet.gif" width="8">&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;
+     <span class="article-subject">
+      Alerta     </span>
+     <img alt="" class="arrow-bullet" height="11" src="/public/portaldefesa/imagens/arrow-bullet.gif" width="8">&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;
+  11 | MAR | 2013     </span>
+     
+<p>
+        A Defesa Civil da Prefeitura de Joinville recebeu informa&amp;ccedil;&amp;atilde;o da Defesa Civil do Estado sobre previs&amp;atilde;o de mais chuvas no decorrer desta ter&amp;ccedil;a-feira (12/03).&#13;
+&#13;
+A instabilidade vai aumentar  [...]     </p>
+    
+<span class="article-separator"></span>
+
+</li>
+
+
+<li class="col1">
+  
+    
+<a href="/noticia/124-Previs%C3%A3o+para+MAR%C3%87O%2C+ABRIL+e+MAIO+de+2013+.html" target="_top" title=""> </a>
+<h3>
+<a href="/noticia/124-Previs%C3%A3o+para+MAR%C3%87O%2C+ABRIL+e+MAIO+de+2013+.html" target="_top" title="">Previs&amp;atilde;o para MAR&amp;Ccedil;O, ABRIL e MAIO de 2013 </a>
+</h3>
+     
+<span class="article-date">
+     <img alt="" class="arrow-bullet" height="11" src="/public/portaldefesa/imagens/arrow-bullet.gif" width="8">&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;
+     <span class="article-subject">
+      Previs&amp;atilde;o     </span>
+     <img alt="" class="arrow-bullet" height="11" src="/public/portaldefesa/imagens/arrow-bullet.gif" width="8">&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;
+  01 | MAR | 2013     </span>
+     
+<p>
+        In&amp;iacute;cio do Outono: 20 de mar&amp;ccedil;o &amp;agrave;s 08:02h. &#13;
+&#13;
+A previs&amp;atilde;o para o trimestre mar&amp;ccedil;o/abril/maio &amp;eacute; de chuva pr&amp;oacute;xima a acima da m&amp;eacute;dia climatol&amp;oacute;gica em Santa Catarina. Mar&amp;ccedil;o deve ser t&amp;iacute;pico  [...]     </p>
+    
+<span class="article-separator"></span>
+
+</li>
+
+
+<li class="col2">
+  
+    
+<a href="/noticia/123-Defesa+Civil+divulga+relat%C3%B3rio+dos+danos+causados+pela+chuva.html" target="_top" title=""> </a>
+<h3>
+<a href="/noticia/123-Defesa+Civil+divulga+relat%C3%B3rio+dos+danos+causados+pela+chuva.html" target="_top" title="">Defesa Civil divulga relat&amp;oacute;rio dos danos causados pela chuva</a>
+</h3>
+     
+<span class="article-date">
+     <img alt="" class="arrow-bullet" height="11" src="/public/portaldefesa/imagens/arrow-bullet.gif" width="8">&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;
+     <span class="article-subject">
+      Secretaria de Prote&amp;ccedil;&amp;atilde;o Civil     </span>
+     <img alt="" class="arrow-bullet" height="11" src="/public/portaldefesa/imagens/arrow-bullet.gif" width="8">&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;
+  26 | FEV | 2013     </span>
+     
+<p>
+        A Defesa Civil de Joinville divulgou o relat&amp;oacute;rio dos estragos provocados pela chuva do fim da tarde de segunda-feira (25/2). Foram registradas quedas de &amp;aacute;rvores, destelhamento de resid&amp;ecirc;ncias  [...]     </p>
+    
+<span class="article-separator"></span>
+
+</li>
+
+
+<li class="col1">
+  
+    
+<a href="/noticia/122-Sistema+de+preven%C3%A7%C3%A3o+de+desastres+ser%C3%A1+lan%C3%A7ado+em+Rio+do+Sul+.html" target="_top" title=""> </a>
+<h3>
+<a href="/noticia/122-Sistema+de+preven%C3%A7%C3%A3o+de+desastres+ser%C3%A1+lan%C3%A7ado+em+Rio+do+Sul+.html" target="_top" title="">Sistema de preven&amp;ccedil;&amp;atilde;o de desastres ser&amp;aacute; lan&amp;ccedil;ado em Rio do Sul </a>
+</h3>
+     
+<span class="article-date">
+     <img alt="" class="arrow-bullet" height="11" src="/public/portaldefesa/imagens/arrow-bullet.gif" width="8">&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;
+     <span class="article-subject">
+      Noticias Defesa Civil Estadual     </span>
+     <img alt="" class="arrow-bullet" height="11" src="/public/portaldefesa/imagens/arrow-bullet.gif" width="8">&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;
+  18 | FEV | 2013     </span>
+     
+<p>
+        O governador Raimundo Colombo e o secret&amp;aacute;rio de Estado da Defesa Civil, Milton Hobus, realizam nesta ter&amp;ccedil;a-feira, 19, a entrega da ordem de servi&amp;ccedil;o para a compra do radar meteorol&amp;oacute;gico  [...]     </p>
+    
+<span class="article-separator"></span>
+
+</li>
+
+
+<li class="col2">
+  
+    
+<a href="/noticia/120-Defesa+Civil+Nacional+oferece++Curso+de+Capacita%C3%A7%C3%A3o+B%C3%A1sica+em+Defesa+Civil+%283%C2%AA+edi%C3%A7%C3%A3o%29..html" target="_top" title="">
+   <img alt="" src="/public/portaldefesaadm/imagens/fotos/thumb-b8b96ef656c7ba80443447b49c4260a2.jpg" width="160">    </a>
+<h3>
+<a href="/noticia/120-Defesa+Civil+Nacional+oferece++Curso+de+Capacita%C3%A7%C3%A3o+B%C3%A1sica+em+Defesa+Civil+%283%C2%AA+edi%C3%A7%C3%A3o%29..html" target="_top" title="">Defesa Civil Nacional oferece  Curso de Capacita&amp;ccedil;&amp;atilde;o B&amp;aacute;sica em Defesa Civil (3&amp;ordf; edi&amp;ccedil;&amp;atilde;o).</a>
+</h3>
+     
+<span class="article-date">
+     <img alt="" class="arrow-bullet" height="11" src="/public/portaldefesa/imagens/arrow-bullet.gif" width="8">&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;
+     <span class="article-subject">
+      Noticias Defesa Civil Nacional     </span>
+     <img alt="" class="arrow-bullet" height="11" src="/public/portaldefesa/imagens/arrow-bullet.gif" width="8">&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;
+  04 | FEV | 2013     </span>
+     
+<p>
+        A Secretaria Nacional de Defesa Civil (SEDEC) oferece novamente o Curso de Capacita&amp;ccedil;&amp;atilde;o B&amp;aacute;sica em Defesa Civil (3&amp;ordf; edi&amp;ccedil;&amp;atilde;o).&#13;
+&#13;
+Cerca de 2.000 agentes de defesa civil aprender&amp;atilde;o sobre  [...]     </p>
+    
+<span class="article-separator"></span>
+
+</li>
+
+
+<li class="col1">
+  
+    
+<a href="/noticia/121-Janeiro+at%C3%ADpico+em+SC%2C+com+pouca+chuva+e+frio+.html" target="_top" title="">
+   <img alt="" src="/public/portaldefesaadm/imagens/fotos/thumb-f77d213e06d7e1770b0d74a1e6ddbbb6.jpg" width="160">    </a>
+<h3>
+<a href="/noticia/121-Janeiro+at%C3%ADpico+em+SC%2C+com+pouca+chuva+e+frio+.html" target="_top" title="">Janeiro at&amp;iacute;pico em SC, com pouca chuva e frio </a>
+</h3>
+     
+<span class="article-date">
+     <img alt="" class="arrow-bullet" height="11" src="/public/portaldefesa/imagens/arrow-bullet.gif" width="8">&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;
+     <span class="article-subject">
+      Noticias Defesa Civil Estadual     </span>
+     <img alt="" class="arrow-bullet" height="11" src="/public/portaldefesa/imagens/arrow-bullet.gif" width="8">&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;
+  01 | FEV | 2013     </span>
+     
+<p>
+        O m&amp;ecirc;s de janeiro surpreendeu os catarinenses com pouca chuva e temperatura mais baixa do que o normal. O m&amp;ecirc;s foi marcado pela passagem de duas massas de ar frio, o que normalmente n&amp;atilde;o  [...]     </p>
+    
+<span class="article-separator"></span>
+
+</li>
+
+
+<li class="col2">
+  
+    
+<a href="/noticia/119-Tempo+%C3%BAmido+e+quente+com+temporais+isolados+em+SC.html" target="_top" title="">
+   <img alt="" src="/public/portaldefesaadm/imagens/fotos/thumb-14c33bec228e7bbe787dfbe6507428cb.jpg" width="160">    </a>
+<h3>
+<a href="/noticia/119-Tempo+%C3%BAmido+e+quente+com+temporais+isolados+em+SC.html" target="_top" title="">Tempo &amp;uacute;mido e quente com temporais isolados em SC</a>
+</h3>
+     
+<span class="article-date">
+     <img alt="" class="arrow-bullet" height="11" src="/public/portaldefesa/imagens/arrow-bullet.gif" width="8">&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;
+     <span class="article-subject">
+      Alerta     </span>
+     <img alt="" class="arrow-bullet" height="11" src="/public/portaldefesa/imagens/arrow-bullet.gif" width="8">&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;
+  18 | DEZ | 2012     </span>
+     
+<p>
+        A partir desta quarta-feira o tempo fica mais &amp;uacute;mido e quente em SC, ou seja inst&amp;aacute;vel, com aumento de nebulosidade e pancadas isoladas de chuva com trovoadas no decorrer do dia, come&amp;ccedil;ando  [...]     </p>
+    
+<span class="article-separator"></span>
+
+</li>
+
+
+<li class="col1">
+  
+    
+<a href="/noticia/118-Secretaria+De+Prote%C3%A7%C3%A3o+Civil+homenageia+volunt%C3%A1rios+do+GRM%2C+CRAJE+e+AJM.html" target="_top" title="">
+   <img alt="" src="/public/portaldefesaadm/imagens/fotos/thumb-3853de3ae36c5eedc436d6877b77ba45.jpg" width="160">    </a>
+<h3>
+<a href="/noticia/118-Secretaria+De+Prote%C3%A7%C3%A3o+Civil+homenageia+volunt%C3%A1rios+do+GRM%2C+CRAJE+e+AJM.html" target="_top" title="">Secretaria De Prote&amp;ccedil;&amp;atilde;o Civil homenageia volunt&amp;aacute;rios do GRM, CRAJE e AJM</a>
+</h3>
+     
+<span class="article-date">
+     <img alt="" class="arrow-bullet" height="11" src="/public/portaldefesa/imagens/arrow-bullet.gif" width="8">&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;
+     <span class="article-subject">
+      Noticias Joinville     </span>
+     <img alt="" class="arrow-bullet" height="11" src="/public/portaldefesa/imagens/arrow-bullet.gif" width="8">&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;
+  14 | DEZ | 2012     </span>
+     
+<p>
+        Na noite de Quinta Feira (13/12/12) Volunt&amp;aacute;rios do Grupo de Resgate em Montanha - GRM, Clube de Radioamadores - CRAJE e Associa&amp;ccedil;&amp;atilde;o Joinvilense de Montanhismo - AJM que apoiaram nas a&amp;ccedil;oes  [...]     </p>
+    
+<span class="article-separator"></span>
+
+</li>
+
+
+<li class="col2">
+  
+    
+<a href="/noticia/117-Defesa+Civil+faz+balan%C3%A7o+das+a%C3%A7%C3%B5es+na+%C3%BAltima+reuni%C3%A3o+da+Comdec+em+2012.html" target="_top" title="">
+   <img alt="" src="/public/portaldefesaadm/imagens/fotos/thumb-74f5c9167b0b6a7227a29025b4e961f5.JPG" width="160">    </a>
+<h3>
+<a href="/noticia/117-Defesa+Civil+faz+balan%C3%A7o+das+a%C3%A7%C3%B5es+na+%C3%BAltima+reuni%C3%A3o+da+Comdec+em+2012.html" target="_top" title="">Defesa Civil faz balan&amp;ccedil;o das a&amp;ccedil;&amp;otilde;es na &amp;uacute;ltima reuni&amp;atilde;o da Comdec em 2012</a>
+</h3>
+     
+<span class="article-date">
+     <img alt="" class="arrow-bullet" height="11" src="/public/portaldefesa/imagens/arrow-bullet.gif" width="8">&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;
+     <span class="article-subject">
+      Secretaria de Prote&amp;ccedil;&amp;atilde;o Civil     </span>
+     <img alt="" class="arrow-bullet" height="11" src="/public/portaldefesa/imagens/arrow-bullet.gif" width="8">&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;
+  12 | DEZ | 2012     </span>
+     
+<p>
+        &amp;quot;Hoje vejo a evolu&amp;ccedil;&amp;atilde;o que Joinville teve nesses quatro anos, do que era e do que se tornou a Defesa Civil no munic&amp;iacute;pio. Antes Jaragu&amp;aacute; do Sul era refer&amp;ecirc;ncia na regi&amp;atilde;o, hoje temos tamb&amp;eacute;m  [...]     </p>
+    
+<span class="article-separator"></span>
+
+</li>
+
+
+<li class="col1">
+  
+    
+<a href="/noticia/115-Ap%C3%B3s+mais+de+90+horas+de+buscas%2C+joinvilense+que+estava+perdido+em+mata+reencontra+esposa.html" target="_top" title="">
+   <img alt="" src="/public/portaldefesaadm/imagens/fotos/thumb-2454893a97367e4d293141202e942ea6.jpg" width="160">    </a>
+<h3>
+<a href="/noticia/115-Ap%C3%B3s+mais+de+90+horas+de+buscas%2C+joinvilense+que+estava+perdido+em+mata+reencontra+esposa.html" target="_top" title="">Ap&amp;oacute;s mais de 90 horas de buscas, joinvilense que estava perdido em mata reencontra esposa</a>
+</h3>
+     
+<span class="article-date">
+     <img alt="" class="arrow-bullet" height="11" src="/public/portaldefesa/imagens/arrow-bullet.gif" width="8">&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;
+     <span class="article-subject">
+      Noticias Joinville     </span>
+     <img alt="" class="arrow-bullet" height="11" src="/public/portaldefesa/imagens/arrow-bullet.gif" width="8">&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;
+  07 | DEZ | 2012     </span>
+     
+<p>
+        &amp;Agrave;s 14h25 desta quinta-feira, a troca de olhares seguida por um beijo t&amp;iacute;mido e um abra&amp;ccedil;o demorado puseram fim a mais de 90 horas de agonia do motorista Joel C&amp;acirc;ndido Esp&amp;iacute;ndola, 42 anos,  [...]     </p>
+    
+<span class="article-separator"></span>
+
+</li>
+
+
+<li class="col2">
+  
+    
+<a href="/noticia/114-Defesa+Civil+Estadual+e+Ciram+alertam+para+novo+per%C3%ADodo+de+estiagem+em+Santa+Catarina.html" target="_top" title="">
+   <img alt="" src="/public/portaldefesaadm/imagens/fotos/thumb-2a7ef1ea10a7ea1aea3b540cc75869d2.jpg" width="160">    </a>
+<h3>
+<a href="/noticia/114-Defesa+Civil+Estadual+e+Ciram+alertam+para+novo+per%C3%ADodo+de+estiagem+em+Santa+Catarina.html" target="_top" title="">Defesa Civil Estadual e Ciram alertam para novo per&amp;iacute;odo de estiagem em Santa Catarina</a>
+</h3>
+     
+<span class="article-date">
+     <img alt="" class="arrow-bullet" height="11" src="/public/portaldefesa/imagens/arrow-bullet.gif" width="8">&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;
+     <span class="article-subject">
+      Alerta     </span>
+     <img alt="" class="arrow-bullet" height="11" src="/public/portaldefesa/imagens/arrow-bullet.gif" width="8">&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;
+  06 | DEZ | 2012     </span>
+     
+<p>
+        Depois de tr&amp;ecirc;s meses com chuvas pouco significas, sendo o m&amp;ecirc;s de novembro especialmente seco, Santa Catarina deve enfrentar nos pr&amp;oacute;ximos tr&amp;ecirc;s meses, mais um per&amp;iacute;odo quente e seco,  [...]     </p>
+    
+<span class="article-separator"></span>
+
+</li>
+
+
+<li class="col1">
+  
+    
+<a href="/noticia/112-Defesa+Civil+participa+de+oficina+de+elabora%C3%A7%C3%A3o+de+planos+de+conting%C3%AAncia.html" target="_top" title="">
+   <img alt="" src="/public/portaldefesaadm/imagens/fotos/thumb-22ba767a37d131c75dd39422137cd1d0.JPG" width="160">    </a>
+<h3>
+<a href="/noticia/112-Defesa+Civil+participa+de+oficina+de+elabora%C3%A7%C3%A3o+de+planos+de+conting%C3%AAncia.html" target="_top" title="">Defesa Civil participa de oficina de elabora&amp;ccedil;&amp;atilde;o de planos de conting&amp;ecirc;ncia</a>
+</h3>
+     
+<span class="article-date">
+     <img alt="" class="arrow-bullet" height="11" src="/public/portaldefesa/imagens/arrow-bullet.gif" width="8">&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;
+     <span class="article-subject">
+      Noticias Defesa Civil Estadual     </span>
+     <img alt="" class="arrow-bullet" height="11" src="/public/portaldefesa/imagens/arrow-bullet.gif" width="8">&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;
+  28 | NOV | 2012     </span>
+     
+<p>
+        Tr&amp;ecirc;s t&amp;eacute;cnicos da Secretaria de Prote&amp;ccedil;&amp;atilde;o Civil e Seguran&amp;ccedil;a P&amp;uacute;blica de Joinville participaram da 2&amp;ordf; Oficina de Elabora&amp;ccedil;&amp;atilde;o de Planos Municipais de Conting&amp;ecirc;ncia (PLAMCON). A capacita&amp;ccedil;&amp;atilde;o  [...]     </p>
+    
+<span class="article-separator"></span>
+
+</li>
+
+
+<li class="col2">
+  
+    
+<a href="/noticia/111-Prefeitura+inicia+recupera%C3%A7%C3%A3o+de+pontes+danificadas+pelas+chuvas+no+Vila+Nova.html" target="_top" title="">
+   <img alt="" src="/public/portaldefesaadm/imagens/fotos/thumb-26c90ba4f3a79776801d6b7889d8873b.JPG" width="160">    </a>
+<h3>
+<a href="/noticia/111-Prefeitura+inicia+recupera%C3%A7%C3%A3o+de+pontes+danificadas+pelas+chuvas+no+Vila+Nova.html" target="_top" title="">Prefeitura inicia recupera&amp;ccedil;&amp;atilde;o de pontes danificadas pelas chuvas no Vila Nova</a>
+</h3>
+     
+<span class="article-date">
+     <img alt="" class="arrow-bullet" height="11" src="/public/portaldefesa/imagens/arrow-bullet.gif" width="8">&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;
+     <span class="article-subject">
+      Noticias Joinville     </span>
+     <img alt="" class="arrow-bullet" height="11" src="/public/portaldefesa/imagens/arrow-bullet.gif" width="8">&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;
+  12 | NOV | 2012     </span>
+     
+<p>
+        Tr&amp;ecirc;s pontes e uma passagem feita com tubos de concreto, todas na &amp;aacute;rea rural do bairro Vila Nova, sofreram danos por causa das chuvas de sexta-feira (9/11). Equipes da Secretaria Regional  [...]     </p>
+    
+<span class="article-separator"></span>
+
+</li>
+
+
+<li class="col1">
+  
+    
+<a href="/noticia/110-++Dica+do+Meteorologista%3A+previs%C3%A3o+do+tempo+muda+rapidamente+nessa+%C3%A9poca+do+ano%2C+por+isso+o+acompanhamento+%C3%A9+essencial.html" target="_top" title=""> </a>
+<h3>
+<a href="/noticia/110-++Dica+do+Meteorologista%3A+previs%C3%A3o+do+tempo+muda+rapidamente+nessa+%C3%A9poca+do+ano%2C+por+isso+o+acompanhamento+%C3%A9+essencial.html" target="_top" title="">  Dica do Meteorologista: previs&amp;atilde;o do tempo muda rapidamente nessa &amp;eacute;poca do ano, por isso o acompanhamento &amp;eacute; essencial</a>
+</h3>
+     
+<span class="article-date">
+     <img alt="" class="arrow-bullet" height="11" src="/public/portaldefesa/imagens/arrow-bullet.gif" width="8">&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;
+     <span class="article-subject">
+      Alerta     </span>
+     <img alt="" class="arrow-bullet" height="11" src="/public/portaldefesa/imagens/arrow-bullet.gif" width="8">&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;
+  06 | NOV | 2012     </span>
+     
+<p>
+        Nessa &amp;eacute;poca do ano, com a aproxima&amp;ccedil;&amp;atilde;o do ver&amp;atilde;o, boa parte da chuva em SC ocorre entre a tarde e a noite, em alguns casos acompanha de fortes trovoadas, vento forte e granizo. Isso porque  [...]     </p>
+    
+<span class="article-separator"></span>
+
+</li>
+
+
+<li class="col2">
+  
+    
+<a href="/noticia/109-Prefeitura+entrega+em+dezembro+macrodrenagem+do+rio+Morro+Alto.html" target="_top" title="">
+   <img alt="" src="/public/portaldefesaadm/imagens/fotos/thumb-49e202fd0328b9a28b22db570ef1d32d.jpg" width="160">    </a>
+<h3>
+<a href="/noticia/109-Prefeitura+entrega+em+dezembro+macrodrenagem+do+rio+Morro+Alto.html" target="_top" title="">Prefeitura entrega em dezembro macrodrenagem do rio Morro Alto</a>
+</h3>
+     
+<span class="article-date">
+     <img alt="" class="arrow-bullet" height="11" src="/public/portaldefesa/imagens/arrow-bullet.gif" width="8">&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;
+     <span class="article-subject">
+      Noticias Joinville     </span>
+     <img alt="" class="arrow-bullet" height="11" src="/public/portaldefesa/imagens/arrow-bullet.gif" width="8">&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;
+  05 | NOV | 2012     </span>
+     
+<p>
+        A Prefeitura de Joinville definiu para 8 de dezembro a entrega da obra de macrodrenagem do rio Morro Alto (afluente do rio Cachoeira), primeira grande obra do Projeto de Revitaliza&amp;ccedil;&amp;atilde;o  [...]     </p>
+    
+<span class="article-separator"></span>
+
+</li>
+
+</ul>
+
+<div class="clearfix"></div>
+ 
+<ul class="pagination">
+ <!-- Previous page link -->
+    
+<li class="prev">
+<a class="disabled" href="javascript:void(0);"></a>
+</li>
+  
+ <!-- Numbered page links -->
+         
+<li>
+<a class="active" href="javascript:void(0)"><span>1</span></a>
+</li>
+            
+<li>
+<a href="http://defesacivil.joinville.sc.gov.br/noticia/index/page/2"><span>2</span></a>
+</li>
+            
+<li>
+<a href="http://defesacivil.joinville.sc.gov.br/noticia/index/page/3"><span>3</span></a>
+</li>
+     
+ <!-- Next page link -->
+     
+<li class="next">
+<a href="http://defesacivil.joinville.sc.gov.br/noticia/index/page/2"></a>
+</li>
+  
+</ul>
+
+<div class="clearfix"></div>
+<!-- NOTÍCIAS MAIS LIDAS -->
+ 
+<h2>Mais Lidas</h2>
+ 
+<ul class="popular">
+  
+<li>
+ 
+<span class="article-date">
+  <span class="article-subject">Noticias Joinville</span>
+  <img alt="" class="arrow-bullet" height="11" src="/public/portaldefesa/imagens/arrow-bullet.gif" width="8">&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;
+  <span class="date">
+   16 | JUL | 2012  </span>
+  <img alt="" class="arrow-bullet" height="11" src="/public/portaldefesa/imagens/arrow-bullet.gif" width="8">&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;
+ </span>
+ <a href="/noticia/78-Voc%C3%AA+Sabe+Diferenciar+a%3A+Gripe+Comum%2C+da+influenza+A+e+da+Dengue%3F.html" target="_top" title="Voc&amp;ecirc; Sabe Diferenciar a: Gripe Comum, da influenza A e da Dengue?">Voc&amp;ecirc; Sabe Diferenciar a: Gripe Comum, da influenza A e da Dengue?</a>
+
+</li>
+<li>
+ 
+<span class="article-date">
+  <span class="article-subject">Secretaria de Prote&amp;ccedil;&amp;atilde;o Civil</span>
+  <img alt="" class="arrow-bullet" height="11" src="/public/portaldefesa/imagens/arrow-bullet.gif" width="8">&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;
+  <span class="date">
+   06 | JUN | 2012  </span>
+  <img alt="" class="arrow-bullet" height="11" src="/public/portaldefesa/imagens/arrow-bullet.gif" width="8">&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;
+ </span>
+ <a href="/noticia/64-F%C3%B3rum+Nacional+de+Defesa+Civil+ser%C3%A1+em+Joinville+em+2013.html" target="_top" title="F&amp;oacute;rum Nacional de Defesa Civil ser&amp;aacute; em Joinville em 2013">F&amp;oacute;rum Nacional de Defesa Civil ser&amp;aacute; em Joinville em 2013</a>
+
+</li>
+<li>
+ 
+<span class="article-date">
+  <span class="article-subject">Secretaria de Prote&amp;ccedil;&amp;atilde;o Civil</span>
+  <img alt="" class="arrow-bullet" height="11" src="/public/portaldefesa/imagens/arrow-bullet.gif" width="8">&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;
+  <span class="date">
+   17 | JUL | 2012  </span>
+  <img alt="" class="arrow-bullet" height="11" src="/public/portaldefesa/imagens/arrow-bullet.gif" width="8">&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;
+ </span>
+ <a href="/noticia/80-Joinville+come%C3%A7a+a+prepara%C3%A7%C3%A3o+para+o+X+F%C3%B3rum+Nacional+de+Defesa+Civil.html" target="_top" title="Joinville come&amp;ccedil;a a prepara&amp;ccedil;&amp;atilde;o para o X F&amp;oacute;rum Nacional de Defesa Civil">Joinville come&amp;ccedil;a a prepara&amp;ccedil;&amp;atilde;o para o X F&amp;oacute;rum Nacional de Defesa Civil</a>
+
+</li>
+<li>
+ 
+<span class="article-date">
+  <span class="article-subject">Alerta</span>
+  <img alt="" class="arrow-bullet" height="11" src="/public/portaldefesa/imagens/arrow-bullet.gif" width="8">&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;
+  <span class="date">
+   02 | AGO | 2012  </span>
+  <img alt="" class="arrow-bullet" height="11" src="/public/portaldefesa/imagens/arrow-bullet.gif" width="8">&amp;quot; border=&amp;quot;0&amp;quot; /&amp;gt;
+ </span>
+ <a href="/noticia/84-Previs%C3%A3o+clim%C3%A1tica+para+os+meses+de+agosto%2C+setembro+e+outubro+em+Santa+Catarina.html" target="_top" title="Previs&amp;atilde;o clim&amp;aacute;tica para os meses de agosto, setembro e outubro em Santa Catarina">Previs&amp;atilde;o clim&amp;aacute;tica para os meses de agosto, setembro e outubro em Santa Catarina</a>
+
+</li> 
+</ul>
+ 
+<div class="clearfix"></div>
+<!-- FIM - NOTÍCIAS MAIS LIDAS -->
+
+<!-- Configurações filtro -->
+
+<script>
+    $(document).ready(function(){
+      
+       $('#form-noticia-filtro').submit(function(){
+         var condicao = ''; 
+         var keyword = $('#filtro-keyword').val();
+         if(keyword.length < 3){
+          alert('Favor informar ao menos 3 caracteres para busca');
+          $('#filtro-keyword').val('');
+          $('#filtro-keyword').focus();
+          return false;
+         }
+         if(keyword != 'Palavra-chave' && keyword){
+          condicao += 'keyword/'+keyword+'/';
+         }
+                   
+         var data = $('.filtro #filtro-data').val();
+         if(data != 'Escolha o Período' && data){
+          data = data.replace('/','-').replace('/','-').replace('/','-').replace('/','-').replace('/','-');
+          condicao+='filtro/'+data+'/';
+         }
+         
+         var categoria = new Number($('#categoria').val());
+         if(categoria != '' && categoria > 0){           
+          condicao+='categoria/'+categoria+'/';
+         } 
+         
+        location = 'http://defesacivil.joinville.sc.gov.br/noticia/index/'+condicao; 
+        return false;
+       });
+     $('.filtro #filtro-data').val('Escolha o Período');
+     
+    });
+   </script>
+<!-- FIM - Configurações filtro -->           
+</div>
+     
+<div class="right-col">
+      
+<a class="weather" href="http://defesacivil.joinville.sc.gov.br/tempo">
+ <img alt="tempo" src="/public/portal/imagens/weather/fog.gif"> 23&deg;
+</a>
+
+<div class="clearfix">
+<br>
+<br>
+</div>
+
+<div class="filtro">
+    
+<h2>Buscar Not&amp;iacute;cia</h2>
+    
+<form id="form-noticia-filtro" method="GET">
+     
+<input id="filtrar" name="filtrar" type="submit" value="">          <input id="filtro-keyword" name="keyword" type="text" value="Palavra-chave">                    <input id="filtro-data" maxlength="23" name="filtro" type="text" value="">                <input id="categoria" name="categoria" type="hidden" value="">        
+<div class="clearfix"></div>
+                                
+<ul>    
+                                    
+<li>
+ 
+<a href="http://defesacivil.joinville.sc.gov.br/noticia/index/categoria/1" target="_top" title="Alerta">
+  Alerta<span>(10)</span>
+ </a>
+
+</li>
+
+<li>
+ 
+<a href="http://defesacivil.joinville.sc.gov.br/noticia/index/categoria/2" target="_top" title="Alerta para o final de ano">
+  Alerta para o final de ano<span>(0)</span>
+ </a>
+
+</li>
+
+<li>
+ 
+<a href="http://defesacivil.joinville.sc.gov.br/noticia/index/categoria/8" target="_top" title="Convites Eventos">
+  Convites Eventos<span>(0)</span>
+ </a>
+
+</li>
+
+<li>
+ 
+<a href="http://defesacivil.joinville.sc.gov.br/noticia/index/categoria/4" target="_top" title="Noticias Defesa Civil Estadual">
+  Noticias Defesa Civil Estadual<span>(6)</span>
+ </a>
+
+</li>
+
+<li>
+ 
+<a href="http://defesacivil.joinville.sc.gov.br/noticia/index/categoria/5" target="_top" title="Noticias Defesa Civil Nacional">
+  Noticias Defesa Civil Nacional<span>(5)</span>
+ </a>
+
+</li>
+
+<li>
+ 
+<a href="http://defesacivil.joinville.sc.gov.br/noticia/index/categoria/3" target="_top" title="Noticias Joinville">
+  Noticias Joinville<span>(10)</span>
+ </a>
+
+</li>
+
+<li>
+ 
+<a href="http://defesacivil.joinville.sc.gov.br/noticia/index/categoria/6" target="_top" title="Noticias PMJ">
+  Noticias PMJ<span>(5)</span>
+ </a>
+
+</li>
+
+<li>
+ 
+<a href="http://defesacivil.joinville.sc.gov.br/noticia/index/categoria/11" target="_top" title="Previs&amp;atilde;o">
+  Previs&amp;atilde;o<span>(1)</span>
+ </a>
+
+</li>
+
+<li>
+ 
+<a href="http://defesacivil.joinville.sc.gov.br/noticia/index/categoria/10" target="_top" title="Rede de Monitoramento">
+  Rede de Monitoramento<span>(2)</span>
+ </a>
+
+</li>
+
+<li>
+ 
+<a href="http://defesacivil.joinville.sc.gov.br/noticia/index/categoria/7" target="_top" title="Secretaria de Prote&amp;ccedil;&amp;atilde;o Civil">
+  Secretaria de Prote&amp;ccedil;&amp;atilde;o Civil<span>(11)</span>
+ </a>
+
+</li>
+
+<li>
+ 
+<a href="http://defesacivil.joinville.sc.gov.br/noticia/index/categoria/9" target="_top" title="Tremores em Pirabeira">
+  Tremores em Pirabeira<span>(0)</span>
+ </a>
+
+</li>
+                                                    
+                
+<li>
+                    
+<a href="http://defesacivil.joinville.sc.gov.br/noticia" target="_top" title="Todos">
+                        Todos<span>(11)</span>
+                    </a>
+                
+</li>
+            
+</ul>
+            
+</form>
+
+</div>   
+<div class="slide-banners">
+   
+<ul>  
+    
+<li>
+      
+<ul>  
+<li class="col1">
+   
+<a href="http://defesacivil.joinville.sc.gov.br/arquivo/lista/codigo/20-T%C3%A1bua%2Bde%2BMar%C3%A9s.html" target="_self" title="T&amp;aacute;bua de Mar&amp;eacute;s">
+    <img alt="T&amp;aacute;bua de Mar&amp;eacute;s" border="0" height="67" src="/public/portaldefesaadm/banner/b13242198e796a323a75fe49c4c1cca1.jpg" width="125">
+   </a>
+  
+</li>
+  
+<li class="">
+   
+<a href="http://defesacivil.joinville.sc.gov.br/conteudo/7-Dengue.html" target="_self" title="Previna-se da Dengue">
+    <img alt="Previna-se da Dengue" border="0" height="67" src="/public/portaldefesaadm/banner/b79aeeffcf0c3458ac035415522f50b6.jpg" width="125">
+   </a>
+  
+</li>
+  
+<li class="col1">
+   
+<a href="http://defesacivil.joinville.sc.gov.br/monitoramento" target="_blank" title="Monitoramento das Esta&amp;ccedil;&amp;otilde;es Meteorol&amp;oacute;gicas de Joinville">
+    <img alt="Monitoramento das Esta&amp;ccedil;&amp;otilde;es Meteorol&amp;oacute;gicas de Joinville" border="0" height="67" src="/public/portaldefesaadm/banner/060e5003d612c256ff93aabb67b64dca.jpg" width="125">
+   </a>
+  
+</li>
+  
+<li class="">
+   
+<a href="http://intranet.joinville.sc.gov.br/portaldefesaadm/categoriadownload/detalhe/cod_categoria_download/21" target="_self" title="Projeto Piava">
+    <img alt="Projeto Piava" border="0" height="67" src="/public/portaldefesaadm/banner/3324591c4c1e3155a0c714261e126583.jpg" width="125">
+   </a>
+  
+</li>
+
+</ul>
+    
+</li>
+<li>
+      
+<ul>  
+<li class="col1">
+   
+<a href="http://www.vejoaovivo.com.br/sc/joinville/" target="_blank" title="Vejo ao Vivo">
+    <img alt="Vejo ao Vivo" border="0" height="67" src="/public/portaldefesaadm/banner/360f6980e5db7cea0a76b1813e5544b5.jpg" width="125">
+   </a>
+  
+</li>
+  
+<li class="">
+   
+<a href="http://www.defesacivil.sc.gov.br/index.php?option=com_frontpage&amp;amp;Itemid=1" target="_blank" title="Defesa Civil de Santa Catarina">
+    <img alt="Defesa Civil de Santa Catarina" border="0" height="67" src="/public/portaldefesaadm/banner/ecf622430fde46c00b456d739d59a50d.jpg" width="125">
+   </a>
+  
+</li>
+  
+<li class="col1">
+   
+<a href="http://geoprocessamento.joinville.sc.gov.br/" target="_blank" title="SIMGeo">
+    <img alt="SIMGeo" border="0" height="67" src="/public/portaldefesaadm/banner/364ec8ac04989057318c02febaa3382d.jpg" width="125">
+   </a>
+  
+</li>
+  
+<li class="">
+   
+<a href="http://www.integracao.gov.br/defesa-civil" target="_blank" title="Defesa Civil Nacional">
+    <img alt="Defesa Civil Nacional" border="0" height="67" src="/public/portaldefesaadm/banner/e747ba7cda8806f41b386d5b536b3272.jpg" width="125">
+   </a>
+  
+</li>
+
+</ul>
+    
+</li>
+<li>
+      
+<ul>  
+<li class="col1">
+   
+<a href="http://defesacivil.joinville.sc.gov.br/conteudo/6-Leptospirose.html" target="_self" title="Previna-se da Leptospirose">
+    <img alt="Previna-se da Leptospirose" border="0" height="67" src="/public/portaldefesaadm/banner/7128b1d44a4702c88b6cf44cf085ca14.jpg" width="125">
+   </a>
+  
+</li>
+
+</ul>
+    
+</li>   
+</ul>
+   
+<a class="nav-left" href="javascript:void(0);">&nbsp;</a>
+   <a class="nav-right" href="javascript:void(0);">&nbsp;</a>
+  
+</div>
+  
+<div class="clearfix"></div>
+    
+<a href="http://defesacivil.joinville.sc.gov.br/arquivo/lista/codigo/2-Dicas+de+Preven&amp;ccedil;&amp;atilde;o.html" target="_self" title="Dicas de Preven&amp;ccedil;&amp;atilde;o">
+ <img alt="Dicas de Preven&amp;ccedil;&amp;atilde;o" border="0" height="66" src="/public/portaldefesaadm/banner/ac6c1aea6e793030a3f7baccb1b1e338.jpg" width="260">
+</a> 
+<div class="clearfix"></div>
+  
+<div class="twitter">
+         
+<h2>Siga <a href="http://twitter.com/@DefesaCivilJVLL" target="_blank" title="@DefesaCivilJVLL">@DefesaCivilJVLL</a>
+</h2>
+         
+<ul>
+                
+</ul>
+ 
+</div>
+ 
+<div class="clearfix"></div>
+ 
+<div class="tag-cloud">
+     
+<h2>Mais Buscados</h2>
+     
+<div class="tags">
+   
+<span class="tags1">
+   <a href="http://defesacivil.joinville.sc.gov.br/index/busca/keyword/mapa%2Bdas%2Bruas%2Bque%2Balagam">
+       mapa das ruas que alagam   </a>
+</span>
+     <span class="tags1">
+   <a href="http://defesacivil.joinville.sc.gov.br/index/busca/keyword/chuva">
+       chuva   </a>
+</span>
+     <span class="tags2">
+   <a href="http://defesacivil.joinville.sc.gov.br/index/busca/keyword/civil">
+       civil   </a>
+</span>
+     <span class="tags2">
+   <a href="http://defesacivil.joinville.sc.gov.br/index/busca/keyword/mapa%2Brisco">
+       mapa risco   </a>
+</span>
+     <span class="tags2">
+   <a href="http://defesacivil.joinville.sc.gov.br/index/busca/keyword/alagamentos">
+       alagamentos   </a>
+</span>
+     <span class="tags3">
+   <a href="http://defesacivil.joinville.sc.gov.br/index/busca/keyword/cartilha%2Bnudec">
+       cartilha nudec   </a>
+</span>
+     <span class="tags3">
+   <a href="http://defesacivil.joinville.sc.gov.br/index/busca/keyword/previsao%2Bdo%2Btempo%2Bjoinville">
+       previsao do tempo joinville   </a>
+</span>
+     <span class="tags3">
+   <a href="http://defesacivil.joinville.sc.gov.br/index/busca/keyword/http">
+       http   </a>
+</span>
+     <span class="tags4">
+   <a href="http://defesacivil.joinville.sc.gov.br/index/busca/keyword/piava">
+       piava   </a>
+</span>
+     <span class="tags4">
+   <a href="http://defesacivil.joinville.sc.gov.br/index/busca/keyword/Plano">
+       Plano   </a>
+</span>
+     <span class="tags4">
+   <a href="http://defesacivil.joinville.sc.gov.br/index/busca/keyword/Buscar">
+       Buscar   </a>
+</span>
+     <span class="tags5">
+   <a href="http://defesacivil.joinville.sc.gov.br/index/busca/keyword/prefeito">
+       prefeito   </a>
+</span>
+     <span class="tags5">
+   <a href="http://defesacivil.joinville.sc.gov.br/index/busca/keyword/Deslizamento%2Bde%2Bterra%2Bno%2BLoteamento%2BSantos%2BDumonst">
+       Deslizamento de terra no Loteamento Santos Dumonst   </a>
+</span>
+     <span class="tags5">
+   <a href="http://defesacivil.joinville.sc.gov.br/index/busca/keyword/quem%2Bsomos">
+       quem somos   </a>
+</span>
+     <span class="tags6">
+   <a href="http://defesacivil.joinville.sc.gov.br/index/busca/keyword/clima">
+       clima   </a>
+</span>
+     <span class="tags6">
+   <a href="http://defesacivil.joinville.sc.gov.br/index/busca/keyword/mapa%2Bde%2Brisco">
+       mapa de risco   </a>
+</span>
+     <span class="tags6">
+   <a href="http://defesacivil.joinville.sc.gov.br/index/busca/keyword/calor">
+       calor   </a>
+</span>
+     <span class="tags7">
+   <a href="http://defesacivil.joinville.sc.gov.br/index/busca/keyword/curso">
+       curso   </a>
+</span>
+     <span class="tags7">
+   <a href="http://defesacivil.joinville.sc.gov.br/index/busca/keyword/email">
+       email   </a>
+</span>
+     <span class="tags7">
+   <a href="http://defesacivil.joinville.sc.gov.br/index/busca/keyword/www.defesacivil.gov.br">
+       www.defesacivil.gov.br   </a>
+</span>
+          
+</div>
+ 
+</div>
+     
+</div>
+     
+<div class="clearfix"></div>
+    
+</div>
+   
+</div>
+  
+</div>
+  
+<footer>
+   
+<div class="wrapper">&#13;
+ 
+<div class="inner">&#13;
+     
+<ul>&#13;
+         
+<li>&#13;
+      
+<a href="http://defesacivil.joinville.sc.gov.br/mapa-site/index/menu/1" target="_top" title="Joinville">Institucional</a>&#13;
+     
+</li>&#13;
+         
+<li>&#13;
+      
+<a href="http://defesacivil.joinville.sc.gov.br/mapa-site/index/menu/5" target="_top" title="Joinville">Realiza&amp;ccedil;&amp;otilde;es</a>&#13;
+     
+</li>&#13;
+         
+<li>&#13;
+      
+<a href="http://defesacivil.joinville.sc.gov.br/mapa-site/index/menu/8" target="_top" title="Joinville">Servi&amp;ccedil;os</a>&#13;
+     
+</li>&#13;
+         
+<li>&#13;
+      
+<a href="http://defesacivil.joinville.sc.gov.br/mapa-site/index/menu/10" target="_top" title="Joinville">Imprensa</a>&#13;
+     
+</li>&#13;
+         
+<li>&#13;
+      
+<a href="http://defesacivil.joinville.sc.gov.br/mapa-site/index/menu/13" target="_top" title="Joinville">Acervo</a>&#13;
+     
+</li>&#13;
+         
+<li>&#13;
+      
+<a href="http://defesacivil.joinville.sc.gov.br/mapa-site/index/menu/19" target="_top" title="Joinville">Blog Nudec</a>&#13;
+     
+</li>&#13;
+        
+<li>
+<a href="http://www.joinville.sc.gov.br/" target="_top" title="Prefeitura">Prefeitura</a>
+</li>&#13;
+   
+</ul>&#13;
+    
+<address>&#13;
+    
+<img alt="PMJ" height="37" src="/public/portalcme/imagens/logo-pmj-footer.png" width="39">&#13;
+     Rua Nome da Rua, 000 | Bairro<br>&#13;
+     Joinville | SC | 89899-899<br>&#13;
+     47 3333.4444 | <a href="http://ouvidoria.joinville.sc.gov.br" target="_blank" title="Ouvidoria">Ouvidoria</a>&#13;
+     &#13;
+  
+</address>&#13;
+  
+<a class="twitter" href="http://twitter.com/@DefesaCivilJVLL" target="_blank" title="Twitter Defesa Civil de Joinville">@DefesaCivilJVLL</a>&#13;
+  &#13;
+ 
+</div>&#13;
+
+</div>&#13;
+     
+</footer>
+ 
+</div>
+ <!--BÁSICOS-->
+
+<script>var currentDate = "Wed May 01 2013 11:48:18 BRT-0300 (Hora oficial do Brasil)"; var hdImagesFolder = "hd/"; </script>
+<script src="/public/portaldefesa/js/plugins.js" type="text/javascript"></script>
+<script src="/public/portaldefesa/js/script.js" type="text/javascript"></script>
+<script src="/public/portaldefesa/js/datepicker.js" type="text/javascript"></script>
+
+<!--SHADOWBOX-->
+<script src="/public/portaldefesa/js/shadowbox.js" type="text/javascript"></script>
+<script type="text/javascript">
+ if(shadowbox_config != "none"){
+  Shadowbox.init(shadowbox_config);
+ } else {
+  Shadowbox.init();
+ }
+</script>
+
+<!--SLIDESHOW MOSAICO-->
+<script src="/public/portaldefesa/js/mosaic.js" type="text/javascript"></script>
+<script type="text/javascript">
+ $(".mosaic-slideshow").mosaic({numRows:5,numCols:10,tabwidth:26,tabheight:34,intervalo:6,bg:"#FBFBF9"});
+</script>
+
+<!--PODCAST-->
+<script src="/public/portaldefesa/js/jquery.jplayer.min.js" type="text/javascript"></script>
+<script src="/public/portaldefesa/js/jquery.jplayer.playlist.js" type="text/javascript"></script>
+<script type="text/javascript">
+ var audioPlaylist = new Playlist("1", [
+  &lt;br /&gt;
+&lt;b&gt;Warning&lt;/b&gt;:  Invalid argument supplied for foreach() in &lt;b&gt;/var/www/hosts/intranet.joinville.sc.gov.br/application/modules/portaldefesa/layout/scripts.phtml&lt;/b&gt; on line &lt;b&gt;28&lt;/b&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;Warning&lt;/b&gt;:  implode() [&lt;a href='function.implode'&gt;function.implode&lt;/a&gt;]: Invalid arguments passed in &lt;b&gt;/var/www/hosts/intranet.joinville.sc.gov.br/application/modules/portaldefesa/layout/scripts.phtml&lt;/b&gt; on line &lt;b&gt;31&lt;/b&gt;&lt;br /&gt;
+  ], {
+   ready: function() {
+    audioPlaylist.displayPlaylist();
+    audioPlaylist.playlistInit(false);
+   },
+   ended: function() {
+    audioPlaylist.playlistNext();
+   },
+   play: function() {
+    $(this).jPlayer('pauseOthers');
+   },
+   swfPath: '/public/portaldefesa/js/',
+   supplied: 'mp3'
+ });
+</script>
+
+<!--SHARE THIS BUTTONS-->
+<script type="text/javascript">var switchTo5x=false;</script><script src="http://w.sharethis.com/button/buttons.js" type="text/javascript"></script>
+<script type="text/javascript">stLight.options({publisher:'397c3318-1831-407b-b64a-9d24f23f3eee'});</script>
+<script src="/public/portaldefesa/js/profiling/yahoo-profiling.min.js"></script>
+
+
+<!--ANALYTICS-->
+<script type="text/javascript">
+ /*
+ var _gaq = [['_setAccount', 'UA-XXXXX-X'], ['_trackPageview']];
+ (function(d, t) {
+ var g = d.createElement(t),
+     s = d.getElementsByTagName(t)[0];
+ g.async = true;
+ g.src = ('https:' == location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+ s.parentNode.insertBefore(g, s);
+ })(document, 'script');
+ */
+</script>
+
+<!--[if lt IE 7 ]>
+ <script src="/public/portaldefesa/js/libs/dd_belatedpng.js"></script>
+ <script> DD_belatedPNG.fix('img, .png_bg'); </script>
+<![endif]-->
+<!-- change the UA-XXXXX-X to be your site's ID --> <script>
+     $(document).ready(function(){
+        $('#news-letter').submit(function(){
+         var nome   = $('#nome-mail').val();
+         var sEmail = $('#e-mail').val(); 
+ 
+         er = /^[a-zA-Z0-9][a-zA-Z0-9\._-]+@([a-zA-Z0-9\._-]+\.)[a-zA-Z-0-9]{2}/;
+         
+          if(nome.length > 100){
+          alert('Nome não pode ter mais de 100 caracteres');
+          return false;
+          }
+         
+          if(!er.exec(sEmail)){
+           alert('Email Invalido');
+           return false;
+         }   
+         $.ajax({
+          type: 'POST',
+          url: $('#news-letter').attr('action'),
+          data: 'mail='+sEmail+'&name='+nome,
+          success: function(msg){
+            alert( msg );
+            $('#nome-mail').val('Nome');
+            $('#e-mail').val('E-mail');
+          }
+         });             
+         return false;
+        });     
+     });
+    </script>
+
+</body>
+</html>
