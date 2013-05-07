@@ -9,7 +9,6 @@ import java.sql.Timestamp;
 import java.util.Calendar;
 import java.util.Collection;
 import java.util.Random;
-import java.util.TimeZone;
 
 import org.apache.log4j.Logger;
 
@@ -35,9 +34,10 @@ public class ImportNews {
 		PreparedStatement preparedStatement = null;
 		try {
 			connection = DatabaseManager.getConnection();
-			preparedStatement = connection.prepareStatement("select * from entry where title_entry=? and source=?");
+			preparedStatement = connection.prepareStatement("select * from entry where title_entry=? and source=? ");
 			preparedStatement.setString(1, entry.getFormattedTitle());
 			preparedStatement.setString(2, entry.getSource());
+
 			ResultSet resultSet = preparedStatement.executeQuery();
 			return !resultSet.next();
 		} catch (Exception e) {
@@ -60,13 +60,11 @@ public class ImportNews {
 			connection = DatabaseManager.getConnection();
 			preparedStatement = connection.prepareStatement(getInsertQuery());
 			
-			TimeZone timeZone = TimeZone.getTimeZone("GMT");
-			Calendar calendar = Calendar.getInstance(timeZone);
+			Calendar calendar = Calendar.getInstance();
 			Timestamp timeStampImport = new Timestamp(calendar.getTimeInMillis());
-			logger.debug("timezone: " + timeZone);
-			logger.debug("current time: " + calendar.getTime());
+			System.out.println();
 			
-			Date dateImport = new Date(System.currentTimeMillis());
+			Date dateImport = new Date(calendar.getTimeInMillis());
 			preparedStatement.setLong(1, nextId);
 			preparedStatement.setTimestamp(2, timeStampImport);
 			preparedStatement.setString(3, entry.getDate());

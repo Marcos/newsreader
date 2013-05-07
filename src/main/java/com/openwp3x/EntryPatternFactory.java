@@ -220,4 +220,37 @@ public class EntryPatternFactory {
 		return entryPattern;
 	}
 
+	public static EntryPattern getJecPattern() throws MalformedURLException {
+		final EntryPattern entryPattern = new EntryPattern();
+		entryPattern.setSourceURL(new URL("http://jec.com.br/noticias/"));
+		entryPattern.setSourceCharset("UTF-8");
+		entryPattern.setTitleXPath("//*[@id=\"noticias\"]/div[{_counter}]/b/a");
+		entryPattern.setUrlXPath("//*[@id=\"noticias\"]/div[{_counter}]/b/a/@href");
+		entryPattern.setDateTextPattern("\\d{4}\\-\\d{2}\\-\\d{2}");
+		entryPattern.setMaxResult(10);
+		entryPattern.setSource("jec");
+		//entryPattern.setUrlResource("http://jec.com.br");
+		entryPattern.setDateFormat("yyyy-MM-dd");
+		entryPattern.setSourceLabel("JEC");
+		entryPattern.setTags(Arrays.asList(new Tag[]{Tag.esportes}));
+		return entryPattern;
+	}
+
+	public static EntryPattern getKronaPattern() throws MalformedURLException {
+		final EntryPattern entryPattern = new EntryPattern();
+		entryPattern.setSourceURL(new URL("http://www.krona.com.br/kronafutsal/?area=noticias&lng=pt"));
+		entryPattern.setSourceCharset("ISO-8859-1");
+		entryPattern.setDateXPath("//*[@id=\"div_list_noticias\"]/ul/li[{_counter}]/p[1]");
+		entryPattern.setTitleXPath("//*[@id=\"div_list_noticias\"]/ul/li[{_counter}]/h6/a");
+		entryPattern.setUrlXPath("//*[@id=\"div_list_noticias\"]/ul/li[{_counter}]/a[2]/@href");
+		entryPattern.setDateTextPattern("\\d{2}\\s\\w{3}\\s\\d{2}");
+		entryPattern.setMaxResult(10);
+		entryPattern.setSource("krona");
+		entryPattern.setUrlResource("http://www.krona.com.br/kronafutsal/");
+		entryPattern.setDateFormat("dd MMM yy");
+		entryPattern.setSourceLabel("Krona Futsal");
+		entryPattern.setTags(Arrays.asList(new Tag[]{Tag.esportes}));
+		return entryPattern;
+	}
+
 }

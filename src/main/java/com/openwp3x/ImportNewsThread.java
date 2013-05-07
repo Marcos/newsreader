@@ -31,6 +31,8 @@ public class ImportNewsThread extends Thread{
 				//entryPatternList.add(EntryPatternFactory.getAnoticiaPattern());
 				entryPatternList.add(EntryPatternFactory.getNDJoinvillePattern());
 				entryPatternList.add(EntryPatternFactory.getPortalJoinvillePattern());
+				entryPatternList.add(EntryPatternFactory.getJecPattern());
+				entryPatternList.add(EntryPatternFactory.getKronaPattern());
 			} catch (MalformedURLException e) {
 				throw new RuntimeException(e);
 			}

@@ -199,7 +199,10 @@ public class ReaderImpl implements Reader {
 	 * @return
 	 */
 	private String getCurrentEntry(final String xPath, final Integer i) {
-		return xPath.replace("{_counter}", i.toString());
+		if(xPath!=null){
+			return xPath.replace("{_counter}", i.toString());
+		}
+		return null;
 	}
 
 	/* (non-Javadoc)
