@@ -45,3 +45,12 @@ select id entry_id, 'educacao' tag_id from entry where source='sociesc' or sourc
 union
 select id entry_id, 'geral' tag_id from entry where source='portal_joinville' or source='nd_joinville'
 ) nt;
+
+create table access(
+id bigint identity primary key, 
+referer	 nvarchar(4000), 
+url_access nvarchar(4000), 
+header nvarchar(4000), 
+ip_source nvarchar(255),
+date_access datetime);
+
