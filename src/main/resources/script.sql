@@ -14,6 +14,7 @@ random_factor bigint);
 
 alter table entry add clicks bigint default 0 with values;
 alter table entry add short_link nvarchar(4000);
+alter table entry add twitter_status tinyint;
 
 insert into entry2 select id, date_entry, title_entry, url_entry, date_insert, date_published, link, title, source, source_label, status, random_factor, clicks, short_link from entry
 
@@ -53,4 +54,6 @@ url_access nvarchar(4000),
 header nvarchar(4000), 
 ip_source nvarchar(255),
 date_access datetime);
+
+alter table access add user_agent nvarchar(4000);
 

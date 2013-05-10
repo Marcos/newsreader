@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.openwp3x;
+package com.openwp3x.reader;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

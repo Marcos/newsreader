@@ -7,13 +7,13 @@ import java.sql.SQLException;
 
 import org.apache.log4j.Logger;
 
-public class LinkShortener {
+public class LinkShortener implements NuveoJob{
 
 	Logger logger = Logger.getLogger(this.getClass());
 
 	private static final String baseDigits = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 
-	public void updateLinks() {
+	public void execute() {
 		Connection connection = null;
 		PreparedStatement preparedStatement = null;
 		try {
@@ -55,10 +55,9 @@ public class LinkShortener {
 			try {
 				preparedStatement.close();
 			} catch (SQLException e) {
-				e.printStackTrace();
+				logger.error(e, e);
 			}
 		}
-		
 	}
 
 	public static String converter(Long decimalNumber) {

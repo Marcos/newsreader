@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.openwp3x;
+package com.openwp3x.reader;
 
 import java.io.IOException;
 import java.net.URL;
@@ -14,18 +14,24 @@ import junit.framework.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
+import com.openwp3x.EntryImpl;
+import com.openwp3x.EntryPattern;
+import com.openwp3x.EntryPatternFactory;
+import com.openwp3x.Reader;
+import com.openwp3x.ReaderImpl;
+
 /**
  * @author marcos.ferreira
  * 
  */
-public class TestJecEntries {
+public class TestACIJEntries {
 
-    final URL resource = this.getClass().getClassLoader().getResource("jec-list.htm");
+    final URL resource = this.getClass().getClassLoader().getResource("acij-list.htm");
     Reader newsReader;
 
     @Before
     public void beforeTest() throws IOException, ParserConfigurationException {
-    	EntryPattern entryPattern = EntryPatternFactory.getJecPattern();
+    	EntryPattern entryPattern = EntryPatternFactory.getAcijPattern();
     	entryPattern.setSourceURL(resource);
         this.newsReader = new ReaderImpl(entryPattern);
     }
@@ -35,10 +41,10 @@ public class TestJecEntries {
         final Collection<EntryImpl> entries = this.newsReader.getEntries();
         System.out.println(entries);
         final EntryImpl firstEntry = entries.iterator().next();
-        Assert.assertEquals("Citadino: JEC vence o Santos", firstEntry.getFormattedTitle());
+        Assert.assertEquals("Revista 21", firstEntry.getTitle());
         Assert.assertEquals(null, firstEntry.getDate());
-        Assert.assertEquals("http://jec.com.br/citadino-jec-vence-o-santos/", firstEntry.getUrl());
-        Assert.assertEquals("http://jec.com.br/citadino-jec-vence-o-santos/", firstEntry.getFormattedURL());
-        Assert.assertEquals(10, entries.size());
+        Assert.assertEquals("/noticias/show/id/901%26", firstEntry.getUrl());
+        Assert.assertEquals("http://www.acij.com.br/noticias/show/id/901%26", firstEntry.getFormattedURL());
+        Assert.assertEquals(4, entries.size());
     }
 }

@@ -62,7 +62,6 @@ public class ImportNews {
 			
 			Calendar calendar = Calendar.getInstance();
 			Timestamp timeStampImport = new Timestamp(calendar.getTimeInMillis());
-			System.out.println();
 			
 			Date dateImport = new Date(calendar.getTimeInMillis());
 			preparedStatement.setLong(1, nextId);

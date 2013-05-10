@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.openwp3x;
+package com.openwp3x.reader;
 
 import java.io.IOException;
 import java.net.URL;
@@ -13,6 +13,11 @@ import junit.framework.Assert;
 
 import org.junit.Before;
 import org.junit.Test;
+
+import com.openwp3x.EntryPattern;
+import com.openwp3x.EntryPatternFactory;
+import com.openwp3x.Reader;
+import com.openwp3x.ReaderImpl;
 
 /**
  * @author marcos.ferreira

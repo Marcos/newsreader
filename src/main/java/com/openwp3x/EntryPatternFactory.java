@@ -2,10 +2,39 @@ package com.openwp3x;
 
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collection;
 import java.util.Locale;
 
 public class EntryPatternFactory {
+	
+	static Collection<EntryPattern> entryPatternList;
+	
+	public static Collection<EntryPattern> getEntryPatternList(){
+		if(entryPatternList==null){
+			entryPatternList = new ArrayList<EntryPattern>();
+			try {
+				entryPatternList.add(EntryPatternFactory.getPrefeituraPattern());
+				entryPatternList.add(EntryPatternFactory.getSociescPattern());
+				entryPatternList.add(EntryPatternFactory.getUdescPattern());
+				entryPatternList.add(EntryPatternFactory.getUnivillePattern());
+				entryPatternList.add(EntryPatternFactory.getAcijPattern());
+				entryPatternList.add(EntryPatternFactory.getAjorpemePattern());
+				entryPatternList.add(EntryPatternFactory.getCDLPattern());
+				entryPatternList.add(EntryPatternFactory.getDefesaCivilPattern());
+				entryPatternList.add(EntryPatternFactory.getCVJoinvillePattern());
+				//entryPatternList.add(EntryPatternFactory.getAnoticiaPattern());
+				entryPatternList.add(EntryPatternFactory.getNDJoinvillePattern());
+				entryPatternList.add(EntryPatternFactory.getPortalJoinvillePattern());
+				entryPatternList.add(EntryPatternFactory.getJecPattern());
+				entryPatternList.add(EntryPatternFactory.getKronaPattern());
+			} catch (MalformedURLException e) {
+				throw new RuntimeException(e);
+			}
+		}
+		return entryPatternList;
+	}
 
 	public static EntryPattern getSociescPattern() throws MalformedURLException {
 		final EntryPattern entryPattern = new EntryPattern();
