@@ -17,7 +17,7 @@ public class EntryPattern {
 	
 	private SourceType sourceType = SourceType.HTML;
 	
-	private String sourceCharset;
+	private String charset;
 
 	private String dateTextPattern;
 
@@ -220,12 +220,12 @@ public class EntryPattern {
 		this.sourceURL = sourceURL;
 	}
 
-	public String getSourceCharset() {
-		return sourceCharset;
+	public String getCharset() {
+		return charset;
 	}
 
-	public void setSourceCharset(String sourceCharset) {
-		this.sourceCharset = sourceCharset;
+	public void setCharset(String sourceCharset) {
+		this.charset = sourceCharset;
 	}
 
 	public SourceType getSourceType() {

@@ -17,8 +17,7 @@ import org.junit.Test;
 import com.openwp3x.EntryImpl;
 import com.openwp3x.EntryPattern;
 import com.openwp3x.EntryPatternFactory;
-import com.openwp3x.Reader;
-import com.openwp3x.ReaderImpl;
+import com.openwp3x.EntryReader;
 
 /**
  * @author marcos.ferreira
@@ -27,13 +26,13 @@ import com.openwp3x.ReaderImpl;
 public class TestDefesaCivilEntries {
 
     final URL resource = this.getClass().getClassLoader().getResource("defesa-civil-list.htm");
-    Reader newsReader;
+    EntryReader newsReader;
 
     @Before
     public void beforeTest() throws IOException, ParserConfigurationException {
     	EntryPattern entryPattern = EntryPatternFactory.getDefesaCivilPattern();
     	entryPattern.setSourceURL(resource);
-        this.newsReader = new ReaderImpl(entryPattern);
+    	this.newsReader = new EntryReader(entryPattern);
     }
 
     @Test

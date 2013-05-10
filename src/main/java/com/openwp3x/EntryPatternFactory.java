@@ -39,7 +39,7 @@ public class EntryPatternFactory {
 	public static EntryPattern getSociescPattern() throws MalformedURLException {
 		final EntryPattern entryPattern = new EntryPattern();
 		entryPattern.setSourceURL(new URL("http://www.sociesc.org.br/pt/noticias/"));
-		entryPattern.setSourceCharset("ISO-8859-1");
+		entryPattern.setCharset("ISO-8859-1");
 		entryPattern.setDateXPath("//*[@id=\"listBusca\"]/ul/li[{_counter}]/a/span[1]");
 		entryPattern.setTitleXPath("//*[@id=\"listBusca\"]/ul/li[{_counter}]/a/span[2]");
 		entryPattern.setUrlXPath("//*[@id=\"listBusca\"]/ul/li[{_counter}]/a/@onclick");
@@ -55,7 +55,7 @@ public class EntryPatternFactory {
 	public static EntryPattern getUdescPattern() throws MalformedURLException {
 		final EntryPattern entryPattern = new EntryPattern();
 		entryPattern.setSourceURL(new URL("http://www.joinville.udesc.br/portal/noticias/index.php"));
-		entryPattern.setSourceCharset("ISO-8859-1");
+		entryPattern.setCharset("ISO-8859-1");
 		entryPattern.setDateXPath("//*[@id=\"wrapper\"]/table[1]/tbody/tr/td[1]/div[2]/table/tbody/tr[{_counter}]/td[1]");
 		entryPattern.setTitleXPath("//*[@id=\"wrapper\"]/table[1]/tbody/tr/td[1]/div[2]/table/tbody/tr[{_counter}]/td[2]/a");
 		entryPattern.setUrlXPath("//*[@id=\"wrapper\"]/table[1]/tbody/tr/td[1]/div[2]/table/tbody/tr[{_counter}]/td[2]/a//@href");
@@ -71,7 +71,7 @@ public class EntryPatternFactory {
 	public static EntryPattern getUnivillePattern() throws MalformedURLException {
 		final EntryPattern entryPattern = new EntryPattern();
 		entryPattern.setSourceURL(new URL("http://www.univille.edu.br/noticias/index/33793?all=1"));
-		entryPattern.setSourceCharset("ISO-8859-1");
+		entryPattern.setCharset("ISO-8859-1");
 		entryPattern.setDateXPath("//*[@id=\"columnCenter\"]/div[6]/ul/li[{_counter}]/p");
 		entryPattern.setTitleXPath("//*[@id=\"columnCenter\"]/div[6]/ul/li[{_counter}]/a");
 		entryPattern.setUrlXPath("//*[@id=\"columnCenter\"]/div[6]/ul/li[{_counter}]/a/@href");
@@ -86,7 +86,7 @@ public class EntryPatternFactory {
 	public static EntryPattern getPrefeituraPattern() throws MalformedURLException {
 		final EntryPattern entryPattern = new EntryPattern();
 		entryPattern.setSourceURL(new URL("http://www.joinville.sc.gov.br/noticia/index"));
-		entryPattern.setSourceCharset("UTF-8");
+		entryPattern.setCharset("UTF-8");
 		entryPattern.setDateXPath("//*[@id=\"main\"]/div/div/div[1]/ul[1]/li[{_counter}]/span[1]");
 		entryPattern.setTitleXPath("//*[@id=\"main\"]/div/div/div[1]/ul[1]/li[{_counter}]//h3");
 		entryPattern.setUrlXPath("//*[@id=\"main\"]/div/div/div[1]/ul[1]/li[{_counter}]/a/@href");
@@ -106,7 +106,7 @@ public class EntryPatternFactory {
 	public static EntryPattern getAjorpemePattern() throws MalformedURLException {
 		final EntryPattern entryPattern = new EntryPattern();
 		entryPattern.setSourceURL(new URL("http://ajorpeme.com.br/site/noticias"));
-		entryPattern.setSourceCharset("UTF-8");
+		entryPattern.setCharset("UTF-8");
 		entryPattern.setDateXPath("//*[@id=\"content\"]/table/tbody/tr[2]/td/table/tbody/tr/td/table[{_counter}]/tbody/tr/td/a");
 		entryPattern.setTitleXPath("//*[@id=\"content\"]/table/tbody/tr[2]/td/table/tbody/tr/td/table[{_counter}]/tbody/tr/td/a");
 		entryPattern.setUrlXPath("//*[@id=\"content\"]/table/tbody/tr[2]/td/table/tbody/tr/td/table[{_counter}]/tbody/tr/td/a/@href");
@@ -130,7 +130,7 @@ public class EntryPatternFactory {
 	public static EntryPattern getAcijPattern() throws MalformedURLException {
 		final EntryPattern entryPattern = new EntryPattern();
 		entryPattern.setSourceURL(new URL("http://acij.com.br/noticias"));
-		entryPattern.setSourceCharset("UTF-8");
+		entryPattern.setCharset("UTF-8");
 		entryPattern.setDateXPath("/html/body/div/div[2]/div[1]/div[2]/ul/li[{_counter}]/span/a");
 		entryPattern.setTitleXPath("/html/body/div/div[2]/div[1]/div[2]/ul/li[{_counter}]/span/a");
 		entryPattern.setUrlXPath("/html/body/div/div[2]/div[1]/div[2]/ul/li[{_counter}]/span/a/@href");
@@ -149,7 +149,7 @@ public class EntryPatternFactory {
 	public static EntryPattern getCDLPattern() throws MalformedURLException {
 		final EntryPattern entryPattern = new EntryPattern();
 		entryPattern.setSourceURL(new URL("http://cdljoinville.com.br/index.php?cat=noticias"));
-		entryPattern.setSourceCharset("ISO-8859-1");
+		entryPattern.setCharset("ISO-8859-1");
 		entryPattern.setDateXPath("/html/body/center/table/tbody/tr[2]/td[2]/table/tbody/tr[2]/td[2]/p[{_counter}]/i");
 		entryPattern.setTitleXPath("/html/body/center/table/tbody/tr[2]/td[2]/table/tbody/tr[2]/td[2]/p[{_counter}]/b");
 		entryPattern.setUrlXPath("/html/body/center/table/tbody/tr[2]/td[2]/table/tbody/tr[2]/td[2]/p[{_counter}]/nobr/a/@href");
@@ -170,7 +170,7 @@ public class EntryPatternFactory {
 	public static EntryPattern getDefesaCivilPattern() throws MalformedURLException {
 		final EntryPattern entryPattern = new EntryPattern();
 		entryPattern.setSourceURL(new URL("http://defesacivil.joinville.sc.gov.br/noticia"));
-		entryPattern.setSourceCharset("UTF-8");
+		entryPattern.setCharset("UTF-8");
 		entryPattern.setDateXPath("//*[@id=\"main\"]/div/div/div[1]/ul[1]/li[{_counter}]/span[1]");
 		entryPattern.setTitleXPath("//*[@id=\"main\"]/div/div/div[1]/ul[1]/li[{_counter}]//h3");
 		entryPattern.setUrlXPath("//*[@id=\"main\"]/div/div/div[1]/ul[1]/li[{_counter}]/a/@href");
@@ -221,7 +221,7 @@ public class EntryPatternFactory {
 
 	private static EntryPattern getRSSEntryPattern() {
 		EntryPattern entryPattern = new EntryPattern();
-		entryPattern.setSourceCharset("UTF-8");
+		entryPattern.setCharset("UTF-8");
 		entryPattern.setTitleXPath("/rss/channel/item[{_counter}]/title");	
 		entryPattern.setDateXPath("/rss/channel/item[{_counter}]/pubDate");
 		entryPattern.setUrlXPath("/rss/channel/item[{_counter}]/link");
@@ -235,7 +235,7 @@ public class EntryPatternFactory {
 	public static EntryPattern getCVJoinvillePattern() throws MalformedURLException {
 		final EntryPattern entryPattern = new EntryPattern();
 		entryPattern.setSourceURL(new URL("http://www.cvj.sc.gov.br"));
-		entryPattern.setSourceCharset("UTF-8");
+		entryPattern.setCharset("UTF-8");
 		entryPattern.setDateXPath("//*[@id=\"system\"]/div[1]/div[1]/article/header/time/@datetime");
 		entryPattern.setTitleXPath("//*[@id=\"system\"]/div[1]/div[1]/article/header/h1/a");
 		entryPattern.setUrlXPath("//*[@id=\"system\"]/div[1]/div[1]/article/header/h1/a/@href");
@@ -252,7 +252,7 @@ public class EntryPatternFactory {
 	public static EntryPattern getJecPattern() throws MalformedURLException {
 		final EntryPattern entryPattern = new EntryPattern();
 		entryPattern.setSourceURL(new URL("http://jec.com.br/noticias/"));
-		entryPattern.setSourceCharset("UTF-8");
+		entryPattern.setCharset("UTF-8");
 		entryPattern.setTitleXPath("//*[@id=\"noticias\"]/div[{_counter}]/b/a");
 		entryPattern.setUrlXPath("//*[@id=\"noticias\"]/div[{_counter}]/b/a/@href");
 		entryPattern.setDateTextPattern("\\d{4}\\-\\d{2}\\-\\d{2}");
@@ -268,7 +268,7 @@ public class EntryPatternFactory {
 	public static EntryPattern getKronaPattern() throws MalformedURLException {
 		final EntryPattern entryPattern = new EntryPattern();
 		entryPattern.setSourceURL(new URL("http://www.krona.com.br/kronafutsal/?area=noticias&lng=pt"));
-		entryPattern.setSourceCharset("ISO-8859-1");
+		entryPattern.setCharset("ISO-8859-1");
 		entryPattern.setDateXPath("//*[@id=\"div_list_noticias\"]/ul/li[{_counter}]/p[1]");
 		entryPattern.setTitleXPath("//*[@id=\"div_list_noticias\"]/ul/li[{_counter}]/h6/a");
 		entryPattern.setUrlXPath("//*[@id=\"div_list_noticias\"]/ul/li[{_counter}]/a[2]/@href");

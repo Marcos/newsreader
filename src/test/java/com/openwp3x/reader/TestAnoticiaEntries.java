@@ -17,8 +17,7 @@ import org.junit.Test;
 import com.openwp3x.EntryImpl;
 import com.openwp3x.EntryPattern;
 import com.openwp3x.EntryPatternFactory;
-import com.openwp3x.Reader;
-import com.openwp3x.ReaderImpl;
+import com.openwp3x.EntryReader;
 
 /**
  * @author marcos.ferreira
@@ -27,13 +26,13 @@ import com.openwp3x.ReaderImpl;
 public class TestAnoticiaEntries {
 
     final URL resource = this.getClass().getClassLoader().getResource("anoticia-list.htm");
-    Reader newsReader;
+    EntryReader newsReader;
 
     @Before
     public void beforeTest() throws IOException, ParserConfigurationException {
     	EntryPattern entryPattern = EntryPatternFactory.getNDJoinvillePattern();
     	entryPattern.setSourceURL(resource);
-        this.newsReader = new ReaderImpl(entryPattern);
+    	this.newsReader = new EntryReader(entryPattern);
     }
 
     @Test

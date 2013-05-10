@@ -18,7 +18,7 @@ public class SchedulerImports extends Thread{
 					@Override
 					public void run() {
 						try {
-							new ImportNews().importNews(new ReaderImpl(entryPattern).getEntries());
+							new ImportNews().importNews(new EntryReader(entryPattern).getEntries());
 						} catch (Exception e) {
 							logger.error("Error executing scheduler with source " + entryPattern.getSource(), e);
 						} 

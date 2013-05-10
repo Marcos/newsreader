@@ -3,11 +3,8 @@
  */
 package com.openwp3x.reader;
 
-import java.io.IOException;
 import java.net.URL;
 import java.util.Locale;
-
-import javax.xml.parsers.ParserConfigurationException;
 
 import junit.framework.Assert;
 
@@ -17,7 +14,6 @@ import org.junit.Test;
 import com.openwp3x.EntryPattern;
 import com.openwp3x.EntryPatternFactory;
 import com.openwp3x.Reader;
-import com.openwp3x.ReaderImpl;
 
 /**
  * @author marcos.ferreira
@@ -26,14 +22,15 @@ import com.openwp3x.ReaderImpl;
 
 public class TestReader {
 
-	final URL resource = this.getClass().getClassLoader().getResource("udesc-n1.htm");
+	final URL resource1 = this.getClass().getClassLoader().getResource("udesc-n1.htm");
+	final URL resource2 = this.getClass().getClassLoader().getResource("udesc-n1.htm");
     Reader newsReader;
 
     @Before
-    public void beforeTest() throws IOException, ParserConfigurationException{
+    public void beforeTest() throws Throwable{
     	EntryPattern entryPattern = EntryPatternFactory.getUdescPattern();
-    	entryPattern.setSourceURL(resource);
-        this.newsReader = new ReaderImpl(entryPattern);
+    	entryPattern.setSourceURL(resource1);
+        this.newsReader = new Reader(resource1, entryPattern.getSource(), entryPattern.getSourceType(), entryPattern.getCharset());
     }
     
     @Test
