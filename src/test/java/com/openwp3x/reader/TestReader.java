@@ -23,7 +23,6 @@ import com.openwp3x.Reader;
 public class TestReader {
 
 	final URL resource1 = this.getClass().getClassLoader().getResource("udesc-n1.htm");
-	final URL resource2 = this.getClass().getClassLoader().getResource("udesc-n1.htm");
     Reader newsReader;
 
     @Before

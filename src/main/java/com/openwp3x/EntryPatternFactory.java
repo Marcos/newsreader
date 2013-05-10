@@ -65,6 +65,11 @@ public class EntryPatternFactory {
 		entryPattern.setMaxResult(20);
 		entryPattern.setSourceLabel("UDESC");
 		entryPattern.setTags(Arrays.asList(new Tag[]{Tag.educacao}));
+		entryPattern.setLinkTextXPath("//*[@id=\"wrapper\"]/table[1]/tbody/tr/td[1]/div[1]");
+
+		entryPattern.setLinkTextPrefixPattern("\\n+.+\\n+.+\\n+");
+		entryPattern.setLinkTextSufixPattern("Compartilhar: ");
+		
 		return entryPattern;
 	}
 

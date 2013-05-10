@@ -30,6 +30,8 @@ public class EntryPattern {
 	private String urlXPath;
 	
 	private String textXPath;
+	
+	private String linkTextXPath;
 
 	private String source;
 
@@ -38,6 +40,10 @@ public class EntryPattern {
 	private String urlResource;
 
 	private String titlePrefixPattern;
+	
+	private String linkTextPrefixPattern;
+	
+	private String linkTextSufixPattern;
 
 	private String urlPattern;
 
@@ -250,5 +256,29 @@ public class EntryPattern {
 
 	public void setTags(Collection<Tag> tags) {
 		this.tags = tags;
+	}
+
+	public String getLinkTextXPath() {
+		return linkTextXPath;
+	}
+
+	public void setLinkTextXPath(String linkTextXPath) {
+		this.linkTextXPath = linkTextXPath;
+	}
+
+	public String getLinkTextPrefixPattern() {
+		return linkTextPrefixPattern;
+	}
+
+	public void setLinkTextPrefixPattern(String linkTextPrefixPattern) {
+		this.linkTextPrefixPattern = linkTextPrefixPattern;
+	}
+
+	public String getLinkTextSufixPattern() {
+		return linkTextSufixPattern;
+	}
+
+	public void setLinkTextSufixPattern(String linkTextSufixPattern) {
+		this.linkTextSufixPattern = linkTextSufixPattern;
 	}
 }

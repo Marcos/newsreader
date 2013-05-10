@@ -28,6 +28,7 @@ import javax.xml.xpath.XPathExpressionException;
 import javax.xml.xpath.XPathFactory;
 
 import org.apache.commons.lang3.StringEscapeUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
 import org.htmlcleaner.CleanerProperties;
 import org.htmlcleaner.DomSerializer;
@@ -45,12 +46,18 @@ public class Reader {
 	private org.w3c.dom.Document doc;
 	Logger log = Logger.getLogger(this.getClass());
 
-	public Reader(URL sourceURL, String sourceName, SourceType sourceType, String charset) throws Throwable {
-		final InputStream inputStream = getStream(sourceURL);
-		this.doc = getContent(inputStream, sourceType, charset);
-
-		if (log.isDebugEnabled()) {
-			writeFile(sourceName + ".xml");
+	public Reader(URL sourceURL, String sourceName, SourceType sourceType, String charset)  {
+		try {
+			final InputStream inputStream = getStream(sourceURL);
+			this.doc = getContent(inputStream, sourceType, charset);
+	
+			if (log.isDebugEnabled()) {
+				writeFile(sourceName + ".xml");
+			}
+		} catch (Exception e) {
+			String message = "Error parsing content from " + sourceName;
+			log.error(message, e);
+			throw new RuntimeException(message, e);
 		}
 	}
 
@@ -90,16 +97,20 @@ public class Reader {
 		return doc;
 	}
 
-	public String getFormattedTitle(final String xpathPattern) throws IOException, ParserConfigurationException, SAXException, XPathExpressionException {
+	public String getFormattedTitle(final String xpathPattern) throws ReaderException {
 		return this.getTextContent(xpathPattern).trim();
 	}
 
-	public String getTextContent(final String xpathPattern) throws IOException, ParserConfigurationException, SAXException, XPathExpressionException {
-		final XPath xpath = XPathFactory.newInstance().newXPath();
-		final String str = (String) xpath.evaluate(xpathPattern, this.doc, XPathConstants.STRING);
-
-		final String standart = this.getStringAsStandart(str, Reader.DEFAULT_CHARSET);
-		return standart;
+	public String getTextContent(final String xpathPattern) throws ReaderException{
+		try {			
+			final XPath xpath = XPathFactory.newInstance().newXPath();
+			final String str = (String) xpath.evaluate(xpathPattern, this.doc, XPathConstants.STRING);
+			
+			final String standart = this.getStringAsStandart(str, Reader.DEFAULT_CHARSET);
+			return standart;
+		} catch (Exception e) {
+			throw new ReaderException();
+		}
 	}
 
 	private String getStringAsStandart(final String str, final String charset) throws UnsupportedEncodingException {
@@ -118,7 +129,7 @@ public class Reader {
 		return connection.getInputStream();
 	}
 
-	public String getDateContent(final String xpathPattern, final String datePatern) throws XPathExpressionException, IOException, ParserConfigurationException, SAXException {
+	public String getDateContent(final String xpathPattern, final String datePatern) throws ReaderException{
 		if (xpathPattern != null && datePatern != null) {
 			final String content = this.getTextContent(xpathPattern);
 			return this.getDateFromText(content, datePatern);
@@ -137,17 +148,28 @@ public class Reader {
 	}
 
 	public String clearText(String dirtText, String startPattern, String endPattern) {
-		Pattern patternStart = Pattern.compile(startPattern);
-		Matcher matcherStart = patternStart.matcher(dirtText);
-		matcherStart.find();
-		Integer start = matcherStart.end();
-
-		Pattern patternEnd = Pattern.compile(endPattern);
-		Matcher matcherEnd = patternEnd.matcher(dirtText);
-		matcherEnd.find();
-		matcherEnd.start();
-		Integer end = matcherEnd.start();
-
-		return dirtText.substring(start, end);
+		if(StringUtils.isNotBlank(dirtText)){
+			Integer start = 0;
+			Integer end  = dirtText.length();
+			
+			if(startPattern!=null){
+				Pattern patternStart = Pattern.compile(startPattern);
+				Matcher matcherStart = patternStart.matcher(dirtText);
+				if(matcherStart.find()){					
+					start = matcherStart.end();
+				}
+			}
+			
+			if(endPattern!=null){			
+				Pattern patternEnd = Pattern.compile(endPattern);
+				Matcher matcherEnd = patternEnd.matcher(dirtText);
+				if(matcherEnd.find()){
+					end = matcherEnd.start();
+				}
+			}
+			
+			return dirtText.substring(start, end);	
+		}
+		return null;
 	}
 }
