@@ -48,20 +48,33 @@ public class EntryImpl implements Entry {
 	public String getFormattedTitle() {
     	String title = this.getTitle();
     	title = treatPrefixPattern(title, this.entryPattern.getTitlePrefixPattern());
+    	title = treatSufixPattern(title, this.entryPattern.getTitleSufixPattern());
     	return title.trim();
     	
     }
     
-    public String treatPrefixPattern(String title, String titlePrefixPattern) {
-    	if(titlePrefixPattern!=null){
-    		Pattern pattern = Pattern.compile(titlePrefixPattern);
-    		Matcher matcher = pattern.matcher(title);
+    public String treatSufixPattern(String text, String titleSufixPattern) {
+    	if(titleSufixPattern!=null){
+    		Pattern pattern = Pattern.compile(titleSufixPattern);
+    		Matcher matcher = pattern.matcher(text);
     		if(matcher.find()){    			
-    			Integer startPosition = matcher.end();
-				title = title.substring(startPosition);
+    			Integer endPosition = matcher.start();
+				text = text.substring(0, endPosition);
     		}
     	}
-    	return title;
+    	return text;
+	}
+    
+    public String treatPrefixPattern(String text, String titlePrefixPattern) {
+    	if(titlePrefixPattern!=null){
+    		Pattern pattern = Pattern.compile(titlePrefixPattern);
+    		Matcher matcher = pattern.matcher(text);
+    		if(matcher.find()){    			
+    			Integer startPosition = matcher.end();
+				text = text.substring(startPosition);
+    		}
+    	}
+    	return text;
 	}
 
 	public String getTitle(){

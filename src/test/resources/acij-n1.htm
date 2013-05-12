@@ -1,0 +1,849 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="title" content="ACIJ - Sua Empresa Mais Forte" />
+<meta name="description" content="ACIJ - Associa&ccedil;&atilde;o Empresarial de Joinville, com 100 anos de exist&ecirc;ncia, &eacute; uma das entidades de maior representa&ccedil;&atilde;o e for&ccedil;a no munic&iacute;pio e no Estado de Santa Catarina." />
+<meta name="keywords" content="ACIJ, Associa&ccedil;&atilde;o Empresarial, Joinville, empresa, SC, Santa Catarina" />
+<title>ACIJ - Sua Empresa Mais Forte</title>
+
+<link rel="shortcut icon" type="image/x-icon" media="screen" href="/images/favicon.ico" />
+
+<link rel="stylesheet" type="text/css" media="screen" href="/css/style.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="/css/banner-saojose.css" />
+
+<link rel="stylesheet" type="text/css" media="screen" href="/css/jquery.lightbox-0.5.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="/css/jquery.facebox.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="/css/axurerp_pagespecificstyles.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="/css/axurerp_pagespecificstyles_ie6.css" />
+
+<!--[if IE 7]>
+<link rel="stylesheet" type="text/css" media="screen" href="/css/style_ie7.css" />
+<![endif]-->
+
+<!--[if IE 8]>
+<link rel="stylesheet" type="text/css" media="screen" href="/css/style_ie8.css" />
+<![endif]-->
+
+<!--[if IE 9]>
+<link rel="stylesheet" type="text/css" media="screen" href="/css/style_ie9.css" />
+<![endif]-->
+
+
+
+<link rel="alternate" type="application/rss+xml" title="Agenda Portal ACIJ" href="http://feeds.feedburner.com/PortalAcij" />
+<link rel="alternate" type="application/rss+xml" title="Not&iacute;cias ACIJ" href="http://feeds.feedburner.com/NoticiasAcij" />
+<link rel="alternate" type="application/rss+xml" title="Reuni&otilde;es do Conselho ACIJ" href="http://feeds.feedburner.com/ReunioesAcij" />
+
+<script type="text/javascript" src="/js/swfobject.js"></script>
+<script type="text/javascript" src="/js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="/js/jquery.printarea.js"></script>
+<script type="text/javascript" src="/js/jquery.lightbox-0.5.min.js"></script>
+<script type="text/javascript" src="/js/jquery.innerfade.js"></script>
+<script type="text/javascript" src="/js/jquery.facebox.js"></script>
+<script type="text/javascript" src="/js/jquery.maskedinput-1.2.2.min.js"></script>
+
+<script type="text/javascript">
+/*<!--[CDATA[*/  
+jQuery(document).ready(function(){
+	
+	jQuery('a[rel*=lightbox], a.thickbox').lightBox();
+	
+
+
+	// Aumentar e diminuir tamanho da fonte
+	jQuery('.esq-div').find('.tamanho_texto').click(function(evento){
+		var $content = jQuery('.esq-div').find('p, span, strong, strong a, h4').not('.caminho a, .caminho strong, .comentarios p, .comentarios .aviso span');
+		var currentSize = $content .css('font-size');
+		var num = parseFloat(currentSize,10);
+		if(this.id == 'aumentar_texto'){
+			$content.css('fontSize', num+1+'px');
+		} else {
+			$content.css('fontSize', num-1+'px');
+		}
+		evento.preventDefault();
+	});
+    
+    
+    // Imprimir
+    jQuery('.esq-div').find('img[alt=imprimir]').parent().click(function(evento){
+          jQuery('.esq-div').append('<div id="conteudo_impressao" style="display: none; background: #fff; width: 100%; border: 3px solid #DA261E; padding: 10px;">'+
+                                        '<table style="float: left; width: 100%;">'+
+                                             '<thead>'+
+                                             '<tr>'+
+                                             '<td style="border-bottom: 1px solid #000; padding: 0 0 10px 0;">'+
+                                                  '<img src="/images/acij.png" width="50" alt="ACIJ" />'+
+                                             '</td>'+
+                                             '</tr>'+
+                                             '</thead>'+
+                                             
+                                             '<tbody>'+
+                                             '<tr>'+
+                                             '<td style="padding: 10px 0 10px 0;">'+
+                                             
+                                                  '<h2>'+jQuery('.esq-div h4').html()+'</h2>'+
+                                                  '<div>'+jQuery('.esq-div .container_conteudo').html()+'</div>'+
+                                             
+                                             '</td>'+
+                                             '</tr>'+
+                                             '</tbody>'+
+                                             
+                                             '<tfoot>'+
+                                             '<tr>'+
+                                             '<td style="border-top: 1px solid #000; padding: 10px 0 0 0;">'+
+                                                  'ACIJ - Associação Empresarial de Joinville<br />'+
+                                                  '+55 47 3461-3333'+
+                                             '</td>'+
+                                             '</tr>'+
+                                             '</tfoot>'+
+                                        '</table>'+
+                                    '</div>');
+          jQuery('#conteudo_impressao').printArea();
+          evento.preventDefault();
+    });
+});
+/*]]-->*/
+</script>
+
+
+<style type="text/css">
+    #facebox {
+        position: absolute;
+        z-index: 10000;
+            }
+    
+    #facebox .popup{        
+        border:0;
+        -webkit-border-radius:0;
+        -moz-border-radius:0;
+        border-radius:0;
+        -webkit-box-shadow:0;
+        -moz-box-shadow:0;
+        box-shadow:0;
+    }
+    #facebox .content {
+        -webkit-border-radius:0;
+        -moz-border-radius:0;
+        border-radius:0;
+        -webkit-box-shadow:0;
+        -moz-box-shadow:0;
+        box-shadow:0;
+    }
+    #facebox .close img{
+        opacity:1.0;
+    }
+    #facebox .content {
+        font-size: 10pt;
+        display:table;
+        padding: 10px;
+        width: 650px;
+        background: #fff;
+        -webkit-border-radius:4px;
+        -moz-border-radius:4px;
+        border-radius:4px;    
+    }
+	
+	#float_quizz {
+		height: 400px;
+		left: 50%;
+		margin: -200px 0 0 -320px;
+		position: absolute;
+		top: 50%;
+		width: 640px;
+		z-index: 1000;
+	}
+	
+	#float_quizz .btn_fechar_quizz {
+		display: block;
+		margin: 4px 0 0 0;
+		position: relative;
+		text-align: right;
+		z-index: 10000;
+	}
+	
+	#float_quizz .img_quizz {
+		left: 0;
+		position: absolute;
+		top: 0;
+	}
+	
+	#opcoes.quizz label {
+		display: block;
+		font-weight: normal;
+		margin: -3px 0 15px 0;
+		text-indent: 5px;
+	}
+	
+	#opcoes.quizz label input[type=radio] {
+		border: 0;
+		float: left;
+		margin: 3px 0 0 0;
+		outline: none;
+		
+	}
+	
+	#opcoes.quizz label span {
+		font-weight: bold;
+	}
+	
+	input[type=checkbox] {
+		border: 0;
+	}
+</style>
+
+<script type="text/javascript">
+
+jQuery(function($){
+	
+	$('.btn_fechar_quizz').find('a').click(function(evento){
+		$(this).parent().parent().hide('fast');
+		evento.preventDefault();
+	});
+	
+	$( window ).load(function(){
+		
+		setInterval(function(){
+			var $liImagemAtual = $( '.listagem-not' ).find( 'ul' ).find( 'li a img.imagem_ativa' ).parents( 'li' );
+			if( $liImagemAtual.next().length ){
+				$liImagemAtual.next().find( 'a' ).click();
+			} else {
+				$liImagemAtual = $( '.listagem-not' ).find( 'ul' ).find( 'li:first' ).find( 'a' ).click();
+			}
+		}, 10000);
+		
+	});
+	
+});
+
+</script>
+
+
+</head>
+
+
+<body>
+
+
+
+	
+<div class="global-div">
+	<script type="text/javascript">
+//<!--[CDATA[
+function removeSpaces(string) {
+	var tstring = "";
+	string = '' + string;
+	splitstring = string.split(" ");
+	for(i = 0; i < splitstring.length; i++)
+	tstring += splitstring[i];
+	return tstring;
+}
+function ValidarBusca()
+{
+	var dsbusca = document.getElementById('dsbusca');
+
+	if( (removeSpaces(dsbusca.value).length < 3) || (removeSpaces(dsbusca.value) == "/buscarpor") ) {
+		alert("Informe no mínimo 3 caracteres.");
+		dsbusca.focus();
+		return false;
+	}
+	
+}
+
+function ValidarBusca2()
+{
+	var dsbusca = document.getElementById('dsbusca2');
+
+	if( (removeSpaces(dsbusca.value).length < 3) || (removeSpaces(dsbusca.value) == "/buscarpor") ) {
+		alert("Informe no mínimo 3 caracteres.");
+		dsbusca.focus();
+		return false;
+	}
+	
+}
+
+function ValidarBusca3()
+{
+	var dsbusca = document.getElementById('dsbusca3');
+
+	if( (removeSpaces(dsbusca.value).length < 3) || (removeSpaces(dsbusca.value) == "/buscarpor") ) {
+		alert("Informe no mínimo 3 caracteres.");
+		dsbusca.focus();
+		return false;
+	}
+	
+}
+//]]-->
+</script>
+<div class="topo-div">
+   	<a href="/"><img src="/images/acij.png" width="149" height="141" alt="ACIJ" class="left" /></a>
+      <div>
+  	   				<form action="/busca/send" method="post" class="busca-geral top5" style="padding: 50px 0" onSubmit="return ValidarBusca();" >
+				<input type="text" name="dsbusca" id="dsbusca" class="clear"/>
+				<input type="hidden" name="identificador" value="20130512085957" />
+				<input type="submit" name="ok" value="Ok"/>
+         </form>
+      </div>
+      
+      <p class="top10 bottom10">Busca Associados</p>
+	  
+      <form action="/associados/filter" class="busca-associados left jqtransform" >
+      <div class="rowElem" >
+		
+         <select size="3" name="ramo_atividade_id" id="ramo_atividade_id">
+		 	 <option value="" selected="selected">TODOS OS SEGMENTOS</option><option  value="112" >ÓTICA / RELOJOARIA</option><option  value="317" >AÇO</option><option  value="491" >AÇO-INOX</option><option  value="210" >AÇOUGUE / ABATE</option><option  value="366" >ABASTEC / TRAT DE ÁGUA</option><option  value="209" >ACADEMIA DE ATIVIDADES FÍSICAS</option><option  value="51" >ADM DE IMÓVEIS</option><option  value="409" >AGÊNCIA DE LEILÃO</option><option  value="213" >AGÊNCIA DE TURISMO</option><option  value="135" >AGROPECUÁRIA / CRIAÇÃO DE AVES</option><option  value="477" >ALIMENTAÇÃO</option><option  value="451" >AQUECEDORES A GÁS</option><option  value="307" >ARQUITETURA / ENGENHARIA</option><option  value="215" >ASSES COMÉRCIO EXTERIOR</option><option  value="299" >ASSES EMPRES / FINANCEIRA</option><option  value="494" >ASSES FOLHA DE PAGAMENTO</option><option  value="216" >ASSES JURÍDICA</option><option  value="376" >ASSIST ODONTOLOGICA</option><option  value="280" >AUDITORIA</option><option  value="218" >AUTO ESCOLA</option><option  value="393" >AUTOMAÇÃO COMERCIAL</option><option  value="219" >AUTOMAÇÃO INDUSTRIAL</option><option  value="254" >AUTOMECÂNICO</option><option  value="151" >AUTOPEÇAS / PNEUS</option><option  value="458" >AVIAMENTOS</option><option  value="457" >BEBIDAS</option><option  value="57" >BORRACHA</option><option  value="266" >BRINDES PROMOCIONAIS</option><option  value="400" >BUFFET PARA EVENTOS</option><option  value="445" >CALÇADOS</option><option  value="308" >CARTÓRIO</option><option  value="86" >CHAVEIRO</option><option  value="127" >CHOCOLATE</option><option  value="352" >COLETA DE RESÍDUOS</option><option  value="483" >COMPUTACAO GRÁFICA</option><option  value="277" >COMUNICAÇÃO</option><option  value="486" >COMUNICAÇÃO VISUAL</option><option  value="144" >CONFECÇÃO / VESTUÁRIO</option><option  value="284" >CONSÓRCIO</option><option  value="58" >CONSTRUÇÃO CIVIL</option><option  value="267" >CONSULT AMBIENTAL</option><option  value="281" >CONSULTORIA</option><option  value="260" >CONTABILIDADE</option><option  value="91" >CORREIO</option><option  value="422" >CORRETORA DE CÂMBIO</option><option  value="246" >CORRETORES DE SEGUROS</option><option  value="125" >COZINHA INDUSTRIAL</option><option  value="97" >DECORAÇÃO</option><option  value="94" >DEDETIZAÇÃO</option><option  value="81" >DENTISTA / ORTODONTIA</option><option  value="66" >DESIGN</option><option  value="98" >DESPACHANTE</option><option  value="149" >DISTRIBUIDORAS</option><option  value="65" >EDUCAÇÃO</option><option  value="88" >EMBALAGEM</option><option  value="441" >EQUIP AGRÍCOLAS</option><option  value="101" >EQUIP ELETRÔNICOS</option><option  value="478" >EQUIP ESPORTIVOS</option><option  value="133" >EQUIP NAVAIS</option><option  value="311" >EQUIP ODONTOLÓGICOS</option><option  value="464" >EQUIP PLUVIAIS</option><option  value="469" >EQUIP TECNOLÓGICOS</option><option  value="117" >ESCOLA DANÇA</option><option  value="93" >ESTACIONAMENTO</option><option  value="440" >ESTAMPARIA</option><option  value="471" >EVENTOS</option><option  value="357" >FABR DE FUMO</option><option  value="223" >FABR DE MÁQUINAS</option><option  value="312" >FABR DE PEÇAS</option><option  value="61" >FABR DE PERSIANA E CORTINA</option><option  value="148" >FABR DE TECIDOS</option><option  value="489" >FABRICACAO DE COMPONENTES AUTOMOTIVOS</option><option  value="342" >FACTORING</option><option  value="474" >FARMACEUTICO</option><option  value="106" >FARMÁCIA</option><option  value="455" >FARMÁCIA DE MANIPULAÇÃO</option><option  value="380" >FEIRA, CONGRESSO E SIMILARES</option><option  value="385" >FERRAMENTAS / ESQUADRIAS / FERRAGENS</option><option  value="302" >FLORICULTURA</option><option  value="230" >FONOAUDIOLOGIA</option><option  value="60" >FOTOGRAFIA</option><option  value="85" >FUNDAÇÕES, ENTIDADES E ASSOCIACOES</option><option  value="438" >FUNDIÇÃO</option><option  value="141" >FUNILARIA E PINTURA</option><option  value="442" >GALVANIZAÇÃO</option><option  value="68" >GRÁFICA / EDITORA</option><option  value="500" >GUARDA E GERENCIAMENTO DE DOCUMENTOS</option><option  value="473" >HOTEL</option><option  value="103" >IDIOMAS</option><option  value="227" >INFORMÁTICA</option><option  value="298" >INST FINANCEIRA</option><option  value="323" >INST HOSPIT / CLÍNICAS</option><option  value="292" >INSTAL REDE DE GÁS</option><option  value="493" >INSTALACOES ELETRICAS</option><option  value="482" >ISOLAMENTO TÉRMICO</option><option  value="399" >JARDINAGEM / PAISAGISMO</option><option  value="353" >JAZIGO</option><option  value="119" >LABORATÓRIO ANÁLISE</option><option  value="130" >LAVANDERIA / TINTURARIA</option><option  value="499" >LAZER E ENTRETENIMENTO</option><option  value="390" >LIVRARIA / PAPELARIA</option><option  value="346" >LOCAÇÃO DE MÁQUINAS</option><option  value="115" >LOCAÇÃO DE VÍDEO E DVD</option><option  value="82" >LOCAÇÃO DE VEÍCULOS</option><option  value="462" >MÓVEIS / ELETRODOMÉSTICOS</option><option  value="279" >MANUT DE ELETROELETRÔNICOS</option><option  value="89" >MANUT DE GANCHEIRAS</option><option  value="153" >MANUT IND / RESIDENCIAL</option><option  value="290" >MÁQUINAS E EQUIPAMENTOS</option><option  value="126" >MARCAS E PATENTES</option><option  value="53" >MARCENARIA</option><option  value="129" >MARMORARIA</option><option  value="475" >MASSOTERAPIA / FISIOTERAPIA</option><option  value="102" >MATERIAIS ELÉTRICOS</option><option  value="72" >MATERIAL DE CONSTRUÇÃO</option><option  value="251" >MECÂNICA</option><option  value="411" >MECÂNICA INDUSTRIAL</option><option  value="453" >MEDIAÇÃO E ARBITRAGEM</option><option  value="143" >MEDICINA DO TRABALHO</option><option  value="410" >MEDICINA OCUPACIONAL</option><option  value="377" >MERCADO AUTOMOBILÍSTICO</option><option  value="256" >METALMECÂNICO</option><option  value="74" >METALURGICA</option><option  value="446" >MONTAGEM DE MAQ INDUSTRIAIS</option><option  value="460" >NÁUTICO</option><option  value="136" >PANIFICADORA / CONFEITARIA</option><option  value="496" >PERSONALIZACAO</option><option  value="407" >PESQUISA DE MERCADO</option><option  value="293" >PET SHOP</option><option  value="349" >PINTURA A PÓ</option><option  value="468" >PISCINAS</option><option  value="329" >PLANOS DE SAÚDE</option><option  value="229" >PLÁSTICA</option><option  value="137" >POSTO DE COMBUSTÍVEL</option><option  value="341" >PRÉ-MOLDADOS</option><option  value="439" >PROD ERGONOMICOS</option><option  value="287" >PROD MÉDICOS / ODONTOLOGICOS</option><option  value="467" >PROD QUÍMICOS</option><option  value="449" >PROD QUÍMICOS LABORATORIAIS</option><option  value="318" >PRODUTORA DE VÍDEO</option><option  value="122" >PSICOLOGIA</option><option  value="255" >PUBLICIDADE E PROPAGANDA</option><option  value="306" >QUÍMICA</option><option  value="506" >Ramo Imobiliário</option><option  value="495" >RECICLAGEM</option><option  value="243" >RECURSOS HUMANOS</option><option  value="436" >REFRATÁRIOS</option><option  value="147" >REFRIGER / CLIMATIZAÇÃO</option><option  value="62" >REPRES COMERCIAL</option><option  value="330" >RESTAURANTE, BAR E SIMILARES</option><option  value="315" >REVENDEDORA VEÍCULOS</option><option  value="501" >SAÚDE</option><option  value="124" >SAÚDE / BELEZA</option><option  value="383" >SALGADOS, DOCES E COQUETEIS</option><option  value="56" >SEGURANÇA</option><option  value="265" >SERIGRAFIA</option><option  value="268" >SERRALHERIA</option><option  value="379" >SHOPPING CENTER</option><option  value="132" >SIDERÚRGICA</option><option  value="362" >SINDICATO</option><option  value="487" >SOFTWARE</option><option  value="301" >SUPERMERCADO</option><option  value="278" >TÉCNICOS PROFISSIONAIS</option><option  value="320" >TELEFONIA</option><option  value="109" >TELEFONIA MÓVEL</option><option  value="138" >TELEMARKETING</option><option  value="492" >TERMINAL PORTUARIO</option><option  value="52" >TEXTIL</option><option  value="67" >TRANSPORTE</option><option  value="484" >TRATAMENTO AMBIENTAL</option><option  value="481" >TRATAMENTO DE ESGOTO</option><option  value="118" >TRATAMENTO DE SUPERFÍCIE</option><option  value="63" >TREINAMENTOS</option><option  value="387" >TROFÉU / GRAVAÇÃO METAL</option><option  value="497" >UNIFORMES</option><option  value="386" >VETERINÁRIA</option><option  value="394" >VIDROS, ESPELHOS, MOLDURAS</option><option  value="490" >VISTORIA VEICULAR</option>                     
+         </select>
+        </div>
+			<input name="flag_envia" value="1" type="hidden" />
+						<input type="text" name="trecho" id="trecho"  value="N&atilde;o utilize acentos" class="top10" onfocus="if(this.value == 'N&atilde;o utilize acentos') this.value='';" onblur="if(this.value == '') this.value='N&atilde;o utilize acentos';" />
+					
+         <br />
+         <input type="submit" name="buscar" value="buscar"/>
+      </form>
+      
+   </div><!--topo div-->	<div class="conteudo-div">
+		
+
+
+<ul class="menu">
+     <li class="paddingleft20"><a href="/representatividade/show/id/1/origem_id/1/destino_id/4" class="menu_top_representatividade sem_submenu" title="Representatividade" >Representatividade</a>
+	 	<!--
+		<ul style="margin-left: 300px;">
+				<li><a href="">Educação</a></li>
+				<li><a href="">Saúde</a></li>
+				<li><a href="">Meio Ambiente</a></li>
+				<li><a href="">Infra Estrutura</a></li>
+				<li><a href="">Carga Tributária</a></li>
+				<li><a href="">Lazer, Recreação</a></li>
+				<li><a href="">Segurança Pública</a></li>
+     	</ul>--> <!--submenu-->
+	 </li>
+	 	 
+     <li><a href="#" title="Servi&ccedil;os" >Servi&ccedil;os</a>
+	 	<ul style="margin-left: 300px;">
+			 <li><a href="http://www.acij.com.br/servicos/show/id/16">Associe-se</a></li> <li><a href="/servicos/show/id/12">BRDE</a></li> <li><a href="/servicos/show/id/5">Certificado de Origem</a></li> <li><a href="/servicos/show/id/9">Espaço Empresarial</a></li> <li><a href="/servicos/show/id/21">Feito em Joinville </a></li> <li><a href="http://www.acij.com.br/salas">Locação de Salas</a></li> <li><a href="http://www.acij.com.br/servicos/show/id/7">Mailing List</a></li> <li><a href="http://www.acij.com.br/banco_conhecimento">Materiais de Cursos/Palestras</a></li> <li><a href="http://www.acij.com.br/servicos/show/id/8/destino_id/14">Missão Empresarial</a></li> <li><a href="/servicos/show/id/19">Programa de Energia</a></li> <li><a href="/servicos/show/id/20">Programa Orientar</a></li> <li><a href="http://www.acij.com.br/servicos/rede">Rede de Vantagens</a></li> <li><a href="/servicos/show/id/6">Serasa</a></li> <li><a href="/servicos/show/id/11">Sessão de Negócios</a></li> <li><a href="http://www.acij.com.br/servicos/utilcard">Util Card</a></li>     	</ul><!--submenu-->
+	 </li>     
+     <li><a href="#" title="N&uacute;cleos">N&uacute;cleos</a>
+     	<ul style="margin-left: 300px;">
+		    <li> <a href="/sobre_nucleos">&raquo; Sobre os núcleos</a> </li>
+			     	  				<li><a href="/nucleo/agenciasdepropagandaemarketing">&raquo; Agências de Propaganda e Marketing</a></li>
+			     	  				<li><a href="/nucleo/automacao">&raquo; Automação</a></li>
+			     	  				<li><a href="/nucleo/comercioexterior">&raquo; Comércio Exterior</a></li>
+			     	  				<li><a href="/nucleo/concessionarias">&raquo; Concessionárias de Veículos</a></li>
+			     	  				<li><a href="/nucleo/decoracao">&raquo; Decoração e Interiores</a></li>
+			     	  				<li><a href="/nucleo/empresascontabeis">&raquo; Empresas Contábeis</a></li>
+			     	  				<li><a href="/nucleo/escolasdeeducacaoprofissional">&raquo; Escolas de Educação Profissional</a></li>
+			     	  				<li><a href="/nucleo/gestaoambiental">&raquo; Gestão Ambiental</a></li>
+			     	  				<li><a href="/nucleo/gestaoempresarial">&raquo; Gestão Empresarial</a></li>
+			     	  				<li><a href="/nucleo/saude">&raquo; Gestores da Saúde</a></li>
+			     	  				<li><a href="/nucleo/imobiliarias">&raquo; Imobiliárias</a></li>
+			     	  				<li><a href="/nucleo/jovensempresarios">&raquo; Jovens Empresários</a></li>
+			     	  				<li><a href="/nucleo/juridico">&raquo; Jurídico</a></li>
+			     	  				<li><a href="/nucleo/meioambiente">&raquo; Meio Ambiente</a></li>
+			     	  				<li><a href="/nucleo/mulheresempresarias">&raquo; Mulheres Empresárias</a></li>
+			     	  				<li><a href="/nucleo/postos">&raquo; Postos de Revenda de Combustíveis Automotivos</a></li>
+			     	  				<li><a href="/nucleo/repara%C3%A7%C3%A3oautomotiva">&raquo; Reparação Automotiva</a></li>
+			     	  				<li><a href="/nucleo/segurancaesaunotrabalho">&raquo; Segurança e Saúde no Trabalho</a></li>
+			     	  				<li><a href="/nucleo/sistemasgestaoqualidade">&raquo; Sistemas de Gestão da Qualidade</a></li>
+			     	  				<li><a href="/nucleo/supermercadosunicerta">&raquo; Supermercados Rede Unicerta</a></li>
+			     	  				<li><a href="/nucleo/usinagemeferramentaria">&raquo; Usinagem e Ferramentaria</a></li>
+			     	</ul><!--submenu-->
+     
+     </li>          
+     <li><a href="#" title="Gest&atilde;o Compartilhada" class="ativa">Gest&atilde;o Compartilhada</a>
+	 	<ul style="margin-left: 300px;">
+			<li><a href="/conteudos/show/id/12">O Que é Gestão Compartilhada</a></li>
+			<li><a href="/noticias/list/origem_id/31/destino_id/3">Notícias</a></li>
+			<li><a href="/agendas/list2/origem_id/31/destino_id/3">Eventos</a></li>
+		</ul>
+	 </li>
+	 
+	 <li><a href="/noticias" title="Not&iacute;cias" class="sem_submenu">Not&iacute;cias</a></li>
+	 		<style type="text/css">
+			.menu-360,
+			.menu-360:hover,
+			.menu-360 a,
+			.menu-360 a:hover { border: 0 !important }
+			
+			.menu-360 a {
+				background: #fc0 !important;
+				height: 35px !important;
+				width: auto;
+			}
+			
+			.menu-360 a span { display: none }
+			
+			.menu-about-acij ul { margin-left: 300px }
+			.menu-about-acij ul li { border-bottom: 0 !important; height: auto; padding-bottom: 0 !important; width: auto !important; }
+			.menu-about-acij ul li p { color: #fff; margin: 0 0 20px 0; }
+		</style>
+	 
+		<li><a href="http://www.guiabrasil360.com.br/index/tour/cliente/41/ambiente/532" title="ACIJ 360&ordm;" class="sem_submenu" target="_blank"><span>ACIJ 360&deg;</span></a></li>
+		<li class="menu-about-acij"><a href="#" title="About ACIJ" target="_blank"><img src="/images/flag-eua.png" alt="About ACIJ" /></a>
+			<ul>
+				<li>
+					<p>						<strong>Welcome to the ACIJ - Joinville Business Association website!</strong>					</p>
+					<p>						Founded on February 16, 1911, ACIJ is the entity with the greatest representation and strength in the city of Joinville and one of the most important in the State of Santa Catarina in southern Brazil.					</p>
+					<p>						The Association’s greatest purpose is to strengthen the companies in the region, through work that aims to develop the economy in order to improve the quality of life and well-being of the community where it operates.
+					</p>					
+					<p>						In 1991, it brought to Brazil the group advisory project, with the Sector Nuclei, uniting companies looking for joint solutions to common problems. The partnership, which opened the doors for the participation of micro and small-sized companies, was signed with the Chamber of Arts and Trades of Munich and Upper Bavaria (Germany).
+					</p>
+					<p>						The entity’s structure includes Councils (Higher, Deliberative and Fiscal) and a volunteer Board, as well as an executive director with a group of 25 professionals, all college-educated, and most, with post graduation or specializations.
+					</p>
+					<p>						ACIJ’s slogan is "Your Business Stronger," and it works for this, through actions and programs aimed to simplify the tax system, reduce the tax burden, constantly improve infrastructure, efficiency in public administration, decrease bureaucracy and increase development and assimilation of knowledge and new technologies.
+					</p>
+					<p>						To speak with our team, write to comunicacao@acij.com.br or phone 55 47 3461 3333.
+					</p>					<br />
+					<p>						<strong>ABOUT JOINVILLE</strong>
+					</p>
+					<p>						The largest city in the state of Santa Catarina and third largest economy in Southern Brazil, Joinville has among its main characteristics entrepreneurship and diversity. There are 515,000 inhabitants, united among settlers including Germans, Italians, and the "Joinvilenses" that come from all parts of the country, looking for employment, looking for opportunities, looking for a better quality of life.
+					</p>
+					<p>						Besides the mix of people, “Manchester Catarinense” has an extremely diverse industry, which helps maintain the economy balanced and in constant development. Featured industries are: metalworking (Tupy, Embraco, Schulz, Athletic, Wetzel), Plastic (Tigre, Amanco, Termotécnica), textiles (Döhler, Lepper) and technology (Totvs and Neogrid), in addition to Perini Business Park, industrial condominium with more than 90 companies.
+					</p>
+					<p>						Over the past 15 years, the city has transformed its business profile, with the arrival of the shopping centers: Mueller, Cidade das Flores, Garten and Americanas bringing together close to 600 stores.
+					</p>
+				</li>
+			</ul>
+		</li>
+   </ul><!--menu-->
+<div class="esq-div">
+  
+   
+   
+   <ul class="caminho">
+   <li><a href="/">Página inicial </a>&raquo;</li> 
+   <li><strong>Not&iacute;cias</strong></li>
+   </ul>
+   
+    
+<ul class="controles right">
+     <li><a href="" class="tamanho_texto" id="aumentar_texto"><img src="/images/fontemais.gif" width="16" height="13" alt="aumentar" title="Aumentar fonte do texto"/></a></li>
+     <li><a href="" class="tamanho_texto" id="diminuir_texto"><img src="/images/fontemenos.gif" width="12" height="13" alt="diminuir" title="Diminuir fonte do texto" /></a></li>
+     <li><a href=""><img src="/images/print.gif" width="16" height="16" alt="imprimir" title="Imprimir texto" /></a></li>
+</ul>   
+   <!--<h4>Not&iacute;cias</h4>-->
+   
+	<p style="clear: both; margin-bottom: 0;">
+	<strong>09/05/2013 12:05<br />
+	</strong>
+	</p><br />
+	<h4>Comandante de Transito do 8º BPM no Gestão Norte</h4>
+	
+
+	<div class="container_conteudo">
+		<p><em>O Gestão Compartilhada Norte recebe o Tenente Ruy Florêncio Teixeira Junior - Comandante de Transito do 8º Batalhão de Polícia Militar de Joinville</em></p>
+		<p><img src="/uploads/20130509151319.jpg" alt="" width="475" height="358" /></p>
+<p style="text-align: center;"><span>&nbsp;</span><em>Cr&eacute;dito: Divulga&ccedil;&atilde;oPerini Business Park</em></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Rua Dona Francisca &eacute; recordista em acidentes</p>
+<p style="text-align: justify;">Segundo dados da Pol&iacute;cia Militar de Joinville, o Distrito Industrial &eacute; o bairro de Joinville com maior n&uacute;mero de ocorr&ecirc;ncias de tr&acirc;nsito com danos materiais, com mais de 200 ocorr&ecirc;ncias registradas de janeiro a abril deste ano. Deste total, aproximadamente 85 acidentes ocorreram na rua Dona Francisca, seguida de perto pela Avenida Santos Dumont, com 70 sinistros. Esses n&uacute;meros foram apresentados pelo tenente Ruy Flor&ecirc;ncio Teixeira Junior, comandante do Pelot&atilde;o de Tr&acirc;nsito de Joinville, durante reuni&atilde;o do grupo de Gest&atilde;o Compartilhada Norte da Acij, realizada nesta manh&atilde; (dia 9), no Perini Business Park.</p>
+<p style="text-align: justify;">Estava em debate no evento a quest&atilde;o da duplica&ccedil;&atilde;o da rua Dona Francisca, entre a rua Edmundo Doubrawa e o trevo da D&ouml;ehler, uma das mais antigas reivindica&ccedil;&otilde;es dos empres&aacute;rios da &aacute;rea do Distrito Industrial de Joinville. Somente neste trecho de aproximadamente 6 km foram registrados 164 acidentes em 2012 e 8 at&eacute; abril de 2013. Do total de 172 acidentes, 106 resultaram em danos materiais, 53 em les&atilde;o corporal, uma v&iacute;tima fatal e 12 outros tipos de ocorr&ecirc;ncia. &ldquo;A m&aacute; conserva&ccedil;&atilde;o da via e o tr&aacute;fego intenso de ve&iacute;culos na zona industrial, incluindo ve&iacute;culos de transporte de carga e o grande fluxo de entrada e sa&iacute;da de motoristas das f&aacute;bricas, s&atilde;o as principais causas do alto n&uacute;mero de incidentes na Dona Franscisca&rdquo;, constatou Teixeira Junior. Segundo o tenente, j&aacute; houve uma redu&ccedil;&atilde;o do &iacute;ndice neste ano em fun&ccedil;&atilde;o da ado&ccedil;&atilde;o de uma pol&iacute;tica de intensifica&ccedil;&atilde;o de atividades de tr&acirc;nsito na regi&atilde;o, mas somente a duplica&ccedil;&atilde;o e a melhoria da pavimenta&ccedil;&atilde;o do local contribuiriam para uma significativa a&ccedil;&atilde;o de preven&ccedil;&atilde;o a acidentes.</p>
+<p style="text-align: justify;">Al&eacute;m da falta de seguran&ccedil;a na rua Dona Francisca, Jonas Tilp, diretor comercial do Perini Business Park e coordenador do Gest&atilde;o Compartilhada Norte, aponta que a falta de investimento na via &eacute; um entrave econ&ocirc;mico para o Distrito Industrial &ndash; somente as empresas instaladas no condom&iacute;nio representam 19% do PIB joinvilense. &ldquo;Somos o munic&iacute;pio catarinense que mais arrecada impostos e, contraditoriamente, a falta de investimentos em infraestrutura nas vias urbanas atravanca o desenvolvimento da cidade, por isso periodicamente estamos recebendo autoridades do setor com o intuito de apresentar ao poder p&uacute;blico um dossi&ecirc; dos problemas e das melhorias necess&aacute;rias na rua Dona Francisca&rdquo;, afirma Tilp.</p>
+<p style="text-align: justify;">Outros dados<br />As estat&iacute;sticas levantadas pela PM tamb&eacute;m apontam que a maior parte dos acidentes na rua Dona Francisca ocorre no per&iacute;odo da tarde (46%) &ndash; 24% durante a manh&atilde;, 17% &agrave; noite e 12% de madrugada&nbsp; &ndash;, sendo que o hor&aacute;rio mais perigoso no tr&acirc;nsito &eacute; das 16h &agrave;s 18h, na sa&iacute;da de muitos funcion&aacute;rios das empresas, quando s&atilde;o registradas 23% das ocorr&ecirc;ncias. Ainda segundo os dados, o dia da semana em que mais acontecem acidentes &eacute; na quinta-feira, com mais de 20% dos registros.</p>
+<p style="text-align: justify;">Levantamento parcial<br />A estimativa da Pol&iacute;cia Militar &eacute; que o n&uacute;mero de acidentes seja 30% maior do que mostram seus registros, j&aacute; que alguns acidentes s&atilde;o computados somente pela Pol&iacute;cia Civil e outros nem chegam a ser registrados pelos cidad&atilde;os. Em Joinville, n&atilde;o existe um cruzamento de informa&ccedil;&otilde;es entre os diferentes &oacute;rg&atilde;os de tr&acirc;nsito, fato que dificulta a radiografia real dos acidentes que ocorrem na cidade.</p>
+<p style="text-align: justify;">Por: Sara Menezes - EDMlogos</p>
+<p style="text-align: justify;">&nbsp;</p>	</div> <!-- container_conteudo -->
+ 
+   
+   
+   
+   <span id="ancora_paginacao">&nbsp;</span>
+		<h5 class="destaque" style="float: left; margin: 30px 0 0 0; width: 100%;">Outras Notícias</h5>
+
+
+
+
+		
+		
+				<!-- INICIO PAGINACAO -->
+				
+				
+									<div class="centraliza-paginacao">
+	
+						<a href="/noticias/show/id/910%26/pag/1#ancora_paginacao">
+					   <img src="/images/esq-seta-sidebar.jpg" width="31" height="30" alt="anterior" class="left right10 " />
+					   </a>
+					  
+					
+					   <ul class="paginacao left">
+							<li><a href="#ancora_paginacao" class="pag-atual">1</a></li><li><a href="/noticias/show/id/910%26/pag/2#ancora_paginacao">2</a></li><li><a href="/noticias/show/id/910%26/pag/3#ancora_paginacao">3</a></li><li><a href="/noticias/show/id/910%26/pag/4#ancora_paginacao">4</a></li><li><a href="/noticias/show/id/910%26/pag/5#ancora_paginacao">5</a></li>					   </ul>
+						<a href="/noticias/show/id/910%26/pag/2#ancora_paginacao">
+					   <img src="/images/dir-seta-sidebar.jpg" width="31" height="30" alt="proxima" class="left right10 bottom25" />
+					   </a>
+				   
+				   </div>
+			   			   <!-- FIM PAGINACAO -->
+			   
+
+			   
+			   
+			   
+			   
+			   
+		
+		
+<ul class="lista_noticias">
+	<li>
+		<span>
+						<strong>Origem: Núcleo dos Jovens Empresários<br /></strong>
+						<a href="/noticias/show/id/911%26">JOVENS EMPRESÁRIOS DA ACIJ NA EXPOGESTÃO</a>		</span>
+	</li>
+	<li>
+		<span>
+						<a href="/noticias/show/id/909%26">Reunião do Conselho</a>		</span>
+	</li>
+	<li>
+		<span>
+						<a href="/noticias/show/id/901%26">Revista 21</a>		</span>
+	</li>
+	<li>
+		<span>
+						<strong>Origem: Portal ACIJ<br /></strong>
+						<a href="/noticias/show/id/900%26">Sessão de Negócios</a>		</span>
+	</li>
+	<li>
+		<span>
+						<strong>Origem: Portal ACIJ<br /></strong>
+						<a href="/noticias/show/id/892%26">Sessão de Negócios</a>		</span>
+	</li>
+</ul> <!-- .lista_noticias -->
+				
+				
+				<br clear="all" />
+				
+				
+				<!-- INICIO PAGINACAO -->
+				
+				
+									<div class="centraliza-paginacao">
+	
+						<a href="/noticias/show/id/910%26/pag/1#ancora_paginacao">
+					   <img src="/images/esq-seta-sidebar.jpg" width="31" height="30" alt="anterior" class="left right10 " />
+					   </a>
+					  
+					
+					   <ul class="paginacao left">
+							<li><a href="#ancora_paginacao" class="pag-atual">1</a></li><li><a href="/noticias/show/id/910%26/pag/2#ancora_paginacao">2</a></li><li><a href="/noticias/show/id/910%26/pag/3#ancora_paginacao">3</a></li><li><a href="/noticias/show/id/910%26/pag/4#ancora_paginacao">4</a></li><li><a href="/noticias/show/id/910%26/pag/5#ancora_paginacao">5</a></li>					   </ul>
+						<a href="/noticias/show/id/910%26/pag/2#ancora_paginacao">
+					   <img src="/images/dir-seta-sidebar.jpg" width="31" height="30" alt="proxima" class="left right10 bottom25" />
+					   </a>
+				   
+				   </div>
+			   			   <!-- FIM PAGINACAO -->
+				
+				
+
+   
+  
+
+<script type="text/javascript">
+jQuery(document).ready(function(){
+	
+	fundo_botao = 'url("/images/menu-hover1.gif") repeat-x scroll center bottom';
+	bt_compartilhar = jQuery('.menu-inf').find('a[title=Compartilhar]');
+	bt_comentarios = jQuery('.menu-inf').find('a[title=Comentários]');
+	div_compartilhar = jQuery('.midias_sociais');
+	div_comentarios = jQuery('.comentarios');
+	
+					jQuery('.midias_sociais').css('display', 'none');
+				bt_comentarios.css('background', fundo_botao);
+		
+	
+	bt_comentarios.click(function(evento){
+		jQuery(this).css('background', fundo_botao);
+		bt_compartilhar.css('background', 'none');
+		div_compartilhar.hide();
+		div_comentarios.show('normal');
+		evento.preventDefault();
+	})
+	
+	bt_compartilhar.click(function(evento){
+		jQuery(this).css('background', fundo_botao);
+		bt_comentarios.css('background', 'none');
+		div_comentarios.hide();
+		div_compartilhar.show('normal');
+		evento.preventDefault();
+	})
+	
+	
+	
+});
+</script>
+
+<br clear="all" />
+
+<span id="ancora_comentario"></span>
+
+<ul class="menu-inf">
+	<li><a href="#" title="Compartilhar">Compartilhar</a></li>
+						<li class="border0"><a href="#" title="Coment&aacute;rios">Coment&aacute;rios</a></li>
+		 </ul>
+   
+   
+
+   <!-- INÍCIO COMENTÁRIO -->
+   <div class="comentarios">
+   				
+						<div>
+                                        <form name="cform_comentario" id="cform_comentario" class="comentario-form" method="post" action="/comentarios/send">                                                        							<fieldset class="field_50 odd">
+								<label>*Nome:</label><input type="text" name="nome" id="nome" class="required" />
+							</fieldset>
+							
+							<fieldset class="field_50 even">
+								<label>*E-mail:</label><input type="text" name="email" id="email" class="required email" />
+							</fieldset>
+							
+							<fieldset class="field_100">
+								<label>Mensagem (Máximo 250 caracteres):</label><textarea name="descricao" id="descricao" class="required"></textarea><br style="clear:both;" />
+								<input type="hidden" name="pagina" value="http://www.acij.com.br/noticias/show/id/910%26" />
+								<input type="hidden" name="nucleo_id" value="0" />
+							</fieldset>
+
+                                                        <br clear="all"/>
+                                                        <fieldset class="field_50">
+                                                            <label for="celular">Digite abaixo o número destacado acima:</label>
+                                                            <a href='' onClick='return false' title='Reload image'><img src='/captcha?1368363597' onClick='this.src="/captcha?r=" + Math.random() + "&amp;reload=1"'></a>
+                                                            <br clear="all"/>
+                                                            <input type="text" name="captcha" id="captcha" value="" size="30" style="width: 292px; margin-top: 2px;" class="required" /><br>
+                                                        </fieldset>
+                                                        <br clear="all"/>
+
+							<fieldset class="field_100">
+								<input type="submit" name="enviar" value="enviar coment&aacute;rio" />
+							</fieldset>
+						</form>
+						<div class="aviso">
+							<p>
+								<span>AVISO:</span> Os coment&aacute;rios s&atilde;o de responsabilidade de seus autores e n&atilde;o apresentam
+								a opini&atilde;o da ACIJ. &Eacute; vedada a inser&ccedil;&atilde;o de coment&aacute;rios que violem a lei, a moral e os bons
+								costumes ou violem direitos de terceiros. A ACIJ poder&aacute; retirar, sem pr&eacute;via notifica&ccedil;&atilde;o, coment&aacute;rios
+								postados que n&atilde;o respeitem os crit&eacute;rios impostos neste aviso ou que estejam fora do tema da mat&eacute;ria comentada.
+							</p>
+							
+						</div> <!-- .aviso -->
+				</div>
+				<script>
+					function BuscarPag(caminho)
+					{
+						req180.open("POST", caminho, true);
+						req180.onreadystatechange = function() 
+						{
+							if(req180.readyState == 4) 
+							{
+								var html = req180.responseText
+								var lista = document.getElementById("htmcomentario")
+								lista.innerHTML = html;			
+							}
+						};
+							
+						
+						req180.setRequestHeader('Content-Type', 'text/html; charset=iso-8859-1');
+						req180.send("");
+					
+					}
+				</script>
+				
+
+<div class="container_comentarios" id="htmcomentario">
+<script type="text/javascript" src="/js/comentario.js"></script>
+
+				
+</div> <!-- .container_comentarios -->				
+   </div> <!-- .comentarios -->
+   
+   <!-- FIM COMENTÁRIO -->
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   <div class="midias_sociais addthis_toolbox">
+		<ul class="controles left10 custom_images">
+			 <li><a class="addthis_button_delicious"><img src="/images/delicious.jpg"alt="delicious" /></a></li>
+			 <li><a class="addthis_button_google"><img src="/images/google.jpg" alt="google" /></a></li>
+			 <li><a class="addthis_button_twitter"><img src="/images/twitter.jpg" alt="twitter" /></a></li>
+			 <li><a class="addthis_button_facebook"><img src="/images/facebook.jpg" alt="facebook" /></a></li>
+			 <li><a class="addthis_button_myspace"><img src="/images/myspace.jpg" alt="myspace" /></a></li>
+			 <li><a class="addthis_button_windows"><img src="/images/windows.jpg" alt="windows" /></a></li>
+			 <li><a class="addthis_button_yahoobkm"><img src="/images/yahoo.jpg" alt="yahoo" /></a></li>
+			 <li><a class="addthis_button_digg"><img src="/images/digg.jpg" alt="digg" /></a></li>
+		</ul>
+   </div> <!-- .midias_sociais -->
+   <script src='http://s7.addthis.com/js/250/addthis_widget.js#username=acij'></script>   
+   
+   		   <!-- SOMENTE PARA NOTÍCIAS -->
+		   <br style="clear:both" />
+		   <ul class="menu-inf clear ">
+			 <li><a href="#" title="Servi&ccedil;os relacionados">Servi&ccedil;os relacionados</a></li>
+			 <li class="border0"><a href="/associe_se" title="Associe-se">Associe-se</a></li>     
+		   </ul>
+		
+			<ul class="servicos-rel">
+							</ul>  
+		   <!-- FIM  -->
+      
+   
+   
+   
+   
+  
+   
+     
+   </div><!--esq-->
+    
+  <div class="dir-div">
+     <div class="sidebar">
+	<ul class="sidebar-nav">
+		<li class="ativo"><a href="#cursos" title="Cursos">Cursos</a></li>
+		<li><a href="#palestras" title="Palestras" class="noborder">Palestras</a></li>
+		<li><a href="#reunioes" title="Reuni&otilde;es">Eventos</a></li>
+	</ul>			
+      <div>
+	  					<div id="cursos">
+						<div style="width: 100%; float:left; margin-top: 15px;">&nbsp;</div>						 
+						 <ul class="lista-eventos" >
+																	<li>
+										   <h3 ><a href="/agendas/show/id/1013">NR 35 - Trabalho em Altura</a></h3>
+										   <p>
+										   Data: 14/05<br />
+										   Horário: 8h às 17h30										   </p>
+										</li>
+																	<li>
+										   <h3 ><a href="/agendas/show/id/1014">Negociação Eficaz, resultado eficaz COMPRAS </a></h3>
+										   <p>
+										   Data: 21 - 23 de Mai<br />
+										   Horário: 13h30 às 17h30										   </p>
+										</li>
+																	<li>
+										   <h3 ><a href="/agendas/show/id/1019">Gestão de Crédito e Cobrança</a></h3>
+										   <p>
+										   Data: 21/05<br />
+										   Horário: 8h30 às 17h30										   </p>
+										</li>
+																	<li>
+										   <h3 ><a href="/agendas/show/id/1022">Licitações e Contratos Administrativos</a></h3>
+										   <p>
+										   Data: 27 - 28 de Mai<br />
+										   Horário: 13h30 às 17h30										   </p>
+										</li>
+													 </ul>                             
+				</div>
+         				<div id="palestras">
+						<div style="width: 100%; float:left; margin-top: 15px;">&nbsp;</div>						 
+						 <ul class="lista-eventos" >
+																	<li>
+										   <h3 ><a href="/agendas/show/id/1029">Gestão Financeira Pessoal</a></h3>
+										   <p>
+										   Data: 23/07<br />
+										   Horário: 19h30										   </p>
+										</li>
+													 </ul>                             
+				</div>
+         				<div id="reunioes">
+						<div style="width: 100%; float:left; margin-top: 15px;">&nbsp;</div>						 
+						 <ul class="lista-eventos" >
+																	<li>
+										   <h3 ><a href="/agendas/show/id/1027">Gestão Compartilhada Norte</a></h3>
+										   <p>
+										   Data: 09/05/2013<br />
+										   Horário: 07h45 às 09h15										   </p>
+										</li>
+																	<li>
+										   <h3 ><a href="/agendas/show/id/1017">Gestão Compartilhada Norte</a></h3>
+										   <p>
+										   Data: 25/04/2013<br />
+										   Horário: 07h45 às 09h15										   </p>
+										</li>
+																	<li>
+										   <h3 ><a href="/agendas/show/id/1018">Reunião Gestão Compartilhada Sul</a></h3>
+										   <p>
+										   Data: 23/04/2013<br />
+										   Horário: 07h45 às 09h15										   </p>
+										</li>
+																	<li>
+										   <h3 ><a href="/agendas/show/id/1008">Gestão Compartilhada Vila Nova</a></h3>
+										   <p>
+										   Data: 10/04/2013<br />
+										   Horário: 07h45 às 09h15										   </p>
+										</li>
+													 </ul>                             
+				</div>
+               </div>
+      </div><!--sidebar-->
+ 	<div class="agenda-completa" style="float: left; width: 307px"> 
+	<p><a href="/agendas" title="veja a agenda completa"><strong>+ VEJA A AGENDA COMPLETA</strong></a></p></div><!--agenda completa--><span style="float: left">&nbsp;</span>	 <div class="bottom25" style="float:left; width: 100%;"></div>
+     	<p class="titulo">Destaques da semana</p>
+    <div style="width: 100%; float:left;">
+		<div style="float:left; margin-left: 0px; width: 100%; text-align: center">
+		<div style="height:180px; float:left; text-align:left;width: 100%;">
+	<ul id="baeventos" style="width: 100%;">
+		</ul>
+	<script type="text/javascript">  
+		jQuery('#baeventos').innerfade({ animationtype: 'fade', speed: 750, timeout: 8000, type: 'random' }); 
+	</script> 
+</div>		</div>
+	</div>
+	 	<p class="titulo">Cadastre-se</p>
+	
+	<p>Preencha os campos abaixo e receba por email as novidades, eventos e notícias da ACIJ. É a sua empresa mais forte!</p>
+	
+	<form action="/receber_informacao/index/id/5" method="post" class="cadastro-form">
+	
+	<fieldset>
+		<label id="nome">Nome</label><input type="text" name="nome" id="nome" class="left10 required" style="float: right">
+	</fieldset>
+	
+	<fieldset>
+		<label id="email">E-mail</label><input type="text" name="email" id="email" class="left10 required email" style="float: right">
+	</fieldset>
+	<input type="submit" name="enviar-cadastro" value="enviar" class="right53" ></form>
+  </div><!--dir-->
+
+
+			<div class="rodape">
+     <ul>
+       <li><a href="/institucional/show/id/21" title="Perfil">Perfil</a></li>
+       <li><a href="/institucional/show/id/22" title="Hist&oacute;rico">Histórico</a></li>       
+       <li><a href="/institucional/show/id/23" title="Localização">Localização</a></li>
+       <li><a href="/institucional/show/id/24" title="Diretoria">Diretoria</a></li>
+       <li><a href="/institucional/show/id/25" title="Eleições ACIJ">Eleições ACIJ</a></li>
+       <li><a href="/institucional/show/id/26" title="Equipe ACIJ">Equipe ACIJ</a></li>
+       <li><a href="/institucional/show/id/27" title="Entidades Parceiras">Entidades Parceiras</a></li>
+	   <li><a href="/associe_se" title="Associe-se">Associe-se</a></li>
+	   <li><a href="/noticias" title="Not&iacute;cias">Not&iacute;cias</a></li>
+	   <li><a href="/contatos/index/id/8" title="Fale Conosco">Fale Conosco</a></li>
+	   <li><a href="/conteudos/sitemap" title="Sitemap">Sitemap</a></li>
+     </ul>
+    
+     <!--<p class="right right10 desenvolvimento"><a href="http://www.a2c.com.br" title="Criado por A2C" target="_blank"></a></p>-->
+	 <p class="right right10 desenvolvimento"><a href="http://www.a2c.com.br" title="Criado por A2C" target="_blank"><span>A2C</span></a></p>
+     
+     <p class="clear top20 left10"><strong>&copy; ACIJ 2013</strong> - Avenida Aluísio Pires Condeixa, 2.550 - Saguaçu - Joinville - SC - Fone: (47) 3461 3333</p>
+   </div> <!-- rodape -->
+
+   <br clear="all" />	</div><!-- conteudo-->
+</div>
+<script type="text/javascript" src="/js/jqtransformplugin/jquery.jqtransform.js"></script>
+<script type="text/javascript" src="/js/jquery.validate.min.js"></script>
+<script type="text/javascript" src="/js/javascript.js"></script>
+<script type="text/javascript" src="/js/float-banner.js"></script>
+<script type="text/javascript">
+
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-708775-42']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+</script>
+</body>
+</html>

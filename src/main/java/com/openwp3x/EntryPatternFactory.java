@@ -49,6 +49,11 @@ public class EntryPatternFactory {
 		entryPattern.setUrlPattern("\\d+");
 		entryPattern.setSourceLabel("SOCIESC");
 		entryPattern.setTags(Arrays.asList(new Tag[]{Tag.educacao}));
+		
+		entryPattern.setLinkTextXPath("//*[@id=\"dinamicTxt\"]");
+		
+		
+		
 		return entryPattern;
 	}
 
@@ -65,11 +70,9 @@ public class EntryPatternFactory {
 		entryPattern.setMaxResult(20);
 		entryPattern.setSourceLabel("UDESC");
 		entryPattern.setTags(Arrays.asList(new Tag[]{Tag.educacao}));
-		entryPattern.setLinkTextXPath("//*[@id=\"wrapper\"]/table[1]/tbody/tr/td[1]/div[1]");
-
-		entryPattern.setLinkTextPrefixPattern("\\n+.+\\n+.+\\n+");
-		entryPattern.setLinkTextSufixPattern("Compartilhar: ");
 		
+		entryPattern.setLinkTextXPath("//*[@id=\"wrapper\"]/table[1]/tbody/tr/td[1]/div[1]/p[4]");
+
 		return entryPattern;
 	}
 
@@ -85,6 +88,8 @@ public class EntryPatternFactory {
 		entryPattern.setDateFormat("dd.MM.yyyy");
 		entryPattern.setSourceLabel("Univille");
 		entryPattern.setTags(Arrays.asList(new Tag[]{Tag.educacao}));
+		
+		entryPattern.setLinkTextXPath("//*[@id=\"pageContent\"]");
 		return entryPattern;
 	}
 
@@ -125,6 +130,8 @@ public class EntryPatternFactory {
 		entryPattern.setSourceLabel("Ajorpeme");
 		entryPattern.setTitlePrefixPattern("\\.*\\s-\\s");
 		entryPattern.setTags(Arrays.asList(new Tag[]{Tag.negocios}));
+		
+		entryPattern.setLinkTextXPath("//*[@id=\"content\"]/table[2]/tbody/tr/td");
 		return entryPattern;
 	}
 
@@ -144,6 +151,8 @@ public class EntryPatternFactory {
 		entryPattern.setUrlResource("http://www.acij.com.br");
 		entryPattern.setSourceLabel("ACIJ");
 		entryPattern.setTags(Arrays.asList(new Tag[]{Tag.negocios}));
+		
+		entryPattern.setLinkTextXPath("/html/body/div/div[2]/div[1]/div[1]");
 		return entryPattern;
 	}
 
@@ -153,18 +162,22 @@ public class EntryPatternFactory {
 	 */
 	public static EntryPattern getCDLPattern() throws MalformedURLException {
 		final EntryPattern entryPattern = new EntryPattern();
-		entryPattern.setSourceURL(new URL("http://cdljoinville.com.br/index.php?cat=noticias"));
-		entryPattern.setCharset("ISO-8859-1");
-		entryPattern.setDateXPath("/html/body/center/table/tbody/tr[2]/td[2]/table/tbody/tr[2]/td[2]/p[{_counter}]/i");
-		entryPattern.setTitleXPath("/html/body/center/table/tbody/tr[2]/td[2]/table/tbody/tr[2]/td[2]/p[{_counter}]/b");
-		entryPattern.setUrlXPath("/html/body/center/table/tbody/tr[2]/td[2]/table/tbody/tr[2]/td[2]/p[{_counter}]/nobr/a/@href");
-		entryPattern.setDateTextPattern("\\d{2}/\\d{2}/\\d{4}");
+		entryPattern.setSourceURL(new URL("http://www.cdljoinville.com.br/noticias"));
+		entryPattern.setDateXPath("/html/body/div[6]/div[1]/div/div[2]/div[{_counter}]/div[1]");
+		entryPattern.setTitleXPath("/html/body/div[6]/div[1]/div/div[2]/div[{_counter}]/div[2]");
+		entryPattern.setUrlXPath("/html/body/div[6]/div[1]/div/div[2]/div[{_counter}]/a/@href");
+		//entryPattern.setDateTextPattern("\\d{2}/\\d{2}/\\d{4}");
 		entryPattern.setMinResult(2);
-		entryPattern.setMaxResult(9);
+		entryPattern.setMaxResult(5);
 		entryPattern.setSource("cdl_joinville");
-		entryPattern.setUrlResource("http://cdljoinville.com.br/");
+		entryPattern.setUrlResource("http://www.cdljoinville.com.br/");
 		entryPattern.setSourceLabel("CDL Joinville");
+		entryPattern.setTitlePrefixPattern("\\n*");
+		entryPattern.setTitleSufixPattern("\\n");
 		entryPattern.setTags(Arrays.asList(new Tag[]{Tag.negocios}));
+		
+		entryPattern.setLinkTextXPath("/html/body/div[6]/div[1]/div/div[2]/div");
+		
 		return entryPattern;
 	}
 

@@ -3,13 +3,9 @@
  */
 package com.openwp3x.reader;
 
-import java.io.IOException;
+import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.Collection;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
-import javax.xml.parsers.ParserConfigurationException;
 
 import junit.framework.Assert;
 
@@ -20,8 +16,6 @@ import com.openwp3x.EntryImpl;
 import com.openwp3x.EntryPattern;
 import com.openwp3x.EntryPatternFactory;
 import com.openwp3x.EntryReader;
-import com.openwp3x.Reader;
-import com.openwp3x.Reader;
 
 /**
  * @author marcos.ferreira
@@ -30,18 +24,20 @@ import com.openwp3x.Reader;
 public class TestAjorpemeEntries {
 
     final URL resource = this.getClass().getClassLoader().getResource("ajorpeme-list.htm");
-    EntryReader newsReader;
-
+    final URL link1 = this.getClass().getClassLoader().getResource("ajorpeme-n1.htm");
+    final URL link2 = this.getClass().getClassLoader().getResource("ajorpeme-n2.htm");
+    EntryPattern entryPattern;
+    
     @Before
-    public void beforeTest() throws IOException, ParserConfigurationException {
-    	EntryPattern entryPattern = EntryPatternFactory.getAjorpemePattern();
-    	entryPattern.setSourceURL(resource);
-    	this.newsReader = new EntryReader(entryPattern);
+    public void before() throws MalformedURLException{
+    	entryPattern = EntryPatternFactory.getAjorpemePattern();
     }
 
     @Test
     public void testGetLinks() throws Exception {
-        final Collection<EntryImpl> entries = this.newsReader.getEntries();
+    	entryPattern.setSourceURL(resource);
+    	EntryReader newsReader = new EntryReader(entryPattern);
+        final Collection<EntryImpl> entries = newsReader.getEntries();
         System.out.println(entries);
         final EntryImpl firstEntry = entries.iterator().next();
         Assert.assertEquals("\n   18/04/13 - Esta semana tem Café & Negócios na Ajorpeme", firstEntry.getTitle());
@@ -54,35 +50,34 @@ public class TestAjorpemeEntries {
     }
 
     @Test
-    public void testCleanerStart() {
-        final String dirtText = "\n   18/04/13 - Esta semana tem Café & Negócios na Ajorpeme";
-        String treatPrefixPattern = "\\.*\\s-\\s";
-        final String cleanedText = new EntryImpl().treatPrefixPattern(dirtText, treatPrefixPattern);
-        Assert.assertEquals(cleanedText, "Esta semana tem Café & Negócios na Ajorpeme");
+    public void testReadLink1() throws MalformedURLException, LinkException{
+    	LinkReader linkReader = new LinkReader(entryPattern, link1);
+    	LinkEntry linkEntry = linkReader.getLinkEntry();
+    	Assert.assertEquals(getExpectedLinkText1(), linkEntry.getLinkText());
+    	Assert.assertEquals(getExpectedFormattedLinkText1(), linkEntry.getFormattedLinkText());
+    }
+    
+    private String getExpectedFormattedLinkText1() {
+		return "\n\r\n\r\r\r\nA Ajorpeme recebeu na noite desta quinta-feira, 09, a presença do prefeito Udo para apresentar um diagnostico da prefeitura e as ações que estão sendo realizadas nos primeiros meses da sua gestão.  Participaram da reunião membros da diretoria, conselheiros, ex-presidentes e presidentes dos núcleos setoriais. Informações sobre a saúde, educação, infraestrutura e segurança foram debatidas entre os participantes.\r\n \r\n\r\nA presidente da Ajorpeme, Christiane Schramm Guisso; a Conselheira do Conselho Fiscal, Robina Saito Sonnesen; o prefeito Udo Dohler e o presidente do Conselho Deliberativo da Ajorpeme, Gean Marcos Dombroski Corrêa.\r\n \r\n \r\n \r\nAssessoria de Imprensa da Ajorpeme";
+	}
+
+	private String getExpectedLinkText1() {
+		return "\n\r\n\r\r\r\nA Ajorpeme recebeu na noite desta quinta-feira, 09, a presença do prefeito Udo para apresentar um diagnostico da prefeitura e as ações que estão sendo realizadas nos primeiros meses da sua gestão.  Participaram da reunião membros da diretoria, conselheiros, ex-presidentes e presidentes dos núcleos setoriais. Informações sobre a saúde, educação, infraestrutura e segurança foram debatidas entre os participantes.\r\n \r\n\r\nA presidente da Ajorpeme, Christiane Schramm Guisso; a Conselheira do Conselho Fiscal, Robina Saito Sonnesen; o prefeito Udo Dohler e o presidente do Conselho Deliberativo da Ajorpeme, Gean Marcos Dombroski Corrêa.\r\n \r\n \r\n \r\nAssessoria de Imprensa da Ajorpeme";
+	}
+
+	@Test
+    public void testReadLink2() throws MalformedURLException, LinkException{
+    	LinkReader linkReader = new LinkReader(entryPattern, link2);
+    	LinkEntry linkEntry = linkReader.getLinkEntry();
+    	Assert.assertEquals(getExpectedLinkText2(), linkEntry.getLinkText());
+    	Assert.assertEquals(getExpectedFormattedLinkText2(), linkEntry.getFormattedLinkText());
     }
 
-    @Test
-    public void testInfoPattern() {
-        final String dirtText = "viewRegistro(13680);return false;";
-        final Pattern pattern = Pattern.compile("\\d+");
-        Matcher matcher = pattern.matcher(dirtText);
-        matcher.find();
-        Assert.assertEquals(matcher.group(), "13680");
+	private String getExpectedFormattedLinkText2() {
+		return "\n \r\n\r\r\r\nUma comitiva da Ajorpeme e da Fampesc esteve participando nesta terça-feira, 07, da oficina para construção da Agenda Nacional de Desenvolvimento e Competitividade das Micro e Pequenas empresas 2013-2022, em Curitiba.  As atividades práticas do encontro incluíram diálogos colaborativos e plenárias abordando temas como: Compras Governamentais, Desoneração e Desburocratização, Informação e Capacitação, Investimento e Financiamento e Tecnologia e Inovação.\r\n \r\nO objetivo da oficina foi de contribuir para a construção da Agenda Nacional de Desenvolvimento e Competitividade de MEI, ME e EPP, através de debates e indicação de ações estratégicas nas seis áreas temáticas.\r\n \r\nAgenda Nacional\r\n \r\nCoordenada pelo Ministério do Desenvolvimento, Indústria e Comércio Exterior (MDIC), a Agenda será elaborada com sugestões, ideias e propostas reunidas em encontros que envolvem o poder público dos estados e municípios, além de entidades de classe, academia e sociedade civil.\r\n \r\nA preparação da Agenda Nacional é decorrente da Política Nacional de Empreendedorismo (PNE), uma iniciativa do Governo Federal, conduzida também pelo MDIC, com o apoio de instituições e órgãos públicos, entidades privadas e do terceiro setor.\r\n \r\n.\r\n\r\n\r\n.\r\n\r\n.\r\nAssessoria de Imprensa da Ajorpeme";
+	}
 
-        final String dirtText2 = "viewRegistro(1368088);return false;";
-        matcher = pattern.matcher(dirtText2);
-        matcher.find();
-        Assert.assertEquals(matcher.group(), "1368088");
-
-        final String dirtText3 = "viewRegistro(1368088);return 123;";
-        matcher = pattern.matcher(dirtText3);
-        matcher.find();
-        final String cleanedText = matcher.group();
-        Assert.assertEquals(cleanedText, "1368088");
-
-        final String dirtText4 = "viewRegistro(1);return false;";
-        matcher = pattern.matcher(dirtText4);
-        matcher.find();
-        Assert.assertEquals(matcher.group(), "1");
-    }
+	private String getExpectedLinkText2() {
+		return "\n \r\n\r\r\r\nUma comitiva da Ajorpeme e da Fampesc esteve participando nesta terça-feira, 07, da oficina para construção da Agenda Nacional de Desenvolvimento e Competitividade das Micro e Pequenas empresas 2013-2022, em Curitiba.  As atividades práticas do encontro incluíram diálogos colaborativos e plenárias abordando temas como: Compras Governamentais, Desoneração e Desburocratização, Informação e Capacitação, Investimento e Financiamento e Tecnologia e Inovação.\r\n \r\nO objetivo da oficina foi de contribuir para a construção da Agenda Nacional de Desenvolvimento e Competitividade de MEI, ME e EPP, através de debates e indicação de ações estratégicas nas seis áreas temáticas.\r\n \r\nAgenda Nacional\r\n \r\nCoordenada pelo Ministério do Desenvolvimento, Indústria e Comércio Exterior (MDIC), a Agenda será elaborada com sugestões, ideias e propostas reunidas em encontros que envolvem o poder público dos estados e municípios, além de entidades de classe, academia e sociedade civil.\r\n \r\nA preparação da Agenda Nacional é decorrente da Política Nacional de Empreendedorismo (PNE), uma iniciativa do Governo Federal, conduzida também pelo MDIC, com o apoio de instituições e órgãos públicos, entidades privadas e do terceiro setor.\r\n \r\n.\r\n\r\n\r\n.\r\n\r\n.\r\nAssessoria de Imprensa da Ajorpeme";
+	}
 }

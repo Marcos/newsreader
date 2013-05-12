@@ -1,237 +1,120 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?>
-<?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?>
-<rss version="2.0">
- <channel>
-  <title>Notícias do Dia Online - Joinville Notícias</title>
-  <description>Notícias do Dia Online - Notícias, esportes e cultura da cidade de Joinville e região</description>
-  <link>http://www.ndonline.com.br</link>
-  <category>Notícias</category>
-  <copyright>(c) Notícias do Dia 2010</copyright>
-  <generator>Php RSS2Writer</generator>
-  <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://feeds.feedburner.com/ndjoinville_noticias" rel="self" type="application/rss+xml"/><feedburner:info xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" uri="ndjoinville_noticias"/><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://pubsubhubbub.appspot.com/" rel="hub"/><item>
-   <title>Prefeitura de Joinville lança edital para credenciamento de anestesiologistas para o São José</title>
-   <link>http://www.ndonline.com.br/joinville/noticias/67939-prefeitura-de-joinville-lanca-edital-para-credenciamento-de-anestesiologistas-para-o-sao-jose.html</link>
-   <guid>http://www.ndonline.com.br/joinville/noticias/67939-prefeitura-de-joinville-lanca-edital-para-credenciamento-de-anestesiologistas-para-o-sao-jose.html</guid>
-   <pubDate>1 May 2013 09:45:00 GMT</pubDate>
-   <author>jr@noticiasdodia.com.br (Oswaldo Ribeiro Jr.)</author>
-   <category>Joinville, Hospital São José, Falta de Anestesiologistas</category>
-   <description>&lt;img src='http://www.ndonline.com.br//uploads/global/materias/2013/04/30-04-2013-23-10-53-site.jpg'&gt;&lt;br&gt;
+<?xml version="1.0" encoding="utf-8" standalone="no"?><rss xmlns:admin="http://webns.net/mvcb/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" version="2.0">
+<channel>
+	<image>
+		<url>http://www.portaljoinville.com.br/v4/media/images/home/logo.png</url>
+		<title>Portal Joinville</title>
+		<link>http://www.portaljoinville.com.br/v4/</link>
+		<width>203</width>
+		<height>94</height>
+	</image>
+	<title>Portal Joinville</title>
+	<link>http://www.portaljoinville.com.br/v4/</link>
+	<description>Notícias de Joinville - De Joinvilense para Joinvilense</description>
+	<dc:language>pt_BR</dc:language>
+	<dc:creator>portaljoinville@portaljoinville.com.br</dc:creator>
+	<dc:rights>Copyright 2013</dc:rights>
+				<item>
+			<title>Arturzinho fala sobre a sua manutenção no time</title>
+			<link>http://www.portaljoinville.com.br/v4/esportes/2013/04/arturzinho-fala-sobre-a-sua-manutencao-no-time</link>
+			<guid>http://www.portaljoinville.com.br/v4/esportes/2013/04/arturzinho-fala-sobre-a-sua-manutencao-no-time</guid>
+			<description><![CDATA[O elenco do Joinville se reapresentou nesta terça-feira e, em dois períodos, trabalhou no Centro de Treinamentos e na quadra de areia da Schultz, no bairro Anita Garibaldi. Entre as atividades, o comandante concedeu entrevista para falar da reunião com a diretoria, pretensões para a Série B, além das declarações…
+<br /><br /> <img src="http://www.portaljoinville.com.br/v4/facecms/conteudo/temp/pj_25783.jpg" />]]></description>
+			<pubDate>Tue, 23 Apr 2013 20:34:53 -0300</pubDate>
+		</item> 
+				<item>
+			<title>Em busca de entrosamento</title>
+			<link>http://www.portaljoinville.com.br/v4/blogs/rdb/2013/04/em-busca-de-entrosamento</link>
+			<guid>http://www.portaljoinville.com.br/v4/blogs/rdb/2013/04/em-busca-de-entrosamento</guid>
+			<description><![CDATA[
 
-&#13;
-Carlos Junior/Arquivo/ND&#13;
-&#13;
-Medida foi tomada ap&amp;oacute;s reuni&amp;atilde;o realizada entre MPF, Procuradoria-geral do munic&amp;iacute;pio e dire&amp;ccedil;&amp;atilde;o do hospital&#13;
-A Prefeitura de Joinville publica nesta quarta-feira (1) o edital que autoriza a abertura de credenciamento para que novos anestesiologistas atendam ao Hospital S&amp;atilde;o Jos&amp;eacute;. As inscri&amp;ccedil;&amp;otilde;es, v&amp;aacute;lidas para todo o pa&amp;iacute;s, come&amp;ccedil;am na quarta-feira (2) e seguem at&amp;eacute; outubro. O processo de credenciamento vai formar uma fila onde cada anestesiologista poder&amp;aacute; realizar uma cirurgia por vez. At&amp;eacute; que todos tenham feito o servi&amp;ccedil;o, a sequ&amp;ecirc;ncia &amp;eacute; retomada do in&amp;iacute;cio da lista. O processo ser&amp;aacute; adotado at&amp;eacute; a contrata&amp;ccedil;&amp;atilde;o definitiva de novos profissionais concursados. Pelo menos dez vagas devem ser abertas.&#13;
-Por enquanto, segundo o diretor-presidente do hospital, Marcos Krelling, o credenciamento vai ajudar no atendimento &amp;agrave; demanda de cirurgias represadas. &amp;ldquo;Por hora, vai soltar nosso gargalo&amp;rdquo;, avaliou. Os procedimentos eletivos e de urg&amp;ecirc;ncia foram afetados depois que a dire&amp;ccedil;&amp;atilde;o do S&amp;atilde;o Jos&amp;eacute; cancelou os pagamentos para a cl&amp;iacute;nica de anestesiologia que prestava servi&amp;ccedil;o para a unidade, atendendo ao pedido do MPF (Minist&amp;eacute;rio P&amp;uacute;blico Federal). No in&amp;iacute;cio de abril, o &amp;oacute;rg&amp;atilde;o abriu inqu&amp;eacute;rito para apurar irregularidades nas contas da institui&amp;ccedil;&amp;atilde;o.O hospital tem 18 anestesiologistas concursados, o que representa 1.440 horas mensais de servi&amp;ccedil;o, quando o ideal seria pelo menos 27 profissionais para alcan&amp;ccedil;ar a necessidade de 3.600 horas e cobrir a demanda de cerca de 1.000 cirurgias por m&amp;ecirc;s. &amp;ldquo;O credenciamento vai funcionar por ordem de chegada at&amp;eacute; o limite de horas que vamos precisar&amp;rdquo;, disse Krelling.</description>
-  </item>
-  <item>
-   <title>Especial Dia do Trabalhador: Empresas procuram um novo perfil de profissional</title>
-   <link>http://www.ndonline.com.br/joinville/noticias/67921-especial-dia-do-trabalhador-empresas-procuram-um-novo-perfil-de-profissional.html</link>
-   <guid>http://www.ndonline.com.br/joinville/noticias/67921-especial-dia-do-trabalhador-empresas-procuram-um-novo-perfil-de-profissional.html</guid>
-   <pubDate>1 May 2013 09:03:00 GMT</pubDate>
-   <author>jr@noticiasdodia.com.br (Oswaldo Ribeiro Jr.)</author>
-   <category>Joinville, Dia do Trabalho, Carreira, Mercado</category>
-   <description>&lt;img src='http://www.ndonline.com.br//uploads/global/materias/2013/04/30-04-2013-20-10-10-site-1.jpg'&gt;&lt;br&gt;
 
-&#13;
-Luciano Moraes/ND&#13;
-&#13;
-Luiz Felipe achou que ia trabalhar com sistemas, mas tamb&amp;eacute;m teve que interagir com clientes&#13;
-Quando Luiz Felipe Heidemann, 18, come&amp;ccedil;ou o curso t&amp;eacute;cnico de sistema de informa&amp;ccedil;&amp;atilde;o, pensava que iria apenas lidar com o computador. Mas ao fazer est&amp;aacute;gio em uma empresa de software de gest&amp;atilde;o para laborat&amp;oacute;rios de patologia, foi surpreendido por uma exig&amp;ecirc;ncia do cargo: interagir com o p&amp;uacute;blico.&#13;
-Ele trabalha na &amp;aacute;rea de suporte da empresa, onde saber se comunicar com o cliente &amp;eacute; essencial. &amp;ldquo;A empresa queria que eu aprendesse o sistema dela e que falasse com os clientes por causa do suporte. Isso foi surpresa. Mas foi legal, porque n&amp;atilde;o imaginava que teria que lidar com o p&amp;uacute;blico&amp;rdquo;, comentou. Ele conseguiu o est&amp;aacute;gio por meio de um amigo. E o seu desempenho garantiu uma vaga definitiva. Agora, ele pensa em ampliar seus conhecimentos. Fazer um curso de ingl&amp;ecirc;s e, futuramente, faculdade. Mas, no momento, seus planos s&amp;atilde;o &amp;ldquo;crescer junto com a empresa e quem sabe chegar na chefia do setor&amp;rdquo;.&#13;
-Heidemann tem dois trunfos a seu favor: est&amp;aacute; na &amp;aacute;rea de TI (tecnologia da informa&amp;ccedil;&amp;atilde;o), que est&amp;aacute; em expans&amp;atilde;o no mercado, e tem vontade de evoluir com a empresa, que est&amp;aacute; incubada na Softville. Pessoas interessadas e comprometidas. Esse &amp;eacute; o perfil que as empresas est&amp;atilde;o procurando nos profissionais. Forma&amp;ccedil;&amp;atilde;o, conhecimento de idiomas, qualifica&amp;ccedil;&amp;atilde;o tamb&amp;eacute;m contam, mas o comportamento tem um peso maior do que as habilidades. E &amp;eacute; nesse requisito que as empresas mais esbarram.&#13;
-Percebe-se uma impaci&amp;ecirc;ncia dos jovens que entram no mercado ao construir uma carreira. &amp;ldquo;Eles n&amp;atilde;o t&amp;ecirc;m paci&amp;ecirc;ncia. T&amp;ecirc;m dificuldade em entender que uma carreira leva tempo para ser constru&amp;iacute;da e que se destacar requer doses de toler&amp;acirc;ncia, paci&amp;ecirc;ncia e desempenho excepcional&amp;rdquo;, comenta a consultora organizacional Lise Chaves. As organiza&amp;ccedil;&amp;otilde;es querem pessoas que tenham iniciativa e que assumam a lideran&amp;ccedil;a. &amp;ldquo;As pessoas podem at&amp;eacute; errar, mas t&amp;ecirc;m que ter iniciativa. As empresas buscam pessoas com esse comportamento&amp;rdquo;, ressalta a consultora.&#13;
-Aprendizado na pr&amp;aacute;tica&#13;
-A consultora organizacional Lise Chave comenta que existe certa imaturidade dos jovens que chegam ao mercado de trabalho. &amp;ldquo;A gurizada aprende a ser profissional com a pr&amp;aacute;tica e com a dor. O mundo do trabalho &amp;eacute; competitivo e o processo de amadurecimento vai mostrar outras oportunidades&amp;rdquo;, acredita.&#13;
-O gerente comercial da Med&amp;eacute;ris, empresa que desenvolve software para gest&amp;atilde;o de laborat&amp;oacute;rios patol&amp;oacute;gicos, Renato Alves de Lima, 38, soube aproveitar as oportunidades do mercado. Ao entrar no segmento de TI, ele fez especializa&amp;ccedil;&amp;atilde;o em inform&amp;aacute;tica e em microscopia e inform&amp;aacute;tica, e est&amp;aacute; investindo em cursos de idiomas e t&amp;eacute;cnicos. &amp;ldquo;Hoje n&amp;atilde;o basta ser &amp;aacute;rea comercial, o profissional tem que estar especializado no segmento, tem que ter um conhecimento mais amplo&amp;rdquo;, afirmou.&#13;
-Segundo ele, as empresas de TI est&amp;atilde;o com dificuldade para encontrar profissionais para vender o produto. &amp;ldquo;&amp;Eacute; preciso estar se atualizando o tempo todo, a coisa anda r&amp;aacute;pido demais&amp;rdquo;, comentou.&#13;
-De volta ao ch&amp;atilde;o de f&amp;aacute;brica por amor e por falta de m&amp;atilde;o de obra&#13;
-&#13;
-Rog&amp;eacute;rio Souza Jr./ND&#13;
-&#13;
-Jos&amp;eacute; Felismino come&amp;ccedil;ou a carreira aos 15 anos e continua em plena atividade, mesmo aposentado&#13;
-O mercado de trabalho tamb&amp;eacute;m vive uma crise de m&amp;atilde;o de obra operacional. Segundo os dados do Caged (Cadastro Geral de Empregados e Desempregados), do Minist&amp;eacute;rio de Trabalho, a ind&amp;uacute;stria de transforma&amp;ccedil;&amp;atilde;o &amp;eacute; o segmento que mais empregou nos primeiros tr&amp;ecirc;s meses deste ano, em Joinville. Mas tamb&amp;eacute;m &amp;eacute; o setor que mais tem dificuldade para preencher as vagas.&#13;
-Este cen&amp;aacute;rio tem feito as empresas, principalmente de pequeno e m&amp;eacute;dio porte, recorrerem a profissionais mais experientes como o ferramenteiro Jos&amp;eacute; Vicente Felismino, 64. Aposentado h&amp;aacute; quase 15 anos, ele n&amp;atilde;o consegue ficar longe do ch&amp;atilde;o de f&amp;aacute;brica.&#13;
-Felismino trabalha na Jedur Usinagem, uma fornecedora da ind&amp;uacute;stria automotiva, com uma plaina limadora que tem cerca de 60 anos. S&amp;atilde;o poucos os profissionais que ainda sabem lidar com esse tipo de equipamento. As grandes empresas est&amp;atilde;o usando centros de usinagem automatizados.&#13;
-Felismino come&amp;ccedil;ou a trabalhar aos 15 anos, quando ainda era aluno do curso de ajustador de ferramenteiro do Senai. Ele foi escolhido para ser estagi&amp;aacute;rio na Metal&amp;uacute;rgica Duque. Na &amp;eacute;poca, o curso foi suficiente para Felismino se destacar. &amp;ldquo;J&amp;aacute; naquele tempo, tinha problemas com m&amp;atilde;o de obra especializada&amp;rdquo;, conta.&#13;
-Foram quase 40 anos trabalhando na ind&amp;uacute;stria. Al&amp;eacute;m da Duque, onde ficou por 23 anos e foi eleito oper&amp;aacute;rio padr&amp;atilde;o, passou pela Embraco e outras empresas. Ele continua na ativa pelo mesmo motivo que o garantiu o est&amp;aacute;gio no come&amp;ccedil;o da carreira: falta de m&amp;atilde;o de obra para operar maquin&amp;aacute;rios menos modernos.&#13;
-A experi&amp;ecirc;ncia garante a sua coloca&amp;ccedil;&amp;atilde;o no mercado, mas ele sabe que o jovem em come&amp;ccedil;o de carreira enfrenta uma exig&amp;ecirc;ncia muito maior do que a que ele vivenciou 40 anos atr&amp;aacute;s. &amp;ldquo;Hoje, tem que ter curso t&amp;eacute;cnico, saber falar outra l&amp;iacute;ngua. Na minha &amp;eacute;poca, se tinha vontade de trabalhar eles (empresas) davam oportunidade. Era exigido conhecimento de desenho. S&amp;oacute;&amp;rdquo;, disse.&#13;
-Ele gostaria que as empresas abrissem mais espa&amp;ccedil;os para as pessoas com mais idade. &amp;ldquo;O trabalho que fa&amp;ccedil;o tem que ter precis&amp;atilde;o e qualidade. E hoje o jovem n&amp;atilde;o quer colocar uniforme, s&amp;oacute; quer saber de tecnologia. As escolas t&amp;eacute;cnicas est&amp;atilde;o lotadas, mas da&amp;iacute; eles chegam nas empresas e n&amp;atilde;o rendem&amp;rdquo;, comentou.&#13;
-Segundo ele, o mercado carece de profissionais especializados em tornearia e ferramentaria. &amp;ldquo;Quando sa&amp;iacute; da &amp;uacute;ltima empresa, deixei uns quatro profissionais bem qualificados. Sempre digo para arrumarem um jovem para eu ensinar, porque n&amp;atilde;o vou estar aqui para sempre&amp;rdquo;, falou.</description>
-  </item>
-  <item>
-   <title>Ana Paula Lima pede exoneração de João Paulo Kleinübing do Badesc</title>
-   <link>http://www.ndonline.com.br/joinville/noticias/67940-ana-paula-lima-pede-exoneracao-de-joao-paulo-kleinubing-do-badesc.html</link>
-   <guid>http://www.ndonline.com.br/joinville/noticias/67940-ana-paula-lima-pede-exoneracao-de-joao-paulo-kleinubing-do-badesc.html</guid>
-   <pubDate>1 May 2013 08:15:00 GMT</pubDate>
-   <author>claudioc.ndonline@noticiasdodia.com.br (Cláudio Costa)</author>
-   <category>Denúncias, Badesc, João Paulo Kleinübing, Ana Paula Lima, Estado </category>
-   <description>&lt;img src='http://www.ndonline.com.br//uploads/global/materias/2013/04/30-04-2013-23-08-03-30-04-2013-19-05-44-apl.jpg'&gt;&lt;br&gt;
+Comai/Felej/JBA realiza neste do domingo (28/4), às 11 horas, em Navegantes, a quarta partida pelo Campeonato Catarinense de Basquete feminino da categoria sub 17. O adversário das joinvilenses será a ASDEN/Navegantes, quando tentará a primeira vitória na competição. No sábado (20/4), em São Bento do Sul, a equipe de Joinville…
+<br /><br /> <img src="http://www.portaljoinville.com.br/v4/facecms/conteudo/temp/pj_25782.jpg" />]]></description>
+			<pubDate>Tue, 23 Apr 2013 18:21:58 -0300</pubDate>
+		</item> 
+				<item>
+			<title>Novas vagas de emprego</title>
+			<link>http://www.portaljoinville.com.br/v4/noticias/2013/04/novas-vagas-de-emprego</link>
+			<guid>http://www.portaljoinville.com.br/v4/noticias/2013/04/novas-vagas-de-emprego</guid>
+			<description><![CDATA[
 
-&#13;
-Divulga&amp;ccedil;&amp;atilde;o/ND&#13;
-&#13;
-Parlamentar apresentou as conversas transcritas pelo site UOL durante o seu pronunciamento&#13;
-&#13;
-A deputada estadual Ana Paula Lima (PT) pediu a exonera&amp;ccedil;&amp;atilde;o de Jo&amp;atilde;o Paulo Klein&amp;uuml;bing (PSD),ex-prefeito de Blumenau e atual presidente do Badesc (Ag&amp;ecirc;ncia de Fomento de Santa Catarina). Advers&amp;aacute;ria pol&amp;iacute;tica do pesedista, Lima fez o pedido durante pronunciamento no plen&amp;aacute;rio da Alesc (Assembleia Legislativa de Santa Catarina) durante a sess&amp;atilde;o ordin&amp;aacute;ria nesta ter&amp;ccedil;a-feira (30).&#13;
-O pedido feito ao Governador Raimundo Colombo aconteceu no mesmo dia em que o portal UOL publicou uma reportagem com a transcri&amp;ccedil;&amp;atilde;o de escutas telef&amp;ocirc;nicas, realizadas em julho de 2012, que ligam Klein&amp;uuml;bing a uma suposta fraude em licita&amp;ccedil;&amp;atilde;o para obten&amp;ccedil;&amp;atilde;o de recursos do Badesc para obras em Blumenau.&#13;
-A petista disse na tribuna que &amp;eacute; inconceb&amp;iacute;vel que o presidente do Badesc esteja vinculado a den&amp;uacute;ncias de fraudes de licita&amp;ccedil;&amp;atilde;o para uso de recursos do pr&amp;oacute;prio Badesc. &amp;ldquo;A presen&amp;ccedil;a do denunciado por corrup&amp;ccedil;&amp;atilde;o no governo coloca em suspei&amp;ccedil;&amp;atilde;o todas as a&amp;ccedil;&amp;otilde;es do banco, inclusive o Programa Badesc Juro Zero, que est&amp;aacute; prestes a ser votado neste plen&amp;aacute;rio&amp;rdquo;, afirmou a parlamentar.</description>
-  </item>
-  <item>
-   <title>Ittran oferece serviços na Festa do Trabalhador, em Joinville </title>
-   <link>http://www.ndonline.com.br/joinville/noticias/67938-ittran-oferece-servicos-na-festa-do-trabalhador-em-joinville.html</link>
-   <guid>http://www.ndonline.com.br/joinville/noticias/67938-ittran-oferece-servicos-na-festa-do-trabalhador-em-joinville.html</guid>
-   <pubDate>30 Apr 2013 22:36:00 GMT</pubDate>
-   <author>claudioc.ndonline@noticiasdodia.com.br (Cláudio Costa)</author>
-   <category>Cidade, Festa do Trabalhador, Ittran </category>
-   <description>
 
-O Ittran (Instituto de Tr&amp;acirc;nsito e Transporte de Jonville) tamb&amp;eacute;m estar&amp;aacute; presente na Festa do Trabalhador, nesta quarta-feira, 1&amp;ordm; de maio, no Centreventos Cau Hansen e no Expocentro Edmundo Doubrawa. A data &amp;eacute; feriado nacional em comemora&amp;ccedil;&amp;atilde;o ao Dia do Trabalho. Toda a comunidade est&amp;aacute; convidada a participar das atividades que ser&amp;atilde;o realizadas das 10 &amp;agrave;s 17 horas. O evento &amp;eacute; organizado pela RICTV Record.&#13;
-Entre as atra&amp;ccedil;&amp;otilde;es haver&amp;aacute; simuladores de pilotagem de motos, exposi&amp;ccedil;&amp;atilde;o do material de trabalho do Ittran e um balc&amp;atilde;o com informa&amp;ccedil;&amp;otilde;es sobre tr&amp;acirc;nsito. No dia, tamb&amp;eacute;m ser&amp;atilde;o confeccionadas credenciais para idosos e pessoas com defici&amp;ecirc;ncia.&#13;
-O &amp;ocirc;nibus do programa Cidadania em Tr&amp;acirc;nsito, desenvolvido pelo Ittran, Secretaria de Educa&amp;ccedil;&amp;atilde;o e empresa de &amp;ocirc;nibus Gidion, estar&amp;aacute; exposto para visita&amp;ccedil;&amp;atilde;o. O palha&amp;ccedil;o Polenta, do programa Tr&amp;acirc;nsito N&amp;atilde;o &amp;eacute; Palha&amp;ccedil;ada, tamb&amp;eacute;m estar&amp;aacute; na festa realizando atividades com as crian&amp;ccedil;as. Al&amp;eacute;m disso, tamb&amp;eacute;m haver&amp;aacute; pintura de rosto e confec&amp;ccedil;&amp;atilde;o de pipas, cata-ventos e bal&amp;otilde;es esculturais.&#13;
-Verifique os procedimentos para requerer a credencial do estacionamento especial, que &amp;eacute; gratuita.&#13;
--Credencial para idoso (acima de 60 anos):&#13;
-- Apresentar Carteira Nacional de Habilita&amp;ccedil;&amp;atilde;o ou RG do idoso ou da pessoa que ser&amp;aacute; condutora.&#13;
-- &amp;Eacute; obrigat&amp;oacute;ria a presen&amp;ccedil;a do idoso com RG caso o condutor do ve&amp;iacute;culo seja outra pessoa.&#13;
-Credencial para pessoas com defici&amp;ecirc;ncia:&#13;
-- Apresentar laudo m&amp;eacute;dico original que comprove a defici&amp;ecirc;ncia f&amp;iacute;sica, com CID (Classifica&amp;ccedil;&amp;atilde;o Internacional de Doen&amp;ccedil;as), indicando se a defici&amp;ecirc;ncia &amp;eacute; permanente ou tempor&amp;aacute;ria (indicando tempo previsto para recupera&amp;ccedil;&amp;atilde;o).&#13;
-- &amp;Eacute; obrigat&amp;oacute;ria a presen&amp;ccedil;a da pessoa com defici&amp;ecirc;ncia para que o condutor representante possa fazer a credencial.</description>
-  </item>
-  <item>
-   <title>Bate-papo íntimo em rede social entre joinvilenses vira hit na internet </title>
-   <link>http://www.ndonline.com.br/joinville/noticias/67931-bate-papo-intimo-em-rede-entre-joinvilenses-social-vira-hit-na-internet.html</link>
-   <guid>http://www.ndonline.com.br/joinville/noticias/67931-bate-papo-intimo-em-rede-entre-joinvilenses-social-vira-hit-na-internet.html</guid>
-   <pubDate>30 Apr 2013 21:14:00 GMT</pubDate>
-   <author>claudioc.ndonline@noticiasdodia.com.br (Cláudio Costa)</author>
-   <category>Joinville, Redes Sociais, Hit, Meme, </category>
-   <description>&lt;img src='http://www.ndonline.com.br//uploads/global/materias/2013/04/30-04-2013-21-23-44-vinho.jpg'&gt;&lt;br&gt;
+O Centro Público de Atendimento aos Trabalhadores (Cepat) divulgou vagas em aberto para diversas áreas. Os interessados devem levar a Carteira de Trabalho, CPF e RG até a sede do Cepat, que fica na rua Abdon Batista, 342, Centro, perto do Mercado Público. O horário de atendimento é das 8…
+<br /><br /> <img src="http://www.portaljoinville.com.br/v4/facecms/conteudo/temp/pj_25779.jpg" />]]></description>
+			<pubDate>Tue, 23 Apr 2013 16:53:12 -0300</pubDate>
+		</item> 
+				<item>
+			<title>Sergio Ramirez está de volta ao JEC</title>
+			<link>http://www.portaljoinville.com.br/v4/esportes/2013/04/sergio-ramires-esta-de-volta-ao-jec</link>
+			<guid>http://www.portaljoinville.com.br/v4/esportes/2013/04/sergio-ramires-esta-de-volta-ao-jec</guid>
+			<description><![CDATA[
 
-&#13;
-Reprodu&amp;ccedil;&amp;atilde;o Twitter/ND&#13;
-&#13;
-Loja de departamentos aproveitou meme para anunciar oferta na adega no Twitter&#13;
-&#13;
-Um suposto bate-papo entre um casal de moradores de Joinville em uma rede social se tornou o assunto mais comentado nas redes sociais e manchete de jornais on-line e blogs na maior parte do pa&amp;iacute;s nesta ter&amp;ccedil;a-feira (30 de abril). O di&amp;aacute;logo de quase duas horas entre uma estudante e um professor da Sociesc (Sociedade Educacional de Santa Catarina) foi divulgado no Facebook da mo&amp;ccedil;a, com os seguintes dizeres: &amp;ldquo;Estou compartilhando uma conversa pra mostrar com se trai um namorado e como se consquista um professor da sociesc...&amp;rdquo;O assunto virou hit entre os internautas e gerou o meme &amp;ndash; g&amp;ecirc;nero informacional comum na rede de computadores &amp;ndash; &amp;ldquo;Sinuelo&amp;rdquo;. O nome foi dado em alus&amp;atilde;o &amp;agrave; marca de vinho citada em uma parte da conversa. Tamanha repercuss&amp;atilde;o teria se dado porque a senha da mo&amp;ccedil;a teria sido alterada e surgiu a suspeita de que a publica&amp;ccedil;&amp;atilde;o seja fruto de algu&amp;eacute;m tra&amp;iacute;do e que invadiu sua p&amp;aacute;gina pessoal. Por volta das 23h30, o di&amp;aacute;logo no perfil da mo&amp;ccedil;a tinha mais de 24 mil curtidas e mais de 7.600 compartilhamentos.O assunto atingiu os Trending Topics &amp;ndash; lista de assuntos mais comentados no mundo &amp;ndash; do Twitter. A hashtag (marca&amp;ccedil;&amp;atilde;o) &amp;ldquo;sinuelo&amp;rdquo; esteve durante toda a tarde na lista. J&amp;aacute; a tag com nome do professor constava na listagem durante a noite. Al&amp;eacute;m disso, a foto dos personagens e partes do di&amp;aacute;logo viraram tema de montagens. A imagem dos dois percorreu fanpages de humor e p&amp;aacute;ginas de usu&amp;aacute;rios. A reportagem do Not&amp;iacute;cias do Dia tentou contato com a irm&amp;atilde; da estudante pelo Facebook, mas n&amp;atilde;o obteve resposta. Em sua p&amp;aacute;gina pessoal, al&amp;eacute;m de avisar que a p&amp;aacute;gina da irm&amp;atilde; tinha sido invadida e sua senha roubada, ela comentou: &amp;ldquo;Galera, o advogado j&amp;aacute; t&amp;aacute; cuidando do caso da minha irm&amp;atilde;. Ent&amp;atilde;o, quem fez isso vai pagar na justi&amp;ccedil;a.&amp;rdquo; ND tamb&amp;eacute;m tentou contato pelo telefone com o professor, mas ele n&amp;atilde;o atendeu. A Sociesc n&amp;atilde;o se posicionou. Uma funcion&amp;aacute;ria informou que a orienta&amp;ccedil;&amp;atilde;o que recebeu &amp;eacute; informar que assessoria de marketing s&amp;oacute; deve retornar &amp;agrave;s atividades na quinta-feira.</description>
-  </item>
-  <item>
-   <title>João Paulo Kleinübing nega fraude em licitação em Blumenau</title>
-   <link>http://www.ndonline.com.br/joinville/noticias/67918-joao-paulo-kleinubing-nega-fraude-em-licitacao-em-blumenau.html</link>
-   <guid>http://www.ndonline.com.br/joinville/noticias/67918-joao-paulo-kleinubing-nega-fraude-em-licitacao-em-blumenau.html</guid>
-   <pubDate>30 Apr 2013 19:52:00 GMT</pubDate>
-   <author>claudioc.ndonline@noticiasdodia.com.br (Cláudio Costa)</author>
-   <category>Blumanau, Estado, João Paulo Kleinübing</category>
-   <description>&lt;img src='http://www.ndonline.com.br//uploads/global/materias/2013/04/30-04-2013-19-55-32-30-04-2013-18-39-38-jpk.jpg'&gt;&lt;br&gt;
 
-&#13;
-Divulga&amp;ccedil;&amp;atilde;o/ND&#13;
-&#13;
-Jo&amp;atilde;o Paulo Klein&amp;uuml;bing viajou para Bras&amp;iacute;lia e retorna na quarta-feira&#13;
-&#13;
-O ex-prefeito de Blumenau e atual presidente do Badesc (Ag&amp;ecirc;ncia de Fomento de Santa Catarina), Jo&amp;atilde;o Paulo Klein&amp;uuml;bing (PSD), emitiu, por meio de sua assessoria de imprensa, uma nota oficial na tarde desta ter&amp;ccedil;a-feira (30), afirmando que as informa&amp;ccedil;&amp;otilde;es publicadas no site UOL, sobre o envolvimento dele nos supostos crimes investigados pelo MPE (Minist&amp;eacute;rio P&amp;uacute;blico Estadual) na opera&amp;ccedil;&amp;atilde;o Tapete Negro n&amp;atilde;o s&amp;atilde;o verdadeiras.&#13;
-&#13;
-A mat&amp;eacute;ria publicada no portal de not&amp;iacute;cias transcreve uma conversa entre o ex-prefeito de Blumenau e o ex-secret&amp;aacute;rio de Obras, Alexandre Brollo, que seria oriunda da investiga&amp;ccedil;&amp;atilde;o do MPE. No di&amp;aacute;logo, Jo&amp;atilde;o Paulo Kleinubing pede ao secret&amp;aacute;rio que realize um processo de dispensa de licita&amp;ccedil;&amp;atilde;o retroativa e uma ordem de servi&amp;ccedil;o com data do dia da conversa para que a prefeitura n&amp;atilde;o perca o prazo para garantir recursos do Badesc na ordem de R$ 30 milh&amp;otilde;es, de acordo com a reportagem. "E assim, &amp;oacute;: dispensa pra URB, com data atrasada e ordem de servi&amp;ccedil;o com data de hoje", teria dito o ex-prefeito, de acordo com a reportagem.&#13;
-Na nota oficial, o prefeito n&amp;atilde;o nega o teor do di&amp;aacute;logo, mas afirma que ele foi usado &amp;ldquo;fora do devido contexto&amp;rdquo;. Afirma ainda que o MPE n&amp;atilde;o apresentou den&amp;uacute;ncia &amp;agrave; Justi&amp;ccedil;a e tamb&amp;eacute;m n&amp;atilde;o indicou qualquer pessoa. Jo&amp;atilde;o Paulo Kleinubing viajou a Bras&amp;iacute;lia na tarde desta ter&amp;ccedil;a-feira (30) e s&amp;oacute; deve retornar ao Estado na quarta-feira.&#13;
-Confira a nota oficial na &amp;iacute;ntegra:&#13;
-NOTA DE ESCLARECIMENTO&#13;
-Em rela&amp;ccedil;&amp;atilde;o &amp;agrave; mat&amp;eacute;ria publicada no site UOL, no dia de hoje, e &amp;agrave; investiga&amp;ccedil;&amp;atilde;o do Minist&amp;eacute;rio P&amp;uacute;blico, na chamada Opera&amp;ccedil;&amp;atilde;o Tapete Negro, o ex-prefeito Jo&amp;atilde;o Paulo Kleinubing esclarece a bem da verdade:&#13;
-1 &amp;ndash; As not&amp;iacute;cias publicadas n&amp;atilde;o correspondem &amp;agrave; verdade dos fatos, s&amp;atilde;o irrespons&amp;aacute;veis e j&amp;aacute; foram divulgadas no final do ano passado;&#13;
-2 &amp;ndash; O que de fato existe &amp;eacute; uma apura&amp;ccedil;&amp;atilde;o do Minist&amp;eacute;rio P&amp;uacute;blico Estadual baseada em suposi&amp;ccedil;&amp;otilde;es constru&amp;iacute;das em cima de informa&amp;ccedil;&amp;otilde;es n&amp;atilde;o verdadeiras;&#13;
-3 &amp;ndash; O Minist&amp;eacute;rio P&amp;uacute;blico n&amp;atilde;o ofereceu den&amp;uacute;ncia contra qualquer pessoa;&#13;
-4 &amp;ndash; Nenhuma pessoa foi indiciada, muito menos o ex-prefeito Jo&amp;atilde;o Paulo Kleinubing;&#13;
-5 &amp;ndash; N&amp;atilde;o houve qualquer tipo de fraude e n&amp;atilde;o foi provada a exist&amp;ecirc;ncia de qualquer tipo de fraude: a contrata&amp;ccedil;&amp;atilde;o da URB &amp;ndash; Companhia Urbanizadora de Blumenau - pela Prefeitura &amp;eacute; um procedimento legal;&#13;
-6 &amp;ndash; N&amp;atilde;o houve superfaturamento de qualquer obra realizada ou contratada pela URB &amp;ndash; durante a gest&amp;atilde;o do prefeito Jo&amp;atilde;o Paulo Kleinubing;&#13;
-7 &amp;ndash; Todas as obras referidas foram contratadas e executadas abaixo dos pre&amp;ccedil;os de mercado e abaixo dos pre&amp;ccedil;os de refer&amp;ecirc;ncia oficiais apresentados nas tabelas federais do SICRO e SINAP e estadual, do DEINFRA;&#13;
-8 &amp;ndash; Por preceito legal, a URB era contratada atrav&amp;eacute;s de dispensa de licita&amp;ccedil;&amp;atilde;o, modalidade prevista em lei, porque a Companhia pertence &amp;agrave; Prefeitura e pode ser contratada atrav&amp;eacute;s dessa modalidade, desde que efetue pre&amp;ccedil;os compat&amp;iacute;veis com o mercado, o que de fato sempre ocorreu;&#13;
-9 &amp;ndash; O suposto superfaturamento de obras apontado na mat&amp;eacute;ria do UOL e na a&amp;ccedil;&amp;atilde;o do Minist&amp;eacute;rio P&amp;uacute;blico teria sido feito para beneficiar a URB, que &amp;eacute; uma empresa da Prefeitura, ou seja, a beneficiada seria a pr&amp;oacute;pria Prefeitura, o que &amp;eacute; no m&amp;iacute;nimo incoerente e sem fundamento;&#13;
-10 &amp;ndash; Nem a reportagem, nem a a&amp;ccedil;&amp;atilde;o do Minist&amp;eacute;rio P&amp;uacute;blico apontam como teria sido desviado o dinheiro da URB, coisa que de fato n&amp;atilde;o aconteceu;&#13;
-11 &amp;ndash; A mat&amp;eacute;ria aponta, de forma inver&amp;iacute;dica, o desvio de R$ 100 milh&amp;otilde;es atrav&amp;eacute;s da URB, mas n&amp;atilde;o diz que os contratos realizados pela prefeitura com a URB para execu&amp;ccedil;&amp;atilde;o de obras somam R$ 58 milh&amp;otilde;es de 2006 a 2012, per&amp;iacute;odo da apura&amp;ccedil;&amp;atilde;o do Minist&amp;eacute;rio P&amp;uacute;blico;&#13;
-12 &amp;ndash; Nenhuma empresa e nenhuma pessoa foi favorecida no suposto esquema apontado pela reportagem;&#13;
-13 &amp;ndash; Nenhum contrato foi assinado com data retroativa;&#13;
-14 &amp;ndash; Todos os contratos com o Badesc foram assinados dentro dos prazos previstos em lei e as datas comprovam isso;&#13;
-15 &amp;ndash; Nenhum documento foi fraudado;&#13;
-16 &amp;ndash; O uso maldoso de grava&amp;ccedil;&amp;otilde;es fora do devido contexto &amp;eacute; um artif&amp;iacute;cio que deve ser repudiado. Naquele momento, a Prefeitura de Blumenau corria o risco de perder R$ 15 milh&amp;otilde;es por conta de entraves burocr&amp;aacute;ticos, mesmo assim, nenhum contrato, dispensa de licita&amp;ccedil;&amp;atilde;o ou ordem de servi&amp;ccedil;o foi assinado com data retroativa, conforme sugere a reportagem;&#13;
-17 - A conversa foi citada na reportagem foi realizada no dia 5 de julho de 2012 e todos os documentos foram assinados em data posterior, o que &amp;eacute; de f&amp;aacute;cil comprova&amp;ccedil;&amp;atilde;o;&#13;
-19 &amp;ndash; O ex-prefeito Jo&amp;atilde;o Paulo Kleinubing reafirma que n&amp;atilde;o houve desvio de recursos p&amp;uacute;blicos e n&amp;atilde;o houve preju&amp;iacute;zo aos cofres p&amp;uacute;blicos e tomar&amp;aacute; as medidas judiciais necess&amp;aacute;rias com rela&amp;ccedil;&amp;atilde;o &amp;agrave; mat&amp;eacute;ria do UOL;&#13;
-20 &amp;ndash; O ex-prefeito Jo&amp;atilde;o Paulo Kleinubing jamais foi chamado pelo Minist&amp;eacute;rio P&amp;uacute;blico para prestar qualquer esclarecimento e est&amp;aacute; totalmente &amp;agrave; disposi&amp;ccedil;&amp;atilde;o do MP para as informa&amp;ccedil;&amp;otilde;es que forem necess&amp;aacute;rias.</description>
-  </item>
-  <item>
-   <title>Prefeitura nomeia três subprefeitos em Joinville </title>
-   <link>http://www.ndonline.com.br/joinville/noticias/67896-prefeitura-nomeia-tres-subprefeitos-em-joinville.html</link>
-   <guid>http://www.ndonline.com.br/joinville/noticias/67896-prefeitura-nomeia-tres-subprefeitos-em-joinville.html</guid>
-   <pubDate>30 Apr 2013 19:00:00 GMT</pubDate>
-   <author>claudioc.ndonline@noticiasdodia.com.br (Cláudio Costa)</author>
-   <category>Oeste, Centro-Norte, Sudoeste, Subprefeituras, Política, Joinville </category>
-   <description>&lt;img src='http://www.ndonline.com.br//uploads/global/materias/2013/04/30-04-2013-19-10-55-subprefeitos.jpg'&gt;&lt;br&gt;
+Desta vez ele vem para ser coordenador técnico do Tricolor. O uruguaio Sergio Ramirez, 62 anos, foi contratado pelo Joinville para uma função que no ano passado era exercida por Marcelo Serrano, enquanto o treinador era Leandro Campos. Desta vez, com a manuteção de Arturzinho, Ramirez irá atuar ao lado…
+<br /><br /> <img src="http://www.portaljoinville.com.br/v4/facecms/conteudo/temp/pj_25778.jpg" />]]></description>
+			<pubDate>Tue, 23 Apr 2013 16:41:27 -0300</pubDate>
+		</item> 
+				<item>
+			<title>Volta às pistas</title>
+			<link>http://www.portaljoinville.com.br/v4/blogs/rdb/2013/04/volta-as-pistas</link>
+			<guid>http://www.portaljoinville.com.br/v4/blogs/rdb/2013/04/volta-as-pistas</guid>
+			<description><![CDATA[
 
-&#13;
-Rogerio da Silva/Secom/Divulga&amp;ccedil;&amp;atilde;o/ND&#13;
-&#13;
-Prefeito Udo D&amp;ouml;hler (E) se reuniu com os novos subprefeitos na manh&amp;atilde; desta ter&amp;ccedil;a&#13;
-&#13;
-A Prefeitura de Joinville definiu na manh&amp;atilde; desta ter&amp;ccedil;a-feira (30) mais tr&amp;ecirc;s secret&amp;aacute;rios para comandar as subprefeituras das regi&amp;otilde;es Oeste, Centro-norte e Sudoeste. Foram nomeados pelo prefeito Udo D&amp;ouml;hler: Elenita Ramos de Souza, na Subprefeitura da regi&amp;atilde;o Oeste; Jo&amp;atilde;o Luiz Sdrigotti, na Subprefeitura da regi&amp;atilde;o Centro-Norte; e Osmar Vicente, na Subprefeitura da regi&amp;atilde;o Sudoeste.&#13;
-O prefeito Udo D&amp;ouml;hler destacou que os novos secret&amp;aacute;rios j&amp;aacute; come&amp;ccedil;ar&amp;atilde;o a trabalhar pelos bairros de Joinville. Elenita Ramos de Souza ir&amp;aacute; comandar a Subprefeitura da regi&amp;atilde;o Oeste, com base no bairro Vila Nova. O mais experiente entre os secret&amp;aacute;rios &amp;eacute; o ex-vereador Jo&amp;atilde;o Luiz Sdrigotti que ficar&amp;aacute; respons&amp;aacute;vel pela Subprefeitura Centro-norte, que abrange a &amp;aacute;rea Central da cidade e ter&amp;aacute; sede no bairro Costa e Silva.&#13;
-Na regi&amp;atilde;o do bairro Nova Bras&amp;iacute;lia, Osmar Vicente assume a Subprefeitura Sudoeste. O &amp;oacute;rg&amp;atilde;o atender&amp;aacute; tamb&amp;eacute;m os bairros Morro do Meio e S&amp;atilde;o Marcos. Com a defini&amp;ccedil;&amp;atilde;o dos tr&amp;ecirc;s secret&amp;aacute;rios, agora s&amp;oacute; falta a nomea&amp;ccedil;&amp;atilde;o da Subprefeitura da regi&amp;atilde;o Leste, que abriga os bairros Espinheiros, Boa, Vista, Comasa, Iriri&amp;uacute; e Zona Industrial Tupy.&#13;
-Saiba mais:&#13;
-Subprefeitura Oeste (Vila Nova)&#13;
-Local: Rua S&amp;atilde;o Bras, 184, Vila Nova&#13;
-Abrang&amp;ecirc;ncia: Vila Nova e &amp;aacute;rea rural do Vila Nova&#13;
-Habitantes: 25.513&#13;
-Subprefeitura Sudoeste (Nova Bras&amp;iacute;lia)&#13;
-Local: Rua Minas Gerais - sede da ex-Regional do Nova Bras&amp;iacute;lia&#13;
-Abrang&amp;ecirc;ncia: Nova Bras&amp;iacute;lia, Morro do Meio, &amp;Aacute;rea Rural do Morro do Meio e S&amp;atilde;o Marcos.&#13;
-Habitantes: 27.394&#13;
-Subprefeitura Centro-norte (Costa e Silva)&#13;
-Local: Rua Guilherme, 604, bairro Costa e Silva&#13;
-Abrang&amp;ecirc;ncia: Costa e Silva, Bom Retiro, Zona Industrial Norte, Santo Antonio, Gl&amp;oacute;ria, Am&amp;eacute;rica,&#13;
-Sagua&amp;ccedil;u, Atiradores, Anita Garibaldi e Bucarein</description>
-  </item>
-  <item>
-   <title>Termina greve de agentes penitenciários de Santa Catarina</title>
-   <link>http://www.ndonline.com.br/joinville/noticias/67883-termina-greve-de-agentes-penitenciarios-de-santa-catarina.html</link>
-   <guid>http://www.ndonline.com.br/joinville/noticias/67883-termina-greve-de-agentes-penitenciarios-de-santa-catarina.html</guid>
-   <pubDate>30 Apr 2013 18:23:00 GMT</pubDate>
-   <author>claudioc.ndonline@noticiasdodia.com.br (Cláudio Costa)</author>
-   <category>Joinville, Segurança, Greve, Agentes Prisionais</category>
-   <description>&lt;img src='http://www.ndonline.com.br//uploads/global/materias/2013/04/30-04-2013-18-24-27-30-04-2013-17-21-03-greve-agentes-prisionais.jpg'&gt;&lt;br&gt;
 
-&#13;
-Carlos Junior/ND&#13;
-&#13;
-Situa&amp;ccedil;&amp;atilde;o da carceragem da Central de Pol&amp;iacute;cia de Joinville era cr&amp;iacute;tica durante a greve&#13;
-Os agentes penitenci&amp;aacute;rios de Santa Catarina  encerraram hoje a greve, que come&amp;ccedil;ou no dia 17 de abril. O fim da  paralisa&amp;ccedil;&amp;atilde;o foi decis&amp;atilde;o de ampla maioria em vota&amp;ccedil;&amp;atilde;o na assembleia da  tarde desta ter&amp;ccedil;a-feira (30), que reuniu cerca de 300 pessoas em  Florian&amp;oacute;polis.&#13;
-A categoria aceitou a proposta do governo de receber gratifica&amp;ccedil;&amp;otilde;es de  100% sobre o sal&amp;aacute;rio para agentes que trabalham dentro das  penitenci&amp;aacute;rias, e de 35% aos que trabalham em outras &amp;aacute;reas, como a  administra&amp;ccedil;&amp;atilde;o. O valor ser&amp;aacute; pago em 5 parcelas: em maio e novembro de  2013, maio e novembro de 2014 e maio de 2015.&#13;
-</description>
-  </item>
-  <item>
-   <title>Polícia Federal apreende 85 quilos de camarão em alto-mar, em Penha </title>
-   <link>http://www.ndonline.com.br/joinville/noticias/67876-policia-federal-apreende-85-quilos-de-camarao-em-alto-mar-em-penha.html</link>
-   <guid>http://www.ndonline.com.br/joinville/noticias/67876-policia-federal-apreende-85-quilos-de-camarao-em-alto-mar-em-penha.html</guid>
-   <pubDate>30 Apr 2013 17:33:00 GMT</pubDate>
-   <author>claudioc.ndonline@noticiasdodia.com.br (Cláudio Costa)</author>
-   <category>Operação Vigia, Polícia Federal, Litoral Norte, Apreensão Camarão </category>
-   <description>&lt;img src='http://www.ndonline.com.br//uploads/global/materias/2013/04/30-04-2013-18-09-43-pf.jpg'&gt;&lt;br&gt;
+Será neste fim de semana, 26 e 27 de abril, que a velocista Tamiris de Liz voltará a voar baixo nas pistas. A atleta disputará a prova de 100 metros e 200 metros e o revezamento 4x100 metros pelo Campeonato Estadual Adulto de  Atletismo, em Itajaí. Para a técnica Margit…
+<br /><br /> <img src="http://www.portaljoinville.com.br/v4/facecms/uploads/galeria/pj_1366741964.jpg" />]]></description>
+			<pubDate>Tue, 23 Apr 2013 15:33:57 -0300</pubDate>
+		</item> 
+				<item>
+			<title>A proibição do consumo de bebidas alcoólicas em vias públicas</title>
+			<link>http://www.portaljoinville.com.br/v4/noticias/2013/04/a-proibicao-do-consumo-de-bebidas-alcoolicas-em-vias-publicas</link>
+			<guid>http://www.portaljoinville.com.br/v4/noticias/2013/04/a-proibicao-do-consumo-de-bebidas-alcoolicas-em-vias-publicas</guid>
+			<description><![CDATA[
+Acontece nesta terça-feira (23),  uma audiência pública na Câmara de Vereadores sobre o projeto de Lei 48/13, de autoria do vereador James Schroeder, que pretende acabar com o consumo de bebidas alcoólicas em vias públicas de Joinville.
+A iniciativa é coibir que os “esquentas” e aglomerações virem perturbação do sossego. A…
+<br /><br /> <img src="http://www.portaljoinville.com.br/v4/facecms/conteudo/temp/pj_25776.jpg" />]]></description>
+			<pubDate>Tue, 23 Apr 2013 15:15:50 -0300</pubDate>
+		</item> 
+				<item>
+			<title>Tamiris de Liz volta às pistas</title>
+			<link>http://www.portaljoinville.com.br/v4/esportes/2013/04/tamiris-de-liz-volta-as-pistas</link>
+			<guid>http://www.portaljoinville.com.br/v4/esportes/2013/04/tamiris-de-liz-volta-as-pistas</guid>
+			<description><![CDATA[
 
-&#13;
-Divulga&amp;ccedil;&amp;atilde;o/PF/ND&#13;
-&#13;
-Opera&amp;ccedil;&amp;atilde;o foi executada pelo N&amp;uacute;cleo de Pol&amp;iacute;cia Mar&amp;iacute;tima da Pol&amp;iacute;cia Federal de Itaja&amp;iacute;&#13;
-&#13;
-Duas pessoas foram presas pela Pol&amp;iacute;cia Federal com 85 quilos de camar&amp;atilde;o em alto-mar no Litoral Norte de Santa Catarina. O flagrante aconteceu entre Navegantes e Penha nas primeiras horas da manh&amp;atilde; desta ter&amp;ccedil;a-feira (30). A opera&amp;ccedil;&amp;atilde;o foi executada pelo N&amp;uacute;cleo de Pol&amp;iacute;cia Mar&amp;iacute;tima da Pol&amp;iacute;cia Federal de Itaja&amp;iacute;.&#13;
-&#13;
-A a&amp;ccedil;&amp;atilde;o faz parte da Opera&amp;ccedil;&amp;atilde;o Vigia que est&amp;aacute; fiscaliza a pesca ilegal do camar&amp;atilde;o no per&amp;iacute;odo de defeso, que segue at&amp;eacute; o dia 31 de maio. Na sexta-feira (26), uma embarca&amp;ccedil;&amp;atilde;o foi apreendida e um pescador preso com cerca de 100 quilos do crust&amp;aacute;ceo.</description>
-  </item>
-  <item>
-   <title>GAECO Joinville prende em flagrante delegado paranaense suspeito de envolvimento com jogos de azar</title>
-   <link>http://www.ndonline.com.br/joinville/noticias/67762-gaeco-joinville-prende-em-flagrante-delegado-paranaense-suspeito-de-envolvimento-com-jogos-de-azar.html</link>
-   <guid>http://www.ndonline.com.br/joinville/noticias/67762-gaeco-joinville-prende-em-flagrante-delegado-paranaense-suspeito-de-envolvimento-com-jogos-de-azar.html</guid>
-   <pubDate>30 Apr 2013 11:39:00 GMT</pubDate>
-   <author>thais@noticiasdodia.com.br (Thaís Moreira de Mira)</author>
-   <category>Segurança, GAECO Joinville, Prisão, Delegado Parananese, Rio Negro, Operação Game Over II, Jogos de Azar</category>
-   <description>
 
-Um delegado da Pol&amp;iacute;cia Civil do Paran&amp;aacute; foi preso em flagrante pelo GAECO (Grupo Atua&amp;ccedil;&amp;atilde;o Especial de Combate ao Crime Organizado) Joinville, na tarde de segunda-feira (29), em Rio Negro (PR), suspeito de envolvimento na explora&amp;ccedil;&amp;atilde;o de jogos de azar. Ele foi abordado no momento que recebia propina de dois contraventores. Um sargento da Pol&amp;iacute;cia Militar de Santa Catarina tamb&amp;eacute;m foi detido durante a opera&amp;ccedil;&amp;atilde;o, denominada Game Over II. De acordo com o pr&amp;oacute;prio GAECO, foram realizadas ainda um s&amp;eacute;rie de dilig&amp;ecirc;ncias na regi&amp;atilde;o de S&amp;atilde;o Bento do Sul.&#13;
-Na comarca, a justi&amp;ccedil;a expediu cinco mandados de pris&amp;atilde;o preventiva. Tr&amp;ecirc;s deles cumpridos em Rio Negro. Tamb&amp;eacute;m foram 18 mandados de busca e apreens&amp;atilde;o, al&amp;eacute;m da ordem de interdi&amp;ccedil;&amp;atilde;o de duas casas lot&amp;eacute;ricas. As investiga&amp;ccedil;&amp;otilde;es tiveram in&amp;iacute;cio em 2012, atrav&amp;eacute;s da 3&amp;ordf; Promotoria de Justi&amp;ccedil;a de S&amp;atilde;o Bento do Sul. O objetivo era apurar atos il&amp;iacute;citos relacionados ao jogo do bicho, como forma&amp;ccedil;&amp;atilde;o de quadrilha, lavagem de dinheiro, corrup&amp;ccedil;&amp;atilde;o ativa e passiva. As dilig&amp;ecirc;ncias continuam, por isso, n&amp;atilde;o foram revelados detalhes sobre a opera&amp;ccedil;&amp;atilde;o.&#13;
-O GAECO afirmou que o delegado preso foi encaminhado para Curitiba. J&amp;aacute; os demais detidos, entre eles o sargento da PM, foram levados ao Batalh&amp;atilde;o da Pol&amp;iacute;cia Militar de S&amp;atilde;o Bento do Sul e &amp;agrave; Penitenci&amp;aacute;ria Industrial de Joinville. Os policiais de Joinville tiveram apoio do Gaecos de Chapec&amp;oacute;, Lages, Crici&amp;uacute;ma, Itaja&amp;iacute; e Florian&amp;oacute;polis. O GAECO do Paran&amp;aacute; e a Corregedoria&amp;ndash;Geral de Pol&amp;iacute;cia Civil do estado tamb&amp;eacute;m colaboraram com a for&amp;ccedil;a-tarefa.</description>
-  </item>
- </channel>
+Será neste fim de semana, 26 e 27 de abril, que a velocista Tamiris de Liz voltará a voar baixo nas pistas. A atleta disputará a prova dos 100 e 200 metros e o revezamento 4x100m, pelo Campeonato Estadual Adulto de Atletismo, em Itajaí. 
+Para a técnica Margit Weise este…
+<br /><br /> <img src="http://www.portaljoinville.com.br/v4/facecms/conteudo/temp/pj_25775.jpg" />]]></description>
+			<pubDate>Tue, 23 Apr 2013 14:41:36 -0300</pubDate>
+		</item> 
+				<item>
+			<title>PID lança inscrições para vôlei de praia</title>
+			<link>http://www.portaljoinville.com.br/v4/esportes/2013/04/pid-lanca-inscricoes-para-volei-de-praia</link>
+			<guid>http://www.portaljoinville.com.br/v4/esportes/2013/04/pid-lanca-inscricoes-para-volei-de-praia</guid>
+			<description><![CDATA[Estão abertas as inscrições para o Núcleo de Vôlei de Praia do Programa de Iniciação Esportiva (PID). O projeto é voltado para crianças e adolescentes com idade entre 10 e 16 anos. As atividades começam na próxima semana e serão realizadas no período da tarde, na Associação de Moradores do…
+<br /><br /> <img src="http://www.portaljoinville.com.br/v4/facecms/conteudo/temp/pj_25774.jpg" />]]></description>
+			<pubDate>Tue, 23 Apr 2013 14:40:41 -0300</pubDate>
+		</item> 
+				<item>
+			<title>Vôlei de praia: Jovens em busca da Seleção Brasileira</title>
+			<link>http://www.portaljoinville.com.br/v4/esportes/2013/04/volei-de-praia-jovens-em-busca-da-selecao-brasileira</link>
+			<guid>http://www.portaljoinville.com.br/v4/esportes/2013/04/volei-de-praia-jovens-em-busca-da-selecao-brasileira</guid>
+			<description><![CDATA[
+
+
+O sonho de se tornar atleta profissional de vôlei de praia começa a se tornar realidade para a dupla feminina de Joinville. As amigas e companheiras de competição Odaisa Nathieli de Andrade e Mayra Amorim de Souza, nascidas em 1998, foram convocadas pela Seleção Catarinense para disputar o Campeonato Brasileiro…
+<br /><br /> <img src="http://www.portaljoinville.com.br/v4/facecms/uploads/galeria/pj_1366737666.jpg" />]]></description>
+			<pubDate>Tue, 23 Apr 2013 14:29:00 -0300</pubDate>
+		</item> 
+				<item>
+			<title>Prefeitura construirá Parque Porta do Mar, no Espinheiros</title>
+			<link>http://www.portaljoinville.com.br/v4/noticias/2013/04/prefeitura-construira-parque-porta-do-mar-no-espinheiros</link>
+			<guid>http://www.portaljoinville.com.br/v4/noticias/2013/04/prefeitura-construira-parque-porta-do-mar-no-espinheiros</guid>
+			<description><![CDATA[
+Acontece nesta quarta-feira (24), no Restaurante Capitão do Mar, a entrega da ordem de serviço para a construção do Parque Porta do Mar, no bairro Espinheiros.
+A empresa vencedora da licitação é a Belga Empreitera. As obras vão começar de imediato. Para esta obra, a Prefeitura pagará o valor de…
+<br /><br /> <img src="http://www.portaljoinville.com.br/v4/facecms/conteudo/temp/pj_25772.jpg" />]]></description>
+			<pubDate>Tue, 23 Apr 2013 14:15:56 -0300</pubDate>
+		</item> 
+		</channel>
 </rss>

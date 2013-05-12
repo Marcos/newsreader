@@ -14,7 +14,7 @@
 	</root>
 
 	<category name="com.openwp3x">
-		<priority value="INFO" />
+		<priority value="DEBUG" />
 		<appender-ref ref="stdout" />
 	</category>
 

@@ -1,718 +1,729 @@
 <html>
 <head>
 <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+<meta content="application/xhtml+xml; charset=utf-8" http-equiv="Content-Type">
+  
+<meta content="Eduardo Andr&amp;eacute; Zicato" name="Author">
+  
+<meta content="" name="google-site-verification">
+  
+<meta content="" name="description">
+  
+<meta content="" name="keywords">
+  
+<meta content="index, follow" name="robots">
+  
+<meta content="pt-BR" http-equiv="Content-Language">
+  
+<meta content="Byll Ag&amp;ecirc;ncia - Cercena S/A" name="Copyright">
 
-<title>CDL Joinville : Not&amp;iacute;cias</title>
+  
+<title>CDL Joinville</title>
 
-<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+  
+<base href="http://www.cdljoinville.com.br/">
+  
+<link href="libs/imgs/favicon.ico" rel="shortcut icon" type="image/x-icon">
+  
+<link href="libs/css/reset.css" media="all" rel="stylesheet" type="text/css">
+  
+<link href="libs/css/estrutura.css" media="all" rel="stylesheet" type="text/css">
+  
+<link href="libs/css/conteudo.css" media="all" rel="stylesheet" type="text/css">
+  
+<link charset="utf-8" href="libs/fonts/oxygen.css" rel="stylesheet" type="text/css">
+  
+<script src="libs/js/jquery.js" type="text/javascript"></script>
+  
+<link href="libs/css/jquery.fancybox-1.3.4.css" media="screen" rel="stylesheet" type="text/css">
+  
+<script src="libs/js/jquery.fancybox-1.3.4.pack.js" type="text/javascript"></script>
+  
+  
+  <!--
+  <script type="text/javascript" src="libs/js/jquery.fancybox-1.3.4.pack.js"></script>
+  -->
+ 
+  <script src="libs/js/mask.js" type="text/javascript"></script>
+  <script src="libs/js/jquery.nivo.slider.js" type="text/javascript"></script>
+  
+<link href="libs/css/nivo-slider.css" media="all" rel="stylesheet" type="text/css">
 
-<meta content="no-cache" http-equiv="Cache-Control">
-
-<meta content="" name="Description">
-
-<link href="cdljlle.css" rel="stylesheet" type="text/css">
-
-<link href="sphider/templates/standard/search.css" rel="stylesheet" type="text/css">
-
+  
 <script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-try {
-var pageTracker = _gat._getTracker("UA-6537257-7");
-pageTracker._trackPageview();
-} catch(err) {}</script>
+   // &lt;![CDATA[
+      
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-30273808-30']);
+      _gaq.push(['_trackPageview']);
 
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
 
+   // ]]&gt;
+  </script>
 
-<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
-</script>
-<script src="js/funcs.js" type="text/javascript"></script>
-<script type="text/javascript">
-_uacct = "UA-2378676-1";
-urchinTracker();
-</script>
+ 
 
-
+ 
 </head>
-<body bgcolor="#ffffff">
+<body>
+ 
 
-
-<script src="js/wz_tooltip.js" type="text/javascript"></script>
-<!--sphider_noindex--> 
-
-<center>
-
-<table border="0" cellpadding="0" cellspacing="0" width="776">
   
-<tbody>
-<tr>
-    
-<td background="img/fundo_header.gif" valign="top">&nbsp;
-        <a href="http://cdljoinville.com.br"><img border="0" hspace="2" src="img/icones/icone_home.gif" vspace="4"></a>
-        <a href="http://webmail.cdl-sc.org.br/" target="_blank"><img border="0" hspace="2" src="img/icones/icone_mail.gif" vspace="4"></a>
-        <a href="http://cdljoinville.com.br/admin" target="_blank"><img border="0" hspace="2" src="img/icones/icone_admin.gif" vspace="4"></a>
-<br>
-<!--    <a href="http://cdljoinville.com.br/index.php?pag=mapa_site" target="_self"><img src="img/icones/icone_mapa.gif" border="0" hspace="2" vspace="4"></a><br> --> 
-        
-<a href="http://cdljoinville.com.br"><img border="0" hspace="4" src="img/logo_cdl.gif" vspace="4"></a>
-    </td>
-    <td align="right" background="img/fundo_header.gif" colspan="3" valign="top">
- 
-<div style="float:left; padding-top:27px; padding-left:8px;">
-  
-<a href="http://www.twitter.com/cdljoinville" style="border:0px;" target="_blank">
-   <img alt="Seguir a cdljoinville en Twitter" src="http://twitter-badges.s3.amazonaws.com/twitter-a.png" style="border:0px;">
-  </a>
- 
-</div>
- 
-<div style="float:right;">
- 
-<div style="float:left;">
-<a href="index.php?cat=consumidor&amp;amp;subcat=deacon"><img border="0" src="img/destaques/1.gif" vspace="10"></a><a href="index.php?cat=institucional&amp;amp;subcat=associese&amp;amp;pag=associese"><img border="0" src="img/destaques/6.gif" vspace="10"></a><a href="index.php?cat=prod_serv&amp;amp;subcat=centro_treinamentos&amp;amp;pag=centro_treinamentos"><img border="0" src="img/destaques/9.gif" vspace="10"></a><a href="index.php?cat=prod_serv&amp;amp;subcat=convenios&amp;amp;pag=convenios"><img border="0" src="img/destaques/12.gif" vspace="10"></a> 
-</div>
- 
-<div style="float:left; margin-top:10px; background-color:#e1ebe2;">
-     
-<div style="float:left; padding:0px 0px 0px 5px">
+<div id="fb-root"></div>
   
 <script>
-   nn=(document.layers)?true:false; 
-   ie=(document.all)?true:false; 
-   function keyDown(e) 
-   { 
-    var evt=(e)?e:(window.event)?window.event:null; 
-    if(evt)
-    { 
-     var key=(evt.charCode)?evt.charCode: ((evt.keyCode)?evt.keyCode:((evt.which)?evt.which:0)); 
-     if(key=="13" && document.getElementById('IN_LOGON_OPECOD').value != '' && document.getElementById('IN_LOGON_OPESENHA').value != '') open_window(document.getElementById('IN_LOGON_OPECOD').value,document.getElementById('IN_LOGON_OPESENHA').value); 
-    } 
-   } 
-   document.onkeydown=keyDown; 
-   if(nn) document.captureEvents(Event.KEYDOWN);
-   
-   function open_window(operador,senha)
-   {
-    if(operador == '')
-    {
-     alert('Preencha o campo operador');
-     document.getElementById('IN_LOGON_OPECOD').focus();
-    }
-    if(senha == '')
-    {
-     alert('Preencha o campo senha');
-     document.getElementById('IN_LOGON_OPESENHA').focus();
-    }
-    if(operador != '' && senha != '')
-    {
-     document.getElementById('IN_LOGON_OPECOD').value = "";
-     document.getElementById('IN_LOGON_OPESENHA').value = "";
-     var win1 = window.open('http://www.cdljoinville.com.br/index.php?operador='+operador+'&senha='+base64_encode(senha),'','location=no,menubar=no,width=800,height=600,top=40,left=10, scrollbars=no');
-     win1.focus();
-    }
-   } 
+  // &lt;![CDATA[
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = &quot;//connect.facebook.net/pt_BR/all.js#xfbml=1&quot;;
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+  // ]]&gt;
   </script>
- <!-- ################################# FORMULÁRIO DE LOGON ##################### -->
+
+  
+<div class="up">
    
-<form action="index.php" method="post" name="LOGON">
+<div class="cnt" style="z-index:2">
     
-<div style="text-align:left; color:#406142; font-size:14px; padding:5px 0px 9px 5px">
-     
-<b>Consulta SPC</b>
+    
+<div class="menu_superior">
+     <!-- <a href="">Atendimento Online</a> -->
+      
+<a href="trabalhe-conosco">Trabalhe Conosco</a>
+     <a href="http://webmail.cdl-sc.org.br" style="border-left:none" target="_blanck">Webmail</a>
     
 </div>
     
-<div style="float:left;">
+    
+<div class="menu">
      
-<div>
+<ul>
       
-<div style="float:left; width:55px; padding-top:3px; padding-right:3px;">
-       Usu&amp;aacute;rio: 
-      </div>
+<li>
+<a href="fale-conosco">CONTATO</a>
+</li>
       
-<div style="float:left; padding:0px 0px 2px 0px;">
+<li>
        
-<input id="IN_LOGON_OPECOD" length="15" maxlength="20" name="IN_LOGON_OPECOD" size="10" style="border:1px ridge #D9D9B3; background-color: #F7F7EE; font-size: 11 px; font-family: Arial;" type="text">
-      
-</div>
-     
-</div>
-     
-<div style="clear:both;"></div>
-     
-<div>
-      
-<div style="float:left; width:55px; padding-top:3px; padding-right:3px;">
-       Senha: 
-      </div>
-      
-<div style="float:left; padding:0px 0px 2px 0px;">
+<a href="#">CONSUMIDOR</a>
        
-<input id="IN_LOGON_OPESENHA" length="15" maxlength="30" name="IN_LOGON_OPESENHA" size="10" style="border:1px ridge #D9D9B3; background-color: #F7F7EE; font-size: 11 px; font-family: Arial;" type="password">
+<ul class="submenu">
+        
+<li>
+<a href="http://www.buscacep.correios.com.br/" target="_blank">Busca Cep</a>
+</li>
+        
+<li>
+<a href="http://www.climatempo.com.br/previsao-do-tempo/cidade/381/joinville" target="_blank">Tempo em Joinville</a>
+</li>
+       
+</ul>
       
-</div>
+</li>
+            
+<li>
+       
+<a href="#">COMUNICA&amp;Ccedil;&amp;Atilde;O</a>
+       
+<ul class="submenu">
+        
+<li>
+<a href="galeria">Galeria de Fotos</a>
+</li>
+        
+<li>
+<a href="artigos">Artigos</a>
+</li>
+        
+<li>
+<a href="downloads">Downloads</a>
+</li>
+       
+</ul>
+      
+</li>
+      
+<li>
+<a href="associe-se">ASSOCIE-SE</a>
+</li>
+      
+<li>
+       
+<a href="#">INSTITUCIONAL</a>
+       
+<ul class="submenu">
+        
+<li>
+<a href="empresa/diretoria">Diretoria</a>
+</li>
+        
+<li>
+<a href="empresa/nossa-historia">Nossa Hist&amp;oacute;ria</a>
+</li>
+        
+<li>
+<a href="empresa/apresentacao">Apresenta&amp;ccedil;&amp;atilde;o</a>
+</li>
+       
+</ul>
+      
+</li>
+      
+<li>
+<a href="home">INICIAL</a>
+</li>
      
-</div>
+</ul>
     
 </div>
     
-<div style="float:left; padding:22px 0px 0px 5px;">
-     
-<input name="submit" onclick="open_window(document.getElementById('IN_LOGON_OPECOD').value,document.getElementById('IN_LOGON_OPESENHA').value); return false;" style="background-color: #F7F7EE; font-size: 11 px; color: #000000; font-weight: bold; font-family: Arial; border: 1px outset #D9D9B3;" type="button" value="Entrar">
+        
     
-</div>
+<a class="logo" href="home" title="home"><img src="libs/imgs/logo.png"></a>
+        
+        <!-- Div de separação do logo com o banner -->
+        
+<div class="clear"></div>
+    
+        
+        
+        
    
+</div>
+  
+</div>
+  
+    
+<div class="faixa_cinza">
+      
+<div class="cnt">
+        
+        
+<div class="spc">
+          
+<div class="esquerda">
+            
+<h1 class="titulo_azul">Consultar SPC</h1>
+          
+</div>
+          
+<form action="http://consulta.joinville.cdl-sc.org.br/sasfx/swf/APP.php" class="padrao" method="GET" target="_blank">
+            
+<input name="LOGON_FLEX_SITE" type="hidden" value="SIM"> 
+            <input name="IN_LOGON_TCODE" type="hidden" value="LOGON"> 
+            <input name="IN_LOGON_ENTCODIGO" type="hidden" value="SC075">
+            <input name="IN_LOGON_FLEX" type="hidden" value="FLEX">
+            <input class="placeholder" name="IN_LOGON_OPECOD" onblur="SetPlaceHolder (this)" onfocus="ClearPlaceHolder (this)" type="text" value="Digite Seu Login">
+            <input class="placeholder" name="IN_LOGON_OPESENHA" onblur="SetPlaceHolder (this)" onfocus="ClearPlaceHolder (this)" placeholder="Digite Sua Senha" type="password" value="Digite Sua Senha">
+            <input class="botao_preto" name="submit" type="submit" value="acessar">
+          
 </form>
- <!-- ########################################################################### -->  
+        
+</div>
+        
+<div class="calculadora">
+          
+<div class="esquerda">
+            
+<h1 class="titulo_azul">Calculadora Lojista</h1>
+          
+</div>
+          
+<span><img src="libs/imgs/grafico.png">Acesse aqui mais este servi&amp;ccedil;o dispon&amp;iacute;vel pela CDL.</span>
+          <a class="botao_preto" href="http://www.calculadoradolojista.cdl-sc.org.br/" target="_blanck">acessar</a>
+        
+</div>
+        
+<div class="associado">
+          
+<div class="esquerda">
+            
+<h1 class="titulo_azul">&amp;Aacute;rea do Associado</h1>
+          
+</div>
+          
+<form accept-charset="UTF-8" action="associado/autenticar/login" class="padrao" method="post" name="login" target="_blank">
+            
+<input class="placeholder" name="usuario_login" onblur="SetPlaceHolder (this)" onfocus="ClearPlaceHolder (this)" type="text" value="Digite Seu Login">
+            <input class="placeholder" name="usuario_senha" onblur="SetPlaceHolder (this)" onfocus="ClearPlaceHolder (this)" placeholder="Digite Sua Senha" type="password" value="Digite Sua Senha">
+            <input class="botao_preto" name="logar" type="submit" value="acessar">
+          
+</form>
+        
+</div> 
+        
+      
+</div>
+  
+</div>
+    
+    
+<div class="clear"></div>
+    
+  
+<div class="right">
+   
+<div class="cnt">
+    
+<div class="menu_direito">
+     
+     
+<div class="informativo">
+     
+<h1 class="titulo_branco">Informativo CDL Joinville</h1>
+     
+<div class="texto">
+      
      
 </div>
+     
+<a href="uploads/informativo/2013_02.pdf" target="_blank" title="clik para visualizar o informativo"><img src="uploads/informativo/thumb/2013_02.jpg"></a><a>
+     </a><a class="botao_branco" href="informativo">ver edi&amp;ccedil;&amp;otilde;es anteriores</a>
+</div>
+     
+     
+<div class="noticias">
+      
+<h1 class="titulo_branco">News CDL Joinville</h1>
+      
+<div class="container_noticias">
+       
+       
+       
+<div class="noticia_item">
+        
+<div class="noticia_data">10.05</div>
+        
+<div class="texto">
+         Invista no seu conhecimento e enrique&amp;ccedil;a seu curr&amp;iacute;culo!Participe dos cursos oferecidos pela CDL Joinville e&hellip; <div style="width: 20px;"></div>
+        
+</div>
+        
+<a class="ver_noticia" href="noticia/11">ver not&amp;iacute;cia</a>
+       
+</div>
+       
+       
+<div class="noticia_item">
+        
+<div class="noticia_data">30.04</div>
+        
+<div class="texto">
+         Depois de vinte dias entre reuni&amp;otilde;es e discuss&amp;otilde;es, o grupo de representantes do CRCSC, Fecontesc,&hellip; <div style="width: 20px;"></div>
+        
+</div>
+        
+<a class="ver_noticia" href="noticia/9">ver not&amp;iacute;cia</a>
+       
+</div>
+       
+       
+<div class="noticia_item">
+        
+<div class="noticia_data">30.04</div>
+        
+<div class="texto">
+         Com a finalidade de oportunizar mais tempo para que as pessoas efetuem suas compras, no&hellip; <div style="width: 20px;"></div>
+        
+</div>
+        
+<a class="ver_noticia" href="noticia/10">ver not&amp;iacute;cia</a>
+       
+</div>
+       
+       
+<div class="clear"></div>
+       
+<a class="botao_branco" href="noticias">ver todas as not&amp;iacute;cias</a>
+
+      
+</div>
+     
+</div>
+     
+    
+</div>
+   
+</div>
+  
+</div>
+  
+
+  
+<div class="md clear">
+   
+     
+
+<div class="container empresa">
+ 
+<div class="cnt">
+  
+  
+  
+<div class="header">
+   
+<h1 class="titulo">CDL participa do debate sobre rebaixamento das cal&amp;ccedil;adas</h1>
+   
+<h1 class="subtitulo">11.04</h1>
+  
+</div>
+  
+  
+<div class="conteudo">
+   
+<div class="texto_container">
+   
+<div style="text-align: justify;">
+<span style="font-family: Arial, Verdana; font-size: small;">A CDL Joinville, atrav&amp;eacute;s do presidente Carlos Grendene, dos vice-presidentes Jos&amp;eacute; Manoel Ramos e Ivonir Meurer e de lojistas associados, participou da Audi&amp;ecirc;ncia P&amp;uacute;blica que discutiu o rebaixamento completo de meio-fio em frente a estabelecimentos comerciais dos bairros de Joinville. Esta reuni&amp;atilde;o foi proposta pelas Comiss&amp;otilde;es de Legisla&amp;ccedil;&amp;atilde;o e de Urbanismo da C&amp;acirc;mara de Vereadores de Joinville.</span>
+</div>
+<div style="text-align: justify;">
+<font face="Arial, Verdana" size="2">Em pauta, estava projeto de lei complementar do vereador Roberto Bisoni. Ele alega que os pequenos comerciantes est&amp;atilde;o fadados a fechar as portas, porque, sem a possibilidade de rebaixar as cal&amp;ccedil;adas, os clientes n&amp;atilde;o t&amp;ecirc;m onde estacionar e, por consequ&amp;ecirc;ncia, n&amp;atilde;o param no estabelecimento.</font>
+</div>
+<div style="text-align: justify;">
+<font face="Arial, Verdana" size="2">
+<br>
+</font>
+</div>
+<div style="text-align: justify;">
+<font face="Arial, Verdana" size="2">O presidente da CDL, Carlos Grendene, comentou que &amp;eacute; preciso ter uma defini&amp;ccedil;&amp;atilde;o logo, pois j&amp;aacute; se passaram v&amp;aacute;rias d&amp;eacute;cadas e nada foi definido concretamente.</font>
+</div>
+<div style="text-align: justify;">
+<font face="Arial, Verdana" size="2">O Poder Executivo, representado na audi&amp;ecirc;ncia pela Funda&amp;ccedil;&amp;atilde;o IPPUJ e pelo ITTRAN, abordou aspectos da lei em vigor e como &amp;eacute; feita a fiscaliza&amp;ccedil;&amp;atilde;o. Hoje, somente &amp;eacute; permitido o rebaixo em um espa&amp;ccedil;o pequeno para sa&amp;iacute;da e outro para entrada, sob justificativa de provimento de mais seguran&amp;ccedil;a para os pedestres.</font>
+</div>
+<div style="text-align: justify;">
+<font face="Arial, Verdana" size="2">
+<br>
+</font>
+</div>
+<div style="text-align: justify;">
+<font face="Arial, Verdana" size="2">O debate gerou um debate sobre a falta de fiscaliza&amp;ccedil;&amp;atilde;o, uma vez que, segundo o vereador Bisoni, mais de 80% dos estabelecimentos t&amp;ecirc;m alguma irregularidade. Tal argumento foi apoiado pelos v&amp;aacute;rios comerciantes que participaram das discuss&amp;otilde;es.</font>
+</div>
+<div style="text-align: justify;">
+<font face="Arial, Verdana" size="2">&amp;ldquo;&amp;Eacute; preciso analisar o impacto dessa proposta de forma ampla, n&amp;atilde;o s&amp;oacute; olhando lado do comerciante, mas tamb&amp;eacute;m dos pedestres, dos portadores de defici&amp;ecirc;ncia, da fiscaliza&amp;ccedil;&amp;atilde;o do munic&amp;iacute;pio, e chegar a um ponto que seja a melhor solu&amp;ccedil;&amp;atilde;o para longo prazo, ainda que se n&amp;atilde;o seja poss&amp;iacute;vel atender a todos ao mesmo tempo&amp;rdquo;, afirmou o vereador Manoel Francisco Bento, que j&amp;aacute; apresentou uma emenda ao projeto.</font>
+</div>
+<div style="text-align: justify;">
+<font face="Arial, Verdana" size="2">
+<br>
+</font>
+</div>
+<div style="text-align: justify;">
+<font face="Arial, Verdana" size="2">Na opini&amp;atilde;o do representante do Conselho Municipal dos Direitos da Pessoa com Defici&amp;ecirc;ncia de Joinville (Comde), S&amp;eacute;rgio Luiz da Silva, j&amp;aacute; h&amp;aacute; lei federal que aborda o assunto e que veda o rebaixamento completo do meio-fio. &amp;ldquo;Se isso ocorrer em Joinville, vamos iniciar uma batalha judicial contra o munic&amp;iacute;pio, porque n&amp;atilde;o &amp;eacute; sensato que ignoremos solemente uma lei maior&amp;rdquo;, advertiu.</font>
+</div>
+<div style="text-align: justify;">
+<font face="Arial, Verdana" size="2">Al&amp;eacute;m disso, o argumento do Comde veio no sentido de que o rebaixamento, ainda que n&amp;atilde;o dificulte o acesso das pessoas, aumentar&amp;aacute; os riscos de colis&amp;otilde;es dos autom&amp;oacute;veis em marcha &amp;agrave; r&amp;eacute; com os cadeirantes ou as crian&amp;ccedil;as que estiverem passando, uma vez que suas alturas dificultariam a observa&amp;ccedil;&amp;atilde;o pelo retrovisor; quest&amp;atilde;o de seguran&amp;ccedil;a.</font>
+</div>
+<div style="text-align: justify;">
+<font face="Arial, Verdana" size="2">
+<br>
+</font>
+</div>
+<div style="text-align: justify;">
+<font face="Arial, Verdana" size="2">O encontro serviu para que a opini&amp;atilde;o popular pudesse guiar os vereadores das comiss&amp;otilde;es de Legisla&amp;ccedil;&amp;atilde;o e de Urbanismo rumo a um parecer favor&amp;aacute;vel ou contr&amp;aacute;rio. Ainda que divergentes, especialmente entre comerciantes e Comde, a tend&amp;ecirc;ncia &amp;eacute; de aprova&amp;ccedil;&amp;atilde;o, uma vez que est&amp;aacute; acostado ao projeto um abaixo-assinado com cerca de 2.000 assinaturas de apoio. Ainda n&amp;atilde;o h&amp;aacute; data para sua delibera&amp;ccedil;&amp;atilde;o em plen&amp;aacute;rio da C&amp;acirc;mara de Vereadores de Joinville.</font>
+</div>
+<div style="text-align: justify;">
+<font face="Arial, Verdana" size="2">&nbsp;</font>
+</div>
+<div style="text-align: justify;">
+<font face="Arial, Verdana" size="2">
+<br>
+</font>
+</div>
+<div style="text-align: justify;">
+<font face="Arial, Verdana" size="2">Fonte: Ascom CDL</font>
+</div>
+   
+</div>
+      
+  
+</div>
+  
+
  
 </div>
- 
+
+</div>
+
+
+<div class="clear">
+
+</div>
+
+
+  
+</div>
+  
+  
+<div class="faixa_inferior">
+  
+<div class="cnt">
+   
+   
+<div class="nos_ligamos">
+    
+<div class="esquerda">
+     
+<h1 class="titulo_azul">N&amp;oacute;s ligamos para voc&amp;ecirc;</h1>
+    
 </div>
     
-</td>
-  
-</tr>  
-<tr>
+<img src="libs/imgs/telefone2.png">
+    <form action="contato/nos_ligamos" class="padrao" id="nos_ligamos_form">
+     
+<input class="placeholder" name="nome" onblur="SetPlaceHolder (this)" onfocus="ClearPlaceHolder (this)" type="text" value="Digite Seu Nome">
+     <input class="placeholder" name="fone" onblur="SetPlaceHolder (this)" onfocus="ClearPlaceHolder (this)" type="text" value="Digite Seu Telefone">
+     <input class="botao_preto" type="submit" value="ok">
     
-<td align="left" rowspan="3" valign="top">
-<!-- ============================================================================================== -->
-      
-<table bgcolor="#C4C4C4" border="0" cellpadding="0" cellspacing="1" width="152">
-        
-<tbody>
-<tr>
-          
-<td align="left" background="img/fundo_menu.gif" height="18">
-<!-- ################################### MENU INSTITUCIONAL ####################################### -->
-            <font class="MenuTitAzul">Institucional</font>
-          </td>
-        
-</tr>
-        
-<tr>
-          
-<td align="left" bgcolor="#EFEFED" height="18">
-            <a class="linkMenuAzul" href="index.php?cat=institucional&amp;amp;subcat=apresentacao">Apresenta&amp;ccedil;&amp;atilde;o</a>
-          </td>
-        
-</tr>
-        
-<tr>
-         
-<td align="left" bgcolor="#EFEFED" height="18">
-           <a class="linkMenuAzul" href="index.php?cat=institucional&amp;amp;subcat=associese&amp;amp;pag=associese">Associe-se</a>
-         </td>
-        
-</tr>
-        
-<tr>
-         
-<td align="left" bgcolor="#EFEFED" height="18">
-           <a class="linkMenuAzul" href="index.php?cat=institucional&amp;amp;subcat=diretoria&amp;amp;pag=diretoria">Diretoria</a>
-         </td>
-        
-</tr>
-        
-<tr>
-         
-<td align="left" bgcolor="#EFEFED" height="18">
-           <a class="linkMenuAzul" href="index.php?cat=institucional&amp;amp;subcat=fale_conosco&amp;amp;pag=fale_conosco">Fale Conosco</a>
-         </td>
-        
-</tr>
-        
-<tr>
-         
-<td align="left" bgcolor="#EFEFED" height="18">
-           <a class="linkMenuAzul" href="index.php?cat=institucional&amp;amp;subcat=nossa_historia&amp;amp;pag=nossa_historia">Nossa Hist&amp;oacute;ria</a>
-         </td>
-        
-</tr>
-        
-<tr>
-         
-<td align="left" bgcolor="#EFEFED" height="18">
-           <a class="linkMenuAzul" href="index.php?cat=institucional&amp;amp;subcat=promocoes&amp;amp;pag=promocoes">Promo&amp;ccedil;&amp;otilde;es e Concursos</a>
-         </td>
-        
-</tr>
-      
-</tbody>
-</table>
-
-      
-<table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="1" width="152">
-        
-<tbody>
-<tr>
-          
-<td align="left" background="img/fundo_menu_separador.gif" height="6">
-          </td>
-        
-</tr>
-      
-</tbody>
-</table>
-<!-- ============================================================================================== -->
-      
-<table bgcolor="#C4C4C4" border="0" cellpadding="0" cellspacing="1" width="152">
-        
-<tbody>
-<tr>
-         
-<td align="left" background="img/fundo_menu.gif" height="18">
-<!-- ################################ MENU PRODUTOS E SERVIÇOS #################################### -->
-           <font class="MenuTitVerde">Produtos e Servi&amp;ccedil;os</font>
-         </td>
-        
-</tr>
-<!-- /*
-        <tr>
-         <td height="18" bgcolor="#EFEFED" align="left">
-           <a href="http://cdljoinville.com.br" class="linkMenuVerde" >2ª via do boleto bancário</a>
-         </td>
-        </tr>
-*/ -->
-        
-<tr>
-         
-<td align="left" bgcolor="#EFEFED" height="18">
-           <a class="linkMenuVerde" href="index.php?cat=prod_serv&amp;amp;subcat=biblio_video&amp;amp;pag=biblio_video">Biblioteca / Videoteca</a>
-         </td>
-        
-</tr>
-        
-<tr>
-         
-<td align="left" bgcolor="#EFEFED" height="18">
-           <a class="linkMenuVerde" href="index.php?cat=prod_serv&amp;amp;subcat=camaras&amp;amp;pag=camaras">C&amp;acirc;maras Setoriais</a>
-         </td>
-        
-</tr>
-        
-<tr>
-         
-<td align="left" bgcolor="#EFEFED" height="18">
-           <a class="linkMenuVerde" href="index.php?cat=prod_serv&amp;amp;subcat=centro_treinamentos&amp;amp;pag=centro_treinamentos">Centro de Treinamento</a>
-         </td>
-        
-</tr>
-        
-<tr>
-         
-<td align="left" bgcolor="#EFEFED" height="18">
-           <a class="linkMenuVerde" href="index.php?cat=prod_serv&amp;amp;subcat=cdl_jovem">CDL Jovem</a>
-         </td>
-        
-</tr>
-        
-<tr>
-         
-<td align="left" bgcolor="#EFEFED" height="18">
-           <!-- <a href="http://webmail.cdljoinville.com.br/cgi-bin/openwebmail/openwebmail.pl" target="_blank" class="linkMenuVerde" >CDL Mail</a> -->
-           <a class="linkMenuVerde" href="http://webmail.cdl-sc.org.br/" target="_blank">CDL Mail</a>
-         </td>
-        
-</tr>
-        
-<tr>
-         
-<td align="left" bgcolor="#EFEFED" height="18">
-           <a class="linkMenuVerde" href="index.php?cat=prod_serv&amp;amp;subcat=cdl_talentos&amp;amp;pag=cdl_talentos">CDL Talentos</a>
-         </td>
-        
-</tr>
-        
-<tr>
-         
-<td align="left" bgcolor="#EFEFED" height="18">
-           <a class="linkMenuVerde" href="index.php?cat=prod_serv&amp;amp;subcat=classificados&amp;amp;pag=classificados">Classificados</a>
-         </td>
-        
-</tr>
-        
-<tr>
-         
-<td align="left" bgcolor="#EFEFED" height="18">
-           <a class="linkMenuVerde" href="index.php?cat=prod_serv&amp;amp;subcat=consultorias&amp;amp;pag=consultorias">Consultorias Gratuitas</a>
-         </td>
-        
-</tr>
-        
-<tr>
-         
-<td align="left" bgcolor="#EFEFED" height="18">
-           <a class="linkMenuVerde" href="index.php?cat=prod_serv&amp;amp;subcat=convenios&amp;amp;pag=convenios">Conv&amp;ecirc;nios e Parcerias</a>
-         </td>
-        
-</tr>
-        
-<tr> 
-<td align="left" bgcolor="#EFEFED" height="18">
-           <a class="linkMenuVerde" href="index.php?cat=prod_serv&amp;amp;subcat=indicadores&amp;amp;pag=indicadores">Indicadores Econ&amp;ocirc;micos</a>
-         </td>
-        
-</tr>
-        
-<tr>
-         
-<td align="left" bgcolor="#EFEFED" height="18">
-           <a class="linkMenuVerde" href="index.php?cat=prod_serv&amp;amp;subcat=provedor&amp;amp;pag=provedor">Provedor CDL</a>
-         </td>
-        
-</tr>
-        
-<tr>
-         
-<td align="left" bgcolor="#EFEFED" height="18">
-           <a class="linkMenuVerde" href="index.php?cat=prod_serv&amp;amp;subcat=spc">SPC</a>
-         </td>
-        
-</tr>
-        <!-- <tr>
-         <td height="18" bgcolor="#EFEFED" align="left">
-           <a href="index.php?cat=prod_serv&subcat=cameras&pag=cameras" class="linkMenuVerde" >Câmera</a>
-         </td>
-        </tr> -->
-      
-</tbody>
-</table>
-
-      
-<table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="1" width="152">
-        
-<tbody>
-<tr>
-          
-<td align="left" background="img/fundo_menu_separador.gif" height="6">
-          </td>
-        
-</tr>
-      
-</tbody>
-</table>
-<!-- ============================================================================================== -->
-      
-<table bgcolor="#C4C4C4" border="0" cellpadding="0" cellspacing="1" width="152">
-        
-<tbody>
-<tr>
-         
-<td align="left" background="img/fundo_menu.gif" height="18">
-<!-- ######################################## CONSUMIDOR ########################################## -->
-           <font class="MenuTitVermelho">Consumidor</font>
-         </td>
-        
-</tr>
-        
-<tr>
-         
-<td align="left" bgcolor="#EFEFED" height="18">
-           <a class="linkMenuVermelho" href="index.php?cat=consumidor&amp;amp;subcat=artigos&amp;amp;pag=artigos">Artigos</a>
-         </td>
-        
-</tr>
-        
-<tr>
-         
-<td align="left" bgcolor="#EFEFED" height="18">
-           <a class="linkMenuVermelho" href="index.php?cat=consumidor&amp;amp;subcat=busca_cep&amp;amp;pag=busca_cep">Busca CEP</a>
-         </td>
-        
-</tr>
-        
-<tr>
-         
-<td align="left" bgcolor="#EFEFED" height="18">
-           <a class="linkMenuVermelho" href="index.php?cat=consumidor&amp;amp;subcat=calc_conv">C&amp;aacute;lculos e convers&amp;otilde;es</a>
-         </td>
-        
-</tr>
-<!--
-        <tr>
-         <td height="18" bgcolor="#EFEFED" align="left">
-           <a href="http://cdljoinville.com.br" class="linkMenuVermelho" >CPF na Receita Federal</a>
-         </td>
-        </tr>
--->
-        
-<tr>
-         
-<td align="left" bgcolor="#EFEFED" height="18">
-           <a class="linkMenuVermelho" href="index.php?cat=consumidor&amp;amp;subcat=deacon">Deacon</a>
-         </td>
-        
-</tr>
-        
-<tr>
-         
-<td align="left" bgcolor="#EFEFED" height="18">
-           <a class="linkMenuVermelho" href="index.php?cat=consumidor&amp;amp;subcat=sites_interesse&amp;amp;pag=sites_interesse">Sites de Interesse</a>
-         </td>
-        
-</tr>
-        
-<tr>
-         
-<td align="left" bgcolor="#EFEFED" height="18">
-           <a class="linkMenuVermelho" href="index.php?cat=consumidor&amp;amp;subcat=tempo&amp;amp;pag=tempo">Tempo em Joinville</a>
-         </td>
-        
-</tr>
-        
-<tr>
-         
-<td align="left" bgcolor="#EFEFED" height="18">
-           <a class="linkMenuVermelho" href="index.php?cat=consumidor&amp;amp;subcat=turismo&amp;amp;pag=turismo">Turismo em Joinville</a>
-         </td>
-        
-</tr>
-      
-</tbody>
-</table>
-
-      
-<table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="1" width="152">
-        
-<tbody>
-<tr>
-          
-<td align="left" background="img/fundo_menu_separador.gif" height="6">
-          </td>
-        
-</tr>
-      
-</tbody>
-</table>
-<!-- ============================================================================================== -->
-      
-<table bgcolor="#C4C4C4" border="0" cellpadding="0" cellspacing="1" width="152">
-        
-<tbody>
-<tr>
-         
-<td align="left" background="img/fundo_menu.gif" height="18">
-<!-- ######################################## COMUNICAÇÃO ########################################## -->
-           <font class="MenuTitAmarelo">Comunica&amp;ccedil;&amp;atilde;o</font>
-          </td>
-        
-</tr>
-        
-<tr>
-         
-<td align="left" bgcolor="#EFEFED" height="18">
-           <a class="linkMenuAmarelo" href="index.php?cat=comunicacao&amp;amp;subcat=artigos&amp;amp;pag=artigos">Artigos</a>
-         </td>
-        
-</tr>
-  
-<tr>
-         
-<td align="left" bgcolor="#EFEFED" height="18">
-           <a class="linkMenuAmarelo" href="index.php?cat=comunicacao&amp;amp;subcat=galeria&amp;amp;pag=galeria_fotos">Galeria de Fotos</a>
-         </td>
-        
-</tr>
-        
-<tr>
-         
-<td align="left" bgcolor="#EFEFED" height="18">
-           <a class="linkMenuAmarelo" href="index.php?cat=comunicacao&amp;amp;subcat=coluna_cdl_an&amp;amp;pag=coluna_cdl_an">Coluna CDL ANot&amp;iacute;cia</a>
-         </td>
-        
-</tr>
-        <!--<tr>
-         <td height="18" bgcolor="#EFEFED" align="left">
-           <a href="index.php?cat=comunicacao&subcat=cdlnatv&pag=cdlnatv" class="linkMenuAmarelo" >CDL na TV</a>
-         </td>
-        </tr>-->
-        
-<tr>
-         
-<td align="left" bgcolor="#EFEFED" height="18">
-           <a class="linkMenuAmarelo" href="index.php?cat=comunicacao&amp;amp;subcat=downloads&amp;amp;pag=downloads">Downloads</a>
-         </td>
-        
-</tr>
-        
-<tr>
-         
-<td align="left" bgcolor="#EFEFED" height="18">
-           <a class="linkMenuAmarelo" href="index.php?cat=comunicacao&amp;amp;subcat=imprensa&amp;amp;pag=imprensa">Imprensa</a>
-         </td>
-        
-</tr>
-        
-<tr>
-         
-<td align="left" bgcolor="#EFEFED" height="18">
-           <a class="linkMenuAmarelo" href="index.php?cat=comunicacao&amp;amp;subcat=jornal&amp;amp;pag=jornal">Informativo da CDL</a>
-         </td>
-      
-</tr>
-</tbody>
-</table>
-      
-<table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="1" width="152">
-        
-<tbody>
-<tr>
-          
-<td align="left" background="img/fundo_menu_separador.gif" height="6">
-          </td>
-        
-</tr>
-      
-</tbody>
-</table>
+</form>
+   
+</div>
+   
+<div class="news_letter">
     
-</td>
-<!--    <td colspan="3" valign="top" align="right"><img name="conteudo_r2_c2" src="conteudo_r2_c2.jpg" width="624" height="557" border="0"></td> -->
-<!--    <td colspan="3" valign="top" align="right"><img name="conteudo_r2_c2" src="conteudo_r2_c2.jpg" width="624" height="620" border="0"></td> -->
-    <td align="right" colspan="3" valign="top">
-<p></p>
-<table align="left" border="0" cellpadding="0" cellspacing="0" width="624">
-
-<tbody>
-<tr>
-
-<td width="20">&nbsp;</td>
-<td background="img/backchamada.gif" height="25" width="595"> &nbsp; &nbsp; &nbsp;
-<font class="tituloChamadaCapa">Not&amp;iacute;cias </font></td>
-</tr>
-
-<tr>
-
-<td>&nbsp;</td><td>
-<br>
-<!--/sphider_noindex--> 
-
-<p>Total: 89 not&amp;iacute;cias. Mostrando: <select class="select" name="pagResultados" onchange="window.location.href='index.php?cat=noticias&amp;amp;pag=lista_noticias&amp;amp;p=' + this.value;"><option selected value="1">de 1 &amp;agrave; 8</option>
-<option value="2">de 9 &amp;agrave; 16</option>
-<option value="3">de 17 &amp;agrave; 24</option>
-<option value="4">de 25 &amp;agrave; 32</option>
-<option value="5">de 33 &amp;agrave; 40</option>
-<option value="6">de 41 &amp;agrave; 48</option>
-<option value="7">de 49 &amp;agrave; 56</option>
-<option value="8">de 57 &amp;agrave; 64</option>
-<option value="9">de 65 &amp;agrave; 72</option>
-<option value="10">de 73 &amp;agrave; 80</option>
-<option value="11">de 81 &amp;agrave; 88</option>
-<option value="12">de 89 &amp;agrave; 89</option>
-</select>
-</p>
-
-
-<p>
-<i>30/04/2013</i>
-<br>
-
-<b>S&amp;Aacute;BADO MAIS 04 e 11 Maio</b>
-<br>
-Com a finalidade de oportunizar mais tempo para que as pessoas efetuem suas compras, no s&amp;aacute;bado (dia 04 maio) as lojas do COM&amp;Eacute;RCIO DE RUA ... <nobr>[<a href="index.php?cat=noticias&amp;amp;id_noticia=7596">leia mais</a>]</nobr>
-</p>
-
-
-<p>
-<i>30/04/2013</i>
-<br>
-
-<b>Lan&amp;ccedil;ada a Cartilha da Opera&amp;ccedil;&amp;atilde;o Concorr&amp;ecirc;ncia Leal </b>
-<br>
-Depois de vinte dias entre reuni&otilde;es e discuss&otilde;es, o grupo de representantes do CRCSC, Fecontesc, Sescon Grande Florian&amp;oacute;polis, Sescon/SC, Sescon Blumenau, Telini Advogados e Secretaria ... <nobr>[<a href="index.php?cat=noticias&amp;amp;id_noticia=7595">leia mais</a>]</nobr>
-</p>
-
-
-<p>
-<i>25/04/2013</i>
-<br>
-
-<b>Vagas CDL Talentos</b>
-<br>
-Invista no seu conhecimento e enrique&ccedil;a seu curr&amp;iacute;culo!Participe dos cursos oferecidos pela CDL Joinville e aprimore seus conhecimentos. S&atilde;o diversos cursos relacionados a &amp;aacute;rea de ... <nobr>[<a href="index.php?cat=noticias&amp;amp;id_noticia=7284">leia mais</a>]</nobr>
-</p>
-
-
-<p>
-<i>11/04/2013</i>
-<br>
-
-<b>CDL participa do debate sobre rebaixamento das cal&amp;ccedil;adas</b>
-<br>
-A CDL Joinville, atrav&eacute;s do presidente Carlos Grendene, dos vice-presidentes Jos&eacute; Manoel Ramos e Ivonir Meurer e de lojistas associados, participou da Audi&ecirc;ncia P&amp;uacute;blica que ... <nobr>[<a href="index.php?cat=noticias&amp;amp;id_noticia=7594">leia mais</a>]</nobr>
-</p>
-
-
-<p>
-<i>01/04/2013</i>
-<br>
-
-<b>Cria&amp;ccedil;&amp;atilde;o da Secretaria da Micro e pequena empresa sancionada </b>
-<br>
-A presidenta Dilma Rousseff sancionou sem vetos, no dia 28 de mar&ccedil;o, a lei que criou a Secretaria da Micro e Pequena Empresa. A secretaria ... <nobr>[<a href="index.php?cat=noticias&amp;amp;id_noticia=7593">leia mais</a>]</nobr>
-</p>
-
-
-<p>
-<i>01/04/2013</i>
-<br>
-
-<b>CT completa 9 anos com palestra nesta ter&amp;ccedil;a (2) </b>
-<br>
-Para comemorar o anivers&amp;aacute;rio do Centro de Treinamento, a CDL promove uma grande palestra. Com o tema &ldquo;Gest&atilde;o Financeira e Administrativa&rdquo;, o evento acontece nesta ... <nobr>[<a href="index.php?cat=noticias&amp;amp;id_noticia=7592">leia mais</a>]</nobr>
-</p>
-
-
-<p>
-<i>27/03/2013</i>
-<br>
-
-<b>CDL TALENTOS - Cadastre seu Curr&amp;iacute;culo</b>
-<br>
-Voc&ecirc; que est&amp;aacute; &agrave; procura de uma oportunidade de emprego cadastre o seu curr&amp;iacute;culo em nosso site: &nbsp;www.cdljoinville.com.br/cdltalentos &nbsp;Telefone Contato: (47)3461.2532     ... <nobr>[<a href="index.php?cat=noticias&amp;amp;id_noticia=7575">leia mais</a>]</nobr>
-</p>
-
-
-<p>
-<i>25/03/2013</i>
-<br>
-
-<b>A Pesquisa de Inten&amp;ccedil;&amp;atilde;o de Compras para a P&amp;aacute;scoa 2013</b>
-<br>
-Os catarinenses pretendem gastar um pouco mais nas compras de P&amp;aacute;scoa deste ano, de acordo com a Pesquisa de Inten&ccedil;&atilde;o de Compras feita pela Federa&ccedil;&atilde;o ... <nobr>[<a href="index.php?cat=noticias&amp;amp;id_noticia=7590">leia mais</a>]</nobr>
-</p>
-
-<!--sphider_noindex-->
-</td>
-</tr>
-</tbody>
-</table>
+<div class="esquerda">
+     
+<h1 class="titulo_azul">News Letter</h1>
     
-</td>
-  
-</tr>
-  
-<tr align="center" valign="bottom">
+</div>
     
-<td colspan="3" rowspan="3">
-<div align="center" border="0" class="subtexto">N&deg; de acessos: &amp;lt;5820&amp;gt;<br>
-<br>
-<font color="#666666" face="Arial, Helvetica, sans-serif" size="1">Desenvolvido por TAN - Tecnologia Aplicada a Neg&oacute;cios Ltda- Joinville - SC - Brasil<br>Melhor Visualizado 1024 X 768. Copyright &copy; 2007 <a href="http://www.tan.com.br" target="_blank">TAN</a>.Todos os direitos reservados.</font>
-</div>    
-</td>
+<form class="padrao form_news" method="POST">
+     
+<span>RECEBA AS NOVIDADES DA CDL DE JOINVILLE</span>
+     <input class="placeholder" name="nome" onblur="SetPlaceHolder (this)" onfocus="ClearPlaceHolder (this)" type="text" value="Digite Seu Nome">
+     <input class="placeholder" name="email" onblur="SetPlaceHolder (this)" onfocus="ClearPlaceHolder (this)" type="text" value="Digite Seu E-mail">
+     <input class="botao_preto" type="submit" value="ok">
+    
+</form>
+   
+</div>
+   
+<div class="tv">
+             
+<object class="video" data="http://www.youtube.com/v/sethZgEfS_E?version=3&amp;amp;showinfo=0&amp;amp;iv_load_policy=3" type="application/x-shockwave-flash">
+               <param name="movie" value="http://www.youtube.com/v/sethZgEfS_E?version=3&amp;amp;showinfo=0&amp;amp;iv_load_policy=3">
+               <param name="allowfullscreen" value="true">
+               <param name="wmode" value="transparent">
+             </object>
+   </div>
   
-</tr>
+</div>
+  
+</div>
+  
+    
+<div class="clear"></div>
+  
+<div class="dn">
+   
+<div class="dn_first">
+    
+<div class="cnt">
+     
+     
+<div class="endereco">
+     CDL Joinville<br>
+     
+<span>Todos os direitos reservados</span>
+<br>
+     Rua Ministro Cal&amp;oacute;geras, 867<br>
+     Fone/Fax:  (47) 3461-2500<br>
+     Bairro: Anita Garibaldi<br>
+     Joinville - SC - CEP 89202-008<br>
+     
+</div>
+     
+     
+<div id="google-maps">
+       
+     
+</div>
+     
+     
+<div class="fb-like-box" data-border-color="blue" data-header="true" data-height="240" data-href="https://www.facebook.com/pages/Cdl-Joinville/215953681806780?fref=ts" data-show-faces="false" data-stream="true" data-width="292"></div>
+     
+    
+</div>
+   
+</div>
+   
+    
+<div class="dn_second">
+    
+<div class="cnt">
+     
+<a href="http://www.byll.com.br/" style="float:right" target="_blank" title="Byll Ag&amp;ecirc;ncia Web">
+               <img alt="Byll Ag&amp;ecirc;ncia Web" src="http://www.byll.com.br/libs/imgs/byll_logo_sites.png">
+            </a>
+        
+</div>
+    
+</div>
+   
+  
+</div>
 
-</tbody>
-</table>
+  
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;amp;sensor=false" type="text/javascript"></script>
+  <script type="text/javascript">
+$('#nos_ligamos_form').submit(function(){
+  $('#nos_ligamos_form input[type=submit]').attr('value','enviando...');
+  $.ajax({
+   type: "POST",
+   url: 'contato/nos_ligamos',
+   data: $(this).serialize(),
+   success: function(data){
+    alert(data);
+    if(data == "Mensagem enviada com sucesso."){
+     $('#nos_ligamos_form input[type=submit]').attr('value','enviado');
+     $('#nos_ligamos_form input[type=submit]').attr('disabled',true);
+     $(this).reset();
+    }else{
+    $('#nos_ligamos_form input[type=submit]').val('ok');
+      }
+   }
+ });
+  return false;
+});
 
-</center>
-<!--/sphider_noindex--> 
+$('.form_news').submit(function (){
+$('.form_news input[type=submit]').attr('value','cadastrando...');
+$.ajax({
+   type: "POST",
+   url: 'newsletter/cadastrar',
+   data: $(this).serialize(),
+   success: function(data){
+    alert(data);
+    if(data == "Obrigado por cadastrar seu e-mail em nosso sistema de NewsLatter!"){
+     $('.form_news input[type=submit]').attr('value','cadastrado');
+     $('.form_news input[type=submit]').attr('disabled',true);
+     $(this).reset();
+    }else{
+        $('.form_news input[type=submit]').val('ok');
+      }
+   }
+ });
+return false;
+});
 
+   // &lt;![CDATA[
+      
+   window.onload = function() {
+      
+      // animar();
+    //if (($('.md').height() + $('.up').height() + $('.dn').height()) &lt; $(window).height()) {
+    /* $(&quot;.dn&quot;).css({
+      'position' : 'absolute',
+      'bottom' : '0'
+     });
+    }*/
+    
+    $('#slider').nivoSlider({
+        effect: 'fade', // Specify sets like: 'fold,fade,sliceDown'
+        slices: 15, // For slice animations
+        animSpeed: 500, // Slide transition speed
+        pauseTime: 5000, // How long each slide will show
+        directionNav: false, // Next &amp; Prev navigation
+        controlNav: true, // 1,2,3... navigation
+        controlNavThumbs: false, // Use thumbnails for Control Nav
+        pauseOnHover: false, // Stop animation while hovering
+        manualAdvance: false, // Force manual transitions
+        prevText: 'Prev', // Prev directionNav text
+        nextText: 'Next', // Next directionNav text
+        randomStart: false, // Start on a random slide
+        afterLoad:function(){$('#slider').css('display','block');}
+        });
+        
+        $('.BOX').fancybox();
+  
+  
+ 
+        /*if (($('.md').height() + $('.up').height() + $('.dn').height()) &lt; $(window).height()) {
+          $(&quot;.dn&quot;).css({'position':'absolute','bottom':'0px'});
+        }*/
+       
+       
+   $('.up .menu .submenu').mouseover(function (){
+        $(this).parent('li').children('a').css({
+        'background' : 'rgb(167, 167, 167)'
+        });
+      });
+      $('.up .menu .submenu').mouseleave(function (){
+        $(this).parent('li').children('a').css({
+        'background' : 'none'
+        });
+      });
+       
+   $('.menu li').mouseover(function (){
+        $(this).children('ul').stop();
+        $(this).children('ul').fadeIn('fast');
+        $(this).children('ul').children('li').children('a').fadeIn('fast');
+      });
+   
+   $('.menu li').mouseleave(function (){
+        $(this).children('ul').stop();
+       $(this).children('ul').fadeOut('fast');
+    $(this).children('li').children('a').fadeOut('fast');
+      });
+   
+   
+  }
+      
+   // ----------------------------- GOOGLE MAPS -----------------------------
+      var map;
+      function initialize() {
+        var point = new google.maps.LatLng(-26.307717,-48.848573);
+        var myMapOptions = {
+          zoom: 16,
+          center: point,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+
+        var map = new google.maps.Map(document.getElementById(&quot;google-maps&quot;),myMapOptions);
+        // var image = new google.maps.MarkerImage('libs/imgs/maps.image.png');
+        // var shadow = new google.maps.MarkerImage('libs/imgs/maps.shadow.png');
+
+        var marker = new google.maps.Marker({
+          // icon: image,
+          // shadow: shadow,
+          map: map,
+          position: point
+        });
+      }
+
+      google.maps.event.addDomListener(window, 'load', initialize);
+      
+      
+        function ClearPlaceHolder (input) {
+            if (input.value == input.defaultValue) {
+                input.value = &quot;&quot;;
+                $(input).css('color','#000');
+            }
+        }
+        function SetPlaceHolder (input) {
+          $(input).css('color','#000');
+            if (input.value == &quot;&quot;) {
+                input.value = input.defaultValue;
+                $(input).css('color','#c8c8c8');
+            }
+        }
+        
+        document.login.onsubmit=function(){
+          var form = this;
+          setTimeout(function(){form.reset()},1000);
+        }
+        
+        
+   // ]]&gt;
+  </script>
+ 
 
 </body>
 </html>

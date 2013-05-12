@@ -127,7 +127,7 @@
 <div class="float-left">&#13;
      &#13;
             
-<time datetime="2013-05-01">Qua, 01 de Maio de 2013</time>&#13;
+<time datetime="2013-04-25">Qui, 25 de Abril de 2013</time>&#13;
            &#13;
             &#13;
      
@@ -352,18 +352,75 @@ jQuery(function($) {
    
 </header>&#13;
  &#13;
-      &#13;
       
-<section class="grid-block" id="top-b">
+<section class="grid-block" id="top-a">
 <div class="grid-box width100 grid-h">
-<div class="module style-shadowbox deepest">&#13;
+<div class="module mod-box">&#13;
+ 
+<div class="deepest">&#13;
 &#13;
+    &#13;
+    &#13;
+
+<div class="wk-slideshow wk-slideshow-default" id="slideshow-1-51795b5f01e7f">&#13;
+ 
+<div>&#13;
+  
+<ul class="slides">&#13;
+&#13;
+            
+<li>&#13;
+    
+<article class="wk-content clearfix">
+<img src="http://www.cvj.sc.gov.br/images/2013/noticias/abril/3.jpg"></article>&#13;
    
-<a href="/pesquisadesatisfacao"><img src="/images/site/iso.png" style="display: block; margin-left: auto; margin-right: auto;"></a>  &#13;
+</li>&#13;
+            
+<li>&#13;
+    
+<article class="wk-content clearfix">
+<img src="http://www.cvj.sc.gov.br/images/2013/noticias/abril/4.jpg"></article>&#13;
+   
+</li>&#13;
+            
+<li>&#13;
+    
+<article class="wk-content clearfix">
+<img src="http://www.cvj.sc.gov.br/images/2013/noticias/abril/2.jpg"></article>&#13;
+   
+</li>&#13;
+     
+</ul>&#13;
+  
+<div class="next"></div>
+<div class="prev"></div>  
+<div class="caption"></div>
+<ul class="captions">
+<li></li>
+<li></li>
+<li></li>
+</ul>&#13;
+ 
+</div>&#13;
+ 
+</div>&#13;
+&#13;
+
+<script type="text/javascript">
+ 
+ jQuery(function($){
+  
+  $.widgetkit.lazyloaders.slideshow($("#slideshow-1-51795b5f01e7f"), {"style":"default","autoplay":1,"interval":7500,"width":"auto","height":"auto","duration":500,"index":0,"order":"default","navigation":0,"buttons":1,"slices":20,"animated":"randomFx","caption_animation_duration":500});
+ });
+
+</script>&#13;
+ 
+</div>&#13;
 
 </div>
 </div>
 </section>&#13;
+      &#13;
       &#13;
       
 <div class="grid-block" id="main">&#13;
@@ -386,23 +443,23 @@ jQuery(function($) {
 <ul class="line line-icon">&#13;
  
 <li>
-<a href="/component/content/article/47-noticias/1826-moradores-do-jardim-paraiso-e-do-cubatao-vivem-incerteza-sobre-indenizacoes">Moradores do Jardim Para&amp;iacute;so e do Cubat&amp;atilde;o vivem incerteza sobre indeniza&amp;ccedil;&amp;otilde;es</a>
+<a href="/component/content/article/47-noticias/1821-legislativo-na-entrega-de-ordem-de-servico">Legislativo na entrega de ordem de servi&amp;ccedil;o</a>
 </li>&#13;
  
 <li>
-<a href="/component/content/article/47-noticias/1825-audiencia-publica-sobre-ampliacao-do-aeroporto-">Audi&amp;ecirc;ncia P&amp;uacute;blica sobre amplia&amp;ccedil;&amp;atilde;o do Aeroporto </a>
+<a href="/component/content/article/47-noticias/1819-pl-4813-recebe-apoio-em-audiencia">PL 48/13 recebe apoio em audi&amp;ecirc;ncia</a>
 </li>&#13;
  
 <li>
-<a href="/component/content/article/47-noticias/1824-tupy-e-an-sao-homenageados">Tupy e AN s&amp;atilde;o homenageados</a>
+<a href="/component/content/article/47-noticias/1818-tupy-recebera-homenagem-da-camara">Tupy receber&amp;aacute; homenagem da C&amp;acirc;mara</a>
 </li>&#13;
  
 <li>
-<a href="/component/content/article/47-noticias/1823-consumo-de-drogas-e-discutido-em-participacao-popular">Consumo de drogas &amp;eacute; discutido em Participa&amp;ccedil;&amp;atilde;o Popular</a>
+<a href="/component/content/article/47-noticias/1817-audiencia-publica-sobre-projeto-de-lei-4813">Audi&amp;ecirc;ncia p&amp;uacute;blica do PL 48/13</a>
 </li>&#13;
  
 <li>
-<a href="/component/content/article/47-noticias/1822-politicas-publicas-de-protecao-aos-animais-">Pol&amp;iacute;ticas P&amp;uacute;blicas de prote&amp;ccedil;&amp;atilde;o aos animais </a>
+<a href="/component/content/article/47-noticias/1816-audiencia-publica-do-conselho-da-cidade">Audi&amp;ecirc;ncia P&amp;uacute;blica do Conselho da Cidade</a>
 </li>&#13;
 
 </ul>&#13;
@@ -479,400 +536,6 @@ jQuery(function($) {
  &#13;
     
 <div class="icon email">
-<a href="/component/mailto/?tmpl=component&amp;amp;link=0a257c26bc34d03b162e92d110b46625b7ba702b" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;" title="E-mail"><img alt="E-mail" src="/templates/yoo_balance/images/emailButton.png"></a>
-</div>&#13;
-   &#13;
-    
-<div class="icon print">
-<a href="/index.php?view=article&amp;amp;catid=47:noticias&amp;amp;id=1826:moradores-do-jardim-paraiso-e-do-cubatao-vivem-incerteza-sobre-indenizacoes&amp;amp;tmpl=component&amp;amp;print=1&amp;amp;layout=default&amp;amp;page=" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow" title="Imprimir"><img alt="Imprimir" src="/templates/yoo_balance/images/printButton.png"></a>
-</div>&#13;
-   &#13;
-    
-<div class="icon pdf">
-<a href="/index.php?view=article&amp;amp;catid=47:noticias&amp;amp;id=1826:moradores-do-jardim-paraiso-e-do-cubatao-vivem-incerteza-sobre-indenizacoes&amp;amp;format=pdf" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow" title="PDF"><img alt="PDF" src="/templates/yoo_balance/images/pdf_button.png"></a>
-</div>&#13;
-    &#13;
-    
-<time datetime="2013-05-01" pubdate="pubdate">&#13;
-   
-<span class="day">30</span>&#13;
-   <span class="month">Abril</span>&#13;
-   <span class="year">2013</span>&#13;
-  
-</time>&#13;
-   &#13;
-  
-<h1 class="title">&#13;
-       
-<a href="/component/content/article/47-noticias/1826-moradores-do-jardim-paraiso-e-do-cubatao-vivem-incerteza-sobre-indenizacoes" title="Moradores do Jardim Para&amp;iacute;so e do Cubat&amp;atilde;o vivem incerteza sobre indeniza&amp;ccedil;&amp;otilde;es">Moradores do Jardim Para&amp;iacute;so e do Cubat&amp;atilde;o vivem incerteza sobre indeniza&amp;ccedil;&amp;otilde;es</a>&#13;
-     
-</h1>&#13;
- &#13;
-  &#13;
-  
-<p class="meta">&#13;
- &#13;
-   Escrito por Felipe Faria. Posted in <a href="/component/content/section/8">CVJ</a> - <a href="/component/content/category/47-noticias">Not&amp;iacute;cias</a> &#13;
-  &#13;
-  
-</p>&#13;
-  &#13;
- 
-</header>&#13;
- &#13;
-  &#13;
- 
-<div class="content clearfix">
-<a href="http://www.airfln.com.br/admin/upload/JOI_29AUG09_LOGO.jpg" rel="shadowbox"><img src="http://www.airfln.com.br/admin/upload/JOI_29AUG09_LOGO.jpg" style="margin-right: 10px; float: left;" width="250"></a>&#13;
-
-<p class="dropcap" style="text-align: justify;">Os 110 moradores da regi&amp;atilde;o do Jardim Para&amp;iacute;so e do Cubat&amp;atilde;o que foram &amp;agrave; audi&amp;ecirc;ncia p&amp;uacute;blica realizada nesta noite pelos vereadores das comiss&amp;otilde;es de Urbanismo e de Economia da C&amp;acirc;mara, l&amp;aacute; no sal&amp;atilde;o de festejos da Par&amp;oacute;quia S&amp;atilde;o Domingos S&amp;aacute;vio, no Jardim Para&amp;iacute;so, com o objetivo de discutir a amplia&amp;ccedil;&amp;atilde;o do aeroporto Lauro Carneiro de Loyola, sa&amp;iacute;ram da mesma forma como entraram: cheios de incertezas sobre quando e como ser&amp;atilde;o indenizados para que as m&amp;aacute;quinas possam adentrar a &amp;aacute;rea das futuras obras.</p>&#13;
-
-<h6 style="text-align: justify;">
-<br>Foto de Juliano Dam&amp;aacute;sio, site <a href="http://www.airfln.com.br" target="_blank">AirFLN Aviation Picture</a>
-</h6>&#13;
-
-<div class="faceandtweet">
-<div class="faceandtweet_retweet" style="float:left; width:110px;">
-<a class="twitter-share-button" data-count="horizontal" data-related="camarajoinville" data-text="Moradores do Jardim Para&amp;iacute;so e do Cubat&amp;atilde;o vivem incerteza sobre indeniza&amp;ccedil;&amp;otilde;es:" data-via="camarajoinville" href="http://twitter.com/share?url=http%3A%2F%2Fwww.cvj.sc.gov.br%2Fcomponent%2Fcontent%2Farticle%2F47-noticias%2F1826-moradores-do-jardim-paraiso-e-do-cubatao-vivem-incerteza-sobre-indenizacoes">Tweet</a><script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
-</div>
-<div class="faceandtweet_like" style="float:left; width:110px; height:20px;">
-<iframe allowtransparency="true" frameborder="0" scrolling="no" src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.cvj.sc.gov.br%2Fcomponent%2Fcontent%2Farticle%2F47-noticias%2F1826-moradores-do-jardim-paraiso-e-do-cubatao-vivem-incerteza-sobre-indenizacoes&amp;amp;layout=button_count&amp;amp;width=110&amp;amp;show_faces=false&amp;amp;action=like&amp;amp;colorscheme=light&amp;amp;height=20" style="border:none; overflow:hidden; width:110px; height:20px;"></iframe>
-</div>
-<div style="clear:both;"></div>
-</div>
-<div class="jcomments-links">
-<a class="readmore-link" href="/component/content/article/47-noticias/1826-moradores-do-jardim-paraiso-e-do-cubatao-vivem-incerteza-sobre-indenizacoes" title="Moradores do Jardim Para&amp;iacute;so e do Cubat&amp;atilde;o vivem incerteza sobre indeniza&amp;ccedil;&amp;otilde;es">Leia mais...</a> <a class="comments-link" href="/component/content/article/47-noticias/1826-moradores-do-jardim-paraiso-e-do-cubatao-vivem-incerteza-sobre-indenizacoes#addcomments">Adicionar novo coment&amp;aacute;rio</a> 
-</div>
-
-</div>&#13;
- &#13;
- &#13;
- &#13;
- &#13;
-
-</article>
-</div>
-<div class="grid-box width100">&#13;
-
-<article class="item">&#13;
-&#13;
-  
-<header>&#13;
- &#13;
-    
-<div class="icon email">
-<a href="/component/mailto/?tmpl=component&amp;amp;link=36af68cda3722c7ec19e5b7a49f67175c30a2d47" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;" title="E-mail"><img alt="E-mail" src="/templates/yoo_balance/images/emailButton.png"></a>
-</div>&#13;
-   &#13;
-    
-<div class="icon print">
-<a href="/index.php?view=article&amp;amp;catid=47:noticias&amp;amp;id=1825:audiencia-publica-sobre-ampliacao-do-aeroporto-&amp;amp;tmpl=component&amp;amp;print=1&amp;amp;layout=default&amp;amp;page=" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow" title="Imprimir"><img alt="Imprimir" src="/templates/yoo_balance/images/printButton.png"></a>
-</div>&#13;
-   &#13;
-    
-<div class="icon pdf">
-<a href="/index.php?view=article&amp;amp;catid=47:noticias&amp;amp;id=1825:audiencia-publica-sobre-ampliacao-do-aeroporto-&amp;amp;format=pdf" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow" title="PDF"><img alt="PDF" src="/templates/yoo_balance/images/pdf_button.png"></a>
-</div>&#13;
-    &#13;
-    
-<time datetime="2013-04-26" pubdate="pubdate">&#13;
-   
-<span class="day">26</span>&#13;
-   <span class="month">Abril</span>&#13;
-   <span class="year">2013</span>&#13;
-  
-</time>&#13;
-   &#13;
-  
-<h1 class="title">&#13;
-       
-<a href="/component/content/article/47-noticias/1825-audiencia-publica-sobre-ampliacao-do-aeroporto-" title="Audi&amp;ecirc;ncia P&amp;uacute;blica sobre amplia&amp;ccedil;&amp;atilde;o do Aeroporto">Audi&amp;ecirc;ncia P&amp;uacute;blica sobre amplia&amp;ccedil;&amp;atilde;o do Aeroporto </a>&#13;
-     
-</h1>&#13;
- &#13;
-  &#13;
-  
-<p class="meta">&#13;
- &#13;
-   Escrito por Bruna Alves Bechtold. Posted in <a href="/component/content/section/8">CVJ</a> - <a href="/component/content/category/47-noticias">Not&amp;iacute;cias</a> &#13;
-  &#13;
-  
-</p>&#13;
-  &#13;
- 
-</header>&#13;
- &#13;
-  &#13;
- 
-<div class="content clearfix">
-<p style="text-align: justify;">Na pr&amp;oacute;xima ter&amp;ccedil;a-feira, 30/04, &amp;agrave;s 19h30, haver&amp;aacute; audi&amp;ecirc;ncia p&amp;uacute;blica sobre as obras de amplia&amp;ccedil;&amp;atilde;o do Aeroporto Lauro Carneiro Loyola e desapropria&amp;ccedil;&amp;atilde;o do terreno em seu entorno. Essa audi&amp;ecirc;ncia faz parte da comiss&amp;atilde;o de Economia.<br>
-<span style="line-height: 1.3em;">Foram convidados para a reuni&amp;atilde;o, Superintendente da INFRAERO, Rones Rubens Heidmann; Procurador-geral do Munic&amp;iacute;pio, Luiz Cl&amp;aacute;udio Gubert; Secret&amp;aacute;rio de Integra&amp;ccedil;&amp;atilde;o e Desenvolvimento Econ&amp;ocirc;mico, Jalmei Jos&amp;eacute; Duarte; Diretor-Presidente do IPPUJ, Vladimir Tavares Constante; Secret&amp;aacute;rio de Administra&amp;ccedil;&amp;atilde;o do Munic&amp;iacute;pio, Miguel Angelo Bertolini; Secret&amp;aacute;rio de Infraestrutura Urbana, Romualdo de Fran&amp;ccedil;a J&amp;uacute;nior; Secret&amp;aacute;rio da Habita&amp;ccedil;&amp;atilde;o, F&amp;aacute;bio Dalonso; Diretor- Presidente da FELEJ, Fernando krelling; Presidente da Liga Joinvilense de Futebol, Laudir Zermiani; Associa&amp;ccedil;&amp;atilde;o de Moradores do Canto do Rio; Associa&amp;ccedil;&amp;atilde;o de Moradores do Cubat&amp;atilde;o.</span>
-</p>&#13;
-
-<p style="text-align: justify;">A audi&amp;ecirc;ncia acontece na Par&amp;oacute;quia S&amp;atilde;o Domingos Savio, Rua Plut&amp;atilde;o, 155, Jardim Para&amp;iacute;so.</p>
-<div class="faceandtweet">
-<div class="faceandtweet_retweet" style="float:left; width:110px;">
-<a class="twitter-share-button" data-count="horizontal" data-related="camarajoinville" data-text="Audi&amp;ecirc;ncia P&amp;uacute;blica sobre amplia&amp;ccedil;&amp;atilde;o do Aeroporto :" data-via="camarajoinville" href="http://twitter.com/share?url=http%3A%2F%2Fwww.cvj.sc.gov.br%2Fcomponent%2Fcontent%2Farticle%2F47-noticias%2F1825-audiencia-publica-sobre-ampliacao-do-aeroporto-">Tweet</a><script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
-</div>
-<div class="faceandtweet_like" style="float:left; width:110px; height:20px;">
-<iframe allowtransparency="true" frameborder="0" scrolling="no" src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.cvj.sc.gov.br%2Fcomponent%2Fcontent%2Farticle%2F47-noticias%2F1825-audiencia-publica-sobre-ampliacao-do-aeroporto-&amp;amp;layout=button_count&amp;amp;width=110&amp;amp;show_faces=false&amp;amp;action=like&amp;amp;colorscheme=light&amp;amp;height=20" style="border:none; overflow:hidden; width:110px; height:20px;"></iframe>
-</div>
-<div style="clear:both;"></div>
-</div>
-<div class="jcomments-links"> 
-<a class="comments-link" href="/component/content/article/47-noticias/1825-audiencia-publica-sobre-ampliacao-do-aeroporto-#addcomments">Adicionar novo coment&amp;aacute;rio</a> 
-</div>
-
-</div>&#13;
- &#13;
- &#13;
- &#13;
- &#13;
-
-</article>&#13;
-
-<article class="item">&#13;
-&#13;
-  
-<header>&#13;
- &#13;
-    
-<div class="icon email">
-<a href="/component/mailto/?tmpl=component&amp;amp;link=656cb5c8b97944190ca7a4d8d0627f7de353e577" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;" title="E-mail"><img alt="E-mail" src="/templates/yoo_balance/images/emailButton.png"></a>
-</div>&#13;
-   &#13;
-    
-<div class="icon print">
-<a href="/index.php?view=article&amp;amp;catid=47:noticias&amp;amp;id=1824:tupy-e-an-sao-homenageados&amp;amp;tmpl=component&amp;amp;print=1&amp;amp;layout=default&amp;amp;page=" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow" title="Imprimir"><img alt="Imprimir" src="/templates/yoo_balance/images/printButton.png"></a>
-</div>&#13;
-   &#13;
-    
-<div class="icon pdf">
-<a href="/index.php?view=article&amp;amp;catid=47:noticias&amp;amp;id=1824:tupy-e-an-sao-homenageados&amp;amp;format=pdf" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow" title="PDF"><img alt="PDF" src="/templates/yoo_balance/images/pdf_button.png"></a>
-</div>&#13;
-    &#13;
-    
-<time datetime="2013-04-26" pubdate="pubdate">&#13;
-   
-<span class="day">25</span>&#13;
-   <span class="month">Abril</span>&#13;
-   <span class="year">2013</span>&#13;
-  
-</time>&#13;
-   &#13;
-  
-<h1 class="title">&#13;
-       
-<a href="/component/content/article/47-noticias/1824-tupy-e-an-sao-homenageados" title="Tupy e AN s&amp;atilde;o homenageados">Tupy e AN s&amp;atilde;o homenageados</a>&#13;
-     
-</h1>&#13;
- &#13;
-  &#13;
-  
-<p class="meta">&#13;
- &#13;
-   Escrito por Diretoria de Comunica&amp;ccedil;&amp;atilde;o Social. Posted in <a href="/component/content/section/8">CVJ</a> - <a href="/component/content/category/47-noticias">Not&amp;iacute;cias</a> &#13;
-  &#13;
-  
-</p>&#13;
-  &#13;
- 
-</header>&#13;
- &#13;
-  &#13;
- 
-<div class="content clearfix">
-<div class="box-hint">Esta not&amp;iacute;cia tem uma galeria de imagens. Clique em &amp;quot;Leia mais...&amp;quot; para visualiz&amp;aacute;-la.</div>&#13;
-
-<p class="dropcap" style="text-align: justify;">A C&amp;acirc;mara de Vereadores de Joinville realizou hoje sess&amp;atilde;o especial para homenagear duas das mais tradicionais empresas da cidade, a Tupy, pelos seus 75 anos de funda&amp;ccedil;&amp;atilde;o, e o Jornal A Not&amp;iacute;cia, pelos seus 90 anos, proposi&amp;ccedil;&amp;otilde;es respectivas dos vereadores Jo&amp;atilde;o Carlos Gon&amp;ccedil;alves, presidente da C&amp;acirc;mara, e Odir Nunes da Silva.</p>&#13;
-
-<div class="faceandtweet">
-<div class="faceandtweet_retweet" style="float:left; width:110px;">
-<a class="twitter-share-button" data-count="horizontal" data-related="camarajoinville" data-text="Tupy e AN s&amp;atilde;o homenageados:" data-via="camarajoinville" href="http://twitter.com/share?url=http%3A%2F%2Fwww.cvj.sc.gov.br%2Fcomponent%2Fcontent%2Farticle%2F47-noticias%2F1824-tupy-e-an-sao-homenageados">Tweet</a><script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
-</div>
-<div class="faceandtweet_like" style="float:left; width:110px; height:20px;">
-<iframe allowtransparency="true" frameborder="0" scrolling="no" src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.cvj.sc.gov.br%2Fcomponent%2Fcontent%2Farticle%2F47-noticias%2F1824-tupy-e-an-sao-homenageados&amp;amp;layout=button_count&amp;amp;width=110&amp;amp;show_faces=false&amp;amp;action=like&amp;amp;colorscheme=light&amp;amp;height=20" style="border:none; overflow:hidden; width:110px; height:20px;"></iframe>
-</div>
-<div style="clear:both;"></div>
-</div>
-<div class="jcomments-links">
-<a class="readmore-link" href="/component/content/article/47-noticias/1824-tupy-e-an-sao-homenageados" title="Tupy e AN s&amp;atilde;o homenageados">Leia mais...</a> <a class="comments-link" href="/component/content/article/47-noticias/1824-tupy-e-an-sao-homenageados#comments">Coment&amp;aacute;rios (2)</a> 
-</div>
-
-</div>&#13;
- &#13;
- &#13;
- &#13;
- &#13;
-
-</article>&#13;
-
-<article class="item">&#13;
-&#13;
-  
-<header>&#13;
- &#13;
-    
-<div class="icon email">
-<a href="/component/mailto/?tmpl=component&amp;amp;link=39fc4e6feda55938b906ca2ca22da841b4dc45d5" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;" title="E-mail"><img alt="E-mail" src="/templates/yoo_balance/images/emailButton.png"></a>
-</div>&#13;
-   &#13;
-    
-<div class="icon print">
-<a href="/index.php?view=article&amp;amp;catid=47:noticias&amp;amp;id=1823:consumo-de-drogas-e-discutido-em-participacao-popular&amp;amp;tmpl=component&amp;amp;print=1&amp;amp;layout=default&amp;amp;page=" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow" title="Imprimir"><img alt="Imprimir" src="/templates/yoo_balance/images/printButton.png"></a>
-</div>&#13;
-   &#13;
-    
-<div class="icon pdf">
-<a href="/index.php?view=article&amp;amp;catid=47:noticias&amp;amp;id=1823:consumo-de-drogas-e-discutido-em-participacao-popular&amp;amp;format=pdf" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow" title="PDF"><img alt="PDF" src="/templates/yoo_balance/images/pdf_button.png"></a>
-</div>&#13;
-    &#13;
-    
-<time datetime="2013-04-25" pubdate="pubdate">&#13;
-   
-<span class="day">25</span>&#13;
-   <span class="month">Abril</span>&#13;
-   <span class="year">2013</span>&#13;
-  
-</time>&#13;
-   &#13;
-  
-<h1 class="title">&#13;
-       
-<a href="/component/content/article/47-noticias/1823-consumo-de-drogas-e-discutido-em-participacao-popular" title="Consumo de drogas &amp;eacute; discutido em Participa&amp;ccedil;&amp;atilde;o Popular">Consumo de drogas &amp;eacute; discutido em Participa&amp;ccedil;&amp;atilde;o Popular</a>&#13;
-     
-</h1>&#13;
- &#13;
-  &#13;
-  
-<p class="meta">&#13;
- &#13;
-   Escrito por Bruna Alves Bechtold. Posted in <a href="/component/content/section/8">CVJ</a> - <a href="/component/content/category/47-noticias">Not&amp;iacute;cias</a> &#13;
-  &#13;
-  
-</p>&#13;
-  &#13;
- 
-</header>&#13;
- &#13;
-  &#13;
- 
-<div class="content clearfix">
-<p href="/images/2013/noticias/abril/130425-2.JPG" rel="shadowbox">
-<img src="/images/2013/noticias/abril/130425-2.JPG" style="float: left; margin-right: 10px; width: 250px;">A Comiss&amp;atilde;o de Participa&amp;ccedil;&amp;atilde;o Popular convocou uma reuni&amp;atilde;o extraordin&amp;aacute;ria para tratar da comercializa&amp;ccedil;&amp;atilde;o e consumo de drogas nas casas noturnas de Joinville. Participaram da reuni&amp;atilde;o o delegado Regional Dirceu Silveira, o comandante do 8&amp;ordm; BPM Coronel Eduardo Luiz Valles e empresas de seguran&amp;ccedil;as particulares.</p>&#13;
-
-<p style="text-align: justify;">As festas Raves s&amp;atilde;o consideradas clandestinas, marcadas pela internet e n&amp;atilde;o tem libera&amp;ccedil;&amp;atilde;o de nenhum &amp;oacute;rg&amp;atilde;o. Nas raves, a bebida, o estacionamento e at&amp;eacute; mesmo o valor da entrada &amp;eacute; mais baixo, por isso muitas pessoas procuram esse tipo de festa. Nas casas noturnas legalizadas, existe um rigor por conta do alvar&amp;aacute; de funcionamento.</p>&#13;
-
-<p style="text-align: justify;">Para o delegado Dirceu Silveira, os pais tamb&amp;eacute;m t&amp;ecirc;m que ter responsabilidade com os filhos, &amp;ldquo;Tem que dizer &amp;lsquo;n&amp;atilde;o&amp;rsquo; ao jovem e isso &amp;eacute; papel dos pais. N&amp;oacute;s fazemos nosso papel de fiscalizar e apreender as drogas, mas precisamos que as pessoas denunciem&amp;rdquo;, frisou o delegado.</p>&#13;
-
-<div class="faceandtweet">
-<div class="faceandtweet_retweet" style="float:left; width:110px;">
-<a class="twitter-share-button" data-count="horizontal" data-related="camarajoinville" data-text="Consumo de drogas &amp;eacute; discutido em Participa&amp;ccedil;&amp;atilde;o Popular:" data-via="camarajoinville" href="http://twitter.com/share?url=http%3A%2F%2Fwww.cvj.sc.gov.br%2Fcomponent%2Fcontent%2Farticle%2F47-noticias%2F1823-consumo-de-drogas-e-discutido-em-participacao-popular">Tweet</a><script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
-</div>
-<div class="faceandtweet_like" style="float:left; width:110px; height:20px;">
-<iframe allowtransparency="true" frameborder="0" scrolling="no" src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.cvj.sc.gov.br%2Fcomponent%2Fcontent%2Farticle%2F47-noticias%2F1823-consumo-de-drogas-e-discutido-em-participacao-popular&amp;amp;layout=button_count&amp;amp;width=110&amp;amp;show_faces=false&amp;amp;action=like&amp;amp;colorscheme=light&amp;amp;height=20" style="border:none; overflow:hidden; width:110px; height:20px;"></iframe>
-</div>
-<div style="clear:both;"></div>
-</div>
-<div class="jcomments-links">
-<a class="readmore-link" href="/component/content/article/47-noticias/1823-consumo-de-drogas-e-discutido-em-participacao-popular" title="Consumo de drogas &amp;eacute; discutido em Participa&amp;ccedil;&amp;atilde;o Popular">Leia mais...</a> <a class="comments-link" href="/component/content/article/47-noticias/1823-consumo-de-drogas-e-discutido-em-participacao-popular#addcomments">Adicionar novo coment&amp;aacute;rio</a> 
-</div>
-
-</div>&#13;
- &#13;
- &#13;
- &#13;
- &#13;
-
-</article>&#13;
-
-<article class="item">&#13;
-&#13;
-  
-<header>&#13;
- &#13;
-    
-<div class="icon email">
-<a href="/component/mailto/?tmpl=component&amp;amp;link=15e4efcfab97fcbefb1cb62a3a196de86b294528" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;" title="E-mail"><img alt="E-mail" src="/templates/yoo_balance/images/emailButton.png"></a>
-</div>&#13;
-   &#13;
-    
-<div class="icon print">
-<a href="/index.php?view=article&amp;amp;catid=47:noticias&amp;amp;id=1822:politicas-publicas-de-protecao-aos-animais-&amp;amp;tmpl=component&amp;amp;print=1&amp;amp;layout=default&amp;amp;page=" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow" title="Imprimir"><img alt="Imprimir" src="/templates/yoo_balance/images/printButton.png"></a>
-</div>&#13;
-   &#13;
-    
-<div class="icon pdf">
-<a href="/index.php?view=article&amp;amp;catid=47:noticias&amp;amp;id=1822:politicas-publicas-de-protecao-aos-animais-&amp;amp;format=pdf" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow" title="PDF"><img alt="PDF" src="/templates/yoo_balance/images/pdf_button.png"></a>
-</div>&#13;
-    &#13;
-    
-<time datetime="2013-04-25" pubdate="pubdate">&#13;
-   
-<span class="day">25</span>&#13;
-   <span class="month">Abril</span>&#13;
-   <span class="year">2013</span>&#13;
-  
-</time>&#13;
-   &#13;
-  
-<h1 class="title">&#13;
-       
-<a href="/component/content/article/47-noticias/1822-politicas-publicas-de-protecao-aos-animais-" title="Pol&amp;iacute;ticas P&amp;uacute;blicas de prote&amp;ccedil;&amp;atilde;o aos animais">Pol&amp;iacute;ticas P&amp;uacute;blicas de prote&amp;ccedil;&amp;atilde;o aos animais </a>&#13;
-     
-</h1>&#13;
- &#13;
-  &#13;
-  
-<p class="meta">&#13;
- &#13;
-   Escrito por Bruna Alves Bechtold. Posted in <a href="/component/content/section/8">CVJ</a> - <a href="/component/content/category/47-noticias">Not&amp;iacute;cias</a> &#13;
-  &#13;
-  
-</p>&#13;
-  &#13;
- 
-</header>&#13;
- &#13;
-  &#13;
- 
-<div class="content clearfix">
-<p href="/images/2013/noticias/abril/130425-1.jpg" rel="shadowbox">
-<img src="/images/2013/noticias/abril/130425-1.jpg" style="float: left; margin-right: 10px; width: 250px;"><span style="line-height: 1.3em;">Prote&amp;ccedil;&amp;atilde;o aos animais foi discutida na comiss&amp;atilde;o de Participa&amp;ccedil;&amp;atilde;o popular ontem. Participaram ONGs de prote&amp;ccedil;&amp;atilde;o aos animais e o presidente da Fundema, Aldo Borges. Vereadores e participantes debateram sobre a grande popula&amp;ccedil;&amp;atilde;o de animais abandonados em Joinville.</span>
-</p>&#13;
-
-<p style="text-align: justify;">Para os protetores de animais, o que deveria ser feito &amp;eacute; a castra&amp;ccedil;&amp;atilde;o de 80% dos c&amp;atilde;es e gatos de Joinville. &amp;ldquo;N&amp;atilde;o podemos deixar o cachorro abandonado na rua, mas tamb&amp;eacute;m n&amp;atilde;o posso levar pra casa, temos que ter um centro de zoonoses na cidade&amp;rdquo;, afirmou Ana Rita Hermer, da ONG FRADA.</p>&#13;
-
-<p style="text-align: justify;">O presidente da Fundema, Aldo Borges, comenta que falta muito para ter boas pol&amp;iacute;ticas p&amp;uacute;blicas para proteger os animais. &amp;ldquo;Hoje a Fundema tem o Centro de Bem Estar Animal, que faz a castra&amp;ccedil;&amp;atilde;o de c&amp;atilde;es e gatos, mas n&amp;atilde;o tem lugar para abrigar os animais abandonados. Vamos colocar chip nos animais, por&amp;eacute;m n&amp;atilde;o temos data para isso come&amp;ccedil;ar&amp;rdquo;, salientou.</p>&#13;
-
-<div class="faceandtweet">
-<div class="faceandtweet_retweet" style="float:left; width:110px;">
-<a class="twitter-share-button" data-count="horizontal" data-related="camarajoinville" data-text="Pol&amp;iacute;ticas P&amp;uacute;blicas de prote&amp;ccedil;&amp;atilde;o aos animais :" data-via="camarajoinville" href="http://twitter.com/share?url=http%3A%2F%2Fwww.cvj.sc.gov.br%2Fcomponent%2Fcontent%2Farticle%2F47-noticias%2F1822-politicas-publicas-de-protecao-aos-animais-">Tweet</a><script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
-</div>
-<div class="faceandtweet_like" style="float:left; width:110px; height:20px;">
-<iframe allowtransparency="true" frameborder="0" scrolling="no" src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.cvj.sc.gov.br%2Fcomponent%2Fcontent%2Farticle%2F47-noticias%2F1822-politicas-publicas-de-protecao-aos-animais-&amp;amp;layout=button_count&amp;amp;width=110&amp;amp;show_faces=false&amp;amp;action=like&amp;amp;colorscheme=light&amp;amp;height=20" style="border:none; overflow:hidden; width:110px; height:20px;"></iframe>
-</div>
-<div style="clear:both;"></div>
-</div>
-<div class="jcomments-links">
-<a class="readmore-link" href="/component/content/article/47-noticias/1822-politicas-publicas-de-protecao-aos-animais-" title="Pol&amp;iacute;ticas P&amp;uacute;blicas de prote&amp;ccedil;&amp;atilde;o aos animais">Leia mais...</a> <a class="comments-link" href="/component/content/article/47-noticias/1822-politicas-publicas-de-protecao-aos-animais-#addcomments">Adicionar novo coment&amp;aacute;rio</a> 
-</div>
-
-</div>&#13;
- &#13;
- &#13;
- &#13;
- &#13;
-
-</article>&#13;
-
-<article class="item">&#13;
-&#13;
-  
-<header>&#13;
- &#13;
-    
-<div class="icon email">
 <a href="/component/mailto/?tmpl=component&amp;amp;link=1ec0ff2f1f7bd6b0c93996bc18628e1230fd3208" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;" title="E-mail"><img alt="E-mail" src="/templates/yoo_balance/images/emailButton.png"></a>
 </div>&#13;
    &#13;
@@ -940,7 +603,9 @@ jQuery(function($) {
  &#13;
  &#13;
 
-</article>&#13;
+</article>
+</div>
+<div class="grid-box width100">&#13;
 
 <article class="item">&#13;
 &#13;
@@ -1250,6 +915,394 @@ jQuery(function($) {
  &#13;
  &#13;
 
+</article>&#13;
+
+<article class="item">&#13;
+&#13;
+  
+<header>&#13;
+ &#13;
+    
+<div class="icon email">
+<a href="/component/mailto/?tmpl=component&amp;amp;link=929029ca4afc236f75029b1bcb739ddb15ee7963" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;" title="E-mail"><img alt="E-mail" src="/templates/yoo_balance/images/emailButton.png"></a>
+</div>&#13;
+   &#13;
+    
+<div class="icon print">
+<a href="/index.php?view=article&amp;amp;catid=47:noticias&amp;amp;id=1815:questionada-pesquisa-sobre-preco-da-refeicao&amp;amp;tmpl=component&amp;amp;print=1&amp;amp;layout=default&amp;amp;page=" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow" title="Imprimir"><img alt="Imprimir" src="/templates/yoo_balance/images/printButton.png"></a>
+</div>&#13;
+   &#13;
+    
+<div class="icon pdf">
+<a href="/index.php?view=article&amp;amp;catid=47:noticias&amp;amp;id=1815:questionada-pesquisa-sobre-preco-da-refeicao&amp;amp;format=pdf" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow" title="PDF"><img alt="PDF" src="/templates/yoo_balance/images/pdf_button.png"></a>
+</div>&#13;
+    &#13;
+    
+<time datetime="2013-04-18" pubdate="pubdate">&#13;
+   
+<span class="day">18</span>&#13;
+   <span class="month">Abril</span>&#13;
+   <span class="year">2013</span>&#13;
+  
+</time>&#13;
+   &#13;
+  
+<h1 class="title">&#13;
+       
+<a href="/component/content/article/47-noticias/1815-questionada-pesquisa-sobre-preco-da-refeicao" title="Questionada pesquisa sobre pre&amp;ccedil;o da refei&amp;ccedil;&amp;atilde;o">Questionada pesquisa sobre pre&amp;ccedil;o da refei&amp;ccedil;&amp;atilde;o</a>&#13;
+     
+</h1>&#13;
+ &#13;
+  &#13;
+  
+<p class="meta">&#13;
+ &#13;
+   Escrito por Bruna Alves Bechtold. Posted in <a href="/component/content/section/8">CVJ</a> - <a href="/component/content/category/47-noticias">Not&amp;iacute;cias</a> &#13;
+  &#13;
+  
+</p>&#13;
+  &#13;
+ 
+</header>&#13;
+ &#13;
+  &#13;
+ 
+<div class="content clearfix">
+<p href="/images/2013/noticias/abril/130418-3.JPG" rel="shadowbox">
+<img src="/images/2013/noticias/abril/130418-3.JPG" style="float: left; margin-right: 10px; width: 250px;"> O alto custo da refei&amp;ccedil;&amp;atilde;o em Joinville foi debatido hoje pela Comiss&amp;atilde;o de Participa&amp;ccedil;&amp;atilde;o Popular e Cidadania da C&amp;acirc;mara de Vereadores. A convoca&amp;ccedil;&amp;atilde;o feita pelo presidente da comiss&amp;atilde;o, vereador Maycon Cesar, que confrontou as informa&amp;ccedil;&amp;otilde;es da Associa&amp;ccedil;&amp;atilde;o das Empresas de Refei&amp;ccedil;&amp;atilde;o e Alimenta&amp;ccedil;&amp;atilde;o Conv&amp;ecirc;nio para o Trabalhador (Assert) - respons&amp;aacute;vel pela pesquisa dos pre&amp;ccedil;os &amp;ndash; com dados das principais entidades do ramo de gastronomia da cidade.</p>&#13;
+
+<p style="text-align: justify;">&nbsp;<span style="line-height: 1.3em;">A informa&amp;ccedil;&amp;atilde;o de que a cidade ocupa o terceiro lugar entre as cidades mais caras do Brasil no quesito &amp;ldquo;almo&amp;ccedil;ar fora de casa&amp;rdquo; causou estranheza entre os comerciantes. Conforme a pesquisa, em Joinville gasta-se, em m&amp;eacute;dia, R$ 34,12 em refei&amp;ccedil;&amp;otilde;es. O custo m&amp;eacute;dio de um prato feito seria de R$ 15,68; do buf&amp;ecirc;, R$ 20,36 e do &amp;agrave; la carte, R$ 47,71.&nbsp;</span><span style="line-height: 1.3em;">O levantamento levou em considera&amp;ccedil;&amp;atilde;o o&nbsp;valor m&amp;eacute;dio da refei&amp;ccedil;&amp;atilde;o no hor&amp;aacute;rio do almo&amp;ccedil;o em estabelecimentos que recebem vales, t&amp;iacute;quetes e cart&amp;otilde;es refei&amp;ccedil;&amp;atilde;o e que trabalham com refei&amp;ccedil;&amp;otilde;es do tipo Comercial (prato feito), buffet livre e &amp;agrave; quilo, prato executivo e a la carte. </span>
+</p>&#13;
+
+<div class="faceandtweet">
+<div class="faceandtweet_retweet" style="float:left; width:110px;">
+<a class="twitter-share-button" data-count="horizontal" data-related="camarajoinville" data-text="Questionada pesquisa sobre pre&amp;ccedil;o da refei&amp;ccedil;&amp;atilde;o:" data-via="camarajoinville" href="http://twitter.com/share?url=http%3A%2F%2Fwww.cvj.sc.gov.br%2Fcomponent%2Fcontent%2Farticle%2F47-noticias%2F1815-questionada-pesquisa-sobre-preco-da-refeicao">Tweet</a><script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+</div>
+<div class="faceandtweet_like" style="float:left; width:110px; height:20px;">
+<iframe allowtransparency="true" frameborder="0" scrolling="no" src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.cvj.sc.gov.br%2Fcomponent%2Fcontent%2Farticle%2F47-noticias%2F1815-questionada-pesquisa-sobre-preco-da-refeicao&amp;amp;layout=button_count&amp;amp;width=110&amp;amp;show_faces=false&amp;amp;action=like&amp;amp;colorscheme=light&amp;amp;height=20" style="border:none; overflow:hidden; width:110px; height:20px;"></iframe>
+</div>
+<div style="clear:both;"></div>
+</div>
+<div class="jcomments-links">
+<a class="readmore-link" href="/component/content/article/47-noticias/1815-questionada-pesquisa-sobre-preco-da-refeicao" title="Questionada pesquisa sobre pre&amp;ccedil;o da refei&amp;ccedil;&amp;atilde;o">Leia mais...</a> <a class="comments-link" href="/component/content/article/47-noticias/1815-questionada-pesquisa-sobre-preco-da-refeicao#comments">Coment&amp;aacute;rios (1)</a> 
+</div>
+
+</div>&#13;
+ &#13;
+ &#13;
+ &#13;
+ &#13;
+
+</article>&#13;
+
+<article class="item">&#13;
+&#13;
+  
+<header>&#13;
+ &#13;
+    
+<div class="icon email">
+<a href="/component/mailto/?tmpl=component&amp;amp;link=49df9fa15b81a35c22b53bd151beb5b6061f5a19" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;" title="E-mail"><img alt="E-mail" src="/templates/yoo_balance/images/emailButton.png"></a>
+</div>&#13;
+   &#13;
+    
+<div class="icon print">
+<a href="/index.php?view=article&amp;amp;catid=47:noticias&amp;amp;id=1814:delegados-de-policia-pedem-igualdade-de-tratamento&amp;amp;tmpl=component&amp;amp;print=1&amp;amp;layout=default&amp;amp;page=" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow" title="Imprimir"><img alt="Imprimir" src="/templates/yoo_balance/images/printButton.png"></a>
+</div>&#13;
+   &#13;
+    
+<div class="icon pdf">
+<a href="/index.php?view=article&amp;amp;catid=47:noticias&amp;amp;id=1814:delegados-de-policia-pedem-igualdade-de-tratamento&amp;amp;format=pdf" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow" title="PDF"><img alt="PDF" src="/templates/yoo_balance/images/pdf_button.png"></a>
+</div>&#13;
+    &#13;
+    
+<time datetime="2013-04-18" pubdate="pubdate">&#13;
+   
+<span class="day">18</span>&#13;
+   <span class="month">Abril</span>&#13;
+   <span class="year">2013</span>&#13;
+  
+</time>&#13;
+   &#13;
+  
+<h1 class="title">&#13;
+       
+<a href="/component/content/article/47-noticias/1814-delegados-de-policia-pedem-igualdade-de-tratamento" title="Delegados de Pol&amp;iacute;cia pedem igualdade de tratamento">Delegados de Pol&amp;iacute;cia pedem igualdade de tratamento</a>&#13;
+     
+</h1>&#13;
+ &#13;
+  &#13;
+  
+<p class="meta">&#13;
+ &#13;
+   Escrito por Toninho Neves. Posted in <a href="/component/content/section/8">CVJ</a> - <a href="/component/content/category/47-noticias">Not&amp;iacute;cias</a> &#13;
+  &#13;
+  
+</p>&#13;
+  &#13;
+ 
+</header>&#13;
+ &#13;
+  &#13;
+ 
+<div class="content clearfix">
+<p href="/images/2013/noticias/abril/130418-2.jpg" rel="shadowbox">
+<img src="/images/2013/noticias/abril/130418-2.jpg" style="float: left; margin-right: 10px; width: 250px;"> Um grupo de policiais civis e um federal estiveram na C&amp;acirc;mara de Vereadores de Joinville pedindo paridade de tratamento na quest&amp;atilde;o pol&amp;ecirc;mica que envolve a PEC 37, em discuss&amp;atilde;o no Congresso Nacional que trata do poder de investiga&amp;ccedil;&amp;atilde;o do Minist&amp;eacute;rio P&amp;uacute;blico. Como a C&amp;acirc;mara de Vereadores de Joinville aprovou uma mo&amp;ccedil;&amp;atilde;o em apoio ao Minist&amp;eacute;rio P&amp;uacute;blico, se posicionando contrariamente &amp;agrave; PEC 37, os delegados solicitaram ao presidente da C&amp;acirc;mara, Jo&amp;atilde;o Carlos Gon&amp;ccedil;alves, &nbsp;tamb&amp;eacute;m uma mo&amp;ccedil;&amp;atilde;o, s&amp;oacute; que desta vez em solidariedade &amp;agrave; PEC, na opini&amp;atilde;o dos delegados, chamada de ''PEC da Legalidade.''</p>&#13;
+
+<p style="text-align: justify;">Em correspond&amp;ecirc;ncia entregue ao presidente da C&amp;acirc;mara, os Delegados de Pol&amp;iacute;cia representados tamb&amp;eacute;m pela Adepol -&nbsp;Associa&amp;ccedil;&amp;atilde;o dos Delegados da Policia Civil de Santa Catarina e os delegados da Pol&amp;iacute;cia Federal, disseram estranhar a aprova&amp;ccedil;&amp;atilde;o da mo&amp;ccedil;&amp;atilde;o, sem que a outra parte fosse ouvida, no caso os delegados.</p>&#13;
+
+<div class="faceandtweet">
+<div class="faceandtweet_retweet" style="float:left; width:110px;">
+<a class="twitter-share-button" data-count="horizontal" data-related="camarajoinville" data-text="Delegados de Pol&amp;iacute;cia pedem igualdade de tratamento:" data-via="camarajoinville" href="http://twitter.com/share?url=http%3A%2F%2Fwww.cvj.sc.gov.br%2Fcomponent%2Fcontent%2Farticle%2F47-noticias%2F1814-delegados-de-policia-pedem-igualdade-de-tratamento">Tweet</a><script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+</div>
+<div class="faceandtweet_like" style="float:left; width:110px; height:20px;">
+<iframe allowtransparency="true" frameborder="0" scrolling="no" src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.cvj.sc.gov.br%2Fcomponent%2Fcontent%2Farticle%2F47-noticias%2F1814-delegados-de-policia-pedem-igualdade-de-tratamento&amp;amp;layout=button_count&amp;amp;width=110&amp;amp;show_faces=false&amp;amp;action=like&amp;amp;colorscheme=light&amp;amp;height=20" style="border:none; overflow:hidden; width:110px; height:20px;"></iframe>
+</div>
+<div style="clear:both;"></div>
+</div>
+<div class="jcomments-links">
+<a class="readmore-link" href="/component/content/article/47-noticias/1814-delegados-de-policia-pedem-igualdade-de-tratamento" title="Delegados de Pol&amp;iacute;cia pedem igualdade de tratamento">Leia mais...</a> <a class="comments-link" href="/component/content/article/47-noticias/1814-delegados-de-policia-pedem-igualdade-de-tratamento#addcomments">Adicionar novo coment&amp;aacute;rio</a> 
+</div>
+
+</div>&#13;
+ &#13;
+ &#13;
+ &#13;
+ &#13;
+
+</article>&#13;
+
+<article class="item">&#13;
+&#13;
+  
+<header>&#13;
+ &#13;
+    
+<div class="icon email">
+<a href="/component/mailto/?tmpl=component&amp;amp;link=e7e8994ace743f5ad570219559bb1d20b637fe34" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;" title="E-mail"><img alt="E-mail" src="/templates/yoo_balance/images/emailButton.png"></a>
+</div>&#13;
+   &#13;
+    
+<div class="icon print">
+<a href="/index.php?view=article&amp;amp;catid=47:noticias&amp;amp;id=1813:empreiteira-pagou-com-cheques-sem-fundo&amp;amp;tmpl=component&amp;amp;print=1&amp;amp;layout=default&amp;amp;page=" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow" title="Imprimir"><img alt="Imprimir" src="/templates/yoo_balance/images/printButton.png"></a>
+</div>&#13;
+   &#13;
+    
+<div class="icon pdf">
+<a href="/index.php?view=article&amp;amp;catid=47:noticias&amp;amp;id=1813:empreiteira-pagou-com-cheques-sem-fundo&amp;amp;format=pdf" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow" title="PDF"><img alt="PDF" src="/templates/yoo_balance/images/pdf_button.png"></a>
+</div>&#13;
+    &#13;
+    
+<time datetime="2013-04-18" pubdate="pubdate">&#13;
+   
+<span class="day">18</span>&#13;
+   <span class="month">Abril</span>&#13;
+   <span class="year">2013</span>&#13;
+  
+</time>&#13;
+   &#13;
+  
+<h1 class="title">&#13;
+       
+<a href="/component/content/article/47-noticias/1813-empreiteira-pagou-com-cheques-sem-fundo" title="Empreiteira pagou com cheques sem fundo">Empreiteira pagou com cheques sem fundo</a>&#13;
+     
+</h1>&#13;
+ &#13;
+  &#13;
+  
+<p class="meta">&#13;
+ &#13;
+   Escrito por Toninho Neves. Posted in <a href="/component/content/section/8">CVJ</a> - <a href="/component/content/category/47-noticias">Not&amp;iacute;cias</a> &#13;
+  &#13;
+  
+</p>&#13;
+  &#13;
+ 
+</header>&#13;
+ &#13;
+  &#13;
+ 
+<div class="content clearfix">
+<p href="/images/2013/noticias/abril/130418-1.JPG" rel="shadowbox" style="text-align: justify;">
+<img src="/images/2013/noticias/abril/130418-1.JPG" style="float: left; margin-right: 10px; width: 250px;"> <span style="line-height: 1.3em;">O vereador Manoel Francisco Bento revelou durante a reuni&amp;atilde;o da Comiss&amp;atilde;o de&amp;nbsp;Finan&amp;ccedil;as desta quinta-feira que uma empreiteira contratada pela prefeitura de Joinville para construir 70 casas populares no bairro do Cubat&amp;atilde;o, teria feito o pagamento de seus funcion&amp;aacute;rios com cheques sem fundos. O fato aconteceu h&amp;aacute; aproximadamente 70 dias e os funcion&amp;aacute;rios est&amp;atilde;o passando todo tipo de necessidade, desde a falta de alimenta&amp;ccedil;&amp;atilde;o, o n&amp;atilde;o-pagamento de luz, &amp;aacute;gua, aluguel, etc. revelou o vereador Bento, para quem a responsabilidade solid&amp;aacute;ria no caso cabe tamb&amp;eacute;m &amp;agrave; prefeitura de Joinville.&amp;nbsp; O diretor-executivo da Secretaria de Finan&amp;ccedil;as, Roberto Winter, presente &amp;agrave; reuni&amp;atilde;o, ficou incumbido pela comiss&amp;atilde;o de finan&amp;ccedil;as a buscar uma solu&amp;ccedil;&amp;atilde;o. O Vereador Joaquinzinho chegou a sugerir uma reuni&amp;atilde;o extraordin&amp;aacute;ria da Comiss&amp;atilde;o para deliberar o assunto, por entend&amp;ecirc;-lo urgente.&amp;nbsp;</span><span style="text-align: justify; line-height: 1.3em;">Um futuro encontro com o dono da empreiteira, o Secret&amp;aacute;rio da Habita&amp;ccedil;&amp;atilde;o F&amp;aacute;bio Dalonso, e a Secretaria de Finan&amp;ccedil;as para uma tomada de provid&amp;ecirc;ncias a respeito do caso, ficou de ter uma data marcada junto &amp;agrave; Comiss&amp;atilde;o de Finan&amp;ccedil;as. A reuni&amp;atilde;o foi presidida pelo vereador Patricio Destro.</span>
+</p>
+<div class="faceandtweet">
+<div class="faceandtweet_retweet" style="float:left; width:110px;">
+<a class="twitter-share-button" data-count="horizontal" data-related="camarajoinville" data-text="Empreiteira pagou com cheques sem fundo:" data-via="camarajoinville" href="http://twitter.com/share?url=http%3A%2F%2Fwww.cvj.sc.gov.br%2Fcomponent%2Fcontent%2Farticle%2F47-noticias%2F1813-empreiteira-pagou-com-cheques-sem-fundo">Tweet</a><script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+</div>
+<div class="faceandtweet_like" style="float:left; width:110px; height:20px;">
+<iframe allowtransparency="true" frameborder="0" scrolling="no" src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.cvj.sc.gov.br%2Fcomponent%2Fcontent%2Farticle%2F47-noticias%2F1813-empreiteira-pagou-com-cheques-sem-fundo&amp;amp;layout=button_count&amp;amp;width=110&amp;amp;show_faces=false&amp;amp;action=like&amp;amp;colorscheme=light&amp;amp;height=20" style="border:none; overflow:hidden; width:110px; height:20px;"></iframe>
+</div>
+<div style="clear:both;"></div>
+</div>
+<div class="jcomments-links"> 
+<a class="comments-link" href="/component/content/article/47-noticias/1813-empreiteira-pagou-com-cheques-sem-fundo#addcomments">Adicionar novo coment&amp;aacute;rio</a> 
+</div>
+
+</div>&#13;
+ &#13;
+ &#13;
+ &#13;
+ &#13;
+
+</article>&#13;
+
+<article class="item">&#13;
+&#13;
+  
+<header>&#13;
+ &#13;
+    
+<div class="icon email">
+<a href="/component/mailto/?tmpl=component&amp;amp;link=475716f3610fb090351b912decd85c9354aac793" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;" title="E-mail"><img alt="E-mail" src="/templates/yoo_balance/images/emailButton.png"></a>
+</div>&#13;
+   &#13;
+    
+<div class="icon print">
+<a href="/index.php?view=article&amp;amp;catid=47:noticias&amp;amp;id=1812:regularizacao-fundiaria-ainda-em-pauta&amp;amp;tmpl=component&amp;amp;print=1&amp;amp;layout=default&amp;amp;page=" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow" title="Imprimir"><img alt="Imprimir" src="/templates/yoo_balance/images/printButton.png"></a>
+</div>&#13;
+   &#13;
+    
+<div class="icon pdf">
+<a href="/index.php?view=article&amp;amp;catid=47:noticias&amp;amp;id=1812:regularizacao-fundiaria-ainda-em-pauta&amp;amp;format=pdf" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow" title="PDF"><img alt="PDF" src="/templates/yoo_balance/images/pdf_button.png"></a>
+</div>&#13;
+    &#13;
+    
+<time datetime="2013-04-17" pubdate="pubdate">&#13;
+   
+<span class="day">17</span>&#13;
+   <span class="month">Abril</span>&#13;
+   <span class="year">2013</span>&#13;
+  
+</time>&#13;
+   &#13;
+  
+<h1 class="title">&#13;
+       
+<a href="/component/content/article/47-noticias/1812-regularizacao-fundiaria-ainda-em-pauta" title="Regulariza&amp;ccedil;&amp;atilde;o fundi&amp;aacute;ria ainda em pauta">Regulariza&amp;ccedil;&amp;atilde;o fundi&amp;aacute;ria ainda em pauta</a>&#13;
+     
+</h1>&#13;
+ &#13;
+  &#13;
+  
+<p class="meta">&#13;
+ &#13;
+   Escrito por Felipe Faria. Posted in <a href="/component/content/section/8">CVJ</a> - <a href="/component/content/category/47-noticias">Not&amp;iacute;cias</a> &#13;
+  &#13;
+  
+</p>&#13;
+  &#13;
+ 
+</header>&#13;
+ &#13;
+  &#13;
+ 
+<div class="content clearfix">
+<a href="/images/2013/noticias/abril/130417-1.jpg" rel="shadowbox"><img src="/images/2013/noticias/abril/130417-1.jpg" style="float: left; margin-right: 10px; width: 250px;"></a>&#13;
+
+<p class="dropcap" style="text-align: justify;">Embora n&amp;atilde;o houvesse projeto algum em pauta sobre o tema, os vereadores Manoel Bento, Maur&amp;iacute;cio Peixer e Odir Nunes, da Comiss&amp;atilde;o de Urbanismo, e tamb&amp;eacute;m o vereador Adilson Mariano, reuniram-se nesta tarde com o secret&amp;aacute;rio de Habita&amp;ccedil;&amp;atilde;o, F&amp;aacute;bio Dalonso, para discutir a regulariza&amp;ccedil;&amp;atilde;o fundi&amp;aacute;ria em Joinville. A estimativa da Prefeitura, segundo Dalonso, &amp;eacute; que cerca de 40 mil im&amp;oacute;veis est&amp;atilde;o em situa&amp;ccedil;&amp;atilde;o irregular, o que representa aproximadamente um ter&amp;ccedil;o do total de im&amp;oacute;veis no munic&amp;iacute;pio.</p>&#13;
+
+<h6>Foto de Sabrina Seibel</h6>&#13;
+
+<div class="faceandtweet">
+<div class="faceandtweet_retweet" style="float:left; width:110px;">
+<a class="twitter-share-button" data-count="horizontal" data-related="camarajoinville" data-text="Regulariza&amp;ccedil;&amp;atilde;o fundi&amp;aacute;ria ainda em pauta:" data-via="camarajoinville" href="http://twitter.com/share?url=http%3A%2F%2Fwww.cvj.sc.gov.br%2Fcomponent%2Fcontent%2Farticle%2F47-noticias%2F1812-regularizacao-fundiaria-ainda-em-pauta">Tweet</a><script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+</div>
+<div class="faceandtweet_like" style="float:left; width:110px; height:20px;">
+<iframe allowtransparency="true" frameborder="0" scrolling="no" src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.cvj.sc.gov.br%2Fcomponent%2Fcontent%2Farticle%2F47-noticias%2F1812-regularizacao-fundiaria-ainda-em-pauta&amp;amp;layout=button_count&amp;amp;width=110&amp;amp;show_faces=false&amp;amp;action=like&amp;amp;colorscheme=light&amp;amp;height=20" style="border:none; overflow:hidden; width:110px; height:20px;"></iframe>
+</div>
+<div style="clear:both;"></div>
+</div>
+<div class="jcomments-links">
+<a class="readmore-link" href="/component/content/article/47-noticias/1812-regularizacao-fundiaria-ainda-em-pauta" title="Regulariza&amp;ccedil;&amp;atilde;o fundi&amp;aacute;ria ainda em pauta">Leia mais...</a> <a class="comments-link" href="/component/content/article/47-noticias/1812-regularizacao-fundiaria-ainda-em-pauta#addcomments">Adicionar novo coment&amp;aacute;rio</a> 
+</div>
+
+</div>&#13;
+ &#13;
+ &#13;
+ &#13;
+ &#13;
+
+</article>&#13;
+
+<article class="item">&#13;
+&#13;
+  
+<header>&#13;
+ &#13;
+    
+<div class="icon email">
+<a href="/component/mailto/?tmpl=component&amp;amp;link=81f65cb3889bd84ad5accc9e20dfb5d9ea8fb6b8" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;" title="E-mail"><img alt="E-mail" src="/templates/yoo_balance/images/emailButton.png"></a>
+</div>&#13;
+   &#13;
+    
+<div class="icon print">
+<a href="/index.php?view=article&amp;amp;catid=47:noticias&amp;amp;id=1810:debate-sobre-praia-da-vigorelli&amp;amp;tmpl=component&amp;amp;print=1&amp;amp;layout=default&amp;amp;page=" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow" title="Imprimir"><img alt="Imprimir" src="/templates/yoo_balance/images/printButton.png"></a>
+</div>&#13;
+   &#13;
+    
+<div class="icon pdf">
+<a href="/index.php?view=article&amp;amp;catid=47:noticias&amp;amp;id=1810:debate-sobre-praia-da-vigorelli&amp;amp;format=pdf" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow" title="PDF"><img alt="PDF" src="/templates/yoo_balance/images/pdf_button.png"></a>
+</div>&#13;
+    &#13;
+    
+<time datetime="2013-04-16" pubdate="pubdate">&#13;
+   
+<span class="day">16</span>&#13;
+   <span class="month">Abril</span>&#13;
+   <span class="year">2013</span>&#13;
+  
+</time>&#13;
+   &#13;
+  
+<h1 class="title">&#13;
+       
+<a href="/component/content/article/47-noticias/1810-debate-sobre-praia-da-vigorelli" title="Debate sobre Praia da Vigorelli">Debate sobre Praia da Vigorelli</a>&#13;
+     
+</h1>&#13;
+ &#13;
+  &#13;
+  
+<p class="meta">&#13;
+ &#13;
+   Escrito por Thiago Dias. Posted in <a href="/component/content/section/8">CVJ</a> - <a href="/component/content/category/47-noticias">Not&amp;iacute;cias</a> &#13;
+  &#13;
+  
+</p>&#13;
+  &#13;
+ 
+</header>&#13;
+ &#13;
+  &#13;
+ 
+<div class="content clearfix">
+<a href="/images/2013/noticias/abril/130416-5.jpg" rel="shadowbox"><img src="/images/2013/noticias/abril/130416-5.jpg" style="float: left; margin-right: 10px; width: 250px;"></a>&#13;
+
+<p>Diante da proibi&amp;ccedil;&amp;atilde;o para regularizar os terrenos da Praia da Vigorelli, em Joinville, os Poderes Legislativo e Executivo ir&amp;atilde;o redigir um documento, destinado ao Judici&amp;aacute;rio, sugerindo alternativas para realizar a regulariza&amp;ccedil;&amp;atilde;o daquela &amp;aacute;rea. Este foi o resultado da Audi&amp;ecirc;ncia P&amp;uacute;blica que aconteceu hoje no plen&amp;aacute;rio do Legislativo joinvilense.</p>&#13;
+
+<p>&amp;ldquo;Iremos redigir um documento, n&amp;atilde;o para o afrontamento, mas para dar sugest&amp;otilde;es, assim como foi feito com o Morro do Amaral, a alguns anos atr&amp;aacute;s. Al&amp;eacute;m disso, vamos nos empenhar para verificar a quest&amp;atilde;o da falta de pavimenta&amp;ccedil;&amp;atilde;o pr&amp;oacute;ximo da praia&amp;rdquo;, destaca o presidente da Comiss&amp;atilde;o, vereador Manoel Francisco Bento.</p>&#13;
+
+<h6>Foto de Sabrina Seibel</h6>&#13;
+
+<div class="faceandtweet">
+<div class="faceandtweet_retweet" style="float:left; width:110px;">
+<a class="twitter-share-button" data-count="horizontal" data-related="camarajoinville" data-text="Debate sobre Praia da Vigorelli:" data-via="camarajoinville" href="http://twitter.com/share?url=http%3A%2F%2Fwww.cvj.sc.gov.br%2Fcomponent%2Fcontent%2Farticle%2F47-noticias%2F1810-debate-sobre-praia-da-vigorelli">Tweet</a><script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+</div>
+<div class="faceandtweet_like" style="float:left; width:110px; height:20px;">
+<iframe allowtransparency="true" frameborder="0" scrolling="no" src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.cvj.sc.gov.br%2Fcomponent%2Fcontent%2Farticle%2F47-noticias%2F1810-debate-sobre-praia-da-vigorelli&amp;amp;layout=button_count&amp;amp;width=110&amp;amp;show_faces=false&amp;amp;action=like&amp;amp;colorscheme=light&amp;amp;height=20" style="border:none; overflow:hidden; width:110px; height:20px;"></iframe>
+</div>
+<div style="clear:both;"></div>
+</div>
+<div class="jcomments-links">
+<a class="readmore-link" href="/component/content/article/47-noticias/1810-debate-sobre-praia-da-vigorelli" title="Debate sobre Praia da Vigorelli">Leia mais...</a> <a class="comments-link" href="/component/content/article/47-noticias/1810-debate-sobre-praia-da-vigorelli#addcomments">Adicionar novo coment&amp;aacute;rio</a> 
+</div>
+
+</div>&#13;
+ &#13;
+ &#13;
+ &#13;
+ &#13;
+
 </article>
 </div>
 </div>
@@ -1259,36 +1312,6 @@ jQuery(function($) {
 <h3>Mais Artigos...</h3>
   
 <ul>
-      
-<li>
-    
-<a href="/component/content/article/47-noticias/1815-questionada-pesquisa-sobre-preco-da-refeicao">Questionada pesquisa sobre pre&amp;ccedil;o da refei&amp;ccedil;&amp;atilde;o</a>
-   
-</li>
-      
-<li>
-    
-<a href="/component/content/article/47-noticias/1814-delegados-de-policia-pedem-igualdade-de-tratamento">Delegados de Pol&amp;iacute;cia pedem igualdade de tratamento</a>
-   
-</li>
-      
-<li>
-    
-<a href="/component/content/article/47-noticias/1813-empreiteira-pagou-com-cheques-sem-fundo">Empreiteira pagou com cheques sem fundo</a>
-   
-</li>
-      
-<li>
-    
-<a href="/component/content/article/47-noticias/1812-regularizacao-fundiaria-ainda-em-pauta">Regulariza&amp;ccedil;&amp;atilde;o fundi&amp;aacute;ria ainda em pauta</a>
-   
-</li>
-      
-<li>
-    
-<a href="/component/content/article/47-noticias/1810-debate-sobre-praia-da-vigorelli">Debate sobre Praia da Vigorelli</a>
-   
-</li>
       
 <li>
     
@@ -1349,6 +1372,36 @@ jQuery(function($) {
 <a href="/component/content/article/47-noticias/1795-financas-convidam-corona-para-falar">Finan&amp;ccedil;as convidam Corona para falar</a>
    
 </li>
+      
+<li>
+    
+<a href="/component/content/article/47-noticias/1794-vereadores-na-subprefeitura-sul">Vereadores na Subprefeitura Sul</a>
+   
+</li>
+      
+<li>
+    
+<a href="/component/content/article/47-noticias/1793-comissao-debate-atendimento-do-svo">Comiss&amp;atilde;o debate atendimento do SVO</a>
+   
+</li>
+      
+<li>
+    
+<a href="/component/content/article/47-noticias/1792-rebaixamento-de-calcada-e-polemico">Rebaixamento de cal&amp;ccedil;ada &amp;eacute; pol&amp;ecirc;mico</a>
+   
+</li>
+      
+<li>
+    
+<a href="/component/content/article/47-noticias/1791-presidente-recebe-visita-de-jornalistas">Presidente recebe visita de jornalistas</a>
+   
+</li>
+      
+<li>
+    
+<a href="/component/content/article/47-noticias/1790-moradores-pedem-legalizacao-de-casas">Moradores pedem legaliza&amp;ccedil;&amp;atilde;o de casas</a>
+   
+</li>
      
 </ul>
  
@@ -1356,7 +1409,7 @@ jQuery(function($) {
  
   
 <div class="pagination">
-<strong>1</strong><a class="" href="/index.php?start=10" title="2">2</a><a class="" href="/index.php?start=20" title="3">3</a><a class="" href="/index.php?start=30" title="4">4</a><a class="" href="/index.php?start=40" title="5">5</a><a class="" href="/index.php?start=50" title="6">6</a><a class="" href="/index.php?start=60" title="7">7</a><a class="" href="/index.php?start=70" title="8">8</a><a class="" href="/index.php?start=80" title="9">9</a><a class="" href="/index.php?start=90" title="10">10</a><a class="next" href="/index.php?start=10" title="&amp;raquo;">&amp;raquo;</a><a class="last" href="/index.php?start=1610" title="Fim">Fim</a>
+<strong>1</strong><a class="" href="/index.php?start=10" title="2">2</a><a class="" href="/index.php?start=20" title="3">3</a><a class="" href="/index.php?start=30" title="4">4</a><a class="" href="/index.php?start=40" title="5">5</a><a class="" href="/index.php?start=50" title="6">6</a><a class="" href="/index.php?start=60" title="7">7</a><a class="" href="/index.php?start=70" title="8">8</a><a class="" href="/index.php?start=80" title="9">9</a><a class="" href="/index.php?start=90" title="10">10</a><a class="next" href="/index.php?start=10" title="&amp;raquo;">&amp;raquo;</a><a class="last" href="/index.php?start=1600" title="Fim">Fim</a>
 </div> 
 
 </div>      &#13;
@@ -1444,10 +1497,6 @@ jQuery(function($) {
 <tr>
 <td><a class="mainlevel" href="#" onclick="javascript: window.open('http://www.cvj.sc.gov.br/docs/regimento_interno_cvj.pdf', '', 'toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=780,height=550'); return false">Regimento Interno</a>
 </td>
-</tr>
-
-<tr>
-<td><a class="mainlevel" href="/pesquisadesatisfacao">Pesquisa de Satisfa&amp;ccedil;&amp;atilde;o</a></td>
 </tr>
 
 </tbody>
@@ -1812,7 +1861,7 @@ jQuery(function($) {
     &#13;
   
 <h3 class="module-title">
-<span class="color">Agora,</span> no site</h3>  N&amp;oacute;s temos&nbsp;252 visitantes&nbsp;online&#13;
+<span class="color">Agora,</span> no site</h3>  N&amp;oacute;s temos&nbsp;352 visitantes&nbsp;online&#13;
  </div>&#13;
 
 </div>

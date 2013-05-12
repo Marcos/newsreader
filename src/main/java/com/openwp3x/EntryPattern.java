@@ -17,7 +17,7 @@ public class EntryPattern {
 	
 	private SourceType sourceType = SourceType.HTML;
 	
-	private String charset;
+	private String charset = "UTF-8";
 
 	private String dateTextPattern;
 
@@ -40,6 +40,8 @@ public class EntryPattern {
 	private String urlResource;
 
 	private String titlePrefixPattern;
+	
+	private String titleSufixPattern;
 	
 	private String linkTextPrefixPattern;
 	
@@ -280,5 +282,13 @@ public class EntryPattern {
 
 	public void setLinkTextSufixPattern(String linkTextSufixPattern) {
 		this.linkTextSufixPattern = linkTextSufixPattern;
+	}
+
+	public String getTitleSufixPattern() {
+		return titleSufixPattern;
+	}
+
+	public void setTitleSufixPattern(String titleSufixPattern) {
+		this.titleSufixPattern = titleSufixPattern;
 	}
 }
