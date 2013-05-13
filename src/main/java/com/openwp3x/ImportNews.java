@@ -10,26 +10,39 @@ import java.util.Calendar;
 import java.util.Collection;
 import java.util.Random;
 
+import javax.persistence.EntityManager;
+
 import org.apache.log4j.Logger;
+
+import com.openwp3x.db.DatabaseManager;
+import com.openwp3x.db.EntityManagerUtil;
+import com.openwp3x.jobs.LinkShortener;
+import com.openwp3x.jobs.StatusEntry;
+import com.openwp3x.model.Entry;
 
 public class ImportNews {
 	
 	Logger logger = Logger.getLogger(this.getClass());
 
-	public void importNews(Collection<EntryImpl> entries) {
-		for (EntryImpl entry : entries) {
+	public void importNews(Collection<SourceEntry> entries) {
+		for (SourceEntry entry : entries) {
 			if (isValidEntry(entry) && notExist(entry)) {
-				importEntry(entry);
+				EntityManager entityManager = EntityManagerUtil.getEntityManager();
+				entityManager.getTransaction().begin();
+				
+				importEntry(entry, entityManager);
+				
+				entityManager.getTransaction().commit();
 			}
 		}
 	}
 
-	private boolean isValidEntry(EntryImpl entry) {
+	private boolean isValidEntry(SourceEntry entry) {
 		return entry!=null && entry.getTitle()!=null && !entry.getTitle().trim().equals("")
 				&& entry.getUrl()!=null && !entry.getUrl().trim().equals("");
 	}
 
-	private boolean notExist(EntryImpl entry) {
+	private boolean notExist(SourceEntry entry) {
 		Connection connection = null;
 		PreparedStatement preparedStatement = null;
 		try {
@@ -52,43 +65,27 @@ public class ImportNews {
 		return false;
 	}
 
-	private synchronized void importEntry(EntryImpl entry) {
-		Long nextId = getNextId();
-		Connection connection = null;
-		PreparedStatement preparedStatement = null;
-		try {
-			connection = DatabaseManager.getConnection();
-			preparedStatement = connection.prepareStatement(getInsertQuery());
-			
-			Calendar calendar = Calendar.getInstance();
-			Timestamp timeStampImport = new Timestamp(calendar.getTimeInMillis());
-			
-			Date dateImport = new Date(calendar.getTimeInMillis());
-			preparedStatement.setLong(1, nextId);
-			preparedStatement.setTimestamp(2, timeStampImport);
-			preparedStatement.setString(3, entry.getDate());
-			preparedStatement.setString(4, entry.getFormattedTitle());
-			preparedStatement.setString(5, entry.getUrl());
-			preparedStatement.setString(6, entry.getSource());
-			preparedStatement.setInt(7, StatusEntry.NOT_VERIFIED.ordinal());
-			preparedStatement.setString(8, entry.getFormattedURL());
-			preparedStatement.setDate(9, getDatePublished(entry, dateImport));
-			preparedStatement.setString(10, entry.getSourceLabel());
-			preparedStatement.setLong(11, new Random().nextLong());
-			preparedStatement.setString(12, entry.getFormattedTitle());
-			preparedStatement.setString(13, LinkShortener.converter(nextId));
-			preparedStatement.execute();
-			
-			importTags(nextId, entry.getEntryPattern().getTags());
-		} catch (Exception e) {			
-			logger.error(e, e);
-		} finally {
-			try {
-				preparedStatement.close();
-			} catch (SQLException e) {
-				logger.error(e, e);
-			}
-		}
+	private synchronized void importEntry(SourceEntry sourceEntry, EntityManager entityManager) {
+		Entry entry = new Entry();
+		
+		Calendar calendar = Calendar.getInstance();
+		Timestamp timeStampImport = new Timestamp(calendar.getTimeInMillis());
+		
+		Date dateImport = new Date(calendar.getTimeInMillis());
+		entry.setStatus(StatusEntry.NOT_VERIFIED.ordinal());
+		entry.setDateInsert(timeStampImport);
+		entry.setDateSource(sourceEntry.getDate());
+		entry.setUrlSource(sourceEntry.getUrl());
+		entry.setTitleSource(sourceEntry.getTitle());
+		entry.setSource(sourceEntry.getSource());
+		entry.setTitle(sourceEntry.getFormattedTitle());
+		entry.setLink(sourceEntry.getFormattedURL());
+		entry.setDatePublished(getDatePublished(sourceEntry, dateImport));
+		entry.setSourceLabel(sourceEntry.getSourceLabel());
+		entry.setRandomFactor(new Random().nextLong());
+		
+		entityManager.persist(entry);
+		
 	}
 
 	private void importTags(Long entryId, Collection<Tag> tags) {
@@ -161,7 +158,7 @@ public class ImportNews {
 		return sb.toString();
 	}
 
-	private Date getDatePublished(EntryImpl entry, Date dateImport) {
+	private Date getDatePublished(SourceEntry entry, Date dateImport) {
 		if (entry.getDateAsLong() != null) {
 			return new java.sql.Date(entry.getDateAsLong());
 		}

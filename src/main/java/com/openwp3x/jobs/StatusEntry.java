@@ -1,4 +1,4 @@
-package com.openwp3x;
+package com.openwp3x.jobs;
 
 public enum StatusEntry {
 	NOT_VERIFIED

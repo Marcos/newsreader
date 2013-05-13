@@ -2,6 +2,9 @@ package com.openwp3x;
 
 import org.apache.log4j.Logger;
 
+import com.openwp3x.jobs.LinkShortener;
+import com.openwp3x.jobs.TwitterPublisher;
+
 public class SchedulerJobs extends Thread{
 	
 	static Logger logger = Logger.getLogger(SchedulerJobs.class);

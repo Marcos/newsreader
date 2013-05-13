@@ -12,10 +12,9 @@ import junit.framework.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.openwp3x.EntryImpl;
-import com.openwp3x.EntryPattern;
-import com.openwp3x.EntryPatternFactory;
-import com.openwp3x.EntryReader;
+import com.openwp3x.SourceEntry;
+import com.openwp3x.SourcePattern;
+import com.openwp3x.SourcePatternFactory;
 
 /**
  * @author marcos.ferreira
@@ -26,20 +25,20 @@ public class TestSociescEntries {
     final URL resource = this.getClass().getClassLoader().getResource("sociesc-list.htm");
     final URL link1 = this.getClass().getClassLoader().getResource("sociesc-n1.htm");
     final URL link2 = this.getClass().getClassLoader().getResource("sociesc-n2.htm");
-    EntryPattern entryPattern;
+    SourcePattern entryPattern;
     
     @Before
     public void before() throws MalformedURLException{
-    	entryPattern = EntryPatternFactory.getSociescPattern();
+    	entryPattern = SourcePatternFactory.getSociescPattern();
     }
     
     @Test
     public void testGetLinks() throws Exception {
     	entryPattern.setSourceURL(resource);
-    	EntryReader newsReader = new EntryReader(entryPattern);
-        final Collection<EntryImpl> entries = newsReader.getEntries();
+    	SourceReader newsReader = new SourceReader(entryPattern);
+        final Collection<SourceEntry> entries = newsReader.getEntries();
         System.out.println(entries);
-        final EntryImpl firstEntry = entries.iterator().next();
+        final SourceEntry firstEntry = entries.iterator().next();
         Assert.assertEquals("Abertas inscrições para o processo seletivo dos Mestrados em Engenharia Mecânica e Engenharia de Produção...", firstEntry.getFormattedTitle());
         Assert.assertEquals("12/04/2013", firstEntry.getDate());
         Assert.assertEquals("viewRegistro(13680);return false;", firstEntry.getUrl());

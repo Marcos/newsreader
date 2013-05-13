@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="1.0" xmlns="http://java.sun.com/xml/ns/persistence">
+	<persistence-unit name="default">
+		<provider>org.hibernate.ejb.HibernatePersistence</provider>
+		<class>com.openwp3x.model.Entry</class>
+		<properties>
+			<property name="hibernate.connection.username" value="nuveo"/>
+			<property name="hibernate.connection.password" value="nuveo.me"/>
+			<property name="hibernate.connection.url" value="jdbc:jtds:sqlserver://nuveotest2.cgrysfd1kgsl.sa-east-1.rds.amazonaws.com/nuveo"/>
+			<property name="hibernate.connection.driver_class" value="net.sourceforge.jtds.jdbc.Driver"/>
+			<property name="hibernate.hbm2ddl.auto" value="update"/>
+			<property name="hibernate.show_sql" value="true"/>
+			<property name="hibernate.format_sql" value="true"/>
+
+			<property name="hibernate.c3p0.acquire_increment" value="1"/>
+			<property name="hibernate.c3p0.idle_test_period" value="100"/>
+			<property name="hibernate.c3p0.max_size" value="100"/>
+			<property name="hibernate.c3p0.max_statements" value="0"/>
+			<property name="hibernate.c3p0.min_size" value="10"/>
+			<property name="hibernate.c3p0.timeout" value="100"/>
+		</properties>
+		
+	</persistence-unit>
+</persistence>

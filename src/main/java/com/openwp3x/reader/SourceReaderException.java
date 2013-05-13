@@ -1,5 +1,5 @@
-package com.openwp3x;
+package com.openwp3x.reader;
 
-public class EntryReaderException extends Exception {
+public class SourceReaderException extends Exception {
 
 }

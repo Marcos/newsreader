@@ -13,7 +13,7 @@ import java.util.regex.Pattern;
  * @author marcos.ferreira
  * 
  */
-public class EntryImpl implements Entry {
+public class SourceEntry  {
 
     String title;
 
@@ -21,9 +21,9 @@ public class EntryImpl implements Entry {
 
     String url;
 
-    EntryPattern entryPattern;
+    SourcePattern entryPattern;
 
-    public EntryImpl() {
+    public SourceEntry() {
     	
     }
     
@@ -33,18 +33,13 @@ public class EntryImpl implements Entry {
      * @param date2
      * @param title2
      */
-    public EntryImpl(final String date, final String title, final String url, final EntryPattern entryPattern) {
+    public SourceEntry(final String date, final String title, final String url, final SourcePattern entryPattern) {
         this.date = date;
         this.title = title;
         this.url = url;
         this.entryPattern = entryPattern;
     }
 
-
-	/* (non-Javadoc)
-	 * @see com.openwp3x.Entry#getFormattedTitle()
-	 */
-    @Override
 	public String getFormattedTitle() {
     	String title = this.getTitle();
     	title = treatPrefixPattern(title, this.entryPattern.getTitlePrefixPattern());
@@ -131,10 +126,6 @@ public class EntryImpl implements Entry {
         return this.getEntryPattern().getSource();
     }
 
-    /* (non-Javadoc)
-	 * @see com.openwp3x.Entry#getFormattedURL()
-	 */
-    @Override
 	public String getFormattedURL() {
         String url = this.getUrl();
 
@@ -153,11 +144,11 @@ public class EntryImpl implements Entry {
         return url.trim();
     }
 
-    public EntryPattern getEntryPattern() {
+    public SourcePattern getEntryPattern() {
         return this.entryPattern;
     }
 
-    public void setEntryPattern(final EntryPattern entryPattern) {
+    public void setEntryPattern(final SourcePattern entryPattern) {
         this.entryPattern = entryPattern;
     }
 

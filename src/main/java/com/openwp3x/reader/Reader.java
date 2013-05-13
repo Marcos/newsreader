@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.openwp3x;
+package com.openwp3x.reader;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
@@ -37,6 +37,7 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
+
 
 /**
  * @author marcos.ferreira

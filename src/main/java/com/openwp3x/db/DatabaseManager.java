@@ -1,4 +1,4 @@
-package com.openwp3x;
+package com.openwp3x.db;
 
 import java.io.InputStream;
 import java.sql.Connection;

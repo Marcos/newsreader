@@ -13,10 +13,9 @@ import junit.framework.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.openwp3x.EntryImpl;
-import com.openwp3x.EntryPattern;
-import com.openwp3x.EntryPatternFactory;
-import com.openwp3x.Reader;
+import com.openwp3x.SourceEntry;
+import com.openwp3x.SourcePattern;
+import com.openwp3x.SourcePatternFactory;
 
 /**
  * @author marcos.ferreira
@@ -30,7 +29,7 @@ public class TestReader {
 
     @Before
     public void beforeTest() throws Throwable{
-    	EntryPattern entryPattern = EntryPatternFactory.getUdescPattern();
+    	SourcePattern entryPattern = SourcePatternFactory.getUdescPattern();
     	entryPattern.setSourceURL(resource1);
         this.newsReader = new Reader(resource1, entryPattern.getSource(), entryPattern.getSourceType(), entryPattern.getCharset());
     }
@@ -85,7 +84,7 @@ public class TestReader {
     public void testCleanerStart() {
         final String dirtText = "\n   18/04/13 - Esta semana tem Café & Negócios na Ajorpeme";
         String treatPrefixPattern = "\\.*\\s-\\s";
-        final String cleanedText = new EntryImpl().treatPrefixPattern(dirtText, treatPrefixPattern);
+        final String cleanedText = new SourceEntry().treatPrefixPattern(dirtText, treatPrefixPattern);
         Assert.assertEquals(cleanedText, "Esta semana tem Café & Negócios na Ajorpeme");
     }
 
@@ -112,6 +111,11 @@ public class TestReader {
         matcher = pattern.matcher(dirtText4);
         matcher.find();
         Assert.assertEquals(matcher.group(), "1");
+    }
+    
+    @Test
+    public void testDateFormat() {
+        System.out.println(new SourceEntry().getDateAsLong("17 | ABR | 2013", new Locale("pt", "BR"), "dd | MMM | yyyy"));
     }
     
 }

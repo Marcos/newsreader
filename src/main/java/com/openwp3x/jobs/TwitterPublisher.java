@@ -1,4 +1,4 @@
-package com.openwp3x;
+package com.openwp3x.jobs;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -6,6 +6,9 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 import org.apache.log4j.Logger;
+
+import com.openwp3x.NuveoJob;
+import com.openwp3x.db.DatabaseManager;
 
 import twitter4j.Status;
 import twitter4j.TwitterException;

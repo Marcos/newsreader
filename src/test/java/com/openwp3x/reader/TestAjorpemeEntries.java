@@ -12,10 +12,9 @@ import junit.framework.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.openwp3x.EntryImpl;
-import com.openwp3x.EntryPattern;
-import com.openwp3x.EntryPatternFactory;
-import com.openwp3x.EntryReader;
+import com.openwp3x.SourceEntry;
+import com.openwp3x.SourcePattern;
+import com.openwp3x.SourcePatternFactory;
 
 /**
  * @author marcos.ferreira
@@ -26,20 +25,20 @@ public class TestAjorpemeEntries {
     final URL resource = this.getClass().getClassLoader().getResource("ajorpeme-list.htm");
     final URL link1 = this.getClass().getClassLoader().getResource("ajorpeme-n1.htm");
     final URL link2 = this.getClass().getClassLoader().getResource("ajorpeme-n2.htm");
-    EntryPattern entryPattern;
+    SourcePattern entryPattern;
     
     @Before
     public void before() throws MalformedURLException{
-    	entryPattern = EntryPatternFactory.getAjorpemePattern();
+    	entryPattern = SourcePatternFactory.getAjorpemePattern();
     }
 
     @Test
     public void testGetLinks() throws Exception {
     	entryPattern.setSourceURL(resource);
-    	EntryReader newsReader = new EntryReader(entryPattern);
-        final Collection<EntryImpl> entries = newsReader.getEntries();
+    	SourceReader newsReader = new SourceReader(entryPattern);
+        final Collection<SourceEntry> entries = newsReader.getEntries();
         System.out.println(entries);
-        final EntryImpl firstEntry = entries.iterator().next();
+        final SourceEntry firstEntry = entries.iterator().next();
         Assert.assertEquals("\n   18/04/13 - Esta semana tem Café & Negócios na Ajorpeme", firstEntry.getTitle());
         Assert.assertEquals("18/04/13", firstEntry.getDate());
         Assert.assertEquals("/site/noticias/1803-180413-esta-semana-tem-cafe-a-negocios-na-ajorpeme", firstEntry.getUrl());

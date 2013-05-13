@@ -7,11 +7,13 @@ import java.net.URL;
 import java.util.Collection;
 import java.util.Locale;
 
+import com.openwp3x.reader.SourceType;
+
 /**
  * @author marcos.ferreira
  * 
  */
-public class EntryPattern {
+public class SourcePattern {
 	
 	private URL sourceURL;
 	
