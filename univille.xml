@@ -10,18 +10,18 @@
  
 <meta content="Grupos Internet S.A." name="author">&#13;
    
-<title>Univille - NOT&amp;Iacute;CIAS</title>&#13;
+<title>Univille - 1&ordf; Maratona Fotogr&aacute;fica de Joinville ser&aacute; neste s&aacute;bado</title>&#13;
  &#13;
  &#13;
  
-<script type="text/javascript">
+<script type="text/javascript">
  <!--
  var urlhome = 'http://univille.edu.br/';
  var urlocal = 'http://www.univille.edu.br/';
  var urlimg = 'http://univille.edu.br/templates/source/default/images/';
  var oid = '1018659245';
  var ologin = 'universouniville';
- -->
+ -->
  </script>&#13;
  
 <link href="http://univille.edu.br/templates/source/8/images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">&#13;
@@ -32,8 +32,6 @@
   
 <link href="http://univille.edu.br/templates/source/8/xhtml/css/page.css" rel="stylesheet" type="text/css">&#13;
  
-<link href="/templates/source/default/xhtml/css/lightbox.min.css" media="screen" rel="stylesheet" type="text/css">
-<link href="/templates/source/8/xhtml/css/mediaViewer.min.css" media="screen" rel="stylesheet" type="text/css">
 <link href="/templates/source/8/xhtml/css/pagePrint.min.css" media="print" rel="stylesheet" type="text/css">
 <link href="/include/js/jquery/css/smoothness/jquery-ui-1.9.1.custom.min.css" media="all" rel="stylesheet" type="text/css">&#13;
   
@@ -62,7 +60,7 @@
  ul.sliderCK li { float: left; height: 181px !important; background-position: center center; }
  </style>
 </head>
-<body id="id33793">&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;iso-8859-1&amp;quot;?&amp;gt;&#13;
+<body id="id470084">&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;iso-8859-1&amp;quot;?&amp;gt;&#13;
 &#13;
  <div id="containerDefault">&#13;
    
@@ -73,12 +71,12 @@
 <div class="contentHeader">&#13;
      
 <h1 class="title">
-<span><a class="link" href="http://www.univille.edu.br/" style="position: absolute; cursor: hand;" title="[Univille] Enturma  v3.6.1">[Univille] NOT&amp;Iacute;CIAS :: Enturma v.3.6.1</a></span>
+<span><a class="link" href="http://www.univille.edu.br/" style="position: absolute; cursor: hand;" title="[Univille] Enturma  v3.6.1">[Univille] 1&ordf; Maratona Fotogr&aacute;fica de Joinville ser&aacute; neste s&aacute;bado :: Enturma v.3.6.1</a></span>
 </h1>&#13;
      
 <div id="mainMenu">&#13;
       
-<span>13 de maio de 2013</span>&#13;
+<span>12 de maio de 2013</span>&#13;
       &#13;
 &#13;
 
@@ -552,11 +550,18 @@
  
 <li timeout="5">&#13;
   
-<img src="http://univille.edu.br/community/universouniville/VirtualDisk.html?action=readFile&amp;amp;file=a_banner-site-Bisu_2013.jpg&amp;amp;current=/.banners"></li>&#13;
+<a href="http://www.bisunaweb.blospot.com"><img src="http://univille.edu.br/community/universouniville/VirtualDisk.html?action=readFile&amp;amp;file=a_banner-site-Bisu_2013.jpg&amp;amp;current=/.banners"></a>
+</li>&#13;
  
 <li timeout="5">&#13;
   
-<img src="http://univille.edu.br/community/universouniville/VirtualDisk.html?action=readFile&amp;amp;file=Banner_Portal_vestibular.jpg&amp;amp;current=/.banners"></li>&#13;
+<a href="http://www.univille.br/artenaescola"><img src="http://univille.edu.br/community/universouniville/VirtualDisk.html?action=readFile&amp;amp;file=aaaaa_arte-na-escola.jpg&amp;amp;current=/.banners"></a>
+</li>&#13;
+ 
+<li timeout="5">&#13;
+  
+<a href="http://community.univille.edu.br/proc_seletivo_concursos/index/52380"><img src="http://univille.edu.br/community/universouniville/VirtualDisk.html?action=readFile&amp;amp;file=Banner_Portal_vestibular.jpg&amp;amp;current=/.banners"></a>
+</li>&#13;
  
 <li timeout="5">&#13;
   
@@ -564,11 +569,13 @@
  
 <li timeout="5">&#13;
   
-<img src="http://univille.edu.br/community/universouniville/VirtualDisk.html?action=readFile&amp;amp;file=aaaaa_workshops-expogestao.jpg&amp;amp;current=/.banners"></li>&#13;
+<a href="http://www.expogestao.com.br/2013/workshop.php"><img src="http://univille.edu.br/community/universouniville/VirtualDisk.html?action=readFile&amp;amp;file=aaaaa_workshops-expogestao.jpg&amp;amp;current=/.banners"></a>
+</li>&#13;
  
-<li timeout="10">&#13;
+<li timeout="5">&#13;
   
-<img src="http://univille.edu.br/community/universouniville/VirtualDisk.html?action=readFile&amp;amp;file=Banner_Portal_NilsonBender.jpg&amp;amp;current=/CAPA"></li>&#13;
+<a href="http://facebook.com/MaratonaFotograficaUniville"><img src="http://univille.edu.br/community/universouniville/VirtualDisk.html?action=readFile&amp;amp;file=aaaa_Univille_Maratona_atualizado.jpg&amp;amp;current=/.banners"></a>
+</li>&#13;
 
 </ul>&#13;
 
@@ -590,7 +597,7 @@
 <form action="/access/Login.html" id="loginForm" method="post" name="loginForm">
 <input name="action" type="hidden" value="login">
 <input name="savePassword" type="hidden" value="">
-<input name="redirect" type="hidden" value="http://www.univille.edu.br/noticias/index/33793?all=1">
+<input name="redirect" type="hidden" value="http://www.univille.edu.br/noticias/maratona-fotografica/470084">
 &#13;
 
 <ul id="menuUser">&#13;
@@ -790,6 +797,30 @@
 </div>&#13;
  <!-- TOUR 360: end -->&#13;
 &#13;
+   
+<div id="contextMenu">&#13;
+   
+<ul class="ul">&#13;
+         
+<li class="li">
+<a href="http://www.univille.br/noticias/?all=1" title="Not&amp;iacute;cias">Not&amp;iacute;cias</a>
+</li>&#13;
+        
+<li id="spaceMenu"></li>&#13;
+    
+<li class="li" id="backMenu">
+<a href="http://www.univille.edu.br/noticias" title="voltar">Voltar</a>
+</li>&#13;
+    
+<li id="siteMapMenu">&#13;
+     
+<a href="http://www.univille.br/siteMap">site map</a>&#13;
+    
+</li>&#13;
+   
+</ul>&#13;
+  
+</div>&#13;
  &#13;
    <!-- MENU DE CONTEXTO: begin -->&#13;
   &#13;
@@ -805,36 +836,18 @@
 <div id="columnCenter">&#13;
  &#13;
 &#13;
-   <!-- DESTAQUES: begin -->&#13;
-  &#13;
-&#13;
-
-<div class="titleContent highlightTitle">
-<p>Destaques</p>
-</div>&#13;
-
-<div id="highLight">&#13;
-&#13;
-&#13;
-                               
-</div>&#13;
-&#13;
-&#13;
-  <!-- DESTAQUES: end -->&#13;
-  
-<hr>&#13;
  &#13;
  &#13;
   
-<script type="text/javascript">
- var RecaptchaOptions = {
-     theme : 'clean'
-  };
+<script type="text/javascript">
+ var RecaptchaOptions = {
+     theme : 'clean'
+  };
  </script>&#13;
 
 <div class="pageContentTitle">&#13;
  
-<h2 class="title">NOT&amp;Iacute;CIAS&#13;
+<h2 class="title">1&ordf; Maratona Fotogr&aacute;fica de Joinville ser&aacute; neste s&aacute;bado&#13;
   </h2>&#13;
  
 </div>&#13;
@@ -842,231 +855,58 @@
 <div id="breadCrumbs">
   
 <a class="link" href="http://www.univille.edu.br/" title="home">home</a> &amp;gt;
-            NOT&amp;Iacute;CIAS </div>
+            <a class="link" href="http://www.univille.edu.br/noticias" title="NOT&amp;Iacute;CIAS">NOT&amp;Iacute;CIAS</a> &amp;gt;
+              1&ordf; Maratona Fotogr&aacute;fica de Joinville ser&aacute; neste s&aacute;bado </div>
 &#13;
 &#13;
- &#13;
-<!-- Capa de Notícias -->
-
-
-<script type="text/javascript">
-<!--
-
-function goToNewsDate() {
- month = document.getElementById('selmonth').value;
- year = document.getElementById('selyear').value;
- window.location.href = '?dfrom='+year+'-'+month+'-01';
-}
-
--->
-</script>
-
-<div id="newsCalendar">
+  
+<p class="dateNews">&#13;
+  09.05.2013 14:50 por <span>BRUNO CESAR DA LUZ</span>&#13;
  
-<p class="title">Ver not&amp;iacute;cias em:</p>
-        
- 
-<select class="inputField" id="selmonth" name="selmonth">
-     
-  <option value="01">janeiro</option>
-     
-  <option value="02">fevereiro</option>
-     
-  <option value="03">mar&amp;ccedil;o</option>
-     
-  <option value="04">abril</option>
-     
-  <option selected value="05">maio</option>
-     
-  <option value="06">junho</option>
-     
-  <option value="07">julho</option>
-     
-  <option value="08">agosto</option>
-     
-  <option value="09">setembro</option>
-     
-  <option value="10">outubro</option>
-     
-  <option value="11">novembro</option>
-     
-  <option value="12">dezembro</option>
-  </select>
- <select class="inputField" id="selyear" name="selyear">
-   <option value="2003">2003</option>
-   <option value="2004">2004</option>
-   <option value="2005">2005</option>
-   <option value="2006">2006</option>
-   <option value="2007">2007</option>
-   <option value="2008">2008</option>
-   <option value="2009">2009</option>
-   <option value="2010">2010</option>
-   <option value="2011">2011</option>
-   <option value="2012">2012</option>
-   <option selected value="2013">2013</option>
-   <option value="2014">2014</option>
-  </select>
- <input class="inputButton" name="goToDate" onclick="goToNewsDate();" type="button" value="ok">
- <span style="margin-top:4px;display:block;text-align:right"><a class="link" href="?all=1">Ver todas not&amp;iacute;cias</a></span>
+</p>&#13;
+  
+<div id="pageContent">&#13;
+  
+<p>
+ &nbsp;</p>
 
-</div>
+<p>
+ O curso superior de Fotografia da Univille promove neste s&aacute;dado, dia 11, na pra&ccedil;a Dario Salles, a 1&ordf;Maratona Fotogr&aacute;fica com o tema Olhares para Joinville. O concurso, com participa&ccedil;&atilde;o gratuita e aberta &agrave; popula&ccedil;&atilde;o, fot&oacute;grafos ou n&atilde;o, come&ccedil;a &agrave;s 8h e vai ter duas categorias, a digital e a instagram.</p>
 
+<p>
+ As fotografias ser&atilde;o selecionadas por um j&uacute;ri nomeado pela comiss&atilde;o organizadora, e os crit&eacute;rios de avalia&ccedil;&atilde;o levar&atilde;o em conta o conjunto de fotografias, criatividade, t&eacute;cnica e adequa&ccedil;&atilde;o ao tema.&nbsp; Al&eacute;m da premia&ccedil;&atilde;o, os vencedores ter&atilde;o suas obras divulgadas na p&aacute;gina do Facebook do Curso Superior de Fotografia e nas demais redes sociais. Entre os pr&ecirc;mios est&atilde;o c&acirc;mera fotogr&aacute;fica digital, celular e livros de fotografia.</p>
 
-<div class="news">
- 
-<ul class="ul">
-    
-<li class="li">
-   
-<p class="dateTime">09.05.2013 16:46</p>
-   
-   
-<a href="http://www.univille.edu.br/contentId/470127" title="Cidadania &amp;amp;eacute; estimulada em crian&amp;amp;ccedil;as">Cidadania &eacute; estimulada em crian&ccedil;as</a>
-   
-      
-<br>
-  
-</li>
-    
-<li class="li">
-   
-<p class="dateTime">09.05.2013 16:45</p>
-   
-   
-<a href="http://www.univille.edu.br/contentId/470125" title="Univille promove 22 Workshops na Expogest&amp;amp;atilde;o">Univille promove 22 Workshops na Expogest&atilde;o</a>
-   
-      
-<br>
-  
-</li>
-    
-<li class="li">
-   
-<p class="dateTime">09.05.2013 16:44</p>
-   
-   
-<a href="http://www.univille.edu.br/contentId/470123" title="Gastronomia com design &amp;amp;eacute; estimulada em projeto para empreendedores">Gastronomia com design &eacute; estimulada em projeto para empreendedores</a>
-   
-      
-<br>
-  
-</li>
-    
-<li class="li">
-   
-<p class="dateTime">09.05.2013 14:50</p>
-   
-   
-<a href="http://www.univille.edu.br/contentId/470084" title="1&amp;amp;ordf; Maratona Fotogr&amp;amp;aacute;fica de Joinville ser&amp;amp;aacute; neste s&amp;amp;aacute;bado">1&ordf; Maratona Fotogr&aacute;fica de Joinville ser&aacute; neste s&aacute;bado</a>
-   
-      
-<br>
-  
-</li>
-    
-<li class="li">
-   
-<p class="dateTime">07.05.2013 16:19</p>
-   
-   
-<a href="http://www.univille.edu.br/contentId/469068" title="Artes Visuais promove Encontro">Artes Visuais promove Encontro</a>
-   
-      
-<br>
-  
-</li>
-    
-<li class="li">
-   
-<p class="dateTime">30.04.2013 18:30</p>
-   
-   
-<a href="http://www.univille.edu.br/contentId/465612" title="Maratona de ingl&amp;amp;ecirc;s">Maratona de ingl&ecirc;s</a>
-   
-      
-<br>
-  
-</li>
-    
-<li class="li">
-   
-<p class="dateTime">30.04.2013 18:28</p>
-   
-   
-<a href="http://www.univille.edu.br/contentId/465610" title="Encontro estadual traz reflex&amp;amp;otilde;es sobre ensino da arte">Encontro estadual traz reflex&otilde;es sobre ensino da arte</a>
-   
-      
-<br>
-  
-</li>
-    
-<li class="li">
-   
-<p class="dateTime">30.04.2013 18:23</p>
-   
-   
-<a href="http://www.univille.edu.br/contentId/465608" title="Curso forma agentes do desenvolvimento regional">Curso forma agentes do desenvolvimento regional</a>
-   
-      
-<br>
-  
-</li>
-    
-<li class="li">
-   
-<p class="dateTime">26.04.2013 16:39</p>
-   
-   
-<a href="http://bisunaweb.blogspot.com.br/2013/04/cartilha-conta-historia-dos-rios-de.html" target="_blank" title="Cartilha conta hist&amp;amp;oacute;ria dos rios de Joinville">Cartilha conta hist&oacute;ria dos rios de Joinville</a>
-   
-      
-<br>
-  
-</li>
-    
-<li class="li">
-   
-<p class="dateTime">16.04.2013 17:18</p>
-   
-   
-<a href="http://www.univille.edu.br/contentId/458963" title="Aprovada doa&amp;amp;ccedil;&amp;amp;atilde;o de terreno para constru&amp;amp;ccedil;&amp;amp;atilde;o do Centro de Inova&amp;amp;ccedil;&amp;amp;atilde;o no Inovaparq">Aprovada doa&ccedil;&atilde;o de terreno para constru&ccedil;&atilde;o do Centro de Inova&ccedil;&atilde;o no Inovaparq</a>
-   
-      
-<br>
-  
-</li>
-   
-</ul>
+<p>
+ O objetivo, segundo a professora Karla Pfeiffer, &eacute; incentivar a produ&ccedil;&atilde;o de imagens fotogr&aacute;ficas, aumentar os conhecimentos dos participantes sobre a cidade de Joinville, e despertar o sentido de mem&oacute;ria e preserva&ccedil;&atilde;o do patrim&ocirc;nio e de sua hist&oacute;ria.&nbsp;</p>
 
-  
-<p class="paragraph">Total de 235 not&amp;iacute;cias.
-    Visualizando 1 -
-  10.
- </p>
- 
-<div align="center" style="clear: both;">
-  
-  
-<div id="navigatorbar">
-   
-<table class="navigatortable">
-   
-<tbody>
-<tr>
-<td class="navigatortablearrow first"><a href="/noticias/index/33793?all=1" title="primeira p&amp;aacute;gina"><img align="middle" alt="primeira p&amp;aacute;gina" border="0" onmouseout="this.src='http://univille.edu.br/templates/source/default/images/icons/navigation_first.gif'" onmouseover="this.src='http://univille.edu.br/templates/source/default/images/icons/navigation_first_hover.gif'" src="http://univille.edu.br/templates/source/default/images/icons/navigation_first.gif" title="primeira p&amp;aacute;gina"></a></td> <td class="navigatortablenumbers"><span class="navigatortablechoice">1</span><a class="small" href="/noticias/index/33793?all=1&amp;amp;register=10" title="p&amp;aacute;gina 2">2</a><a class="small" href="/noticias/index/33793?all=1&amp;amp;register=20" title="p&amp;aacute;gina 3">3</a><a class="small" href="/noticias/index/33793?all=1&amp;amp;register=30" title="p&amp;aacute;gina 4">4</a><a class="small" href="/noticias/index/33793?all=1&amp;amp;register=40" title="p&amp;aacute;gina 5">5</a> </td><td class="navigatortablearrow next">&nbsp;<a class="nav" href="/noticias/index/33793?all=1&amp;amp;register=10" title="pr&amp;oacute;xima p&amp;aacute;gina"><img align="middle" alt="pr&amp;oacute;xima p&amp;aacute;gina" border="0" onmouseout="this.src='http://univille.edu.br/templates/source/default/images/icons/navigation_next.gif'" onmouseover="this.src='http://univille.edu.br/templates/source/default/images/icons/navigation_next_hover.gif'" src="http://univille.edu.br/templates/source/default/images/icons/navigation_next.gif" title="pr&amp;oacute;xima p&amp;aacute;gina"></a></td><td class="navigatortablearrow last"><a href="/noticias/index/33793?all=1&amp;amp;register=230" title="&amp;uacute;ltima p&amp;aacute;gina"><img align="middle" alt="&amp;uacute;ltima p&amp;aacute;gina" border="0" onmouseout="this.src='http://univille.edu.br/templates/source/default/images/icons/navigation_last.gif'" onmouseover="this.src='http://univille.edu.br/templates/source/default/images/icons/navigation_last_hover.gif'" src="http://univille.edu.br/templates/source/default/images/icons/navigation_last.gif" title="&amp;uacute;ltima p&amp;aacute;gina"></a>
-    </td>
-   
-</tr>
-   
-</tbody>
-</table>
-  
-</div>
+<p>
+ Pelo regulamento,&nbsp; os participantes dever&atilde;o fotografar oito temas, sendo uma foto por tema retratando as peculiaridades naturais e culturais de Joinville. A largada da 1&ordf; etapa ser&aacute; &agrave;s 9h, com divulga&ccedil;&atilde;o dos quatro primeiros temas a serem fotografados. &Agrave;s 13h, os participantes dever&atilde;o retornar para o local de largada, onde ser&atilde;o divulgados os quatro temas da tarde. A entrega do material deve ser realizada no mesmo local, at&eacute; &agrave;s 17h.</p>
 
+<p>
+ &nbsp;</p>
+
+<p>
  
-</div>
+<strong>O qu&ecirc;:</strong> 1&ordf; Maratona Fotogr&aacute;fica de Joinville</p>
+
+<p>
  
-</div>
+<strong>Quando:</strong> s&aacute;bado, dia 11</p>
+
+<p>
+ 
+<strong>Onde:</strong> pra&ccedil;a Dario Salles</p>
+
+<p>
+ 
+<strong>Quanto:</strong> gratuito</p>
+
+<p>
+ 
+<strong>Mais informa&ccedil;&otilde;es:</strong> 3461 9088</p>&#13;
+ 
+</div>&#13;
+&#13;
 &#13;
 &#13;
 &#13;
@@ -1074,7 +914,9 @@ function goToNewsDate() {
 <div id="pageOptions">&#13;
   
 <a href="#" onclick="window.print(); return false;"><img alt="imprimir" class="image" onclick="window.print(); return false;" src="http://univille.edu.br/templates/source/default/images/icons/pageManager/printer.gif" title="imprimir esta p&amp;aacute;gina"> <span>imprimir</span></a>&#13;
-       <a href="http://www.univille.edu.br/noticias/index.html" title="http://www.univille.edu.br/noticias/index.html"><img alt="link para esta p&amp;aacute;gina" class="image" src="http://univille.edu.br/templates/source/default/images/icons/pageManager/permalink.gif" title="link para esta p&amp;aacute;gina"> <span>link para esta p&amp;aacute;gina</span></a>&#13;
+     <a href="#" onclick="Enturma.showSendPageEmail(event, 'http://www.univille.edu.br/noticias/maratona_fotografica.html'); return false"><img alt="e-mail" class="image" onclick="Enturma.showSendPageEmail(event, 'http://www.univille.edu.br/noticias/maratona_fotografica.html')" src="http://univille.edu.br/templates/source/default/images/icons/pageManager/mail.gif" title="enviar esta p&amp;aacute;gina por e-mail"> <span>enviar por e-mail</span></a>&#13;
+   <a href="http://www.univille.edu.br/noticias/maratona_fotografica.html?pdf=1" target="_blank"><img alt="pdf" class="image" onclick="location.href='http://www.univille.edu.br/noticias/maratona_fotografica.html?pdf=1'" src="http://univille.edu.br/templates/source/default/images/icons/pageManager/pdf.gif" title="salvar esta p&amp;aacute;gina como arquivo pdf"> <span>salvar em pdf</span></a>&#13;
+       <a href="http://www.univille.edu.br/noticias/maratona_fotografica.html" title="http://www.univille.edu.br/noticias/maratona_fotografica.html"><img alt="link para esta p&amp;aacute;gina" class="image" src="http://univille.edu.br/templates/source/default/images/icons/pageManager/permalink.gif" title="link para esta p&amp;aacute;gina"> <span>link para esta p&amp;aacute;gina</span></a>&#13;
    
 </div>&#13;
 &#13;
@@ -1447,8 +1289,6 @@ var idClient = 8;
 <script src="/include/js/ckeditor/ckeditor.js?v=20130222_01" type="text/javascript"></script>
 <script src="/include/js/core.min.js?v=20130222_01" type="text/javascript"></script>
 <script src="/include/js/aMenu.js?v=20130222_01" type="text/javascript"></script>
-<script src="/include/js/lightbox.js?v=20130222_01" type="text/javascript"></script>
-<script src="/include/js/tabpane.js?v=20130222_01" type="text/javascript"></script>
 
 <script type="text/javascript">
   //&lt;![CDATA[
@@ -1464,13 +1304,13 @@ CKEDITOR.replaceByClassEnabled=false
 <script type="text/javascript">
  Enturma.createLayers();
  Behaviour.register(rules);
-</script> <script type="text/javascript">
+</script> <script type="text/javascript">
   </script>&#13;
  &#13;
-    <script type="text/javascript">
+    <script type="text/javascript">
  <!--
  $( 'body' ).attr( 'class', "bgBody" + (Math.floor((Math.random()*10)+1)) );
- -->
+ -->
  </script>&#13;
  <script src="/include/js/slider.js" type="text/javascript"></script>&#13;
  <script type="text/javascript">

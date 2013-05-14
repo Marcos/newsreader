@@ -245,6 +245,7 @@ public class SourcePatternFactory {
 		entryPattern.setTitleXPath("/rss/channel/item[{_counter}]/title");	
 		entryPattern.setDateXPath("/rss/channel/item[{_counter}]/pubDate");
 		entryPattern.setUrlXPath("/rss/channel/item[{_counter}]/link");
+		entryPattern.setTextXPath("/rss/channel/item[{_counter}]/description");
 		entryPattern.setDateTextPattern("\\d{2}\\s\\w{3}\\s\\d{4}");
 		entryPattern.setDateFormat("dd MMM yyyy");
 		entryPattern.setSourceType(SourceType.RSS);

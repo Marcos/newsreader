@@ -1,212 +1,120 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?>
-<?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?>
-<rss version="2.0">
- <channel>
-  <title>Notícias do Dia Online - Joinville Notícias</title>
-  <description>Notícias do Dia Online - Notícias, esportes e cultura da cidade de Joinville e região</description>
-  <link>http://www.ndonline.com.br</link>
-  <category>Notícias</category>
-  <copyright>(c) Notícias do Dia 2010</copyright>
-  <generator>Php RSS2Writer</generator>
-  <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://feeds.feedburner.com/ndjoinville_noticias" rel="self" type="application/rss+xml"/><feedburner:info xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" uri="ndjoinville_noticias"/><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://pubsubhubbub.appspot.com/" rel="hub"/><item>
-   <title>Novo assassinato em Itapoá pode ter relação com o duplo homicídio de sexta-feira</title>
-   <link>http://ndonline.com.br/joinville/noticias/71074-novo-assassinato-em-itapoa-pode-ter-relacao-com-o-duplo-homicidio-de-sexta-feira.html</link>
-   <guid>http://ndonline.com.br/joinville/noticias/71074-novo-assassinato-em-itapoa-pode-ter-relacao-com-o-duplo-homicidio-de-sexta-feira.html</guid>
-   <pubDate>13 May 2013 22:41:00 GMT</pubDate>
-   <author>rosanaritta@noticiasdodia.com.br (Rosana Ritta)</author>
-   <category>Itapoá, Duplo Assassinato, Gregore, Israel</category>
-   <description>&lt;img src='http://www.ndonline.com.br//uploads/global/materias/2013/05/13-05-2013-22-54-17-gregori-homicidio.jpg'&gt;&lt;br&gt;
+<?xml version="1.0" encoding="utf-8" standalone="no"?><rss xmlns:admin="http://webns.net/mvcb/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" version="2.0">
+<channel>
+	<image>
+		<url>http://www.portaljoinville.com.br/v4/media/images/home/logo.png</url>
+		<title>Portal Joinville</title>
+		<link>http://www.portaljoinville.com.br/v4/</link>
+		<width>203</width>
+		<height>94</height>
+	</image>
+	<title>Portal Joinville</title>
+	<link>http://www.portaljoinville.com.br/v4/</link>
+	<description>Notícias de Joinville - De Joinvilense para Joinvilense</description>
+	<dc:language>pt_BR</dc:language>
+	<dc:creator>portaljoinville@portaljoinville.com.br</dc:creator>
+	<dc:rights>Copyright 2013</dc:rights>
+				<item>
+			<title>Arturzinho fala sobre a sua manutenção no time</title>
+			<link>http://www.portaljoinville.com.br/v4/esportes/2013/04/arturzinho-fala-sobre-a-sua-manutencao-no-time</link>
+			<guid>http://www.portaljoinville.com.br/v4/esportes/2013/04/arturzinho-fala-sobre-a-sua-manutencao-no-time</guid>
+			<description><![CDATA[O elenco do Joinville se reapresentou nesta terça-feira e, em dois períodos, trabalhou no Centro de Treinamentos e na quadra de areia da Schultz, no bairro Anita Garibaldi. Entre as atividades, o comandante concedeu entrevista para falar da reunião com a diretoria, pretensões para a Série B, além das declarações…
+<br /><br /> <img src="http://www.portaljoinville.com.br/v4/facecms/conteudo/temp/pj_25783.jpg" />]]></description>
+			<pubDate>Tue, 23 Apr 2013 20:34:53 -0300</pubDate>
+		</item> 
+				<item>
+			<title>Em busca de entrosamento</title>
+			<link>http://www.portaljoinville.com.br/v4/blogs/rdb/2013/04/em-busca-de-entrosamento</link>
+			<guid>http://www.portaljoinville.com.br/v4/blogs/rdb/2013/04/em-busca-de-entrosamento</guid>
+			<description><![CDATA[
 
-&#13;
-&#13;
-Divulga&amp;ccedil;&amp;atilde;o&#13;
-&#13;
-Gregore, um rapaz alegre e feliz, que morreu possivelmente por estar "lo lugar errado, na hora errada"&#13;
-&#13;
-&#13;
-Depois do duplo homic&amp;iacute;dio, com requintes de crueldade, registrado na &amp;uacute;ltima sexta-feira (10), no Balne&amp;aacute;rio Palmeiras, em Itapo&amp;aacute;, um novo assassinato foi registrado pela Pol&amp;iacute;cia Civil, na mesma localidade, nesta segunda-feira.&#13;
-Desta vez, a vitima &amp;eacute; Edlerson Gomes da Silva, o Lelo, 21 anos, morto com pelo menos tr&amp;ecirc;s tiros, na rua 1.760. O corpo foi descoberto por volta das 11h por moradores que passavam pelo local e chamaram a Pol&amp;iacute;cia Militar. Equipes do IGP (Instituto Geral de Per&amp;iacute;cias) e do IML (Instituto M&amp;eacute;dico Legal) estiveram no local. O corpo foi recolhido e trazido para o IML de Joinville.&#13;
-A Pol&amp;iacute;cia Civil investiga se esta morte tem rela&amp;ccedil;&amp;atilde;o com o duplo assassinato registrado na sexta-feira, quando Gregore Vieira de Souza, 19, e Israel Vitorino, 42, foram executados pouco ap&amp;oacute;s as 19h. Gregore, que n&amp;atilde;o tinha antecedentes criminais foi morto com tr&amp;ecirc;s tiros, um na cabe&amp;ccedil;a e dois no bra&amp;ccedil;o, na beira da praia.&#13;
-J&amp;aacute; o amigo dele, que morava na beira da praia na rua 1.860, foi executado dentro de casa, com golpes de faca. Ele teve um punhal cravado no pesco&amp;ccedil;o e ainda pode ter sido torturado. Israel, segundo a pol&amp;iacute;cia, j&amp;aacute; tinha antecedentes criminais e era investigado pelo crime de tr&amp;aacute;fico de drogas. &amp;ldquo;A princ&amp;iacute;pios, os dois crimes est&amp;atilde;o relacionados ao tr&amp;aacute;fico de drogas. A v&amp;iacute;tima desta segunda-feira pode ter participa&amp;ccedil;&amp;atilde;o no duplo homic&amp;iacute;dio de sexta. Estamos investigando, ouvindo testemunhas e fazendo dilig&amp;ecirc;ncias. Em breve, vamos ter novidades&amp;rdquo;, disse o delegado da Pol&amp;iacute;cia Civil em Itapo&amp;aacute;, Gilberto Crepaldi Mondim. Neste ano, nove pessoas j&amp;aacute; foram assassinadas em Itapo&amp;aacute;.&#13;
-Jovem pode te morrido por estar no local errado na hora errada&#13;
-Segundo uma amiga de Gregore, que vivia com a fam&amp;iacute;lia na Vila da Gl&amp;oacute;ria, em S&amp;atilde;o Francisco do Sul, o rapaz teria ido &amp;agrave; casa de Israel, em Itapo&amp;aacute;, no in&amp;iacute;cio da semana, para passar uns dias por l&amp;aacute;. &amp;ldquo;Israel era muito amigo da fam&amp;iacute;lia do Gregore. Eles se davam muito bem. Na segunda-feira, Greg, que sabia arrumar computador, foi at&amp;eacute; a casa do amigo para consertar o computador dele. Ele resolveu ficar por l&amp;aacute; por uns dias. Era para ele voltar na noite de sexta, mas foi quando tudo aconteceu&amp;rdquo;, diz a jovem que n&amp;atilde;o quis ser identificada.&#13;
-Ela e outros amigos criaram um grupo no Facebook para cobrar da pol&amp;iacute;cia uma investiga&amp;ccedil;&amp;atilde;o r&amp;aacute;pida e eficaz sobre a morte do jovem. &amp;ldquo;Ele era uma pessoa boa. O Israel tinha seus problemas (em uma breve refer&amp;ecirc;ncia ao tr&amp;aacute;fico), mas o Greg n&amp;atilde;o tinha nada a ver com isso. Ele morreu porque estava na hora errada com a pessoa errada. Queremos justi&amp;ccedil;a. Que a morte dele seja investigada e que o respons&amp;aacute;vel punido&amp;rdquo;, afirma a garota de 24 anos. Ela nega que os dois tivessem um envolvimento afetivo.&#13;
-O delegado de Itapo&amp;aacute; confirma que o rapaz n&amp;atilde;o tinha antecedentes e provavelmente s&amp;oacute; foi morto por estar na companhia de Israel, que era investigado por tr&amp;aacute;fico.&#13;
-&#13;
-.</description>
-  </item>
-  <item>
-   <title>Mãe que tentou conter filho drogado deve responder por lesão corporal</title>
-   <link>http://ndonline.com.br/joinville/noticias/71072-mae-que-tentou-conter-filho-drogado-deve-responder-por-lesao-corporal.html</link>
-   <guid>http://ndonline.com.br/joinville/noticias/71072-mae-que-tentou-conter-filho-drogado-deve-responder-por-lesao-corporal.html</guid>
-   <pubDate>13 May 2013 22:31:00 GMT</pubDate>
-   <author>rosanaritta@noticiasdodia.com.br (Rosana Ritta)</author>
-   <category>Joinville, Mãe, Agressão, Filho, Drogas</category>
-   <description>
 
-M&amp;atilde;e e filho, moradores da zona Sul de Joinville, que se envolveram em uma agress&amp;atilde;o no fim de semana devem ser autuados por crime de les&amp;atilde;o corporal. A briga ocorreu na madrugada de domingo (12), quando o rapaz de 25 anos chegou na casa dos pais exigindo dinheiro para comprar droga. Agressivo, ele atacou o pai e os irm&amp;atilde;os, e quando partiu para cima da m&amp;atilde;e, de 50 anos, ela tentou se defender com uma faca. O rapaz acabou atingido no bra&amp;ccedil;o e t&amp;oacute;rax. Ele passou por cirurgia e at&amp;eacute; a tarde de ontem ainda se recuperava no Hospital Municipal S&amp;atilde;o Jos&amp;eacute;. O estado de sa&amp;uacute;de dele n&amp;atilde;o &amp;eacute; grave.&#13;
-Ainda bastante abalada pela situa&amp;ccedil;&amp;atilde;o vivida em pleno Dia das M&amp;atilde;es, e sem saber o que fazer para tratar o filho, a fam&amp;iacute;lia de comerciantes vive momentos de apreens&amp;atilde;o. O filho, segundo a m&amp;atilde;e, tinha arrumado um emprego, mas ele gasta muito mais do que ganha com drogas.</description>
-  </item>
-  <item>
-   <title>Joinville se despede de Nilson Bender</title>
-   <link>http://ndonline.com.br/joinville/noticias/71045-joinville-se-despede-de-nilson-bender.html</link>
-   <guid>http://ndonline.com.br/joinville/noticias/71045-joinville-se-despede-de-nilson-bender.html</guid>
-   <pubDate>13 May 2013 19:59:00 GMT</pubDate>
-   <author>claudiof@noticiasdodia.com.br (Cláudio Fernandes)</author>
-   <category>Nilson, Bender, Sepultamento, Despedida</category>
-   <description>&lt;img src='http://www.ndonline.com.br//uploads/global/materias/2013/05/13-05-2013-20-12-11-img-8601-bender-web.jpg'&gt;&lt;br&gt;
+Comai/Felej/JBA realiza neste do domingo (28/4), às 11 horas, em Navegantes, a quarta partida pelo Campeonato Catarinense de Basquete feminino da categoria sub 17. O adversário das joinvilenses será a ASDEN/Navegantes, quando tentará a primeira vitória na competição. No sábado (20/4), em São Bento do Sul, a equipe de Joinville…
+<br /><br /> <img src="http://www.portaljoinville.com.br/v4/facecms/conteudo/temp/pj_25782.jpg" />]]></description>
+			<pubDate>Tue, 23 Apr 2013 18:21:58 -0300</pubDate>
+		</item> 
+				<item>
+			<title>Novas vagas de emprego</title>
+			<link>http://www.portaljoinville.com.br/v4/noticias/2013/04/novas-vagas-de-emprego</link>
+			<guid>http://www.portaljoinville.com.br/v4/noticias/2013/04/novas-vagas-de-emprego</guid>
+			<description><![CDATA[
 
-&#13;
-Rog&amp;eacute;rio Souza Jr.&#13;
-&#13;
-Amigos, familiares e conhecidos prestaram as &amp;uacute;ltimas homenagens ao ex-prefeito&#13;
-&#13;
-&#13;
-Familiares, amigos, colegas, pol&amp;iacute;ticos e empres&amp;aacute;rios deram nesta segunda-feira o &amp;uacute;ltimo adeus ao ex-prefeito Nilson Bender, falecido na noite de domingo por complica&amp;ccedil;&amp;otilde;es de sa&amp;uacute;de. A sala 2 da capela Borba Gato, no Cemit&amp;eacute;rio Municipal, ficou pequena para tantas homenagens. Na sala e pelos corredores da capela, muitas coroas de flores e diversas mensagens demonstravam o carinho de pessoas, empresas e entidades pelo pol&amp;iacute;tico de 85 anos, reconhecido pela simplicidade e atua&amp;ccedil;&amp;atilde;o pol&amp;iacute;tica.&#13;
-O pastor Germanio Bender, da Igreja Evang&amp;eacute;lica de Confiss&amp;atilde;o Luterana no Brasil, onde o ex-prefeito congregava, ministrou a cerim&amp;ocirc;nia de despedida, marcada por c&amp;acirc;nticos, leituras b&amp;iacute;blicas e ora&amp;ccedil;&amp;otilde;es. Lideran&amp;ccedil;as pol&amp;iacute;ticas, como o prefeito Udo D&amp;ouml;hler e o senador Paulo Bauer discursaram no cerimonial, destacando as experi&amp;ecirc;ncias e os valores de vida de Bender. Ap&amp;oacute;s a ministra&amp;ccedil;&amp;atilde;o, por volta das 16h30, o cortejo partiu da capela para o local da sepultura, pr&amp;oacute;ximo a entrada principal do cemit&amp;eacute;rio.&#13;
-Depois de um &amp;uacute;ltimo momento de reflex&amp;atilde;o com as palavras do pastor, o caix&amp;atilde;o come&amp;ccedil;ou a ser foi lacrado. Em clima de muita como&amp;ccedil;&amp;atilde;o, os integrantes da fam&amp;iacute;lia Bender, entre eles a esposa Elizabeth, os tr&amp;ecirc;s filhos e as quatro irm&amp;atilde;s, lan&amp;ccedil;aram flores sobre a sepultura, numa simb&amp;oacute;lica homenagem entremeada por choro e sil&amp;ecirc;ncio e contrastada pela beleza das cores e o nublado dos c&amp;eacute;us. Num derradeiro gesto de despedida, o sepultamento foi encerrado sob uma forte salva de palmas.</description>
-  </item>
-  <item>
-   <title>Motorista invade concessionária em Jaraguá do Sul </title>
-   <link>http://ndonline.com.br/joinville/noticias/71013-motorista-invade-concessionaria-em-jaragua-do-sul.html</link>
-   <guid>http://ndonline.com.br/joinville/noticias/71013-motorista-invade-concessionaria-em-jaragua-do-sul.html</guid>
-   <pubDate>13 May 2013 18:26:00 GMT</pubDate>
-   <author>claudioc.ndonline@noticiasdodia.com.br (Cláudio Costa)</author>
-   <category>Jaraguá do Sul, Acidente, </category>
-   <description>&lt;img src='http://www.ndonline.com.br//uploads/global/materias/2013/05/13-05-2013-18-29-07-acidente-gabivel-2-.jpg'&gt;&lt;br&gt;
 
-&#13;
-Divulga&amp;ccedil;&amp;atilde;o/ Jonathan Pellense/ND&#13;
-&#13;
-Parte frontal da loja ficou totalmetne destru&amp;iacute;da ap&amp;oacute;s o acidente&#13;
-&#13;
-Ap&amp;oacute;s perder o controle do ve&amp;iacute;culo, um motorista invadiu uma concession&amp;aacute;ria de ve&amp;iacute;culos em Jaragu&amp;aacute; do Sul. O acidente aconteceu no in&amp;iacute;cio da noite de domingo (13), na rua Prefeitura Waldemar Grubba, no bairro Vila Lalau. Segundo a Pol&amp;iacute;cia Militar, os passageiros informaram que o acidente aconteceu ap&amp;oacute;s o condutor levar uma fechada de outro autom&amp;oacute;vel.&#13;
-&#13;
-Os cinco ocupantes do carro tiveram ferimentos leves. Quatro deles foram levados para o hospital. O gerente da loja explicou que tr&amp;ecirc;s carros do showroom foram danificados. O total do preju&amp;iacute;zo ainda est&amp;aacute; sendo calculado, mas as perdas devem ser cobertas pela seguradadora. Segundo a Defesa Civil, a estrutura do pr&amp;eacute;dio ficou abalada com o impacto da batida. Apesar disso, a estrutura n&amp;atilde;o sofre risco de desabamento.</description>
-  </item>
-  <item>
-   <title>Polícia prende suspeito de assassinato em Guaramirim </title>
-   <link>http://ndonline.com.br/joinville/noticias/70976-policia-prende-suspeito-de-assassinato-em-guaramirim.html</link>
-   <guid>http://ndonline.com.br/joinville/noticias/70976-policia-prende-suspeito-de-assassinato-em-guaramirim.html</guid>
-   <pubDate>13 May 2013 16:36:00 GMT</pubDate>
-   <author>claudioc.ndonline@noticiasdodia.com.br (Cláudio Costa)</author>
-   <category>Assassinato, Guaramirim, </category>
-   <description>&lt;img src='http://www.ndonline.com.br//uploads/global/materias/2013/05/13-05-2013-17-02-35-2013-05-13homicidio-site.jpg'&gt;&lt;br&gt;
+O Centro Público de Atendimento aos Trabalhadores (Cepat) divulgou vagas em aberto para diversas áreas. Os interessados devem levar a Carteira de Trabalho, CPF e RG até a sede do Cepat, que fica na rua Abdon Batista, 342, Centro, perto do Mercado Público. O horário de atendimento é das 8…
+<br /><br /> <img src="http://www.portaljoinville.com.br/v4/facecms/conteudo/temp/pj_25779.jpg" />]]></description>
+			<pubDate>Tue, 23 Apr 2013 16:53:12 -0300</pubDate>
+		</item> 
+				<item>
+			<title>Sergio Ramirez está de volta ao JEC</title>
+			<link>http://www.portaljoinville.com.br/v4/esportes/2013/04/sergio-ramires-esta-de-volta-ao-jec</link>
+			<guid>http://www.portaljoinville.com.br/v4/esportes/2013/04/sergio-ramires-esta-de-volta-ao-jec</guid>
+			<description><![CDATA[
 
-&#13;
-Divulga&amp;ccedil;&amp;atilde;o/PM/ND&#13;
-&#13;
-Suspeito de 22 anos foi preso ap&amp;oacute;s a PM receber den&amp;uacute;ncias da autoria do crime&#13;
-&#13;
-A Pol&amp;iacute;cia Civil investiga um assassinato, registrado na noite do &amp;uacute;ltimo domingo (12), em Guaramirim. O corpo de F&amp;aacute;bio Tavares, 22 anos, foi encontrado boiando no rio Itapocu, na altura da ponte do Zindars, na rodovia SC-180 (antiga SC-415). Moradores avistaram o cad&amp;aacute;ver na manh&amp;atilde; desta segunda-feira (13) e acionaram a Pol&amp;iacute;cia Militar. Bombeiros fizeram o resgate do corpo, que tinha sinais de agress&amp;atilde;o, e foi levado ao IML (Instituto M&amp;eacute;dico Legal).&#13;
-Um suspeito de 22 anos foi detido depois que a PM recebeu den&amp;uacute;ncias da autoria do crime. O acusado foi localizado na resid&amp;ecirc;ncia de parentes na Vila Freitas. Numa a&amp;ccedil;&amp;atilde;o conjunta com policiais civis, ele acabou preso e confessou o crime. O rapaz justificou o assassinato alegando que teria ocorrido uma briga motivada por ci&amp;uacute;mes.Segundo a Pol&amp;iacute;cia Civil, durante as agress&amp;otilde;es, os dois acabaram caindo de um barranco no rio. No local, o suspeito teria afogado a v&amp;iacute;tima. Ambos seriam usu&amp;aacute;rios de droga.&#13;
-Conforme a Pol&amp;iacute;cia Militar, F&amp;aacute;bio Tavares tinha 12 boletins de ocorr&amp;ecirc;ncias contra ele por amea&amp;ccedil;as e uso de drogas. Ele tamb&amp;eacute;m j&amp;aacute; havia cumprido pena por tr&amp;aacute;fico de crack, praticado na cidade de Penha, no Litoral Norte. O nome do suspeito n&amp;atilde;o foi divulgado.</description>
-  </item>
-  <item>
-   <title>Prefeitura de Joinville tem despesa milionária com aluguéis </title>
-   <link>http://ndonline.com.br/joinville/noticias/70939-prefeitura-de-joinville-tem-despesa-milionaria-com-alugueis.html</link>
-   <guid>http://ndonline.com.br/joinville/noticias/70939-prefeitura-de-joinville-tem-despesa-milionaria-com-alugueis.html</guid>
-   <pubDate>13 May 2013 14:26:00 GMT</pubDate>
-   <author>claudioc.ndonline@noticiasdodia.com.br (Cláudio Costa)</author>
-   <category>Aluguel, Prefeitura de Joinville, Imóveis </category>
-   <description>&lt;img src='http://www.ndonline.com.br//uploads/global/materias/2013/05/13-05-2013-16-32-24-13-05-2013-15-49-17-vigilancia-sanitaria.jpg'&gt;&lt;br&gt;
 
-&#13;
-&#13;
-Luciano Moraes/ND&#13;
-&#13;
-Pr&amp;eacute;dio da Vigil&amp;acirc;ncia Sanit&amp;aacute;ria custa mais de R$ 13 mil mensais para os cofres da Prefeitura&#13;
-&#13;
-&#13;
-Uma despesa de R$ 4,7 milh&amp;otilde;es por ano &amp;ndash; R$ 399 mil todos os meses.  Este &amp;eacute; o gasto da Prefeitura de Joinville com loca&amp;ccedil;&amp;atilde;o de im&amp;oacute;veis. Mesmo  pagando aluguel, no munic&amp;iacute;pio &amp;eacute; dono de alguns im&amp;oacute;veis que continuam  desocupados e que aguardam defini&amp;ccedil;&amp;atilde;o.&#13;
-Desde que assumiu a Prefeitura, Udo D&amp;ouml;hler (PMDB) tem batido na tecla  da redu&amp;ccedil;&amp;atilde;o de gastos e economia. Isso inclui tamb&amp;eacute;m os alugueis. S&amp;atilde;o 72  pr&amp;eacute;dios locados, segundo levantamento feito na semana passada. Em  novembro, no governo anterior, eram 83.&#13;
-O or&amp;ccedil;amento do munic&amp;iacute;pio para este ano &amp;eacute; de R$ 1,325 bilh&amp;atilde;o. Os custos da Prefeitura com aluguel consomem um valor pequeno do or&amp;ccedil;amento, mas o custo poderia ser menor, se todos os pr&amp;eacute;dios pr&amp;oacute;prios fossem aproveitados. &amp;Eacute; o caso da antiga sede da Prefeitura, na esquina das ruas Jo&amp;atilde;o Colin e Max Colin.&#13;
-A Prefeitura pretende aumentar o n&amp;uacute;mero de ocupa&amp;ccedil;&amp;atilde;o em pr&amp;eacute;dios pr&amp;oacute;prios e justifica que a cria&amp;ccedil;&amp;atilde;o das oito subprefeituras, em substitui&amp;ccedil;&amp;atilde;o &amp;agrave;s 14 secretarias regionais, tamb&amp;eacute;m contribuir&amp;aacute; para a redu&amp;ccedil;&amp;atilde;o dos gastos.&#13;
-O objetivo &amp;eacute; entregar os pr&amp;eacute;dios alugados ent&amp;atilde;o utilizados pelas regionais. Ainda s&amp;atilde;o tr&amp;ecirc;s os im&amp;oacute;veis nesta situa&amp;ccedil;&amp;atilde;o &amp;ndash; as antigas secretarias regionais do Aventureiro, do Nova Bras&amp;iacute;lia e do F&amp;aacute;tima. Todos sediam provisoriamente a sede de suas respectivas subprefeituras &amp;ndash; Nordeste, Sudoeste e Sudeste.&#13;
-No Aventureiro, por exemplo, a ideia &amp;eacute; ocupar um espa&amp;ccedil;o no futuro Complexo Esportivo e Cultural do bairro, do outro lado da rua. As outras duas compreendem as subprefeituras Sudoeste e Sudeste. Ambas est&amp;atilde;o previstas para ocupar salas em esta&amp;ccedil;&amp;otilde;es da cidadania. Mas segundo o secret&amp;aacute;rio da Administra&amp;ccedil;&amp;atilde;o, Miguel Angelo Bertolini, em um primeiro momento n&amp;atilde;o parece ser vi&amp;aacute;vel.&#13;
-Por isso, est&amp;atilde;o sendo estudadas novas possibilidades. Os tr&amp;ecirc;s espa&amp;ccedil;os ocupados pelas subprefeituras e que devem ser devolvidos somam um gasto mensal de R$ 5.850,63. Mas a devolu&amp;ccedil;&amp;atilde;o desses pr&amp;eacute;dios requer um investimento.&#13;
-Segundo o secret&amp;aacute;rio Miguel, &amp;eacute; preciso refazer a pintura, providenciar a retirada de todo o material e remanejamento de pessoal. Caso n&amp;atilde;o seja encontrado um local pr&amp;oacute;prio para as subprefeituras Sudeste e Sudoeste, n&amp;atilde;o est&amp;aacute; descartada a possibilidade de que outros espa&amp;ccedil;os sejam alugados.&#13;
-Administra&amp;ccedil;&amp;atilde;o e Sa&amp;uacute;de lideram&#13;
-As secretarias regionais est&amp;atilde;o na lista dos pr&amp;eacute;dios com custo de loca&amp;ccedil;&amp;atilde;o sob a responsabilidade da Secretaria da Administra&amp;ccedil;&amp;atilde;o. Mas a Secretaria Municipal de Sa&amp;uacute;de responde pela maior parte de custo com loca&amp;ccedil;&amp;atilde;o de im&amp;oacute;veis: s&amp;atilde;o 42 no total. Nesta lista entram postos de sa&amp;uacute;de e a pr&amp;oacute;pria sede da secretaria, que sozinha gera uma despesa de R$ 20 mil todos os meses. A maioria dos gastos &amp;eacute; relacionada aos im&amp;oacute;veis administrativos da Sa&amp;uacute;de. Est&amp;atilde;o na lista o atual pr&amp;eacute;dio da Vigil&amp;acirc;ncia Sanit&amp;aacute;ria e a Unidade Sanit&amp;aacute;ria.&#13;
-Os espa&amp;ccedil;os podem, em breve, deixar de serem ocupados. Isso porque est&amp;atilde;o em negocia&amp;ccedil;&amp;otilde;es algumas alternativas. No caso da Vigil&amp;acirc;ncia Sanit&amp;aacute;ria, a estrutura, no Centro, corre o risco de ser interditada. Segundo den&amp;uacute;ncia da fiscal Lia Abreu, os servidores trabalham em condi&amp;ccedil;&amp;otilde;es prec&amp;aacute;rias e o pr&amp;eacute;dio n&amp;atilde;o atende &amp;agrave;s necessidades m&amp;iacute;nimas. Ela deu um prazo de uma semana para que provid&amp;ecirc;ncias sejam tomadas.&#13;
-Uma das ideias do governo municipal &amp;eacute; transferir a unidade para um pr&amp;eacute;dio da rua Abdon Batista, onde at&amp;eacute; poucas semanas funcionava um hospital. &amp;ldquo;O pr&amp;eacute;dio tem condi&amp;ccedil;&amp;otilde;es para atender &amp;agrave; sa&amp;uacute;de, est&amp;aacute; conservado e &amp;eacute; grande&amp;rdquo;, justifica o secret&amp;aacute;rio municipal da Sa&amp;uacute;de, Armando Dias Pereira J&amp;uacute;nior.&#13;
-A loca&amp;ccedil;&amp;atilde;o do im&amp;oacute;vel est&amp;aacute; em fase de discuss&amp;atilde;o e ainda deve ser apresentada ao prefeito Udo D&amp;ouml;hler. Um levantamento inicial aponta um contrato no valor de R$ 24 mil mensais. Atualmente, a Vigil&amp;acirc;ncia Sanit&amp;aacute;ria gasta em loca&amp;ccedil;&amp;atilde;o R$ 13.947,80 todos os meses. Mas o secret&amp;aacute;rio justifica que outras unidades devem ser realocadas para evitar outros gastos com alugu&amp;eacute;is. Seria o caso da Unidade Sanit&amp;aacute;ria, que atualmente funciona na rua Itaja&amp;iacute;. A unidade ocupa dois im&amp;oacute;veis e consome R$ 14.740,95.</description>
-  </item>
-  <item>
-   <title>Greve dos servidores municipais de Joinville não afeta serviços essencias nas primeiras horas</title>
-   <link>http://ndonline.com.br/joinville/noticias/70924-greve-dos-servidores-municipais-de-joinville-nao-afeta-servicos-essencias-nas-primeiras-horas.html</link>
-   <guid>http://ndonline.com.br/joinville/noticias/70924-greve-dos-servidores-municipais-de-joinville-nao-afeta-servicos-essencias-nas-primeiras-horas.html</guid>
-   <pubDate>13 May 2013 13:58:00 GMT</pubDate>
-   <author>rosana@noticiasdodia.com.br (Rosana Rosar)</author>
-   <category>Greve Joinville</category>
-   <description>&lt;img src='http://www.ndonline.com.br//uploads/global/materias/2013/05/13-05-2013-14-08-13-pa-ribeirao-do-ferro.jpg'&gt;&lt;br&gt;
+Desta vez ele vem para ser coordenador técnico do Tricolor. O uruguaio Sergio Ramirez, 62 anos, foi contratado pelo Joinville para uma função que no ano passado era exercida por Marcelo Serrano, enquanto o treinador era Leandro Campos. Desta vez, com a manuteção de Arturzinho, Ramirez irá atuar ao lado…
+<br /><br /> <img src="http://www.portaljoinville.com.br/v4/facecms/conteudo/temp/pj_25778.jpg" />]]></description>
+			<pubDate>Tue, 23 Apr 2013 16:41:27 -0300</pubDate>
+		</item> 
+				<item>
+			<title>Volta às pistas</title>
+			<link>http://www.portaljoinville.com.br/v4/blogs/rdb/2013/04/volta-as-pistas</link>
+			<guid>http://www.portaljoinville.com.br/v4/blogs/rdb/2013/04/volta-as-pistas</guid>
+			<description><![CDATA[
 
-&#13;
-Fabr&amp;iacute;cio Porto/ND&#13;
-&#13;
-Unidade B&amp;aacute;sica de Sa&amp;uacute;de da Fam&amp;iacute;ila Rio do Ferro, no Aventureiro, suspendeu o atendimento na manh&amp;atilde; desta segunda&#13;
-&#13;
-O primeiro balan&amp;ccedil;o da Prefeitura de Joinville sobre a greve dos servidores apontou o fechamento de tr&amp;ecirc;s das 55 unidades b&amp;aacute;sicas de sa&amp;uacute;de na manh&amp;atilde; dessa segunda (13). A Unidade B&amp;aacute;sica de Sa&amp;uacute;de da Fam&amp;iacute;lia Rio Do Ferro, no bairro Aventureiro, foi uma das que suspendeu o atendimento. Na porta, um comunicado orientava quem precisasse dos servi&amp;ccedil;os de enfermagem a procurar a Unidade B&amp;aacute;sica de Sa&amp;uacute;de da Fam&amp;iacute;lia Santa B&amp;aacute;rbara, tamb&amp;eacute;m no Aventureiro.&#13;
-Nos PAs (Pronto Atendimentos) Leste, Norte e Sul o atendimento foi mantido mesmo com a aus&amp;ecirc;ncia de oito profissionais. No Hospital Municipal S&amp;atilde;o Jos&amp;eacute; 24 dos 1.267 funcion&amp;aacute;rios aderiram a greve.&#13;
-Afonso Fraiz, diretor executivo do gabinete do prefeito Udo D&amp;ouml;hler, afirmou que nenhum aluno da rede municipal de ensino precisou ser dispensado por causa da greve dos servidores. &amp;ldquo;Dos 4.562 servidores da educa&amp;ccedil;&amp;atilde;o apenas 179 faltaram nessa manh&amp;atilde;. Nenhum aluno precisou voltar para casa por falta de professor. Onde faltou professor outro substituiu&amp;rdquo;, informou.&#13;
-No come&amp;ccedil;o da tarde, Ulrich Beathalter, presidente do Sinsej (Sindicato dos Servidores P&amp;uacute;blicos dos Munic&amp;iacute;pios de Joinville, Garuva e Itapo&amp;aacute;), afirmou que 95% dos funcion&amp;aacute;rios da Escola Municipal Ruben Roberto Schmidlin, no Morro do Meio, aderiram a greve.&#13;
-Nas escolas municipais Baltasar Buschle, no Parque Guarani, e Sadalla Amin Ghanem, no Jo&amp;atilde;o Costa, a ades&amp;atilde;o dos funcion&amp;aacute;rios, segundo o sindicato, &amp;eacute; de 90%. &amp;ldquo;As diretoras est&amp;atilde;o mantendo esses alunos nas escolas eu n&amp;atilde;o sei em que condi&amp;ccedil;&amp;otilde;es. Um pouco deixando no audit&amp;oacute;rio para ver filminho e nas quadras de esportes, mas eles n&amp;atilde;o est&amp;atilde;o tendo aulas&amp;rdquo;, avalia Ulrich.&#13;
-Ciente de que os n&amp;uacute;meros da greve contabilizados pela manh&amp;atilde; poderiam mudar durante a tarde Fraiz divulgaram outro balan&amp;ccedil;o sobre a paralisa&amp;ccedil;&amp;atilde;o depois das 16h.Nesse primeiro momento, o diretor se mostrou tranq&amp;uuml;ilo com a situa&amp;ccedil;&amp;atilde;o.&#13;
-Mesmo reconhecendo que o 5,5% de reajuste proposto pela Prefeitura (4% retroativo a maio e 1,5% em novembro) n&amp;atilde;o alcan&amp;ccedil;a a infla&amp;ccedil;&amp;atilde;o, Fraiz lembrou que h&amp;aacute; cada tr&amp;ecirc;s anos os servidores tem um reajuste de 6% por tempo de servi&amp;ccedil;o. &amp;ldquo;&amp;Eacute; 2% ao ano, ent&amp;atilde;o n&amp;atilde;o existe perda completa. O prefeito reconhece que a infla&amp;ccedil;&amp;atilde;o &amp;eacute; o m&amp;iacute;nimo l&amp;oacute;gico e n&amp;atilde;o est&amp;aacute; fechando as portas. Se a situa&amp;ccedil;&amp;atilde;o financeira melhorar a gente volta a sentar com o sindicato&amp;rdquo;, argumenta.&#13;
-Ulrich rebate que nem todos os funcion&amp;aacute;rios recebem tri&amp;ecirc;nio nesse ano e que esse valor n&amp;atilde;o deve ser inclu&amp;iacute;do na discuss&amp;atilde;o. &amp;ldquo;O tri&amp;ecirc;nio &amp;eacute; um benef&amp;iacute;cio para o servidor de carreira, n&amp;atilde;o se discute. Uma parte recebe nesse ano, mas a maioria n&amp;atilde;o&amp;rdquo;, acrescenta. A categoria pede a corre&amp;ccedil;&amp;atilde;o da infla&amp;ccedil;&amp;atilde;o &amp;ndash; 7,16% na data-base, em 1&amp;ordm; de maio &amp;ndash; e mais 5% de aumento real.</description>
-  </item>
-  <item>
-   <title>Túmulos são violados no Cemitério de Araquari</title>
-   <link>http://ndonline.com.br/joinville/noticias/70911-tumulos-violados-no-cemiterio-de-araquari.html</link>
-   <guid>http://ndonline.com.br/joinville/noticias/70911-tumulos-violados-no-cemiterio-de-araquari.html</guid>
-   <pubDate>13 May 2013 12:49:00 GMT</pubDate>
-   <author>thais@noticiasdodia.com.br (Thaís Moreira de Mira)</author>
-   <category>Segurança, Araquari, Cemitério, Vandalismo</category>
-   <description>&lt;img src='http://www.ndonline.com.br//uploads/global/materias/2013/05/13-05-2013-13-01-13-cemiterio-destruido-joao.jpg'&gt;&lt;br&gt;
 
-&#13;
-Fabr&amp;iacute;cio Porto/ND&#13;
-&#13;
-Seu Jo&amp;atilde;o e os t&amp;uacute;mulos quebrados. Foram cerca de 15, segundo ele.&#13;
-&#13;
-O coveiro Jo&amp;atilde;o Jos&amp;eacute; da Costa, 50 anos, trabalha no Cemit&amp;eacute;rio Municipal de Araquari h&amp;aacute; tr&amp;ecirc;s anos e nunca antes havia presenciado ato de vandalismo semelhante ao ocorrido na madrugada do &amp;uacute;ltimo domingo (12). Segundo contas do pr&amp;oacute;prio, 15 t&amp;uacute;mulos foram quebrados ou violados. Em um deles &amp;eacute; poss&amp;iacute;vel ver o rosto de uma mulher coberto por v&amp;eacute;u, j&amp;aacute; em avan&amp;ccedil;ado estado de decomposi&amp;ccedil;&amp;atilde;o. Pr&amp;oacute;ximo dali, ainda nos fundos do terreno, outra sepultura teve o tamp&amp;atilde;o de m&amp;aacute;rmore quebrado. Dentro, pode-se ver parte do caix&amp;atilde;o onde est&amp;aacute; enterrado o pai de um policial militar do munic&amp;iacute;pio.&#13;
-&amp;ldquo;Durante o dia que estou aqui isto n&amp;atilde;o acontece, mas s&amp;oacute; eu virar &amp;agrave;s costas e vira uma bagun&amp;ccedil;a. Tem uns dois ou tr&amp;ecirc;s usu&amp;aacute;rios de crack que vem &amp;agrave; noite. Tanto lugar que eles t&amp;ecirc;m para fazer isso, logo no cemit&amp;eacute;rio, no dia das m&amp;atilde;es&amp;rdquo;. Os t&amp;uacute;mulos dispostos na parte da frente do cemit&amp;eacute;rio tamb&amp;eacute;m n&amp;atilde;o fugiram a a&amp;ccedil;&amp;atilde;o dos marginais. Uma cruz inteira de cimento foi arrancada de cima do mausoleum da fam&amp;iacute;lia Sprotte e jogada contra as sepulturas abaixo. Nem mesmo a cova do ex-jogador Ant&amp;ocirc;nio Martes da Luz, autor do primeiro gol da hist&amp;oacute;ria do JEC, morto em 1991, foi poupada.&#13;
-</description>
-  </item>
-  <item>
-   <title>Futlama se firma como uma das atrações da Festa do Arroz, em Joinville </title>
-   <link>http://ndonline.com.br/joinville/noticias/70867-futlama-se-firmacomo-uma-das-atracoes-da-festa-do-arroz-em-joinville.html</link>
-   <guid>http://ndonline.com.br/joinville/noticias/70867-futlama-se-firmacomo-uma-das-atracoes-da-festa-do-arroz-em-joinville.html</guid>
-   <pubDate>13 May 2013 10:59:00 GMT</pubDate>
-   <author>claudioc.ndonline@noticiasdodia.com.br (Cláudio Costa)</author>
-   <category>Joinville, Festa do Arroz, Futlama </category>
-   <description>&lt;img src='http://www.ndonline.com.br//uploads/global/materias/2013/05/13-05-2013-11-00-40-futlama-carlos.jpg'&gt;&lt;br&gt;
+Será neste fim de semana, 26 e 27 de abril, que a velocista Tamiris de Liz voltará a voar baixo nas pistas. A atleta disputará a prova de 100 metros e 200 metros e o revezamento 4x100 metros pelo Campeonato Estadual Adulto de  Atletismo, em Itajaí. Para a técnica Margit…
+<br /><br /> <img src="http://www.portaljoinville.com.br/v4/facecms/uploads/galeria/pj_1366741964.jpg" />]]></description>
+			<pubDate>Tue, 23 Apr 2013 15:33:57 -0300</pubDate>
+		</item> 
+				<item>
+			<title>A proibição do consumo de bebidas alcoólicas em vias públicas</title>
+			<link>http://www.portaljoinville.com.br/v4/noticias/2013/04/a-proibicao-do-consumo-de-bebidas-alcoolicas-em-vias-publicas</link>
+			<guid>http://www.portaljoinville.com.br/v4/noticias/2013/04/a-proibicao-do-consumo-de-bebidas-alcoolicas-em-vias-publicas</guid>
+			<description><![CDATA[
+Acontece nesta terça-feira (23),  uma audiência pública na Câmara de Vereadores sobre o projeto de Lei 48/13, de autoria do vereador James Schroeder, que pretende acabar com o consumo de bebidas alcoólicas em vias públicas de Joinville.
+A iniciativa é coibir que os “esquentas” e aglomerações virem perturbação do sossego. A…
+<br /><br /> <img src="http://www.portaljoinville.com.br/v4/facecms/conteudo/temp/pj_25776.jpg" />]]></description>
+			<pubDate>Tue, 23 Apr 2013 15:15:50 -0300</pubDate>
+		</item> 
+				<item>
+			<title>Tamiris de Liz volta às pistas</title>
+			<link>http://www.portaljoinville.com.br/v4/esportes/2013/04/tamiris-de-liz-volta-as-pistas</link>
+			<guid>http://www.portaljoinville.com.br/v4/esportes/2013/04/tamiris-de-liz-volta-as-pistas</guid>
+			<description><![CDATA[
 
-&#13;
-Carlos Junior/ND&#13;
-&#13;
-Partida entre Gramocil e Pavor&amp;ocirc; exigiu esfor&amp;ccedil;o dos jogadores&#13;
-&#13;
-A programa&amp;ccedil;&amp;atilde;o da 17a Festa do Arroz, na Comunidade Cristo Rei, no bairro Vila Nova, terminou ontem com almo&amp;ccedil;o t&amp;iacute;pico, apresenta&amp;ccedil;&amp;otilde;es culturais e tarde dan&amp;ccedil;ante, mas o que garantiu a descontra&amp;ccedil;&amp;atilde;o no &amp;uacute;ltimo dia da festa foi o j&amp;aacute; tradicional campeonato de futebol na lama. As disputas na manh&amp;atilde; de domingo levaram oito equipes e muitos visitantes ao Recanto das Arrozeiras, novo local escolhido pela organiza&amp;ccedil;&amp;atilde;o para a curiosa competi&amp;ccedil;&amp;atilde;o. S&amp;oacute; os nomes dos times &amp;ndash; Gramocil, Pavor&amp;ocirc;, Canela Seca, P&amp;eacute; de Cana, Papa-ranho, Os Atolados, Tabajara e Trupica Mas N&amp;atilde;o Cai &amp;ndash; j&amp;aacute; davam mostras da divers&amp;atilde;o.&#13;
-Na nova &amp;ldquo;arena&amp;rdquo;, os jogadores com lama quase pelas canelas tiveram que superar as dificuldades de equil&amp;iacute;brio e contar com boa dose de preparo f&amp;iacute;sico para, em dois tempos de 15 minutos, garantirem a vit&amp;oacute;ria. Entre os quatro confrontos realizados, cada equipe que venceu levou trof&amp;eacute;u. Nas &amp;ldquo;arquibancadas&amp;rdquo;, independentemente de vit&amp;oacute;ria ou derrota, o p&amp;uacute;blico pode dar muitas risadas com os incont&amp;aacute;veis tombos e escorreg&amp;otilde;es. &amp;ldquo;Muito legal a brincadeira. Show de bola, ou melhor, &amp;eacute; show de lama&amp;rdquo;, disse o soldador Adelmo Ribeiro, 39 anos, que prestigiava pela primeira vez o evento.&#13;
-Participando pela quarta vez da competi&amp;ccedil;&amp;atilde;o, Rodrigo Kliszcz, 26 anos, foi artilheiro do Gramocil, marcando dois dos cinco gols da equipe sobre o Pavor&amp;ocirc;, no primeiro jogo da manh&amp;atilde;. Com experi&amp;ecirc;ncia nos campos do Vila Nova como ex-jogador do Uni&amp;atilde;o Nacional, clube amador da regi&amp;atilde;o, Rodrigo se diz adaptado ao terreno que est&amp;aacute; longe de ser um tapete verde e aprovou o novo local. &amp;ldquo;Nesse campo, ficou bem mais f&amp;aacute;cil. Ainda d&amp;aacute; de fazer a bola correr&amp;rdquo;, comparou, em refer&amp;ecirc;ncia ao campo do ano passado, que tinha n&amp;iacute;vel de lama acima das canelas.&#13;
-Deslealdade n&amp;atilde;o vale&#13;
-De acordo com Rodrigo, o craque da lama, mesmo com um ch&amp;atilde;o mais firme, ficar em p&amp;eacute; e aguentar meia hora de jogo demandam t&amp;eacute;cnica. &amp;ldquo;Al&amp;eacute;m do equil&amp;iacute;brio, &amp;eacute; preciso manter a resist&amp;ecirc;ncia&amp;rdquo;, pontuou. Estreando no chamado futlama, o goleiro do Pavor&amp;ocirc;, C&amp;eacute;lio da Silveira, considerou que o maior problema &amp;eacute; com a bola. &amp;ldquo;A gente n&amp;atilde;o sabe de onde a bola vem. Ela desliza muito, fica sem dire&amp;ccedil;&amp;atilde;o certa. Mas o importante &amp;eacute; participar. No final, &amp;eacute; tudo alegria.&amp;rdquo;&#13;
-O jogo &amp;eacute; sujo, mas a disputa tem que ser limpa no futlama, onde a regra nem sempre &amp;eacute; clara. O juiz e organizador da brincadeira, Jos&amp;eacute; Menestrina, o &amp;ldquo;Zico&amp;rdquo;, explica que a partida tem como base as regras do futsal. Com as devidas adapta&amp;ccedil;&amp;otilde;es, o principal crit&amp;eacute;rio &amp;eacute; o bom senso para evitar problemas. &amp;ldquo;Aquela coisa desleal n&amp;atilde;o vale&amp;rdquo;, comentou, sobre a marca&amp;ccedil;&amp;atilde;o as faltas.&#13;
-Sem linhas de marca&amp;ccedil;&amp;atilde;o, uma barreira de terra foi usada para definir os limites do campo. Marcas de &amp;aacute;rea e linha de fundo, no entanto, tinham que ser imaginadas. &amp;ldquo;A linha &amp;eacute; imagin&amp;aacute;ria. Ningu&amp;eacute;m v&amp;ecirc; mas eu sei onde est&amp;atilde;o. Eu sou a lei&amp;rdquo;, brincou ele, que tem a &amp;uacute;ltima palavra diante de qualquer reclama&amp;ccedil;&amp;atilde;o.&#13;
-Al&amp;eacute;m do futlama e outras atra&amp;ccedil;&amp;otilde;es do domingo, a programa&amp;ccedil;&amp;atilde;o da Festa do Arroz teve seu ponto alto no s&amp;aacute;bado, com jantar especial, escolha da rainha e baile festivo. Durante todo final de semana, no sal&amp;atilde;o da Igreja Cristo Rei, no km 18 da Rodovia do Arroz, o evento ainda foi movimentado com feira de produtos coloniais e artesanais. A expectativa era de superar a marca de p&amp;uacute;blico da edi&amp;ccedil;&amp;atilde;o anterior, quando cerca de tr&amp;ecirc;s mil pessoas prestigiaram a festividade.</description>
-  </item>
-  <item>
-   <title>Caminhão carregado de trigo tomba na BR-280, em São Francisco do Sul</title>
-   <link>http://ndonline.com.br/joinville/noticias/70828-caminhao-carregado-de-trigo-tomba-na-br-280-em-sao-francisco-do-sul.html</link>
-   <guid>http://ndonline.com.br/joinville/noticias/70828-caminhao-carregado-de-trigo-tomba-na-br-280-em-sao-francisco-do-sul.html</guid>
-   <pubDate>13 May 2013 08:22:00 GMT</pubDate>
-   <author>thais@noticiasdodia.com.br (Thaís Moreira de Mira)</author>
-   <category>Segurança, BR-280, São Francisco do Sul, Tombamento, Antônio Marques da Silva</category>
-   <description>
 
-Um caminh&amp;atilde;o carregado com cerca de 10 toneladas de semente de trigo tombou no km 4,5 da BR-280, pr&amp;oacute;ximo a rodovi&amp;aacute;ria de S&amp;atilde;o Francisco do Sul, no in&amp;iacute;cio da manh&amp;atilde; desta segunda-feira (13). A carga ficou espalhada pela pista, que precisou ser interditada para limpeza do local.&#13;
-Ant&amp;ocirc;nio Marques da Silva, 47 anos, motorista do ve&amp;iacute;culo, sofreu apenas um arranh&amp;atilde;o na cabe&amp;ccedil;a. Ele foi socorrido pelos bombeiros volunt&amp;aacute;rios e levado ao Hospital Nossa Senhora das Gra&amp;ccedil;as. O caminh&amp;atilde;o seguia sentido porto-Joinville.</description>
-  </item>
- </channel>
+Será neste fim de semana, 26 e 27 de abril, que a velocista Tamiris de Liz voltará a voar baixo nas pistas. A atleta disputará a prova dos 100 e 200 metros e o revezamento 4x100m, pelo Campeonato Estadual Adulto de Atletismo, em Itajaí. 
+Para a técnica Margit Weise este…
+<br /><br /> <img src="http://www.portaljoinville.com.br/v4/facecms/conteudo/temp/pj_25775.jpg" />]]></description>
+			<pubDate>Tue, 23 Apr 2013 14:41:36 -0300</pubDate>
+		</item> 
+				<item>
+			<title>PID lança inscrições para vôlei de praia</title>
+			<link>http://www.portaljoinville.com.br/v4/esportes/2013/04/pid-lanca-inscricoes-para-volei-de-praia</link>
+			<guid>http://www.portaljoinville.com.br/v4/esportes/2013/04/pid-lanca-inscricoes-para-volei-de-praia</guid>
+			<description><![CDATA[Estão abertas as inscrições para o Núcleo de Vôlei de Praia do Programa de Iniciação Esportiva (PID). O projeto é voltado para crianças e adolescentes com idade entre 10 e 16 anos. As atividades começam na próxima semana e serão realizadas no período da tarde, na Associação de Moradores do…
+<br /><br /> <img src="http://www.portaljoinville.com.br/v4/facecms/conteudo/temp/pj_25774.jpg" />]]></description>
+			<pubDate>Tue, 23 Apr 2013 14:40:41 -0300</pubDate>
+		</item> 
+				<item>
+			<title>Vôlei de praia: Jovens em busca da Seleção Brasileira</title>
+			<link>http://www.portaljoinville.com.br/v4/esportes/2013/04/volei-de-praia-jovens-em-busca-da-selecao-brasileira</link>
+			<guid>http://www.portaljoinville.com.br/v4/esportes/2013/04/volei-de-praia-jovens-em-busca-da-selecao-brasileira</guid>
+			<description><![CDATA[
+
+
+O sonho de se tornar atleta profissional de vôlei de praia começa a se tornar realidade para a dupla feminina de Joinville. As amigas e companheiras de competição Odaisa Nathieli de Andrade e Mayra Amorim de Souza, nascidas em 1998, foram convocadas pela Seleção Catarinense para disputar o Campeonato Brasileiro…
+<br /><br /> <img src="http://www.portaljoinville.com.br/v4/facecms/uploads/galeria/pj_1366737666.jpg" />]]></description>
+			<pubDate>Tue, 23 Apr 2013 14:29:00 -0300</pubDate>
+		</item> 
+				<item>
+			<title>Prefeitura construirá Parque Porta do Mar, no Espinheiros</title>
+			<link>http://www.portaljoinville.com.br/v4/noticias/2013/04/prefeitura-construira-parque-porta-do-mar-no-espinheiros</link>
+			<guid>http://www.portaljoinville.com.br/v4/noticias/2013/04/prefeitura-construira-parque-porta-do-mar-no-espinheiros</guid>
+			<description><![CDATA[
+Acontece nesta quarta-feira (24), no Restaurante Capitão do Mar, a entrega da ordem de serviço para a construção do Parque Porta do Mar, no bairro Espinheiros.
+A empresa vencedora da licitação é a Belga Empreitera. As obras vão começar de imediato. Para esta obra, a Prefeitura pagará o valor de…
+<br /><br /> <img src="http://www.portaljoinville.com.br/v4/facecms/conteudo/temp/pj_25772.jpg" />]]></description>
+			<pubDate>Tue, 23 Apr 2013 14:15:56 -0300</pubDate>
+		</item> 
+		</channel>
 </rss>

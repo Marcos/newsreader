@@ -15,11 +15,13 @@ import java.util.regex.Pattern;
  */
 public class SourceEntry  {
 
-    String title;
+    private String title;
 
-    String date;
+    private String date;
 
-    String url;
+    private String url;
+    
+    private String text;
 
     SourcePattern entryPattern;
 
@@ -33,10 +35,11 @@ public class SourceEntry  {
      * @param date2
      * @param title2
      */
-    public SourceEntry(final String date, final String title, final String url, final SourcePattern entryPattern) {
+    public SourceEntry(final String date, final String title, final String url, String text, final SourcePattern entryPattern) {
         this.date = date;
         this.title = title;
         this.url = url;
+        this.text = text;
         this.entryPattern = entryPattern;
     }
 
@@ -171,6 +174,14 @@ public class SourceEntry  {
     public String getSourceLabel() {
         return this.getEntryPattern().getSourceLabel();
     }
+
+	public String getText() {
+		return text;
+	}
+
+	public void setText(String text) {
+		this.text = text;
+	}
     
     
 

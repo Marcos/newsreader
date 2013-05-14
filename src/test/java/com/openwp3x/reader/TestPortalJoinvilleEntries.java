@@ -44,6 +44,11 @@ public class TestPortalJoinvilleEntries {
         Assert.assertEquals("http://www.portaljoinville.com.br/v4/esportes/2013/04/arturzinho-fala-sobre-a-sua-manutencao-no-time", firstEntry.getUrl());
         Assert.assertEquals("http://www.portaljoinville.com.br/v4/esportes/2013/04/arturzinho-fala-sobre-a-sua-manutencao-no-time", firstEntry.getFormattedURL());
         Assert.assertEquals(1366686000000L, firstEntry.getDateAsLong().longValue());
+        Assert.assertEquals(getText(), firstEntry.getText());
         Assert.assertEquals(10, entries.size());
     }
+
+	private String getText() {
+		return "O elenco do Joinville se reapresentou nesta terça-feira e, em dois períodos, trabalhou no Centro de Treinamentos e na quadra de areia da Schultz, no bairro Anita Garibaldi. Entre as atividades, o comandante concedeu entrevista para falar da reunião com a diretoria, pretensões para a Série B, além das declarações…\n<br /><br /> <img src=\"http://www.portaljoinville.com.br/v4/facecms/conteudo/temp/pj_25783.jpg\" />";
+	}
 }

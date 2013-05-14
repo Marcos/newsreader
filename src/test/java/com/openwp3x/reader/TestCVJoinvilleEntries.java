@@ -7,7 +7,6 @@ package com.openwp3x.reader;
 import java.io.IOException;
 import java.net.URL;
 import java.util.Collection;
-import java.util.Locale;
 
 import javax.xml.parsers.ParserConfigurationException;
 

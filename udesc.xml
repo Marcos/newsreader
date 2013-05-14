@@ -98,7 +98,7 @@
 
 <tr>
 <td height="20" width="610">
-<font class="txtCinza">Not&amp;iacute;cias</font> <img height="3" hspace="3" src="../img/dot.gif" vspace="3" width="3"> <a href="clipping.php">Publica&amp;ccedil;&amp;otilde;es na Imprensa</a></td>
+<a href="index.php">&amp;Iacute;ndice de not&amp;iacute;cias</a> <img height="3" hspace="3" src="../img/dot.gif" vspace="3" width="3"> <a href="clipping.php">Publica&amp;ccedil;&amp;otilde;es na Imprensa</a></td>
 </tr>
 
 <tr>
@@ -107,30 +107,52 @@
 
 </tbody>
 </table>
-<p></p>
 <div style="padding-left:30px">
 
-<form name="frmNav1">
-<center>
-<font class="txt1"></font>
-</center>
-</form>
-</div>
+<p>Joinville, SC - 09/05/2013</p>
+
+
+<p>
+<font class="tituloNoticia">Inscri&amp;ccedil;&amp;otilde;es para o Vestibular de Inverno da Udesc ocorrem de 21 de maio a 18 de junho</font>
+</p>
 
 
 <p></p>
-<div style="padding-left:30px">
-
-<table border="0" cellpading="0" cellspacing="0" width="520">
+<table align="right" border="0" cellpadding="10" cellspacing="0" width="10%">
 
 <tbody>
 <tr>
-<td align="center"><i>Nenhuma not&amp;iacute;cia encontrada</i></td>
-</tr>
+<td>
+<div align="right">
+<font class="txt0">Foto: Isabela Vargas</font>
+</div>
 
+<img src="fotos/5208.jpg"></td>
+</tr>
 </tbody>
 </table>
-</div>
+<p>
+
+A Universidade do Estado de Santa Catarina (Udesc) anunciou nesta quinta-feira, 9, que as inscri&amp;ccedil;&amp;otilde;es para o Vestibular de Inverno 2013 ser&amp;atilde;o realizadas de 21 de maio a 18 de junho por meio do site <a href="http://www.vestibular.udesc.br/" target="_self">http://www.vestibular.udesc.br/</a>.<br>&#13;
+
+<br>&#13;
+As provas ser&amp;atilde;o aplicadas em 7 de julho nas cidades de Florian&amp;oacute;polis, Joinville, Lages, Ibirama, S&amp;atilde;o Bento do Sul, Chapec&amp;oacute;, Laguna e Balne&amp;aacute;rio Cambori&amp;uacute;. O resultado ser&amp;aacute; divulgado at&amp;eacute; 17 de julho.<br>&#13;
+
+<br>&#13;
+A coordenadora do Vestibular da Udesc, Ros&amp;acirc;ngela de Souza Machado, informa ainda que o edital com o n&amp;uacute;mero de vagas e op&amp;ccedil;&amp;otilde;es de cursos ser&amp;aacute; divulgado at&amp;eacute; 21 de maio.<br>&#13;
+
+<br>&#13;
+Outras informa&amp;ccedil;&amp;otilde;es podem ser obtidas pelo e-mail vestiba@udesc.br ou com a Coordenadoria do Vestibular pelo telefone (48) 3321-8098, de segunda a sexta-feira, das 13h &amp;agrave;s 19h.<br>&#13;
+
+<br>&#13;
+--<br>&#13;
+
+<br>&#13;
+Assessoria de Comunica&amp;ccedil;&amp;atilde;o da Udesc<br>&#13;
+Jornalista Thiago Augusto<br>&#13;
+E-mail: thiago.augusto@udesc.br<br>&#13;
+Fone: (48) 3321-8142 </p>
+<br>
 
 
 <center>Assessoria de Imprensa Udesc Joinville - &#13;
@@ -142,6 +164,53 @@ Jornalista: Isabela Vargas (SC 01915 JP)<br>
 </center>
 
 
+
+<center>
+<p>
+<input class="inputButton" onclick="window.location.href='index.php?pg=1';" type="button" value="Voltar ao &amp;iacute;ndice de not&amp;iacute;cias"> &nbsp; &nbsp; <input class="inputButton" onclick="window.open('impr_noticia.php?id=5208');" type="button" value="Tela de impress&amp;atilde;o"> &nbsp; &nbsp; <b>Compartilhar: </b><a href="http://migre.me/compartilhar?msg=Inscricoes+para+o+Vestibular+de+Inverno+da+Udesc+ocorrem+de+21+de+maio+a+18+de+junho http%3A%2F%2Fwww.joinville.udesc.br%2Fportal%2Fnoticias%2Findex.php%3Fid%3D5208" target="_blank"><img src="icones/ico_twitter.png" title="Divulgar no Twitter" width="20"></a><a href="http://promote.orkut.com/preview?nt=orkut.com&amp;amp;tt=Inscricoes+para+o+Vestibular+de+Inverno+da+Udesc+ocorrem+de+21+de+maio+a+18+de+junho&amp;amp;du=http%3A%2F%2Fwww.joinville.udesc.br%2Fportal%2Fnoticias%2Findex.php%3Fid%3D5208" target="_blank"><img src="icones/ico_orkut.png" title="Divulgar no Orkut" width="20"></a><a href="email.php?id=5208" target="_blank"><img src="icones/ico_email.png" title="Enviar por Email" width="20"></a><a href="http://www.facebook.com/sharer.php?v=4&amp;amp;src=bm&amp;amp;t=Inscricoes+para+o+Vestibular+de+Inverno+da+Udesc+ocorrem+de+21+de+maio+a+18+de+junho&amp;amp;u=http%3A%2F%2Fwww.joinville.udesc.br%2Fportal%2Fnoticias%2Findex.php%3Fid%3D5208" target="_blank"><img src="icones/ico_facebook.png" title="Divulgar no Facebook" width="20"></a>
+</p>
+</center>
+</div>
+
+<img height="1" src="../img/dot1.gif" vspace="10" width="100%">
+
+<div style="padding-left:30px">
+
+<p>
+<b>&amp;Uacute;ltimas not&amp;iacute;cias:</b>
+</p>
+
+<p></p>
+<table border="0" cellpadding="0" cellspacing="0" width="520">
+
+<tbody>
+<tr>
+<td align="right" valign="top" width="100">09/05/2013&nbsp;-&nbsp;</td><td width="420"><a href="index.php?id=5207">Equipamentos para restaurante j&amp;aacute; est&amp;atilde;o no Centro de Conviv&amp;ecirc;ncia da Udesc Joinville  </a>
+<br>&nbsp;</td>
+</tr>
+
+<tr>
+<td align="right" valign="top" width="100">09/05/2013&nbsp;-&nbsp;</td><td width="420"><a href="index.php?id=5206">Udesc Joinville abre inscri&amp;ccedil;&amp;otilde;es para Mestrado Acad&amp;ecirc;mico em Engenharia Mec&amp;acirc;nica</a>
+<br>&nbsp;</td>
+</tr>
+
+<tr>
+<td align="right" valign="top" width="100">09/05/2013&nbsp;-&nbsp;</td><td width="420"><a href="index.php?id=5205">Udesc Joinville incentiva acad&amp;ecirc;micos a realizarem cursos de mestrado e doutorado</a>
+<br>&nbsp;</td>
+</tr>
+
+<tr>
+<td align="right" valign="top" width="100">08/05/2013&nbsp;-&nbsp;</td><td width="420"><a href="index.php?id=5199">Udesc Joinville tem dez alunos aprovados pelo programa Ci&amp;ecirc;ncia sem Fronteiras</a>
+<br>&nbsp;</td>
+</tr>
+
+<tr>
+<td align="right" valign="top" width="100">08/05/2013&nbsp;-&nbsp;</td><td width="420"><a href="index.php?id=5202">Udesc Joinville sediar&amp;aacute; encontro de grupos de pesquisa </a></td>
+</tr>
+
+</tbody>
+</table>
+</div>
 
 <form action="index.php" method="post">
 
@@ -236,8 +305,8 @@ Jornalista: Isabela Vargas (SC 01915 JP)<br>
 <td align="center"><a href="index.php?dia=06&amp;amp;mes=05&amp;amp;ano=2013">6</a></td>
 <td align="center"><a href="index.php?dia=07&amp;amp;mes=05&amp;amp;ano=2013">7</a></td>
 <td align="center"><a href="index.php?dia=08&amp;amp;mes=05&amp;amp;ano=2013">8</a></td>
-<td align="center"><a href="index.php?dia=09&amp;amp;mes=05&amp;amp;ano=2013">9</a></td>
-<td align="center"><a href="index.php?dia=10&amp;amp;mes=05&amp;amp;ano=2013">10</a></td>
+<td align="center" bgcolor="FFCC99"><a href="index.php?dia=09&amp;amp;mes=05&amp;amp;ano=2013">9</a></td>
+<td align="center"><font class="txtCinza">10</font></td>
 <td align="center"><font class="txtCinza">11</font></td>
 
 </tr>
@@ -245,7 +314,7 @@ Jornalista: Isabela Vargas (SC 01915 JP)<br>
 <tr bgcolor="F5F5F5">
 <td align="center"><font class="txtCinza">12</font></td>
 <td align="center"><font class="txtCinza">13</font></td>
-<td align="center" bgcolor="FFCC99"><font class="txtCinza">14</font></td>
+<td align="center"><font class="txtCinza">14</font></td>
 <td align="center"><font class="txtCinza">15</font></td>
 <td align="center"><font class="txtCinza">16</font></td>
 <td align="center"><font class="txtCinza">17</font></td>
@@ -311,7 +380,7 @@ Jornalista: Isabela Vargas (SC 01915 JP)<br>
 <tr>
 <td colspan="2" width="810">
 <img align="left" border="0" src="../img/setae.gif"> 
-<a href="../index.php"><b>Voltar : </b></a><a href="../index.php">Capa</a></td>
+<a href="index.php?pg=1&amp;amp;mes=05&amp;amp;ano=2013"><b>Voltar : </b></a><a href="../index.php">Capa</a> <img height="3" hspace="3" src="../img/dot.gif" vspace="3" width="3"> <a href="index.php">&amp;Iacute;ndice de not&amp;iacute;cias</a></td>
 </tr>
 
 <tr>

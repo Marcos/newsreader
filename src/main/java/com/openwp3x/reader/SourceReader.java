@@ -37,7 +37,12 @@ public class SourceReader {
 				final String date = this.reader.getDateContent(this.getCurrentEntry(this.entryPattern.getDateXPath(), counter), this.entryPattern.getDateTextPattern());
 				final String title = this.reader.getTextContent(this.getCurrentEntry(this.entryPattern.getTitleXPath(), counter));
 				final String link = this.reader.getTextContent(this.getCurrentEntry(this.entryPattern.getUrlXPath(), counter));
-				entries.add(new SourceEntry(date, title, link, this.entryPattern));
+				String textXPath = this.entryPattern.getTextXPath();
+				String text = null;
+				if(textXPath!=null){
+					text = this.reader.getTextContent(this.getCurrentEntry(textXPath, counter));
+				}
+				entries.add(new SourceEntry(date, title, link, text, this.entryPattern));
 				counter += this.entryPattern.getInterval();
 			} catch (Exception e) {
 				log.error("Error getting entry from " + entryPattern.getSource(), e);
