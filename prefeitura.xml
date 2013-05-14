@@ -1350,7 +1350,7 @@ No s&amp;aacute;bado &amp;agrave; noite  [...]     </p>
 <div class="right-col">&#13;
        
 <a class="weather" href="http://www.joinville.sc.gov.br/tempo">
- <img alt="tempo" src="/public/portal/imagens/weather/fog.gif"> 21&deg;
+ <img alt="tempo" src="/public/portal/imagens/weather/fog.gif"> 22&deg;
 </a>
 
 <div class="clearfix">
@@ -1770,7 +1770,7 @@ No s&amp;aacute;bado &amp;agrave; noite  [...]     </p>
 </div>&#13;
  
  
-<script>var currentDate = "Mon May 13 2013 23:27:11 BRT-0300 (Hora oficial do Brasil)";var hdImagesFolder = '/foto/';</script> 
+<script>var currentDate = "Mon May 13 2013 23:35:14 BRT-0300 (Hora oficial do Brasil)";var hdImagesFolder = '/foto/';</script> 
  <script src="/public/portal/js/plugins.min.js"></script>
   <script src="/public/portal/js/shadowbox.js"></script>
   <script src="/public/portal/js/script.min.js"></script> 

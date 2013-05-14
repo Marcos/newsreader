@@ -362,7 +362,7 @@ jQuery(function($) {
     &#13;
     &#13;
 
-<div class="wk-slideshow wk-slideshow-default" id="slideshow-1-5191a0ffba934">&#13;
+<div class="wk-slideshow wk-slideshow-default" id="slideshow-1-5191a2e27fa68">&#13;
  
 <div>&#13;
   
@@ -394,7 +394,7 @@ jQuery(function($) {
  
  jQuery(function($){
   
-  $.widgetkit.lazyloaders.slideshow($("#slideshow-1-5191a0ffba934"), {"style":"default","autoplay":1,"interval":7500,"width":"auto","height":"auto","duration":500,"index":0,"order":"default","navigation":0,"buttons":1,"slices":20,"animated":"randomFx","caption_animation_duration":500});
+  $.widgetkit.lazyloaders.slideshow($("#slideshow-1-5191a2e27fa68"), {"style":"default","autoplay":1,"interval":7500,"width":"auto","height":"auto","duration":500,"index":0,"order":"default","navigation":0,"buttons":1,"slices":20,"animated":"randomFx","caption_animation_duration":500});
  });
 
 </script>&#13;
@@ -1856,7 +1856,7 @@ jQuery(function($) {
     &#13;
   
 <h3 class="module-title">
-<span class="color">Agora,</span> no site</h3>  N&amp;oacute;s temos&nbsp;457 visitantes&nbsp;e&nbsp;2 membros&nbsp;online    <ul>
+<span class="color">Agora,</span> no site</h3>  N&amp;oacute;s temos&nbsp;453 visitantes&nbsp;e&nbsp;2 membros&nbsp;online    <ul>
      
 <li>
 <strong>cmpirapora</strong>

@@ -223,7 +223,7 @@ $(document).ready(function(){
 <div class="fotoJogadorP">
 
          
-<img alt="" height="209" src="arquivos/jogadores/jogadores_destaque/tiago_top.png" width="149">
+<img alt="" height="209" src="arquivos/jogadores/jogadores_destaque/wander_carioca_top.png" width="149">
 
   </div>
 
@@ -365,7 +365,7 @@ $(document).ready(function(){
  //=======================================
 </script>&#13;
 &#13;
- <input id="hdd_now" name="hdd_now" type="hidden" value="20130513232709">&#13;
+ <input id="hdd_now" name="hdd_now" type="hidden" value="20130513233512">&#13;
 &#13;
 
 <div class="boxTit">&#13;
@@ -571,7 +571,7 @@ $(document).ready(function(){
       
 </ul>
    
-<div id="boxPaginacao_hidden_noticias_20130513232709" style="display:none; border:1px solid #F00;">
+<div id="boxPaginacao_hidden_noticias_20130513233512" style="display:none; border:1px solid #F00;">
          
 <a href="" onclick="return false;"><strong>1</strong></a> <a href="" onclick="paginacao(2,'noticias');this.blur();return false;">2</a> <a href="" onclick="paginacao(3,'noticias');this.blur();return false;">3</a> <a href="" onclick="paginacao(4,'noticias');this.blur();return false;">4</a> <a class="last" href="" onclick="paginacao(5,'noticias');this.blur();return false;">5</a>&nbsp;&nbsp;<a class="btPagSeguinte" href="" onclick="paginacao(2,'noticias');this.blur();return false;">Pr&oacute;xima</a>    
 </div>
@@ -823,7 +823,7 @@ $(document).ready(function(){
       
 </ul>
    
-<div id="boxPaginacao_hidden_videos_20130513232709" style="display:none; border:1px solid #F00;">
+<div id="boxPaginacao_hidden_videos_20130513233512" style="display:none; border:1px solid #F00;">
          
 <a href="" onclick="return false;"><strong>1</strong></a> <a href="" onclick="paginacao(2,'videos');this.blur();return false;">2</a> <a href="" onclick="paginacao(3,'videos');this.blur();return false;">3</a> <a href="" onclick="paginacao(4,'videos');this.blur();return false;">4</a> <a class="last" href="" onclick="paginacao(5,'videos');this.blur();return false;">5</a>&nbsp;&nbsp;<a class="btPagSeguinte" href="" onclick="paginacao(2,'videos');this.blur();return false;">Pr&oacute;xima</a>    
 </div>
@@ -868,7 +868,7 @@ $(document).ready(function(){
 </div>&#13;
 
 <script>
- $("#boxPaginacao_noticias").html($("#boxPaginacao_hidden_noticias_20130513232709").html());
+ $("#boxPaginacao_noticias").html($("#boxPaginacao_hidden_noticias_20130513233512").html());
 </script>  
 </div>
   <!-- FIM CONTEUDO -->

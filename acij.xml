@@ -325,7 +325,7 @@ function ValidarBusca3()
 <form action="/busca/send" class="busca-geral top5" method="post" onsubmit="return ValidarBusca();" style="padding: 50px 0">
     
 <input class="clear" id="dsbusca" name="dsbusca" type="text">
-    <input name="identificador" type="hidden" value="20130513224342">
+    <input name="identificador" type="hidden" value="20130513225144">
     <input name="ok" type="submit" value="Ok">
          
 </form>
@@ -907,7 +907,7 @@ jQuery(document).ready(function(){
 <fieldset class="field_50">&#13;
                                                             
 <label for="celular">Digite abaixo o n&amp;uacute;mero destacado acima:</label>&#13;
-                                                            <a href="" onclick="return false" title="Reload image"><img onclick="this.src=&amp;quot;/captcha?r=&amp;quot; + Math.random() + &amp;quot;&amp;amp;reload=1&amp;quot;" src="/captcha?1368499422"></a>&#13;
+                                                            <a href="" onclick="return false" title="Reload image"><img onclick="this.src=&amp;quot;/captcha?r=&amp;quot; + Math.random() + &amp;quot;&amp;amp;reload=1&amp;quot;" src="/captcha?1368499904"></a>&#13;
                                                             
 <br clear="all">&#13;
                                                             
