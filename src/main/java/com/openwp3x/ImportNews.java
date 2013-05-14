@@ -11,12 +11,12 @@ import java.util.Collection;
 import java.util.Random;
 
 import javax.persistence.EntityManager;
+import javax.persistence.Query;
 
 import org.apache.log4j.Logger;
 
 import com.openwp3x.db.DatabaseManager;
 import com.openwp3x.db.EntityManagerUtil;
-import com.openwp3x.jobs.LinkShortener;
 import com.openwp3x.jobs.StatusEntry;
 import com.openwp3x.model.Entry;
 
@@ -25,13 +25,11 @@ public class ImportNews {
 	Logger logger = Logger.getLogger(this.getClass());
 
 	public void importNews(Collection<SourceEntry> entries) {
+		EntityManager entityManager = EntityManagerUtil.getEntityManager();
 		for (SourceEntry entry : entries) {
-			if (isValidEntry(entry) && notExist(entry)) {
-				EntityManager entityManager = EntityManagerUtil.getEntityManager();
+			if (isValidEntry(entry) && notExist(entry, entityManager)) {
 				entityManager.getTransaction().begin();
-				
-				importEntry(entry, entityManager);
-				
+				importEntry(entry, entityManager);	
 				entityManager.getTransaction().commit();
 			}
 		}
@@ -42,30 +40,27 @@ public class ImportNews {
 				&& entry.getUrl()!=null && !entry.getUrl().trim().equals("");
 	}
 
-	private boolean notExist(SourceEntry entry) {
-		Connection connection = null;
-		PreparedStatement preparedStatement = null;
-		try {
-			connection = DatabaseManager.getConnection();
-			preparedStatement = connection.prepareStatement("select * from entry where title_entry=? and source=? ");
-			preparedStatement.setString(1, entry.getFormattedTitle());
-			preparedStatement.setString(2, entry.getSource());
-
-			ResultSet resultSet = preparedStatement.executeQuery();
-			return !resultSet.next();
-		} catch (Exception e) {
-			logger.error(e);
-		} finally {
-			try {
-				preparedStatement.close();
-			} catch (SQLException e) {
-				logger.error(e);
-			}
-		}
-		return false;
+	private boolean notExist(SourceEntry entry, EntityManager entityManager) {
+		Query query = getUniqueQuery(entityManager, entry);
+		Long result = (Long) query.getSingleResult();
+		return result<1;
 	}
 
-	private synchronized void importEntry(SourceEntry sourceEntry, EntityManager entityManager) {
+	private Query getUniqueQuery(EntityManager entityManager, SourceEntry sourceEntry) {
+		StringBuilder ql = new StringBuilder();
+		ql.append("select count(*) from Entry where "); 
+		ql.append("(urlSource=:urlSource and source=:source) "); 
+		ql.append("or "); 
+		ql.append("(titleSource=:titleSource and source=:source) ");
+		Query query = entityManager.createQuery(ql.toString());
+		query.setParameter("urlSource", sourceEntry.getUrl());
+		query.setParameter("source", sourceEntry.getSource());
+		query.setParameter("titleSource", sourceEntry.getTitle());
+		query.setParameter("source", sourceEntry.getSource());
+		return query;
+	}
+
+	private void importEntry(SourceEntry sourceEntry, EntityManager entityManager) {
 		Entry entry = new Entry();
 		
 		Calendar calendar = Calendar.getInstance();
@@ -84,7 +79,10 @@ public class ImportNews {
 		entry.setSourceLabel(sourceEntry.getSourceLabel());
 		entry.setRandomFactor(new Random().nextLong());
 		
-		entityManager.persist(entry);
+		synchronized (entityManager) {
+			entityManager.persist(entry);
+		}
+		
 		
 	}
 

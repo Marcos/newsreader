@@ -636,6 +636,13 @@ function MM_nbGroup(event, grpName) { //v6.0
  
 <li class="latestnews">
   
+<a class="latestnews" href="/site/noticias/1838-130513-comissao-tenta-votar-na-terca-relatorio-a-mp-que-compensa-estados-por-reforma-do-icms">
+   13/05/13 - Comiss&amp;atilde;o tenta votar na ter&amp;ccedil;a relat&amp;oacute;rio &amp;agrave; MP que compensa estados por reforma do ICMS</a>
+ 
+</li>
+ 
+<li class="latestnews">
+  
 <a class="latestnews" href="/site/noticias/1837-100513-prefeito-udo-fala-sobre-as-acoes-do-primeiro-ano-de-governo-na-ajorpeme">
    10/05/13 - Prefeito Udo fala sobre as a&amp;ccedil;&amp;otilde;es do primeiro ano de governo na Ajorpeme</a>
  
@@ -659,13 +666,6 @@ function MM_nbGroup(event, grpName) { //v6.0
   
 <a class="latestnews" href="/site/noticias/1834-090513-mais-uma-edicao-da-noite-de-negocios-da-ajorpeme">
    09/05/13 - Mais uma edi&amp;ccedil;&amp;atilde;o da Noite de Neg&amp;oacute;cios da Ajorpeme</a>
- 
-</li>
- 
-<li class="latestnews">
-  
-<a class="latestnews" href="/site/noticias/1833-090513-empresarios-participam-do-forum-de-excelencia-em-servicos">
-   09/05/13 - Empres&amp;aacute;rios participam do F&amp;oacute;rum de Excel&amp;ecirc;ncia em Servi&amp;ccedil;os</a>
  
 </li>
 
@@ -727,7 +727,7 @@ function MM_nbGroup(event, grpName) { //v6.0
 
 </p> 
 <input name="Itemid" type="hidden" value="">
- <input name="c7e7a59289184bd1a539d50652bd2793" type="hidden" value="1">
+ <input name="0c98d95e9331528d9c5515b4ca629125" type="hidden" value="1">
 </form>
 
 <div style="text-align: center">&#13;
@@ -1030,6 +1030,51 @@ window.onload = init();
        
 <td class="article_column" valign="top" width="100%">
      
+
+<table class="contentpaneopennoticias">
+
+<tbody>
+<tr>
+  
+<td class="contentheadingnoticias" width="100%">
+    <a class="contentpagetitlenoticias" href="/site/noticias/1838-130513-comissao-tenta-votar-na-terca-relatorio-a-mp-que-compensa-estados-por-reforma-do-icms">
+   13/05/13 - Comiss&amp;atilde;o tenta votar na ter&amp;ccedil;a relat&amp;oacute;rio &amp;agrave; MP que compensa estados por reforma do ICMS</a>
+   </td>
+ 
+ 
+ 
+     
+</tr>
+
+</tbody>
+</table>
+
+<table class="contentpaneopennoticias">
+
+
+
+
+
+<tbody>
+<tr>
+
+<td colspan="2" valign="top">
+
+<p>&#13;
+
+</p>
+</td>
+
+</tr>
+
+
+
+
+</tbody>
+</table>
+
+<span class="article_separator">&nbsp;</span>
+
 
 <table class="contentpaneopennoticias">
 

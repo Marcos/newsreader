@@ -296,7 +296,7 @@ public class SourcePatternFactory {
 		entryPattern.setMaxResult(10);
 		entryPattern.setSource("krona");
 		entryPattern.setUrlResource("http://www.krona.com.br/kronafutsal/");
-		entryPattern.setDateFormat("dd MMM yy");
+		entryPattern.setDateFormat("d MMM yy");
 		entryPattern.setSourceLabel("Krona Futsal");
 		entryPattern.setTags(Arrays.asList(new Tag[]{Tag.esportes}));
 		return entryPattern;

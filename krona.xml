@@ -223,7 +223,7 @@ $(document).ready(function(){
 <div class="fotoJogadorP">
 
          
-<img alt="" height="209" src="arquivos/jogadores/jogadores_destaque/ricardinho_top.png" width="149">
+<img alt="" height="209" src="arquivos/jogadores/jogadores_destaque/tiago_top.png" width="149">
 
   </div>
 
@@ -365,7 +365,7 @@ $(document).ready(function(){
  //=======================================
 </script>&#13;
 &#13;
- <input id="hdd_now" name="hdd_now" type="hidden" value="20130512212703">&#13;
+ <input id="hdd_now" name="hdd_now" type="hidden" value="20130513232709">&#13;
 &#13;
 
 <div class="boxTit">&#13;
@@ -399,6 +399,40 @@ $(document).ready(function(){
       
 <ul class="listNovidades">
        
+<li title="../site/arquivos/download/tmb_siteee___1698.jpg">
+                      
+<a class="btMais" href="" onclick="loadConteudo(1276,'noticias');this.blur();return false;" title="Mais Detalhes">Mais Detalhes</a>
+     
+<p class="dataNews">13 Mai 13</p>
+                      
+<a href="./?area=noticias&amp;amp;id=1276" style="width:75px; height:45px; max-height:50px; overflow:hidden; display:inline; border:1px solid #efefef; position:absolute; top:25px;" title="Krona Futsal goleia Assoeva e segue na lideran&amp;ccedil;a da Liga"><img src="http://www.krona.com.br/site/arquivos/download/tmb_siteee___1698.jpg" style="position:relative; top:-3px;"></a>     
+<h6>
+<a href="" onclick="loadConteudo(1276,'noticias');this.blur();return false;" title="Krona Futsal goleia Assoeva e segue na lideran&amp;ccedil;a da Liga">Krona Futsal goleia Assoeva e segue na lideran&amp;ccedil;a da Liga</a>
+</h6>
+     
+<p>
+<a href="" onclick="loadConteudo(1276,'noticias');this.blur();return false;" title="Foto: Manolo Quir&amp;oacute;z.">Foto: Manolo Quir&amp;oacute;z.</a>
+</p>
+    
+</li>
+        
+<li title="../site/arquivos/download/tmb_site_sele__o_.jpg">
+                      
+<a class="btMais" href="" onclick="loadConteudo(1275,'noticias');this.blur();return false;" title="Mais Detalhes">Mais Detalhes</a>
+     
+<p class="dataNews">13 Mai 13</p>
+                      
+<a href="./?area=noticias&amp;amp;id=1275" style="width:75px; height:45px; max-height:50px; overflow:hidden; display:inline; border:1px solid #efefef; position:absolute; top:25px;" title="Trio da Krona &amp;eacute; convocado para Sele&amp;ccedil;&amp;atilde;o Brasileira de Futsal"><img src="http://www.krona.com.br/site/arquivos/download/tmb_site_sele__o_.jpg" style="position:relative; top:-3px;"></a>     
+<h6>
+<a href="" onclick="loadConteudo(1275,'noticias');this.blur();return false;" title="Trio da Krona &amp;eacute; convocado para Sele&amp;ccedil;&amp;atilde;o Brasileira de Futsal">Trio da Krona &amp;eacute; convocado para Sele&amp;ccedil;&amp;atilde;o Brasileira de Futsal</a>
+</h6>
+     
+<p>
+<a href="" onclick="loadConteudo(1275,'noticias');this.blur();return false;" title="Foto: Manolo Quir&amp;oacute;z.">Foto: Manolo Quir&amp;oacute;z.</a>
+</p>
+    
+</li>
+        
 <li title="../site/arquivos/download/tmb_Ferretti_site___1980.jpg">
                       
 <a class="btMais" href="" onclick="loadConteudo(1272,'noticias');this.blur();return false;" title="Mais Detalhes">Mais Detalhes</a>
@@ -534,44 +568,10 @@ $(document).ready(function(){
 </p>
     
 </li>
-        
-<li title="../site/arquivos/download/tmb_siteee_ferretti.jpg">
-                      
-<a class="btMais" href="" onclick="loadConteudo(1256,'noticias');this.blur();return false;" title="Mais Detalhes">Mais Detalhes</a>
-     
-<p class="dataNews">5 Mai 13</p>
-                      
-<a href="./?area=noticias&amp;amp;id=1256" style="width:75px; height:45px; max-height:50px; overflow:hidden; display:inline; border:1px solid #efefef; position:absolute; top:25px;" title="Krona Futsal recebe o Umuarama visando seguir no topo da tabela"><img src="http://www.krona.com.br/site/arquivos/download/tmb_siteee_ferretti.jpg" style="position:relative; top:1px;"></a>     
-<h6>
-<a href="" onclick="loadConteudo(1256,'noticias');this.blur();return false;" title="Krona Futsal recebe o Umuarama visando seguir no topo da tabela">Krona Futsal recebe o Umuarama visando seguir no topo da tabela</a>
-</h6>
-     
-<p>
-<a href="" onclick="loadConteudo(1256,'noticias');this.blur();return false;" title="Foto: Manolo Quir&amp;oacute;z.">Foto: Manolo Quir&amp;oacute;z.</a>
-</p>
-    
-</li>
-        
-<li title="../site/arquivos/download/tmb_Dyego_2219.jpg">
-                      
-<a class="btMais" href="" onclick="loadConteudo(1255,'noticias');this.blur();return false;" title="Mais Detalhes">Mais Detalhes</a>
-     
-<p class="dataNews">4 Mai 13</p>
-                      
-<a href="./?area=noticias&amp;amp;id=1255" style="width:75px; height:45px; max-height:50px; overflow:hidden; display:inline; border:1px solid #efefef; position:absolute; top:25px;" title="Krona vence e divide a lideran&amp;ccedil;a da Liga Nacional com o Corinthians"><img src="http://www.krona.com.br/site/arquivos/download/tmb_Dyego_2219.jpg" style="position:relative; top:-3px;"></a>     
-<h6>
-<a href="" onclick="loadConteudo(1255,'noticias');this.blur();return false;" title="Krona vence e divide a lideran&amp;ccedil;a da Liga Nacional com o Corinthians">Krona vence e divide a lideran&amp;ccedil;a da Liga Nacional com o Corinthians</a>
-</h6>
-     
-<p>
-<a href="" onclick="loadConteudo(1255,'noticias');this.blur();return false;" title="Foto: Manolo Quir&amp;oacute;z.">Foto: Manolo Quir&amp;oacute;z.</a>
-</p>
-    
-</li>
       
 </ul>
    
-<div id="boxPaginacao_hidden_noticias_20130512212703" style="display:none; border:1px solid #F00;">
+<div id="boxPaginacao_hidden_noticias_20130513232709" style="display:none; border:1px solid #F00;">
          
 <a href="" onclick="return false;"><strong>1</strong></a> <a href="" onclick="paginacao(2,'noticias');this.blur();return false;">2</a> <a href="" onclick="paginacao(3,'noticias');this.blur();return false;">3</a> <a href="" onclick="paginacao(4,'noticias');this.blur();return false;">4</a> <a class="last" href="" onclick="paginacao(5,'noticias');this.blur();return false;">5</a>&nbsp;&nbsp;<a class="btPagSeguinte" href="" onclick="paginacao(2,'noticias');this.blur();return false;">Pr&oacute;xima</a>    
 </div>
@@ -590,19 +590,21 @@ $(document).ready(function(){
 
 <script src="http://www.krona.com.br/site/lib/componentes/jquery.lightbox.js" type="text/javascript"></script>
 
-<p class="txtZoomData">12 Mai 13</p>
+<p class="txtZoomData">13 Mai 13</p>
 
-<h4 id="h4_noticias">Krona recebe a Assoeva no Gin&aacute;sio da Univille</h4>
+<h4 id="h4_noticias">Krona Futsal goleia Assoeva e segue na lideran&ccedil;a da Liga</h4>
 
 <div class="contentItemPromo" style="background:none; height:auto;">
    
-<img src="http://www.krona.com.br/site/arquivos/download/Ferretti_site___1980.jpg">
+<img src="http://www.krona.com.br/site/arquivos/download/siteee___1698.jpg">
       <p class="txt"></p>
-<p class="txt">L&iacute;der invicto da Liga Futsal 2013, com 20 pontos, o time da Krona Futsal recebe a Assoeva/Ven&acirc;ncio Aires (RS) nesta segunda-feira (13/05), &agrave;s 20h15min, no Gin&aacute;sio da Univille, em Joinville (SC). O duelo &eacute; v&aacute;lido pela nona rodada da competi&ccedil;&atilde;o nacional. Os ingressos est&atilde;o &agrave; venda nas lojas HSports.</p>
-<p class="txt">O duelo diante da Assoeva marca o primeiro da Krona no Gin&aacute;sio da Univille em 2013. &ldquo;O Centreventos Cau Hansen &eacute; a pra&ccedil;a principal do esporte da cidade, mas a Univille tamb&eacute;m &eacute; nossa casa. O grupo conhece bem o local e vamos aproveitar ao m&aacute;ximo para tentar o resultado positivo. Um time como o nosso est&aacute; adaptado e preparado para qualquer circunst&acirc;ncia&rdquo;, afirmou o t&eacute;cnico Fernando Ferretti.&nbsp;</p>
-<p class="txt">Depois da vit&oacute;ria sobre o Carlos Barbosa, por 4 a 3, no &uacute;ltimo s&aacute;bado (11/05), a Krona retomou a lideran&ccedil;a da competi&ccedil;&atilde;o nacional. A equipe encara a Assoeva para seguir no topo da tabela de classifica&ccedil;&atilde;o. &ldquo;A Assoeva perdeu a invencibilidade na Liga apenas na &uacute;ltima rodada. &Eacute; um time muito bem treinado e equilibrado, mas seguimos confiantes para manter o embalo&rdquo;, completou Ferretti&nbsp;</p>
-<p class="txt">Os bilhetes antecipados custam R$ 16,00 (inteira) e R$ 8,00 (meia-entrada). A meia-entrada &eacute; destinada a estudantes e aposentados, mediante a apresenta&ccedil;&atilde;o do comprovante original com validade. Crian&ccedil;as de 5 &agrave; 10 anos pagam R$ 5,00.&nbsp;</p>
-<p class="txt">J&aacute; a partir das 19h desta segunda-feira (13/05), os ingressos estar&atilde;o &agrave; venda apenas nas bilheterias do Gin&aacute;sio da Univille, seguindo os valores de R$ 20,00 (inteira) e R$ 10,00 (meia-entrada). Crian&ccedil;as at&eacute; cinco anos t&ecirc;m acesso livre. J&aacute; as crian&ccedil;as de 5 &agrave; 10 anos pagam R$ 5,00.</p>
+<p class="txt">A Krona Futsal segue na lideran&ccedil;a da Liga Futsal 2013. Nesta segunda-feira (13/05), o time joinvilense goleou a Assoeva/Ven&acirc;ncio Aires, por 5 a 0, no Gin&aacute;sio da Univille, em Joinville (SC). Agora, soma nove jogos de invencibilidade na competi&ccedil;&atilde;o nacional, com 23 pontos. Os gols da equipe foram marcados por Vander Carioca (2), Deives (2) e Dyego.</p>
+<p class="txt">Pela primeira vez jogando oficialmente no Gin&aacute;sio da Univille em 2013, a Krona Futsal n&atilde;o tomou reconhecimento dos visitantes e construiu o resultado positivo com superioridade. A equipe abriu o placar aos oito minutos, no voleio certeiro do piv&ocirc; Vander Carioca, artilheiro da Liga Futsal 2013.&nbsp;</p>
+<p class="txt">Depois do gol, a partida ficou ainda mais ofensiva. O time joinvilense teve a chance de marcar o segundo com o piv&ocirc; Elisandro, mas a bola saiu pela linha de fundo. Valdin tamb&eacute;m arriscou, em nova investida ao ataque. Desta vez, Bas&iacute;lio espalmou para escanteio. J&aacute; a Assoeva tentou o gol aos 12 minutos. Thiaguinho bateu de fora da &aacute;rea e Tiago pegou. Em seguida, R&ocirc;mulo recebeu passe dentro da &aacute;rea, mas o goleiro da Krona Futsal evitou a rea&ccedil;&atilde;o do clube de Ven&acirc;ncio Aires (RS).</p>
+<p class="txt">A rede voltou a balan&ccedil;ar ainda na primeira etapa. Em cobran&ccedil;a ensaiada de escanteio, no oportunismo, Vander Carioca ampliou a contagem para Krona Futsal. O tricolor levou o resultado para o intervalo, confirmando a vit&oacute;ria na etapa final.&nbsp;</p>
+<p class="txt">Aos 12 minutos do segundo tempo, Valdin arrancou em velocidade e encontrou Dyego, livre de marca&ccedil;&atilde;o. O ala da Krona concluiu na sa&iacute;da do goleiro, marcando o terceiro dos joinvilenses. Depois do gol, a Assoeva passou a arriscar com o goleiro-linha, mas quem levou a melhor foi a Krona Futsal.&nbsp;</p>
+<p class="txt">Bem postada na marca&ccedil;&atilde;o e efetiva no ataque, a Krona Futsal chegou ainda ao quarto e quinto gol, ambos anotados pelo piv&ocirc; Deives. Placar final: Krona Futsal 5 x 0 Assoeva. O tricolor encerra assim a maratona de quatro jogos seguidos em Joinville. O pr&oacute;ximo compromisso ocorre no s&aacute;bado (18/05), contra o Guarapuava, no interior do Paran&aacute;.&nbsp;</p>
+<p class="txt">Gols da Krona Futsal: Vander Carioca (2), Deives (2) e Dyego.</p>
 <p class="txt">
 <strong>Renan Pereira</strong>
 </p>
@@ -619,19 +621,19 @@ $(document).ready(function(){
 <ul>
        
 <li style="float:left">
-<a href="http://www.krona.com.br/site/arquivos/download/?id=2529&amp;amp;count=1" style="float:left" title=""><img src="http://www.krona.com.br/site/arquivos/download/tmb_Ferretti_site___1980.jpg"></a>
+<a href="http://www.krona.com.br/site/arquivos/download/?id=2539&amp;amp;count=1" style="float:left" title=""><img src="http://www.krona.com.br/site/arquivos/download/tmb_siteee___1698.jpg"></a>
 </li>
         
 <li style="float:left">
-<a href="http://www.krona.com.br/site/arquivos/download/?id=2530&amp;amp;count=1" style="float:left" title=""><img src="http://www.krona.com.br/site/arquivos/download/tmb_Tiago__3127.jpg"></a>
+<a href="http://www.krona.com.br/site/arquivos/download/?id=2540&amp;amp;count=1" style="float:left" title=""><img src="http://www.krona.com.br/site/arquivos/download/tmb_Krona_x_Assoeva4_.JPG"></a>
 </li>
         
 <li style="float:left">
-<a href="http://www.krona.com.br/site/arquivos/download/?id=2531&amp;amp;count=1" style="float:left" title=""><img src="http://www.krona.com.br/site/arquivos/download/tmb_Tiago_380.JPG"></a>
+<a href="http://www.krona.com.br/site/arquivos/download/?id=2541&amp;amp;count=1" style="float:left" title=""><img src="http://www.krona.com.br/site/arquivos/download/tmb_Krona_x_Assoeva5_.JPG"></a>
 </li>
         
 <li style="float:left">
-<a href="http://www.krona.com.br/site/arquivos/download/?id=2532&amp;amp;count=1" style="float:left" title=""><img src="http://www.krona.com.br/site/arquivos/download/tmb_Sakai_____.jpg"></a>
+<a href="http://www.krona.com.br/site/arquivos/download/?id=2542&amp;amp;count=1" style="float:left" title=""><img src="http://www.krona.com.br/site/arquivos/download/tmb_Krona_x_Assoeva2_.JPG"></a>
 </li>
        
 </ul>
@@ -659,6 +661,22 @@ $(document).ready(function(){
       
 <ul class="listNovidades">
        
+<li title="">
+                      
+<a class="btMais" href="" onclick="loadConteudo(1274,'videos');this.blur();return false;" title="Mais Detalhes">Mais Detalhes</a>
+     
+<p class="dataNews">13 Mai 13</p>
+                           
+<h6>
+<a href="" onclick="loadConteudo(1274,'videos');this.blur();return false;" title="Krona 4 x 3 Carlos Barbosa 11/05/2013">Krona 4 x 3 Carlos Barbosa 11/05/2013</a>
+</h6>
+     
+<p>
+<a href="" onclick="loadConteudo(1274,'videos');this.blur();return false;" title="Jogo pela Liga Futsal 2013 |...">Jogo pela Liga Futsal 2013 |...</a>
+</p>
+    
+</li>
+        
 <li title="">
                       
 <a class="btMais" href="" onclick="loadConteudo(1262,'videos');this.blur();return false;" title="Mais Detalhes">Mais Detalhes</a>
@@ -802,26 +820,10 @@ $(document).ready(function(){
 </p>
     
 </li>
-        
-<li title="">
-                      
-<a class="btMais" href="" onclick="loadConteudo(1127,'videos');this.blur();return false;" title="Mais Detalhes">Mais Detalhes</a>
-     
-<p class="dataNews">17 Dez 12</p>
-                           
-<h6>
-<a href="" onclick="loadConteudo(1127,'videos');this.blur();return false;" title="TA&amp;Ccedil;A BRASIL 2012 - KRONA FUTSAL 3 X 3 INTELLI">TA&amp;Ccedil;A BRASIL 2012 - KRONA FUTSAL 3 X 3 INTELLI</a>
-</h6>
-     
-<p>
-<a href="" onclick="loadConteudo(1127,'videos');this.blur();return false;" title=""></a>
-</p>
-    
-</li>
       
 </ul>
    
-<div id="boxPaginacao_hidden_videos_20130512212703" style="display:none; border:1px solid #F00;">
+<div id="boxPaginacao_hidden_videos_20130513232709" style="display:none; border:1px solid #F00;">
          
 <a href="" onclick="return false;"><strong>1</strong></a> <a href="" onclick="paginacao(2,'videos');this.blur();return false;">2</a> <a href="" onclick="paginacao(3,'videos');this.blur();return false;">3</a> <a href="" onclick="paginacao(4,'videos');this.blur();return false;">4</a> <a class="last" href="" onclick="paginacao(5,'videos');this.blur();return false;">5</a>&nbsp;&nbsp;<a class="btPagSeguinte" href="" onclick="paginacao(2,'videos');this.blur();return false;">Pr&oacute;xima</a>    
 </div>
@@ -840,13 +842,13 @@ $(document).ready(function(){
 
 <script src="http://www.krona.com.br/site/lib/componentes/jquery.lightbox.js" type="text/javascript"></script>
 
-<p class="txtZoomData">7 Mai 13</p>
+<p class="txtZoomData">13 Mai 13</p>
 
-<h4 id="h4_videos">Krona 2 x 0 Umuarama 06/05/2013</h4>
+<h4 id="h4_videos">Krona 4 x 3 Carlos Barbosa 11/05/2013</h4>
 
 <div class="contentItemPromo" style="background:none; height:auto;">
    
-<iframe frameborder="0" height="385" src="http://www.youtube.com/embed/_ObO53EbSlY" width="480"></iframe>
+<iframe frameborder="0" height="385" src="http://www.youtube.com/embed/B1wbyZEzsmc" width="480"></iframe>
       
 <p class="txt"></p>
 
@@ -866,7 +868,7 @@ $(document).ready(function(){
 </div>&#13;
 
 <script>
- $("#boxPaginacao_noticias").html($("#boxPaginacao_hidden_noticias_20130512212703").html());
+ $("#boxPaginacao_noticias").html($("#boxPaginacao_hidden_noticias_20130513232709").html());
 </script>  
 </div>
   <!-- FIM CONTEUDO -->
