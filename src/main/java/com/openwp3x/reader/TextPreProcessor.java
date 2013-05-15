@@ -13,11 +13,25 @@ public class TextPreProcessor {
 	public String normalizeWordWrap(String text) {
 		String normalizedText = text; 
 		normalizedText = normalizedText.replaceAll("\r", "");
-		normalizedText = normalizedText.replaceAll("\n\\s*", "\n");
+		normalizedText = normalizedText.replaceAll("( )+", " ");
 		normalizedText = normalizedText.replaceAll("\n *", "\n");
 		normalizedText = normalizedText.replaceAll("^\n", "");
 		normalizedText = normalizedText.replaceAll("\n$", "");
 		return normalizedText.trim();
+	}
+	
+	public static void main(String[] args) {
+		String[] tests = {
+		        "  x  ",          // [x]
+		        "  1   2   3  ",  // [1 2 3]
+		        "",               // []
+		        "   ",            // []
+		    };
+		    for (String test : tests) {
+		        System.out.format("[%s]%n",
+		            test.replaceAll("^ +| +$|( )+", "$1")
+		        );
+		    }
 	}
 	
 	public String treatSufixPattern(String text, String sufixPattern) {
