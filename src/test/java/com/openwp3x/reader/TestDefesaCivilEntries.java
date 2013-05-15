@@ -47,7 +47,6 @@ public class TestDefesaCivilEntries {
         Assert.assertEquals(10, entries.size());
     }
     
-    
     @Test
     public void testReadLink1() throws MalformedURLException, LinkException{
     	LinkReader linkReader = new LinkReader(entryPattern, link1);

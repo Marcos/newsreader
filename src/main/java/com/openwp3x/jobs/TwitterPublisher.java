@@ -7,12 +7,12 @@ import java.sql.SQLException;
 
 import org.apache.log4j.Logger;
 
-import com.openwp3x.NuveoJob;
-import com.openwp3x.db.DatabaseManager;
-
 import twitter4j.Status;
 import twitter4j.TwitterException;
 import twitter4j.TwitterFactory;
+
+import com.openwp3x.NuveoJob;
+import com.openwp3x.db.DatabaseManager;
 
 public class TwitterPublisher implements NuveoJob{
 

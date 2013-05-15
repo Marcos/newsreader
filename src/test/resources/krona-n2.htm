@@ -1,0 +1,602 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<title>Notícias Krona</title>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="author" content="Solu&ccedil;&otilde;es - Planejamento, Propaganda, Design Gr&aacute;fico e Comunica&ccedil;&atilde;o Digital" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="title" content="Notícias Krona" />
+	<meta name="robots" content="index,follow" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta name="classification" content="Portal" />
+	<meta name="distribution" content="Global" />
+	<meta name="rating" content="General" />
+	<meta name="language" content="pt-br" />
+	<meta name="viewport" content="width=1024">
+
+<link href="css/estilosPrint.css" rel="stylesheet" type="text/css" media="print" />
+<link href="css/estilos.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
+
+<script type="text/javascript" src="lib/componentes/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="js/roll.js"></script>
+<script type="text/javascript" src="js/swfobject.js"></script>
+<script type="text/javascript" src="http://www.krona.com.br/site/lib/componentes/geral.js"></script>
+<!--[if IE 6]>
+<script type="text/javascript">
+	/*Load jQuery if not already loaded*/ if(typeof jQuery == 'undefined'){ document.write("<script type=\"text/javascript\"   src=\"http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js\"></"+"script>"); var __noconflict = true; }
+	var IE6UPDATE_OPTIONS = {icons_path: "lib/componentes/ie6images/"}
+</script>
+<script type="text/javascript" src="lib/componentes/ie6update.js"></script>
+<![endif]-->
+<script type="text/javascript" src="js/jcarousellite_1.0.1.min.js"></script>
+<script type="text/javascript" src="lib/componentes/jquery.pngFix.pack.js"></script>
+<script type="text/javascript">
+	function trocaImagemAtleta(){
+		var arr_atleta_nome = Array();
+		var arr_atleta_foto_topo = Array();
+		var arr_atleta_foto_base = Array();
+							arr_atleta_nome[0] = 'Dudu';
+					arr_atleta_foto_topo[0] = Array();
+					arr_atleta_foto_topo[0][0] = 'dudu_top.png';
+					arr_atleta_foto_base[0] = Array();
+					arr_atleta_foto_base[0][0] = 'dudu_botom.png';
+										arr_atleta_nome[1] = 'Leandrinho';
+					arr_atleta_foto_topo[1] = Array();
+					arr_atleta_foto_topo[1][0] = 'leandrinho_top.png';
+					arr_atleta_foto_base[1] = Array();
+					arr_atleta_foto_base[1][0] = 'leandrinho_botom.png';
+										arr_atleta_nome[2] = 'Leco';
+					arr_atleta_foto_topo[2] = Array();
+					arr_atleta_foto_topo[2][0] = 'leco_top.png';
+					arr_atleta_foto_base[2] = Array();
+					arr_atleta_foto_base[2][0] = 'leco_botom.png';
+										arr_atleta_nome[3] = 'Ricardinho';
+					arr_atleta_foto_topo[3] = Array();
+					arr_atleta_foto_topo[3][0] = 'ricardinho_top.png';
+					arr_atleta_foto_base[3] = Array();
+					arr_atleta_foto_base[3][0] = 'ricardinho_botom.png';
+										arr_atleta_nome[4] = 'Thiago Carioca';
+					arr_atleta_foto_topo[4] = Array();
+					arr_atleta_foto_topo[4][0] = 'thiago_carioca_top.png';
+					arr_atleta_foto_base[4] = Array();
+					arr_atleta_foto_base[4][0] = 'thiago_carioca_botom.png';
+										arr_atleta_nome[5] = 'Tiago';
+					arr_atleta_foto_topo[5] = Array();
+					arr_atleta_foto_topo[5][0] = 'tiago_top.png';
+					arr_atleta_foto_base[5] = Array();
+					arr_atleta_foto_base[5][0] = 'tiago_botom.png';
+										arr_atleta_nome[6] = 'Vander Carioca';
+					arr_atleta_foto_topo[6] = Array();
+					arr_atleta_foto_topo[6][0] = 'wander_carioca_top.png';
+					arr_atleta_foto_base[6] = Array();
+					arr_atleta_foto_base[6][0] = 'wander_carioca_botom.png';
+							var diretorio 		= "arquivos/jogadores/jogadores_destaque/";
+		var trocou_topo 	= false;
+		var trocou_base 	= false;
+		var intRandomMain 	= 0;
+		var intRandomSub	= 0;
+		var controle_loop 	= 0;
+		var str_img_topo = "";
+		var str_img_bottom = "";
+		//troca topo
+		while( (!trocou_topo) && (controle_loop < 200) ){
+			intRandomMain = rand(1,7) - 1;
+			if(arr_atleta_foto_topo[intRandomMain].length > 0){
+				intRandomSub = rand(1,arr_atleta_foto_topo[intRandomMain].length) - 1;
+				//alert(arr_atleta_foto_topo[intRandomMain][intRandomSub]);
+				str_img_topo = diretorio+''+arr_atleta_foto_topo[intRandomMain][intRandomSub];
+				trocou_topo = true;
+				controle_loop = 0;
+			}//if
+			controle_loop++;
+		}//wh
+		
+		while( (!trocou_base) && (controle_loop < 200) ){
+			intRandomMain = rand(1,7) - 1;
+			if(arr_atleta_foto_base[intRandomMain].length > 0){
+				intRandomSub = rand(1,arr_atleta_foto_base[intRandomMain].length) - 1;
+				//alert(intRandomSub +' : '+ arr_atleta_foto_base.length)
+				str_img_bottom = diretorio+''+arr_atleta_foto_base[intRandomMain][intRandomSub];
+				trocou_base = true;
+				controle_loop = 0;
+			}//if
+			controle_loop++;
+		}//wh
+		
+		//topo
+		if(document.getElementById('img_jogador_top')!=null){
+			document.getElementById('img_jogador_top').src = str_img_topo;
+			document.getElementById('img_jogador_top').style.visibility = "visible";
+		}
+		//bottom/base, lembrando q intRandomMain foi setado por ultimo em bottom/base
+		if(document.getElementById('img_jogador_bottom')!=null){
+			document.getElementById('img_jogador_bottom').src = str_img_bottom;
+			document.getElementById('img_jogador_bottom').alt = arr_atleta_nome[intRandomMain];
+			document.getElementById('img_jogador_bottom').style.visibility = "visible";
+		}
+		if(document.getElementById('str_nome_jogador_bottom')!=null)document.getElementById('str_nome_jogador_bottom').innerHTML = arr_atleta_nome[intRandomMain];
+		
+		setTimeout('trocaImagemAtleta()',5000);
+	}//fnc
+		</script>
+    <script type="text/javascript">
+
+	function rand(l,u){
+    	return Math.floor((Math.random() * (u-l+1))+l);
+	}
+
+
+	$(document).ready(function(){
+
+		$('div#general').pngFix( );
+		//setup inicial
+		
+		$(".carrossel").jCarouselLite({
+				btnPrev : '#btPrevCarrosell',
+				btnNext : '#btNextCarrosell',
+				visible : 7,
+				speed: 900,
+				scroll: 5
+		});
+		
+	});
+		
+	
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+						
+	$('.bt_fecharLayer, .bgOverlayZoom2').click(function(){
+		$('.layer').fadeOut();
+		$(".bgOverlayZoom2").fadeOut();
+		return false
+	});
+	
+})
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-18832600-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body id="noticias" onload="trocaImagemAtleta();">
+	<!-- INI GERAL -->
+	<div id="general">
+    	
+
+
+		<!-- INI CABECALHO -->
+		<div id="header">
+			<a id="topo" name="topo"></a>
+<a href="index.php" title="Krona Futsal"><img src="imagens/estrutura/krona-brasao-3-estrelas.png" width="136" height="152" alt="Krona Futsal" class="img-brasao" /></a>
+<h1 class="h1brasao">KRONA FUTSAL</h1>
+<h1 class="h1marca"><a href="http://www.krona.com.br/site/" target="_blank" title="Krona"><!--<img src="imagens/estrutura/marca_krona.gif" width="84" height="56" alt="Krona" />--></a></h1>
+
+<a href="http://www.krona.com.br/site/" title="Visite o site da  Krona Tubos e Conexões" class="btVisiteSite">Visite o site da  Krona Tubos e Conexões</a>
+
+		<div class="fotoJogadorP">
+
+        	<img src="arquivos/jogadores/jogadores_destaque/dudu_top.png" width="149" height="209" alt="" />
+
+		</div>
+
+
+<ul class="navRedes_top">
+	<li><a href="http://www.facebook.com/kronafutsal" title="Acesse o Facebook da Krona Futsal" target="_blank" class="btFace_top">facebook</a></li>
+	<li><a href="http://twitter.com/kronafutsal" title="Acesse o Twitter da Krona Futsal" target="_blank" class="btTwit_top">twitter</a></li>
+</ul>
+
+<form name="formBusca" id="formBusca" method="post" action="resultado_busca.php" style="display:none;">
+<div>
+	<input type="text" name="txt_busca" id="txt_busca" value="Busca" size="23" />
+</div>
+	<input type="submit" name="OK" class="btOK" value="" />
+</form>		</div>
+		<!-- FIM CABECALHO -->
+
+		<!-- INI NAVEGACAO -->
+		<div id="navigation">
+			<ul style="margin-left:225px;">
+	<li><a href="sobre.php" title="Sobre a Krona Futsal">O CLUBE</a></li>
+	<li><a href="jogadores.php" title="Atletas">ATLETAS</a></li>
+	<li><a href="./?area=campeonatos&lng=pt" title="Campeonatos">CAMPEONATOS</a></li>
+	<li><a href="./?area=noticias&lng=pt" title="Notícias e Vídeos">NOTÍCIAS E VÍDEOS</a></li>
+	<li><a href="./?area=promocoes&lng=pt" title="Promoções">PROMOÇÕES</a></li>
+	<li class="last"><a href="contato.php" title="Contato">CONTATO</a></li>
+</ul>
+
+		</div>
+		<!-- FIM NAVEGACAO -->
+
+		<!-- INI DESTAQUE -->
+		<div id="destaque">
+			    <div>
+    
+    
+
+    <script type="text/javascript">
+        swfobject.registerObject("flashDestaque", "9.0.0", "js/expressInstall.swf");
+    </script>
+    
+    </div>
+
+		</div>
+		<!-- FIM DESTAQUE -->
+
+		<!-- INI CONTEUDO -->
+		<div id="content">
+						<script>
+	//=======================================
+	function mudaAba(qual){
+		$('#li_aba_noticias').removeClass('clicado');
+		$('#li_aba_videos').removeClass('clicado');
+		$('#div_aba_noticias').hide();
+		$('#div_aba_videos').hide();
+		$('#li_aba_'+qual).addClass('clicado');
+		$('#div_aba_'+qual).show();
+		if(qual=="videos"){
+			$('#h1_titulo_area').html('V&iacute;deos');
+		}else{
+			$('#h1_titulo_area').html('Not&iacute;cias');
+		}
+	}//fnc
+	//=======================================
+	function loadConteudo(id_qual,qual){
+		var agora = getNowString();
+		$("#div_carregando_"+qual).show();
+		$.ajax({
+			url: 'ajax_noticias_dtl.php?area='+qual+'&id='+id_qual+'&now='+agora,
+		  	success: function(data) {
+				$('#div_conteudo_'+qual).html(data);
+				$("#div_carregando_"+qual).hide();
+		  	},
+		  	error: function(){
+				$("#div_carregando_"+qual).hide();
+			}
+		});
+	}//fnc
+	//=======================================
+	function paginacao(pagina,qual){
+		var agora = getNowString();
+		$("#div_carregando_"+qual).show();
+		$.ajax({
+			url: 'ajax_noticias_lst.php?area='+qual+'&page='+pagina+'&now='+agora,
+		  	success: function(data) {
+				$('#div_list_'+qual).html(data);
+				$("#div_carregando_"+qual).hide();
+				$("#boxPaginacao_"+qual).html($("#boxPaginacao_hidden_"+qual+"_"+agora).html());
+		  	},
+		  	error: function(){
+				$("#div_carregando_"+qual).hide();
+			}
+		});
+	}
+	//=======================================
+</script>
+
+	<input type="hidden" name="hdd_now" id="hdd_now" value="20130514225256">
+
+<div class="boxTit">
+	<h1 id="h1_titulo_area">Notícias</h1>
+</div>
+
+<div class="mioloContentBorder">
+			<ul id="navAbasNavContents">
+			<li id="li_aba_noticias" class="clicado"><a href="#" title="Notícias" onclick="mudaAba('noticias');this.blur();return false;">Notícias</a></li>
+			<li id="li_aba_videos"><a href="#" title="Vídeos" onclick="mudaAba('videos');this.blur();return false;">Vídeos</a></li>
+		</ul>
+				<div id="div_aba_noticias" class="groupBorder" style="display:;">
+			<div id="div_carregando_noticias" style="display:none; padding:20px;"><img src="imagens/estrutura/loading4.gif" />&nbsp;<span style="color:#999;">Carregando...</span></div>
+			<div id="div_list_noticias" class="listItens">
+						<ul class="listNovidades">
+							<li title="../site/arquivos/download/tmb_siteee___1701.jpg">
+                						<a href="" title="Mais Detalhes" class="btMais" onclick="loadConteudo(1278,'noticias');this.blur();return false;">Mais Detalhes</a>
+					<p class="dataNews">14 Mai 13</p>
+						                <a href="./?area=noticias&id=1278" title="Krona Futsal nas escolas de Joinville" style="width:75px; height:45px; max-height:50px; overflow:hidden; display:inline; border:1px solid #efefef; position:absolute; top:25px;"><img src="http://www.krona.com.br/site/arquivos/download/tmb_siteee___1701.jpg" style="position:relative; top:-0px;" /></a>					<h6><a href="" title="Krona Futsal nas escolas de Joinville" onclick="loadConteudo(1278,'noticias');this.blur();return false;">Krona Futsal nas escolas de Joinville</a></h6>
+					<p><a href="" title="Foto: Manolo Quiróz." onclick="loadConteudo(1278,'noticias');this.blur();return false;">Foto: Manolo Quiróz.</a></p>
+				</li>
+								<li title="../site/arquivos/download/tmb_siteee___1698.jpg">
+                						<a href="" title="Mais Detalhes" class="btMais" onclick="loadConteudo(1276,'noticias');this.blur();return false;">Mais Detalhes</a>
+					<p class="dataNews">13 Mai 13</p>
+						                <a href="./?area=noticias&id=1276" title="Krona Futsal goleia Assoeva e segue na liderança da Liga" style="width:75px; height:45px; max-height:50px; overflow:hidden; display:inline; border:1px solid #efefef; position:absolute; top:25px;"><img src="http://www.krona.com.br/site/arquivos/download/tmb_siteee___1698.jpg" style="position:relative; top:-3px;" /></a>					<h6><a href="" title="Krona Futsal goleia Assoeva e segue na liderança da Liga" onclick="loadConteudo(1276,'noticias');this.blur();return false;">Krona Futsal goleia Assoeva e segue na liderança da Liga</a></h6>
+					<p><a href="" title="Foto: Manolo Quiróz." onclick="loadConteudo(1276,'noticias');this.blur();return false;">Foto: Manolo Quiróz.</a></p>
+				</li>
+								<li title="../site/arquivos/download/tmb_site_sele__o_.jpg">
+                						<a href="" title="Mais Detalhes" class="btMais" onclick="loadConteudo(1275,'noticias');this.blur();return false;">Mais Detalhes</a>
+					<p class="dataNews">13 Mai 13</p>
+						                <a href="./?area=noticias&id=1275" title="Trio da Krona é convocado para Seleção Brasileira de Futsal" style="width:75px; height:45px; max-height:50px; overflow:hidden; display:inline; border:1px solid #efefef; position:absolute; top:25px;"><img src="http://www.krona.com.br/site/arquivos/download/tmb_site_sele__o_.jpg" style="position:relative; top:-3px;" /></a>					<h6><a href="" title="Trio da Krona é convocado para Seleção Brasileira de Futsal" onclick="loadConteudo(1275,'noticias');this.blur();return false;">Trio da Krona é convocado para Seleção Brasileira de Futsal</a></h6>
+					<p><a href="" title="Foto: Manolo Quiróz." onclick="loadConteudo(1275,'noticias');this.blur();return false;">Foto: Manolo Quiróz.</a></p>
+				</li>
+								<li title="../site/arquivos/download/tmb_Ferretti_site___1980.jpg">
+                						<a href="" title="Mais Detalhes" class="btMais" onclick="loadConteudo(1272,'noticias');this.blur();return false;">Mais Detalhes</a>
+					<p class="dataNews">12 Mai 13</p>
+						                <a href="./?area=noticias&id=1272" title="Krona recebe a Assoeva no Ginásio da Univille" style="width:75px; height:45px; max-height:50px; overflow:hidden; display:inline; border:1px solid #efefef; position:absolute; top:25px;"><img src="http://www.krona.com.br/site/arquivos/download/tmb_Ferretti_site___1980.jpg" style="position:relative; top:-0px;" /></a>					<h6><a href="" title="Krona recebe a Assoeva no Ginásio da Univille" onclick="loadConteudo(1272,'noticias');this.blur();return false;">Krona recebe a Assoeva no Ginásio da Univille</a></h6>
+					<p><a href="" title="Foto: divulgação." onclick="loadConteudo(1272,'noticias');this.blur();return false;">Foto: divulgação.</a></p>
+				</li>
+								<li title="../site/arquivos/download/tmb_kronaessa__.jpg">
+                						<a href="" title="Mais Detalhes" class="btMais" onclick="loadConteudo(1271,'noticias');this.blur();return false;">Mais Detalhes</a>
+					<p class="dataNews">11 Mai 13</p>
+						                <a href="./?area=noticias&id=1271" title="Líder invicto, Krona Futsal supera o Carlos Barbosa" style="width:75px; height:45px; max-height:50px; overflow:hidden; display:inline; border:1px solid #efefef; position:absolute; top:25px;"><img src="http://www.krona.com.br/site/arquivos/download/tmb_kronaessa__.jpg" style="position:relative; top:0px;" /></a>					<h6><a href="" title="Líder invicto, Krona Futsal supera o Carlos Barbosa" onclick="loadConteudo(1271,'noticias');this.blur();return false;">Líder invicto, Krona Futsal supera o Carlos Barbosa</a></h6>
+					<p><a href="" title="Foto: Manolo Quiróz." onclick="loadConteudo(1271,'noticias');this.blur();return false;">Foto: Manolo Quiróz.</a></p>
+				</li>
+								<li title="../site/arquivos/download/tmb_Krona_.JPG">
+                						<a href="" title="Mais Detalhes" class="btMais" onclick="loadConteudo(1270,'noticias');this.blur();return false;">Mais Detalhes</a>
+					<p class="dataNews">10 Mai 13</p>
+						                <a href="./?area=noticias&id=1270" title="Duelo de gigantes no Centreventos Cau Hansen" style="width:75px; height:45px; max-height:50px; overflow:hidden; display:inline; border:1px solid #efefef; position:absolute; top:25px;"><img src="http://www.krona.com.br/site/arquivos/download/tmb_Krona_.JPG" style="position:relative; top:-3px;" /></a>					<h6><a href="" title="Duelo de gigantes no Centreventos Cau Hansen" onclick="loadConteudo(1270,'noticias');this.blur();return false;">Duelo de gigantes no Centreventos Cau Hansen</a></h6>
+					<p><a href="" title="Foto: Manolo Quiróz." onclick="loadConteudo(1270,'noticias');this.blur();return false;">Foto: Manolo Quiróz.</a></p>
+				</li>
+								<li title="../site/arquivos/download/tmb_Schneider_360.jpg">
+                						<a href="" title="Mais Detalhes" class="btMais" onclick="loadConteudo(1269,'noticias');this.blur();return false;">Mais Detalhes</a>
+					<p class="dataNews">10 Mai 13</p>
+						                <a href="./?area=noticias&id=1269" title="Estreia no estadual sub-20 é adiada" style="width:75px; height:45px; max-height:50px; overflow:hidden; display:inline; border:1px solid #efefef; position:absolute; top:25px;"><img src="http://www.krona.com.br/site/arquivos/download/tmb_Schneider_360.jpg" style="position:relative; top:1px;" /></a>					<h6><a href="" title="Estreia no estadual sub-20 é adiada" onclick="loadConteudo(1269,'noticias');this.blur();return false;">Estreia no estadual sub-20 é adiada</a></h6>
+					<p><a href="" title="Foto: Manolo Quiróz" onclick="loadConteudo(1269,'noticias');this.blur();return false;">Foto: Manolo Quiróz</a></p>
+				</li>
+								<li title="../site/arquivos/download/tmb_site_essaaa.jpg">
+                						<a href="" title="Mais Detalhes" class="btMais" onclick="loadConteudo(1266,'noticias');this.blur();return false;">Mais Detalhes</a>
+					<p class="dataNews">9 Mai 13</p>
+						                <a href="./?area=noticias&id=1266" title="Equilíbrio entre Krona Futsal e Carlos Barbosa" style="width:75px; height:45px; max-height:50px; overflow:hidden; display:inline; border:1px solid #efefef; position:absolute; top:25px;"><img src="http://www.krona.com.br/site/arquivos/download/tmb_site_essaaa.jpg" style="position:relative; top:-3px;" /></a>					<h6><a href="" title="Equilíbrio entre Krona Futsal e Carlos Barbosa" onclick="loadConteudo(1266,'noticias');this.blur();return false;">Equilíbrio entre Krona Futsal e Carlos Barbosa</a></h6>
+					<p><a href="" title="Foto: Manolo Quiróz." onclick="loadConteudo(1266,'noticias');this.blur();return false;">Foto: Manolo Quiróz.</a></p>
+				</li>
+								<li title="../site/arquivos/download/tmb_Krona_3_x_2_Carlos_Barbosa_.jpg">
+                						<a href="" title="Mais Detalhes" class="btMais" onclick="loadConteudo(1265,'noticias');this.blur();return false;">Mais Detalhes</a>
+					<p class="dataNews">8 Mai 13</p>
+						                <a href="./?area=noticias&id=1265" title="Líder da Liga Nacional, Krona enfrenta o atual campeão do mundo" style="width:75px; height:45px; max-height:50px; overflow:hidden; display:inline; border:1px solid #efefef; position:absolute; top:25px;"><img src="http://www.krona.com.br/site/arquivos/download/tmb_Krona_3_x_2_Carlos_Barbosa_.jpg" style="position:relative; top:0px;" /></a>					<h6><a href="" title="Líder da Liga Nacional, Krona enfrenta o atual campeão do mundo" onclick="loadConteudo(1265,'noticias');this.blur();return false;">Líder da Liga Nacional, Krona enfrenta o atual campeão do mundo</a></h6>
+					<p><a href="" title="Foto: Manolo Quiróz." onclick="loadConteudo(1265,'noticias');this.blur();return false;">Foto: Manolo Quiróz.</a></p>
+				</li>
+								<li title="../site/arquivos/download/tmb_site_china_.jpg">
+                						<a href="" title="Mais Detalhes" class="btMais" onclick="loadConteudo(1264,'noticias');this.blur();return false;">Mais Detalhes</a>
+					<p class="dataNews">7 Mai 13</p>
+						                <a href="./?area=noticias&id=1264" title="Jovens da Krona Futsal na Seleção Brasileira Sub-21" style="width:75px; height:45px; max-height:50px; overflow:hidden; display:inline; border:1px solid #efefef; position:absolute; top:25px;"><img src="http://www.krona.com.br/site/arquivos/download/tmb_site_china_.jpg" style="position:relative; top:-2px;" /></a>					<h6><a href="" title="Jovens da Krona Futsal na Seleção Brasileira Sub-21" onclick="loadConteudo(1264,'noticias');this.blur();return false;">Jovens da Krona Futsal na Seleção Brasileira Sub-21</a></h6>
+					<p><a href="" title="Foto: Manolo Quiróz." onclick="loadConteudo(1264,'noticias');this.blur();return false;">Foto: Manolo Quiróz.</a></p>
+				</li>
+						</ul>
+			<div id="boxPaginacao_hidden_noticias_20130514225256" style="display:none; border:1px solid #F00;">
+         <a href="" onclick="return false;"><strong>1</strong></a> <a href="" onclick="paginacao(2,'noticias');this.blur();return false;">2</a> <a href="" onclick="paginacao(3,'noticias');this.blur();return false;">3</a> <a href="" onclick="paginacao(4,'noticias');this.blur();return false;">4</a> <a href="" onclick="paginacao(5,'noticias');this.blur();return false;" class="last">5</a>&nbsp;&nbsp;<a href="" onclick="paginacao(2,'noticias');this.blur();return false;" class="btPagSeguinte">Pr&oacute;xima</a>    </div>
+    <br clear="all" />
+			</div>
+			<div id="div_conteudo_noticias" class="zoomItens">
+						<script type="text/javascript">
+            $(document).ready(function(){
+                $('#boxFotosInc a').lightbox();
+            })
+        </script>
+<link rel="stylesheet" type="text/css" media="screen" href="http://www.krona.com.br/site/lib/componentes/jquery.lightbox.css" />
+<script type="text/javascript" src="http://www.krona.com.br/site/lib/componentes/jquery.lightbox.js"></script>
+<p class="txtZoomData">13 Mai 13</p>
+<h4 id="h4_noticias">Krona Futsal goleia Assoeva e segue na lideran&ccedil;a da Liga</h4>
+<div class="contentItemPromo" style="background:none; height:auto;">
+			<img src="http://www.krona.com.br/site/arquivos/download/siteee___1698.jpg" />
+		    <p class="txt"><p class="txt">A Krona Futsal segue na lideran&ccedil;a da Liga Futsal 2013. Nesta segunda-feira (13/05), o time joinvilense goleou a Assoeva/Ven&acirc;ncio Aires, por 5 a 0, no Gin&aacute;sio da Univille, em Joinville (SC). Agora, soma nove jogos de invencibilidade na competi&ccedil;&atilde;o nacional, com 23 pontos. Os gols da equipe foram marcados por Vander Carioca (2), Deives (2) e Dyego.</p>
+<p class="txt">Pela primeira vez jogando oficialmente no Gin&aacute;sio da Univille em 2013, a Krona Futsal n&atilde;o tomou reconhecimento dos visitantes e construiu o resultado positivo com superioridade. A equipe abriu o placar aos oito minutos, no voleio certeiro do piv&ocirc; Vander Carioca, artilheiro da Liga Futsal 2013.&nbsp;</p>
+<p class="txt">Depois do gol, a partida ficou ainda mais ofensiva. O time joinvilense teve a chance de marcar o segundo com o piv&ocirc; Elisandro, mas a bola saiu pela linha de fundo. Valdin tamb&eacute;m arriscou, em nova investida ao ataque. Desta vez, Bas&iacute;lio espalmou para escanteio. J&aacute; a Assoeva tentou o gol aos 12 minutos. Thiaguinho bateu de fora da &aacute;rea e Tiago pegou. Em seguida, R&ocirc;mulo recebeu passe dentro da &aacute;rea, mas o goleiro da Krona Futsal evitou a rea&ccedil;&atilde;o do clube de Ven&acirc;ncio Aires (RS).</p>
+<p class="txt">A rede voltou a balan&ccedil;ar ainda na primeira etapa. Em cobran&ccedil;a ensaiada de escanteio, no oportunismo, Vander Carioca ampliou a contagem para Krona Futsal. O tricolor levou o resultado para o intervalo, confirmando a vit&oacute;ria na etapa final.&nbsp;</p>
+<p class="txt">Aos 12 minutos do segundo tempo, Valdin arrancou em velocidade e encontrou Dyego, livre de marca&ccedil;&atilde;o. O ala da Krona concluiu na sa&iacute;da do goleiro, marcando o terceiro dos joinvilenses. Depois do gol, a Assoeva passou a arriscar com o goleiro-linha, mas quem levou a melhor foi a Krona Futsal.&nbsp;</p>
+<p class="txt">Bem postada na marca&ccedil;&atilde;o e efetiva no ataque, a Krona Futsal chegou ainda ao quarto e quinto gol, ambos anotados pelo piv&ocirc; Deives. Placar final: Krona Futsal 5 x 0 Assoeva. O tricolor encerra assim a maratona de quatro jogos seguidos em Joinville. O pr&oacute;ximo compromisso ocorre no s&aacute;bado (18/05), contra o Guarapuava, no interior do Paran&aacute;.&nbsp;</p>
+<p class="txt">Gols da Krona Futsal: Vander Carioca (2), Deives (2) e Dyego.</p>
+<p class="txt"><strong>Renan Pereira</strong></p>
+<p class="txt">Assessoria de Imprensa Krona Futsal</p>
+<p class="txt">Siga-nos no Twitter: <a href="http://www.twitter.com/kronafutsal" target="_blank">www.twitter.com/kronafutsal</a></p>
+<p class="txt">Tamb&eacute;m estamos no face:&nbsp; <a href="http://www.facebook.com/KronaFutsalJoinville">http://www.facebook.com/KronaFutsalJoinville</a></p></p>
+</div>
+	<div id="boxFotosInc">
+			<ul>
+							<li style="float:left"><a href="http://www.krona.com.br/site/arquivos/download/?id=2539&count=1" style="float:left" title=""><img src="http://www.krona.com.br/site/arquivos/download/tmb_siteee___1698.jpg" /></a></li>
+								<li style="float:left"><a href="http://www.krona.com.br/site/arquivos/download/?id=2540&count=1" style="float:left" title=""><img src="http://www.krona.com.br/site/arquivos/download/tmb_Krona_x_Assoeva4_.JPG" /></a></li>
+								<li style="float:left"><a href="http://www.krona.com.br/site/arquivos/download/?id=2541&count=1" style="float:left" title=""><img src="http://www.krona.com.br/site/arquivos/download/tmb_Krona_x_Assoeva5_.JPG" /></a></li>
+								<li style="float:left"><a href="http://www.krona.com.br/site/arquivos/download/?id=2542&count=1" style="float:left" title=""><img src="http://www.krona.com.br/site/arquivos/download/tmb_Krona_x_Assoeva2_.JPG" /></a></li>
+							</ul>
+	</div>
+	<br clear="all" />			</div>
+			<br clear="all" /><br clear="all" /><br clear="all" />
+			<div id="boxPaginacao_noticias" class="boxPaginacao"></div>
+		</div>
+				<div id="div_aba_videos" class="groupBorder" style="display:none;">
+			<div id="div_carregando_videos" style="display:none; padding:20px;"><img src="imagens/estrutura/loading4.gif" />&nbsp;<span style="color:#999;">Carregando...</span></div>
+			<div id="div_list_videos" class="listItens">
+						<ul class="listNovidades">
+							<li title="">
+                						<a href="" title="Mais Detalhes" class="btMais" onclick="loadConteudo(1277,'videos');this.blur();return false;">Mais Detalhes</a>
+					<p class="dataNews">14 Mai 13</p>
+						                					<h6><a href="" title="Krona 5 x 0 Assoeva 13/05/2013" onclick="loadConteudo(1277,'videos');this.blur();return false;">Krona 5 x 0 Assoeva 13/05/2013</a></h6>
+					<p><a href="" title="Jogo pela Liga Futsal 2013 |..." onclick="loadConteudo(1277,'videos');this.blur();return false;">Jogo pela Liga Futsal 2013 |...</a></p>
+				</li>
+								<li title="">
+                						<a href="" title="Mais Detalhes" class="btMais" onclick="loadConteudo(1274,'videos');this.blur();return false;">Mais Detalhes</a>
+					<p class="dataNews">13 Mai 13</p>
+						                					<h6><a href="" title="Krona 4 x 3 Carlos Barbosa 11/05/2013" onclick="loadConteudo(1274,'videos');this.blur();return false;">Krona 4 x 3 Carlos Barbosa 11/05/2013</a></h6>
+					<p><a href="" title="Jogo pela Liga Futsal 2013 |..." onclick="loadConteudo(1274,'videos');this.blur();return false;">Jogo pela Liga Futsal 2013 |...</a></p>
+				</li>
+								<li title="">
+                						<a href="" title="Mais Detalhes" class="btMais" onclick="loadConteudo(1262,'videos');this.blur();return false;">Mais Detalhes</a>
+					<p class="dataNews">7 Mai 13</p>
+						                					<h6><a href="" title="Krona 2 x 0 Umuarama 06/05/2013" onclick="loadConteudo(1262,'videos');this.blur();return false;">Krona 2 x 0 Umuarama 06/05/2013</a></h6>
+					<p><a href="" title="Jogo pela Liga Futsal 2013 |..." onclick="loadConteudo(1262,'videos');this.blur();return false;">Jogo pela Liga Futsal 2013 |...</a></p>
+				</li>
+								<li title="">
+                						<a href="" title="Mais Detalhes" class="btMais" onclick="loadConteudo(1260,'videos');this.blur();return false;">Mais Detalhes</a>
+					<p class="dataNews">6 Mai 13</p>
+						                					<h6><a href="" title="Krona 2 x 1 Copagril  04/05/2013" onclick="loadConteudo(1260,'videos');this.blur();return false;">Krona 2 x 1 Copagril  04/05/2013</a></h6>
+					<p><a href="" title="Jogo pela Liga Futsal 2013 |..." onclick="loadConteudo(1260,'videos');this.blur();return false;">Jogo pela Liga Futsal 2013 |...</a></p>
+				</li>
+								<li title="">
+                						<a href="" title="Mais Detalhes" class="btMais" onclick="loadConteudo(1241,'videos');this.blur();return false;">Mais Detalhes</a>
+					<p class="dataNews">23 Abr 13</p>
+						                					<h6><a href="" title="Liga Futsal 2013 | KRONA X MINAS" onclick="loadConteudo(1241,'videos');this.blur();return false;">Liga Futsal 2013 | KRONA X MINAS</a></h6>
+					<p><a href="" title="Jogo pela Liga Futsal 2013 |..." onclick="loadConteudo(1241,'videos');this.blur();return false;">Jogo pela Liga Futsal 2013 |...</a></p>
+				</li>
+								<li title="">
+                						<a href="" title="Mais Detalhes" class="btMais" onclick="loadConteudo(1239,'videos');this.blur();return false;">Mais Detalhes</a>
+					<p class="dataNews">21 Abr 13</p>
+						                					<h6><a href="" title="Campanha do Agasalho 2013 - Krona Tubos e Conexões S.A." onclick="loadConteudo(1239,'videos');this.blur();return false;">Campanha do Agasalho 2013 - Krona Tubos e Conexões S.A.</a></h6>
+					<p><a href="" title="Campanha do agasalho tem o apoio..." onclick="loadConteudo(1239,'videos');this.blur();return false;">Campanha do agasalho tem o apoio...</a></p>
+				</li>
+								<li title="">
+                						<a href="" title="Mais Detalhes" class="btMais" onclick="loadConteudo(1235,'videos');this.blur();return false;">Mais Detalhes</a>
+					<p class="dataNews">19 Abr 13</p>
+						                					<h6><a href="" title="Harlem Shake Krona Futsal" onclick="loadConteudo(1235,'videos');this.blur();return false;">Harlem Shake Krona Futsal</a></h6>
+					<p><a href="" title="Uma festa animada com as feras..." onclick="loadConteudo(1235,'videos');this.blur();return false;">Uma festa animada com as feras...</a></p>
+				</li>
+								<li title="">
+                						<a href="" title="Mais Detalhes" class="btMais" onclick="loadConteudo(1177,'videos');this.blur();return false;">Mais Detalhes</a>
+					<p class="dataNews">28 Fev 13</p>
+						                					<h6><a href="" title="COPA CATARATAS DE FUTSAL - KRONA FUTSAL 3 X 2 JARAGUA" onclick="loadConteudo(1177,'videos');this.blur();return false;">COPA CATARATAS DE FUTSAL - KRONA FUTSAL 3 X 2 JARAGUA</a></h6>
+					<p><a href="" title="Final Copa Cataratas de Futsal..." onclick="loadConteudo(1177,'videos');this.blur();return false;">Final Copa Cataratas de Futsal...</a></p>
+				</li>
+								<li title="">
+                						<a href="" title="Mais Detalhes" class="btMais" onclick="loadConteudo(1174,'videos');this.blur();return false;">Mais Detalhes</a>
+					<p class="dataNews">27 Fev 13</p>
+						                					<h6><a href="" title="COPA CATARATAS DE FUTSAL - FOZ FUTSAL 0 X 5 KRONA FUTSAL" onclick="loadConteudo(1174,'videos');this.blur();return false;">COPA CATARATAS DE FUTSAL - FOZ FUTSAL 0 X 5 KRONA FUTSAL</a></h6>
+					<p><a href="" title="Jogo válido pela 2ª Rodada da..." onclick="loadConteudo(1174,'videos');this.blur();return false;">Jogo válido pela 2ª Rodada da...</a></p>
+				</li>
+								<li title="">
+                						<a href="" title="Mais Detalhes" class="btMais" onclick="loadConteudo(1129,'videos');this.blur();return false;">Mais Detalhes</a>
+					<p class="dataNews">17 Dez 12</p>
+						                					<h6><a href="" title="TAÇA BRASIL 2012 - KRONA FUTSAL 2 X 7 MINAS" onclick="loadConteudo(1129,'videos');this.blur();return false;">TAÇA BRASIL 2012 - KRONA FUTSAL 2 X 7 MINAS</a></h6>
+					<p><a href="" title="" onclick="loadConteudo(1129,'videos');this.blur();return false;"></a></p>
+				</li>
+						</ul>
+			<div id="boxPaginacao_hidden_videos_20130514225256" style="display:none; border:1px solid #F00;">
+         <a href="" onclick="return false;"><strong>1</strong></a> <a href="" onclick="paginacao(2,'videos');this.blur();return false;">2</a> <a href="" onclick="paginacao(3,'videos');this.blur();return false;">3</a> <a href="" onclick="paginacao(4,'videos');this.blur();return false;">4</a> <a href="" onclick="paginacao(5,'videos');this.blur();return false;" class="last">5</a>&nbsp;&nbsp;<a href="" onclick="paginacao(2,'videos');this.blur();return false;" class="btPagSeguinte">Pr&oacute;xima</a>    </div>
+    <br clear="all" />
+			</div>
+			<div id="div_conteudo_videos" class="zoomItens">
+						<script type="text/javascript">
+            $(document).ready(function(){
+                $('#boxFotosInc a').lightbox();
+            })
+        </script>
+<link rel="stylesheet" type="text/css" media="screen" href="http://www.krona.com.br/site/lib/componentes/jquery.lightbox.css" />
+<script type="text/javascript" src="http://www.krona.com.br/site/lib/componentes/jquery.lightbox.js"></script>
+<p class="txtZoomData">14 Mai 13</p>
+<h4 id="h4_videos">Krona 5 x 0 Assoeva 13/05/2013</h4>
+<div class="contentItemPromo" style="background:none; height:auto;">
+			<iframe src="http://www.youtube.com/embed/VVUTG7FB004" width="480" height="385" frameborder="0"></iframe>
+		    <p class="txt"></p>
+</div>
+<br clear="all" />			</div>
+			<br clear="all" /><br clear="all" /><br clear="all" />
+			<div id="boxPaginacao_videos" class="boxPaginacao"></div>
+		</div>
+		</div>
+<script>
+	$("#boxPaginacao_noticias").html($("#boxPaginacao_hidden_noticias_20130514225256").html());
+</script>		</div>
+		<!-- FIM CONTEUDO -->
+					<div id="navigationLinear">
+				<ul>
+	<li><a href="javascript:history.back();" title="Voltar para a página anterior" class="btVoltar">Voltar</a></li>
+	<li><a href="index.php" title="Ir para a Home" class="btHome">Home</a></li>
+	<li><a href="#topo" title="Ir para o topo da página" class="btTopo">Topo</a></li>
+</ul>
+
+			</div>
+			</div>
+	<!-- FIM DIV GERAL -->
+
+	<!-- INI RODAPE -->
+	<div id="footer">
+		<div id="mainFooter">
+		<div class="FooterTwitter_logoKrona">
+	<ul>
+		<li><a href="https://www.facebook.com/KronaFutsalJoinville" target="_blank" title="Curta a Krona Futsal no Facebook" class="logoTwitterFooter" ><img src="imagens/estrutura/btFacebookBottom.png" alt="Curta a Krona Futsal no Facebook" width="184" height="42" border="0" /></a></li>
+		<li><a href="http://twitter.com/kronafutsal" target="_blank" title="siga a @kronafutsal no twitter" class="logoTwitterFooter" ><img src="imagens/estrutura/btTwitterBottom.gif" alt="siga a @kronafutsal no twitter" width="184" height="42" border="0" /></a></li>
+		<li><img src="imagens/estrutura/krona-brasao-3-estrelas-mn.png" width="122" height="70" alt="Krona Futsal" class="logoKronaFooter"/></li>
+	</ul> 
+</div>
+<div class="FooterAmigos">
+	<div class="FooterParceiros">
+		<h6 class="txtPatrocinio"><img src="imagens/tit/txt_patrocinio_pt.gif" alt="Patrocínio" width="50" height="11" /></h6>
+			<ul>
+				<li class="semBG"><a href="http://www.krona.com.br/" target="_blank"><img src="imagens/estrutura/logo_krona.gif" alt="Krona Tubos e Conexões" width="85" height="55" border="0" /></a></li>
+				<li><a href="http://www.umbro.com/pt-br/" target="_blank"><img src="imagens/estrutura/logo_umbro.gif" alt="Umbro" width="84" height="55" border="0" /></a></li>
+				<li><a href="http://www.univille.edu.br/" target="_blank"><img src="imagens/estrutura/logo_univille.gif" alt="Univille" width="42" height="55" border="0" /></a></li>
+				<li><a href="http://www.joinville.sc.gov.br/" target="_blank"><img src="imagens/estrutura/logo_joinville.gif" alt="Prefeitura Municipal de Joinville" width="69" height="55" border="0" /></a></li>
+                <li><a href="http://www.momfort.com.br/" target="_blank"><img src="imagens/estrutura/logo_momfort.gif" alt="MomFort" width="95" height="55" border="0" /></a></li>
+			</ul>
+      <div class="apoio">
+       <!--<h6 class="txtApoio"><img src="imagens/tit/txt_apoio.gif" alt="Apoio:" width="30" height="12" /></h6> 
+       
+	   <ul class="apoio">
+				<li><a href="http://joinville.jovempanfm.virgula.uol.com.br/" target="_blank"><img src="imagens/estrutura/logoJP.gif" alt="Jovem Pan Joinville" width="54" height="55" border="0" /></a></li>
+     -->  </ul>  
+	   
+       </div>  
+  </div>
+	<h6 class="txtAmigos"><img src="imagens/tit/tit_amigos_pt.gif" alt="Amigos" width="40" height="11" /></h6>	
+	<ul class="amigosFooter">
+		<li><a href="http://www.maistransportes.com.br/" title="Mais Transportes" target="_blank"><img src="imagens/estrutura/logosFooter/logo_mais_transportes.jpg" class="roll" alt="Mais Transportes" /></a></li>
+        <li><img src="imagens/estrutura/logosFooter/logo_pavanello.jpg" class="roll" alt="Pavanello" /></li>
+        <li><img src="imagens/estrutura/logosFooter/logo_transportes.jpg" class="roll" alt="LV" /></li>
+        <li><img src="imagens/estrutura/logosFooter/logo_seculos.jpg" class="roll" alt="Século" /></li>
+	<br />
+        <li><img src="imagens/estrutura/logosFooter/logo_zodoli.jpg" class="roll" alt="Zodoli" /></li>
+        <li><a href="http://www.ramthun.com.br/" title="Ramthun" target="_blank"><img src="imagens/estrutura/logosFooter/logo_ramthun.jpg" class="roll" alt="Ramthun" /></a></li>
+        <li><a href="http://joinville.jovempanfm.virgula.uol.com.br/" title="Jovem Pan" target="_blank"><img src="imagens/estrutura/logosFooter/logo_jovempan.jpg" class="roll" alt="Jovem Pan" /></a></li>
+        <li><a href="www.gelsleihter.com.br/" title="Gelsleihter" target="_blank"><img src="imagens/estrutura/logosFooter/logo_gelsleihter.jpg" class="roll" alt="Gelsleihter" /></a></li>
+        <li><img src="imagens/estrutura/logosFooter/logo_hsports.jpg" class="roll" alt="H Sports" /></li>
+	<br />
+        <li><a href="http://www.manadobrasil.com.br" target="_blank"><img src="imagens/estrutura/logosFooter/logo_mana.jpg" class="roll" alt="Maná" /></a></li>
+        <li><img src="imagens/estrutura/logosFooter/logo_congonhas.jpg" class="roll" alt="Conganhas" /></li>
+        <li><img src="imagens/estrutura/logosFooter/logo_holdi.jpg" class="roll" alt="Holdi" /></li>
+        <li><img src="imagens/estrutura/logosFooter/logo_bfz.jpg" class="roll" alt="BFZ" /></li>
+		<li><a href="http://www.ielusc.br/portal/" title="Bom Jesus IELUSC" target="_blank"><img src="imagens/estrutura/logosFooter/logo_bomjesus.jpg" class="roll" alt="Bom Jesus IELUSC" /></a></li>
+        <li><a href="http://www.schumamoldes.com.br/" title="Schuma" target="_blank"><img src="imagens/estrutura/logosFooter/logo_schuma.jpg" class="roll" alt="Schuma" /></a></li>
+	</ul>
+    <!--
+    <ul class="amigosFooter">
+		<li><img src="imagens/estrutura/logosFooter/logo_bomJesus.gif" alt="Bom Jesus IELUSC" /></li>
+		<li><img src="imagens/estrutura/logosFooter/logo_maisTransportes.gif" alt="Mais Transportes" /></li>
+		<li><img src="imagens/estrutura/logosFooter/logo_ascensus.gif" alt="Ascensus" /></li>
+		<li><img src="imagens/estrutura/logosFooter/logo_MetalurgicaWind.gif" alt="Metalúrgica Wind" /></li>
+		<li><img src="imagens/estrutura/logosFooter/logo_indubor.gif" alt="Indubor" /></li>
+		<li><img src="imagens/estrutura/logosFooter/logo_congonhasBrasil.gif" alt="Congonhas" /></li>
+		<li><img src="imagens/estrutura/logosFooter/logo_Pavanello.gif" alt="Pavanello" /></li>
+		<li><img src="imagens/estrutura/logosFooter/logoSchuma.gif" alt="Schuma" /></li>
+		<li><img src="imagens/estrutura/logosFooter/logoMann.gif" alt="Mann" /></li>
+		<li><img src="imagens/estrutura/logosFooter/logoHoldi.gif" alt="Holdi" /></li>
+		<li><img src="imagens/estrutura/logosFooter/logo_BFZ.gif" alt="BFZ" /></li>
+		<li><img src="imagens/estrutura/logosFooter/logo_Zoboli.gif" alt="Zoboli" /></li>
+		<li><img src="imagens/estrutura/logosFooter/logo_ladis.gif" alt="Ladi's" /></li>
+	</ul>    
+    -->
+</div>
+
+<div class="vcard">
+	<div class="company">© 2010	- Krona Tubos e Conexões S.A</div> -
+	<div class="adr">
+		<span class="street-address">Rua dos Suíços, 715</span> -
+		<span class="neighborhood">Vila Nova</span> - 
+		<span class="locality">Joinville</span>/<span class="region">SC</span> -		    
+	</div>
+	<div class="tel">(47) 3431-7800</div> -
+</div>
+
+<a href="http://www.solucoes.com.br/" target="_blank" rel="copyright" class="btCredit" title="Solu&ccedil;&otilde;es - Planejamento, Propaganda, Design Gr&aacute;fico e Comunica&ccedil;&atilde;o Digital [nova janela]">by Solu&ccedil;&otilde;es</a>
+
+
+
+<ul class="navRedes_footer">
+	<li><a href="http://www.facebook.com/kronafutsal" title="Acesse o Facebook da Krona Futsal" target="_blank" class="btFace_footer" >facebook</a></li>
+	<li><a href="http://twitter.com/kronafutsal" title="Acesse o Twitter da Krona Futsal" target="_blank" class="btTwit_footer">twitter</a></li>
+</ul>
+
+		</div>
+	</div>
+	<!-- FIM RODAPE -->
+
+</body>
+</html>

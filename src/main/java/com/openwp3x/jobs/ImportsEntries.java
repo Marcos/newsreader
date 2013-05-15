@@ -5,9 +5,9 @@ import java.util.Random;
 
 import org.apache.log4j.Logger;
 
+import com.openwp3x.ImportNews;
 import com.openwp3x.SourcePattern;
 import com.openwp3x.SourcePatternFactory;
-import com.openwp3x.ImportNews;
 import com.openwp3x.reader.SourceReader;
 
 public class ImportsEntries extends Thread{

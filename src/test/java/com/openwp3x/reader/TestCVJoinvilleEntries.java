@@ -4,12 +4,9 @@
  */
 package com.openwp3x.reader;
 
-import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.Collection;
-
-import javax.xml.parsers.ParserConfigurationException;
 
 import junit.framework.Assert;
 

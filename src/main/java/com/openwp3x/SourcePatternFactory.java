@@ -108,6 +108,8 @@ public class SourcePatternFactory {
 		entryPattern.setDateFormat("dd | MMM | yyyy");
 		entryPattern.setSourceLabel("Prefeitura de Joinville");
 		entryPattern.setTags(Arrays.asList(new Tag[]{Tag.comunidade}));
+		
+		entryPattern.setLinkTextXPath("//*[@id=\"main\"]/div/div/div[1]/p[1]");
 		return entryPattern;
 	}
 
@@ -288,6 +290,8 @@ public class SourcePatternFactory {
 		entryPattern.setDateFormat("yyyy-MM-dd");
 		entryPattern.setSourceLabel("JEC");
 		entryPattern.setTags(Arrays.asList(new Tag[]{Tag.esportes}));
+		
+		entryPattern.setLinkTextXPath("//*[@id=\"esquerda\"]/div[1]/div[2]");
 		return entryPattern;
 	}
 
@@ -305,6 +309,8 @@ public class SourcePatternFactory {
 		entryPattern.setDateFormat("d MMM yy");
 		entryPattern.setSourceLabel("Krona Futsal");
 		entryPattern.setTags(Arrays.asList(new Tag[]{Tag.esportes}));
+		
+		entryPattern.setLinkTextXPath("//*[@id=\"div_conteudo_noticias\"]/div[1]");
 		return entryPattern;
 	}
 
