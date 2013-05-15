@@ -200,6 +200,8 @@ public class SourcePatternFactory {
 		entryPattern.setDateFormat("dd | MMM | yyyy");
 		entryPattern.setSourceLabel("Defesa Civil de Joinville");
 		entryPattern.setTags(Arrays.asList(new Tag[]{Tag.comunidade}));
+		
+		entryPattern.setLinkTextXPath("//*[@id=\"main\"]/div/div/div[1]/p[1]");
 		return entryPattern;
 	}
 
@@ -233,6 +235,7 @@ public class SourcePatternFactory {
 	public static SourcePattern getOsnyMartinsPattern() throws MalformedURLException {
 		final SourcePattern entryPattern = getRSSEntryPattern();
 		entryPattern.setSourceURL(new URL("http://osnymartins.com.br/feed/"));
+		entryPattern.setTitlePrefixPattern("\\d*-\\d*-\\d*\\s");
 		entryPattern.setSourceLabel("Osny Martins");
 		entryPattern.setSource("osny_martins");
 		entryPattern.setTags(Arrays.asList(new Tag[]{Tag.geral}));
@@ -267,6 +270,8 @@ public class SourcePatternFactory {
 		entryPattern.setDateFormat("yyyy-MM-dd");
 		entryPattern.setSourceLabel("Câmara de Vereadores de Joinville");
 		entryPattern.setTags(Arrays.asList(new Tag[]{Tag.comunidade}));
+		
+		entryPattern.setLinkTextXPath("//*[@id=\"system\"]/article/div[1]/p");
 		return entryPattern;
 	}
 

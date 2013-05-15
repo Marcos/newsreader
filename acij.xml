@@ -850,38 +850,38 @@ function ValidarBusca3()
   &#13;
 &#13;
 
-<script type="text/javascript">
-jQuery(document).ready(function(){
- 
- fundo_botao = 'url("/images/menu-hover1.gif") repeat-x scroll center bottom';
- bt_compartilhar = jQuery('.menu-inf').find('a[title=Compartilhar]');
- bt_comentarios = jQuery('.menu-inf').find('a[title=Comentários]');
- div_compartilhar = jQuery('.midias_sociais');
- div_comentarios = jQuery('.comentarios');
- 
-     jQuery('.midias_sociais').css('display', 'none');
-    bt_comentarios.css('background', fundo_botao);
-  
- 
- bt_comentarios.click(function(evento){
-  jQuery(this).css('background', fundo_botao);
-  bt_compartilhar.css('background', 'none');
-  div_compartilhar.hide();
-  div_comentarios.show('normal');
-  evento.preventDefault();
- })
- 
- bt_compartilhar.click(function(evento){
-  jQuery(this).css('background', fundo_botao);
-  bt_comentarios.css('background', 'none');
-  div_comentarios.hide();
-  div_compartilhar.show('normal');
-  evento.preventDefault();
- })
- 
- 
- 
-});
+<script type="text/javascript">
+jQuery(document).ready(function(){
+ 
+ fundo_botao = 'url("/images/menu-hover1.gif") repeat-x scroll center bottom';
+ bt_compartilhar = jQuery('.menu-inf').find('a[title=Compartilhar]');
+ bt_comentarios = jQuery('.menu-inf').find('a[title=Comentários]');
+ div_compartilhar = jQuery('.midias_sociais');
+ div_comentarios = jQuery('.comentarios');
+ 
+     jQuery('.midias_sociais').css('display', 'none');
+    bt_comentarios.css('background', fundo_botao);
+  
+ 
+ bt_comentarios.click(function(evento){
+  jQuery(this).css('background', fundo_botao);
+  bt_compartilhar.css('background', 'none');
+  div_compartilhar.hide();
+  div_comentarios.show('normal');
+  evento.preventDefault();
+ })
+ 
+ bt_compartilhar.click(function(evento){
+  jQuery(this).css('background', fundo_botao);
+  bt_comentarios.css('background', 'none');
+  div_comentarios.hide();
+  div_compartilhar.show('normal');
+  evento.preventDefault();
+ })
+ 
+ 
+ 
+});
 </script>&#13;
 &#13;
 
@@ -978,25 +978,25 @@ jQuery(document).ready(function(){
     
 </div>&#13;
     
-<script>
-     function BuscarPag(caminho)
-     {
-      req180.open("POST", caminho, true);
-      req180.onreadystatechange = function() 
-      {
-       if(req180.readyState == 4) 
-       {
-        var html = req180.responseText
-        var lista = document.getElementById("htmcomentario")
-        lista.innerHTML = html;   
-       }
-      };
-       
-      
-      req180.setRequestHeader('Content-Type', 'text/html; charset=iso-8859-1');
-      req180.send("");
-     
-     }
+<script>
+     function BuscarPag(caminho)
+     {
+      req180.open("POST", caminho, true);
+      req180.onreadystatechange = function() 
+      {
+       if(req180.readyState == 4) 
+       {
+        var html = req180.responseText
+        var lista = document.getElementById("htmcomentario")
+        lista.innerHTML = html;   
+       }
+      };
+       
+      
+      req180.setRequestHeader('Content-Type', 'text/html; charset=iso-8859-1');
+      req180.send("");
+     
+     }
     </script>&#13;
     &#13;
 &#13;

@@ -40,7 +40,7 @@ public class TestCDLEntries {
         System.out.println(entries);
         final SourceEntry firstEntry = entries.iterator().next();
         Assert.assertEquals("\n      Invista no seu conhecimento e enriqueça seu currículo!Participe dos cursos oferecidos pela CDL Joinville e…\n    ", firstEntry.getTitle());
-        Assert.assertEquals("Invista no seu conhecimento e enriqueça seu currículo!Participe dos cursos oferecidos pela CDL Joinville e…", firstEntry.getFormattedTitle());
+        Assert.assertEquals("Invista No Seu Conhecimento E Enriqueça Seu Currículo!participe Dos Cursos Oferecidos Pela Cdl Joinville E…", firstEntry.getFormattedTitle());
         Assert.assertEquals("noticia/11", firstEntry.getUrl());
         Assert.assertEquals("http://www.cdljoinville.com.br/noticia/11", firstEntry.getFormattedURL());
         Assert.assertEquals(4, entries.size());

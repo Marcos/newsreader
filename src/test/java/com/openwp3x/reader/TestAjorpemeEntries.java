@@ -42,7 +42,7 @@ public class TestAjorpemeEntries {
         Assert.assertEquals("\n   18/04/13 - Esta semana tem Café & Negócios na Ajorpeme", firstEntry.getTitle());
         Assert.assertEquals("18/04/13", firstEntry.getDate());
         Assert.assertEquals("/site/noticias/1803-180413-esta-semana-tem-cafe-a-negocios-na-ajorpeme", firstEntry.getUrl());
-        Assert.assertEquals("Esta semana tem Café & Negócios na Ajorpeme", firstEntry.getFormattedTitle());
+        Assert.assertEquals("Esta Semana Tem Café & Negócios Na Ajorpeme", firstEntry.getFormattedTitle());
         Assert.assertEquals("http://ajorpeme.com.br/site/noticias/1803-180413-esta-semana-tem-cafe-a-negocios-na-ajorpeme", firstEntry.getFormattedURL());
         
         Assert.assertEquals(10, entries.size());

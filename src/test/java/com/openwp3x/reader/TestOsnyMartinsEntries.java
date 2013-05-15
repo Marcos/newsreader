@@ -29,7 +29,7 @@ public class TestOsnyMartinsEntries {
 
     @Before
     public void beforeTest() throws IOException, ParserConfigurationException {
-    	SourcePattern entryPattern = SourcePatternFactory.getNDJoinvillePattern();
+    	SourcePattern entryPattern = SourcePatternFactory.getOsnyMartinsPattern();
     	entryPattern.setSourceURL(resource);
     	this.newsReader = new SourceReader(entryPattern);
     }
@@ -40,10 +40,12 @@ public class TestOsnyMartinsEntries {
         System.out.println(entries);
         final SourceEntry firstEntry = entries.iterator().next();
         Assert.assertEquals("24-04-2013 CONFIRMADA 10. FEIJOADA DO “BREAKFAST” PARA DUAS ENTIDADES", firstEntry.getTitle());
+        Assert.assertEquals("Confirmada 10. Feijoada Do “breakfast” Para Duas Entidades", firstEntry.getFormattedTitle());
         Assert.assertEquals("24 Apr 2013", firstEntry.getDate());
         Assert.assertEquals("http://osnymartins.com.br/geral/24-04-2013-confirmada-10-feijoada-do-breakfast-para-duas-entidades/", firstEntry.getUrl());
         Assert.assertEquals("http://osnymartins.com.br/geral/24-04-2013-confirmada-10-feijoada-do-breakfast-para-duas-entidades/", firstEntry.getFormattedURL());
         Assert.assertEquals(1366772400000L, firstEntry.getDateAsLong().longValue());
+        Assert.assertEquals("Este ano, a já tradicional feijoada do “Breakfast” vai ter uma novidade básica. O lucro líquido da promoção, como sempre acontece, desde a primeira edição, será todo doado, mas com o benefício para duas entidades e não apenas uma como aconteceu até o ano passado. Além do Centrinho, que realiza um trabalho referência catarinense no [...]", firstEntry.getText());
         Assert.assertEquals(10, entries.size());
     }
 }

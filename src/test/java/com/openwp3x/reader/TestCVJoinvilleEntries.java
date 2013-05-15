@@ -5,6 +5,7 @@
 package com.openwp3x.reader;
 
 import java.io.IOException;
+import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.Collection;
 
@@ -26,18 +27,20 @@ import com.openwp3x.SourcePatternFactory;
 public class TestCVJoinvilleEntries {
 
     final URL resource = this.getClass().getClassLoader().getResource("cv-joinville-list.htm");
-    SourceReader newsReader;
-
+    final URL link1 = this.getClass().getClassLoader().getResource("cv-joinville-n1.htm");
+    final URL link2 = this.getClass().getClassLoader().getResource("cv-joinville-n2.htm");
+    SourcePattern entryPattern;
+    
     @Before
-    public void beforeTest() throws IOException, ParserConfigurationException {
-    	SourcePattern entryPattern = SourcePatternFactory.getCVJoinvillePattern();
-    	entryPattern.setSourceURL(resource);
-    	this.newsReader = new SourceReader(entryPattern);
+    public void before() throws MalformedURLException{
+    	entryPattern = SourcePatternFactory.getCVJoinvillePattern();
     }
 
     @Test
     public void testGetLinks() throws Exception {
-        final Collection<SourceEntry> entries = this.newsReader.getEntries();
+    	entryPattern.setSourceURL(resource);
+    	SourceReader newsReader = new SourceReader(entryPattern);
+        final Collection<SourceEntry> entries = newsReader.getEntries();
         System.out.println(entries);
         final SourceEntry firstEntry = entries.iterator().next();
         Assert.assertEquals("Legislativo na entrega de ordem de serviço", firstEntry.getTitle());
@@ -47,5 +50,37 @@ public class TestCVJoinvilleEntries {
         Assert.assertEquals(1366772400000L, firstEntry.getDateAsLong().longValue());
         Assert.assertEquals(9, entries.size());
     }
+    
+    @Test
+    public void testReadLink1() throws MalformedURLException, LinkException{
+    	LinkReader linkReader = new LinkReader(entryPattern, link1);
+    	LinkEntry linkEntry = linkReader.getLinkEntry();
+    	Assert.assertEquals(getExpectedLinkText1(), linkEntry.getLinkText());
+    	Assert.assertEquals(getExpectedFormattedLinkText1(), linkEntry.getFormattedLinkText());
+    }
+    
+    private String getExpectedFormattedLinkText1() {
+		return "Atribui-se ao filósofo grego Aristóteles a frase: “A coragem é a primeira das qualidades humanas, porque garante todas as outras”. Nilson Wilson Bender, carinhosamente entre nós, joinvilenses, o “Seu Bender” ou “Doutor Bender”, as tinha todas, com destaque especial para a visão de futuro, o senso de justiça e humanidade, e, principalmente, a humilde.";
+	}
+
+	private String getExpectedLinkText1() {
+		return "Atribui-se ao filósofo grego Aristóteles a frase: “A coragem é a primeira das qualidades humanas, porque garante todas as outras”. Nilson Wilson Bender, carinhosamente entre nós, joinvilenses, o “Seu Bender” ou “Doutor Bender”, as tinha todas, com destaque especial para a visão de futuro, o senso de justiça e humanidade, e, principalmente, a humilde.";
+	}
+
+	@Test
+    public void testReadLink2() throws MalformedURLException, LinkException{
+    	LinkReader linkReader = new LinkReader(entryPattern, link2);
+    	LinkEntry linkEntry = linkReader.getLinkEntry();
+    	Assert.assertEquals(getExpectedLinkText2(), linkEntry.getLinkText());
+    	Assert.assertEquals(getExpectedFormattedLinkText2(), linkEntry.getFormattedLinkText());
+    }
+
+	private String getExpectedFormattedLinkText2() {
+		return "A Câmara de Vereadores de Joinville sedia nesta quinta (9) e sexta-feira (10) o 4º Encontro de Mulheres Parlamentares de Santa Catarina. O horário do evento acontece das 8h30min às 16h. Estarão participando do evento deputadas, vereadoras, lideranças sociais e comunitárias engajadas na atuação política. Ao todo, serão 12 horas/aula. Durante o evento, será realizada a eleição para a mesa diretora do Fórum da Mulher Vereadora de SC. Inscrições gratuitas e informações no site da Escola do Legislativo da Alesc, ou pelos telefones (48) 3221-2952 e (48) 2828/2927. Mais informações, em Joinville, com a Escola do Legislativo Joinvilense, pelo telefone: (47) 2101-3333.";
+	}
+
+	private String getExpectedLinkText2() {
+		return "A Câmara de Vereadores de Joinville sedia nesta quinta (9) e sexta-feira (10) o 4º Encontro de Mulheres Parlamentares de Santa Catarina. O horário do evento acontece das 8h30min às 16h. Estarão participando do evento deputadas, vereadoras, lideranças sociais e comunitárias engajadas na atuação política. Ao todo, serão 12 horas/aula. Durante o evento, será realizada a eleição para a mesa diretora do Fórum da Mulher Vereadora de SC. Inscrições gratuitas e informações no site da Escola do Legislativo da Alesc, ou pelos telefones (48) 3221-2952 e (48) 2828/2927. Mais informações, em Joinville, com a Escola do Legislativo Joinvilense, pelo telefone: (47) 2101-3333.";
+	}
 
 }

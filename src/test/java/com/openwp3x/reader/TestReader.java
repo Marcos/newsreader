@@ -117,5 +117,6 @@ public class TestReader {
     public void testDateFormat() {
         System.out.println(new SourceEntry().getDateAsLong("17 | ABR | 2013", new Locale("pt", "BR"), "dd | MMM | yyyy"));
     }
+
     
 }

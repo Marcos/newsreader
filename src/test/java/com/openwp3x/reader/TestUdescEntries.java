@@ -40,7 +40,7 @@ public class TestUdescEntries {
         final Collection<SourceEntry> entries = newsReader.getEntries();
         
         final SourceEntry firstEntry = entries.iterator().next();
-        Assert.assertEquals("Termina neste domingo prazo para submissão de trabalhos no Encontro Catarinense de LibreOffice", firstEntry.getFormattedTitle());
+        Assert.assertEquals("Termina Neste Domingo Prazo Para Submissão De Trabalhos No Encontro Catarinense De Libreoffice", firstEntry.getFormattedTitle());
         Assert.assertEquals("17/04/2013", firstEntry.getDate());
         Assert.assertEquals("index.php?id=5160&pg=1", firstEntry.getUrl());
         Assert.assertEquals("http://www.joinville.udesc.br/portal/noticias/index.php?id=5160&pg=1", firstEntry.getFormattedURL());

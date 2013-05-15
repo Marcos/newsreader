@@ -4,7 +4,7 @@
 
 <meta charset="utf-8">&#13;
   
-<base href="http://www.cvj.sc.gov.br/">
+<base href="http://www.cvj.sc.gov.br/component/content/article/47-noticias/1833-encontro-de-mulheres-parlamentares">
   
 <meta content="index, follow" name="robots">
   
@@ -14,11 +14,9 @@
   
 <meta content="Joomla! 1.5 - Open Source Content Management" name="generator">
   
-<title>C&amp;acirc;mara de Vereadores de Joinville</title>
+<title>Encontro de mulheres parlamentares</title>
   
-<link href="/index.php?format=feed&amp;amp;type=rss" rel="alternate" title="RSS 2.0" type="application/rss+xml">
-  
-<link href="/index.php?format=feed&amp;amp;type=atom" rel="alternate" title="Atom 1.0" type="application/atom+xml">
+<link href="/component/jcomments/feed/com_content/1833" rel="alternate" title="Encontro de mulheres parlamentares" type="application/rss+xml">
   
 <link href="/templates/yoo_balance/favicon.ico" rel="shortcut icon" type="image/x-icon">
   
@@ -28,28 +26,12 @@
   
 <link href="/cache/widgetkit/widgetkit-aa4fc320.css" rel="stylesheet" type="text/css">
   
-<link href="/media/com_acymailing/css/module_default.css" rel="stylesheet" type="text/css">
-  
-<script src="/plugins/system/mtupgrade/mootools.js" type="text/javascript"></script>
+<script src="/components/com_jcomments/js/jcomments-v2.1.js?v=7" type="text/javascript"></script>
+  <script src="/components/com_jcomments/libraries/joomlatune/ajax.js?v=3" type="text/javascript"></script>
+  <script src="/plugins/system/mtupgrade/mootools.js" type="text/javascript"></script>
   <script src="/media/system/js/caption.js" type="text/javascript"></script>
   <script src="/media/widgetkit/js/jquery.js" type="text/javascript"></script>
   <script src="/cache/widgetkit/widgetkit-a8b7a017.js" type="text/javascript"></script>
-  <script src="/media/com_acymailing/js/acymailing_module.js" type="text/javascript"></script>
-  
-<script type="text/javascript">
-<!--
-     var acymailing = Array();
-     acymailing['NAMECAPTION'] = 'Nome Completo';
-     acymailing['NAME_MISSING'] = 'Por favor, informe seu nome.';
-     acymailing['EMAILCAPTION'] = 'E-mail válido';
-     acymailing['VALID_EMAIL'] = 'Por favor, informe um endereço de e-mail válido.';
-     acymailing['ACCEPT_TERMS'] = 'Por favor, verifique os Termos e Condições de Uso';
-     acymailing['CAPTCHA_MISSING'] = 'Por favor digite a chave de segurança que apareçe na imagem';
-     acymailing['NO_LIST_SELECTED'] = 'Por favor, escolha as listas nas quais você deseja se cadastrar.';
-   //-->window.addEvent(&quot;domready&quot;, function() {
- var JTooltips = new Tips($$(&quot;.hasTip&quot;), { maxTitleChars: 50, fixed: false});
-});
-  </script>
   <script type="text/javascript">var YOOeffects = { url: 'http://www.cvj.sc.gov.br/plugins/system/yoo_effects/lightbox/' };</script>
 <script src="http://www.cvj.sc.gov.br/plugins/system/yoo_effects/yoo_effects.js.php?lb=1&amp;amp;re=2&amp;amp;sl=1" type="text/javascript"></script>
 &#13;
@@ -64,8 +46,7 @@
 
 <style>body { min-width: 980px; }
 .wrapper { width: 980px; }
-#sidebar-b { width: 245px; }
-#maininner { width: 735px; }
+#maininner { width: 980px; }
 #menu .dropdown { width: 250px; }
 #menu .columns2 { width: 500px; }
 #menu .columns3 { width: 750px; }
@@ -127,7 +108,7 @@
 <div class="float-left">&#13;
      &#13;
             
-<time datetime="2013-04-25">Qui, 25 de Abril de 2013</time>&#13;
+<time datetime="2013-05-14">Ter, 14 de Maio de 2013</time>&#13;
            &#13;
             &#13;
      
@@ -175,8 +156,8 @@
           
 <nav id="menu">
 <ul class="menu menu-dropdown">
-<li class="level1 item1 active current">
-<a class="level1 active current" href="http://www.cvj.sc.gov.br/"><span>Home</span></a>
+<li class="level1 item1">
+<a class="level1" href="http://www.cvj.sc.gov.br/"><span>Home</span></a>
 </li>
 <li class="level1 item27 parent">
 <a class="level1 parent" href="/joomla-overview"><span>Vereadores</span></a>
@@ -326,22 +307,22 @@
           
 <div id="search">&#13;
 
-<form action="/index.php" id="searchbox" method="post" role="search">&#13;
+<form action="/component/content/" id="searchbox" method="post" role="search">&#13;
  
 <input name="searchword" placeholder="pesquisar..." type="text" value="">&#13;
  <button type="reset" value="Reset"></button>&#13;
  <input name="task" type="hidden" value="search">&#13;
  <input name="option" type="hidden" value="com_search">&#13;
- <input name="Itemid" type="hidden" value="1">&#13;
+ <input name="Itemid" type="hidden" value="0">&#13;
 
 </form>&#13;
 &#13;
 
 <script src="/templates/yoo_balance/warp/js/search.js"></script>&#13;
-<script>
-jQuery(function($) {
- $('#searchbox input[name=searchword]').search({'url': '/component/search/?tmpl=raw&amp;type=json&amp;ordering=&amp;searchphrase=all', 'param': 'searchword', 'msgResultsHeader': 'Search Results', 'msgMoreResults': 'More Results', 'msgNoResults': 'No results found'}).placeholder();
-});
+<script>
+jQuery(function($) {
+ $('#searchbox input[name=searchword]').search({'url': '/component/search/?tmpl=raw&amp;type=json&amp;ordering=&amp;searchphrase=all', 'param': 'searchword', 'msgResultsHeader': 'Search Results', 'msgMoreResults': 'More Results', 'msgNoResults': 'No results found'}).placeholder();
+});
 </script>
 </div>&#13;
           &#13;
@@ -352,74 +333,6 @@ jQuery(function($) {
    
 </header>&#13;
  &#13;
-      
-<section class="grid-block" id="top-a">
-<div class="grid-box width100 grid-h">
-<div class="module mod-box">&#13;
- 
-<div class="deepest">&#13;
-&#13;
-    &#13;
-    &#13;
-
-<div class="wk-slideshow wk-slideshow-default" id="slideshow-1-51795b5f01e7f">&#13;
- 
-<div>&#13;
-  
-<ul class="slides">&#13;
-&#13;
-            
-<li>&#13;
-    
-<article class="wk-content clearfix">
-<img src="http://www.cvj.sc.gov.br/images/2013/noticias/abril/3.jpg"></article>&#13;
-   
-</li>&#13;
-            
-<li>&#13;
-    
-<article class="wk-content clearfix">
-<img src="http://www.cvj.sc.gov.br/images/2013/noticias/abril/4.jpg"></article>&#13;
-   
-</li>&#13;
-            
-<li>&#13;
-    
-<article class="wk-content clearfix">
-<img src="http://www.cvj.sc.gov.br/images/2013/noticias/abril/2.jpg"></article>&#13;
-   
-</li>&#13;
-     
-</ul>&#13;
-  
-<div class="next"></div>
-<div class="prev"></div>  
-<div class="caption"></div>
-<ul class="captions">
-<li></li>
-<li></li>
-<li></li>
-</ul>&#13;
- 
-</div>&#13;
- 
-</div>&#13;
-&#13;
-
-<script type="text/javascript">
- 
- jQuery(function($){
-  
-  $.widgetkit.lazyloaders.slideshow($("#slideshow-1-51795b5f01e7f"), {"style":"default","autoplay":1,"interval":7500,"width":"auto","height":"auto","duration":500,"index":0,"order":"default","navigation":0,"buttons":1,"slices":20,"animated":"randomFx","caption_animation_duration":500});
- });
-
-</script>&#13;
- 
-</div>&#13;
-
-</div>
-</div>
-</section>&#13;
       &#13;
       &#13;
       
@@ -428,85 +341,6 @@ jQuery(function($) {
     
 <div class="grid-box" id="maininner">&#13;
     &#13;
-          
-<section class="grid-block" id="innertop">
-<div class="grid-box width50 grid-h">
-<div class="module mod-box">&#13;
- 
-<div class="deepest">&#13;
-&#13;
-    &#13;
-  
-<h3 class="module-title">
-<span class="icon icon-message"></span><span class="color">Conte&amp;uacute;dos</span> mais recentes</h3>  &#13;
-
-<ul class="line line-icon">&#13;
- 
-<li>
-<a href="/component/content/article/47-noticias/1821-legislativo-na-entrega-de-ordem-de-servico">Legislativo na entrega de ordem de servi&amp;ccedil;o</a>
-</li>&#13;
- 
-<li>
-<a href="/component/content/article/47-noticias/1819-pl-4813-recebe-apoio-em-audiencia">PL 48/13 recebe apoio em audi&amp;ecirc;ncia</a>
-</li>&#13;
- 
-<li>
-<a href="/component/content/article/47-noticias/1818-tupy-recebera-homenagem-da-camara">Tupy receber&amp;aacute; homenagem da C&amp;acirc;mara</a>
-</li>&#13;
- 
-<li>
-<a href="/component/content/article/47-noticias/1817-audiencia-publica-sobre-projeto-de-lei-4813">Audi&amp;ecirc;ncia p&amp;uacute;blica do PL 48/13</a>
-</li>&#13;
- 
-<li>
-<a href="/component/content/article/47-noticias/1816-audiencia-publica-do-conselho-da-cidade">Audi&amp;ecirc;ncia P&amp;uacute;blica do Conselho da Cidade</a>
-</li>&#13;
-
-</ul>&#13;
- 
-</div>&#13;
-
-</div>
-</div>
-<div class="grid-box width50 grid-h">
-<div class="module mod-box">&#13;
- 
-<div class="deepest">&#13;
-&#13;
-    &#13;
-  
-<h3 class="module-title">
-<span class="icon icon-message"></span><span class="color">Conte&amp;uacute;dos</span> mais acessados</h3>  &#13;
-
-<ul class="line line-icon">&#13;
- 
-<li>
-<a href="/sessao-ao-vivo/ao-vivo-1">Canal ao vivo 1</a>
-</li>&#13;
- 
-<li>
-<a href="/sessao-ao-vivo/ao-vivo-2">Canal ao vivo 2</a>
-</li>&#13;
- 
-<li>
-<a href="/comissoespermanentes">Saiba tudo sobre as comiss&amp;otilde;es da C&amp;acirc;mara</a>
-</li>&#13;
- 
-<li>
-<a href="/sessao-ao-vivo/on-demand">Canal &amp;quot;on demand&amp;quot;</a>
-</li>&#13;
- 
-<li>
-<a href="/gestaodaqualidade">Sistema de Gest&amp;atilde;o da Qualidade</a>
-</li>&#13;
-
-</ul>&#13;
- 
-</div>&#13;
-
-</div>
-</div>
-</section>&#13;
       &#13;
           
 <section id="content">
@@ -520,897 +354,194 @@ jQuery(function($) {
 </section>&#13;
             &#13;
       &#13;
+&#13;
 
-
-<div id="system">
-
+<div id="system">&#13;
+ &#13;
+ &#13;
  
- 
-<div class="items items-col-1 grid-block">
-<div class="grid-box width100 leading">&#13;
-
 <article class="item">&#13;
 &#13;
-  
+    
 <header>&#13;
- &#13;
-    
+  &#13;
+         
 <div class="icon email">
-<a href="/component/mailto/?tmpl=component&amp;amp;link=1ec0ff2f1f7bd6b0c93996bc18628e1230fd3208" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;" title="E-mail"><img alt="E-mail" src="/templates/yoo_balance/images/emailButton.png"></a>
+<a href="/component/mailto/?tmpl=component&amp;amp;link=1ff07e13f4b809f965eafc9a640394fa1847b1fe" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;" title="E-mail"><img alt="E-mail" src="/templates/yoo_balance/images/emailButton.png"></a>
 </div>&#13;
-   &#13;
-    
+     &#13;
+      
 <div class="icon print">
-<a href="/index.php?view=article&amp;amp;catid=47:noticias&amp;amp;id=1821:legislativo-na-entrega-de-ordem-de-servico&amp;amp;tmpl=component&amp;amp;print=1&amp;amp;layout=default&amp;amp;page=" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow" title="Imprimir"><img alt="Imprimir" src="/templates/yoo_balance/images/printButton.png"></a>
+<a href="/component/content/article/47-noticias/1833-encontro-de-mulheres-parlamentares?tmpl=component&amp;amp;print=1&amp;amp;page=" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow" title="Imprimir"><img alt="Imprimir" src="/templates/yoo_balance/images/printButton.png"></a>
 </div>&#13;
-   &#13;
-    
+     &#13;
+      
 <div class="icon pdf">
-<a href="/index.php?view=article&amp;amp;catid=47:noticias&amp;amp;id=1821:legislativo-na-entrega-de-ordem-de-servico&amp;amp;format=pdf" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow" title="PDF"><img alt="PDF" src="/templates/yoo_balance/images/pdf_button.png"></a>
+<a href="/component/content/article/47-noticias/1833-encontro-de-mulheres-parlamentares?format=pdf" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow" title="PDF"><img alt="PDF" src="/templates/yoo_balance/images/pdf_button.png"></a>
 </div>&#13;
-    &#13;
+      &#13;
+     &#13;
+      
+<time datetime="2013-05-07" pubdate="pubdate">&#13;
     
-<time datetime="2013-04-24" pubdate="pubdate">&#13;
+<span class="day">07</span>&#13;
+    <span class="month">Maio</span>&#13;
+    <span class="year">2013</span>&#13;
    
-<span class="day">24</span>&#13;
-   <span class="month">Abril</span>&#13;
-   <span class="year">2013</span>&#13;
-  
 </time>&#13;
    &#13;
-  
+   
 <h1 class="title">&#13;
+         
+<a href="/component/content/article/47-noticias/1833-encontro-de-mulheres-parlamentares" title="Encontro de mulheres parlamentares">Encontro de mulheres parlamentares</a>&#13;
        
-<a href="/component/content/article/47-noticias/1821-legislativo-na-entrega-de-ordem-de-servico" title="Legislativo na entrega de ordem de servi&amp;ccedil;o">Legislativo na entrega de ordem de servi&amp;ccedil;o</a>&#13;
-     
 </h1>&#13;
  &#13;
-  &#13;
-  
+      &#13;
+   
 <p class="meta">&#13;
- &#13;
-   Escrito por Thiago Dias. Posted in <a href="/component/content/section/8">CVJ</a> - <a href="/component/content/category/47-noticias">Not&amp;iacute;cias</a> &#13;
   &#13;
-  
+    Escrito por Thiago Dias. Posted in <a href="/component/content/section/8">CVJ</a> - <a href="/component/content/category/47-noticias">Not&amp;iacute;cias</a> &#13;
+   &#13;
+   
 </p>&#13;
-  &#13;
- 
+    &#13;
+  
 </header>&#13;
- &#13;
-  &#13;
- 
+   &#13;
+    &#13;
+  
 <div class="content clearfix">
-<a href="/images/2013/noticias/abril/130424-2.jpg" rel="shadowbox"><img src="/images/2013/noticias/abril/130424-2.jpg" style="float: left; margin-right: 10px; width: 250px;"></a>&#13;
-
-<p style="text-align: justify;">O Poder Legislativo de Joinville, atrav&amp;eacute;s do presidente Jo&amp;atilde;o Carlos Gon&amp;ccedil;alves e dos vereadores Dorval Pretti, Joaquinzinho e Mauricinho Soares, participou na manh&amp;atilde; de hoje da entrega da ordem de servi&amp;ccedil;o para a implanta&amp;ccedil;&amp;atilde;o do Parque Porta do Mar, no bairro Espinheiros.</p>&#13;
-
+<p class="dropcap" style="text-align: justify;">A C&amp;acirc;mara de Vereadores de Joinville sedia nesta quinta (9) e sexta-feira (10) o 4&amp;ordm; Encontro de Mulheres Parlamentares de Santa Catarina. O hor&amp;aacute;rio do evento acontece das 8h30min &amp;agrave;s 16h. Estar&amp;atilde;o participando do evento deputadas, vereadoras, lideran&amp;ccedil;as sociais e comunit&amp;aacute;rias engajadas na atua&amp;ccedil;&amp;atilde;o pol&amp;iacute;tica. Ao todo, ser&amp;atilde;o 12 horas/aula. Durante o evento, ser&amp;aacute; realizada a elei&amp;ccedil;&amp;atilde;o para a mesa diretora do F&amp;oacute;rum da Mulher Vereadora de SC. Inscri&amp;ccedil;&amp;otilde;es gratuitas e informa&amp;ccedil;&amp;otilde;es no site da <a href="http://www.alesc.sc.gov.br/escola" target="_blank">Escola do Legislativo da Alesc</a>, ou pelos telefones (48) 3221-2952 e (48) 2828/2927. Mais informa&amp;ccedil;&amp;otilde;es, em Joinville, com a&amp;nbsp;<a href="/escoladolegislativo" target="_blank">Escola do Legislativo Joinvilense</a>, pelo telefone: (47) 2101-3333.</p>&#13;&#13;
 <div class="faceandtweet">
 <div class="faceandtweet_retweet" style="float:left; width:110px;">
-<a class="twitter-share-button" data-count="horizontal" data-related="camarajoinville" data-text="Legislativo na entrega de ordem de servi&amp;ccedil;o:" data-via="camarajoinville" href="http://twitter.com/share?url=http%3A%2F%2Fwww.cvj.sc.gov.br%2Fcomponent%2Fcontent%2Farticle%2F47-noticias%2F1821-legislativo-na-entrega-de-ordem-de-servico">Tweet</a><script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+<a class="twitter-share-button" data-count="horizontal" data-related="camarajoinville" data-text="Encontro de mulheres parlamentares:" data-via="camarajoinville" href="http://twitter.com/share?url=http%3A%2F%2Fwww.cvj.sc.gov.br%2Fcomponent%2Fcontent%2Farticle%2F47-noticias%2F1833-encontro-de-mulheres-parlamentares">Tweet</a><script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
 </div>
 <div class="faceandtweet_like" style="float:left; width:110px; height:20px;">
-<iframe allowtransparency="true" frameborder="0" scrolling="no" src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.cvj.sc.gov.br%2Fcomponent%2Fcontent%2Farticle%2F47-noticias%2F1821-legislativo-na-entrega-de-ordem-de-servico&amp;amp;layout=button_count&amp;amp;width=110&amp;amp;show_faces=false&amp;amp;action=like&amp;amp;colorscheme=light&amp;amp;height=20" style="border:none; overflow:hidden; width:110px; height:20px;"></iframe>
+<iframe allowtransparency="true" frameborder="0" scrolling="no" src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.cvj.sc.gov.br%2Fcomponent%2Fcontent%2Farticle%2F47-noticias%2F1833-encontro-de-mulheres-parlamentares&amp;amp;layout=button_count&amp;amp;width=110&amp;amp;show_faces=false&amp;amp;action=like&amp;amp;colorscheme=light&amp;amp;height=20" style="border:none; overflow:hidden; width:110px; height:20px;"></iframe>
 </div>
 <div style="clear:both;"></div>
 </div>
-<div class="jcomments-links">
-<a class="readmore-link" href="/component/content/article/47-noticias/1821-legislativo-na-entrega-de-ordem-de-servico" title="Legislativo na entrega de ordem de servi&amp;ccedil;o">Leia mais...</a> <a class="comments-link" href="/component/content/article/47-noticias/1821-legislativo-na-entrega-de-ordem-de-servico#addcomments">Adicionar novo coment&amp;aacute;rio</a> 
-</div>
-
 </div>&#13;
- &#13;
- &#13;
- &#13;
- &#13;
-
-</article>
-</div>
-<div class="grid-box width100">&#13;
-
-<article class="item">&#13;
 &#13;
-  
-<header>&#13;
- &#13;
-    
-<div class="icon email">
-<a href="/component/mailto/?tmpl=component&amp;amp;link=069f9c4c7cdfe65136b571f0d47d365571bfaf73" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;" title="E-mail"><img alt="E-mail" src="/templates/yoo_balance/images/emailButton.png"></a>
-</div>&#13;
-   &#13;
-    
-<div class="icon print">
-<a href="/index.php?view=article&amp;amp;catid=47:noticias&amp;amp;id=1819:pl-4813-recebe-apoio-em-audiencia&amp;amp;tmpl=component&amp;amp;print=1&amp;amp;layout=default&amp;amp;page=" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow" title="Imprimir"><img alt="Imprimir" src="/templates/yoo_balance/images/printButton.png"></a>
-</div>&#13;
-   &#13;
-    
-<div class="icon pdf">
-<a href="/index.php?view=article&amp;amp;catid=47:noticias&amp;amp;id=1819:pl-4813-recebe-apoio-em-audiencia&amp;amp;format=pdf" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow" title="PDF"><img alt="PDF" src="/templates/yoo_balance/images/pdf_button.png"></a>
-</div>&#13;
     &#13;
-    
-<time datetime="2013-04-24" pubdate="pubdate">&#13;
-   
-<span class="day">24</span>&#13;
-   <span class="month">Abril</span>&#13;
-   <span class="year">2013</span>&#13;
   
-</time>&#13;
-   &#13;
-  
-<h1 class="title">&#13;
-       
-<a href="/component/content/article/47-noticias/1819-pl-4813-recebe-apoio-em-audiencia" title="PL 48/13 recebe apoio em audi&amp;ecirc;ncia">PL 48/13 recebe apoio em audi&amp;ecirc;ncia</a>&#13;
-     
-</h1>&#13;
- &#13;
-  &#13;
-  
-<p class="meta">&#13;
- &#13;
-   Escrito por Felipe Faria. Posted in <a href="/component/content/section/8">CVJ</a> - <a href="/component/content/category/47-noticias">Not&amp;iacute;cias</a> &#13;
-  &#13;
-  
-</p>&#13;
-  &#13;
+<script type="text/javascript">
+<!--
+var jcomments=new JComments(1833, 'com_content','/index.php?option=com_jcomments&amp;tmpl=component');
+jcomments.setList('comments-list');
+//-->
+</script>
+
+<div id="jc">
+
+<div id="comments"></div>
+
+<h4>Adicionar coment&amp;aacute;rio</h4>
+
+<a href="#addcomments" id="addcomments"></a>
+
+<form action="javascript:void(null);" id="comments-form" name="comments-form">
+
+<p>
  
-</header>&#13;
- &#13;
-  &#13;
- 
-<div class="content clearfix">
-<a href="/images/2013/noticias/abril/130424-1.jpg" rel="shadowbox"><img src="/images/2013/noticias/abril/130424-1.jpg" style="float: left; margin-right: 10px; width: 250px;"></a>&#13;
+<input id="comments-form-name" maxlength="20" name="name" size="22" tabindex="1" type="text" value="">
+ <label for="comments-form-name">Nome (obrigat&amp;oacute;rio)</label>
 
-<p class="dropcap" style="text-align: justify;">O Projeto de Lei n&amp;ordm; 48/2013, do vereador James Schroeder, que visa &amp;agrave; proibi&amp;ccedil;&amp;atilde;o do consumo de bebidas alco&amp;oacute;licas em logradouros p&amp;uacute;blicos de Joinville, foi tema de uma audi&amp;ecirc;ncia p&amp;uacute;blica, ontem, &amp;agrave; noite, no plen&amp;aacute;rio da C&amp;acirc;mara. A julgar pelas manifesta&amp;ccedil;&amp;otilde;es dos populares que dela participaram, a proposta j&amp;aacute; estaria aprovada ontem mesmo, mas o fato &amp;eacute; que o tema ainda render&amp;aacute; boas discuss&amp;otilde;es no &amp;acirc;mbito das comiss&amp;otilde;es permanentes e at&amp;eacute; mesmo em plen&amp;aacute;rio.</p>&#13;
-
-<h6>Foto de Sabrina Seibel</h6>&#13;
-
-<div class="faceandtweet">
-<div class="faceandtweet_retweet" style="float:left; width:110px;">
-<a class="twitter-share-button" data-count="horizontal" data-related="camarajoinville" data-text="PL 48/13 recebe apoio em audi&amp;ecirc;ncia:" data-via="camarajoinville" href="http://twitter.com/share?url=http%3A%2F%2Fwww.cvj.sc.gov.br%2Fcomponent%2Fcontent%2Farticle%2F47-noticias%2F1819-pl-4813-recebe-apoio-em-audiencia">Tweet</a><script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
-</div>
-<div class="faceandtweet_like" style="float:left; width:110px; height:20px;">
-<iframe allowtransparency="true" frameborder="0" scrolling="no" src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.cvj.sc.gov.br%2Fcomponent%2Fcontent%2Farticle%2F47-noticias%2F1819-pl-4813-recebe-apoio-em-audiencia&amp;amp;layout=button_count&amp;amp;width=110&amp;amp;show_faces=false&amp;amp;action=like&amp;amp;colorscheme=light&amp;amp;height=20" style="border:none; overflow:hidden; width:110px; height:20px;"></iframe>
-</div>
-<div style="clear:both;"></div>
-</div>
-<div class="jcomments-links">
-<a class="readmore-link" href="/component/content/article/47-noticias/1819-pl-4813-recebe-apoio-em-audiencia" title="PL 48/13 recebe apoio em audi&amp;ecirc;ncia">Leia mais...</a> <a class="comments-link" href="/component/content/article/47-noticias/1819-pl-4813-recebe-apoio-em-audiencia#addcomments">Adicionar novo coment&amp;aacute;rio</a> 
-</div>
-
-</div>&#13;
- &#13;
- &#13;
- &#13;
- &#13;
-
-</article>&#13;
-
-<article class="item">&#13;
-&#13;
-  
-<header>&#13;
- &#13;
-    
-<div class="icon email">
-<a href="/component/mailto/?tmpl=component&amp;amp;link=d865354bd62a093329364628562339cbfc385f23" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;" title="E-mail"><img alt="E-mail" src="/templates/yoo_balance/images/emailButton.png"></a>
-</div>&#13;
-   &#13;
-    
-<div class="icon print">
-<a href="/index.php?view=article&amp;amp;catid=47:noticias&amp;amp;id=1818:tupy-recebera-homenagem-da-camara&amp;amp;tmpl=component&amp;amp;print=1&amp;amp;layout=default&amp;amp;page=" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow" title="Imprimir"><img alt="Imprimir" src="/templates/yoo_balance/images/printButton.png"></a>
-</div>&#13;
-   &#13;
-    
-<div class="icon pdf">
-<a href="/index.php?view=article&amp;amp;catid=47:noticias&amp;amp;id=1818:tupy-recebera-homenagem-da-camara&amp;amp;format=pdf" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow" title="PDF"><img alt="PDF" src="/templates/yoo_balance/images/pdf_button.png"></a>
-</div>&#13;
-    &#13;
-    
-<time datetime="2013-04-23" pubdate="pubdate">&#13;
-   
-<span class="day">23</span>&#13;
-   <span class="month">Abril</span>&#13;
-   <span class="year">2013</span>&#13;
-  
-</time>&#13;
-   &#13;
-  
-<h1 class="title">&#13;
-       
-<a href="/component/content/article/47-noticias/1818-tupy-recebera-homenagem-da-camara" title="Tupy receber&amp;aacute; homenagem da C&amp;acirc;mara">Tupy receber&amp;aacute; homenagem da C&amp;acirc;mara</a>&#13;
-     
-</h1>&#13;
- &#13;
-  &#13;
-  
-<p class="meta">&#13;
- &#13;
-   Escrito por Toninho Neves. Posted in <a href="/component/content/section/8">CVJ</a> - <a href="/component/content/category/47-noticias">Not&amp;iacute;cias</a> &#13;
-  &#13;
-  
-</p>&#13;
-  &#13;
- 
-</header>&#13;
- &#13;
-  &#13;
- 
-<div class="content clearfix">
-<p href="/images/2013/noticias/abril/130423-1.JPG" rel="shadowbox">
-<img src="/images/2013/noticias/abril/130423-1.JPG" style="float: left; margin-right: 10px; width: 250px;"></p>&#13;
-
-<p>A Tupy ser&amp;aacute; homenageada pela C&amp;acirc;mara de Vereadores pelos seus 75 anos. A Sess&amp;atilde;o Solene ser&amp;aacute; no pr&amp;oacute;ximo dia 25 de abril de 2013 (quinta-feira), &amp;agrave;s 19h30, no Plen&amp;aacute;rio da C&amp;acirc;mara de Vereadores. A proposi&amp;ccedil;&amp;atilde;o da homenagem para a Tupy &amp;eacute; do presidente da C&amp;acirc;mara, Jo&amp;atilde;o Carlos Gon&amp;ccedil;alves (foto).</p>&#13;
-
-<p>Desde a sua funda&amp;ccedil;&amp;atilde;o, em 9 de mar&amp;ccedil;o de 1938 at&amp;eacute; hoje, a Tupy permanece ligada &amp;agrave; comunidade de Joinville, como um grande gerador de emprego e renda e contribuindo para divulgar o nome da cidade como um importante polo industrial e de tecnologia para todo o mundo. A companhia vem crescendo e expandindo seus mercados para mais de 40 pa&amp;iacute;ses no mundo, mas mant&amp;eacute;m aqui sua sede e uma parcela significativa dos investimentos. Nestes 75 anos, a Tupy empregou mais de 78 mil trabalhadores, o equivalente a 15% da popula&amp;ccedil;&amp;atilde;o atual de Joinville.</p>&#13;
-
-<div class="faceandtweet">
-<div class="faceandtweet_retweet" style="float:left; width:110px;">
-<a class="twitter-share-button" data-count="horizontal" data-related="camarajoinville" data-text="Tupy receber&amp;aacute; homenagem da C&amp;acirc;mara:" data-via="camarajoinville" href="http://twitter.com/share?url=http%3A%2F%2Fwww.cvj.sc.gov.br%2Fcomponent%2Fcontent%2Farticle%2F47-noticias%2F1818-tupy-recebera-homenagem-da-camara">Tweet</a><script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
-</div>
-<div class="faceandtweet_like" style="float:left; width:110px; height:20px;">
-<iframe allowtransparency="true" frameborder="0" scrolling="no" src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.cvj.sc.gov.br%2Fcomponent%2Fcontent%2Farticle%2F47-noticias%2F1818-tupy-recebera-homenagem-da-camara&amp;amp;layout=button_count&amp;amp;width=110&amp;amp;show_faces=false&amp;amp;action=like&amp;amp;colorscheme=light&amp;amp;height=20" style="border:none; overflow:hidden; width:110px; height:20px;"></iframe>
-</div>
-<div style="clear:both;"></div>
-</div>
-<div class="jcomments-links">
-<a class="readmore-link" href="/component/content/article/47-noticias/1818-tupy-recebera-homenagem-da-camara" title="Tupy receber&amp;aacute; homenagem da C&amp;acirc;mara">Leia mais...</a> <a class="comments-link" href="/component/content/article/47-noticias/1818-tupy-recebera-homenagem-da-camara#addcomments">Adicionar novo coment&amp;aacute;rio</a> 
-</div>
-
-</div>&#13;
- &#13;
- &#13;
- &#13;
- &#13;
-
-</article>&#13;
-
-<article class="item">&#13;
-&#13;
-  
-<header>&#13;
- &#13;
-    
-<div class="icon email">
-<a href="/component/mailto/?tmpl=component&amp;amp;link=8651f6b5d0a757a97bcc8d2d5b67773f69ff751d" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;" title="E-mail"><img alt="E-mail" src="/templates/yoo_balance/images/emailButton.png"></a>
-</div>&#13;
-   &#13;
-    
-<div class="icon print">
-<a href="/index.php?view=article&amp;amp;catid=47:noticias&amp;amp;id=1817:audiencia-publica-sobre-projeto-de-lei-4813&amp;amp;tmpl=component&amp;amp;print=1&amp;amp;layout=default&amp;amp;page=" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow" title="Imprimir"><img alt="Imprimir" src="/templates/yoo_balance/images/printButton.png"></a>
-</div>&#13;
-   &#13;
-    
-<div class="icon pdf">
-<a href="/index.php?view=article&amp;amp;catid=47:noticias&amp;amp;id=1817:audiencia-publica-sobre-projeto-de-lei-4813&amp;amp;format=pdf" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow" title="PDF"><img alt="PDF" src="/templates/yoo_balance/images/pdf_button.png"></a>
-</div>&#13;
-    &#13;
-    
-<time datetime="2013-04-22" pubdate="pubdate">&#13;
-   
-<span class="day">22</span>&#13;
-   <span class="month">Abril</span>&#13;
-   <span class="year">2013</span>&#13;
-  
-</time>&#13;
-   &#13;
-  
-<h1 class="title">&#13;
-       
-<a href="/component/content/article/47-noticias/1817-audiencia-publica-sobre-projeto-de-lei-4813" title="Audi&amp;ecirc;ncia p&amp;uacute;blica do PL 48/13">Audi&amp;ecirc;ncia p&amp;uacute;blica do PL 48/13</a>&#13;
-     
-</h1>&#13;
- &#13;
-  &#13;
-  
-<p class="meta">&#13;
- &#13;
-   Escrito por Bruna Alves Bechtold. Posted in <a href="/component/content/section/8">CVJ</a> - <a href="/component/content/category/47-noticias">Not&amp;iacute;cias</a> &#13;
-  &#13;
-  
-</p>&#13;
-  &#13;
- 
-</header>&#13;
- &#13;
-  &#13;
- 
-<div class="content clearfix">
-<p style="text-align: justify;">Ser&amp;aacute; amanh&amp;atilde; a audi&amp;ecirc;ncia p&amp;uacute;blica sobre o projeto de Lei 48/13, que visa a proibir o consumo de bebida alco&amp;oacute;lica em vias p&amp;uacute;blicas de Joinville. O projeto &amp;eacute; do vereador James Schroder. A iniciativa &amp;eacute; coibir que os &amp;ldquo;esquentas&amp;rdquo; e aglomera&amp;ccedil;&amp;otilde;es virem perturba&amp;ccedil;&amp;atilde;o do sossego. A sess&amp;atilde;o ocorrer&amp;aacute; no plen&amp;aacute;rio da C&amp;acirc;mara de Vereadores de Joinville, &amp;agrave;s 19h30.</p>
-<div class="faceandtweet">
-<div class="faceandtweet_retweet" style="float:left; width:110px;">
-<a class="twitter-share-button" data-count="horizontal" data-related="camarajoinville" data-text="Audi&amp;ecirc;ncia p&amp;uacute;blica do PL 48/13:" data-via="camarajoinville" href="http://twitter.com/share?url=http%3A%2F%2Fwww.cvj.sc.gov.br%2Fcomponent%2Fcontent%2Farticle%2F47-noticias%2F1817-audiencia-publica-sobre-projeto-de-lei-4813">Tweet</a><script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
-</div>
-<div class="faceandtweet_like" style="float:left; width:110px; height:20px;">
-<iframe allowtransparency="true" frameborder="0" scrolling="no" src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.cvj.sc.gov.br%2Fcomponent%2Fcontent%2Farticle%2F47-noticias%2F1817-audiencia-publica-sobre-projeto-de-lei-4813&amp;amp;layout=button_count&amp;amp;width=110&amp;amp;show_faces=false&amp;amp;action=like&amp;amp;colorscheme=light&amp;amp;height=20" style="border:none; overflow:hidden; width:110px; height:20px;"></iframe>
-</div>
-<div style="clear:both;"></div>
-</div>
-<div class="jcomments-links"> 
-<a class="comments-link" href="/component/content/article/47-noticias/1817-audiencia-publica-sobre-projeto-de-lei-4813#comments">Coment&amp;aacute;rios (1)</a> 
-</div>
-
-</div>&#13;
- &#13;
- &#13;
- &#13;
- &#13;
-
-</article>&#13;
-
-<article class="item">&#13;
-&#13;
-  
-<header>&#13;
- &#13;
-    
-<div class="icon email">
-<a href="/component/mailto/?tmpl=component&amp;amp;link=88799defc29fd8778cbd32928e5f2099d4feff81" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;" title="E-mail"><img alt="E-mail" src="/templates/yoo_balance/images/emailButton.png"></a>
-</div>&#13;
-   &#13;
-    
-<div class="icon print">
-<a href="/index.php?view=article&amp;amp;catid=47:noticias&amp;amp;id=1816:audiencia-publica-do-conselho-da-cidade&amp;amp;tmpl=component&amp;amp;print=1&amp;amp;layout=default&amp;amp;page=" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow" title="Imprimir"><img alt="Imprimir" src="/templates/yoo_balance/images/printButton.png"></a>
-</div>&#13;
-   &#13;
-    
-<div class="icon pdf">
-<a href="/index.php?view=article&amp;amp;catid=47:noticias&amp;amp;id=1816:audiencia-publica-do-conselho-da-cidade&amp;amp;format=pdf" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow" title="PDF"><img alt="PDF" src="/templates/yoo_balance/images/pdf_button.png"></a>
-</div>&#13;
-    &#13;
-    
-<time datetime="2013-04-18" pubdate="pubdate">&#13;
-   
-<span class="day">18</span>&#13;
-   <span class="month">Abril</span>&#13;
-   <span class="year">2013</span>&#13;
-  
-</time>&#13;
-   &#13;
-  
-<h1 class="title">&#13;
-       
-<a href="/component/content/article/47-noticias/1816-audiencia-publica-do-conselho-da-cidade" title="Audi&amp;ecirc;ncia P&amp;uacute;blica do Conselho da Cidade">Audi&amp;ecirc;ncia P&amp;uacute;blica do Conselho da Cidade</a>&#13;
-     
-</h1>&#13;
- &#13;
-  &#13;
-  
-<p class="meta">&#13;
- &#13;
-   Escrito por Thiago Dias. Posted in <a href="/component/content/section/8">CVJ</a> - <a href="/component/content/category/47-noticias">Not&amp;iacute;cias</a> &#13;
-  &#13;
-  
-</p>&#13;
-  &#13;
- 
-</header>&#13;
- &#13;
-  &#13;
- 
-<div class="content clearfix">
-<a href="/images/2013/noticias/abril/130418-4.jpg" rel="shadowbox"><img src="/images/2013/noticias/abril/130418-4.jpg" style="float: left; margin-right: 10px; width: 250px;"></a>&#13;
-
-<p class="dropcap" style="text-align: justify;">O plen&amp;aacute;rio da C&amp;acirc;mara de Vereadores de Joinville foi palco da Audi&amp;ecirc;ncia P&amp;uacute;blica para tratar do Regimento da Confer&amp;ecirc;ncia da Cidade, onde foram destacadas as regras do processo eleitoral do novo Conselho da Cidade de Joinville. Participaram desta reuni&amp;atilde;o, vereadores, representantes das entidades de classe (Acij, Acomac, Ajorpeme, CDL), de sindicatos e da sociedade civil.</p>&#13;
-
-<p class="dropcap" style="text-align: justify;">&amp;nbsp;</p>&#13;
-
-<h6>Foto de Sabrina Seibel</h6>&#13;
-
-<div class="faceandtweet">
-<div class="faceandtweet_retweet" style="float:left; width:110px;">
-<a class="twitter-share-button" data-count="horizontal" data-related="camarajoinville" data-text="Audi&amp;ecirc;ncia P&amp;uacute;blica do Conselho da Cidade:" data-via="camarajoinville" href="http://twitter.com/share?url=http%3A%2F%2Fwww.cvj.sc.gov.br%2Fcomponent%2Fcontent%2Farticle%2F47-noticias%2F1816-audiencia-publica-do-conselho-da-cidade">Tweet</a><script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
-</div>
-<div class="faceandtweet_like" style="float:left; width:110px; height:20px;">
-<iframe allowtransparency="true" frameborder="0" scrolling="no" src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.cvj.sc.gov.br%2Fcomponent%2Fcontent%2Farticle%2F47-noticias%2F1816-audiencia-publica-do-conselho-da-cidade&amp;amp;layout=button_count&amp;amp;width=110&amp;amp;show_faces=false&amp;amp;action=like&amp;amp;colorscheme=light&amp;amp;height=20" style="border:none; overflow:hidden; width:110px; height:20px;"></iframe>
-</div>
-<div style="clear:both;"></div>
-</div>
-<div class="jcomments-links">
-<a class="readmore-link" href="/component/content/article/47-noticias/1816-audiencia-publica-do-conselho-da-cidade" title="Audi&amp;ecirc;ncia P&amp;uacute;blica do Conselho da Cidade">Leia mais...</a> <a class="comments-link" href="/component/content/article/47-noticias/1816-audiencia-publica-do-conselho-da-cidade#addcomments">Adicionar novo coment&amp;aacute;rio</a> 
-</div>
-
-</div>&#13;
- &#13;
- &#13;
- &#13;
- &#13;
-
-</article>&#13;
-
-<article class="item">&#13;
-&#13;
-  
-<header>&#13;
- &#13;
-    
-<div class="icon email">
-<a href="/component/mailto/?tmpl=component&amp;amp;link=929029ca4afc236f75029b1bcb739ddb15ee7963" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;" title="E-mail"><img alt="E-mail" src="/templates/yoo_balance/images/emailButton.png"></a>
-</div>&#13;
-   &#13;
-    
-<div class="icon print">
-<a href="/index.php?view=article&amp;amp;catid=47:noticias&amp;amp;id=1815:questionada-pesquisa-sobre-preco-da-refeicao&amp;amp;tmpl=component&amp;amp;print=1&amp;amp;layout=default&amp;amp;page=" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow" title="Imprimir"><img alt="Imprimir" src="/templates/yoo_balance/images/printButton.png"></a>
-</div>&#13;
-   &#13;
-    
-<div class="icon pdf">
-<a href="/index.php?view=article&amp;amp;catid=47:noticias&amp;amp;id=1815:questionada-pesquisa-sobre-preco-da-refeicao&amp;amp;format=pdf" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow" title="PDF"><img alt="PDF" src="/templates/yoo_balance/images/pdf_button.png"></a>
-</div>&#13;
-    &#13;
-    
-<time datetime="2013-04-18" pubdate="pubdate">&#13;
-   
-<span class="day">18</span>&#13;
-   <span class="month">Abril</span>&#13;
-   <span class="year">2013</span>&#13;
-  
-</time>&#13;
-   &#13;
-  
-<h1 class="title">&#13;
-       
-<a href="/component/content/article/47-noticias/1815-questionada-pesquisa-sobre-preco-da-refeicao" title="Questionada pesquisa sobre pre&amp;ccedil;o da refei&amp;ccedil;&amp;atilde;o">Questionada pesquisa sobre pre&amp;ccedil;o da refei&amp;ccedil;&amp;atilde;o</a>&#13;
-     
-</h1>&#13;
- &#13;
-  &#13;
-  
-<p class="meta">&#13;
- &#13;
-   Escrito por Bruna Alves Bechtold. Posted in <a href="/component/content/section/8">CVJ</a> - <a href="/component/content/category/47-noticias">Not&amp;iacute;cias</a> &#13;
-  &#13;
-  
-</p>&#13;
-  &#13;
- 
-</header>&#13;
- &#13;
-  &#13;
- 
-<div class="content clearfix">
-<p href="/images/2013/noticias/abril/130418-3.JPG" rel="shadowbox">
-<img src="/images/2013/noticias/abril/130418-3.JPG" style="float: left; margin-right: 10px; width: 250px;"> O alto custo da refei&amp;ccedil;&amp;atilde;o em Joinville foi debatido hoje pela Comiss&amp;atilde;o de Participa&amp;ccedil;&amp;atilde;o Popular e Cidadania da C&amp;acirc;mara de Vereadores. A convoca&amp;ccedil;&amp;atilde;o feita pelo presidente da comiss&amp;atilde;o, vereador Maycon Cesar, que confrontou as informa&amp;ccedil;&amp;otilde;es da Associa&amp;ccedil;&amp;atilde;o das Empresas de Refei&amp;ccedil;&amp;atilde;o e Alimenta&amp;ccedil;&amp;atilde;o Conv&amp;ecirc;nio para o Trabalhador (Assert) - respons&amp;aacute;vel pela pesquisa dos pre&amp;ccedil;os &amp;ndash; com dados das principais entidades do ramo de gastronomia da cidade.</p>&#13;
-
-<p style="text-align: justify;">&nbsp;<span style="line-height: 1.3em;">A informa&amp;ccedil;&amp;atilde;o de que a cidade ocupa o terceiro lugar entre as cidades mais caras do Brasil no quesito &amp;ldquo;almo&amp;ccedil;ar fora de casa&amp;rdquo; causou estranheza entre os comerciantes. Conforme a pesquisa, em Joinville gasta-se, em m&amp;eacute;dia, R$ 34,12 em refei&amp;ccedil;&amp;otilde;es. O custo m&amp;eacute;dio de um prato feito seria de R$ 15,68; do buf&amp;ecirc;, R$ 20,36 e do &amp;agrave; la carte, R$ 47,71.&nbsp;</span><span style="line-height: 1.3em;">O levantamento levou em considera&amp;ccedil;&amp;atilde;o o&nbsp;valor m&amp;eacute;dio da refei&amp;ccedil;&amp;atilde;o no hor&amp;aacute;rio do almo&amp;ccedil;o em estabelecimentos que recebem vales, t&amp;iacute;quetes e cart&amp;otilde;es refei&amp;ccedil;&amp;atilde;o e que trabalham com refei&amp;ccedil;&amp;otilde;es do tipo Comercial (prato feito), buffet livre e &amp;agrave; quilo, prato executivo e a la carte. </span>
-</p>&#13;
-
-<div class="faceandtweet">
-<div class="faceandtweet_retweet" style="float:left; width:110px;">
-<a class="twitter-share-button" data-count="horizontal" data-related="camarajoinville" data-text="Questionada pesquisa sobre pre&amp;ccedil;o da refei&amp;ccedil;&amp;atilde;o:" data-via="camarajoinville" href="http://twitter.com/share?url=http%3A%2F%2Fwww.cvj.sc.gov.br%2Fcomponent%2Fcontent%2Farticle%2F47-noticias%2F1815-questionada-pesquisa-sobre-preco-da-refeicao">Tweet</a><script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
-</div>
-<div class="faceandtweet_like" style="float:left; width:110px; height:20px;">
-<iframe allowtransparency="true" frameborder="0" scrolling="no" src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.cvj.sc.gov.br%2Fcomponent%2Fcontent%2Farticle%2F47-noticias%2F1815-questionada-pesquisa-sobre-preco-da-refeicao&amp;amp;layout=button_count&amp;amp;width=110&amp;amp;show_faces=false&amp;amp;action=like&amp;amp;colorscheme=light&amp;amp;height=20" style="border:none; overflow:hidden; width:110px; height:20px;"></iframe>
-</div>
-<div style="clear:both;"></div>
-</div>
-<div class="jcomments-links">
-<a class="readmore-link" href="/component/content/article/47-noticias/1815-questionada-pesquisa-sobre-preco-da-refeicao" title="Questionada pesquisa sobre pre&amp;ccedil;o da refei&amp;ccedil;&amp;atilde;o">Leia mais...</a> <a class="comments-link" href="/component/content/article/47-noticias/1815-questionada-pesquisa-sobre-preco-da-refeicao#comments">Coment&amp;aacute;rios (1)</a> 
-</div>
-
-</div>&#13;
- &#13;
- &#13;
- &#13;
- &#13;
-
-</article>&#13;
-
-<article class="item">&#13;
-&#13;
-  
-<header>&#13;
- &#13;
-    
-<div class="icon email">
-<a href="/component/mailto/?tmpl=component&amp;amp;link=49df9fa15b81a35c22b53bd151beb5b6061f5a19" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;" title="E-mail"><img alt="E-mail" src="/templates/yoo_balance/images/emailButton.png"></a>
-</div>&#13;
-   &#13;
-    
-<div class="icon print">
-<a href="/index.php?view=article&amp;amp;catid=47:noticias&amp;amp;id=1814:delegados-de-policia-pedem-igualdade-de-tratamento&amp;amp;tmpl=component&amp;amp;print=1&amp;amp;layout=default&amp;amp;page=" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow" title="Imprimir"><img alt="Imprimir" src="/templates/yoo_balance/images/printButton.png"></a>
-</div>&#13;
-   &#13;
-    
-<div class="icon pdf">
-<a href="/index.php?view=article&amp;amp;catid=47:noticias&amp;amp;id=1814:delegados-de-policia-pedem-igualdade-de-tratamento&amp;amp;format=pdf" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow" title="PDF"><img alt="PDF" src="/templates/yoo_balance/images/pdf_button.png"></a>
-</div>&#13;
-    &#13;
-    
-<time datetime="2013-04-18" pubdate="pubdate">&#13;
-   
-<span class="day">18</span>&#13;
-   <span class="month">Abril</span>&#13;
-   <span class="year">2013</span>&#13;
-  
-</time>&#13;
-   &#13;
-  
-<h1 class="title">&#13;
-       
-<a href="/component/content/article/47-noticias/1814-delegados-de-policia-pedem-igualdade-de-tratamento" title="Delegados de Pol&amp;iacute;cia pedem igualdade de tratamento">Delegados de Pol&amp;iacute;cia pedem igualdade de tratamento</a>&#13;
-     
-</h1>&#13;
- &#13;
-  &#13;
-  
-<p class="meta">&#13;
- &#13;
-   Escrito por Toninho Neves. Posted in <a href="/component/content/section/8">CVJ</a> - <a href="/component/content/category/47-noticias">Not&amp;iacute;cias</a> &#13;
-  &#13;
-  
-</p>&#13;
-  &#13;
- 
-</header>&#13;
- &#13;
-  &#13;
- 
-<div class="content clearfix">
-<p href="/images/2013/noticias/abril/130418-2.jpg" rel="shadowbox">
-<img src="/images/2013/noticias/abril/130418-2.jpg" style="float: left; margin-right: 10px; width: 250px;"> Um grupo de policiais civis e um federal estiveram na C&amp;acirc;mara de Vereadores de Joinville pedindo paridade de tratamento na quest&amp;atilde;o pol&amp;ecirc;mica que envolve a PEC 37, em discuss&amp;atilde;o no Congresso Nacional que trata do poder de investiga&amp;ccedil;&amp;atilde;o do Minist&amp;eacute;rio P&amp;uacute;blico. Como a C&amp;acirc;mara de Vereadores de Joinville aprovou uma mo&amp;ccedil;&amp;atilde;o em apoio ao Minist&amp;eacute;rio P&amp;uacute;blico, se posicionando contrariamente &amp;agrave; PEC 37, os delegados solicitaram ao presidente da C&amp;acirc;mara, Jo&amp;atilde;o Carlos Gon&amp;ccedil;alves, &nbsp;tamb&amp;eacute;m uma mo&amp;ccedil;&amp;atilde;o, s&amp;oacute; que desta vez em solidariedade &amp;agrave; PEC, na opini&amp;atilde;o dos delegados, chamada de ''PEC da Legalidade.''</p>&#13;
-
-<p style="text-align: justify;">Em correspond&amp;ecirc;ncia entregue ao presidente da C&amp;acirc;mara, os Delegados de Pol&amp;iacute;cia representados tamb&amp;eacute;m pela Adepol -&nbsp;Associa&amp;ccedil;&amp;atilde;o dos Delegados da Policia Civil de Santa Catarina e os delegados da Pol&amp;iacute;cia Federal, disseram estranhar a aprova&amp;ccedil;&amp;atilde;o da mo&amp;ccedil;&amp;atilde;o, sem que a outra parte fosse ouvida, no caso os delegados.</p>&#13;
-
-<div class="faceandtweet">
-<div class="faceandtweet_retweet" style="float:left; width:110px;">
-<a class="twitter-share-button" data-count="horizontal" data-related="camarajoinville" data-text="Delegados de Pol&amp;iacute;cia pedem igualdade de tratamento:" data-via="camarajoinville" href="http://twitter.com/share?url=http%3A%2F%2Fwww.cvj.sc.gov.br%2Fcomponent%2Fcontent%2Farticle%2F47-noticias%2F1814-delegados-de-policia-pedem-igualdade-de-tratamento">Tweet</a><script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
-</div>
-<div class="faceandtweet_like" style="float:left; width:110px; height:20px;">
-<iframe allowtransparency="true" frameborder="0" scrolling="no" src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.cvj.sc.gov.br%2Fcomponent%2Fcontent%2Farticle%2F47-noticias%2F1814-delegados-de-policia-pedem-igualdade-de-tratamento&amp;amp;layout=button_count&amp;amp;width=110&amp;amp;show_faces=false&amp;amp;action=like&amp;amp;colorscheme=light&amp;amp;height=20" style="border:none; overflow:hidden; width:110px; height:20px;"></iframe>
-</div>
-<div style="clear:both;"></div>
-</div>
-<div class="jcomments-links">
-<a class="readmore-link" href="/component/content/article/47-noticias/1814-delegados-de-policia-pedem-igualdade-de-tratamento" title="Delegados de Pol&amp;iacute;cia pedem igualdade de tratamento">Leia mais...</a> <a class="comments-link" href="/component/content/article/47-noticias/1814-delegados-de-policia-pedem-igualdade-de-tratamento#addcomments">Adicionar novo coment&amp;aacute;rio</a> 
-</div>
-
-</div>&#13;
- &#13;
- &#13;
- &#13;
- &#13;
-
-</article>&#13;
-
-<article class="item">&#13;
-&#13;
-  
-<header>&#13;
- &#13;
-    
-<div class="icon email">
-<a href="/component/mailto/?tmpl=component&amp;amp;link=e7e8994ace743f5ad570219559bb1d20b637fe34" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;" title="E-mail"><img alt="E-mail" src="/templates/yoo_balance/images/emailButton.png"></a>
-</div>&#13;
-   &#13;
-    
-<div class="icon print">
-<a href="/index.php?view=article&amp;amp;catid=47:noticias&amp;amp;id=1813:empreiteira-pagou-com-cheques-sem-fundo&amp;amp;tmpl=component&amp;amp;print=1&amp;amp;layout=default&amp;amp;page=" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow" title="Imprimir"><img alt="Imprimir" src="/templates/yoo_balance/images/printButton.png"></a>
-</div>&#13;
-   &#13;
-    
-<div class="icon pdf">
-<a href="/index.php?view=article&amp;amp;catid=47:noticias&amp;amp;id=1813:empreiteira-pagou-com-cheques-sem-fundo&amp;amp;format=pdf" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow" title="PDF"><img alt="PDF" src="/templates/yoo_balance/images/pdf_button.png"></a>
-</div>&#13;
-    &#13;
-    
-<time datetime="2013-04-18" pubdate="pubdate">&#13;
-   
-<span class="day">18</span>&#13;
-   <span class="month">Abril</span>&#13;
-   <span class="year">2013</span>&#13;
-  
-</time>&#13;
-   &#13;
-  
-<h1 class="title">&#13;
-       
-<a href="/component/content/article/47-noticias/1813-empreiteira-pagou-com-cheques-sem-fundo" title="Empreiteira pagou com cheques sem fundo">Empreiteira pagou com cheques sem fundo</a>&#13;
-     
-</h1>&#13;
- &#13;
-  &#13;
-  
-<p class="meta">&#13;
- &#13;
-   Escrito por Toninho Neves. Posted in <a href="/component/content/section/8">CVJ</a> - <a href="/component/content/category/47-noticias">Not&amp;iacute;cias</a> &#13;
-  &#13;
-  
-</p>&#13;
-  &#13;
- 
-</header>&#13;
- &#13;
-  &#13;
- 
-<div class="content clearfix">
-<p href="/images/2013/noticias/abril/130418-1.JPG" rel="shadowbox" style="text-align: justify;">
-<img src="/images/2013/noticias/abril/130418-1.JPG" style="float: left; margin-right: 10px; width: 250px;"> <span style="line-height: 1.3em;">O vereador Manoel Francisco Bento revelou durante a reuni&amp;atilde;o da Comiss&amp;atilde;o de&amp;nbsp;Finan&amp;ccedil;as desta quinta-feira que uma empreiteira contratada pela prefeitura de Joinville para construir 70 casas populares no bairro do Cubat&amp;atilde;o, teria feito o pagamento de seus funcion&amp;aacute;rios com cheques sem fundos. O fato aconteceu h&amp;aacute; aproximadamente 70 dias e os funcion&amp;aacute;rios est&amp;atilde;o passando todo tipo de necessidade, desde a falta de alimenta&amp;ccedil;&amp;atilde;o, o n&amp;atilde;o-pagamento de luz, &amp;aacute;gua, aluguel, etc. revelou o vereador Bento, para quem a responsabilidade solid&amp;aacute;ria no caso cabe tamb&amp;eacute;m &amp;agrave; prefeitura de Joinville.&amp;nbsp; O diretor-executivo da Secretaria de Finan&amp;ccedil;as, Roberto Winter, presente &amp;agrave; reuni&amp;atilde;o, ficou incumbido pela comiss&amp;atilde;o de finan&amp;ccedil;as a buscar uma solu&amp;ccedil;&amp;atilde;o. O Vereador Joaquinzinho chegou a sugerir uma reuni&amp;atilde;o extraordin&amp;aacute;ria da Comiss&amp;atilde;o para deliberar o assunto, por entend&amp;ecirc;-lo urgente.&amp;nbsp;</span><span style="text-align: justify; line-height: 1.3em;">Um futuro encontro com o dono da empreiteira, o Secret&amp;aacute;rio da Habita&amp;ccedil;&amp;atilde;o F&amp;aacute;bio Dalonso, e a Secretaria de Finan&amp;ccedil;as para uma tomada de provid&amp;ecirc;ncias a respeito do caso, ficou de ter uma data marcada junto &amp;agrave; Comiss&amp;atilde;o de Finan&amp;ccedil;as. A reuni&amp;atilde;o foi presidida pelo vereador Patricio Destro.</span>
 </p>
-<div class="faceandtweet">
-<div class="faceandtweet_retweet" style="float:left; width:110px;">
-<a class="twitter-share-button" data-count="horizontal" data-related="camarajoinville" data-text="Empreiteira pagou com cheques sem fundo:" data-via="camarajoinville" href="http://twitter.com/share?url=http%3A%2F%2Fwww.cvj.sc.gov.br%2Fcomponent%2Fcontent%2Farticle%2F47-noticias%2F1813-empreiteira-pagou-com-cheques-sem-fundo">Tweet</a><script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+
+<p>
+ 
+<input id="comments-form-email" name="email" size="22" tabindex="2" type="text" value="">
+ <label for="comments-form-email">E-mail (obrigat&amp;oacute;rio)</label>
+
+</p>
+
+<p>
+ 
+<input id="comments-form-title" name="title" size="22" tabindex="4" type="text" value="">
+ <label for="comments-form-title">T&amp;iacute;tulo</label>
+
+</p>
+
+<p>
+ 
+<textarea cols="65" id="comments-form-comment" name="comment" rows="8" tabindex="5"></textarea>
+
+</p>
+
+<div id="comments-form-buttons">
+ 
+<div class="btn" id="comments-form-send">
+<div>
+<a href="#" onclick="jcomments.saveComment();return false;" tabindex="7" title="Enviar (Ctrl+Enter)">Enviar</a>
 </div>
-<div class="faceandtweet_like" style="float:left; width:110px; height:20px;">
-<iframe allowtransparency="true" frameborder="0" scrolling="no" src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.cvj.sc.gov.br%2Fcomponent%2Fcontent%2Farticle%2F47-noticias%2F1813-empreiteira-pagou-com-cheques-sem-fundo&amp;amp;layout=button_count&amp;amp;width=110&amp;amp;show_faces=false&amp;amp;action=like&amp;amp;colorscheme=light&amp;amp;height=20" style="border:none; overflow:hidden; width:110px; height:20px;"></iframe>
 </div>
+ 
+<div class="btn" id="comments-form-cancel" style="display:none;">
+<div>
+<a href="#" onclick="return false;" tabindex="8" title="Cancelar">Cancelar</a>
+</div>
+</div>
+ 
 <div style="clear:both;"></div>
+
 </div>
-<div class="jcomments-links"> 
-<a class="comments-link" href="/component/content/article/47-noticias/1813-empreiteira-pagou-com-cheques-sem-fundo#addcomments">Adicionar novo coment&amp;aacute;rio</a> 
+ 
+<input name="object_id" type="hidden" value="1833">
+ <input name="object_group" type="hidden" value="com_content">
+
+</form>
+
+<script type="text/javascript">
+<!--
+function JCommentsInitializeForm()
+{
+ var jcEditor = new JCommentsEditor('comments-form-comment', true);
+ jcEditor.addButton('b','Negrito','Digite o texto');
+ jcEditor.addButton('i','Itálico','Digite o texto');
+ jcEditor.addButton('u','Sublinhado','Digite o texto');
+ jcEditor.addButton('s','Riscado','Digite o texto');
+ jcEditor.addButton('url','Link','Digite a URL completa');
+ jcEditor.addButton('quote','Citar','Digite o texto da citação');
+ jcEditor.addButton('list','Lista','Digite o texto do item da lista');
+ jcEditor.initSmiles('http://www.cvj.sc.gov.br/components/com_jcomments/images/smiles');
+ jcEditor.addSmile(':D','laugh.gif');
+ jcEditor.addSmile(':lol:','lol.gif');
+ jcEditor.addSmile(':-)','smile.gif');
+ jcEditor.addSmile(';-)','wink.gif');
+ jcEditor.addSmile('8)','cool.gif');
+ jcEditor.addSmile(':-|','normal.gif');
+ jcEditor.addSmile(':-*','whistling.gif');
+ jcEditor.addSmile(':oops:','redface.gif');
+ jcEditor.addSmile(':sad:','sad.gif');
+ jcEditor.addSmile(':cry:','cry.gif');
+ jcEditor.addSmile(':o','surprised.gif');
+ jcEditor.addSmile(':-?','confused.gif');
+ jcEditor.addSmile(':-x','sick.gif');
+ jcEditor.addSmile(':eek:','shocked.gif');
+ jcEditor.addSmile(':zzz','sleeping.gif');
+ jcEditor.addSmile(':P','tongue.gif');
+ jcEditor.addSmile(':roll:','rolleyes.gif');
+ jcEditor.addSmile(':sigh:','unsure.gif');
+ jcomments.setForm(new JCommentsForm('comments-form', jcEditor));
+}
+
+if (window.addEventListener) {window.addEventListener('load',JCommentsInitializeForm,false);}
+else if (document.addEventListener){document.addEventListener('load',JCommentsInitializeForm,false);}
+else if (window.attachEvent){window.attachEvent('onload',JCommentsInitializeForm);}
+else {if (typeof window.onload=='function'){var oldload=window.onload;window.onload=function(){oldload();JCommentsInitializeForm();}} else window.onload=JCommentsInitializeForm;} 
+//-->
+</script>
+
+<div align="center" id="comments-footer">
+<a href="http://www.joomlatune.com" target="_blank" title="JComments">JComments</a>
 </div>
 
 </div>&#13;
- &#13;
- &#13;
- &#13;
- &#13;
-
+ 
 </article>&#13;
-
-<article class="item">&#13;
 &#13;
-  
-<header>&#13;
- &#13;
-    
-<div class="icon email">
-<a href="/component/mailto/?tmpl=component&amp;amp;link=475716f3610fb090351b912decd85c9354aac793" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;" title="E-mail"><img alt="E-mail" src="/templates/yoo_balance/images/emailButton.png"></a>
-</div>&#13;
-   &#13;
-    
-<div class="icon print">
-<a href="/index.php?view=article&amp;amp;catid=47:noticias&amp;amp;id=1812:regularizacao-fundiaria-ainda-em-pauta&amp;amp;tmpl=component&amp;amp;print=1&amp;amp;layout=default&amp;amp;page=" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow" title="Imprimir"><img alt="Imprimir" src="/templates/yoo_balance/images/printButton.png"></a>
-</div>&#13;
-   &#13;
-    
-<div class="icon pdf">
-<a href="/index.php?view=article&amp;amp;catid=47:noticias&amp;amp;id=1812:regularizacao-fundiaria-ainda-em-pauta&amp;amp;format=pdf" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow" title="PDF"><img alt="PDF" src="/templates/yoo_balance/images/pdf_button.png"></a>
-</div>&#13;
-    &#13;
-    
-<time datetime="2013-04-17" pubdate="pubdate">&#13;
-   
-<span class="day">17</span>&#13;
-   <span class="month">Abril</span>&#13;
-   <span class="year">2013</span>&#13;
-  
-</time>&#13;
-   &#13;
-  
-<h1 class="title">&#13;
-       
-<a href="/component/content/article/47-noticias/1812-regularizacao-fundiaria-ainda-em-pauta" title="Regulariza&amp;ccedil;&amp;atilde;o fundi&amp;aacute;ria ainda em pauta">Regulariza&amp;ccedil;&amp;atilde;o fundi&amp;aacute;ria ainda em pauta</a>&#13;
-     
-</h1>&#13;
- &#13;
-  &#13;
-  
-<p class="meta">&#13;
- &#13;
-   Escrito por Felipe Faria. Posted in <a href="/component/content/section/8">CVJ</a> - <a href="/component/content/category/47-noticias">Not&amp;iacute;cias</a> &#13;
-  &#13;
-  
-</p>&#13;
-  &#13;
- 
-</header>&#13;
- &#13;
-  &#13;
- 
-<div class="content clearfix">
-<a href="/images/2013/noticias/abril/130417-1.jpg" rel="shadowbox"><img src="/images/2013/noticias/abril/130417-1.jpg" style="float: left; margin-right: 10px; width: 250px;"></a>&#13;
-
-<p class="dropcap" style="text-align: justify;">Embora n&amp;atilde;o houvesse projeto algum em pauta sobre o tema, os vereadores Manoel Bento, Maur&amp;iacute;cio Peixer e Odir Nunes, da Comiss&amp;atilde;o de Urbanismo, e tamb&amp;eacute;m o vereador Adilson Mariano, reuniram-se nesta tarde com o secret&amp;aacute;rio de Habita&amp;ccedil;&amp;atilde;o, F&amp;aacute;bio Dalonso, para discutir a regulariza&amp;ccedil;&amp;atilde;o fundi&amp;aacute;ria em Joinville. A estimativa da Prefeitura, segundo Dalonso, &amp;eacute; que cerca de 40 mil im&amp;oacute;veis est&amp;atilde;o em situa&amp;ccedil;&amp;atilde;o irregular, o que representa aproximadamente um ter&amp;ccedil;o do total de im&amp;oacute;veis no munic&amp;iacute;pio.</p>&#13;
-
-<h6>Foto de Sabrina Seibel</h6>&#13;
-
-<div class="faceandtweet">
-<div class="faceandtweet_retweet" style="float:left; width:110px;">
-<a class="twitter-share-button" data-count="horizontal" data-related="camarajoinville" data-text="Regulariza&amp;ccedil;&amp;atilde;o fundi&amp;aacute;ria ainda em pauta:" data-via="camarajoinville" href="http://twitter.com/share?url=http%3A%2F%2Fwww.cvj.sc.gov.br%2Fcomponent%2Fcontent%2Farticle%2F47-noticias%2F1812-regularizacao-fundiaria-ainda-em-pauta">Tweet</a><script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
-</div>
-<div class="faceandtweet_like" style="float:left; width:110px; height:20px;">
-<iframe allowtransparency="true" frameborder="0" scrolling="no" src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.cvj.sc.gov.br%2Fcomponent%2Fcontent%2Farticle%2F47-noticias%2F1812-regularizacao-fundiaria-ainda-em-pauta&amp;amp;layout=button_count&amp;amp;width=110&amp;amp;show_faces=false&amp;amp;action=like&amp;amp;colorscheme=light&amp;amp;height=20" style="border:none; overflow:hidden; width:110px; height:20px;"></iframe>
-</div>
-<div style="clear:both;"></div>
-</div>
-<div class="jcomments-links">
-<a class="readmore-link" href="/component/content/article/47-noticias/1812-regularizacao-fundiaria-ainda-em-pauta" title="Regulariza&amp;ccedil;&amp;atilde;o fundi&amp;aacute;ria ainda em pauta">Leia mais...</a> <a class="comments-link" href="/component/content/article/47-noticias/1812-regularizacao-fundiaria-ainda-em-pauta#addcomments">Adicionar novo coment&amp;aacute;rio</a> 
-</div>
-
-</div>&#13;
- &#13;
- &#13;
- &#13;
- &#13;
-
-</article>&#13;
-
-<article class="item">&#13;
-&#13;
-  
-<header>&#13;
- &#13;
-    
-<div class="icon email">
-<a href="/component/mailto/?tmpl=component&amp;amp;link=81f65cb3889bd84ad5accc9e20dfb5d9ea8fb6b8" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;" title="E-mail"><img alt="E-mail" src="/templates/yoo_balance/images/emailButton.png"></a>
-</div>&#13;
-   &#13;
-    
-<div class="icon print">
-<a href="/index.php?view=article&amp;amp;catid=47:noticias&amp;amp;id=1810:debate-sobre-praia-da-vigorelli&amp;amp;tmpl=component&amp;amp;print=1&amp;amp;layout=default&amp;amp;page=" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow" title="Imprimir"><img alt="Imprimir" src="/templates/yoo_balance/images/printButton.png"></a>
-</div>&#13;
-   &#13;
-    
-<div class="icon pdf">
-<a href="/index.php?view=article&amp;amp;catid=47:noticias&amp;amp;id=1810:debate-sobre-praia-da-vigorelli&amp;amp;format=pdf" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow" title="PDF"><img alt="PDF" src="/templates/yoo_balance/images/pdf_button.png"></a>
-</div>&#13;
-    &#13;
-    
-<time datetime="2013-04-16" pubdate="pubdate">&#13;
-   
-<span class="day">16</span>&#13;
-   <span class="month">Abril</span>&#13;
-   <span class="year">2013</span>&#13;
-  
-</time>&#13;
-   &#13;
-  
-<h1 class="title">&#13;
-       
-<a href="/component/content/article/47-noticias/1810-debate-sobre-praia-da-vigorelli" title="Debate sobre Praia da Vigorelli">Debate sobre Praia da Vigorelli</a>&#13;
-     
-</h1>&#13;
- &#13;
-  &#13;
-  
-<p class="meta">&#13;
- &#13;
-   Escrito por Thiago Dias. Posted in <a href="/component/content/section/8">CVJ</a> - <a href="/component/content/category/47-noticias">Not&amp;iacute;cias</a> &#13;
-  &#13;
-  
-</p>&#13;
-  &#13;
- 
-</header>&#13;
- &#13;
-  &#13;
- 
-<div class="content clearfix">
-<a href="/images/2013/noticias/abril/130416-5.jpg" rel="shadowbox"><img src="/images/2013/noticias/abril/130416-5.jpg" style="float: left; margin-right: 10px; width: 250px;"></a>&#13;
-
-<p>Diante da proibi&amp;ccedil;&amp;atilde;o para regularizar os terrenos da Praia da Vigorelli, em Joinville, os Poderes Legislativo e Executivo ir&amp;atilde;o redigir um documento, destinado ao Judici&amp;aacute;rio, sugerindo alternativas para realizar a regulariza&amp;ccedil;&amp;atilde;o daquela &amp;aacute;rea. Este foi o resultado da Audi&amp;ecirc;ncia P&amp;uacute;blica que aconteceu hoje no plen&amp;aacute;rio do Legislativo joinvilense.</p>&#13;
-
-<p>&amp;ldquo;Iremos redigir um documento, n&amp;atilde;o para o afrontamento, mas para dar sugest&amp;otilde;es, assim como foi feito com o Morro do Amaral, a alguns anos atr&amp;aacute;s. Al&amp;eacute;m disso, vamos nos empenhar para verificar a quest&amp;atilde;o da falta de pavimenta&amp;ccedil;&amp;atilde;o pr&amp;oacute;ximo da praia&amp;rdquo;, destaca o presidente da Comiss&amp;atilde;o, vereador Manoel Francisco Bento.</p>&#13;
-
-<h6>Foto de Sabrina Seibel</h6>&#13;
-
-<div class="faceandtweet">
-<div class="faceandtweet_retweet" style="float:left; width:110px;">
-<a class="twitter-share-button" data-count="horizontal" data-related="camarajoinville" data-text="Debate sobre Praia da Vigorelli:" data-via="camarajoinville" href="http://twitter.com/share?url=http%3A%2F%2Fwww.cvj.sc.gov.br%2Fcomponent%2Fcontent%2Farticle%2F47-noticias%2F1810-debate-sobre-praia-da-vigorelli">Tweet</a><script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
-</div>
-<div class="faceandtweet_like" style="float:left; width:110px; height:20px;">
-<iframe allowtransparency="true" frameborder="0" scrolling="no" src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.cvj.sc.gov.br%2Fcomponent%2Fcontent%2Farticle%2F47-noticias%2F1810-debate-sobre-praia-da-vigorelli&amp;amp;layout=button_count&amp;amp;width=110&amp;amp;show_faces=false&amp;amp;action=like&amp;amp;colorscheme=light&amp;amp;height=20" style="border:none; overflow:hidden; width:110px; height:20px;"></iframe>
-</div>
-<div style="clear:both;"></div>
-</div>
-<div class="jcomments-links">
-<a class="readmore-link" href="/component/content/article/47-noticias/1810-debate-sobre-praia-da-vigorelli" title="Debate sobre Praia da Vigorelli">Leia mais...</a> <a class="comments-link" href="/component/content/article/47-noticias/1810-debate-sobre-praia-da-vigorelli#addcomments">Adicionar novo coment&amp;aacute;rio</a> 
-</div>
-
-</div>&#13;
- &#13;
- &#13;
- &#13;
- &#13;
-
-</article>
-</div>
-</div>
-  
-<div class="item-list">
-    
-<h3>Mais Artigos...</h3>
-  
-<ul>
-      
-<li>
-    
-<a href="/component/content/article/47-noticias/1809-presidente-prestigia-evento-da-apae">Presidente prestigia evento da Apae</a>
-   
-</li>
-      
-<li>
-    
-<a href="/component/content/article/47-noticias/1808-rodrigo-thomazi-assume-na-camara">Rodrigo Thomazi assume na C&amp;acirc;mara</a>
-   
-</li>
-      
-<li>
-    
-<a href="/component/content/article/47-noticias/1806-a-noticia-e-tupy-recebem-homenagem">A Not&amp;iacute;cia e Tupy recebem homenagem</a>
-   
-</li>
-      
-<li>
-    
-<a href="/component/content/article/47-noticias/1805-integracao-entre-poderes-legislativo-e-executivo">Integra&amp;ccedil;&amp;atilde;o entre Poderes Legislativo e Executivo</a>
-   
-</li>
-      
-<li>
-    
-<a href="/component/content/article/47-noticias/1804-pirabeiraba-reclama-obra-da-policlinica">Pirabeiraba reclama obra da policl&amp;iacute;nica</a>
-   
-</li>
-      
-<li>
-    
-<a href="/component/content/article/47-noticias/1802-regularizacao-fundiaria-da-vigorelli">Regulariza&amp;ccedil;&amp;atilde;o fundi&amp;aacute;ria da Vigorelli</a>
-   
-</li>
-      
-<li>
-    
-<a href="/component/content/article/47-noticias/1798-ulysses-guimaraes-ganhara-posto-de-saude">Ulysses Guimar&amp;atilde;es ganhar&amp;aacute; posto de sa&amp;uacute;de</a>
-   
-</li>
-      
-<li>
-    
-<a href="/component/content/article/47-noticias/1797-325-a-mais-no-convenio-de-creches">325 a mais no conv&amp;ecirc;nio de creches</a>
-   
-</li>
-      
-<li>
-    
-<a href="/component/content/article/47-noticias/1796-doacao-de-terreno-favorece-inovaparq">Doa&amp;ccedil;&amp;atilde;o de terreno favorece InovaParq</a>
-   
-</li>
-      
-<li>
-    
-<a href="/component/content/article/47-noticias/1795-financas-convidam-corona-para-falar">Finan&amp;ccedil;as convidam Corona para falar</a>
-   
-</li>
-      
-<li>
-    
-<a href="/component/content/article/47-noticias/1794-vereadores-na-subprefeitura-sul">Vereadores na Subprefeitura Sul</a>
-   
-</li>
-      
-<li>
-    
-<a href="/component/content/article/47-noticias/1793-comissao-debate-atendimento-do-svo">Comiss&amp;atilde;o debate atendimento do SVO</a>
-   
-</li>
-      
-<li>
-    
-<a href="/component/content/article/47-noticias/1792-rebaixamento-de-calcada-e-polemico">Rebaixamento de cal&amp;ccedil;ada &amp;eacute; pol&amp;ecirc;mico</a>
-   
-</li>
-      
-<li>
-    
-<a href="/component/content/article/47-noticias/1791-presidente-recebe-visita-de-jornalistas">Presidente recebe visita de jornalistas</a>
-   
-</li>
-      
-<li>
-    
-<a href="/component/content/article/47-noticias/1790-moradores-pedem-legalizacao-de-casas">Moradores pedem legaliza&amp;ccedil;&amp;atilde;o de casas</a>
-   
-</li>
-     
-</ul>
- 
-</div>
- 
-  
-<div class="pagination">
-<strong>1</strong><a class="" href="/index.php?start=10" title="2">2</a><a class="" href="/index.php?start=20" title="3">3</a><a class="" href="/index.php?start=30" title="4">4</a><a class="" href="/index.php?start=40" title="5">5</a><a class="" href="/index.php?start=50" title="6">6</a><a class="" href="/index.php?start=60" title="7">7</a><a class="" href="/index.php?start=70" title="8">8</a><a class="" href="/index.php?start=80" title="9">9</a><a class="" href="/index.php?start=90" title="10">10</a><a class="next" href="/index.php?start=10" title="&amp;raquo;">&amp;raquo;</a><a class="last" href="/index.php?start=1600" title="Fim">Fim</a>
-</div> 
 
 </div>      &#13;
      
@@ -1423,450 +554,6 @@ jQuery(function($) {
     <!-- maininner end -->&#13;
     &#13;
         &#13;
-        
-<aside class="grid-box" id="sidebar-b">
-<div class="grid-box width100 grid-v">
-<div class="module mod-box">&#13;
- 
-<div class="deepest">&#13;
-&#13;
-    &#13;
-  
-<h3 class="module-title">
-<span class="color">Acesso</span> r&amp;aacute;pido</h3>  
-
-<table border="0" cellpadding="0" cellspacing="0" width="100%">
-
-<tbody>
-<tr>
-<td><a class="mainlevel" href="/blog-fato-e-versao">Blog Fato &amp;amp; Vers&amp;atilde;o</a></td>
-</tr>
-
-<tr>
-<td><a class="mainlevel" href="/comissoespermanentes">Comiss&amp;otilde;es Permanentes</a></td>
-</tr>
-
-<tr>
-<td><a class="mainlevel" href="/editaisdechamamentos">Editais de Chamamentos</a></td>
-</tr>
-
-<tr>
-<td><a class="mainlevel" href="/escoladolegislativo">Escola do Legislativo</a></td>
-</tr>
-
-<tr>
-<td><a class="mainlevel" href="/gastoscompublicidade">Gastos com Publicidade</a></td>
-</tr>
-
-<tr>
-<td><a class="mainlevel" href="/gestaodaqualidade">Gest&amp;atilde;o da Qualidade</a></td>
-</tr>
-
-<tr>
-<td><a class="mainlevel" href="#" onclick="javascript: window.open('http://www.cvj.sc.gov.br/docs/guiacidadaojoinville.pdf', '', 'toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=780,height=550'); return false">Guia do Cidad&amp;atilde;o</a>
-</td>
-</tr>
-
-<tr>
-<td><a class="mainlevel" href="#" onclick="javascript: window.open('http://www.leismunicipais.com.br/cgi-local/orglaw.pl?city=Joinville&amp;amp;state=sc', '', 'toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=780,height=550'); return false">Lei Org&amp;acirc;nica do Munic&amp;iacute;pio</a>
-</td>
-</tr>
-
-<tr>
-<td><a class="mainlevel" href="/licitacoes">Licita&amp;ccedil;&amp;otilde;es</a></td>
-</tr>
-
-<tr>
-<td><a class="mainlevel" href="#" onclick="javascript: window.open('http://www.siaci.sc.gov.br/login.aspx?u=divulgacvj&amp;amp;s=divulgacvj', '', 'toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=780,height=550'); return false">Presta&amp;ccedil;&amp;atilde;o de Contas (CVJ)</a>
-</td>
-</tr>
-
-<tr>
-<td><a class="mainlevel" href="#" onclick="javascript: window.open('http://transparencia.joinville.sc.gov.br/', '', 'toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=780,height=550'); return false">Presta&amp;ccedil;&amp;atilde;o de Contas (PMJ)</a>
-</td>
-</tr>
-
-<tr>
-<td><a class="mainlevel" href="/projetosemtramitacao">Projetos em Tramita&amp;ccedil;&amp;atilde;o</a></td>
-</tr>
-
-<tr>
-<td><a class="mainlevel" href="/publicacoeslegaisdalrf">Publica&amp;ccedil;&amp;otilde;es Legais da LRF</a></td>
-</tr>
-
-<tr>
-<td><a class="mainlevel" href="#" onclick="javascript: window.open('http://www.cvj.sc.gov.br/docs/regimento_interno_cvj.pdf', '', 'toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=780,height=550'); return false">Regimento Interno</a>
-</td>
-</tr>
-
-</tbody>
-</table>&#13;
- 
-</div>&#13;
-
-</div>
-</div>
-<div class="grid-box width100 grid-v">
-<div class="module mod-box">&#13;
- 
-<div class="deepest">&#13;
-&#13;
-  
-<div class="badge badge-hot"></div>  &#13;
-  
-<h3 class="module-title">
-<span class="icon icon-mail"></span>Vereadores</h3>  
-<p>
-<img src="/images/stories/adilson_mariano.png" style="margin-right: 5px; float: left;"><strong>Adilson Mariano</strong>
-<br>(47) 2101-3219<br>
-<a href="mailto:a.mariano@cvj.sc.gov.br?subject=Contato pelo site da CVJ">a.mariano@cvj.sc.gov.br</a>
-<br>
-<span style="line-height: 1.3em;">
-<br>
-<img src="/images/stories/claudio_aragao.png" style="margin-right: 5px; float: left;"><strong>Cl&amp;aacute;udio Nei Arag&amp;atilde;o</strong>
-<br>(47) 2101-3209<br>
-<a href="mailto:claudio.aragao@cvj.sc.gov.br?subject=Contato pelo site da CVJ">claudio.aragao@cvj.sc.gov.br</a>
-<br>
-<br>
-<img src="/images/stories/dorval_pretti.png" style="margin-right: 5px; float: left;"><strong>Dorval Pretti</strong>
-<br>(47) 2101-3205<br>
-<a href="mailto:dpretti@cvj.sc.gov.br?subject=Contato pelo site da CVJ">dpretti@cvj.sc.gov.br</a>
-<br>
-<br>
-<img src="/images/stories/jaime_evaristo.png" style="margin-right: 5px; float: left;"><strong>Jaime Evaristo</strong>
-<br>(47) 2101-3259<br>
-<a href="mailto:jaime.evaristo@cvj.sc.gov.br?subject=Contato pelo site da CVJ">jaime.evaristo@cvj.sc.gov.br</a>
-<br>
-<br>
-<img src="/images/stories/james_schroeder.png" style="margin-right: 5px; float: left;"><strong>James Schroeder</strong>
-<br>(47) 2101-3315<br>
-<a href="mailto:vereadorjames@cvj.sc.gov.br?subject=Contato pelo site da CVJ">vereadorjames@cvj.sc.gov.br</a>
-<br>
-</span><span style="line-height: 1.3em;">
-<br>
-<img src="/images/stories/joao_carlos.png" style="margin-right: 5px; float: left;"><strong>Jo&amp;atilde;o Carlos Gon&amp;ccedil;alves</strong>
-<br>(47) 2101-3300<br>
-<a href="mailto:joao.carlos@cvj.sc.gov.br?subject=Contato pelo site da CVJ">joao.carlos@cvj.sc.gov.br</a>
-<br>
-</span><span style="line-height: 1.3em;">
-<br>
-<img src="/images/stories/quinzinho.png" style="margin-right: 5px; float: left;"><strong>Joaquim Alves dos Santos</strong>
-<br>(47) 2101-3237<br>
-<a href="mailto:quinzinho@cvj.sc.gov.br?subject=Contato pelo site da CVJ">quinzinho@cvj.sc.gov.br</a>
-<br>
-</span><span style="line-height: 1.3em;">
-<br>
-<img src="/images/stories/levi_rioschi.png" style="margin-right: 5px; float: left;"><strong>Levi Rioschi</strong>
-<br>(47) 2101-3239<br>
-<a href="mailto:levi.rioschi@cvj.sc.gov.br?subject=Contato pelo site da CVJ">levi.rioschi@cvj.sc.gov.br</a>
-<br>
-<br>
-<img src="/images/stories/lioilson_correa.png" style="margin-right: 5px; float: left;"><strong>Lioilson M&amp;aacute;rio Corr&amp;ecirc;a</strong>
-<br>(47) 2101-3223<br>
-<a href="mailto:lioilson.mario@cvj.sc.gov.br?subject=Contato pelo site da CVJ">lioilson.mario@cvj.sc.gov.br</a>
-<br>
-<br>
-<img src="/images/stories/manoel_bento.png" style="margin-right: 5px; float: left;"><strong>Manoel Francisco Bento</strong>
-<br>(47) 2101-3208<br>
-<a href="mailto:vereadorbentopt@cvj.sc.gov.br?subject=Contato pelo site da CVJ">vereadorbentopt@cvj.sc.gov.br</a>
-<br>
-</span><span style="line-height: 1.3em;">
-<br>
-<img src="/images/stories/pastora_leia.png" style="margin-right: 5px; float: left;"><strong>Maria L&amp;eacute;ia Hostim Rocha</strong>
-<br>(47) 2101-3214<br>
-<a href="mailto:maria.leia@cvj.sc.gov.br?subject=Contato pelo site da CVJ">maria.leia@cvj.sc.gov.br</a>
-<br>
-</span><span style="line-height: 1.3em;">
-<br>
-<img src="/images/stories/mauricio_peixer.png" style="margin-right: 5px; float: left;"><strong>Maur&amp;iacute;cio Fernando Peixer</strong>
-<br>(47) 2101-3241<br>
-<a href="mailto:mauriciopeixer@cvj.sc.gov.br?subject=Contato pelo site da CVJ">mauriciopeixer@cvj.sc.gov.br</a>
-<br>
-<br>
-<img src="/images/stories/mauricio_soares.png" style="margin-right: 5px; float: left;"><strong>Maur&amp;iacute;cio Soares</strong>
-<br>(47) 2101-3230<br>
-<a href="mailto:mauricinho.soares@cvj.sc.gov.br?subject=Contato pelo site da CVJ">mauricinho.soares@cvj.sc.gov.br</a>
-<br>
-<br>
-<img src="/images/stories/maycon_cesar.png" style="margin-right: 5px; float: left;"><strong>Maycon Cesar</strong>
-<br>(47) 2101-3327<br>
-<a href="mailto:maycon.cesar@cvj.sc.gov.br?subject=Contato pelo site da CVJ">maycon.cesar@cvj.sc.gov.br</a>
-<br>
-<br>
-<img src="/images/stories/odir_nunes.png" style="margin-right: 5px; float: left;"><strong>Odir Nunes da Silva</strong>
-<br>(47) 2101-3203<br>
-<a href="mailto:odir.nunes@cvj.sc.gov.br?subject=Contato pelo site da CVJ">odir.nunes@cvj.sc.gov.br</a>
-<br>
-<br>
-<img src="/images/stories/patricio_destro.png" style="margin-right: 5px; float: left;"><strong>Patr&amp;iacute;cio Carlos Destro</strong>
-<br>(47) 2101-3225<br>
-<a href="mailto:patricio@cvj.sc.gov.br?subject=Contato pelo site da CVJ">patricio@cvj.sc.gov.br</a>
-<br>
-<br>
-<img src="/images/stories/roberto_bisoni.png" style="margin-right: 5px; float: left;"><strong>Roberto Bisoni</strong>
-<br>(47) 2101-3301<br>
-<a href="mailto:bisoni@cvj.sc.gov.br?subject=Contato pelo site da CVJ">bisoni@cvj.sc.gov.br</a>
-<br>
-<br>
-<img src="/images/stories/rodrigo_fachini.png" style="margin-right: 5px; float: left;"><strong>Rodrigo Fachini</strong>
-<br>(47) 2101-3213<br>
-<a href="mailto:rodrigo.fachini@cvj.sc.gov.br?subject=Contato pelo site da CVJ">rodrigo.fachini@cvj.sc.gov.br</a>
-<br>
-<br>
-<img src="/images/stories/rodrigo_thomazi.jpg" style="margin-right: 5px; float: left;"><strong>Rodrigo Thomazi</strong>
-<br>(47) 2101-3285<br>
-<a href="mailto:rodrigo.thomazi@cvj.sc.gov.br?subject=Contato pelo site da CVJ">rodrigo.thomazi@cvj.sc.gov.br</a>
-<br>
-</span>
-</p>&#13;
- 
-</div>&#13;
-
-</div>
-</div>
-<div class="grid-box width100 grid-v">
-<div class="module mod-box">&#13;
- 
-<div class="deepest">&#13;
-&#13;
-    &#13;
-    
-<center>
-<a href="http://www.legislador.com.br/LegisladorWEB.ASP?WCI=ProjetoParametro&amp;amp;ID=7" target="_blank"><img src="/images/site/pesquisar/pl193.png"></a>
-</center>&#13;
- 
-</div>&#13;
-
-</div>
-</div>
-<div class="grid-box width100 grid-v">
-<div class="module mod-box">&#13;
- 
-<div class="deepest">&#13;
-&#13;
-    &#13;
-    
-<center>
-<a href="http://www.legislador.com.br/LegisladorWEB.ASP?WCI=ProposicaoParametro&amp;amp;ID=7" target="_blank"><img src="/images/site/pesquisar/mo193.png"></a>
-</center>&#13;
- 
-</div>&#13;
-
-</div>
-</div>
-<div class="grid-box width100 grid-v">
-<div class="module mod-box">&#13;
- 
-<div class="deepest">&#13;
-&#13;
-    &#13;
-    
-<center>
-<a href="http://www.legislador.com.br/LegisladorWEB.ASP?WCI=ProposicaoParametro&amp;amp;ID=7" target="_blank"><img src="/images/site/pesquisar/pi193.png"></a>
-</center>&#13;
- 
-</div>&#13;
-
-</div>
-</div>
-<div class="grid-box width100 grid-v">
-<div class="module mod-box">&#13;
- 
-<div class="deepest">&#13;
-&#13;
-    &#13;
-    
-<center>
-<a href="http://www.legislador.com.br/LegisladorWEB.ASP?WCI=ProposicaoParametro&amp;amp;ID=7" target="_blank"><img src="/images/site/pesquisar/id193.png"></a>
-</center>&#13;
- 
-</div>&#13;
-
-</div>
-</div>
-<div class="grid-box width100 grid-v">
-<div class="module mod-box">&#13;
- 
-<div class="deepest">&#13;
-&#13;
-    &#13;
-    
-<a href="/blog-fato-e-versao"><img src="/images/site/selos/fato_e_versao.png" style="margin-right: 10px; margin-bottom: 5px; float: left;"></a>&#13;
- 
-</div>&#13;
-
-</div>
-</div>
-<div class="grid-box width100 grid-v">
-<div class="module mod-box">&#13;
- 
-<div class="deepest">&#13;
-&#13;
-    &#13;
-    
-<a href="http://migre.me/3O50M" target="_blank"><img src="/images/site/selos/cvjmirim.png" style="margin-right: auto; margin-bottom: 5px; display: block; margin-left: auto;"></a>&#13;
- 
-</div>&#13;
-
-</div>
-</div>
-<div class="grid-box width100 grid-v">
-<div class="module mod-box">&#13;
- 
-<div class="deepest">&#13;
-&#13;
-    &#13;
-    
-<a href="/escoladolegislativo"><img border="0" src="/images/site/selos/escola_do_legislativo.png" style="margin-right: 10px; margin-bottom: 5px; float: left;"></a>&#13;
- 
-</div>&#13;
-
-</div>
-</div>
-<div class="grid-box width100 grid-v">
-<div class="module mod-box">&#13;
- 
-<div class="deepest">&#13;
-&#13;
-    &#13;
-    
-<a href="/component/ckforms/?view=ckforms&amp;amp;id=2"><img border="0" src="/images/site/selos/ouvidoria.png" style="margin-right: 10px; margin-bottom: 5px; float: left;"></a>&#13;
- 
-</div>&#13;
-
-</div>
-</div>
-<div class="grid-box width100 grid-v">
-<div class="module mod-box">&#13;
- 
-<div class="deepest">&#13;
-&#13;
-    &#13;
-    
-<a href="/component/content/article/43-novo-site/79-sistema-de-gestao-da-qualidade"><img src="/images/site/selos/iso9001.png" style="margin-right: 10px; margin-bottom: 5px; float: left;"></a>&#13;
- 
-</div>&#13;
-
-</div>
-</div>
-<div class="grid-box width100 grid-v">
-<div class="module mod-box">&#13;
- 
-<div class="deepest">&#13;
-&#13;
-    &#13;
-  
-<h3 class="module-title">
-<span class="icon icon-mail"></span><span class="color">Newsletter</span> CVJ</h3>  
-<div class="acymailing_moduleicon-mail" id="acymailing_module_formAcymailing1">&#13;
- 
-<div class="acymailing_fulldiv" id="acymailing_fulldiv_formAcymailing1">&#13;
-  
-<form action="/index.php" id="formAcymailing1" method="post" name="formAcymailing1" onsubmit="return submitacymailingform('optin','formAcymailing1')">&#13;
-  
-<div class="acymailing_module_form">&#13;
-         
-<table class="acymailing_lists">&#13;
-         
-<tbody>
-<tr>&#13;
-      
-<td>&#13;
-       <input class="acymailing_checkbox" id="acylist_4" name="subscription[]" type="checkbox" value="4">&#13;
-      </td>&#13;
-      <td>&#13;
-      <label for="acylist_4">&#13;
-      <span class="editlinktip hasTip" style="text-decoration: none; color: #333;" title="Imprensa::Se voc&amp;ecirc; &amp;eacute; profissional de ve&amp;iacute;culos de comunica&amp;ccedil;&amp;atilde;o, marque esta op&amp;ccedil;&amp;atilde;o.">Imprensa </span>      </label>&#13;
-      </td>&#13;
-     
-</tr>&#13;
-         
-<tr>&#13;
-      
-<td>&#13;
-       <input class="acymailing_checkbox" id="acylist_3" name="subscription[]" type="checkbox" value="3">&#13;
-      </td>&#13;
-      <td>&#13;
-      <label for="acylist_3">&#13;
-      <span class="editlinktip hasTip" style="text-decoration: none; color: #333;" title="Cerimonial::Se voc&amp;ecirc; deseja receber os convites para as solenidades da C&amp;acirc;mara, marque esta op&amp;ccedil;&amp;atilde;o.">Cerimonial </span>      </label>&#13;
-      </td>&#13;
-     
-</tr>&#13;
-         
-<tr>&#13;
-      
-<td>&#13;
-       <input class="acymailing_checkbox" id="acylist_1" name="subscription[]" type="checkbox" value="1">&#13;
-      </td>&#13;
-      <td>&#13;
-      <label for="acylist_1">&#13;
-      <span class="editlinktip hasTip" style="text-decoration: none; color: #333;" title="Geral::Se voc&amp;ecirc; deseja receber nossas mensagens gerais, marque esta op&amp;ccedil;&amp;atilde;o.">Geral </span>      </label>&#13;
-      </td>&#13;
-     
-</tr>&#13;
-       
-</tbody>
-</table>&#13;
-      
-<table class="acymailing_form">&#13;
-    
-<tbody>
-<tr>&#13;
-            
-<td class="acyfield_name">&#13;
-        <input class="inputbox" id="user_name_formAcymailing1" name="user[name]" onblur="if(this.value=='') this.value='Nome Completo';" onfocus="if(this.value == 'Nome Completo') this.value = '';" size="30" type="text" value="Nome Completo">&#13;
-       </td> 
-</tr>
-<tr>       
-<td class="acyfield_email">&#13;
-        <input class="inputbox" id="user_email_formAcymailing1" name="user[email]" onblur="if(this.value=='') this.value='E-mail v&amp;aacute;lido';" onfocus="if(this.value == 'E-mail v&amp;aacute;lido') this.value = '';" size="30" type="text" value="E-mail v&amp;aacute;lido">&#13;
-       </td> 
-</tr>
-<tr>     
-<td class="acysubbuttons">&#13;
-            <input class="button subbutton" name="Submit" onclick="try{ return submitacymailingform('optin','formAcymailing1'); }catch(err){alert('The form could not be submitted');return false;}" type="submit" value="Assinar">&#13;
-            <input class="button unsubbutton" name="Submit" onclick="return submitacymailingform('optout','formAcymailing1')" type="button" value="Remover Assinatura">&#13;
-           </td>&#13;
-    
-</tr>&#13;
-   
-</tbody>
-</table>&#13;
-      
-<input name="ctrl" type="hidden" value="sub">&#13;
-   <input name="task" type="hidden" value="notask">&#13;
-   <input name="redirect" type="hidden" value="http%3A%2F%2Fwww.cvj.sc.gov.br">&#13;
-   <input name="redirectunsub" type="hidden" value="http%3A%2F%2Fwww.cvj.sc.gov.br">&#13;
-   <input name="option" type="hidden" value="com_acymailing">&#13;
-      <input name="hiddenlists" type="hidden" value="">&#13;
-   <input name="acyformname" type="hidden" value="formAcymailing1">&#13;
-      <input name="Itemid" type="hidden" value="1">   
-</div>&#13;
-  
-</form>&#13;
- 
-</div>&#13;
- 
-</div>&#13;
- 
-</div>&#13;
-
-</div>
-</div>
-<div class="grid-box width100 grid-v">
-<div class="module mod-box">&#13;
- 
-<div class="deepest">&#13;
-&#13;
-    &#13;
-  
-<h3 class="module-title">
-<span class="color">Agora,</span> no site</h3>  N&amp;oacute;s temos&nbsp;352 visitantes&nbsp;online&#13;
- </div>&#13;
-
-</div>
-</div>
-</aside>&#13;
      &#13;
    
 </div>&#13;
@@ -1888,7 +575,7 @@ jQuery(function($) {
    &#13;
    
 <section class="grid-block" id="bottom-b">
-<div class="grid-box width66 grid-h">
+<div class="grid-box width50 grid-h">
 <div class="module mod-line deepest">&#13;
 &#13;
    
@@ -1898,7 +585,7 @@ jQuery(function($) {
 
 </div>
 </div>
-<div class="grid-box width33 grid-h">
+<div class="grid-box width50 grid-h">
 <div class="module mod-line deepest">&#13;
 &#13;
    
@@ -1920,19 +607,19 @@ jQuery(function($) {
   &#13;
   &#13;
  
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-12576940-11']);
-  _gaq.push(['_setDomainName', '.cvj.sc.gov.br']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-12576940-11']);
+  _gaq.push(['_setDomainName', '.cvj.sc.gov.br']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
 </script>&#13;
 &#13;
 <script src="http://webplayer.yahooapis.com/player.js" type="text/javascript"></script>  &#13;

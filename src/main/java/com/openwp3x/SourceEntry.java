@@ -9,6 +9,9 @@ import java.util.Locale;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang3.text.WordUtils;
+
 /**
  * @author marcos.ferreira
  * 
@@ -47,6 +50,7 @@ public class SourceEntry  {
     	String title = this.getTitle();
     	title = treatPrefixPattern(title, this.entryPattern.getTitlePrefixPattern());
     	title = treatSufixPattern(title, this.entryPattern.getTitleSufixPattern());
+    	title = WordUtils.capitalizeFully(title);
     	return title.trim();
     	
     }

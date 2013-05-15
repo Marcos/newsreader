@@ -39,7 +39,7 @@ public class TestSociescEntries {
         final Collection<SourceEntry> entries = newsReader.getEntries();
         System.out.println(entries);
         final SourceEntry firstEntry = entries.iterator().next();
-        Assert.assertEquals("Abertas inscrições para o processo seletivo dos Mestrados em Engenharia Mecânica e Engenharia de Produção...", firstEntry.getFormattedTitle());
+        Assert.assertEquals("Abertas Inscrições Para O Processo Seletivo Dos Mestrados Em Engenharia Mecânica E Engenharia De Produção...", firstEntry.getFormattedTitle());
         Assert.assertEquals("12/04/2013", firstEntry.getDate());
         Assert.assertEquals("viewRegistro(13680);return false;", firstEntry.getUrl());
         Assert.assertEquals("http://www.sociesc.org.br/pt/noticias/ajax_news_view.php?id=13680", firstEntry.getFormattedURL());
