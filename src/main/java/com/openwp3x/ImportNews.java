@@ -1,9 +1,6 @@
 package com.openwp3x;
 
-import java.sql.Connection;
 import java.sql.Date;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
 import java.sql.Timestamp;
 import java.util.Calendar;
 import java.util.Collection;
@@ -15,12 +12,12 @@ import javax.persistence.Query;
 
 import org.apache.log4j.Logger;
 
-import com.openwp3x.db.DatabaseManager;
 import com.openwp3x.db.EntityManagerUtil;
 import com.openwp3x.jobs.StatusEntry;
 import com.openwp3x.model.Entry;
 import com.openwp3x.model.Tag;
 import com.openwp3x.model.TagType;
+import com.openwp3x.reader.SourceEntry;
 
 public class ImportNews {
 	

@@ -8,7 +8,6 @@ import java.util.Collection;
 
 import org.apache.log4j.Logger;
 
-import com.openwp3x.SourceEntry;
 import com.openwp3x.SourcePattern;
 
 /**

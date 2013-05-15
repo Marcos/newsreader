@@ -13,7 +13,6 @@ import junit.framework.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.openwp3x.SourceEntry;
 import com.openwp3x.SourcePattern;
 import com.openwp3x.SourcePatternFactory;
 
@@ -80,13 +79,7 @@ public class TestReader {
         Assert.assertEquals("10/04/2013", this.newsReader.getDateFromText(text, datePatern));
     }
 
-    @Test
-    public void testCleanerStart() {
-        final String dirtText = "\n   18/04/13 - Esta semana tem Café & Negócios na Ajorpeme";
-        String treatPrefixPattern = "\\.*\\s-\\s";
-        final String cleanedText = new SourceEntry().treatPrefixPattern(dirtText, treatPrefixPattern);
-        Assert.assertEquals(cleanedText, "Esta semana tem Café & Negócios na Ajorpeme");
-    }
+    
 
     @Test
     public void testInfoPattern() {

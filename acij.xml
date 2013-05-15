@@ -325,7 +325,7 @@ function ValidarBusca3()
 <form action="/busca/send" class="busca-geral top5" method="post" onsubmit="return ValidarBusca();" style="padding: 50px 0">
     
 <input class="clear" id="dsbusca" name="dsbusca" type="text">
-    <input name="identificador" type="hidden" value="20130514231041">
+    <input name="identificador" type="hidden" value="20130512090006">
     <input name="ok" type="submit" value="Ok">
          
 </form>
@@ -361,7 +361,8 @@ function ValidarBusca3()
 </div>
 <!--topo div--> 
 <div class="conteudo-div">
-  
+  &#13;
+
 
 
 <ul class="menu">
@@ -618,24 +619,24 @@ function ValidarBusca3()
 </li>
    
 </ul>
-<!--menu-->
+<!--menu-->&#13;
 
-<div class="esq-div">
-  
+<div class="esq-div">&#13;
+  &#13;
+   &#13;
+   &#13;
    
-   
-   
-<ul class="caminho" id="breadcrumb">
+<ul class="caminho">&#13;
    
 <li>
-<a href="/">P&amp;aacute;gina inicial </a>&raquo;</li> 
-      
+<a href="/">P&amp;aacute;gina inicial </a>&raquo;</li> &#13;
+   
 <li>
-<strong>Not&amp;iacute;cias</strong>
-</li>
+<strong>Not&iacute;cias</strong>
+</li>&#13;
    
-</ul>
-   
+</ul>&#13;
+   &#13;
     &#13;
 
 <ul class="controles right">&#13;
@@ -652,200 +653,235 @@ function ValidarBusca3()
 <a href=""><img alt="imprimir" height="16" src="/images/print.gif" title="Imprimir texto" width="16"></a>
 </li>&#13;
 
-</ul>   
-   
-<h4>Not&amp;iacute;cias</h4>
-      
-   <!-- INICIO PAGINACAO -->
-        
-     
-     
-<div class="centraliza-paginacao">
-           
-<img alt="anterior" class="left right10" height="30" src="/images/esq-seta-sidebar.jpg" width="31">     
-      <ul class="paginacao left">
-       
-      
-<li>
-<a class="pag-atual" href="#">1</a>
-</li>
-<li>
-<a href="/noticias/list/pag/2#breadcrumb">2</a>
-</li>
-<li>
-<a href="/noticias/list/pag/3#breadcrumb">3</a>
-</li>
-<li>
-<a href="/noticias/list/pag/4#breadcrumb">4</a>
-</li>
-<li>
-<a href="/noticias/list/pag/5#breadcrumb">5</a>
-</li>
-<li>
-<a href="/noticias/list/pag/6#breadcrumb">6</a>
-</li>
-<li>
-<a href="/noticias/list/pag/7#breadcrumb">7</a>
-</li>      
-            
-</ul>
-      
-<a href="/noticias/list/pag/2#breadcrumb"><img alt="anterior" class="left right10 bottom25" height="30" src="/images/dir-seta-sidebar.jpg" width="31"></a>     <!--<p>Mostrando <strong>0</strong> - <strong>5</strong> de <strong>437</strong> registros</p>-->
-           
-</div> <!-- .centraliza-paginacao -->
-     <!-- FIM PAGINACAO -->
-   
-   
-   
-   
-<div class="container_noticias">
-    
-   
-<p>
-   
-   
+</ul>   &#13;
+   <!--<h4>Not&iacute;cias</h4>-->&#13;
+   &#13;
+ 
+<p style="clear: both; margin-bottom: 0;">&#13;
+ 
+<strong>26/03/2013 12:03<br>&#13;
+ 
+</strong>&#13;
+ 
 </p>
-<ul class="lista_noticias">
-       
-   
-<li>
-     <!-- <span class="dataum">17/05</span> -->
-     
-<span>
-      <strong>N&amp;uacute;cleo dos Jovens Empres&amp;aacute;rios<br>
-</strong>
-      <a href="/noticias/show/id/911%26">JOVENS EMPRES&amp;Aacute;RIOS DA ACIJ NA EXPOGEST&amp;Atilde;O</a>     </span>
-   
-</li>
-    
-   
-<li>
-     <!-- <span class="dataum">09/05</span> -->
-     
-<span>
-      <strong>Gest&amp;atilde;o Compartilhada<br>
-</strong>
-      <a href="/noticias/show/id/910%26">Comandante de Transito do 8&amp;ordm; BPM no Gest&amp;atilde;o Norte</a>     </span>
-   
-</li>
-    
-   
-<li>
-     <!-- <span class="dataum">07/05</span> -->
-     
-<span>
-      <strong></strong>
-      <a href="/noticias/show/id/909%26">Reuni&amp;atilde;o do Conselho</a>     </span>
-   
-</li>
-    
-   
-<li>
-     <!-- <span class="dataum">16/04</span> -->
-     
-<span>
-      <strong></strong>
-      <a href="/noticias/show/id/901%26">Revista 21</a>     </span>
-   
-</li>
-    
-   
-<li>
-     <!-- <span class="dataum">15/04</span> -->
-     
-<span>
-      <strong>Portal ACIJ<br>
-</strong>
-      <a href="/noticias/show/id/900%26">Sess&amp;atilde;o de Neg&amp;oacute;cios</a>     </span>
-   
-</li>
-      
-   
-</ul>
+<br>&#13;
+ 
+<h4>Os Bons Ventos da Inova&amp;ccedil;&amp;atilde;o</h4>&#13;
+ &#13;
+&#13;
+ 
+<div class="container_conteudo">&#13;
   
-<br style="clear:both">
+<p>
+<em>Articula&amp;ccedil;&amp;atilde;o estrat&amp;eacute;gica de empresas, universidade e governo, identifica novas voca&amp;ccedil;&amp;otilde;es para a economia regional.</em>
+</p>&#13;
+  
+<p>A necessidade de &ldquo;fazer diferente&rdquo; existe, para que os indiv&iacute;duos possam se sobressair, seja na vida pessoal ou no meio corporativo. Assim, a inova&ccedil;&atilde;o representa ideias, m&eacute;todos ou objetos que pouco se parecem com os padr&otilde;es anteriores. Inova&ccedil;&atilde;o tecnol&oacute;gica seria seria &ldquo;tudo o que acontece na fronteira do conhecimento&rdquo;.<br>
+<br>A 5&ordf; edi&ccedil;&atilde;o da Revista 21 mostra que Joinville caminha a passos largos neste sentido, sendo o primeiro munic&iacute;pio catarinense a aprovar a Lei da Inova&ccedil;&atilde;o, e investindo na cria&ccedil;&atilde;o de parques tecnol&oacute;gicos.<br>
+<br>Acompanhe este processo e fique por dentro das principais novidades e acontecimentos empresariais de Joinville e regi&atilde;o, com a vers&atilde;o digital da Revista:<br>
+<br>
+</p>&#13;
 
-   <!-- INICIO PAGINACAO -->
-        
-     
-     
+<p>
+<iframe frameborder="0" height="750" marginheight="0" marginwidth="0" scrolling="no" src="http://www.slideshare.net/slideshow/embed_code/17117068" width="600"> 
+</iframe>
+</p>&#13;
+
+<div style="margin-bottom: 5px;">
+<strong> <a href="http://www.slideshare.net/ACIJ/acij-revista-21-fevereiro2013" target="_blank" title="[ACIJ] Revista 21 - Fevereiro/2013">[ACIJ] Revista 21 - Fevereiro/2013</a> </strong> from <strong><a href="http://www.slideshare.net/ACIJ" target="_blank">Associa&ccedil;&atilde;o Empresarial de Joinville - ACIJ</a></strong>
+</div> 
+</div> <!-- container_conteudo -->&#13;
+ &#13;
+   &#13;
+   &#13;
+   &#13;
+   
+<span id="ancora_paginacao">&nbsp;</span>
+  
+<h5 class="destaque" style="float: left; margin: 30px 0 0 0; width: 100%;">Outras Not&amp;iacute;cias</h5>
+
+
+
+
+  
+  
+    <!-- INICIO PAGINACAO -->
+    
+    
+         
 <div class="centraliza-paginacao">
-              
-<img alt="anterior" class="left right10" height="30" src="/images/esq-seta-sidebar.jpg" width="31">        
-      <ul class="paginacao left">
-       
+ 
       
+<a href="/noticias/show/id/889%26/pag/1#ancora_paginacao">
+        <img alt="anterior" class="left right10" height="30" src="/images/esq-seta-sidebar.jpg" width="31">
+        </a>
+       
+     
+        
+<ul class="paginacao left">
+       
 <li>
-<a class="pag-atual" href="#">1</a>
+<a class="pag-atual" href="#ancora_paginacao">1</a>
 </li>
 <li>
-<a href="/noticias/list/pag/2#breadcrumb">2</a>
+<a href="/noticias/show/id/889%26/pag/2#ancora_paginacao">2</a>
 </li>
 <li>
-<a href="/noticias/list/pag/3#breadcrumb">3</a>
+<a href="/noticias/show/id/889%26/pag/3#ancora_paginacao">3</a>
 </li>
 <li>
-<a href="/noticias/list/pag/4#breadcrumb">4</a>
+<a href="/noticias/show/id/889%26/pag/4#ancora_paginacao">4</a>
 </li>
 <li>
-<a href="/noticias/list/pag/5#breadcrumb">5</a>
-</li>
-<li>
-<a href="/noticias/list/pag/6#breadcrumb">6</a>
-</li>
-<li>
-<a href="/noticias/list/pag/7#breadcrumb">7</a>
-</li>      
-            
+<a href="/noticias/show/id/889%26/pag/5#ancora_paginacao">5</a>
+</li>        
 </ul>
       
-<a href="/noticias/list/pag/2#breadcrumb"><img alt="anterior" class="left right10 bottom25" height="30" src="/images/dir-seta-sidebar.jpg" width="31"></a>     <!--<p>Mostrando <strong>0</strong> - <strong>5</strong> de <strong>437</strong> registros</p>-->
-           
-</div> <!-- .centraliza-paginacao -->
-     <!-- FIM PAGINACAO -->
-     
-     
-     
-     
-   
-</div> <!-- .container_noticias -->
+<a href="/noticias/show/id/889%26/pag/2#ancora_paginacao">
+        <img alt="proxima" class="left right10 bottom25" height="30" src="/images/dir-seta-sidebar.jpg" width="31">
+        </a>
+       
+       
+</div>
+            <!-- FIM PAGINACAO -->
+      
 
-   
+      
+      
+      
+      
+      
+  
+  
+
+<ul class="lista_noticias">
+ 
+<li>
+  
+<span>
+      <strong>Origem: N&amp;uacute;cleo dos Jovens Empres&amp;aacute;rios<br>
+</strong>
+      <a href="/noticias/show/id/911%26">JOVENS EMPRES&amp;Aacute;RIOS DA ACIJ NA EXPOGEST&amp;Atilde;O</a>  </span>
+ 
+</li>
+ 
+<li>
+  
+<span>
+      <strong>Origem: Gest&amp;atilde;o Compartilhada<br>
+</strong>
+      <a href="/noticias/show/id/910%26">Comandante de Transito do 8&amp;ordm; BPM no Gest&amp;atilde;o Norte</a>  </span>
+ 
+</li>
+ 
+<li>
+  
+<span>
+      <a href="/noticias/show/id/909%26">Reuni&amp;atilde;o do Conselho</a>  </span>
+ 
+</li>
+ 
+<li>
+  
+<span>
+      <a href="/noticias/show/id/901%26">Revista 21</a>  </span>
+ 
+</li>
+ 
+<li>
+  
+<span>
+      <strong>Origem: Portal ACIJ<br>
+</strong>
+      <a href="/noticias/show/id/900%26">Sess&amp;atilde;o de Neg&amp;oacute;cios</a>  </span>
+ 
+</li>
+
+</ul> <!-- .lista_noticias -->
+    
+    
+    
+<br clear="all">
+    
+    
+    <!-- INICIO PAGINACAO -->
+    
+    
+         
+<div class="centraliza-paginacao">
+ 
+      
+<a href="/noticias/show/id/889%26/pag/1#ancora_paginacao">
+        <img alt="anterior" class="left right10" height="30" src="/images/esq-seta-sidebar.jpg" width="31">
+        </a>
+       
+     
+        
+<ul class="paginacao left">
+       
+<li>
+<a class="pag-atual" href="#ancora_paginacao">1</a>
+</li>
+<li>
+<a href="/noticias/show/id/889%26/pag/2#ancora_paginacao">2</a>
+</li>
+<li>
+<a href="/noticias/show/id/889%26/pag/3#ancora_paginacao">3</a>
+</li>
+<li>
+<a href="/noticias/show/id/889%26/pag/4#ancora_paginacao">4</a>
+</li>
+<li>
+<a href="/noticias/show/id/889%26/pag/5#ancora_paginacao">5</a>
+</li>        
+</ul>
+      
+<a href="/noticias/show/id/889%26/pag/2#ancora_paginacao">
+        <img alt="proxima" class="left right10 bottom25" height="30" src="/images/dir-seta-sidebar.jpg" width="31">
+        </a>
+       
+       
+</div>
+            <!-- FIM PAGINACAO -->
+    
+    &#13;
+&#13;
+   &#13;
   &#13;
 &#13;
 
-<script type="text/javascript">
-jQuery(document).ready(function(){
- 
- fundo_botao = 'url("/images/menu-hover1.gif") repeat-x scroll center bottom';
- bt_compartilhar = jQuery('.menu-inf').find('a[title=Compartilhar]');
- bt_comentarios = jQuery('.menu-inf').find('a[title=Comentários]');
- div_compartilhar = jQuery('.midias_sociais');
- div_comentarios = jQuery('.comentarios');
- 
-     jQuery('.midias_sociais').css('display', 'none');
-    bt_comentarios.css('background', fundo_botao);
-  
- 
- bt_comentarios.click(function(evento){
-  jQuery(this).css('background', fundo_botao);
-  bt_compartilhar.css('background', 'none');
-  div_compartilhar.hide();
-  div_comentarios.show('normal');
-  evento.preventDefault();
- })
- 
- bt_compartilhar.click(function(evento){
-  jQuery(this).css('background', fundo_botao);
-  bt_comentarios.css('background', 'none');
-  div_comentarios.hide();
-  div_compartilhar.show('normal');
-  evento.preventDefault();
- })
- 
- 
- 
-});
+<script type="text/javascript">
+jQuery(document).ready(function(){
+ 
+ fundo_botao = 'url("/images/menu-hover1.gif") repeat-x scroll center bottom';
+ bt_compartilhar = jQuery('.menu-inf').find('a[title=Compartilhar]');
+ bt_comentarios = jQuery('.menu-inf').find('a[title=Comentários]');
+ div_compartilhar = jQuery('.midias_sociais');
+ div_comentarios = jQuery('.comentarios');
+ 
+     jQuery('.midias_sociais').css('display', 'none');
+    bt_comentarios.css('background', fundo_botao);
+  
+ 
+ bt_comentarios.click(function(evento){
+  jQuery(this).css('background', fundo_botao);
+  bt_compartilhar.css('background', 'none');
+  div_compartilhar.hide();
+  div_comentarios.show('normal');
+  evento.preventDefault();
+ })
+ 
+ bt_compartilhar.click(function(evento){
+  jQuery(this).css('background', fundo_botao);
+  bt_comentarios.css('background', 'none');
+  div_comentarios.hide();
+  div_compartilhar.show('normal');
+  evento.preventDefault();
+ })
+ 
+ 
+ 
+});
 </script>&#13;
 &#13;
 
@@ -896,7 +932,7 @@ jQuery(document).ready(function(){
 <label>Mensagem (M&amp;aacute;ximo 250 caracteres):</label><textarea class="required" id="descricao" name="descricao"></textarea>
 <br style="clear:both;">&#13;
         
-<input name="pagina" type="hidden" value="http://acij.com.br/noticias">&#13;
+<input name="pagina" type="hidden" value="http://www.acij.com.br/noticias/show/id/889%26">&#13;
         <input name="nucleo_id" type="hidden" value="0">&#13;
        
 </fieldset>&#13;
@@ -907,7 +943,7 @@ jQuery(document).ready(function(){
 <fieldset class="field_50">&#13;
                                                             
 <label for="celular">Digite abaixo o n&amp;uacute;mero destacado acima:</label>&#13;
-                                                            <a href="" onclick="return false" title="Reload image"><img onclick="this.src=&amp;quot;/captcha?r=&amp;quot; + Math.random() + &amp;quot;&amp;amp;reload=1&amp;quot;" src="/captcha?1368587441"></a>&#13;
+                                                            <a href="" onclick="return false" title="Reload image"><img onclick="this.src=&amp;quot;/captcha?r=&amp;quot; + Math.random() + &amp;quot;&amp;amp;reload=1&amp;quot;" src="/captcha?1368363606"></a>&#13;
                                                             
 <br clear="all">&#13;
                                                             
@@ -942,25 +978,25 @@ jQuery(document).ready(function(){
     
 </div>&#13;
     
-<script>
-     function BuscarPag(caminho)
-     {
-      req180.open("POST", caminho, true);
-      req180.onreadystatechange = function() 
-      {
-       if(req180.readyState == 4) 
-       {
-        var html = req180.responseText
-        var lista = document.getElementById("htmcomentario")
-        lista.innerHTML = html;   
-       }
-      };
-       
-      
-      req180.setRequestHeader('Content-Type', 'text/html; charset=iso-8859-1');
-      req180.send("");
-     
-     }
+<script>
+     function BuscarPag(caminho)
+     {
+      req180.open("POST", caminho, true);
+      req180.onreadystatechange = function() 
+      {
+       if(req180.readyState == 4) 
+       {
+        var html = req180.responseText
+        var lista = document.getElementById("htmcomentario")
+        lista.innerHTML = html;   
+       }
+      };
+       
+      
+      req180.setRequestHeader('Content-Type', 'text/html; charset=iso-8859-1');
+      req180.send("");
+     
+     }
     </script>&#13;
     &#13;
 &#13;
@@ -1055,15 +1091,15 @@ jQuery(document).ready(function(){
    &#13;
    &#13;
    &#13;
-  
-   
-     
+  &#13;
+   &#13;
+     &#13;
    
 </div>
-<!--esq-->
-    
+<!--esq-->&#13;
+    &#13;
   
-<div class="dir-div">
+<div class="dir-div">&#13;
      
 <div class="sidebar">
  
@@ -1090,6 +1126,18 @@ jQuery(document).ready(function(){
 <div style="width: 100%; float:left; margin-top: 15px;">&nbsp;</div>       
        
 <ul class="lista-eventos">
+                 
+<li>
+             
+<h3>
+<a href="/agendas/show/id/1013">NR 35 - Trabalho em Altura</a>
+</h3>
+             
+<p>
+             Data: 14/05<br>
+             Hor&amp;aacute;rio: 8h &amp;agrave;s 17h30             </p>
+          
+</li>
                  
 <li>
              
@@ -1124,18 +1172,6 @@ jQuery(document).ready(function(){
 <p>
              Data: 27 - 28 de Mai<br>
              Hor&amp;aacute;rio: 13h30 &amp;agrave;s 17h30             </p>
-          
-</li>
-                 
-<li>
-             
-<h3>
-<a href="/agendas/show/id/1023">Programa de Excel&amp;ecirc;ncia no Atendimento ao Cliente</a>
-</h3>
-             
-<p>
-             Data: 04 - 06 de Jun<br>
-             Hor&amp;aacute;rio: 18h30 &amp;agrave;s 22h             </p>
           
 </li>
               
@@ -1236,7 +1272,7 @@ jQuery(document).ready(function(){
 </div>
 <!--agenda completa-->
 <span style="float: left">&nbsp;</span>  
-<div class="bottom25" style="float:left; width: 100%;"></div>
+<div class="bottom25" style="float:left; width: 100%;"></div>&#13;
       
 <p class="titulo">Destaques da semana</p>
     
@@ -1285,10 +1321,9 @@ jQuery(document).ready(function(){
 </form>
   
 </div>
-<!--dir-->
-
-
-
+<!--dir-->&#13;
+&#13;
+&#13;
    
 <div class="rodape">
      

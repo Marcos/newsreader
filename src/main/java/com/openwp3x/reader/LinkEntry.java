@@ -3,10 +3,10 @@ package com.openwp3x.reader;
 public class LinkEntry {
 	
 	private String linkText;
-	
-	private String formattedLinkText;
-	
+		
 	private String shortText;
+	
+	private TextPreProcessor textPreProcessor = new TextPreProcessor();
 
 	public String getLinkText() {
 		return linkText;
@@ -17,11 +17,7 @@ public class LinkEntry {
 	}
 
 	public String getFormattedLinkText() {
-		return formattedLinkText;
-	}
-
-	public void setFormattedLinkText(String formattedLinkText) {
-		this.formattedLinkText = formattedLinkText;
+		return textPreProcessor.normalizeWordWrap(this.getLinkText());
 	}
 
 	public String getShortText() {

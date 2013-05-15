@@ -1,17 +1,14 @@
 /**
  * 
  */
-package com.openwp3x;
+package com.openwp3x.reader;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Collection;
 import java.util.Locale;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
-import org.apache.commons.lang3.text.WordUtils;
-
+import com.openwp3x.SourcePattern;
 import com.openwp3x.model.TagType;
 
 /**
@@ -29,6 +26,8 @@ public class SourceEntry  {
     private String text;
 
     private SourcePattern entryPattern;
+    
+    private TextPreProcessor textPreProcessor = new TextPreProcessor();
 
     public SourceEntry() {
     	
@@ -50,37 +49,13 @@ public class SourceEntry  {
 
 	public String getFormattedTitle() {
     	String title = this.getTitle();
-    	title = treatPrefixPattern(title, this.entryPattern.getTitlePrefixPattern());
-    	title = treatSufixPattern(title, this.entryPattern.getTitleSufixPattern());
-    	title = WordUtils.capitalizeFully(title);
+    	title = textPreProcessor.treatPrefixPattern(title, this.entryPattern.getTitlePrefixPattern());
+    	title = textPreProcessor.treatSufixPattern(title, this.entryPattern.getTitleSufixPattern());
+    	title = textPreProcessor.normalize(title);
     	return title.trim();
     	
     }
     
-    public String treatSufixPattern(String text, String titleSufixPattern) {
-    	if(titleSufixPattern!=null){
-    		Pattern pattern = Pattern.compile(titleSufixPattern);
-    		Matcher matcher = pattern.matcher(text);
-    		if(matcher.find()){    			
-    			Integer endPosition = matcher.start();
-				text = text.substring(0, endPosition);
-    		}
-    	}
-    	return text;
-	}
-    
-    public String treatPrefixPattern(String text, String titlePrefixPattern) {
-    	if(titlePrefixPattern!=null){
-    		Pattern pattern = Pattern.compile(titlePrefixPattern);
-    		Matcher matcher = pattern.matcher(text);
-    		if(matcher.find()){    			
-    			Integer startPosition = matcher.end();
-				text = text.substring(startPosition);
-    		}
-    	}
-    	return text;
-	}
-
 	public String getTitle(){
     	return this.title;
     }
@@ -139,10 +114,7 @@ public class SourceEntry  {
         String url = this.getUrl();
 
         if (this.entryPattern.getUrlPattern() != null) {
-            final Pattern pattern = Pattern.compile(this.entryPattern.getUrlPattern());
-            final Matcher matcher = pattern.matcher(url);
-            matcher.find();
-            url = matcher.group();
+            url = textPreProcessor.getToken(url, this.entryPattern.getUrlPattern());
         }
 
         final String urlResource = this.getEntryPattern().getUrlResource();

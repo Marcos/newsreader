@@ -5,7 +5,6 @@ import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
 
-
 public class EntityManagerUtil {
 
 	private static EntityManagerFactory factory;

@@ -14,7 +14,6 @@ import junit.framework.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.openwp3x.SourceEntry;
 import com.openwp3x.SourcePattern;
 import com.openwp3x.SourcePatternFactory;
 
