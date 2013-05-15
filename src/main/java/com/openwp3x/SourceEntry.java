@@ -5,11 +5,14 @@ package com.openwp3x;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.Collection;
 import java.util.Locale;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import org.apache.commons.lang3.text.WordUtils;
+
+import com.openwp3x.model.TagType;
 
 /**
  * @author marcos.ferreira
@@ -25,7 +28,7 @@ public class SourceEntry  {
     
     private String text;
 
-    SourcePattern entryPattern;
+    private SourcePattern entryPattern;
 
     public SourceEntry() {
     	
@@ -184,6 +187,10 @@ public class SourceEntry  {
 
 	public void setText(String text) {
 		this.text = text;
+	}
+
+	public Collection<TagType> getTags() {
+		return this.entryPattern.getTags();
 	}
     
     

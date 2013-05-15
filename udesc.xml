@@ -98,7 +98,7 @@
 
 <tr>
 <td height="20" width="610">
-<a href="index.php">&amp;Iacute;ndice de not&amp;iacute;cias</a> <img height="3" hspace="3" src="../img/dot.gif" vspace="3" width="3"> <a href="clipping.php">Publica&amp;ccedil;&amp;otilde;es na Imprensa</a></td>
+<font class="txtCinza">Not&amp;iacute;cias</font> <img height="3" hspace="3" src="../img/dot.gif" vspace="3" width="3"> <a href="clipping.php">Publica&amp;ccedil;&amp;otilde;es na Imprensa</a></td>
 </tr>
 
 <tr>
@@ -107,52 +107,684 @@
 
 </tbody>
 </table>
+<p></p>
 <div style="padding-left:30px">
 
-<p>Joinville, SC - 09/05/2013</p>
-
-
-<p>
-<font class="tituloNoticia">Inscri&amp;ccedil;&amp;otilde;es para o Vestibular de Inverno da Udesc ocorrem de 21 de maio a 18 de junho</font>
-</p>
+<form name="frmNav1">
+<center>
+<font class="txt1">Mostrando de <b>1</b> at&amp;eacute; <b>20</b>. P&amp;aacute;g.: <select class="select" name="navPg"><option selected value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+<option value="32">32</option>
+<option value="33">33</option>
+<option value="34">34</option>
+<option value="35">35</option>
+<option value="36">36</option>
+<option value="37">37</option>
+<option value="38">38</option>
+<option value="39">39</option>
+<option value="40">40</option>
+<option value="41">41</option>
+<option value="42">42</option>
+<option value="43">43</option>
+<option value="44">44</option>
+<option value="45">45</option>
+<option value="46">46</option>
+<option value="47">47</option>
+<option value="48">48</option>
+<option value="49">49</option>
+<option value="50">50</option>
+<option value="51">51</option>
+<option value="52">52</option>
+<option value="53">53</option>
+<option value="54">54</option>
+<option value="55">55</option>
+<option value="56">56</option>
+<option value="57">57</option>
+<option value="58">58</option>
+<option value="59">59</option>
+<option value="60">60</option>
+<option value="61">61</option>
+<option value="62">62</option>
+<option value="63">63</option>
+<option value="64">64</option>
+<option value="65">65</option>
+<option value="66">66</option>
+<option value="67">67</option>
+<option value="68">68</option>
+<option value="69">69</option>
+<option value="70">70</option>
+<option value="71">71</option>
+<option value="72">72</option>
+<option value="73">73</option>
+<option value="74">74</option>
+<option value="75">75</option>
+<option value="76">76</option>
+<option value="77">77</option>
+<option value="78">78</option>
+<option value="79">79</option>
+<option value="80">80</option>
+<option value="81">81</option>
+<option value="82">82</option>
+<option value="83">83</option>
+<option value="84">84</option>
+<option value="85">85</option>
+<option value="86">86</option>
+<option value="87">87</option>
+<option value="88">88</option>
+<option value="89">89</option>
+<option value="90">90</option>
+<option value="91">91</option>
+<option value="92">92</option>
+<option value="93">93</option>
+<option value="94">94</option>
+<option value="95">95</option>
+<option value="96">96</option>
+<option value="97">97</option>
+<option value="98">98</option>
+<option value="99">99</option>
+<option value="100">100</option>
+<option value="101">101</option>
+<option value="102">102</option>
+<option value="103">103</option>
+<option value="104">104</option>
+<option value="105">105</option>
+<option value="106">106</option>
+<option value="107">107</option>
+<option value="108">108</option>
+<option value="109">109</option>
+<option value="110">110</option>
+<option value="111">111</option>
+<option value="112">112</option>
+<option value="113">113</option>
+<option value="114">114</option>
+<option value="115">115</option>
+<option value="116">116</option>
+<option value="117">117</option>
+<option value="118">118</option>
+<option value="119">119</option>
+<option value="120">120</option>
+<option value="121">121</option>
+<option value="122">122</option>
+<option value="123">123</option>
+<option value="124">124</option>
+<option value="125">125</option>
+<option value="126">126</option>
+<option value="127">127</option>
+<option value="128">128</option>
+<option value="129">129</option>
+<option value="130">130</option>
+<option value="131">131</option>
+<option value="132">132</option>
+<option value="133">133</option>
+<option value="134">134</option>
+<option value="135">135</option>
+<option value="136">136</option>
+<option value="137">137</option>
+<option value="138">138</option>
+<option value="139">139</option>
+<option value="140">140</option>
+<option value="141">141</option>
+<option value="142">142</option>
+<option value="143">143</option>
+<option value="144">144</option>
+<option value="145">145</option>
+<option value="146">146</option>
+<option value="147">147</option>
+<option value="148">148</option>
+<option value="149">149</option>
+<option value="150">150</option>
+<option value="151">151</option>
+<option value="152">152</option>
+<option value="153">153</option>
+<option value="154">154</option>
+<option value="155">155</option>
+<option value="156">156</option>
+<option value="157">157</option>
+<option value="158">158</option>
+<option value="159">159</option>
+<option value="160">160</option>
+<option value="161">161</option>
+<option value="162">162</option>
+<option value="163">163</option>
+<option value="164">164</option>
+<option value="165">165</option>
+<option value="166">166</option>
+<option value="167">167</option>
+<option value="168">168</option>
+<option value="169">169</option>
+<option value="170">170</option>
+<option value="171">171</option>
+<option value="172">172</option>
+<option value="173">173</option>
+<option value="174">174</option>
+<option value="175">175</option>
+<option value="176">176</option>
+<option value="177">177</option>
+<option value="178">178</option>
+<option value="179">179</option>
+<option value="180">180</option>
+<option value="181">181</option>
+<option value="182">182</option>
+<option value="183">183</option>
+<option value="184">184</option>
+<option value="185">185</option>
+<option value="186">186</option>
+<option value="187">187</option>
+<option value="188">188</option>
+<option value="189">189</option>
+<option value="190">190</option>
+<option value="191">191</option>
+<option value="192">192</option>
+<option value="193">193</option>
+<option value="194">194</option>
+<option value="195">195</option>
+<option value="196">196</option>
+<option value="197">197</option>
+<option value="198">198</option>
+<option value="199">199</option>
+<option value="200">200</option>
+<option value="201">201</option>
+<option value="202">202</option>
+<option value="203">203</option>
+<option value="204">204</option>
+<option value="205">205</option>
+<option value="206">206</option>
+<option value="207">207</option>
+<option value="208">208</option>
+<option value="209">209</option>
+<option value="210">210</option>
+<option value="211">211</option>
+<option value="212">212</option>
+<option value="213">213</option>
+<option value="214">214</option>
+<option value="215">215</option>
+<option value="216">216</option>
+<option value="217">217</option>
+<option value="218">218</option>
+<option value="219">219</option>
+<option value="220">220</option>
+<option value="221">221</option>
+<option value="222">222</option>
+<option value="223">223</option>
+<option value="224">224</option>
+<option value="225">225</option>
+<option value="226">226</option>
+<option value="227">227</option>
+<option value="228">228</option>
+<option value="229">229</option>
+<option value="230">230</option>
+<option value="231">231</option>
+<option value="232">232</option>
+<option value="233">233</option>
+<option value="234">234</option>
+<option value="235">235</option>
+<option value="236">236</option>
+<option value="237">237</option>
+<option value="238">238</option>
+<option value="239">239</option>
+<option value="240">240</option>
+<option value="241">241</option>
+<option value="242">242</option>
+</select><input class="inputButton" onclick="document.location.href='index.php?pg='+document.frmNav1.navPg.value;" type="button" value="Ver"></font>
+</center>
+</form>
+</div>
 
 
 <p></p>
-<table align="right" border="0" cellpadding="10" cellspacing="0" width="10%">
+<div style="padding-left:30px">
+
+<table border="0" cellpading="0" cellspacing="0" width="520">
 
 <tbody>
 <tr>
-<td>
-<div align="right">
-<font class="txt0">Foto: Isabela Vargas</font>
-</div>
-
-<img src="fotos/5208.jpg"></td>
+<td align="right" valign="top" width="100">
+14/05/2013&nbsp;-&nbsp;</td>
+<td valign="top" width="420"><a href="index.php?id=5216&amp;amp;pg=1">Sistema de vis&amp;atilde;o para detec&amp;ccedil;&amp;atilde;o do uso de celulares ao dirigir ser&amp;aacute; apresentado nesta sexta-feira</a>
+<br>&nbsp;</td>
 </tr>
+
+
+<tr>
+<td align="right" valign="top" width="100">
+14/05/2013&nbsp;-&nbsp;</td>
+<td valign="top" width="420"><a href="index.php?id=5215&amp;amp;pg=1">Udesc Joinville abre inscri&amp;ccedil;&amp;otilde;es para Programas de Monitoria e Monitoria Volunt&amp;aacute;ria&#13;
+</a>
+<br>&nbsp;</td>
+</tr>
+
+
+<tr>
+<td align="right" valign="top" width="100">
+14/05/2013&nbsp;-&nbsp;</td>
+<td valign="top" width="420"><a href="index.php?id=5214&amp;amp;pg=1">Estudantes da Udesc Joinville visitam porto de Itapo&amp;aacute;</a>
+<br>&nbsp;</td>
+</tr>
+
+
+<tr>
+<td align="right" valign="top" width="100">
+14/05/2013&nbsp;-&nbsp;</td>
+<td valign="top" width="420"><a href="index.php?id=5217&amp;amp;pg=1">Divulgado o vencedor do concurso para cria&amp;ccedil;&amp;atilde;o da logomarca do CTS.</a>
+<br>&nbsp;</td>
+</tr>
+
+
+<tr>
+<td align="right" valign="top" width="100">
+10/05/2013&nbsp;-&nbsp;</td>
+<td valign="top" width="420"><a href="index.php?id=5211&amp;amp;pg=1">Alunos de outras institui&amp;ccedil;&amp;otilde;es podem pedir transfer&amp;ecirc;ncia para a Udesc na pr&amp;oacute;xima semana</a>
+<br>&nbsp;</td>
+</tr>
+
+
+<tr>
+<td align="right" valign="top" width="100">
+10/05/2013&nbsp;-&nbsp;</td>
+<td valign="top" width="420"><a href="index.php?id=5209&amp;amp;pg=1">Udesc Joinville apresentar&amp;aacute; workshop na Expogest&amp;atilde;o 2013</a>
+<br>&nbsp;</td>
+</tr>
+
+
+<tr>
+<td align="right" valign="top" width="100">
+10/05/2013&nbsp;-&nbsp;</td>
+<td valign="top" width="420"><a href="index.php?id=5210&amp;amp;pg=1">Pr&amp;oacute;-reitor de Extens&amp;atilde;o &amp;eacute; eleito coordenador nacional de Direitos Humanos e Justi&amp;ccedil;a do Forproex</a>
+<br>&nbsp;</td>
+</tr>
+
+
+<tr>
+<td align="right" valign="top" width="100">
+10/05/2013&nbsp;-&nbsp;</td>
+<td valign="top" width="420"><a href="index.php?id=5212&amp;amp;pg=1">Concurso Estadual de Planos de Neg&amp;oacute;cio para Universit&amp;aacute;rios ser&amp;aacute; lan&amp;ccedil;ado na Udesc Joinville&#13;
+</a>
+<br>&nbsp;</td>
+</tr>
+
+
+<tr>
+<td align="right" valign="top" width="100">
+10/05/2013&nbsp;-&nbsp;</td>
+<td valign="top" width="420"><a href="index.php?id=5213&amp;amp;pg=1">Comitiva da Reitoria visitar&amp;aacute; unidades da Udesc em S&amp;atilde;o Bento do Sul e Joinville na pr&amp;oacute;xima semana&#13;
+</a>
+<br>&nbsp;</td>
+</tr>
+
+
+<tr>
+<td align="right" valign="top" width="100">
+09/05/2013&nbsp;-&nbsp;</td>
+<td valign="top" width="420"><a href="index.php?id=5205&amp;amp;pg=1">Udesc Joinville incentiva acad&amp;ecirc;micos a realizarem cursos de mestrado e doutorado</a>
+<br>&nbsp;</td>
+</tr>
+
+
+<tr>
+<td align="right" valign="top" width="100">
+09/05/2013&nbsp;-&nbsp;</td>
+<td valign="top" width="420"><a href="index.php?id=5208&amp;amp;pg=1">Inscri&amp;ccedil;&amp;otilde;es para o Vestibular de Inverno da Udesc ocorrem de 21 de maio a 18 de junho</a>
+<br>&nbsp;</td>
+</tr>
+
+
+<tr>
+<td align="right" valign="top" width="100">
+09/05/2013&nbsp;-&nbsp;</td>
+<td valign="top" width="420"><a href="index.php?id=5207&amp;amp;pg=1">Equipamentos para restaurante j&amp;aacute; est&amp;atilde;o no Centro de Conviv&amp;ecirc;ncia da Udesc Joinville  </a>
+<br>&nbsp;</td>
+</tr>
+
+
+<tr>
+<td align="right" valign="top" width="100">
+09/05/2013&nbsp;-&nbsp;</td>
+<td valign="top" width="420"><a href="index.php?id=5206&amp;amp;pg=1">Udesc Joinville abre inscri&amp;ccedil;&amp;otilde;es para Mestrado Acad&amp;ecirc;mico em Engenharia Mec&amp;acirc;nica</a>
+<br>&nbsp;</td>
+</tr>
+
+
+<tr>
+<td align="right" valign="top" width="100">
+08/05/2013&nbsp;-&nbsp;</td>
+<td valign="top" width="420"><a href="index.php?id=5198&amp;amp;pg=1">Abertas as inscri&amp;ccedil;&amp;otilde;es para 4&amp;ordm; Campeonato de Rob&amp;oacute;tica M&amp;oacute;vel na Udesc Joinville</a>
+<br>&nbsp;</td>
+</tr>
+
+
+<tr>
+<td align="right" valign="top" width="100">
+08/05/2013&nbsp;-&nbsp;</td>
+<td valign="top" width="420"><a href="index.php?id=5199&amp;amp;pg=1">Udesc Joinville tem dez alunos aprovados pelo programa Ci&amp;ecirc;ncia sem Fronteiras</a>
+<br>&nbsp;</td>
+</tr>
+
+
+<tr>
+<td align="right" valign="top" width="100">
+08/05/2013&nbsp;-&nbsp;</td>
+<td valign="top" width="420"><a href="index.php?id=5203&amp;amp;pg=1">Abertas inscri&amp;ccedil;&amp;otilde;es para Mestrado em Computa&amp;ccedil;&amp;atilde;o Aplicada da Udesc Joinville</a>
+<br>&nbsp;</td>
+</tr>
+
+
+<tr>
+<td align="right" valign="top" width="100">
+08/05/2013&nbsp;-&nbsp;</td>
+<td valign="top" width="420"><a href="index.php?id=5202&amp;amp;pg=1">Udesc Joinville sediar&amp;aacute; encontro de grupos de pesquisa </a>
+<br>&nbsp;</td>
+</tr>
+
+
+<tr>
+<td align="right" valign="top" width="100">
+08/05/2013&nbsp;-&nbsp;</td>
+<td valign="top" width="420"><a href="index.php?id=5201&amp;amp;pg=1">Escola Livre de Artes da Udesc promove curso gratuito de teatro</a>
+<br>&nbsp;</td>
+</tr>
+
+
+<tr>
+<td align="right" valign="top" width="100">
+08/05/2013&nbsp;-&nbsp;</td>
+<td valign="top" width="420"><a href="index.php?id=5204&amp;amp;pg=1">Col&amp;oacute;quio de F&amp;iacute;sica abordar&amp;aacute; uso de fontes de energia para resolver problemas globais</a>
+<br>&nbsp;</td>
+</tr>
+
+
+<tr>
+<td align="right" valign="top" width="100">
+07/05/2013&nbsp;-&nbsp;</td>
+<td valign="top" width="420"><a href="index.php?id=5197&amp;amp;pg=1">Servidores e alunos da Udesc Joinville participam de curso sobre pesquisas em bases de dados</a>
+<br>&nbsp;</td>
+</tr>
+
+
 </tbody>
 </table>
-<p>
+</div>
 
-A Universidade do Estado de Santa Catarina (Udesc) anunciou nesta quinta-feira, 9, que as inscri&amp;ccedil;&amp;otilde;es para o Vestibular de Inverno 2013 ser&amp;atilde;o realizadas de 21 de maio a 18 de junho por meio do site <a href="http://www.vestibular.udesc.br/" target="_self">http://www.vestibular.udesc.br/</a>.<br>&#13;
 
-<br>&#13;
-As provas ser&amp;atilde;o aplicadas em 7 de julho nas cidades de Florian&amp;oacute;polis, Joinville, Lages, Ibirama, S&amp;atilde;o Bento do Sul, Chapec&amp;oacute;, Laguna e Balne&amp;aacute;rio Cambori&amp;uacute;. O resultado ser&amp;aacute; divulgado at&amp;eacute; 17 de julho.<br>&#13;
+<p></p>
+<div style="padding-left:30px">
 
-<br>&#13;
-A coordenadora do Vestibular da Udesc, Ros&amp;acirc;ngela de Souza Machado, informa ainda que o edital com o n&amp;uacute;mero de vagas e op&amp;ccedil;&amp;otilde;es de cursos ser&amp;aacute; divulgado at&amp;eacute; 21 de maio.<br>&#13;
-
-<br>&#13;
-Outras informa&amp;ccedil;&amp;otilde;es podem ser obtidas pelo e-mail vestiba@udesc.br ou com a Coordenadoria do Vestibular pelo telefone (48) 3321-8098, de segunda a sexta-feira, das 13h &amp;agrave;s 19h.<br>&#13;
-
-<br>&#13;
---<br>&#13;
-
-<br>&#13;
-Assessoria de Comunica&amp;ccedil;&amp;atilde;o da Udesc<br>&#13;
-Jornalista Thiago Augusto<br>&#13;
-E-mail: thiago.augusto@udesc.br<br>&#13;
-Fone: (48) 3321-8142 </p>
-<br>
+<form name="frmNav2">
+<center>
+<font class="txt1">Mostrando de <b>1</b> at&amp;eacute; <b>20</b>. P&amp;aacute;g.: <select class="select" name="navPg"><option selected value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+<option value="32">32</option>
+<option value="33">33</option>
+<option value="34">34</option>
+<option value="35">35</option>
+<option value="36">36</option>
+<option value="37">37</option>
+<option value="38">38</option>
+<option value="39">39</option>
+<option value="40">40</option>
+<option value="41">41</option>
+<option value="42">42</option>
+<option value="43">43</option>
+<option value="44">44</option>
+<option value="45">45</option>
+<option value="46">46</option>
+<option value="47">47</option>
+<option value="48">48</option>
+<option value="49">49</option>
+<option value="50">50</option>
+<option value="51">51</option>
+<option value="52">52</option>
+<option value="53">53</option>
+<option value="54">54</option>
+<option value="55">55</option>
+<option value="56">56</option>
+<option value="57">57</option>
+<option value="58">58</option>
+<option value="59">59</option>
+<option value="60">60</option>
+<option value="61">61</option>
+<option value="62">62</option>
+<option value="63">63</option>
+<option value="64">64</option>
+<option value="65">65</option>
+<option value="66">66</option>
+<option value="67">67</option>
+<option value="68">68</option>
+<option value="69">69</option>
+<option value="70">70</option>
+<option value="71">71</option>
+<option value="72">72</option>
+<option value="73">73</option>
+<option value="74">74</option>
+<option value="75">75</option>
+<option value="76">76</option>
+<option value="77">77</option>
+<option value="78">78</option>
+<option value="79">79</option>
+<option value="80">80</option>
+<option value="81">81</option>
+<option value="82">82</option>
+<option value="83">83</option>
+<option value="84">84</option>
+<option value="85">85</option>
+<option value="86">86</option>
+<option value="87">87</option>
+<option value="88">88</option>
+<option value="89">89</option>
+<option value="90">90</option>
+<option value="91">91</option>
+<option value="92">92</option>
+<option value="93">93</option>
+<option value="94">94</option>
+<option value="95">95</option>
+<option value="96">96</option>
+<option value="97">97</option>
+<option value="98">98</option>
+<option value="99">99</option>
+<option value="100">100</option>
+<option value="101">101</option>
+<option value="102">102</option>
+<option value="103">103</option>
+<option value="104">104</option>
+<option value="105">105</option>
+<option value="106">106</option>
+<option value="107">107</option>
+<option value="108">108</option>
+<option value="109">109</option>
+<option value="110">110</option>
+<option value="111">111</option>
+<option value="112">112</option>
+<option value="113">113</option>
+<option value="114">114</option>
+<option value="115">115</option>
+<option value="116">116</option>
+<option value="117">117</option>
+<option value="118">118</option>
+<option value="119">119</option>
+<option value="120">120</option>
+<option value="121">121</option>
+<option value="122">122</option>
+<option value="123">123</option>
+<option value="124">124</option>
+<option value="125">125</option>
+<option value="126">126</option>
+<option value="127">127</option>
+<option value="128">128</option>
+<option value="129">129</option>
+<option value="130">130</option>
+<option value="131">131</option>
+<option value="132">132</option>
+<option value="133">133</option>
+<option value="134">134</option>
+<option value="135">135</option>
+<option value="136">136</option>
+<option value="137">137</option>
+<option value="138">138</option>
+<option value="139">139</option>
+<option value="140">140</option>
+<option value="141">141</option>
+<option value="142">142</option>
+<option value="143">143</option>
+<option value="144">144</option>
+<option value="145">145</option>
+<option value="146">146</option>
+<option value="147">147</option>
+<option value="148">148</option>
+<option value="149">149</option>
+<option value="150">150</option>
+<option value="151">151</option>
+<option value="152">152</option>
+<option value="153">153</option>
+<option value="154">154</option>
+<option value="155">155</option>
+<option value="156">156</option>
+<option value="157">157</option>
+<option value="158">158</option>
+<option value="159">159</option>
+<option value="160">160</option>
+<option value="161">161</option>
+<option value="162">162</option>
+<option value="163">163</option>
+<option value="164">164</option>
+<option value="165">165</option>
+<option value="166">166</option>
+<option value="167">167</option>
+<option value="168">168</option>
+<option value="169">169</option>
+<option value="170">170</option>
+<option value="171">171</option>
+<option value="172">172</option>
+<option value="173">173</option>
+<option value="174">174</option>
+<option value="175">175</option>
+<option value="176">176</option>
+<option value="177">177</option>
+<option value="178">178</option>
+<option value="179">179</option>
+<option value="180">180</option>
+<option value="181">181</option>
+<option value="182">182</option>
+<option value="183">183</option>
+<option value="184">184</option>
+<option value="185">185</option>
+<option value="186">186</option>
+<option value="187">187</option>
+<option value="188">188</option>
+<option value="189">189</option>
+<option value="190">190</option>
+<option value="191">191</option>
+<option value="192">192</option>
+<option value="193">193</option>
+<option value="194">194</option>
+<option value="195">195</option>
+<option value="196">196</option>
+<option value="197">197</option>
+<option value="198">198</option>
+<option value="199">199</option>
+<option value="200">200</option>
+<option value="201">201</option>
+<option value="202">202</option>
+<option value="203">203</option>
+<option value="204">204</option>
+<option value="205">205</option>
+<option value="206">206</option>
+<option value="207">207</option>
+<option value="208">208</option>
+<option value="209">209</option>
+<option value="210">210</option>
+<option value="211">211</option>
+<option value="212">212</option>
+<option value="213">213</option>
+<option value="214">214</option>
+<option value="215">215</option>
+<option value="216">216</option>
+<option value="217">217</option>
+<option value="218">218</option>
+<option value="219">219</option>
+<option value="220">220</option>
+<option value="221">221</option>
+<option value="222">222</option>
+<option value="223">223</option>
+<option value="224">224</option>
+<option value="225">225</option>
+<option value="226">226</option>
+<option value="227">227</option>
+<option value="228">228</option>
+<option value="229">229</option>
+<option value="230">230</option>
+<option value="231">231</option>
+<option value="232">232</option>
+<option value="233">233</option>
+<option value="234">234</option>
+<option value="235">235</option>
+<option value="236">236</option>
+<option value="237">237</option>
+<option value="238">238</option>
+<option value="239">239</option>
+<option value="240">240</option>
+<option value="241">241</option>
+<option value="242">242</option>
+</select><input class="inputButton" onclick="document.location.href='index.php?pg='+document.frmNav2.navPg.value;" type="button" value="Ver"></font>
+</center>
+</form>
+</div>
 
 
 <center>Assessoria de Imprensa Udesc Joinville - &#13;
@@ -164,53 +796,6 @@ Jornalista: Isabela Vargas (SC 01915 JP)<br>
 </center>
 
 
-
-<center>
-<p>
-<input class="inputButton" onclick="window.location.href='index.php?pg=1';" type="button" value="Voltar ao &amp;iacute;ndice de not&amp;iacute;cias"> &nbsp; &nbsp; <input class="inputButton" onclick="window.open('impr_noticia.php?id=5208');" type="button" value="Tela de impress&amp;atilde;o"> &nbsp; &nbsp; <b>Compartilhar: </b><a href="http://migre.me/compartilhar?msg=Inscricoes+para+o+Vestibular+de+Inverno+da+Udesc+ocorrem+de+21+de+maio+a+18+de+junho http%3A%2F%2Fwww.joinville.udesc.br%2Fportal%2Fnoticias%2Findex.php%3Fid%3D5208" target="_blank"><img src="icones/ico_twitter.png" title="Divulgar no Twitter" width="20"></a><a href="http://promote.orkut.com/preview?nt=orkut.com&amp;amp;tt=Inscricoes+para+o+Vestibular+de+Inverno+da+Udesc+ocorrem+de+21+de+maio+a+18+de+junho&amp;amp;du=http%3A%2F%2Fwww.joinville.udesc.br%2Fportal%2Fnoticias%2Findex.php%3Fid%3D5208" target="_blank"><img src="icones/ico_orkut.png" title="Divulgar no Orkut" width="20"></a><a href="email.php?id=5208" target="_blank"><img src="icones/ico_email.png" title="Enviar por Email" width="20"></a><a href="http://www.facebook.com/sharer.php?v=4&amp;amp;src=bm&amp;amp;t=Inscricoes+para+o+Vestibular+de+Inverno+da+Udesc+ocorrem+de+21+de+maio+a+18+de+junho&amp;amp;u=http%3A%2F%2Fwww.joinville.udesc.br%2Fportal%2Fnoticias%2Findex.php%3Fid%3D5208" target="_blank"><img src="icones/ico_facebook.png" title="Divulgar no Facebook" width="20"></a>
-</p>
-</center>
-</div>
-
-<img height="1" src="../img/dot1.gif" vspace="10" width="100%">
-
-<div style="padding-left:30px">
-
-<p>
-<b>&amp;Uacute;ltimas not&amp;iacute;cias:</b>
-</p>
-
-<p></p>
-<table border="0" cellpadding="0" cellspacing="0" width="520">
-
-<tbody>
-<tr>
-<td align="right" valign="top" width="100">09/05/2013&nbsp;-&nbsp;</td><td width="420"><a href="index.php?id=5207">Equipamentos para restaurante j&amp;aacute; est&amp;atilde;o no Centro de Conviv&amp;ecirc;ncia da Udesc Joinville  </a>
-<br>&nbsp;</td>
-</tr>
-
-<tr>
-<td align="right" valign="top" width="100">09/05/2013&nbsp;-&nbsp;</td><td width="420"><a href="index.php?id=5206">Udesc Joinville abre inscri&amp;ccedil;&amp;otilde;es para Mestrado Acad&amp;ecirc;mico em Engenharia Mec&amp;acirc;nica</a>
-<br>&nbsp;</td>
-</tr>
-
-<tr>
-<td align="right" valign="top" width="100">09/05/2013&nbsp;-&nbsp;</td><td width="420"><a href="index.php?id=5205">Udesc Joinville incentiva acad&amp;ecirc;micos a realizarem cursos de mestrado e doutorado</a>
-<br>&nbsp;</td>
-</tr>
-
-<tr>
-<td align="right" valign="top" width="100">08/05/2013&nbsp;-&nbsp;</td><td width="420"><a href="index.php?id=5199">Udesc Joinville tem dez alunos aprovados pelo programa Ci&amp;ecirc;ncia sem Fronteiras</a>
-<br>&nbsp;</td>
-</tr>
-
-<tr>
-<td align="right" valign="top" width="100">08/05/2013&nbsp;-&nbsp;</td><td width="420"><a href="index.php?id=5202">Udesc Joinville sediar&amp;aacute; encontro de grupos de pesquisa </a></td>
-</tr>
-
-</tbody>
-</table>
-</div>
 
 <form action="index.php" method="post">
 
@@ -305,8 +890,8 @@ Jornalista: Isabela Vargas (SC 01915 JP)<br>
 <td align="center"><a href="index.php?dia=06&amp;amp;mes=05&amp;amp;ano=2013">6</a></td>
 <td align="center"><a href="index.php?dia=07&amp;amp;mes=05&amp;amp;ano=2013">7</a></td>
 <td align="center"><a href="index.php?dia=08&amp;amp;mes=05&amp;amp;ano=2013">8</a></td>
-<td align="center" bgcolor="FFCC99"><a href="index.php?dia=09&amp;amp;mes=05&amp;amp;ano=2013">9</a></td>
-<td align="center"><font class="txtCinza">10</font></td>
+<td align="center"><a href="index.php?dia=09&amp;amp;mes=05&amp;amp;ano=2013">9</a></td>
+<td align="center"><a href="index.php?dia=10&amp;amp;mes=05&amp;amp;ano=2013">10</a></td>
 <td align="center"><font class="txtCinza">11</font></td>
 
 </tr>
@@ -314,8 +899,8 @@ Jornalista: Isabela Vargas (SC 01915 JP)<br>
 <tr bgcolor="F5F5F5">
 <td align="center"><font class="txtCinza">12</font></td>
 <td align="center"><font class="txtCinza">13</font></td>
-<td align="center"><font class="txtCinza">14</font></td>
-<td align="center"><font class="txtCinza">15</font></td>
+<td align="center"><a href="index.php?dia=14&amp;amp;mes=05&amp;amp;ano=2013">14</a></td>
+<td align="center" bgcolor="FFCC99"><font class="txtCinza">15</font></td>
 <td align="center"><font class="txtCinza">16</font></td>
 <td align="center"><font class="txtCinza">17</font></td>
 <td align="center"><font class="txtCinza">18</font></td>
@@ -380,7 +965,7 @@ Jornalista: Isabela Vargas (SC 01915 JP)<br>
 <tr>
 <td colspan="2" width="810">
 <img align="left" border="0" src="../img/setae.gif"> 
-<a href="index.php?pg=1&amp;amp;mes=05&amp;amp;ano=2013"><b>Voltar : </b></a><a href="../index.php">Capa</a> <img height="3" hspace="3" src="../img/dot.gif" vspace="3" width="3"> <a href="index.php">&amp;Iacute;ndice de not&amp;iacute;cias</a></td>
+<a href="../index.php"><b>Voltar : </b></a><a href="../index.php">Capa</a></td>
 </tr>
 
 <tr>

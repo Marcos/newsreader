@@ -35,6 +35,7 @@ insert into tag (id,label,clicks) values ('comunidade', 'Comunidade', 0)
 insert into tag (id,label,clicks) values ('educacao', 'Educação', 0)
 insert into tag (id,label,clicks) values ('negocios', 'Negócios', 0)
 insert into tag (id,label,clicks) values ('geral', 'Geral', 0)
+insert into tag (id,label,clicks) values ('esportes', 'Esportes', 0)
 
 insert into tag_entry
 select entry_id, tag_id from (

@@ -7,6 +7,7 @@ import java.util.Arrays;
 import java.util.Collection;
 import java.util.Locale;
 
+import com.openwp3x.model.TagType;
 import com.openwp3x.reader.SourceType;
 
 public class SourcePatternFactory {
@@ -50,7 +51,7 @@ public class SourcePatternFactory {
 		entryPattern.setUrlResource("http://www.sociesc.org.br/pt/noticias/ajax_news_view.php?id=");
 		entryPattern.setUrlPattern("\\d+");
 		entryPattern.setSourceLabel("SOCIESC");
-		entryPattern.setTags(Arrays.asList(new Tag[]{Tag.educacao}));
+		entryPattern.setTags(Arrays.asList(new TagType[]{TagType.educacao}));
 		
 		entryPattern.setLinkTextXPath("//*[@id=\"dinamicTxt\"]");
 		
@@ -71,7 +72,7 @@ public class SourcePatternFactory {
 		entryPattern.setUrlResource("http://www.joinville.udesc.br/portal/noticias/");
 		entryPattern.setMaxResult(20);
 		entryPattern.setSourceLabel("UDESC");
-		entryPattern.setTags(Arrays.asList(new Tag[]{Tag.educacao}));
+		entryPattern.setTags(Arrays.asList(new TagType[]{TagType.educacao}));
 		
 		entryPattern.setLinkTextXPath("//*[@id=\"wrapper\"]/table[1]/tbody/tr/td[1]/div[1]/p[4]");
 
@@ -89,7 +90,7 @@ public class SourcePatternFactory {
 		entryPattern.setSource("univille");
 		entryPattern.setDateFormat("dd.MM.yyyy");
 		entryPattern.setSourceLabel("Univille");
-		entryPattern.setTags(Arrays.asList(new Tag[]{Tag.educacao}));
+		entryPattern.setTags(Arrays.asList(new TagType[]{TagType.educacao}));
 		
 		entryPattern.setLinkTextXPath("//*[@id=\"pageContent\"]");
 		return entryPattern;
@@ -107,7 +108,7 @@ public class SourcePatternFactory {
 		entryPattern.setUrlResource("http://www.joinville.sc.gov.br");
 		entryPattern.setDateFormat("dd | MMM | yyyy");
 		entryPattern.setSourceLabel("Prefeitura de Joinville");
-		entryPattern.setTags(Arrays.asList(new Tag[]{Tag.comunidade}));
+		entryPattern.setTags(Arrays.asList(new TagType[]{TagType.comunidade}));
 		
 		entryPattern.setLinkTextXPath("//*[@id=\"main\"]/div/div/div[1]/p[1]");
 		return entryPattern;
@@ -133,7 +134,7 @@ public class SourcePatternFactory {
 		entryPattern.setDateFormat("dd/MM/yy");
 		entryPattern.setSourceLabel("Ajorpeme");
 		entryPattern.setTitlePrefixPattern("\\.*\\s-\\s");
-		entryPattern.setTags(Arrays.asList(new Tag[]{Tag.negocios}));
+		entryPattern.setTags(Arrays.asList(new TagType[]{TagType.negocios}));
 		
 		entryPattern.setLinkTextXPath("//*[@id=\"content\"]/table[2]/tbody/tr/td");
 		return entryPattern;
@@ -154,7 +155,7 @@ public class SourcePatternFactory {
 		entryPattern.setSource("acij");
 		entryPattern.setUrlResource("http://www.acij.com.br");
 		entryPattern.setSourceLabel("ACIJ");
-		entryPattern.setTags(Arrays.asList(new Tag[]{Tag.negocios}));
+		entryPattern.setTags(Arrays.asList(new TagType[]{TagType.negocios}));
 		
 		entryPattern.setLinkTextXPath("/html/body/div/div[2]/div[1]/div[1]");
 		return entryPattern;
@@ -178,7 +179,7 @@ public class SourcePatternFactory {
 		entryPattern.setSourceLabel("CDL Joinville");
 		entryPattern.setTitlePrefixPattern("\\n*");
 		entryPattern.setTitleSufixPattern("\\n");
-		entryPattern.setTags(Arrays.asList(new Tag[]{Tag.negocios}));
+		entryPattern.setTags(Arrays.asList(new TagType[]{TagType.negocios}));
 		
 		entryPattern.setLinkTextXPath("/html/body/div[6]/div[1]/div/div[2]/div");
 		
@@ -201,7 +202,7 @@ public class SourcePatternFactory {
 		entryPattern.setSource("defesa_civil");
 		entryPattern.setDateFormat("dd | MMM | yyyy");
 		entryPattern.setSourceLabel("Defesa Civil de Joinville");
-		entryPattern.setTags(Arrays.asList(new Tag[]{Tag.comunidade}));
+		entryPattern.setTags(Arrays.asList(new TagType[]{TagType.comunidade}));
 		
 		entryPattern.setLinkTextXPath("//*[@id=\"main\"]/div/div/div[1]/p[1]");
 		return entryPattern;
@@ -212,7 +213,7 @@ public class SourcePatternFactory {
 		entryPattern.setSourceURL(new URL("http://feeds.feedburner.com/ndjoinville_noticias"));
 		entryPattern.setSourceLabel("Notícias do dia Joinville");
 		entryPattern.setSource("nd_joinville");
-		entryPattern.setTags(Arrays.asList(new Tag[]{Tag.geral}));
+		entryPattern.setTags(Arrays.asList(new TagType[]{TagType.geral}));
 		return entryPattern;
 	}
 	
@@ -221,7 +222,7 @@ public class SourcePatternFactory {
 		entryPattern.setSourceURL(new URL("http://anoticia.clicrbs.com.br/sc/geral/ultimas-noticias-rss/"));
 		entryPattern.setSourceLabel("ANotícia");
 		entryPattern.setSource("anoticia");
-		entryPattern.setTags(Arrays.asList(new Tag[]{Tag.geral}));
+		entryPattern.setTags(Arrays.asList(new TagType[]{TagType.geral}));
 		return entryPattern;
 	}
 	
@@ -230,7 +231,7 @@ public class SourcePatternFactory {
 		entryPattern.setSourceURL(new URL("http://www.portaljoinville.com.br/v4/rss/noticias"));
 		entryPattern.setSourceLabel("Portal Joinville");
 		entryPattern.setSource("portal_joinville");
-		entryPattern.setTags(Arrays.asList(new Tag[]{Tag.geral}));
+		entryPattern.setTags(Arrays.asList(new TagType[]{TagType.geral}));
 		return entryPattern;
 	}
 	
@@ -240,7 +241,7 @@ public class SourcePatternFactory {
 		entryPattern.setTitlePrefixPattern("\\d*-\\d*-\\d*\\s");
 		entryPattern.setSourceLabel("Osny Martins");
 		entryPattern.setSource("osny_martins");
-		entryPattern.setTags(Arrays.asList(new Tag[]{Tag.geral}));
+		entryPattern.setTags(Arrays.asList(new TagType[]{TagType.geral}));
 		return entryPattern;
 	}
 
@@ -271,7 +272,7 @@ public class SourcePatternFactory {
 		entryPattern.setUrlResource("http://www.cvj.sc.gov.br");
 		entryPattern.setDateFormat("yyyy-MM-dd");
 		entryPattern.setSourceLabel("Câmara de Vereadores de Joinville");
-		entryPattern.setTags(Arrays.asList(new Tag[]{Tag.comunidade}));
+		entryPattern.setTags(Arrays.asList(new TagType[]{TagType.comunidade}));
 		
 		entryPattern.setLinkTextXPath("//*[@id=\"system\"]/article/div[1]/p");
 		return entryPattern;
@@ -289,7 +290,7 @@ public class SourcePatternFactory {
 		//entryPattern.setUrlResource("http://jec.com.br");
 		entryPattern.setDateFormat("yyyy-MM-dd");
 		entryPattern.setSourceLabel("JEC");
-		entryPattern.setTags(Arrays.asList(new Tag[]{Tag.esportes}));
+		entryPattern.setTags(Arrays.asList(new TagType[]{TagType.esportes}));
 		
 		entryPattern.setLinkTextXPath("//*[@id=\"esquerda\"]/div[1]/div[2]");
 		return entryPattern;
@@ -308,7 +309,7 @@ public class SourcePatternFactory {
 		entryPattern.setUrlResource("http://www.krona.com.br/kronafutsal/");
 		entryPattern.setDateFormat("d MMM yy");
 		entryPattern.setSourceLabel("Krona Futsal");
-		entryPattern.setTags(Arrays.asList(new Tag[]{Tag.esportes}));
+		entryPattern.setTags(Arrays.asList(new TagType[]{TagType.esportes}));
 		
 		entryPattern.setLinkTextXPath("//*[@id=\"div_conteudo_noticias\"]/div[1]");
 		return entryPattern;

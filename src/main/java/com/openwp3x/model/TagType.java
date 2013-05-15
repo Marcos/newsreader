@@ -1,13 +1,13 @@
-package com.openwp3x;
+package com.openwp3x.model;
 
-public enum Tag {
+public enum TagType {
 	
 	negocios("Negócios"),
 	educacao("Educação"),
 	comunidade("Comunidade"), 
 	geral("Geral"), esportes("Esportes");
 	
-	private Tag(String label) {
+	private TagType(String label) {
 		this.label = label;
 	}
 	

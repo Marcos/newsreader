@@ -3,11 +3,11 @@ package com.openwp3x;
 import java.sql.Connection;
 import java.sql.Date;
 import java.sql.PreparedStatement;
-import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Timestamp;
 import java.util.Calendar;
 import java.util.Collection;
+import java.util.HashSet;
 import java.util.Random;
 
 import javax.persistence.EntityManager;
@@ -19,6 +19,8 @@ import com.openwp3x.db.DatabaseManager;
 import com.openwp3x.db.EntityManagerUtil;
 import com.openwp3x.jobs.StatusEntry;
 import com.openwp3x.model.Entry;
+import com.openwp3x.model.Tag;
+import com.openwp3x.model.TagType;
 
 public class ImportNews {
 	
@@ -79,82 +81,50 @@ public class ImportNews {
 		entry.setSourceLabel(sourceEntry.getSourceLabel());
 		entry.setRandomFactor(new Random().nextLong());
 		
-		synchronized (entityManager) {
-			entityManager.persist(entry);
-		}
+		Collection<Tag> tags = getTags(entityManager, sourceEntry.getTags());
+		entry.setTags(tags);
 		
-		
+		entityManager.persist(entry);
 	}
 
-	private void importTags(Long entryId, Collection<Tag> tags) {
-		if(tags!=null){			
-			for(Tag tag : tags){
-				importTag(entryId, tag);
-			}
+	private Collection<Tag> getTags(EntityManager entityManager, Collection<TagType> tagTypes) {
+		Collection<Tag> tags = new HashSet<Tag>();
+		for(TagType tagType : tagTypes){
+			Tag tag = entityManager.find(Tag.class, tagType.toString());
+			tags.add(tag);
 		}
-		
+		return tags;
 	}
-
-	private void importTag(Long entryId, Tag tag) {
-		Connection connection = null;
-		PreparedStatement preparedStatement = null;
-		try {
-			connection = DatabaseManager.getConnection();
-			preparedStatement = connection.prepareStatement("insert into tag_entry (entry_id, tag_id) values (?,?)");
-			preparedStatement.setLong(1, entryId);
-			preparedStatement.setString(2, tag.name());
-			preparedStatement.execute();
-		} catch (Exception e) {			
-			logger.error(e, e);
-		} finally {
-			try {
-				preparedStatement.close();
-			} catch (SQLException e) {
-				logger.error(e, e);
-			}
-		}
-		
-	}
-
-	private Long getNextId() {
-		Connection connection = null;
-		PreparedStatement preparedStatement = null;
-		try {
-			connection = DatabaseManager.getConnection();
-			preparedStatement = connection.prepareStatement("select max(id)+1 next_id from entry");
-			ResultSet resultSet = preparedStatement.executeQuery();
-			if(resultSet.next()){
-				return resultSet.getLong("next_id");
-			}
-		} catch (Exception e) {
-			logger.error(e);
-		} finally {
-			try {
-				preparedStatement.close();
-			} catch (SQLException e) {
-				logger.error(e);
-			}
-		}
-		return 1L;
-	}
-
-	private String getInsertQuery() {
-		StringBuilder sb = new StringBuilder();
-		sb.append("insert into entry (");
-		sb.append("id, ");
-		sb.append("date_insert, ");
-		sb.append("date_entry, ");
-		sb.append("title_entry, ");
-		sb.append("url_entry, source, ");
-		sb.append("status, link, ");
-		sb.append("date_published, ");
-		sb.append("source_label, ");
-		sb.append("random_factor, ");
-		sb.append("title, ");
-		sb.append("short_link) ");
-		sb.append("values(?,?,?,?,?,?,?,?,?,?,?,?,?)");
-		return sb.toString();
-	}
+//
+//	private void importTags(Long entryId, Collection<TagType> tags) {
+//		if(tags!=null){			
+//			for(TagType tag : tags){
+//				importTag(entryId, tag);
+//			}
+//		}
+//		
+//	}
+//
+//	private void importTag(Long entryId, TagType tag) {
+//		Connection connection = null;
+//		PreparedStatement preparedStatement = null;
+//		try {
+//			connection = DatabaseManager.getConnection();
+//			preparedStatement = connection.prepareStatement("insert into tag_entry (entry_id, tag_id) values (?,?)");
+//			preparedStatement.setLong(1, entryId);
+//			preparedStatement.setString(2, tag.name());
+//			preparedStatement.execute();
+//		} catch (Exception e) {			
+//			logger.error(e, e);
+//		} finally {
+//			try {
+//				preparedStatement.close();
+//			} catch (SQLException e) {
+//				logger.error(e, e);
+//			}
+//		}
+//		
+//	}
 
 	private Date getDatePublished(SourceEntry entry, Date dateImport) {
 		if (entry.getDateAsLong() != null) {

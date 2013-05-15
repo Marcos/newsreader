@@ -1,120 +1,185 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?><rss xmlns:admin="http://webns.net/mvcb/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" version="2.0">
-<channel>
-	<image>
-		<url>http://www.portaljoinville.com.br/v4/media/images/home/logo.png</url>
-		<title>Portal Joinville</title>
-		<link>http://www.portaljoinville.com.br/v4/</link>
-		<width>203</width>
-		<height>94</height>
-	</image>
-	<title>Portal Joinville</title>
-	<link>http://www.portaljoinville.com.br/v4/</link>
-	<description>Notícias de Joinville - De Joinvilense para Joinvilense</description>
-	<dc:language>pt_BR</dc:language>
-	<dc:creator>portaljoinville@portaljoinville.com.br</dc:creator>
-	<dc:rights>Copyright 2013</dc:rights>
-				<item>
-			<title>Arturzinho fala sobre a sua manutenção no time</title>
-			<link>http://www.portaljoinville.com.br/v4/esportes/2013/04/arturzinho-fala-sobre-a-sua-manutencao-no-time</link>
-			<guid>http://www.portaljoinville.com.br/v4/esportes/2013/04/arturzinho-fala-sobre-a-sua-manutencao-no-time</guid>
-			<description><![CDATA[O elenco do Joinville se reapresentou nesta terça-feira e, em dois períodos, trabalhou no Centro de Treinamentos e na quadra de areia da Schultz, no bairro Anita Garibaldi. Entre as atividades, o comandante concedeu entrevista para falar da reunião com a diretoria, pretensões para a Série B, além das declarações…
-<br /><br /> <img src="http://www.portaljoinville.com.br/v4/facecms/conteudo/temp/pj_25783.jpg" />]]></description>
-			<pubDate>Tue, 23 Apr 2013 20:34:53 -0300</pubDate>
-		</item> 
-				<item>
-			<title>Em busca de entrosamento</title>
-			<link>http://www.portaljoinville.com.br/v4/blogs/rdb/2013/04/em-busca-de-entrosamento</link>
-			<guid>http://www.portaljoinville.com.br/v4/blogs/rdb/2013/04/em-busca-de-entrosamento</guid>
-			<description><![CDATA[
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?>
+<?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?>
+<rss version="2.0">
+ <channel>
+  <title>Notícias do Dia Online - Joinville Notícias</title>
+  <description>Notícias do Dia Online - Notícias, esportes e cultura da cidade de Joinville e região</description>
+  <link>http://www.ndonline.com.br</link>
+  <category>Notícias</category>
+  <copyright>(c) Notícias do Dia 2010</copyright>
+  <generator>Php RSS2Writer</generator>
+  <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://feeds.feedburner.com/ndjoinville_noticias" rel="self" type="application/rss+xml"/><feedburner:info xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" uri="ndjoinville_noticias"/><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://pubsubhubbub.appspot.com/" rel="hub"/><item>
+   <title>Acidente de trânsito com juiz cancela audiência de assassino da família, em Penha</title>
+   <link>http://www.ndonline.com.br/joinville/noticias/71352-acidente-de-transito-com-juiz-cancela-audiencia-de-assassino-da-familia-em-penha.html</link>
+   <guid>http://www.ndonline.com.br/joinville/noticias/71352-acidente-de-transito-com-juiz-cancela-audiencia-de-assassino-da-familia-em-penha.html</guid>
+   <pubDate>14 May 2013 22:13:00 GMT</pubDate>
+   <author>rosanaritta@noticiasdodia.com.br (Rosana Ritta)</author>
+   <category>Penha, Liquinha, Assassinato, Flores</category>
+   <description>
 
+Um acidente de tr&amp;acirc;nsito envolvendo o juiz que presidiaria a audi&amp;ecirc;ncia do homem suspeito de matar os pais, a irm&amp;atilde; e o sobrinho, em Penha, no fim do ano passado, fez com que a sess&amp;atilde;o programada para a tarde desta ter&amp;ccedil;a-feira (14), fosse transferida para a pr&amp;oacute;xima semana. Luiz Carlos Flores, o Liquinha, deveria falar em ju&amp;iacute;zo a sua vers&amp;atilde;o do crime e responder aos questionamentos do juiz, Minist&amp;eacute;rio P&amp;uacute;blico e seu advogado de defesa.&#13;
+O crime aconteceu no dia 7 de dezembro do ano passado. Liquinha confessou ter matado a fam&amp;iacute;lia a golpes de martelo e alegou ter agido desta forma porque estaria sob o efeito de coca&amp;iacute;na. A primeira a ser executada com golpes de marreta foi a m&amp;atilde;e, Carmem Cunha Flores, 69 anos. O crime aconteceu nos fundos da casa onde Liquinha morava com as v&amp;iacute;timas, sob a alega&amp;ccedil;&amp;atilde;o de que a m&amp;atilde;e precisava morrer para n&amp;atilde;o sofrer com a morte da filha, que era seu principal alvo. Depois, ele foi para cima da irm&amp;atilde; e do sobrinho, que dormiam. Leopoldina Carmem Flores, 41, e Pedro Henrique Flores, dez anos, foram mortos a marteladas. Por fim, o suspeito foi para cima do pai Luiz Nilo Flores, 72, que tentou defender a filha e o neto e tamb&amp;eacute;m foi golpeado.&#13;
+Ap&amp;oacute;s os crimes, Liquinha tomou banho, chorou muito durante a como&amp;ccedil;&amp;atilde;o que o crime procovou na cidade e chegou a ir ao funeral dos familiares. Poucas horas depois, ele acabou preso e confessou o assassinato, alegando que n&amp;atilde;o tinha um bom relacionamento com a irm&amp;atilde; e decidiu mat&amp;aacute;-la. A morte dos pais seria uma consequ&amp;ecirc;ncia para que eles n&amp;atilde;o sofressem com a aus&amp;ecirc;ncia da filha.&#13;
+A audi&amp;ecirc;ncia foi remarcada para a pr&amp;oacute;xima ter&amp;ccedil;a-feira, &amp;agrave;s 14h30.</description>
+  </item>
+  <item>
+   <title>Comerciante de 59 anos é vítima de sequestro-relâmpago em Jaraguá do Sul</title>
+   <link>http://www.ndonline.com.br/joinville/noticias/71320-comerciante-de-59-anos-e-vitima-de-sequestro-relampago-em-jaragua-do-sul.html</link>
+   <guid>http://www.ndonline.com.br/joinville/noticias/71320-comerciante-de-59-anos-e-vitima-de-sequestro-relampago-em-jaragua-do-sul.html</guid>
+   <pubDate>14 May 2013 20:05:00 GMT</pubDate>
+   <author>mussi@noticiasdodia.com.br (Oliveira Mussi)</author>
+   <category>Assalto, Sequestro Relâmpago, Jaraguá do Sul, São Bento do Sul</category>
+   <description>
 
-Comai/Felej/JBA realiza neste do domingo (28/4), às 11 horas, em Navegantes, a quarta partida pelo Campeonato Catarinense de Basquete feminino da categoria sub 17. O adversário das joinvilenses será a ASDEN/Navegantes, quando tentará a primeira vitória na competição. No sábado (20/4), em São Bento do Sul, a equipe de Joinville…
-<br /><br /> <img src="http://www.portaljoinville.com.br/v4/facecms/conteudo/temp/pj_25782.jpg" />]]></description>
-			<pubDate>Tue, 23 Apr 2013 18:21:58 -0300</pubDate>
-		</item> 
-				<item>
-			<title>Novas vagas de emprego</title>
-			<link>http://www.portaljoinville.com.br/v4/noticias/2013/04/novas-vagas-de-emprego</link>
-			<guid>http://www.portaljoinville.com.br/v4/noticias/2013/04/novas-vagas-de-emprego</guid>
-			<description><![CDATA[
+Uma comerciante de 59 anos de idade passou por um sequestro-rel&amp;acirc;mpago no final da manh&amp;atilde; e in&amp;iacute;cio da tarde desta ter&amp;ccedil;a-feira (14). Ele foi pega por uma dupla, depois que a loja de colch&amp;otilde;es da qual a sequestrada &amp;eacute; dona foi assaltada. A loja fica na avenida Waldemar Grubba, uma extens&amp;atilde;o da BR-280 no per&amp;iacute;metro urbano, na entrada da cidade de Jaragu&amp;aacute; do Sul, por volta das 11h.&#13;
+Al&amp;eacute;m da dona do com&amp;eacute;rcio, eles levaram um notebook, R$ 80 e a bolsa da mulher, fugindo no carro dela para S&amp;atilde;o Bento do Sul, onde o ve&amp;iacute;culo foi abandonado com a v&amp;iacute;tima amarrada dentro do porta-malas. Os gritos da comerciante chamaram a aten&amp;ccedil;&amp;atilde;o de populares, que chamaram a Pol&amp;iacute;cia Militar.&#13;
+Chegando ao local, os policiais arrombaram o porta-malas e retiraram a v&amp;iacute;tima.Ela foi encaminhada para o Hospital Sagrada Fam&amp;iacute;lia e depois para a delegacia, para prestar depoimento.&#13;
+Dois homens suspeitos foram visto perto da loja nas &amp;uacute;ltimas duas semanas. H&amp;aacute; suspeita de que eles planejavam o crime.</description>
+  </item>
+  <item>
+   <title>Prefeito de Joinville propõe mais 1,69% de aumento para janeiro de 2014</title>
+   <link>http://www.ndonline.com.br/joinville/noticias/71298-http-migre-me-ey2m1.html</link>
+   <guid>http://www.ndonline.com.br/joinville/noticias/71298-http-migre-me-ey2m1.html</guid>
+   <pubDate>14 May 2013 18:31:00 GMT</pubDate>
+   <author>josi.tromm@noticiasdodia.com.br (Josi Tromm Geisler)</author>
+   <category>Sinsej, Udo Döhler, Prefeitura, Joinville, Servidores Públicos, Greve</category>
+   <description>&lt;img src='http://www.ndonline.com.br//uploads/global/materias/2013/05/14-05-2013-18-38-39-coletiva-udo-by-luciano-moraes-5-.jpg'&gt;&lt;br&gt;
 
+&#13;
+Luciano Moraes/ND&#13;
+&#13;
+Secret&amp;aacute;rios do governo municipal acompanharam nova proposta do prefeito&#13;
+&#13;
+&#13;
+Prefeitura de Joinville fez nova proposta no fim da tarde desta ter&amp;ccedil;a-feira aos servidores p&amp;uacute;blicos municipais. Em entrevista coletiva, o prefeito Udo D&amp;ouml;hler sinalizou com 1,69% de aumento em janeiro de 2014. Ele manteve os 4% imediatos, mais 1,56% em novembro. No total, a proposta finaliza em 7,25% de aumento.&#13;
+A proposta ser&amp;aacute; entregue ao Sinsej (Sindicatos dos Servidores P&amp;uacute;blicos dos Munic&amp;iacute;pios de Joinville, Garuva e Itapo&amp;aacute;) ainda na noite desta ter&amp;ccedil;a-feira. Os funcion&amp;aacute;rios p&amp;uacute;blicos devem analisar a proposta na quarta-feira e avaliar se aceitam ou n&amp;atilde;o.&#13;
+Nesta ter&amp;ccedil;a-feira, a Prefeitura calcula que a ades&amp;atilde;o &amp;agrave; greve foi de 6,22% dos funcion&amp;aacute;rios. Para o Sinsej, o percentual de participantes do movimento j&amp;aacute; chega a 50%. Alunos ainda n&amp;atilde;o chegaram a ser dispensados, mas atendimentos na sa&amp;uacute;de est&amp;atilde;o prejudicados, superlotando hospitais estaduais.</description>
+  </item>
+  <item>
+   <title>Audiência com o suspeito de assassinar a família em Penha é adiada</title>
+   <link>http://www.ndonline.com.br/joinville/noticias/71270-oitiva-com-o-suspeito-de-assassinar-a-familia-deve-acontecer-na-semana-que-vem-em-penha.html</link>
+   <guid>http://www.ndonline.com.br/joinville/noticias/71270-oitiva-com-o-suspeito-de-assassinar-a-familia-deve-acontecer-na-semana-que-vem-em-penha.html</guid>
+   <pubDate>14 May 2013 17:37:00 GMT</pubDate>
+   <author>claudioc.ndonline@noticiasdodia.com.br (Cláudio Costa)</author>
+   <category>Penha, Assassinatos, Depoimento </category>
+   <description>&lt;img src='http://www.ndonline.com.br//uploads/global/materias/2013/05/14-05-2013-17-50-05-12-12-2012-18-47-39-8-liquinha-o-assassino-credito-divulgacao-.jpg'&gt;&lt;br&gt;
 
-O Centro Público de Atendimento aos Trabalhadores (Cepat) divulgou vagas em aberto para diversas áreas. Os interessados devem levar a Carteira de Trabalho, CPF e RG até a sede do Cepat, que fica na rua Abdon Batista, 342, Centro, perto do Mercado Público. O horário de atendimento é das 8…
-<br /><br /> <img src="http://www.portaljoinville.com.br/v4/facecms/conteudo/temp/pj_25779.jpg" />]]></description>
-			<pubDate>Tue, 23 Apr 2013 16:53:12 -0300</pubDate>
-		</item> 
-				<item>
-			<title>Sergio Ramirez está de volta ao JEC</title>
-			<link>http://www.portaljoinville.com.br/v4/esportes/2013/04/sergio-ramires-esta-de-volta-ao-jec</link>
-			<guid>http://www.portaljoinville.com.br/v4/esportes/2013/04/sergio-ramires-esta-de-volta-ao-jec</guid>
-			<description><![CDATA[
+&#13;
+Divulga&amp;ccedil;&amp;atilde;o/Pol&amp;iacute;cia Civil/ND&#13;
+&#13;
+Luiz Carlos Flores deveria falar em ju&amp;iacute;zo nesta ter&amp;ccedil;a-feria&#13;
+Um acidente de tr&amp;acirc;nsito envolvendo o juiz que comandaria a audi&amp;ecirc;ncia do homem suspeito de matar os pais a irm&amp;atilde; e sobrinho, em Penha, fez com que a sess&amp;atilde;o programada para a tarde desta ter&amp;ccedil;a-feira (14), fosse transferida para a pr&amp;oacute;xima semana. Luiz Carlos Flores, o Liquinha, deveria falar em ju&amp;iacute;zo a sua vers&amp;atilde;o do crime e responder aos questionamentos do juiz, do Minist&amp;eacute;rio P&amp;uacute;blico e do advogado de defesa.&#13;
+O crime aconteceu no dia 7 de dezembro do ano passado. Liquinha confessou ter matado a fam&amp;iacute;lia a golpes de martelo. Ele disse que fez tudo sob o efeito de drogas. A primeira a ser executada com golpes de marreta foi a m&amp;atilde;e, Carmem Cunha Flores, 69 anos. O assassinato aconteceu nos fundos da casa onde Liquinha morava com as v&amp;iacute;timas.&#13;
+Posteriormente, ele teria ido para cima da irm&amp;atilde; e do sobrinho que dormiam em um dos quartos. Leopoldina Carmem Flores, 41 anos, e Pedro Henrique Flores, 10, foram mortos a marteladas. Por fim, o suspeito teria agredido o pai, Luiz Nilo Flores, 72, que tamb&amp;eacute;m foi morto.&#13;
+Ap&amp;oacute;s os crimes, o suspeito teria tomado banho. Ele chegou a ir ao funeral dos familiares. Poucas horas depois, ele acabou preso e confessou o assassinato alegando que sentia ci&amp;uacute;mes e queria matar a irm&amp;atilde;. A morte dos pais seria uma consequ&amp;ecirc;ncia. Liquinha teria cometido os assassinatos para que eles n&amp;atilde;o sofressem com a aus&amp;ecirc;ncia da filha. A audi&amp;ecirc;ncia foi remarcada para a pr&amp;oacute;xima ter&amp;ccedil;a-feira, &amp;agrave;s 14h30.</description>
+  </item>
+  <item>
+   <title>Comandante anuncia instalação de novas câmeras de monitoramento na zona Norte de Joinville</title>
+   <link>http://www.ndonline.com.br/joinville/noticias/71247-comandante-anuncia-instalacao-de-novas-cameras-de-monitoramento-na-zona-norte-de-joinville.html</link>
+   <guid>http://www.ndonline.com.br/joinville/noticias/71247-comandante-anuncia-instalacao-de-novas-cameras-de-monitoramento-na-zona-norte-de-joinville.html</guid>
+   <pubDate>14 May 2013 16:57:00 GMT</pubDate>
+   <author>jr@noticiasdodia.com.br (Oswaldo Ribeiro Jr.)</author>
+   <category>Joinville, Zona Norte, 8º BPM, Segurança Pública</category>
+   <description>&lt;img src='http://www.ndonline.com.br//uploads/global/materias/2013/05/14-05-2013-16-55-18-site.jpg'&gt;&lt;br&gt;
 
+&#13;
+Carlos Junior/ND&#13;
+&#13;
+Comandante Valles pediu integra&amp;ccedil;&amp;atilde;o comunit&amp;aacute;ria pela seguran&amp;ccedil;a p&amp;uacute;blica&#13;
+&#13;
+&#13;
+As oito novas bases da Pol&amp;iacute;cia Militar de Joinville, que devem ser implantadas na regi&amp;atilde;o Norte nos pr&amp;oacute;ximos meses, funcionar&amp;atilde;o tamb&amp;eacute;m como centrais de videomonitoramento das novas cem c&amp;acirc;meras que a PM pretende instalar na &amp;aacute;rea de atua&amp;ccedil;&amp;atilde;o do 8&amp;ordm; BPM (Batalh&amp;atilde;o de Pol&amp;iacute;cia Militar). O projeto, que deve descentralizar o videomonitoramento, foi apresentado nesta segunda-feira (13) &amp;agrave; noite, aos representantes dos Consegs (Conselhos Comunit&amp;aacute;rios de Seguran&amp;ccedil;a), associa&amp;ccedil;&amp;otilde;es de moradores, pol&amp;iacute;ticos e moradores. &amp;ldquo;Estamos discutindo a implanta&amp;ccedil;&amp;atilde;o na comunidade. Um primeiro momento foi pensar os locais onde os postos devem ser instalados. Agora, precisamos que a Prefeitura libere estes espa&amp;ccedil;os para a constru&amp;ccedil;&amp;atilde;o das bases, de 40 metros quadrados&amp;rdquo;, explicou o comandante Eduardo Luiz do Valles. Segundo ele, ap&amp;oacute;s esta etapa, o 8&amp;ordm; BPM deve buscar parceiros para a constru&amp;ccedil;&amp;atilde;o das bases. &amp;ldquo;Se tudo correr dentro do previsto, os novos postos podem ficar prontos at&amp;eacute; o fim do ano&amp;rdquo;, afirmou. Na reuni&amp;atilde;o, o comandante ressaltou que a seguran&amp;ccedil;a p&amp;uacute;blica precisa ser discutida e trabalhada por toda sociedade. &amp;ldquo;Todos precisamos estar envolvidos para que todas as engrenagens da seguran&amp;ccedil;a p&amp;uacute;blica consigam funcionar adequadamente. A popula&amp;ccedil;&amp;atilde;o &amp;eacute; a nossa maior parceira. Por isso, estamos sempre abertos para atender &amp;agrave; comunidade.&amp;rdquo;Entre as cerca de 70 pessoas que participaram do encontro estava o presidente da Associa&amp;ccedil;&amp;atilde;o de Moradores do Parque Douat, Louren&amp;ccedil;o Foss Joenk. Ele gostou da conversa e disse que a base a ser instalada no bairro &amp;eacute; uma antiga reivindica&amp;ccedil;&amp;atilde;o no Costa e Silva. &amp;ldquo;Vai ser muito bom para n&amp;oacute;s, mas esperamos que o servi&amp;ccedil;o funcione adequadamente para atender &amp;agrave; comunidade. A instala&amp;ccedil;&amp;atilde;o das c&amp;acirc;meras e a descentraliza&amp;ccedil;&amp;atilde;o dos locais de monitoramento facilitar&amp;aacute; o policiamento&amp;rdquo;, acredita Joenk.</description>
+  </item>
+  <item>
+   <title>Joinvilenses são presos sob suspeita de arrombar caixas eletrônicos no Paraná </title>
+   <link>http://www.ndonline.com.br/joinville/noticias/71241-joinvilenses-sao-presos-sob-suspeita-arrombar-caixas-eletronicos-no-parana.html</link>
+   <guid>http://www.ndonline.com.br/joinville/noticias/71241-joinvilenses-sao-presos-sob-suspeita-arrombar-caixas-eletronicos-no-parana.html</guid>
+   <pubDate>14 May 2013 16:43:00 GMT</pubDate>
+   <author>claudioc.ndonline@noticiasdodia.com.br (Cláudio Costa)</author>
+   <category>Caixeiros, Suspeitos, Polícia Militar, Prisão, Joinvilenses </category>
+   <description>&lt;img src='http://www.ndonline.com.br//uploads/global/materias/2013/05/14-05-2013-17-07-45-divulgacao-pm-pr.jpg'&gt;&lt;br&gt;
 
-Desta vez ele vem para ser coordenador técnico do Tricolor. O uruguaio Sergio Ramirez, 62 anos, foi contratado pelo Joinville para uma função que no ano passado era exercida por Marcelo Serrano, enquanto o treinador era Leandro Campos. Desta vez, com a manuteção de Arturzinho, Ramirez irá atuar ao lado…
-<br /><br /> <img src="http://www.portaljoinville.com.br/v4/facecms/conteudo/temp/pj_25778.jpg" />]]></description>
-			<pubDate>Tue, 23 Apr 2013 16:41:27 -0300</pubDate>
-		</item> 
-				<item>
-			<title>Volta às pistas</title>
-			<link>http://www.portaljoinville.com.br/v4/blogs/rdb/2013/04/volta-as-pistas</link>
-			<guid>http://www.portaljoinville.com.br/v4/blogs/rdb/2013/04/volta-as-pistas</guid>
-			<description><![CDATA[
+&#13;
+Divulga&amp;ccedil;&amp;atilde;o/ND&#13;
+&#13;
+Supeitos foram surpreendidos pelos policiais militares durante a a&amp;ccedil;&amp;atilde;o no banco&#13;
+&#13;
+Quatro joinvilenses foram detidos pela Pol&amp;iacute;cia Militar paranaense na madrugada desta ter&amp;ccedil;a-feira (14). Eles s&amp;atilde;o suspeitos de arrombar caixa eletr&amp;ocirc;nico em Rio Negro, no Paran&amp;aacute;. A pris&amp;atilde;o aconteceu quando o grupo foi flagrado arrombando terminais banc&amp;aacute;rios do Banco do Brasil, por volta da 1h. A quadrilha reagiu, mas acabou detida pelos policiais.&#13;
+&#13;
+A PM chegou at&amp;eacute; os caixeiros depois que um funcion&amp;aacute;rio da empresa que faz a seguran&amp;ccedil;a da ag&amp;ecirc;ncia banc&amp;aacute;ria descobriu que a porta do banco estava bloqueada com o papel, o que impedia o trancamento autom&amp;aacute;tico &amp;agrave;s 22h. O vigilante tamb&amp;eacute;m identificou que as c&amp;acirc;meras de monitoramento estavam viradas para a parede e ent&amp;atilde;o acionou a Pol&amp;iacute;cia Militar.&#13;
+O servi&amp;ccedil;o de intelig&amp;ecirc;ncia da PM passou a monitorar o local e percebeu quando dois carros &amp;ndash; um Citro&amp;euml;n C3 e um Renault Sandero &amp;ndash; pararam em frente ao banco. Quatro homens estavam nos ve&amp;iacute;culos. Os policias chamaram refor&amp;ccedil;os e os criminosos revidaram. Houve persegui&amp;ccedil;&amp;atilde;o e troca de tiros. Dois suspeitos, Cristin Antonio Dalmagro e Ailton Dutra Machado, acabaram baleados. Eles foram socorridos pelos bombeiros e levados ao hospital. Posteriormente, foram encaminhados para a Delegacia de Pol&amp;iacute;cia Civil.&#13;
+Tamb&amp;eacute;m foram presos: Ad&amp;atilde;o Carlos Martins Graciano e P&amp;eacute;ricles Adriano Silveira. Todos devem responder por tentativa de fruto qualificado.&#13;
+&#13;
+&#13;
+Divulga&amp;ccedil;&amp;atilde;o/ND&#13;
+&#13;
+Joinvilenses foram detidos ap&amp;oacute;s persegui&amp;ccedil;&amp;atilde;o e troca de tiros com a pol&amp;iacute;cia&#13;
+</description>
+  </item>
+  <item>
+   <title>Ladrões levam R$ 6,8 mil de casa no bairro Fátima, em Joinville</title>
+   <link>http://www.ndonline.com.br/joinville/noticias/71187-ladroes-levam-r-6-8-mil-de-casa-no-bairro-fatima.html</link>
+   <guid>http://www.ndonline.com.br/joinville/noticias/71187-ladroes-levam-r-6-8-mil-de-casa-no-bairro-fatima.html</guid>
+   <pubDate>14 May 2013 13:41:00 GMT</pubDate>
+   <author>thais@noticiasdodia.com.br (Thaís Moreira de Mira)</author>
+   <category>Segurança, Joinville, Bairro Fátima, Assalto, Residência</category>
+   <description>
 
+Dois ladr&amp;otilde;es usando capacetes invadiram a casa de uma fam&amp;iacute;lia no bairro F&amp;aacute;tima, por volta das 10 horas desta ter&amp;ccedil;a-feira (14). Eles renderam a mulher do propriet&amp;aacute;rio do im&amp;oacute;vel, de 38 anos, e indagaram: - Cad&amp;ecirc; o dinheiro? A dupla fugiu minutos depois com o celular da v&amp;iacute;tima e R$ 6,8 mil em dinheiro. A quantia seria usada para pagar uma conta durante a tarde. &amp;ldquo;Eu estava guardando este dinheiro para pagar uma conta. Incr&amp;iacute;vel um neg&amp;oacute;cio deste. Os dois tiraram o cadeado que estava aqui no port&amp;atilde;o, mas minha mulher n&amp;atilde;o tinha trancado, e entraram. Meu vizinho viu uma mulher andando para um lado e para o outro aqui, falando no celular&amp;rdquo;, diz o dono da casa, um vendedor ambulante de 46 anos.&#13;
+Ele &amp;eacute; nordestino e n&amp;atilde;o descarta que um dos assaltantes seja conhecido. &amp;ldquo;Um dos caras tinha sotaque, minha mulher reparou&amp;rdquo;. A Pol&amp;iacute;cia Militar realizou rondas na regi&amp;atilde;o, mas nenhum suspeito havia sido localizado at&amp;eacute; o final do dia. Os dois teriam fugido em uma motocicleta de cor preta. A esperan&amp;ccedil;a &amp;eacute; que c&amp;acirc;meras instaladas num pr&amp;eacute;dio na esquina tenham flagrado parte da a&amp;ccedil;&amp;atilde;o.&#13;
+Outros tr&amp;ecirc;s amigos da v&amp;iacute;tima, que tamb&amp;eacute;m migraram do Nordeste para Joinville, tiveram suas casas roubada nos &amp;uacute;ltimos seis meses. Todos os casos foram registrados na zona Sul e todas as v&amp;iacute;timas tinham atividades semelhantes.</description>
+  </item>
+  <item>
+   <title>São Francisco realiza fórum sobre restinga e ocupação de áreas da União</title>
+   <link>http://www.ndonline.com.br/joinville/noticias/71147-sao-francisco-realiza-forum-sobre-restinga-e-ocupacao-de-areas-da-uniao.html</link>
+   <guid>http://www.ndonline.com.br/joinville/noticias/71147-sao-francisco-realiza-forum-sobre-restinga-e-ocupacao-de-areas-da-uniao.html</guid>
+   <pubDate>14 May 2013 11:16:00 GMT</pubDate>
+   <author>loreni@noticiasdodia.com.br (Lorení Franck)</author>
+   <category>São Francisco do Sul, Restinga</category>
+   <description>
 
-Será neste fim de semana, 26 e 27 de abril, que a velocista Tamiris de Liz voltará a voar baixo nas pistas. A atleta disputará a prova de 100 metros e 200 metros e o revezamento 4x100 metros pelo Campeonato Estadual Adulto de  Atletismo, em Itajaí. Para a técnica Margit…
-<br /><br /> <img src="http://www.portaljoinville.com.br/v4/facecms/uploads/galeria/pj_1366741964.jpg" />]]></description>
-			<pubDate>Tue, 23 Apr 2013 15:33:57 -0300</pubDate>
-		</item> 
-				<item>
-			<title>A proibição do consumo de bebidas alcoólicas em vias públicas</title>
-			<link>http://www.portaljoinville.com.br/v4/noticias/2013/04/a-proibicao-do-consumo-de-bebidas-alcoolicas-em-vias-publicas</link>
-			<guid>http://www.portaljoinville.com.br/v4/noticias/2013/04/a-proibicao-do-consumo-de-bebidas-alcoolicas-em-vias-publicas</guid>
-			<description><![CDATA[
-Acontece nesta terça-feira (23),  uma audiência pública na Câmara de Vereadores sobre o projeto de Lei 48/13, de autoria do vereador James Schroeder, que pretende acabar com o consumo de bebidas alcoólicas em vias públicas de Joinville.
-A iniciativa é coibir que os “esquentas” e aglomerações virem perturbação do sossego. A…
-<br /><br /> <img src="http://www.portaljoinville.com.br/v4/facecms/conteudo/temp/pj_25776.jpg" />]]></description>
-			<pubDate>Tue, 23 Apr 2013 15:15:50 -0300</pubDate>
-		</item> 
-				<item>
-			<title>Tamiris de Liz volta às pistas</title>
-			<link>http://www.portaljoinville.com.br/v4/esportes/2013/04/tamiris-de-liz-volta-as-pistas</link>
-			<guid>http://www.portaljoinville.com.br/v4/esportes/2013/04/tamiris-de-liz-volta-as-pistas</guid>
-			<description><![CDATA[
+S&amp;atilde;o Francisco do Sul ir&amp;aacute; receber, pela primeira vez, o F&amp;oacute;rum sobre Restinga e Ocupa&amp;ccedil;&amp;atilde;o de &amp;Aacute;reas da Uni&amp;atilde;o. O evento, que deve reunir profissionais, estudiosos, t&amp;eacute;cnicos e empresas do setor, tem como objetivo discutir temas relacionados ao meio ambiente, trocar experi&amp;ecirc;ncias e melhorar a gest&amp;atilde;o ambiental de S&amp;atilde;o Francisco do Sul. O F&amp;oacute;rum ser&amp;aacute; amanh&amp;atilde; (15) e quinta (16) no Hotel Villa Real, organizado pela Secretaria Municipal de Meio Ambiente.&#13;
+De acordo com o secret&amp;aacute;rio de Meio Ambiente, Eni Voltonili, a maior presen&amp;ccedil;a deve ser dos munic&amp;iacute;pios costeiros de Santa Catarina, onde essas &amp;aacute;reas apresentam mais problemas. &amp;ldquo;Considerando que SFS &amp;eacute; uma ilha circundada de &amp;aacute;reas de relevante interesse ambiental, e que sua ocupa&amp;ccedil;&amp;atilde;o vem ocorrendo anteriormente &amp;agrave; legisla&amp;ccedil;&amp;atilde;o que se aplica atualmente, &amp;eacute; muito importante entender o ambiente de restinga em seu aspecto t&amp;eacute;cnico e legal como forma de poder fiscalizar e licenciar dentro das normas ambientais vigentes&amp;rdquo;, comentou.&#13;
+O Minist&amp;eacute;rio P&amp;uacute;blico Federal, Minist&amp;eacute;rio P&amp;uacute;blico Estadual, Ibama, Fatma, Pol&amp;iacute;cia Ambiental, Secretaria de Patrim&amp;ocirc;nio da Uni&amp;atilde;o, Universidade da Regi&amp;atilde;o de Joinville e Universidade Federal do Paran&amp;aacute; estar&amp;atilde;o participando.&#13;
+&#13;
+Saiba mais | Palestrantes &#13;
+Amanh&amp;atilde; (15)  Das 9h20 &amp;agrave;s 10h10 - Dr. Rodolfo Jos&amp;eacute; Angulo (UFPR) Restinga: Conflitos entre os conceitos cient&amp;iacute;ficos e legais  Das 10h40 &amp;agrave;s 11h30 - Major Adilson (PMA) Conflito no uso do solo na zona Costeira de Santa Catarina &amp;ndash; experi&amp;ecirc;ncias da Pol&amp;iacute;cia Militar Ambiental&#13;
+Das 14h &amp;agrave;s 14h50 - Alexandre Waltrick (Fatma) Restinga  Das 15h &amp;agrave;s 15h50 - Msc. Celso Voos Vieira (Univille)Geologia e geomorfologia costeira da ilha de S&amp;atilde;o Francisco do Sul&#13;
+Das 16h40 &amp;agrave;s 17h30 - Dr. Tiago Alguzir Gutierrez (MPF) A&amp;ccedil;&amp;otilde;es do MPF em Santa Catarina e a Lei 12.651/2012 &amp;ndash; Novo C&amp;oacute;digo Florestal&#13;
+Das 17h &amp;agrave;s 17h50 - Dr. Cristian Richard Stahelen Oliveira (MPE)  Quinta (16) Das 8h30 &amp;agrave;s 9h20 - Dr. Kleber Isaac Silva de Souza (Ibama) Evolu&amp;ccedil;&amp;atilde;o e conceito legal de restinga, suas respectivas limita&amp;ccedil;&amp;otilde;es administrativas e ocupa&amp;ccedil;&amp;atilde;o de im&amp;oacute;veis da Uni&amp;atilde;o  Das 9h30 &amp;agrave;s 10h20 - Dra. Tereza Cristina Godinho Alves (SPU)Destina&amp;ccedil;&amp;atilde;o patrimonial e portaria 404/2012&#13;
+Das 10h40 &amp;agrave;s 11h30 - Adelina Cristina Pinto (SPU) Projeto Orla e seus encaminhamentos   Das 14h &amp;agrave;s 14h50 - Dr. Alexandre Mazzer (Consultor Ambiental) Plano municipal de gerenciamento costeiro e interfaces com a ocupa&amp;ccedil;&amp;atilde;o e uso do litoral&#13;
+Das 15h &amp;agrave;s 15h50 - Carlos Henrique N&amp;oacute;brega (Consultor Ambiental)Planejamento e gest&amp;atilde;o de munic&amp;iacute;pios costeiros</description>
+  </item>
+  <item>
+   <title>Santuário Sagrado Coração de Jesus promove coleta de lixo eletrônico</title>
+   <link>http://www.ndonline.com.br/joinville/noticias/71141-santuario-sagrado-coracao-de-jesus-promove-coleta-de-lixo-eletronico.html</link>
+   <guid>http://www.ndonline.com.br/joinville/noticias/71141-santuario-sagrado-coracao-de-jesus-promove-coleta-de-lixo-eletronico.html</guid>
+   <pubDate>14 May 2013 11:14:00 GMT</pubDate>
+   <author>loreni@noticiasdodia.com.br (Lorení Franck)</author>
+   <category>Lixo Eletrônico, Santuário Sagrado Coração de Jesus</category>
+   <description>
 
+A Par&amp;oacute;quia Santu&amp;aacute;rio Sagrado Cora&amp;ccedil;&amp;atilde;o de Jesus est&amp;aacute; recolhendo aparelhos eletr&amp;ocirc;nicos que n&amp;atilde;o t&amp;ecirc;m mais utilidade. O gesto faz parte da 3&amp;ordf; Semana da Comunica&amp;ccedil;&amp;atilde;o do Santu&amp;aacute;rio e conta com pontos de coleta na matriz e nas comunidades Nossa Senhora do Ros&amp;aacute;rio, no Guanabara, Sagrada Fam&amp;iacute;lia, no F&amp;aacute;tima, S&amp;atilde;o Judas Tadeu, no Itaum e Divino Esp&amp;iacute;rito Santo, no Petr&amp;oacute;polis. O descarte pode ser feito at&amp;eacute; 26 deste m&amp;ecirc;s, e todo material coletado ser&amp;aacute; devidamente encaminhado a um instituto ambiental. A Par&amp;oacute;quia Santu&amp;aacute;rio Sagrado Cora&amp;ccedil;&amp;atilde;o de Jesus fica na rua In&amp;aacute;cio Bastos, esquina com a rua S&amp;atilde;o Paulo, no bairro Bucarein.</description>
+  </item>
+  <item>
+   <title>Marinha oficializa manobras de navios de 350 metros de comprimento no porto de Itapoá</title>
+   <link>http://www.ndonline.com.br/joinville/noticias/71140-marinha-oficializa-manobras-de-navios-de-350-metros-de-comprimento-no-porto-itapoa.html</link>
+   <guid>http://www.ndonline.com.br/joinville/noticias/71140-marinha-oficializa-manobras-de-navios-de-350-metros-de-comprimento-no-porto-itapoa.html</guid>
+   <pubDate>14 May 2013 11:12:00 GMT</pubDate>
+   <author>loreni@noticiasdodia.com.br (Lorení Franck)</author>
+   <category>Porto de Itapoá, Baía Babitonga</category>
+   <description>&lt;img src='http://www.ndonline.com.br//uploads/global/materias/2013/05/14-05-2013-12-09-27-22-02-2012-19-10-38-msc-coruna.jpg'&gt;&lt;br&gt;
 
-Será neste fim de semana, 26 e 27 de abril, que a velocista Tamiris de Liz voltará a voar baixo nas pistas. A atleta disputará a prova dos 100 e 200 metros e o revezamento 4x100m, pelo Campeonato Estadual Adulto de Atletismo, em Itajaí. 
-Para a técnica Margit Weise este…
-<br /><br /> <img src="http://www.portaljoinville.com.br/v4/facecms/conteudo/temp/pj_25775.jpg" />]]></description>
-			<pubDate>Tue, 23 Apr 2013 14:41:36 -0300</pubDate>
-		</item> 
-				<item>
-			<title>PID lança inscrições para vôlei de praia</title>
-			<link>http://www.portaljoinville.com.br/v4/esportes/2013/04/pid-lanca-inscricoes-para-volei-de-praia</link>
-			<guid>http://www.portaljoinville.com.br/v4/esportes/2013/04/pid-lanca-inscricoes-para-volei-de-praia</guid>
-			<description><![CDATA[Estão abertas as inscrições para o Núcleo de Vôlei de Praia do Programa de Iniciação Esportiva (PID). O projeto é voltado para crianças e adolescentes com idade entre 10 e 16 anos. As atividades começam na próxima semana e serão realizadas no período da tarde, na Associação de Moradores do…
-<br /><br /> <img src="http://www.portaljoinville.com.br/v4/facecms/conteudo/temp/pj_25774.jpg" />]]></description>
-			<pubDate>Tue, 23 Apr 2013 14:40:41 -0300</pubDate>
-		</item> 
-				<item>
-			<title>Vôlei de praia: Jovens em busca da Seleção Brasileira</title>
-			<link>http://www.portaljoinville.com.br/v4/esportes/2013/04/volei-de-praia-jovens-em-busca-da-selecao-brasileira</link>
-			<guid>http://www.portaljoinville.com.br/v4/esportes/2013/04/volei-de-praia-jovens-em-busca-da-selecao-brasileira</guid>
-			<description><![CDATA[
-
-
-O sonho de se tornar atleta profissional de vôlei de praia começa a se tornar realidade para a dupla feminina de Joinville. As amigas e companheiras de competição Odaisa Nathieli de Andrade e Mayra Amorim de Souza, nascidas em 1998, foram convocadas pela Seleção Catarinense para disputar o Campeonato Brasileiro…
-<br /><br /> <img src="http://www.portaljoinville.com.br/v4/facecms/uploads/galeria/pj_1366737666.jpg" />]]></description>
-			<pubDate>Tue, 23 Apr 2013 14:29:00 -0300</pubDate>
-		</item> 
-				<item>
-			<title>Prefeitura construirá Parque Porta do Mar, no Espinheiros</title>
-			<link>http://www.portaljoinville.com.br/v4/noticias/2013/04/prefeitura-construira-parque-porta-do-mar-no-espinheiros</link>
-			<guid>http://www.portaljoinville.com.br/v4/noticias/2013/04/prefeitura-construira-parque-porta-do-mar-no-espinheiros</guid>
-			<description><![CDATA[
-Acontece nesta quarta-feira (24), no Restaurante Capitão do Mar, a entrega da ordem de serviço para a construção do Parque Porta do Mar, no bairro Espinheiros.
-A empresa vencedora da licitação é a Belga Empreitera. As obras vão começar de imediato. Para esta obra, a Prefeitura pagará o valor de…
-<br /><br /> <img src="http://www.portaljoinville.com.br/v4/facecms/conteudo/temp/pj_25772.jpg" />]]></description>
-			<pubDate>Tue, 23 Apr 2013 14:15:56 -0300</pubDate>
-		</item> 
-		</channel>
+&#13;
+&#13;
+Divulga&amp;ccedil;&amp;atilde;o/ND&#13;
+&#13;
+Porto de Itapo&amp;aacute; est&amp;aacute; autorizado a operar com navios com 350 metros de comprimento e 48,9 metros de largura&#13;
+&#13;
+A Marinha do Brasil, por meio da Capitania dos Portos de Santa Catarina, em conjunto com a Delegacia da Capitania dos Portos de S&amp;atilde;o Francisco do Sul, emitiu no dia 9 de maio of&amp;iacute;cio n&amp;ordm; 154/2013 que ratifica a capacidade da Ba&amp;iacute;a da Babitonga em receber os grandes navios de at&amp;eacute; 350 metros de comprimento.&#13;
+H&amp;aacute; quase um ano a Capitania dos Portos, juntamente com os portos de Itapo&amp;aacute; e S&amp;atilde;o Francisco do Sul, vem realizando testes frequentes na ba&amp;iacute;a babitonga, visualizando as possibilidades muito iminentes para o recebimento das embarca&amp;ccedil;&amp;otilde;es. Em outubro de 2012, a primeira portaria emitida j&amp;aacute; elevava os par&amp;acirc;metros dos navios para 300 metros de comprimento. Em janeiro deste ano, mais uma conquista: os mesmos navios de 300 metros j&amp;aacute; poderiam ser operados no per&amp;iacute;odo noturno. Agora, a Marinha oficializa que a ba&amp;iacute;a Babitonga est&amp;aacute; apta a receber os navios de 350 metros de comprimento com 48,9 metros de largura.&#13;
+Hoje, no Brasil, esses navios ainda n&amp;atilde;o est&amp;atilde;o operando. O maior navio de cont&amp;ecirc;ineres que opera no Brasil &amp;eacute; o Alian&amp;ccedil;a Itapo&amp;aacute;, de 334 metros de comprimento, que j&amp;aacute; atraca no Porto Itapo&amp;aacute;. Contudo, a tend&amp;ecirc;ncia da navega&amp;ccedil;&amp;atilde;o mundial indica que os portos mundo afora precisam estar preparados para as embarca&amp;ccedil;&amp;otilde;es cada vez maiores. Em outros portos da &amp;Aacute;sia, Europa e Am&amp;eacute;rica do Norte, essas dimens&amp;otilde;es s&amp;atilde;o uma realidade.&#13;
+O diretor de Opera&amp;ccedil;&amp;otilde;es do Porto Itapo&amp;aacute;, M&amp;aacute;rcio Guiot, destaca que &amp;ldquo;o trabalho intenso que estamos realizando, desde 2011, com a Praticagem, o Porto de S&amp;atilde;o Francisco do Sul e Capitania dos Portos, vem surtindo efeito positivo. Este trabalho n&amp;atilde;o &amp;eacute; importante apenas para os terminais. Traz benef&amp;iacute;cios a toda uma cadeia produtiva que passa a ter na ba&amp;iacute;a Babitonga sua porta de entrada para as diferentes regi&amp;otilde;es do mundo, atrav&amp;eacute;s dos maiores navios escalando na Am&amp;eacute;rica do Sul. Ainda n&amp;atilde;o atingimos o ponto esperado, mas temos certeza que muito em breve teremos mais raz&amp;otilde;es para comemorar&amp;rdquo;.</description>
+  </item>
+ </channel>
 </rss>

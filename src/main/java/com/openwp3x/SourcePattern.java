@@ -7,6 +7,7 @@ import java.net.URL;
 import java.util.Collection;
 import java.util.Locale;
 
+import com.openwp3x.model.TagType;
 import com.openwp3x.reader.SourceType;
 
 /**
@@ -59,7 +60,7 @@ public class SourcePattern {
 
 	private Locale locale = new Locale("pt", "BR");
 	
-	private Collection<Tag> tags;
+	private Collection<TagType> tags;
 
     /**
      * @return the title
@@ -254,11 +255,11 @@ public class SourcePattern {
 		this.textXPath = textXPath;
 	}
 
-	public Collection<Tag> getTags() {
+	public Collection<TagType> getTags() {
 		return tags;
 	}
 
-	public void setTags(Collection<Tag> tags) {
+	public void setTags(Collection<TagType> tags) {
 		this.tags = tags;
 	}
 

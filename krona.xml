@@ -223,7 +223,7 @@ $(document).ready(function(){
 <div class="fotoJogadorP">
 
          
-<img alt="" height="209" src="arquivos/jogadores/jogadores_destaque/dudu_top.png" width="149">
+<img alt="" height="209" src="arquivos/jogadores/jogadores_destaque/ricardinho_top.png" width="149">
 
   </div>
 
@@ -365,7 +365,7 @@ $(document).ready(function(){
  //=======================================
 </script>&#13;
 &#13;
- <input id="hdd_now" name="hdd_now" type="hidden" value="20130514225256">&#13;
+ <input id="hdd_now" name="hdd_now" type="hidden" value="20130514235401">&#13;
 &#13;
 
 <div class="boxTit">&#13;
@@ -571,7 +571,7 @@ $(document).ready(function(){
       
 </ul>
    
-<div id="boxPaginacao_hidden_noticias_20130514225256" style="display:none; border:1px solid #F00;">
+<div id="boxPaginacao_hidden_noticias_20130514235401" style="display:none; border:1px solid #F00;">
          
 <a href="" onclick="return false;"><strong>1</strong></a> <a href="" onclick="paginacao(2,'noticias');this.blur();return false;">2</a> <a href="" onclick="paginacao(3,'noticias');this.blur();return false;">3</a> <a href="" onclick="paginacao(4,'noticias');this.blur();return false;">4</a> <a class="last" href="" onclick="paginacao(5,'noticias');this.blur();return false;">5</a>&nbsp;&nbsp;<a class="btPagSeguinte" href="" onclick="paginacao(2,'noticias');this.blur();return false;">Pr&oacute;xima</a>    
 </div>
@@ -590,21 +590,19 @@ $(document).ready(function(){
 
 <script src="http://www.krona.com.br/site/lib/componentes/jquery.lightbox.js" type="text/javascript"></script>
 
-<p class="txtZoomData">13 Mai 13</p>
+<p class="txtZoomData">14 Mai 13</p>
 
-<h4 id="h4_noticias">Krona Futsal goleia Assoeva e segue na lideran&ccedil;a da Liga</h4>
+<h4 id="h4_noticias">Krona Futsal nas escolas de Joinville</h4>
 
 <div class="contentItemPromo" style="background:none; height:auto;">
    
-<img src="http://www.krona.com.br/site/arquivos/download/siteee___1698.jpg">
+<img src="http://www.krona.com.br/site/arquivos/download/siteee___1701.jpg">
       <p class="txt"></p>
-<p class="txt">A Krona Futsal segue na lideran&ccedil;a da Liga Futsal 2013. Nesta segunda-feira (13/05), o time joinvilense goleou a Assoeva/Ven&acirc;ncio Aires, por 5 a 0, no Gin&aacute;sio da Univille, em Joinville (SC). Agora, soma nove jogos de invencibilidade na competi&ccedil;&atilde;o nacional, com 23 pontos. Os gols da equipe foram marcados por Vander Carioca (2), Deives (2) e Dyego.</p>
-<p class="txt">Pela primeira vez jogando oficialmente no Gin&aacute;sio da Univille em 2013, a Krona Futsal n&atilde;o tomou reconhecimento dos visitantes e construiu o resultado positivo com superioridade. A equipe abriu o placar aos oito minutos, no voleio certeiro do piv&ocirc; Vander Carioca, artilheiro da Liga Futsal 2013.&nbsp;</p>
-<p class="txt">Depois do gol, a partida ficou ainda mais ofensiva. O time joinvilense teve a chance de marcar o segundo com o piv&ocirc; Elisandro, mas a bola saiu pela linha de fundo. Valdin tamb&eacute;m arriscou, em nova investida ao ataque. Desta vez, Bas&iacute;lio espalmou para escanteio. J&aacute; a Assoeva tentou o gol aos 12 minutos. Thiaguinho bateu de fora da &aacute;rea e Tiago pegou. Em seguida, R&ocirc;mulo recebeu passe dentro da &aacute;rea, mas o goleiro da Krona Futsal evitou a rea&ccedil;&atilde;o do clube de Ven&acirc;ncio Aires (RS).</p>
-<p class="txt">A rede voltou a balan&ccedil;ar ainda na primeira etapa. Em cobran&ccedil;a ensaiada de escanteio, no oportunismo, Vander Carioca ampliou a contagem para Krona Futsal. O tricolor levou o resultado para o intervalo, confirmando a vit&oacute;ria na etapa final.&nbsp;</p>
-<p class="txt">Aos 12 minutos do segundo tempo, Valdin arrancou em velocidade e encontrou Dyego, livre de marca&ccedil;&atilde;o. O ala da Krona concluiu na sa&iacute;da do goleiro, marcando o terceiro dos joinvilenses. Depois do gol, a Assoeva passou a arriscar com o goleiro-linha, mas quem levou a melhor foi a Krona Futsal.&nbsp;</p>
-<p class="txt">Bem postada na marca&ccedil;&atilde;o e efetiva no ataque, a Krona Futsal chegou ainda ao quarto e quinto gol, ambos anotados pelo piv&ocirc; Deives. Placar final: Krona Futsal 5 x 0 Assoeva. O tricolor encerra assim a maratona de quatro jogos seguidos em Joinville. O pr&oacute;ximo compromisso ocorre no s&aacute;bado (18/05), contra o Guarapuava, no interior do Paran&aacute;.&nbsp;</p>
-<p class="txt">Gols da Krona Futsal: Vander Carioca (2), Deives (2) e Dyego.</p>
+<p class="txt">&Eacute; dada a largada para o projeto Jovem Pan nas Escolas com as feras da Krona Futsal. A partir desta ter&ccedil;a-feira (14/05), os atletas da equipe joinvilense passar&atilde;o por 12 institui&ccedil;&otilde;es de ensino de Joinville, entre p&uacute;blicas e privadas, levando a import&acirc;ncia da educa&ccedil;&atilde;o por meio do esporte para cerca de 14 mil estudantes, entre 10 e 17 anos. O primeiro col&eacute;gio visitado foi o da Univille. Revelado na Krona Futsal, o goleiro Dudu representou o tricolor em uma manh&atilde; descontra&iacute;da e muito informativa.</p>
+<p class="txt">A Univille &eacute; parceira do projeto Krona Futsal. Desde a temporada 2009, quando a empresa Krona Tubos e Conex&otilde;es S.A assumiu a gest&atilde;o do futsal em Joinville, a institui&ccedil;&atilde;o tem contribu&iacute;do para o sucesso da equipe, cedendo a estrutura do complexo esportivo para treinos e jogos em alto n&iacute;vel.&nbsp;</p>
+<p class="txt">J&aacute; nesta ter&ccedil;a-feira (14/05), a Krona Futsal foi at&eacute; o anfiteatro do col&eacute;gio para se reunir com os alunos e trocar ideias sobre esporte. &ldquo;Levar o futsal para os acad&ecirc;micos e a import&acirc;ncia dos estudos diante da pr&aacute;tica esportiva &eacute; algo fundamental. O atleta que consegue conciliar a profiss&atilde;o com os estudos sai na frente&rdquo;, comentou o goleiro Dudu, convocado recentemente para a Sele&ccedil;&atilde;o Brasileira Sub-21 de Futsal.&nbsp;</p>
+<p class="txt">Durante a visita, o goleiro da Krona Futsal falou sobre a experi&ecirc;ncia no esporte e a import&acirc;ncia da disciplina. Tamb&eacute;m aproveitou para refor&ccedil;ar a boa fase da Krona na Liga Futsal 2013. A equipe comandada por Fernando Ferretti lidera a competi&ccedil;&atilde;o nacional, com 23 pontos. &ldquo;Esse carinho que estamos recebendo na cidade &eacute; algo &uacute;nico. A temporada tem sido especial e est&aacute; s&oacute; come&ccedil;ando. Tenho muito orgulho em representar a cidade e atuar ao lado de tantas outras feras, como Tiago, Valdin, Vander Carioca e companhia&rdquo;, refor&ccedil;ou Dudu.&nbsp;</p>
+<p class="txt">Em cada a&ccedil;&atilde;o nas escolas ser&atilde;o sorteados brindes da Jovem Pan e tamb&eacute;m da equipe Krona Futsal. O time joinvilense &eacute; o atual campe&atilde;o catarinense de futsal e conta com a base formada por atletas da Sele&ccedil;&atilde;o Brasileira de Futsal.&nbsp;</p>
 <p class="txt">
 <strong>Renan Pereira</strong>
 </p>
@@ -613,6 +611,7 @@ $(document).ready(function(){
 </p>
 <p class="txt">Tamb&eacute;m estamos no face:&nbsp; <a href="http://www.facebook.com/KronaFutsalJoinville">http://www.facebook.com/KronaFutsalJoinville</a>
 </p>
+<p class="txt">&nbsp;</p>
 
 </div>
  
@@ -621,19 +620,27 @@ $(document).ready(function(){
 <ul>
        
 <li style="float:left">
-<a href="http://www.krona.com.br/site/arquivos/download/?id=2539&amp;amp;count=1" style="float:left" title=""><img src="http://www.krona.com.br/site/arquivos/download/tmb_siteee___1698.jpg"></a>
+<a href="http://www.krona.com.br/site/arquivos/download/?id=2543&amp;amp;count=1" style="float:left" title=""><img src="http://www.krona.com.br/site/arquivos/download/tmb_siteee___1701.jpg"></a>
 </li>
         
 <li style="float:left">
-<a href="http://www.krona.com.br/site/arquivos/download/?id=2540&amp;amp;count=1" style="float:left" title=""><img src="http://www.krona.com.br/site/arquivos/download/tmb_Krona_x_Assoeva4_.JPG"></a>
+<a href="http://www.krona.com.br/site/arquivos/download/?id=2544&amp;amp;count=1" style="float:left" title=""><img src="http://www.krona.com.br/site/arquivos/download/tmb_Krona_Jovem_Pan_nas_escolas3_.JPG"></a>
 </li>
         
 <li style="float:left">
-<a href="http://www.krona.com.br/site/arquivos/download/?id=2541&amp;amp;count=1" style="float:left" title=""><img src="http://www.krona.com.br/site/arquivos/download/tmb_Krona_x_Assoeva5_.JPG"></a>
+<a href="http://www.krona.com.br/site/arquivos/download/?id=2545&amp;amp;count=1" style="float:left" title=""><img src="http://www.krona.com.br/site/arquivos/download/tmb_Krona_e_Jovem_Pan_nas_escolas7_.JPG"></a>
 </li>
         
 <li style="float:left">
-<a href="http://www.krona.com.br/site/arquivos/download/?id=2542&amp;amp;count=1" style="float:left" title=""><img src="http://www.krona.com.br/site/arquivos/download/tmb_Krona_x_Assoeva2_.JPG"></a>
+<a href="http://www.krona.com.br/site/arquivos/download/?id=2546&amp;amp;count=1" style="float:left" title=""><img src="http://www.krona.com.br/site/arquivos/download/tmb_Krona_e_Jovem_Pan_nas_escolas6_.JPG"></a>
+</li>
+        
+<li style="float:left">
+<a href="http://www.krona.com.br/site/arquivos/download/?id=2547&amp;amp;count=1" style="float:left" title=""><img src="http://www.krona.com.br/site/arquivos/download/tmb_Krona_e_Jovem_Pan_nas_escolas2_.JPG"></a>
+</li>
+        
+<li style="float:left">
+<a href="http://www.krona.com.br/site/arquivos/download/?id=2548&amp;amp;count=1" style="float:left" title=""><img src="http://www.krona.com.br/site/arquivos/download/tmb_Krona_e_Jovem_Pan_nas_escolas_.JPG"></a>
 </li>
        
 </ul>
@@ -823,7 +830,7 @@ $(document).ready(function(){
       
 </ul>
    
-<div id="boxPaginacao_hidden_videos_20130514225256" style="display:none; border:1px solid #F00;">
+<div id="boxPaginacao_hidden_videos_20130514235401" style="display:none; border:1px solid #F00;">
          
 <a href="" onclick="return false;"><strong>1</strong></a> <a href="" onclick="paginacao(2,'videos');this.blur();return false;">2</a> <a href="" onclick="paginacao(3,'videos');this.blur();return false;">3</a> <a href="" onclick="paginacao(4,'videos');this.blur();return false;">4</a> <a class="last" href="" onclick="paginacao(5,'videos');this.blur();return false;">5</a>&nbsp;&nbsp;<a class="btPagSeguinte" href="" onclick="paginacao(2,'videos');this.blur();return false;">Pr&oacute;xima</a>    
 </div>
@@ -868,7 +875,7 @@ $(document).ready(function(){
 </div>&#13;
 
 <script>
- $("#boxPaginacao_noticias").html($("#boxPaginacao_hidden_noticias_20130514225256").html());
+ $("#boxPaginacao_noticias").html($("#boxPaginacao_hidden_noticias_20130514235401").html());
 </script>  
 </div>
   <!-- FIM CONTEUDO -->

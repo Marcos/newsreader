@@ -55,7 +55,7 @@ public class TwitterPublisher implements NuveoJob{
 			Status status = TwitterFactory.getSingleton().updateStatus(getMessage(title, shortLink));
 			setAsPublished(entryId);
 		} catch (TwitterException e) {
-			logger.error("Can't publis on twitter : " + shortLink, e);
+			logger.warn("Can't publis on twitter : " + shortLink);
 		}
 		
 	}

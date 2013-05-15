@@ -3,7 +3,6 @@
 	<persistence-unit name="default">
 		<provider>org.hibernate.ejb.HibernatePersistence</provider>
 		<class>com.openwp3x.model.Entry</class>
-		<class>com.openwp3x.model.Tag</class>
 		<properties>
 			<property name="hibernate.connection.username" value="nuveo"/>
 			<property name="hibernate.connection.password" value="nuveo.me"/>

@@ -1,5 +1,6 @@
 package com.openwp3x.model;
 
+import java.util.Collection;
 import java.util.Date;
 
 import javax.persistence.Column;
@@ -7,6 +8,9 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.JoinTable;
+import javax.persistence.ManyToMany;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
@@ -51,6 +55,10 @@ public class Entry {
 	
 	@Column(name="random_factor")
 	private Long randomFactor;
+	
+	@ManyToMany
+	@JoinTable(name="tag_entry", joinColumns=@JoinColumn(name="entry_id"), inverseJoinColumns=@JoinColumn(name="tag_id"))
+	private Collection<Tag> tags;
 
 	public Long getId() {
 		return id;
@@ -146,6 +154,14 @@ public class Entry {
 
 	public void setRandomFactor(Long randomFactor) {
 		this.randomFactor = randomFactor;
+	}
+
+	public Collection<Tag> getTags() {
+		return tags;
+	}
+
+	public void setTags(Collection<Tag> tags) {
+		this.tags = tags;
 	}
 	
 	
