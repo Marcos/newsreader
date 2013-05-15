@@ -11,9 +11,15 @@ public class TestTextPreProcessor {
 	@Test
 	public void testNormalizeLineWrap(){
 		String text = "\r\n\r\n\r\nFirst line, a title without period\n\r\n\r\n\r\n\nOther line, now with period.\r\n  \r\n Another line, with space between \\n";
-		
 		String normalizedTex = textPreProcessor.normalizeWordWrap(text);
 		Assert.assertEquals(getNormalizedWrapText(), normalizedTex);
+	}
+	
+	@Test
+	public void testInsanteLineWrap(){
+		String text = "First Line\r\n  \r\n SecondLine Park\r\n \r\n \r\nThird line ";
+		String normalizedTex = textPreProcessor.normalizeWordWrap(text);
+		Assert.assertEquals("First Line\nSecondLine Park\nThird line", normalizedTex);
 	}
 	
 	private String getNormalizedWrapText() {

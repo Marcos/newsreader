@@ -5,14 +5,16 @@ import java.util.regex.Pattern;
 
 import org.apache.commons.lang3.text.WordUtils;
 
+import antlr.StringUtils;
+
 
 public class TextPreProcessor {
 
 	public String normalizeWordWrap(String text) {
 		String normalizedText = text; 
 		normalizedText = normalizedText.replaceAll("\r", "");
-		normalizedText = normalizedText.replaceAll("\n[ ]*", "\n");
-		normalizedText = normalizedText.replaceAll("\n+", "\n");
+		normalizedText = normalizedText.replaceAll("\n\\s*", "\n");
+		normalizedText = normalizedText.replaceAll("\n *", "\n");
 		normalizedText = normalizedText.replaceAll("^\n", "");
 		normalizedText = normalizedText.replaceAll("\n$", "");
 		return normalizedText.trim();
