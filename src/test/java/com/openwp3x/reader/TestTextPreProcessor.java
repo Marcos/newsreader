@@ -16,10 +16,10 @@ public class TestTextPreProcessor {
 	}
 	
 	@Test
-	public void testInsanteLineWrap(){
+	public void testNormalizeWhitespace(){
 		String text = "First Line\r\n  \r\n SecondLine Park\r\n \r\n \r\nThird line ";
-		String normalizedTex = textPreProcessor.normalizeWordWrap(text);
-		Assert.assertEquals("First Line\nSecondLine Park\nThird line", normalizedTex);
+		String normalizedTex = textPreProcessor.normalizeWhiteSpace(text);
+		Assert.assertEquals("First Line\r\n  \r\n SecondLine Park\r\n \r\n \r\nThird line ", normalizedTex);
 	}
 	
 	private String getNormalizedWrapText() {
@@ -33,7 +33,5 @@ public class TestTextPreProcessor {
         final String cleanedText = textPreProcessor.treatPrefixPattern(dirtText, treatPrefixPattern);
         Assert.assertEquals(cleanedText, "Esta semana tem Café & Negócios na Ajorpeme");
     }
-	
-	
 
 }

@@ -52,11 +52,12 @@ public class TestAjorpemeEntries {
     	LinkReader linkReader = new LinkReader(entryPattern, link1);
     	LinkEntry linkEntry = linkReader.getLinkEntry();
     	Assert.assertEquals(getExpectedLinkText1(), linkEntry.getLinkText());
-    	Assert.assertEquals(getExpectedFormattedLinkText1(), linkEntry.getFormattedLinkText());
+    	String formatedText = linkEntry.getFormattedLinkText();
+    	Assert.assertEquals(getExpectedFormattedLinkText1(), formatedText);
     }
     
     private String getExpectedFormattedLinkText1() {
-		return "\n\r\n\r\r\r\nA Ajorpeme recebeu na noite desta quinta-feira, 09, a presença do prefeito Udo para apresentar um diagnostico da prefeitura e as ações que estão sendo realizadas nos primeiros meses da sua gestão.  Participaram da reunião membros da diretoria, conselheiros, ex-presidentes e presidentes dos núcleos setoriais. Informações sobre a saúde, educação, infraestrutura e segurança foram debatidas entre os participantes.\r\n \r\n\r\nA presidente da Ajorpeme, Christiane Schramm Guisso; a Conselheira do Conselho Fiscal, Robina Saito Sonnesen; o prefeito Udo Dohler e o presidente do Conselho Deliberativo da Ajorpeme, Gean Marcos Dombroski Corrêa.\r\n \r\n \r\n \r\nAssessoria de Imprensa da Ajorpeme";
+		return "A Ajorpeme recebeu na noite desta quinta-feira, 09, a presença do prefeito Udo para apresentar um diagnostico da prefeitura e as ações que estão sendo realizadas nos primeiros meses da sua gestão.  Participaram da reunião membros da diretoria, conselheiros, ex-presidentes e presidentes dos núcleos setoriais. Informações sobre a saúde, educação, infraestrutura e segurança foram debatidas entre os participantes.\nA presidente da Ajorpeme, Christiane Schramm Guisso; a Conselheira do Conselho Fiscal, Robina Saito Sonnesen; o prefeito Udo Dohler e o presidente do Conselho Deliberativo da Ajorpeme, Gean Marcos Dombroski Corrêa.\nAssessoria de Imprensa da Ajorpeme";
 	}
 
 	private String getExpectedLinkText1() {
@@ -68,11 +69,12 @@ public class TestAjorpemeEntries {
     	LinkReader linkReader = new LinkReader(entryPattern, link2);
     	LinkEntry linkEntry = linkReader.getLinkEntry();
     	Assert.assertEquals(getExpectedLinkText2(), linkEntry.getLinkText());
-    	Assert.assertEquals(getExpectedFormattedLinkText2(), linkEntry.getFormattedLinkText());
+    	String formatedText = linkEntry.getFormattedLinkText();
+    	Assert.assertEquals(getExpectedFormattedLinkText2(), formatedText);
     }
 
 	private String getExpectedFormattedLinkText2() {
-		return "\n \r\n\r\r\r\nUma comitiva da Ajorpeme e da Fampesc esteve participando nesta terça-feira, 07, da oficina para construção da Agenda Nacional de Desenvolvimento e Competitividade das Micro e Pequenas empresas 2013-2022, em Curitiba.  As atividades práticas do encontro incluíram diálogos colaborativos e plenárias abordando temas como: Compras Governamentais, Desoneração e Desburocratização, Informação e Capacitação, Investimento e Financiamento e Tecnologia e Inovação.\r\n \r\nO objetivo da oficina foi de contribuir para a construção da Agenda Nacional de Desenvolvimento e Competitividade de MEI, ME e EPP, através de debates e indicação de ações estratégicas nas seis áreas temáticas.\r\n \r\nAgenda Nacional\r\n \r\nCoordenada pelo Ministério do Desenvolvimento, Indústria e Comércio Exterior (MDIC), a Agenda será elaborada com sugestões, ideias e propostas reunidas em encontros que envolvem o poder público dos estados e municípios, além de entidades de classe, academia e sociedade civil.\r\n \r\nA preparação da Agenda Nacional é decorrente da Política Nacional de Empreendedorismo (PNE), uma iniciativa do Governo Federal, conduzida também pelo MDIC, com o apoio de instituições e órgãos públicos, entidades privadas e do terceiro setor.\r\n \r\n.\r\n\r\n\r\n.\r\n\r\n.\r\nAssessoria de Imprensa da Ajorpeme";
+		return "Uma comitiva da Ajorpeme e da Fampesc esteve participando nesta terça-feira, 07, da oficina para construção da Agenda Nacional de Desenvolvimento e Competitividade das Micro e Pequenas empresas 2013-2022, em Curitiba.  As atividades práticas do encontro incluíram diálogos colaborativos e plenárias abordando temas como: Compras Governamentais, Desoneração e Desburocratização, Informação e Capacitação, Investimento e Financiamento e Tecnologia e Inovação.\nO objetivo da oficina foi de contribuir para a construção da Agenda Nacional de Desenvolvimento e Competitividade de MEI, ME e EPP, através de debates e indicação de ações estratégicas nas seis áreas temáticas.\nAgenda Nacional\nCoordenada pelo Ministério do Desenvolvimento, Indústria e Comércio Exterior (MDIC), a Agenda será elaborada com sugestões, ideias e propostas reunidas em encontros que envolvem o poder público dos estados e municípios, além de entidades de classe, academia e sociedade civil.\nA preparação da Agenda Nacional é decorrente da Política Nacional de Empreendedorismo (PNE), uma iniciativa do Governo Federal, conduzida também pelo MDIC, com o apoio de instituições e órgãos públicos, entidades privadas e do terceiro setor.\n.\n.\n.\nAssessoria de Imprensa da Ajorpeme";
 	}
 
 	private String getExpectedLinkText2() {
