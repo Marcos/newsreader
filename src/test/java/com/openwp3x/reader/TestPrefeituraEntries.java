@@ -51,11 +51,12 @@ public class TestPrefeituraEntries {
     	LinkReader linkReader = new LinkReader(entryPattern, link1);
     	LinkEntry linkEntry = linkReader.getLinkEntry();
     	Assert.assertEquals(getExpectedLinkText1(), linkEntry.getLinkText());
-    	Assert.assertEquals(getExpectedFormattedLinkText1(), linkEntry.getFormattedLinkText());
+    	String formatedText = linkEntry.getFormattedLinkText();
+    	Assert.assertEquals(getExpectedFormattedLinkText1(), formatedText);
     }
     
     private String getExpectedFormattedLinkText1() {
-		return "\n Neste domingo (5/5), a Escola Municipal Max Colin será palco do 1º Trick Attack, campeonato que reunirá mais de 150 skatistas de Joinville. O evento, organizado pela Associação Joinvilense de Skate, acontecerá a partir das 8 horas. “Conseguimos uma parceria com a escola, através da Coordenação Municipal da Juventude. Em Joinville, o skate fica restrito ao Parque da Cidade, mas desta forma conseguimos levar o esporte aos bairros e para mais perto da população”, conta o vice-presidente da Associação, Fabrício Correa.\r\n\r\nO campeonato será dividido entre as categorias mirim, iniciante, amador 2, amador 1 e feminino e os participantes precisarão pagar uma taxa de inscrição, no dia do evento. O 1º Trick Attack contará pontos para o ranking do circuito de competições da Associação Joinvilense de Skate, que prevê outros dois eventos ainda para este ano. Ao final dos três campeonatos, os melhores colocados em cada categoria serão premiados. \r\n\r\nA Escola Municipal Max Colin fica na Rua Pasteur, nº 1.079, bairro Iririú. O evento é aberto à comunidade e a entrada é um quilo de alimento não perecível. \r\n \r\nTaxa de inscrição para os participantes do 1º Trick Attack:\r\n- Categoria Mirim: R$8,00.\r\n- Categoria Iniciante: R$10,00.\r\n- Categoria Amador 2: R$15,00.\r\n- Categoria Amador 1: R$18,00.\r\n- Categoria Feminino: R$10,00.\r\n";
+		return "Neste domingo (5/5), a Escola Municipal Max Colin será palco do 1º Trick Attack, campeonato que reunirá mais de 150 skatistas de Joinville. O evento, organizado pela Associação Joinvilense de Skate, acontecerá a partir das 8 horas. “Conseguimos uma parceria com a escola, através da Coordenação Municipal da Juventude. Em Joinville, o skate fica restrito ao Parque da Cidade, mas desta forma conseguimos levar o esporte aos bairros e para mais perto da população”, conta o vice-presidente da Associação, Fabrício Correa.\nO campeonato será dividido entre as categorias mirim, iniciante, amador 2, amador 1 e feminino e os participantes precisarão pagar uma taxa de inscrição, no dia do evento. O 1º Trick Attack contará pontos para o ranking do circuito de competições da Associação Joinvilense de Skate, que prevê outros dois eventos ainda para este ano. Ao final dos três campeonatos, os melhores colocados em cada categoria serão premiados. \nA Escola Municipal Max Colin fica na Rua Pasteur, nº 1.079, bairro Iririú. O evento é aberto à comunidade e a entrada é um quilo de alimento não perecível. \nTaxa de inscrição para os participantes do 1º Trick Attack:\n- Categoria Mirim: R$8,00.\n- Categoria Iniciante: R$10,00.\n- Categoria Amador 2: R$15,00.\n- Categoria Amador 1: R$18,00.\n- Categoria Feminino: R$10,00.";
 	}
 
 	private String getExpectedLinkText1() {
@@ -67,11 +68,12 @@ public class TestPrefeituraEntries {
     	LinkReader linkReader = new LinkReader(entryPattern, link2);
     	LinkEntry linkEntry = linkReader.getLinkEntry();
     	Assert.assertEquals(getExpectedLinkText2(), linkEntry.getLinkText());
-    	Assert.assertEquals(getExpectedFormattedLinkText2(), linkEntry.getFormattedLinkText());
+    	String formatedText = linkEntry.getFormattedLinkText();
+    	Assert.assertEquals(getExpectedFormattedLinkText2(), formatedText);
     }
 
 	private String getExpectedFormattedLinkText2() {
-		return "\n Perfurações para concretagem das fundações nos terrenos que abrigarão duas praças fazem parte dos trabalhos que estão sendo executados no local do futuro Parque Porta do Mar, no bairro Espinheiros. A Belga Empreiteira Ltda, empresa que executa a obra, também está fabricando em sua sede a estrutura pré-moldada para o trapiche público.\r\n\r\nO projeto do Parque Porta do Mar inclui a construção e alargamento dos passeios da orla da rua Antônio Gonçalves, construção do trapiche público, com 120 metros de extensão e equipado com deck flutuante, construção da praça com monumento “Porta do Mar”, construção de praça com Academia da Melhor Idade, nova iluminação e novo mobiliário urbano.\r\n\r\nA obra, no valor de R$ 1.382.829,23, terá prazo para ser  concluída em seis meses.";
+		return "Perfurações para concretagem das fundações nos terrenos que abrigarão duas praças fazem parte dos trabalhos que estão sendo executados no local do futuro Parque Porta do Mar, no bairro Espinheiros. A Belga Empreiteira Ltda, empresa que executa a obra, também está fabricando em sua sede a estrutura pré-moldada para o trapiche público.\nO projeto do Parque Porta do Mar inclui a construção e alargamento dos passeios da orla da rua Antônio Gonçalves, construção do trapiche público, com 120 metros de extensão e equipado com deck flutuante, construção da praça com monumento “Porta do Mar”, construção de praça com Academia da Melhor Idade, nova iluminação e novo mobiliário urbano.\nA obra, no valor de R$ 1.382.829,23, terá prazo para ser  concluída em seis meses.";
 	}
 
 	private String getExpectedLinkText2() {

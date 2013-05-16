@@ -52,7 +52,8 @@ public class TestCVJoinvilleEntries {
     	LinkReader linkReader = new LinkReader(entryPattern, link1);
     	LinkEntry linkEntry = linkReader.getLinkEntry();
     	Assert.assertEquals(getExpectedLinkText1(), linkEntry.getLinkText());
-    	Assert.assertEquals(getExpectedFormattedLinkText1(), linkEntry.getFormattedLinkText());
+    	String formatedText = linkEntry.getFormattedLinkText();
+    	Assert.assertEquals(getExpectedFormattedLinkText1(), formatedText);
     }
     
     private String getExpectedFormattedLinkText1() {
@@ -68,11 +69,12 @@ public class TestCVJoinvilleEntries {
     	LinkReader linkReader = new LinkReader(entryPattern, link2);
     	LinkEntry linkEntry = linkReader.getLinkEntry();
     	Assert.assertEquals(getExpectedLinkText2(), linkEntry.getLinkText());
-    	Assert.assertEquals(getExpectedFormattedLinkText2(), linkEntry.getFormattedLinkText());
+    	String formatedText = linkEntry.getFormattedLinkText();
+    	Assert.assertEquals(getExpectedFormattedLinkText2(), formatedText);
     }
 
 	private String getExpectedFormattedLinkText2() {
-		return "A Câmara de Vereadores de Joinville sedia nesta quinta (9) e sexta-feira (10) o 4º Encontro de Mulheres Parlamentares de Santa Catarina. O horário do evento acontece das 8h30min às 16h. Estarão participando do evento deputadas, vereadoras, lideranças sociais e comunitárias engajadas na atuação política. Ao todo, serão 12 horas/aula. Durante o evento, será realizada a eleição para a mesa diretora do Fórum da Mulher Vereadora de SC. Inscrições gratuitas e informações no site da Escola do Legislativo da Alesc, ou pelos telefones (48) 3221-2952 e (48) 2828/2927. Mais informações, em Joinville, com a Escola do Legislativo Joinvilense, pelo telefone: (47) 2101-3333.";
+		return "A Câmara de Vereadores de Joinville sedia nesta quinta (9) e sexta-feira (10) o 4º Encontro de Mulheres Parlamentares de Santa Catarina. O horário do evento acontece das 8h30min às 16h. Estarão participando do evento deputadas, vereadoras, lideranças sociais e comunitárias engajadas na atuação política. Ao todo, serão 12 horas/aula. Durante o evento, será realizada a eleição para a mesa diretora do Fórum da Mulher Vereadora de SC. Inscrições gratuitas e informações no site da Escola do Legislativo da Alesc, ou pelos telefones (48) 3221-2952 e (48) 2828/2927. Mais informações, em Joinville, com a Escola do Legislativo Joinvilense, pelo telefone: (47) 2101-3333.";
 	}
 
 	private String getExpectedLinkText2() {
