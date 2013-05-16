@@ -942,9 +942,9 @@ window.onload = init();
    
 </div>&#13;
    
-<script type="text/javascript">
-    if(!window.slider) var slider={};slider.data=[
-                                              {"id":"slide-img-1","client":"Articles","desc":"Lorem ipsum dolor sit amet"},{"id":"slide-img-2","client":"","desc":""},{"id":"slide-img-3","client":"Past Archives","desc":"Lorem ipsum dolor sit amet"},{"id":"slide-img-4","client":"","desc":""} ];
+<script type="text/javascript">
+    if(!window.slider) var slider={};slider.data=[
+                                              {"id":"slide-img-1","client":"Articles","desc":"Lorem ipsum dolor sit amet"},{"id":"slide-img-2","client":"","desc":""},{"id":"slide-img-3","client":"Past Archives","desc":"Lorem ipsum dolor sit amet"},{"id":"slide-img-4","client":"","desc":""} ];
    </script>&#13;
   
 </div>

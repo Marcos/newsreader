@@ -176,18 +176,18 @@ $(document).ready(function(){
  
 })
 </script>
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-18832600-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-18832600-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
 </script>
 
 
@@ -316,53 +316,53 @@ $(document).ready(function(){
   
 <div id="content">
       
-<script>
- //=======================================
- function mudaAba(qual){
-  $('#li_aba_noticias').removeClass('clicado');
-  $('#li_aba_videos').removeClass('clicado');
-  $('#div_aba_noticias').hide();
-  $('#div_aba_videos').hide();
-  $('#li_aba_'+qual).addClass('clicado');
-  $('#div_aba_'+qual).show();
-  if(qual=="videos"){
-   $('#h1_titulo_area').html('V&iacute;deos');
-  }else{
-   $('#h1_titulo_area').html('Not&iacute;cias');
-  }
- }//fnc
- //=======================================
- function loadConteudo(id_qual,qual){
-  var agora = getNowString();
-  $("#div_carregando_"+qual).show();
-  $.ajax({
-   url: 'ajax_noticias_dtl.php?area='+qual+'&id='+id_qual+'&now='+agora,
-     success: function(data) {
-    $('#div_conteudo_'+qual).html(data);
-    $("#div_carregando_"+qual).hide();
-     },
-     error: function(){
-    $("#div_carregando_"+qual).hide();
-   }
-  });
- }//fnc
- //=======================================
- function paginacao(pagina,qual){
-  var agora = getNowString();
-  $("#div_carregando_"+qual).show();
-  $.ajax({
-   url: 'ajax_noticias_lst.php?area='+qual+'&page='+pagina+'&now='+agora,
-     success: function(data) {
-    $('#div_list_'+qual).html(data);
-    $("#div_carregando_"+qual).hide();
-    $("#boxPaginacao_"+qual).html($("#boxPaginacao_hidden_"+qual+"_"+agora).html());
-     },
-     error: function(){
-    $("#div_carregando_"+qual).hide();
-   }
-  });
- }
- //=======================================
+<script>
+ //=======================================
+ function mudaAba(qual){
+  $('#li_aba_noticias').removeClass('clicado');
+  $('#li_aba_videos').removeClass('clicado');
+  $('#div_aba_noticias').hide();
+  $('#div_aba_videos').hide();
+  $('#li_aba_'+qual).addClass('clicado');
+  $('#div_aba_'+qual).show();
+  if(qual=="videos"){
+   $('#h1_titulo_area').html('V&iacute;deos');
+  }else{
+   $('#h1_titulo_area').html('Not&iacute;cias');
+  }
+ }//fnc
+ //=======================================
+ function loadConteudo(id_qual,qual){
+  var agora = getNowString();
+  $("#div_carregando_"+qual).show();
+  $.ajax({
+   url: 'ajax_noticias_dtl.php?area='+qual+'&id='+id_qual+'&now='+agora,
+     success: function(data) {
+    $('#div_conteudo_'+qual).html(data);
+    $("#div_carregando_"+qual).hide();
+     },
+     error: function(){
+    $("#div_carregando_"+qual).hide();
+   }
+  });
+ }//fnc
+ //=======================================
+ function paginacao(pagina,qual){
+  var agora = getNowString();
+  $("#div_carregando_"+qual).show();
+  $.ajax({
+   url: 'ajax_noticias_lst.php?area='+qual+'&page='+pagina+'&now='+agora,
+     success: function(data) {
+    $('#div_list_'+qual).html(data);
+    $("#div_carregando_"+qual).hide();
+    $("#boxPaginacao_"+qual).html($("#boxPaginacao_hidden_"+qual+"_"+agora).html());
+     },
+     error: function(){
+    $("#div_carregando_"+qual).hide();
+   }
+  });
+ }
+ //=======================================
 </script>&#13;
 &#13;
  <input id="hdd_now" name="hdd_now" type="hidden" value="20130514225256">&#13;
@@ -867,8 +867,8 @@ $(document).ready(function(){
   
 </div>&#13;
 
-<script>
- $("#boxPaginacao_noticias").html($("#boxPaginacao_hidden_noticias_20130514225256").html());
+<script>
+ $("#boxPaginacao_noticias").html($("#boxPaginacao_hidden_noticias_20130514225256").html());
 </script>  
 </div>
   <!-- FIM CONTEUDO -->
