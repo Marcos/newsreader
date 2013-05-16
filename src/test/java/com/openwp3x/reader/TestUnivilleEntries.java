@@ -50,8 +50,8 @@ public class TestUnivilleEntries {
     public void testReadLink1() throws MalformedURLException, LinkException{
     	LinkReader linkReader = new LinkReader(entryPattern, link1);
     	LinkEntry linkEntry = linkReader.getLinkEntry();
-    	Assert.assertEquals(getExpectedLinkText1(), linkEntry.getLinkText());
-    	String formatedText = linkEntry.getFormattedLinkText();
+    	Assert.assertEquals(getExpectedLinkText1(), linkEntry.getText());
+    	String formatedText = linkEntry.getFormattedText();
     	Assert.assertEquals(getExpectedFormattedLinkText1(), formatedText);
     }
     
@@ -67,8 +67,8 @@ public class TestUnivilleEntries {
     public void testReadLink2() throws MalformedURLException, LinkException{
     	LinkReader linkReader = new LinkReader(entryPattern, link2);
     	LinkEntry linkEntry = linkReader.getLinkEntry();
-    	Assert.assertEquals(getExpectedLinkText2(), linkEntry.getLinkText());
-    	String formatedText = linkEntry.getFormattedLinkText();
+    	Assert.assertEquals(getExpectedLinkText2(), linkEntry.getText());
+    	String formatedText = linkEntry.getFormattedText();
     	Assert.assertEquals(getExpectedFormattedLinkText2(), formatedText);
     }
 

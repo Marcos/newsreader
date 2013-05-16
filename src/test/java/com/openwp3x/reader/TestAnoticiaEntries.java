@@ -44,8 +44,14 @@ public class TestAnoticiaEntries {
         Assert.assertEquals("http://anoticia.clicrbs.com.br/sc/noticia/2013/04/justica-exige-solucao-para-a-superlotacao-na-central-de-policia-em-joinville-4115903.html", firstEntry.getFormattedURL());
         Assert.assertEquals(1366686000000L, firstEntry.getDateAsLong().longValue());
         Assert.assertEquals(getText(), firstEntry.getText());
+        String formattedText = firstEntry.getFormattedText();
+        Assert.assertEquals(getFormattedText(), formattedText);
         Assert.assertEquals(10, entries.size());
     }
+
+	private String getFormattedText() {
+		return "Juiz João Marcos Buch vistoriou as celas nesta terça-feira e determinou prazo de 48 horas ao Estado que sejam tomadas providências";
+	}
 
 	private String getText() {
 		return "Juiz João Marcos Buch vistoriou as celas nesta terça-feira e determinou prazo de 48 horas ao Estado que sejam tomadas providências";

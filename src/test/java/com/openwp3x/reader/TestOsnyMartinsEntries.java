@@ -45,6 +45,12 @@ public class TestOsnyMartinsEntries {
         Assert.assertEquals("http://osnymartins.com.br/geral/24-04-2013-confirmada-10-feijoada-do-breakfast-para-duas-entidades/", firstEntry.getFormattedURL());
         Assert.assertEquals(1366772400000L, firstEntry.getDateAsLong().longValue());
         Assert.assertEquals("Este ano, a já tradicional feijoada do “Breakfast” vai ter uma novidade básica. O lucro líquido da promoção, como sempre acontece, desde a primeira edição, será todo doado, mas com o benefício para duas entidades e não apenas uma como aconteceu até o ano passado. Além do Centrinho, que realiza um trabalho referência catarinense no [...]", firstEntry.getText());
+        String formattedText = firstEntry.getFormattedText();
+        Assert.assertEquals(getFormattedText(), formattedText);
         Assert.assertEquals(10, entries.size());
     }
+
+	private String getFormattedText() {
+		return "Este ano, a já tradicional feijoada do “Breakfast” vai ter uma novidade básica. O lucro líquido da promoção, como sempre acontece, desde a primeira edição, será todo doado, mas com o benefício para duas entidades e não apenas uma como aconteceu até o ano passado. Além do Centrinho, que realiza um trabalho referência catarinense no [...]";
+	}
 }

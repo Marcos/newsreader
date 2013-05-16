@@ -19,7 +19,7 @@ public class LinkReader {
 		LinkEntry linkEntry = new LinkEntry();
 		try {
 			String linkText = this.reader.getTextContent(entryPattern.getLinkTextXPath());			
-			linkEntry.setLinkText(linkText);
+			linkEntry.setText(linkText);
 			return linkEntry;
 		} catch (ReaderException e) {
 			throw new LinkException("Error getting link from " + entryPattern.getSource(), e);

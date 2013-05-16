@@ -2,30 +2,20 @@ package com.openwp3x.reader;
 
 public class LinkEntry {
 	
-	private String linkText;
-		
-	private String shortText;
-	
+	private String text;
+			
 	private TextPreProcessor textPreProcessor = new TextPreProcessor();
 
-	public String getLinkText() {
-		return linkText;
+	public String getText() {
+		return text;
 	}
 
-	public void setLinkText(String linkText) {
-		this.linkText = linkText;
+	public void setText(String text) {
+		this.text = text;
 	}
 
-	public String getFormattedLinkText() {
-		return textPreProcessor.normalizeWordWrap(this.getLinkText());
-	}
-
-	public String getShortText() {
-		return shortText;
-	}
-
-	public void setShortText(String shortText) {
-		this.shortText = shortText;
+	public String getFormattedText() {
+		return textPreProcessor.normalizeText(this.getText());
 	}
 
 }

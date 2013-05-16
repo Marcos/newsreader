@@ -160,6 +160,10 @@ public class SourceEntry  {
 	public void setText(String text) {
 		this.text = text;
 	}
+	
+	public String getFormattedText() {
+		return textPreProcessor.normalizeText(this.getText());
+	}
 
 	public Collection<TagType> getTags() {
 		return this.entryPattern.getTags();

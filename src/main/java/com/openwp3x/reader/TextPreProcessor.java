@@ -7,8 +7,9 @@ import org.apache.commons.lang3.text.WordUtils;
 
 public class TextPreProcessor {
 
-	public String normalizeWordWrap(String text) {
+	public String normalizeText(String text) {
 		String normalizedText = normalizeWhiteSpace(text);
+		normalizedText = removeHTML(normalizedText);
 		normalizedText = normalizedText.replaceAll("\r\\s*", "\n");
 		normalizedText = normalizedText.replaceAll("\n\\s*", "\n");
 		normalizedText = normalizedText.replaceAll("\n+", "\n");
@@ -62,6 +63,11 @@ public class TextPreProcessor {
 			}
 		}
 		return newText.toString();
+	}
+
+	public String removeHTML(String text) {
+		String normalizedText = text.replaceAll("<.*>", "\n");
+		return normalizedText;
 	}
 
 }
