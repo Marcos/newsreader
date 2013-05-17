@@ -3,10 +3,12 @@ id bigint primary key,
 date_entry nvarchar(4000), 
 title_entry nvarchar(4000), 
 url_entry nvarchar(4000),
+text_entry text,
 date_insert datetime, 
 date_published date,
 link nvarchar(4000),
 title nvarchar(4000),
+text text,
 source varchar(255), 
 source_label varchar(255), 
 status tinyint,
@@ -15,6 +17,8 @@ random_factor bigint);
 alter table entry add clicks bigint default 0 with values;
 alter table entry add short_link nvarchar(4000);
 alter table entry add twitter_status tinyint;
+alter table entry add text_entry text;
+alter table entry add text text;
 
 insert into entry2 select id, date_entry, title_entry, url_entry, date_insert, date_published, link, title, source, source_label, status, random_factor, clicks, short_link from entry
 

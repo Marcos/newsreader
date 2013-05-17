@@ -7,7 +7,7 @@ public class Main {
 
 	public static void main(String[] args) {			
 		new SchedulerJobs().start();
-		new ImportsEntries().start();
+		//new ImportsEntries().start();
 	}
 
 }

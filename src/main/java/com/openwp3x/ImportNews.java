@@ -46,12 +46,7 @@ public class ImportNews {
 	}
 
 	private Query getUniqueQuery(EntityManager entityManager, SourceEntry sourceEntry) {
-		StringBuilder ql = new StringBuilder();
-		ql.append("select count(*) from Entry where "); 
-		ql.append("(urlSource=:urlSource and source=:source) "); 
-		ql.append("or "); 
-		ql.append("(titleSource=:titleSource and source=:source) ");
-		Query query = entityManager.createQuery(ql.toString());
+		Query query = entityManager.createQuery("select count(*) from Entry where (urlSource=:urlSource and source=:source) or (titleSource=:titleSource and source=:source) ");
 		query.setParameter("urlSource", sourceEntry.getUrl());
 		query.setParameter("source", sourceEntry.getSource());
 		query.setParameter("titleSource", sourceEntry.getTitle());
@@ -67,7 +62,7 @@ public class ImportNews {
 		
 		Date dateImport = new Date(calendar.getTimeInMillis());
 		entry.setStatus(StatusEntry.NOT_VERIFIED.ordinal());
-		entry.setDateInsert(timeStampImport);
+		entry.setDateInsert(calendar);
 		entry.setDateSource(sourceEntry.getDate());
 		entry.setUrlSource(sourceEntry.getUrl());
 		entry.setTitleSource(sourceEntry.getTitle());
@@ -76,6 +71,11 @@ public class ImportNews {
 		entry.setLink(sourceEntry.getFormattedURL());
 		entry.setDatePublished(getDatePublished(sourceEntry, dateImport));
 		entry.setSourceLabel(sourceEntry.getSourceLabel());
+		if(sourceEntry.getText()!=null){
+			entry.setStatus(1);
+			entry.setTextSource(sourceEntry.getText());
+			entry.setText(sourceEntry.getFormattedText());
+		}
 		entry.setRandomFactor(new Random().nextLong());
 		
 		Collection<Tag> tags = getTags(entityManager, sourceEntry.getTags());
@@ -92,36 +92,6 @@ public class ImportNews {
 		}
 		return tags;
 	}
-//
-//	private void importTags(Long entryId, Collection<TagType> tags) {
-//		if(tags!=null){			
-//			for(TagType tag : tags){
-//				importTag(entryId, tag);
-//			}
-//		}
-//		
-//	}
-//
-//	private void importTag(Long entryId, TagType tag) {
-//		Connection connection = null;
-//		PreparedStatement preparedStatement = null;
-//		try {
-//			connection = DatabaseManager.getConnection();
-//			preparedStatement = connection.prepareStatement("insert into tag_entry (entry_id, tag_id) values (?,?)");
-//			preparedStatement.setLong(1, entryId);
-//			preparedStatement.setString(2, tag.name());
-//			preparedStatement.execute();
-//		} catch (Exception e) {			
-//			logger.error(e, e);
-//		} finally {
-//			try {
-//				preparedStatement.close();
-//			} catch (SQLException e) {
-//				logger.error(e, e);
-//			}
-//		}
-//		
-//	}
 
 	private Date getDatePublished(SourceEntry entry, Date dateImport) {
 		if (entry.getDateAsLong() != null) {

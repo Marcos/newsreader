@@ -8,6 +8,7 @@ import org.apache.commons.lang3.text.WordUtils;
 public class TextPreProcessor {
 
 	public String normalizeText(String text) {
+		if(text==null) return text;
 		String normalizedText = normalizeWhiteSpace(text);
 		normalizedText = removeHTML(normalizedText);
 		normalizedText = normalizedText.replaceAll("\r\\s*", "\n");

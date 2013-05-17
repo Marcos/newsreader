@@ -3,7 +3,7 @@ package com.openwp3x;
 import org.apache.log4j.Logger;
 
 import com.openwp3x.jobs.LinkShortener;
-import com.openwp3x.jobs.TwitterPublisher;
+import com.openwp3x.jobs.TextImport;
 
 public class SchedulerJobs extends Thread{
 	
@@ -13,7 +13,8 @@ public class SchedulerJobs extends Thread{
 		logger.info("Executing at " + new java.util.Date());
 		while(true){			
 			new LinkShortener().execute();
-			new TwitterPublisher().execute();			
+			new TextImport().execute();
+			//new TwitterPublisher().execute();			
 			waitNextExecution();
 		}
 	}

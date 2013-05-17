@@ -1,5 +1,6 @@
 package com.openwp3x.model;
 
+import java.util.Calendar;
 import java.util.Collection;
 import java.util.Date;
 
@@ -31,9 +32,12 @@ public class Entry {
 	@Column(name="url_entry")
 	private String urlSource;
 	
+	@Column(name="text_entry")
+	private String textSource;
+	
 	@Column(name="date_insert")
 	@Temporal(TemporalType.TIMESTAMP)
-	private Date dateInsert;
+	private Calendar dateInsert;
 	
 	@Column(name="date_published")
 	private Date datePublished;
@@ -44,6 +48,9 @@ public class Entry {
 	@Column(name="title")
 	private String title;
 	
+	@Column(name="text")
+	private String text;
+	
 	@Column(name="source")
 	private String source;
 	
@@ -52,6 +59,9 @@ public class Entry {
 	
 	@Column(name="status")
 	private Integer status;
+	
+	@Column(name="short_link")
+	private String shortLink;
 	
 	@Column(name="random_factor")
 	private Long randomFactor;
@@ -92,11 +102,11 @@ public class Entry {
 		this.urlSource = urlSource;
 	}
 
-	public Date getDateInsert() {
+	public Calendar getDateInsert() {
 		return dateInsert;
 	}
 
-	public void setDateInsert(Date dateInsert) {
+	public void setDateInsert(Calendar dateInsert) {
 		this.dateInsert = dateInsert;
 	}
 
@@ -162,6 +172,30 @@ public class Entry {
 
 	public void setTags(Collection<Tag> tags) {
 		this.tags = tags;
+	}
+
+	public String getTextSource() {
+		return textSource;
+	}
+
+	public void setTextSource(String textSource) {
+		this.textSource = textSource;
+	}
+
+	public String getText() {
+		return text;
+	}
+
+	public void setText(String text) {
+		this.text = text;
+	}
+
+	public String getShortLink() {
+		return shortLink;
+	}
+
+	public void setShortLink(String shortLink) {
+		this.shortLink = shortLink;
 	}
 	
 	

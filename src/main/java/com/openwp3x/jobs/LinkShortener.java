@@ -21,7 +21,7 @@ public class LinkShortener implements NuveoJob{
 		PreparedStatement preparedStatement = null;
 		try {
 			connection = DatabaseManager.getConnection();
-			preparedStatement = connection.prepareStatement("select id, source from entry where status = 0");
+			preparedStatement = connection.prepareStatement("select id, source from entry where short_link is null");
 			ResultSet resultSet = preparedStatement.executeQuery();
 
 			Integer countLinks = 0;
@@ -48,7 +48,7 @@ public class LinkShortener implements NuveoJob{
 		PreparedStatement preparedStatement = null;
 		try {
 			connection = DatabaseManager.getConnection();
-			preparedStatement = connection.prepareStatement("update entry set status=1, short_link=? where id = ?");
+			preparedStatement = connection.prepareStatement("update entry set short_link=? where id = ?");
 			preparedStatement.setString(1, converter(entryId));
 			preparedStatement.setLong(2, entryId);
 			preparedStatement.executeUpdate();

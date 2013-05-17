@@ -5,38 +5,56 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
+import java.util.HashMap;
 import java.util.Locale;
+import java.util.Map;
 
 import com.openwp3x.model.TagType;
 import com.openwp3x.reader.SourceType;
 
 public class SourcePatternFactory {
 	
-	static Collection<SourcePattern> entryPatternList;
+	private static Collection<SourcePattern> sourcePatternList;
+	
+	private static Map<String, SourcePattern> sourcePatternMap;
+	
+	public static Map<String, SourcePattern> getSourcePatternMap(){
+		if(sourcePatternMap==null){
+			sourcePatternMap = new HashMap<String, SourcePattern>();
+			for(SourcePattern sourcePattern : getEntryPatternList()){
+				sourcePatternMap.put(sourcePattern.getSource(), sourcePattern);
+			}
+		}
+		return sourcePatternMap;
+	}
+	
+	public static SourcePattern getSourcePattern(String source){
+		return getSourcePatternMap().get(source);
+	}
 	
 	public static Collection<SourcePattern> getEntryPatternList(){
-		if(entryPatternList==null){
-			entryPatternList = new ArrayList<SourcePattern>();
+		if(sourcePatternList==null){
+			sourcePatternList = new ArrayList<SourcePattern>();
 			try {
-				entryPatternList.add(SourcePatternFactory.getPrefeituraPattern());
-				entryPatternList.add(SourcePatternFactory.getSociescPattern());
-				entryPatternList.add(SourcePatternFactory.getUdescPattern());
-				entryPatternList.add(SourcePatternFactory.getUnivillePattern());
-				entryPatternList.add(SourcePatternFactory.getAcijPattern());
-				entryPatternList.add(SourcePatternFactory.getAjorpemePattern());
-				entryPatternList.add(SourcePatternFactory.getCDLPattern());
-				entryPatternList.add(SourcePatternFactory.getDefesaCivilPattern());
-				entryPatternList.add(SourcePatternFactory.getCVJoinvillePattern());
+				sourcePatternList.add(SourcePatternFactory.getPrefeituraPattern());
+				sourcePatternList.add(SourcePatternFactory.getSociescPattern());
+				sourcePatternList.add(SourcePatternFactory.getUdescPattern());
+				sourcePatternList.add(SourcePatternFactory.getUnivillePattern());
+				sourcePatternList.add(SourcePatternFactory.getAcijPattern());
+				sourcePatternList.add(SourcePatternFactory.getAjorpemePattern());
+				sourcePatternList.add(SourcePatternFactory.getCDLPattern());
+				sourcePatternList.add(SourcePatternFactory.getDefesaCivilPattern());
+				sourcePatternList.add(SourcePatternFactory.getCVJoinvillePattern());
 				//entryPatternList.add(EntryPatternFactory.getAnoticiaPattern());
-				entryPatternList.add(SourcePatternFactory.getNDJoinvillePattern());
-				entryPatternList.add(SourcePatternFactory.getPortalJoinvillePattern());
-				entryPatternList.add(SourcePatternFactory.getJecPattern());
-				entryPatternList.add(SourcePatternFactory.getKronaPattern());
+				sourcePatternList.add(SourcePatternFactory.getNDJoinvillePattern());
+				sourcePatternList.add(SourcePatternFactory.getPortalJoinvillePattern());
+				sourcePatternList.add(SourcePatternFactory.getJecPattern());
+				sourcePatternList.add(SourcePatternFactory.getKronaPattern());
 			} catch (MalformedURLException e) {
 				throw new RuntimeException(e);
 			}
 		}
-		return entryPatternList;
+		return sourcePatternList;
 	}
 
 	public static SourcePattern getSociescPattern() throws MalformedURLException {

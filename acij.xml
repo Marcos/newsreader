@@ -325,7 +325,7 @@ function ValidarBusca3()
 <form action="/busca/send" class="busca-geral top5" method="post" onsubmit="return ValidarBusca();" style="padding: 50px 0">
     
 <input class="clear" id="dsbusca" name="dsbusca" type="text">
-    <input name="identificador" type="hidden" value="20130512090006">
+    <input name="identificador" type="hidden" value="20130516215759">
     <input name="ok" type="submit" value="Ok">
          
 </form>
@@ -659,36 +659,34 @@ function ValidarBusca3()
  
 <p style="clear: both; margin-bottom: 0;">&#13;
  
-<strong>26/03/2013 12:03<br>&#13;
+<strong>16/04/2013 12:04<br>&#13;
  
 </strong>&#13;
  
 </p>
 <br>&#13;
  
-<h4>Os Bons Ventos da Inova&amp;ccedil;&amp;atilde;o</h4>&#13;
+<h4>Revista 21</h4>&#13;
  &#13;
 &#13;
  
 <div class="container_conteudo">&#13;
   
 <p>
-<em>Articula&amp;ccedil;&amp;atilde;o estrat&amp;eacute;gica de empresas, universidade e governo, identifica novas voca&amp;ccedil;&amp;otilde;es para a economia regional.</em>
+<em>Campanha social &amp;quot;Eu abra&amp;ccedil;o o S&amp;atilde;o Jos&amp;eacute;&amp;quot;, Expogest&amp;atilde;o, eventos e grandes exemplos de gest&amp;atilde;o.</em>
 </p>&#13;
   
-<p>A necessidade de &ldquo;fazer diferente&rdquo; existe, para que os indiv&iacute;duos possam se sobressair, seja na vida pessoal ou no meio corporativo. Assim, a inova&ccedil;&atilde;o representa ideias, m&eacute;todos ou objetos que pouco se parecem com os padr&otilde;es anteriores. Inova&ccedil;&atilde;o tecnol&oacute;gica seria seria &ldquo;tudo o que acontece na fronteira do conhecimento&rdquo;.<br>
-<br>A 5&ordf; edi&ccedil;&atilde;o da Revista 21 mostra que Joinville caminha a passos largos neste sentido, sendo o primeiro munic&iacute;pio catarinense a aprovar a Lei da Inova&ccedil;&atilde;o, e investindo na cria&ccedil;&atilde;o de parques tecnol&oacute;gicos.<br>
-<br>Acompanhe este processo e fique por dentro das principais novidades e acontecimentos empresariais de Joinville e regi&atilde;o, com a vers&atilde;o digital da Revista:<br>
-<br>
-</p>&#13;
+<p>A Revista 21 foi t&atilde;o bem aceita que ganhou novas sess&otilde;es, maior tiragem e j&aacute; est&aacute; sendo comercializada nas bancas.<br>
+<br>Nesta edi&ccedil;&atilde;o, detalhes da Expogest&atilde;o e campanha social &ldquo;Eu abra&ccedil;o o S&atilde;o Jos&eacute;&rdquo;, que est&aacute; mobilizando a comunidade em prol do principal hospital p&uacute;blico da cidade, s&atilde;o os grandes destaques.<br>
+<br>Fique por dentro dos principais eventos, novidades e acontecimentos empresariais de Joinville e regi&atilde;o, com a vers&atilde;o digital da Revista:</p>&#13;
 
 <p>
-<iframe frameborder="0" height="750" marginheight="0" marginwidth="0" scrolling="no" src="http://www.slideshare.net/slideshow/embed_code/17117068" width="600"> 
+<iframe frameborder="0" height="680" marginheight="0" marginwidth="0" scrolling="no" src="http://www.slideshare.net/slideshow/embed_code/19026303" width="479"> 
 </iframe>
 </p>&#13;
 
 <div style="margin-bottom: 5px;">
-<strong> <a href="http://www.slideshare.net/ACIJ/acij-revista-21-fevereiro2013" target="_blank" title="[ACIJ] Revista 21 - Fevereiro/2013">[ACIJ] Revista 21 - Fevereiro/2013</a> </strong> from <strong><a href="http://www.slideshare.net/ACIJ" target="_blank">Associa&ccedil;&atilde;o Empresarial de Joinville - ACIJ</a></strong>
+<strong> <a href="http://www.slideshare.net/ACIJ/acij-revista-21-abril2013-19026303" target="_blank" title="[ACIJ] Revista 21 - Abril2013">[ACIJ] Revista 21 - Abril2013</a> </strong> from <strong><a href="http://www.slideshare.net/ACIJ" target="_blank">Associa&ccedil;&atilde;o Empresarial de Joinville - ACIJ</a></strong>
 </div> 
 </div> <!-- container_conteudo -->&#13;
  &#13;
@@ -712,7 +710,7 @@ function ValidarBusca3()
 <div class="centraliza-paginacao">
  
       
-<a href="/noticias/show/id/889%26/pag/1#ancora_paginacao">
+<a href="/noticias/show/id/901%26/pag/1#ancora_paginacao">
         <img alt="anterior" class="left right10" height="30" src="/images/esq-seta-sidebar.jpg" width="31">
         </a>
        
@@ -724,20 +722,20 @@ function ValidarBusca3()
 <a class="pag-atual" href="#ancora_paginacao">1</a>
 </li>
 <li>
-<a href="/noticias/show/id/889%26/pag/2#ancora_paginacao">2</a>
+<a href="/noticias/show/id/901%26/pag/2#ancora_paginacao">2</a>
 </li>
 <li>
-<a href="/noticias/show/id/889%26/pag/3#ancora_paginacao">3</a>
+<a href="/noticias/show/id/901%26/pag/3#ancora_paginacao">3</a>
 </li>
 <li>
-<a href="/noticias/show/id/889%26/pag/4#ancora_paginacao">4</a>
+<a href="/noticias/show/id/901%26/pag/4#ancora_paginacao">4</a>
 </li>
 <li>
-<a href="/noticias/show/id/889%26/pag/5#ancora_paginacao">5</a>
+<a href="/noticias/show/id/901%26/pag/5#ancora_paginacao">5</a>
 </li>        
 </ul>
       
-<a href="/noticias/show/id/889%26/pag/2#ancora_paginacao">
+<a href="/noticias/show/id/901%26/pag/2#ancora_paginacao">
         <img alt="proxima" class="left right10 bottom25" height="30" src="/images/dir-seta-sidebar.jpg" width="31">
         </a>
        
@@ -768,6 +766,13 @@ function ValidarBusca3()
 <li>
   
 <span>
+      <a href="/noticias/show/id/912%26">Reuni&amp;atilde;o do Conselho</a>  </span>
+ 
+</li>
+ 
+<li>
+  
+<span>
       <strong>Origem: Gest&amp;atilde;o Compartilhada<br>
 </strong>
       <a href="/noticias/show/id/910%26">Comandante de Transito do 8&amp;ordm; BPM no Gest&amp;atilde;o Norte</a>  </span>
@@ -777,23 +782,18 @@ function ValidarBusca3()
 <li>
   
 <span>
-      <a href="/noticias/show/id/909%26">Reuni&amp;atilde;o do Conselho</a>  </span>
- 
-</li>
- 
-<li>
-  
-<span>
-      <a href="/noticias/show/id/901%26">Revista 21</a>  </span>
- 
-</li>
- 
-<li>
-  
-<span>
-      <strong>Origem: Portal ACIJ<br>
+      <strong>Origem: Gest&amp;atilde;o Compartilhada<br>
 </strong>
       <a href="/noticias/show/id/900%26">Sess&amp;atilde;o de Neg&amp;oacute;cios</a>  </span>
+ 
+</li>
+ 
+<li>
+  
+<span>
+      <strong>Origem: Gest&amp;atilde;o Compartilhada<br>
+</strong>
+      <a href="/noticias/show/id/892%26">Sess&amp;atilde;o de Neg&amp;oacute;cios</a>  </span>
  
 </li>
 
@@ -811,7 +811,7 @@ function ValidarBusca3()
 <div class="centraliza-paginacao">
  
       
-<a href="/noticias/show/id/889%26/pag/1#ancora_paginacao">
+<a href="/noticias/show/id/901%26/pag/1#ancora_paginacao">
         <img alt="anterior" class="left right10" height="30" src="/images/esq-seta-sidebar.jpg" width="31">
         </a>
        
@@ -823,20 +823,20 @@ function ValidarBusca3()
 <a class="pag-atual" href="#ancora_paginacao">1</a>
 </li>
 <li>
-<a href="/noticias/show/id/889%26/pag/2#ancora_paginacao">2</a>
+<a href="/noticias/show/id/901%26/pag/2#ancora_paginacao">2</a>
 </li>
 <li>
-<a href="/noticias/show/id/889%26/pag/3#ancora_paginacao">3</a>
+<a href="/noticias/show/id/901%26/pag/3#ancora_paginacao">3</a>
 </li>
 <li>
-<a href="/noticias/show/id/889%26/pag/4#ancora_paginacao">4</a>
+<a href="/noticias/show/id/901%26/pag/4#ancora_paginacao">4</a>
 </li>
 <li>
-<a href="/noticias/show/id/889%26/pag/5#ancora_paginacao">5</a>
+<a href="/noticias/show/id/901%26/pag/5#ancora_paginacao">5</a>
 </li>        
 </ul>
       
-<a href="/noticias/show/id/889%26/pag/2#ancora_paginacao">
+<a href="/noticias/show/id/901%26/pag/2#ancora_paginacao">
         <img alt="proxima" class="left right10 bottom25" height="30" src="/images/dir-seta-sidebar.jpg" width="31">
         </a>
        
@@ -932,7 +932,7 @@ jQuery(document).ready(function(){
 <label>Mensagem (M&amp;aacute;ximo 250 caracteres):</label><textarea class="required" id="descricao" name="descricao"></textarea>
 <br style="clear:both;">&#13;
         
-<input name="pagina" type="hidden" value="http://www.acij.com.br/noticias/show/id/889%26">&#13;
+<input name="pagina" type="hidden" value="http://www.acij.com.br/noticias/show/id/901%26">&#13;
         <input name="nucleo_id" type="hidden" value="0">&#13;
        
 </fieldset>&#13;
@@ -943,7 +943,7 @@ jQuery(document).ready(function(){
 <fieldset class="field_50">&#13;
                                                             
 <label for="celular">Digite abaixo o n&amp;uacute;mero destacado acima:</label>&#13;
-                                                            <a href="" onclick="return false" title="Reload image"><img onclick="this.src=&amp;quot;/captcha?r=&amp;quot; + Math.random() + &amp;quot;&amp;amp;reload=1&amp;quot;" src="/captcha?1368363606"></a>&#13;
+                                                            <a href="" onclick="return false" title="Reload image"><img onclick="this.src=&amp;quot;/captcha?r=&amp;quot; + Math.random() + &amp;quot;&amp;amp;reload=1&amp;quot;" src="/captcha?1368755879"></a>&#13;
                                                             
 <br clear="all">&#13;
                                                             
@@ -1130,18 +1130,6 @@ jQuery(document).ready(function(){
 <li>
              
 <h3>
-<a href="/agendas/show/id/1013">NR 35 - Trabalho em Altura</a>
-</h3>
-             
-<p>
-             Data: 14/05<br>
-             Hor&amp;aacute;rio: 8h &amp;agrave;s 17h30             </p>
-          
-</li>
-                 
-<li>
-             
-<h3>
 <a href="/agendas/show/id/1014">Negocia&amp;ccedil;&amp;atilde;o Eficaz, resultado eficaz COMPRAS </a>
 </h3>
              
@@ -1172,6 +1160,18 @@ jQuery(document).ready(function(){
 <p>
              Data: 27 - 28 de Mai<br>
              Hor&amp;aacute;rio: 13h30 &amp;agrave;s 17h30             </p>
+          
+</li>
+                 
+<li>
+             
+<h3>
+<a href="/agendas/show/id/1023">Programa de Excel&amp;ecirc;ncia no Atendimento ao Cliente</a>
+</h3>
+             
+<p>
+             Data: 04 - 06 de Jun<br>
+             Hor&amp;aacute;rio: 18h30 &amp;agrave;s 22h             </p>
           
 </li>
               
