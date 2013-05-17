@@ -67,7 +67,7 @@ public class Reader {
 			TransformerFactory transformerFactory = TransformerFactory.newInstance();
 			Transformer transformer = transformerFactory.newTransformer();
 			DOMSource source = new DOMSource(this.doc);
-			File file = new File(fileDest);
+			File file = new File("target"+File.separator+fileDest);
 			StreamResult result = new StreamResult(file);
 			transformer.transform(source, result);
 			log.info("Created debug file at " + file.getAbsolutePath());
