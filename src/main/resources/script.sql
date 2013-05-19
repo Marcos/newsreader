@@ -9,6 +9,7 @@ date_published date,
 link nvarchar(4000),
 title nvarchar(4000),
 text text,
+short_text nvarchar(1000),
 source varchar(255), 
 source_label varchar(255), 
 status tinyint,
@@ -19,6 +20,7 @@ alter table entry add short_link nvarchar(4000);
 alter table entry add twitter_status tinyint;
 alter table entry add text_entry text;
 alter table entry add text text;
+alter table entry add short_text nvarchar(1000);
 
 insert into entry2 select id, date_entry, title_entry, url_entry, date_insert, date_published, link, title, source, source_label, status, random_factor, clicks, short_link from entry
 

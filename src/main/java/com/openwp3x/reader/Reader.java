@@ -3,10 +3,10 @@
  */
 package com.openwp3x.reader;
 
-import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.StringWriter;
 import java.io.UnsupportedEncodingException;
 import java.net.HttpURLConnection;
 import java.net.URL;
@@ -33,7 +33,6 @@ import org.htmlcleaner.DomSerializer;
 import org.htmlcleaner.HtmlCleaner;
 import org.htmlcleaner.TagNode;
 import org.w3c.dom.Document;
-import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
@@ -44,7 +43,10 @@ import org.xml.sax.SAXException;
  */
 public class Reader {
 	private static final String DEFAULT_CHARSET = "UTF-8";
+	
 	private org.w3c.dom.Document doc;
+	
+	
 	Logger log = Logger.getLogger(this.getClass());
 
 	public Reader(URL sourceURL, String sourceName, SourceType sourceType, String charset)  {
@@ -53,10 +55,10 @@ public class Reader {
 			this.doc = getContent(inputStream, sourceType, charset);
 	
 			if (log.isDebugEnabled()) {
-				writeFile(sourceName + ".xml");
+				writeFile(sourceName+System.currentTimeMillis() + ".xml");
 			}
 		} catch (Exception e) {
-			String message = "Error parsing content from " + sourceName;
+			String message = "Error parsing content from " + sourceURL.toString();
 			log.error(message, e);
 			throw new RuntimeException(message, e);
 		}
@@ -78,9 +80,10 @@ public class Reader {
 
 	public Document getContent(InputStream inputStream, SourceType sourceType, String charset) throws IOException, ParserConfigurationException, SAXException {
 		if (sourceType == null || sourceType.equals(SourceType.HTML)) {
-			return getXMLContent(inputStream, charset);
+			return getHTMLContent(inputStream, charset);
+		}else{			
+			return getXMLContent(inputStream);
 		}
-		return getXMLContent(inputStream);
 	}
 
 	private Document getXMLContent(InputStream inputStream) throws ParserConfigurationException, SAXException, IOException {
@@ -91,15 +94,11 @@ public class Reader {
 		return doc;
 	}
 
-	private Document getXMLContent(InputStream inputStream, String charset) throws IOException, ParserConfigurationException {
+	private Document getHTMLContent(InputStream inputStream, String charset) throws IOException, ParserConfigurationException {
 		final TagNode tagNode = new HtmlCleaner().clean(inputStream, charset);
 		CleanerProperties cleanerProperties = new CleanerProperties();
 		org.w3c.dom.Document doc = new DomSerializer(cleanerProperties).createDOM(tagNode);
 		return doc;
-	}
-
-	public String getFormattedTitle(final String xpathPattern) throws ReaderException {
-		return this.getTextContent(xpathPattern).trim();
 	}
 
 	public String getTextContent(final String xpathPattern) throws ReaderException{
@@ -107,19 +106,19 @@ public class Reader {
 			final XPath xpath = XPathFactory.newInstance().newXPath();
 			final String str = (String) xpath.evaluate(xpathPattern, this.doc, XPathConstants.STRING);
 			
-			final String standart = this.getStringAsStandart(str, Reader.DEFAULT_CHARSET);
+			final String standart = this.getStringAsStandart(str, DEFAULT_CHARSET);
 			return standart;
 		} catch (Exception e) {
 			throw new ReaderException(e);
 		}
 	}
 	
-	public String getHTMLContent(final String xpathPattern) throws ReaderException{
+	public String getHTML(final String xpathPattern) throws ReaderException{
 		try {			
-			final XPath xpath = XPathFactory.newInstance().newXPath();
+			final XPath xpath = XPathFactory.newInstance().newXPath();			
 			NodeList nodeList = (NodeList) xpath.evaluate(xpathPattern, this.doc, XPathConstants.NODESET);
-			
-			String content = getNodeListAsString(nodeList);
+			String content = getStringAsStandart(getNodeListAsString(nodeList), DEFAULT_CHARSET);
+
 			return content;
 		} catch (Exception e) {
 			throw new ReaderException(e);
@@ -127,25 +126,35 @@ public class Reader {
 	}
 
 	private String getNodeListAsString(NodeList nodeList) throws Exception {
-		DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
-		DocumentBuilder docBuilder = dbFactory.newDocumentBuilder();
-		Document doc = docBuilder.newDocument();
-		for(int i=0; i<nodeList.getLength(); i++){
-			Node node = doc.importNode(nodeList.item(i), true);
-			doc.appendChild(node);
-		}
-		TransformerFactory transformerFactory = TransformerFactory.newInstance();
-		Transformer transformer = transformerFactory.newTransformer();
-		DOMSource source = new DOMSource(doc);
+//		DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+//		DocumentBuilder docBuilder = dbFactory.newDocumentBuilder();
+//		Document doc = docBuilder.newDocument();
+//		for(int i=0; i<nodeList.getLength(); i++){
+//			Node node = doc.importNode(nodeList.item(i), true);
+//			doc.appendChild(node);
+//		}
+//		TransformerFactory transformerFactory = TransformerFactory.newInstance();
+//		Transformer transformer = transformerFactory.newTransformer();
+//		DOMSource source = new DOMSource(doc);
+//		
+//		ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
+//		StreamResult result = new StreamResult(byteArrayOutputStream);
+//		transformer.transform(source, result);
+//		byte[] bytes = byteArrayOutputStream.toByteArray();
+//		final String content = new String(bytes, Reader.DEFAULT_CHARSET);
+//		return content;
 		
-		ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
-		StreamResult result = new StreamResult(byteArrayOutputStream);
-		transformer.transform(source, result);
-		byte[] bytes = byteArrayOutputStream.toByteArray();
-		final String content = new String(bytes, Reader.DEFAULT_CHARSET);
-		return content;
+		
+		
+		StringWriter sw = new StringWriter(); 
+		Transformer serializer = TransformerFactory.newInstance().newTransformer();
+		serializer.transform(new DOMSource(nodeList.item(0)), new StreamResult(sw));	
+		String result = sw.toString(); 
+		return result;
 	}
 
+
+	
 	private String getStringAsStandart(final String str, final String charset) throws UnsupportedEncodingException {
 		return StringEscapeUtils.unescapeHtml4(str);
 	}

@@ -1,14 +1,15 @@
 package com.openwp3x.jobs;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.util.Collection;
+
+import javax.persistence.EntityManager;
+import javax.persistence.Query;
 
 import org.apache.log4j.Logger;
 
 import com.openwp3x.NuveoJob;
-import com.openwp3x.db.DatabaseManager;
+import com.openwp3x.db.EntityManagerUtil;
+import com.openwp3x.model.Entry;
 
 public class LinkShortener implements NuveoJob{
 
@@ -17,48 +18,19 @@ public class LinkShortener implements NuveoJob{
 	private static final String baseDigits = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 
 	public void execute() {
-		Connection connection = null;
-		PreparedStatement preparedStatement = null;
-		try {
-			connection = DatabaseManager.getConnection();
-			preparedStatement = connection.prepareStatement("select id, source from entry where short_link is null");
-			ResultSet resultSet = preparedStatement.executeQuery();
-
-			Integer countLinks = 0;
-			while (resultSet.next()) {
-				Long entryId = resultSet.getLong("id");
-				String source = resultSet.getString("source");
-				updateLink(entryId, source);
-				countLinks++;
-			}
-			logger.info("Shorter links updated: " + countLinks);
-		} catch (Exception e) {
-			logger.error(e, e);
-		} finally {
-			try {
-				preparedStatement.close();
-			} catch (SQLException e) {
-				e.printStackTrace();
-			}
-		}
-	}
-
-	private void updateLink(Long entryId, String source) {
-		Connection connection = null;
-		PreparedStatement preparedStatement = null;
-		try {
-			connection = DatabaseManager.getConnection();
-			preparedStatement = connection.prepareStatement("update entry set short_link=? where id = ?");
-			preparedStatement.setString(1, converter(entryId));
-			preparedStatement.setLong(2, entryId);
-			preparedStatement.executeUpdate();
-		} catch (Exception e) {			
-			logger.error(e, e);
-		} finally {
-			try {
-				preparedStatement.close();
-			} catch (SQLException e) {
-				logger.error(e, e);
+		EntityManager entityManager = EntityManagerUtil.getEntityManager();
+		Query query = entityManager.createQuery("select entry from Entry entry where shortLink is null");
+		Collection<Entry> entries = query.getResultList();
+		
+		if(entries!=null && entries.size()>0){
+			for(Entry entry : entries){
+				entityManager.getTransaction().begin();
+				
+				String shortLink = converter(entry.getId());
+				entry.setShortLink(shortLink);
+				entityManager.persist(entry);
+				
+				entityManager.getTransaction().commit();
 			}
 		}
 	}

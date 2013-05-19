@@ -34,17 +34,18 @@ public class TwitterPublisher implements NuveoJob{
 				Long entryId = resultSet.getLong("id");
 				String title = resultSet.getString("title");
 				String shortLink = resultSet.getString("short_link");
+				
 				publishOnTwitter(entryId, title, shortLink);
 				countLinks++;
 			}
 			logger.info("Published finished. Total: " + countLinks);
 		} catch (Exception e) {
-			logger.error(e, e);
+			logger.error("Error getting url to publish on twitter", e);
 		} finally {
 			try {
 				preparedStatement.close();
 			} catch (SQLException e) {
-				e.printStackTrace();
+				logger.error(e);
 			}
 		}
 		
@@ -55,7 +56,7 @@ public class TwitterPublisher implements NuveoJob{
 			Status status = TwitterFactory.getSingleton().updateStatus(getMessage(title, shortLink));
 			setAsPublished(entryId);
 		} catch (TwitterException e) {
-			logger.warn("Can't publis on twitter : " + shortLink);
+			logger.warn("Can't publish on twitter : " + shortLink, e);
 		}
 		
 	}
@@ -81,8 +82,15 @@ public class TwitterPublisher implements NuveoJob{
 		
 	}
 
-	private String getMessage(String title, String shortLink) {
-		return title + " " + NUVEO_LINK_VIEW+ shortLink ;
+	public static String getMessage(String title, String shortLink) {
+		String link = NUVEO_LINK_VIEW + shortLink;
+		String message = title + " " + link;
+		if(message.length()>140){
+			Integer limit = 140 -(link.length()+4);
+			message = title.substring(0, limit) + "... " + link; 
+		}
+		
+		return message;
 	}
 
 }

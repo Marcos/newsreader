@@ -9,3 +9,5 @@ target/.DS_Store
 hotdeploy/db.properties
 
 .DS_Store
+
+/target

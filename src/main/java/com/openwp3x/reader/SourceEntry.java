@@ -17,7 +17,9 @@ import com.openwp3x.model.TagType;
  */
 public class SourceEntry  {
 
-    private String title;
+    private static final int DEFAULT_SHORT_TEXT = 200;
+
+	private String title;
 
     private String date;
 
@@ -27,7 +29,7 @@ public class SourceEntry  {
 
     private SourcePattern entryPattern;
     
-    private TextPreProcessor textPreProcessor = new TextPreProcessor();
+    private TextProcessor textPreProcessor = new TextProcessor();
 
     public SourceEntry() {
     	
@@ -51,9 +53,10 @@ public class SourceEntry  {
     	String title = this.getTitle();
     	title = textPreProcessor.treatPrefixPattern(title, this.entryPattern.getTitlePrefixPattern());
     	title = textPreProcessor.treatSufixPattern(title, this.entryPattern.getTitleSufixPattern());
-    	title = textPreProcessor.normalize(title);
+    	if(this.entryPattern.getTitleNormalize()){   		
+    		title = textPreProcessor.normalize(title);
+    	}
     	return title.trim();
-    	
     }
     
 	public String getTitle(){
@@ -114,7 +117,7 @@ public class SourceEntry  {
         String url = this.getUrl();
 
         if (this.entryPattern.getUrlPattern() != null) {
-            url = textPreProcessor.getToken(url, this.entryPattern.getUrlPattern());
+            url = textPreProcessor.getRegexToken(url, this.entryPattern.getUrlPattern());
         }
 
         final String urlResource = this.getEntryPattern().getUrlResource();
@@ -163,6 +166,10 @@ public class SourceEntry  {
 	
 	public String getFormattedText() {
 		return textPreProcessor.normalizeText(this.getText());
+	}
+	
+	public String getShortText(){
+		return textPreProcessor.getShortText(text, DEFAULT_SHORT_TEXT);
 	}
 
 	public Collection<TagType> getTags() {

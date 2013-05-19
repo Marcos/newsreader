@@ -1,6 +1,5 @@
 package com.openwp3x.model;
 
-import java.util.Calendar;
 import java.util.Collection;
 import java.util.Date;
 
@@ -12,8 +11,9 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
-import javax.persistence.Temporal;
-import javax.persistence.TemporalType;
+
+import org.hibernate.annotations.Type;
+import org.joda.time.DateTime;
 
 @Entity
 public class Entry {
@@ -36,8 +36,8 @@ public class Entry {
 	private String textSource;
 	
 	@Column(name="date_insert")
-	@Temporal(TemporalType.TIMESTAMP)
-	private Calendar dateInsert;
+	@Type(type="org.joda.time.contrib.hibernate.PersistentDateTime")
+	private DateTime dateInsert;
 	
 	@Column(name="date_published")
 	private Date datePublished;
@@ -50,6 +50,9 @@ public class Entry {
 	
 	@Column(name="text")
 	private String text;
+	
+	@Column(name="short_text")
+	private String shortText;
 	
 	@Column(name="source")
 	private String source;
@@ -102,11 +105,11 @@ public class Entry {
 		this.urlSource = urlSource;
 	}
 
-	public Calendar getDateInsert() {
+	public DateTime getDateInsert() {
 		return dateInsert;
 	}
 
-	public void setDateInsert(Calendar dateInsert) {
+	public void setDateInsert(DateTime dateInsert) {
 		this.dateInsert = dateInsert;
 	}
 
@@ -196,6 +199,14 @@ public class Entry {
 
 	public void setShortLink(String shortLink) {
 		this.shortLink = shortLink;
+	}
+
+	public String getShortText() {
+		return shortText;
+	}
+
+	public void setShortText(String shortText) {
+		this.shortText = shortText;
 	}
 	
 	

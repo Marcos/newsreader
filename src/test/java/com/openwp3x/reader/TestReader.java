@@ -35,9 +35,8 @@ public class TestReader {
     
     @Test
     public void testGetTitle() throws Exception {
-        String entry = "";
-        entry = this.newsReader.getFormattedTitle( "//*[@id=\"wrapper\"]/table[1]/tbody/tr/td[1]/div[1]/p[2]");
-        Assert.assertEquals("Programa \"Extensão Udesc\" estreia na Rádio Udesc (91.9 FM)", entry);
+        String entry = this.newsReader.getTextContent( "//*[@id=\"wrapper\"]/table[1]/tbody/tr/td[1]/div[1]/p[2]");
+        Assert.assertEquals("Programa \"Extensão Udesc\" estreia na Rádio Udesc (91.9 FM) ", entry);
     }
     
     @Test

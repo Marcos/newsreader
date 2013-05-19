@@ -15,7 +15,7 @@
 
 	<category name="com.openwp3x">
 		<priority value="INFO" />
-		<appender-ref ref="stdout" />
+        <appender-ref ref="stdout" />
 	</category>
 
 </log4j:configuration>

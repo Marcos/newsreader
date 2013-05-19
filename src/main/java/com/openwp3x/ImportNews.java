@@ -1,8 +1,5 @@
 package com.openwp3x;
 
-import java.sql.Date;
-import java.sql.Timestamp;
-import java.util.Calendar;
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.Random;
@@ -11,6 +8,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.Query;
 
 import org.apache.log4j.Logger;
+import org.joda.time.DateTime;
 
 import com.openwp3x.db.EntityManagerUtil;
 import com.openwp3x.jobs.StatusEntry;
@@ -57,17 +55,17 @@ public class ImportNews {
 	private void importEntry(SourceEntry sourceEntry, EntityManager entityManager) {
 		Entry entry = new Entry();
 		
-		Calendar calendar = Calendar.getInstance();
-		Timestamp timeStampImport = new Timestamp(calendar.getTimeInMillis());
+		java.util.Date dateImport = new java.util.Date();
+		DateTime dateTime = new DateTime();
 		
-		Date dateImport = new Date(calendar.getTimeInMillis());
 		entry.setStatus(StatusEntry.NOT_VERIFIED.ordinal());
-		entry.setDateInsert(calendar);
+		entry.setDateInsert(dateTime);
 		entry.setDateSource(sourceEntry.getDate());
 		entry.setUrlSource(sourceEntry.getUrl());
 		entry.setTitleSource(sourceEntry.getTitle());
 		entry.setSource(sourceEntry.getSource());
 		entry.setTitle(sourceEntry.getFormattedTitle());
+		entry.setShortText(sourceEntry.getShortText());
 		entry.setLink(sourceEntry.getFormattedURL());
 		entry.setDatePublished(getDatePublished(sourceEntry, dateImport));
 		entry.setSourceLabel(sourceEntry.getSourceLabel());
@@ -93,7 +91,7 @@ public class ImportNews {
 		return tags;
 	}
 
-	private Date getDatePublished(SourceEntry entry, Date dateImport) {
+	private java.util.Date getDatePublished(SourceEntry entry, java.util.Date dateImport) {
 		if (entry.getDateAsLong() != null) {
 			return new java.sql.Date(entry.getDateAsLong());
 		}

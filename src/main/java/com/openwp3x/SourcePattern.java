@@ -7,6 +7,8 @@ import java.net.URL;
 import java.util.Collection;
 import java.util.Locale;
 
+import org.apache.commons.lang3.BooleanUtils;
+
 import com.openwp3x.model.TagType;
 import com.openwp3x.reader.SourceType;
 
@@ -45,6 +47,8 @@ public class SourcePattern {
 	private String titlePrefixPattern;
 	
 	private String titleSufixPattern;
+	
+	private Boolean titleNormalize;
 	
 	private String linkTextPrefixPattern;
 	
@@ -293,5 +297,13 @@ public class SourcePattern {
 
 	public void setTitleSufixPattern(String titleSufixPattern) {
 		this.titleSufixPattern = titleSufixPattern;
+	}
+
+	public Boolean getTitleNormalize() {
+		return BooleanUtils.toBoolean(this.titleNormalize);
+	}
+
+	public void setTitleNormalize(Boolean titleNormalize) {
+		this.titleNormalize = titleNormalize;
 	}
 }

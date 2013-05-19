@@ -5,15 +5,13 @@ import java.util.regex.Pattern;
 
 import org.apache.commons.lang3.text.WordUtils;
 
-public class TextPreProcessor {
+public class TextProcessor {
 
 	public String normalizeText(String text) {
 		if(text==null) return text;
 		String normalizedText = normalizeWhiteSpace(text);
 		normalizedText = removeHTML(normalizedText);
-		normalizedText = normalizedText.replaceAll("\r\\s*", "\n");
-		normalizedText = normalizedText.replaceAll("\n\\s*", "\n");
-		normalizedText = normalizedText.replaceAll("\n+", "\n");
+		normalizedText = normalizedText.replaceAll("\r", "");
 		normalizedText = normalizedText.replaceAll("^\n", "");
 		normalizedText = normalizedText.replaceAll("\n$", "");
 		return normalizedText.trim();
@@ -47,7 +45,7 @@ public class TextPreProcessor {
 		return WordUtils.capitalizeFully(title);
 	}
 
-	public String getToken(String dirtText, String regex) {
+	public String getRegexToken(String dirtText, String regex) {
 		final Pattern pattern = Pattern.compile(regex);
 		final Matcher matcher = pattern.matcher(dirtText);
 		matcher.find();
@@ -69,6 +67,26 @@ public class TextPreProcessor {
 	public String removeHTML(String text) {
 		String normalizedText = text.replaceAll("<.*>", "\n");
 		return normalizedText;
+	}
+
+	public String getShortText(String text, int size) {
+		if(text==null) return null;
+		String normalizedText = normalizeText(text);
+		normalizedText = normalizedText.replaceAll("\n\\s*", "\n");
+		normalizedText = normalizedText.replaceAll("\n\n*", "\n");
+		
+		if(normalizedText.length()<size){
+			return normalizedText;
+		}
+		
+		Pattern pattern = Pattern.compile(" ");
+		Matcher matcher = pattern.matcher(normalizedText);
+		
+		Integer endLimit = 0;
+		while(endLimit<size && matcher.find()){
+			endLimit = matcher.start();
+		}
+		return normalizedText.substring(0, endLimit);
 	}
 
 }

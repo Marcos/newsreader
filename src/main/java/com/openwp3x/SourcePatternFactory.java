@@ -45,6 +45,7 @@ public class SourcePatternFactory {
 				sourcePatternList.add(SourcePatternFactory.getCDLPattern());
 				sourcePatternList.add(SourcePatternFactory.getDefesaCivilPattern());
 				sourcePatternList.add(SourcePatternFactory.getCVJoinvillePattern());
+				sourcePatternList.add(SourcePatternFactory.getOsnyMartinsPattern());
 				//entryPatternList.add(EntryPatternFactory.getAnoticiaPattern());
 				sourcePatternList.add(SourcePatternFactory.getNDJoinvillePattern());
 				sourcePatternList.add(SourcePatternFactory.getPortalJoinvillePattern());
@@ -69,6 +70,7 @@ public class SourcePatternFactory {
 		entryPattern.setUrlResource("http://www.sociesc.org.br/pt/noticias/ajax_news_view.php?id=");
 		entryPattern.setUrlPattern("\\d+");
 		entryPattern.setSourceLabel("SOCIESC");
+		entryPattern.setTitleSufixPattern("\\.\\.\\.");
 		entryPattern.setTags(Arrays.asList(new TagType[]{TagType.educacao}));
 		
 		entryPattern.setLinkTextXPath("//*[@id=\"dinamicTxt\"]");
@@ -109,7 +111,6 @@ public class SourcePatternFactory {
 		entryPattern.setDateFormat("dd.MM.yyyy");
 		entryPattern.setSourceLabel("Univille");
 		entryPattern.setTags(Arrays.asList(new TagType[]{TagType.educacao}));
-		
 		entryPattern.setLinkTextXPath("//*[@id=\"pageContent\"]");
 		return entryPattern;
 	}
@@ -191,11 +192,11 @@ public class SourcePatternFactory {
 		entryPattern.setUrlXPath("/html/body/div[6]/div[1]/div/div[2]/div[{_counter}]/a/@href");
 		//entryPattern.setDateTextPattern("\\d{2}/\\d{2}/\\d{4}");
 		entryPattern.setMinResult(2);
-		entryPattern.setMaxResult(5);
+		entryPattern.setMaxResult(6);
 		entryPattern.setSource("cdl_joinville");
 		entryPattern.setUrlResource("http://www.cdljoinville.com.br/");
 		entryPattern.setSourceLabel("CDL Joinville");
-		entryPattern.setTitlePrefixPattern("\\n*");
+		entryPattern.setTitlePrefixPattern("\\s*");
 		entryPattern.setTitleSufixPattern("\\n");
 		entryPattern.setTags(Arrays.asList(new TagType[]{TagType.negocios}));
 		
@@ -259,6 +260,7 @@ public class SourcePatternFactory {
 		entryPattern.setTitlePrefixPattern("\\d*-\\d*-\\d*\\s");
 		entryPattern.setSourceLabel("Osny Martins");
 		entryPattern.setSource("osny_martins");
+		entryPattern.setTitleNormalize(true);
 		entryPattern.setTags(Arrays.asList(new TagType[]{TagType.geral}));
 		return entryPattern;
 	}
