@@ -3,6 +3,8 @@ package com.openwp3x.reader;
 public class LinkEntry {
 	
 	private String text;
+	
+	private String imgPath;
 				
 	private TextProcessor textPreProcessor = new TextProcessor();
 
@@ -20,6 +22,14 @@ public class LinkEntry {
 
 	public String getShortText() {
 		return textPreProcessor.getShortText(this.getText(), 200);
+	}
+
+	public String getImgPath() {
+		return imgPath;
+	}
+
+	public void setImgPath(String imgPath) {
+		this.imgPath = imgPath;
 	}
 
 }

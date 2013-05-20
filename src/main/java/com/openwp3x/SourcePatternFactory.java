@@ -14,6 +14,8 @@ import com.openwp3x.reader.SourceType;
 
 public class SourcePatternFactory {
 	
+	private static final String DEFAULT_OG_IMAGE = "//*/meta[starts-with(@property, 'og:image')]/@content";
+
 	private static Collection<SourcePattern> sourcePatternList;
 	
 	private static Map<String, SourcePattern> sourcePatternMap;
@@ -224,6 +226,7 @@ public class SourcePatternFactory {
 		entryPattern.setTags(Arrays.asList(new TagType[]{TagType.comunidade}));
 		
 		entryPattern.setLinkTextXPath("//*[@id=\"main\"]/div/div/div[1]/p[1]");
+		entryPattern.setImgXPath(DEFAULT_OG_IMAGE);
 		return entryPattern;
 	}
 

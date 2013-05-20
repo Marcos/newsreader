@@ -27,7 +27,9 @@ public class LinkReader {
 		try {
 			logger.debug("Parsing text from " + linkUrl);
 			String linkText = this.reader.getTextContent(entryPattern.getLinkTextXPath());
+			String imgPath = this.reader.getTextContent(entryPattern.getImgXPath());
 			linkEntry.setText(linkText);
+			linkEntry.setImgPath(imgPath);
 			return linkEntry;
 		} catch (ReaderException e) {
 			throw new LinkException("Error getting link from " + entryPattern.getSource(), e);

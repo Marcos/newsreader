@@ -126,26 +126,6 @@ public class Reader {
 	}
 
 	private String getNodeListAsString(NodeList nodeList) throws Exception {
-//		DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
-//		DocumentBuilder docBuilder = dbFactory.newDocumentBuilder();
-//		Document doc = docBuilder.newDocument();
-//		for(int i=0; i<nodeList.getLength(); i++){
-//			Node node = doc.importNode(nodeList.item(i), true);
-//			doc.appendChild(node);
-//		}
-//		TransformerFactory transformerFactory = TransformerFactory.newInstance();
-//		Transformer transformer = transformerFactory.newTransformer();
-//		DOMSource source = new DOMSource(doc);
-//		
-//		ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
-//		StreamResult result = new StreamResult(byteArrayOutputStream);
-//		transformer.transform(source, result);
-//		byte[] bytes = byteArrayOutputStream.toByteArray();
-//		final String content = new String(bytes, Reader.DEFAULT_CHARSET);
-//		return content;
-		
-		
-		
 		StringWriter sw = new StringWriter(); 
 		Transformer serializer = TransformerFactory.newInstance().newTransformer();
 		serializer.transform(new DOMSource(nodeList.item(0)), new StreamResult(sw));	

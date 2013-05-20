@@ -37,6 +37,8 @@ public class SourcePattern {
 	private String textXPath;
 	
 	private String linkTextXPath;
+	
+	private String imgXPath;
 
 	private String source;
 
@@ -305,5 +307,13 @@ public class SourcePattern {
 
 	public void setTitleNormalize(Boolean titleNormalize) {
 		this.titleNormalize = titleNormalize;
+	}
+
+	public String getImgXPath() {
+		return imgXPath;
+	}
+
+	public void setImgXPath(String imgXPath) {
+		this.imgXPath = imgXPath;
 	}
 }
