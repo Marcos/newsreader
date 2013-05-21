@@ -11,13 +11,31 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
+import javax.persistence.Transient;
 
 import org.hibernate.annotations.Type;
 import org.joda.time.DateTime;
 
 @Entity
-public class Entry {
+public class News {
 
+	public News(Long id, java.util.Date date, String formattedDate, String title, String link, String text, String shortText, String shortLink, String source, String sourceLabel) {
+		this.id = id;
+		this.datePublished = date;
+		this.title = title;
+		this.link = link;
+		this.text = text;
+		this.shortText = shortText;
+		this.source = source;
+		this.shortLink = shortLink;
+		this.sourceLabel = sourceLabel;
+		this.formattedDate = formattedDate;
+	}
+	
+	public News() {
+		// TODO Auto-generated constructor stub
+	}
+	
 	@Id
 	@GeneratedValue(strategy=GenerationType.TABLE)
 	@Column(name="id")
@@ -71,7 +89,10 @@ public class Entry {
 	
 	@ManyToMany
 	@JoinTable(name="tag_entry", joinColumns=@JoinColumn(name="entry_id"), inverseJoinColumns=@JoinColumn(name="tag_id"))
-	private Collection<Tag> tags;
+	private Collection<Tag> tags;	
+	
+	@Transient
+	private String formattedDate;
 
 	public Long getId() {
 		return id;
@@ -208,9 +229,6 @@ public class Entry {
 	public void setShortText(String shortText) {
 		this.shortText = shortText;
 	}
-	
-	
-	
-	
+
 	
 }

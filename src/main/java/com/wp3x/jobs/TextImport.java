@@ -12,7 +12,7 @@ import com.wp3x.NuveoJob;
 import com.wp3x.SourcePattern;
 import com.wp3x.SourcePatternFactory;
 import com.wp3x.db.EntityManagerUtil;
-import com.wp3x.model.Entry;
+import com.wp3x.model.News;
 import com.wp3x.reader.LinkEntry;
 import com.wp3x.reader.LinkReader;
 
@@ -25,10 +25,10 @@ public class TextImport implements NuveoJob{
 		EntityManager entityManager = EntityManagerUtil.getEntityManager();
 		
 		Query query = entityManager.createQuery("select entry from Entry entry where status=0");
-		Collection<Entry> entries = query.getResultList();
+		Collection<News> entries = query.getResultList();
 		
 		if(entries!=null && entries.size()>0){
-			for(Entry entry : entries){
+			for(News entry : entries){
 				entityManager.getTransaction().begin();
 				
 				try{					

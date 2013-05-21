@@ -11,7 +11,17 @@ public class Tag {
 	
 	private String label;
 	
-	private Integer clicks;
+	private Long clicks;
+	
+	public Tag() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public Tag(String id, String label, Long clicks) {
+		this.id = id;
+		this.label = label;
+		this.clicks = clicks;
+	}
 
 	public String getId() {
 		return id;
@@ -29,11 +39,11 @@ public class Tag {
 		this.label = label;
 	}
 
-	public Integer getClicks() {
+	public Long getClicks() {
 		return clicks;
 	}
 
-	public void setClicks(Integer clicks) {
+	public void setClicks(Long clicks) {
 		this.clicks = clicks;
 	}
 

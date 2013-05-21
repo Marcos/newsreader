@@ -9,7 +9,7 @@ import org.apache.log4j.Logger;
 
 import com.wp3x.NuveoJob;
 import com.wp3x.db.EntityManagerUtil;
-import com.wp3x.model.Entry;
+import com.wp3x.model.News;
 
 public class LinkShortener implements NuveoJob{
 
@@ -20,10 +20,10 @@ public class LinkShortener implements NuveoJob{
 	public void execute() {
 		EntityManager entityManager = EntityManagerUtil.getEntityManager();
 		Query query = entityManager.createQuery("select entry from Entry entry where shortLink is null");
-		Collection<Entry> entries = query.getResultList();
+		Collection<News> entries = query.getResultList();
 		
 		if(entries!=null && entries.size()>0){
-			for(Entry entry : entries){
+			for(News entry : entries){
 				entityManager.getTransaction().begin();
 				
 				String shortLink = converter(entry.getId());

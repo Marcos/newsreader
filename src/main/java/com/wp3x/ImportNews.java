@@ -12,7 +12,7 @@ import org.joda.time.DateTime;
 
 import com.wp3x.db.EntityManagerUtil;
 import com.wp3x.jobs.StatusEntry;
-import com.wp3x.model.Entry;
+import com.wp3x.model.News;
 import com.wp3x.model.Tag;
 import com.wp3x.model.TagType;
 import com.wp3x.reader.SourceEntry;
@@ -53,7 +53,7 @@ public class ImportNews {
 	}
 
 	private void importEntry(SourceEntry sourceEntry, EntityManager entityManager) {
-		Entry entry = new Entry();
+		News entry = new News();
 		
 		java.util.Date dateImport = new java.util.Date();
 		DateTime dateTime = new DateTime();
