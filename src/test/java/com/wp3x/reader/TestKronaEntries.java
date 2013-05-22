@@ -43,7 +43,7 @@ public class TestKronaEntries {
         final Collection<SourceEntry> entries = newsReader.getEntries();
         System.out.println(entries);
         final SourceEntry firstEntry = entries.iterator().next();
-        Assert.assertEquals("Maratona De Quatro Jogos Em Joinville", firstEntry.getFormattedTitle());
+        Assert.assertEquals("Maratona de quatro jogos em Joinville", firstEntry.getFormattedTitle());
         Assert.assertEquals("30 Abr 13", firstEntry.getDate());
         Assert.assertEquals("./?area=noticias&id=1251", firstEntry.getUrl());
         Assert.assertEquals("http://www.krona.com.br/kronafutsal/./?area=noticias&id=1251", firstEntry.getFormattedURL());
