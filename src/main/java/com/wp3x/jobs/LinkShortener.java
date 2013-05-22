@@ -19,7 +19,7 @@ public class LinkShortener implements NuveoJob{
 
 	public void execute() {
 		EntityManager entityManager = EntityManagerUtil.getEntityManager();
-		Query query = entityManager.createQuery("select entry from Entry entry where shortLink is null");
+		Query query = entityManager.createQuery("select entry from News entry where shortLink is null");
 		Collection<News> entries = query.getResultList();
 		
 		if(entries!=null && entries.size()>0){

@@ -1,0 +1,47 @@
+<project name="nuveo_import" basedir=".">
+
+	<property name="jar.name" value="nuveo_import.jar" />
+	<property name="jar.dest" location="./target/${jar.name}" />
+	<property name="jar.content" location="${basedir}/bin" />
+	<property name="lib.dir" location="${basedir}/lib" />
+	<property name="web.dir" location="${basedir}/../jlleinfo/WebContent/WEB-INF/lib" />
+	<property name="local.server" location="/Users/marcos/Development/apache-tomcat-7.0.39/webapps" />
+
+	<property name="aws.appdir" value="/home/ec2-user/nuveo" />
+	<property name="aws.host" value="54.232.202.255" />
+	<property name="aws.kp" value="/Users/marcos/.ssh/nuveo.pem" />
+
+	<target name="jar.aws">
+		<jar destfile="${jar.dest}">
+			<fileset dir="${jar.content}">
+				<exclude name="**/db.properties"/>
+				<exclude name="**/twitter4j.properties"/>
+				<exclude name="**/persistence.xml"/>
+			</fileset>
+			<fileset dir="${basedir}/hotdeploy"/>
+			<zipgroupfileset dir="${lib.dir}" includes="**/*.jar" />
+			<manifest>
+				<attribute name="Main-Class" value="com.openwp3x.Main" />
+			</manifest>
+		</jar>
+		<copy file="${jar.dest}" todir="${web.dir}" />
+	</target>
+	
+	<target name="jar.local">
+		<jar destfile="${jar.dest}">
+			<fileset dir="${jar.content}"/>
+			<zipgroupfileset dir="${lib.dir}" includes="**/*.jar" />
+			<manifest>
+				<attribute name="Main-Class" value="com.openwp3x.Main" />
+			</manifest>
+		</jar>
+		<copy file="${jar.dest}" todir="${web.dir}" />
+	</target>
+
+	<target name="copy.aws" depends="jar.aws">
+		<scp todir="ec2-user:@${aws.host}:${aws.appdir}" keyfile="${aws.kp}" trust="true" verbose="true">
+			<fileset file="${jar.dest}" />
+		</scp>
+	</target>
+
+</project>

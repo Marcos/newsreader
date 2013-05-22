@@ -24,7 +24,7 @@ public class TextImport implements NuveoJob{
 		logger.info("Starting text importing");
 		EntityManager entityManager = EntityManagerUtil.getEntityManager();
 		
-		Query query = entityManager.createQuery("select entry from Entry entry where status=0");
+		Query query = entityManager.createQuery("select entry from News entry where status=0");
 		Collection<News> entries = query.getResultList();
 		
 		if(entries!=null && entries.size()>0){

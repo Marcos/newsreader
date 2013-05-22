@@ -26,7 +26,7 @@ public class TwitterPublisher implements NuveoJob{
 		logger.info("Publishing on twitter");
 		try {
 			connection = DatabaseManager.getConnection();
-			preparedStatement = connection.prepareStatement("select id, title, short_link from entry where status = 1 and twitter_status is null");
+			preparedStatement = connection.prepareStatement("select id, title, short_link from Entry where status = 1 and twitter_status is null");
 			ResultSet resultSet = preparedStatement.executeQuery();
 
 			Integer countLinks = 0;

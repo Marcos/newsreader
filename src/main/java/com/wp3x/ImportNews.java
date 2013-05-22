@@ -44,7 +44,7 @@ public class ImportNews {
 	}
 
 	private Query getUniqueQuery(EntityManager entityManager, SourceEntry sourceEntry) {
-		Query query = entityManager.createQuery("select count(*) from Entry where (urlSource=:urlSource and source=:source) or (titleSource=:titleSource and source=:source) ");
+		Query query = entityManager.createQuery("select count(*) from News where (urlSource=:urlSource and source=:source) or (titleSource=:titleSource and source=:source) ");
 		query.setParameter("urlSource", sourceEntry.getUrl());
 		query.setParameter("source", sourceEntry.getSource());
 		query.setParameter("titleSource", sourceEntry.getTitle());

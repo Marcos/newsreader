@@ -11,12 +11,14 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
+import javax.persistence.Table;
 import javax.persistence.Transient;
 
 import org.hibernate.annotations.Type;
 import org.joda.time.DateTime;
 
 @Entity
+@Table(name="Entry")
 public class News {
 
 	public News(Long id, java.util.Date date, String formattedDate, String title, String link, String text, String shortText, String shortLink, String source, String sourceLabel) {
@@ -228,6 +230,14 @@ public class News {
 
 	public void setShortText(String shortText) {
 		this.shortText = shortText;
+	}
+
+	public String getFormattedDate() {
+		return formattedDate;
+	}
+
+	public void setFormattedDate(String formattedDate) {
+		this.formattedDate = formattedDate;
 	}
 
 	

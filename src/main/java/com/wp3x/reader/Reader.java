@@ -102,6 +102,7 @@ public class Reader {
 	}
 
 	public String getTextContent(final String xpathPattern) throws ReaderException{
+		if(xpathPattern==null) return null;
 		try {
 			final XPath xpath = XPathFactory.newInstance().newXPath();
 			final String str = (String) xpath.evaluate(xpathPattern, this.doc, XPathConstants.STRING);

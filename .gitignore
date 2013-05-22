@@ -1,13 +1,6 @@
 /bin
-
 target/nuveo_import.jar
-
-build.xml
-
 target/.DS_Store
-
-hotdeploy/db.properties
-
+hotdeploy
 .DS_Store
-
 /target
