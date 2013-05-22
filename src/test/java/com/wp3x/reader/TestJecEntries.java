@@ -43,7 +43,7 @@ public class TestJecEntries {
         final Collection<SourceEntry> entries = newsReader.getEntries();
         System.out.println(entries);
         final SourceEntry firstEntry = entries.iterator().next();
-        Assert.assertEquals("Citadino: Jec Vence O Santos", firstEntry.getFormattedTitle());
+        Assert.assertEquals("Citadino: JEC vence o Santos", firstEntry.getFormattedTitle());
         Assert.assertEquals(null, firstEntry.getDate());
         Assert.assertEquals("http://jec.com.br/citadino-jec-vence-o-santos/", firstEntry.getUrl());
         Assert.assertEquals("http://jec.com.br/citadino-jec-vence-o-santos/", firstEntry.getFormattedURL());
