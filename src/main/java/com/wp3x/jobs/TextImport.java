@@ -13,12 +13,16 @@ import com.wp3x.SourcePattern;
 import com.wp3x.SourcePatternFactory;
 import com.wp3x.db.EntityManagerUtil;
 import com.wp3x.model.News;
+import com.wp3x.model.Picture;
 import com.wp3x.reader.LinkEntry;
 import com.wp3x.reader.LinkReader;
+import com.wp3x.reader.PictureRepository;
 
 public class TextImport implements NuveoJob{
 
 	Logger logger = Logger.getLogger(this.getClass());
+	
+	PictureRepository pictureRepository = new PictureRepository();
 
 	public void execute() {
 		logger.info("Starting text importing");
@@ -35,13 +39,17 @@ public class TextImport implements NuveoJob{
 					SourcePattern sourcePattern = SourcePatternFactory.getSourcePattern(entry.getSource());	
 					LinkReader linkReader = new LinkReader(sourcePattern, new URL(entry.getLink()));
 					LinkEntry linkEntry = linkReader.getLinkEntry();
+					
 					String text = linkEntry.getText();
 					String formattedText = linkEntry.getFormattedText();
 					String shortText = linkEntry.getShortText();
+					Picture picture = pictureRepository.getImportedImg(linkEntry.getImgPath());
+					
 					entry.setTextSource(text);
 					entry.setText(formattedText);
 					entry.setShortText(shortText);
 					entry.setStatus(1);
+					
 				}catch(Exception e) {
 					logger.error("Error getting text from " + entry.getLink(), e);
 				}
@@ -51,5 +59,6 @@ public class TextImport implements NuveoJob{
 		}
 		logger.info("Finishing text importing");
 	}
+
 
 }

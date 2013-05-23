@@ -70,7 +70,6 @@ public class ImportNews {
 		entry.setDatePublished(getDatePublished(sourceEntry, dateImport));
 		entry.setSourceLabel(sourceEntry.getSourceLabel());
 		if(sourceEntry.getText()!=null){
-			entry.setStatus(1);
 			entry.setTextSource(sourceEntry.getText());
 			entry.setText(sourceEntry.getFormattedText());
 		}
