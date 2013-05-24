@@ -1,8 +1,16 @@
 package com.wp3x.reader;
 
+import java.awt.AlphaComposite;
+import java.awt.Graphics2D;
+import java.awt.RenderingHints;
+import java.awt.image.BufferedImage;
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
+
+import javax.imageio.ImageIO;
 
 import org.apache.log4j.Logger;
 
@@ -13,9 +21,10 @@ import com.amazonaws.services.s3.AmazonS3Client;
 import com.amazonaws.services.s3.model.ObjectMetadata;
 import com.amazonaws.services.s3.model.PutObjectRequest;
 import com.wp3x.model.Picture;
-import com.wp3x.model.UnsavedPicture;
 
 public class PictureRepository  {
+
+	private static final Integer MAX_WIDTH = 400;
 
 	Logger logger = Logger.getLogger(this.getClass());
 
@@ -28,17 +37,22 @@ public class PictureRepository  {
 	
 
 
-	public Picture savePicture(final InputStream pictureStream, String imageName, String imageType, Integer thumbWidth, Integer thumbHeight) throws IOException {
-		String originalImageName = imageName + "_o"+ "."+imageType;
-		String thumbnailName =  imageName + "_t"+ "."+imageType;
-		InputStream thumbNailStream = ImageUtils.resizeImage(pictureStream, imageType, thumbWidth, thumbHeight);		
-
+	public Picture savePicture(final InputStream originalStream, String imageName, String imageType, Integer thumbWidth, Integer thumbHeight) throws IOException {
+		String originalImageName = imageName + "." + imageType;
+		
+		BufferedImage originalImage = ImageIO.read(originalStream);
+		Integer width = originalImage.getWidth();
+		Integer height = originalImage.getHeight();
+		
+		InputStream pictureStream = originalStream;
+		if(width>MAX_WIDTH){
+			Integer maxHeight = getProportionalHeight(width, height, MAX_WIDTH);
+			pictureStream = resizeImage(originalImage, imageType, MAX_WIDTH, maxHeight);			
+		}
 		putInS3(pictureStream, originalImageName);		
-		putInS3(thumbNailStream, thumbnailName);
 
 		Picture picture = new Picture();
-		picture.setOriginalId(originalImageName);
-		picture.setThumbnailId(thumbnailName);
+		picture.setName(originalImageName);
 		return picture;
 	}
 
@@ -49,18 +63,14 @@ public class PictureRepository  {
 		PutObjectRequest putObjectRequest = new PutObjectRequest(bucketName, imageName, pictureStream, objectMetadata);
 		s3.putObject(putObjectRequest);
 	}
-	
-	public Picture savePicture(UnsavedPicture unsavedPicture, Integer thumbWidth, Integer thumbHeight) throws IOException {
-		return savePicture(unsavedPicture.getInputStream(), unsavedPicture.getImageName(), unsavedPicture.getImageType(), thumbWidth, thumbHeight);
-	}
 
-	public Picture getImportedImg(String imgPath) {
+	public Picture getImportedImg(String imgPath, String source, String shortLink) {
 		try{			
 			URL url = new URL(imgPath);
 			InputStream inputStream = url.openStream();
-			return savePicture(inputStream, getImageName(imgPath), getImageType(imgPath), 200, null);
+			return savePicture(inputStream, getImageName(imgPath, source, shortLink), getImageType(imgPath), 200, null);
 		}catch (Exception e) {
-			logger.warn("Can't get image from " + imgPath);
+			logger.warn("Can't get image from " + source +  " at " + shortLink + " img "+ imgPath, e);
 		}
 		return null;
 	}
@@ -76,7 +86,7 @@ public class PictureRepository  {
 		return null;
 	}
 
-	public String getImageName(String imgPath) {
+	public String getImageName(String imgPath, String source, String shortLink) {
 		Integer start = 0;
 		Integer end = imgPath.length();
 		Integer nameStart = imgPath.lastIndexOf("/");
@@ -88,7 +98,30 @@ public class PictureRepository  {
 			end = nameEnd;
 		}
 		
-		return imgPath.substring(start, end);
+		return source + "_" + shortLink + "_" +  imgPath.substring(start, end);
 	}
+
+	public Integer getProportionalHeight(Integer width, Integer height, Integer newWidth) {
+		Integer newHeight = (height * newWidth)/ width;
+		return newHeight;
+	}
+	
+	public InputStream resizeImage(BufferedImage originalImage, String imageType, Integer width, Integer height) throws IOException{
+	 	Integer type = originalImage.getType() == 0? BufferedImage.TYPE_INT_ARGB : originalImage.getType();
+	 	BufferedImage resizedImage = new BufferedImage(width, height, type);
+		Graphics2D g = resizedImage.createGraphics();
+
+		g.drawImage(originalImage, 0, 0, width, height, null);
+		g.dispose();
+		g.setComposite(AlphaComposite.Src);
+		g.setRenderingHint(RenderingHints.KEY_INTERPOLATION,RenderingHints.VALUE_INTERPOLATION_BILINEAR);
+		g.setRenderingHint(RenderingHints.KEY_RENDERING,RenderingHints.VALUE_RENDER_QUALITY);
+		g.setRenderingHint(RenderingHints.KEY_ANTIALIASING,RenderingHints.VALUE_ANTIALIAS_ON);
+
+		ByteArrayOutputStream os = new ByteArrayOutputStream();
+		ImageIO.write(resizedImage, imageType, os);
+		InputStream resizedInputStream = new ByteArrayInputStream(os.toByteArray());
+		return resizedInputStream;
+ }
 
 }

@@ -15,6 +15,7 @@ import com.wp3x.reader.SourceType;
 public class SourcePatternFactory {
 	
 	private static final String DEFAULT_OG_IMAGE = "//*/meta[starts-with(@property, 'og:image')]/@content";
+	
 
 	private static Collection<SourcePattern> sourcePatternList;
 	
@@ -132,6 +133,7 @@ public class SourcePatternFactory {
 		entryPattern.setTags(Arrays.asList(new TagType[]{TagType.comunidade}));
 		
 		entryPattern.setLinkTextXPath("//*[@id=\"main\"]/div/div/div[1]/p[1]");
+		entryPattern.setImgXPath(DEFAULT_OG_IMAGE);
 		return entryPattern;
 	}
 
@@ -236,6 +238,7 @@ public class SourcePatternFactory {
 		entryPattern.setSourceLabel("Notícias do dia Joinville");
 		entryPattern.setSource("nd_joinville");
 		entryPattern.setTags(Arrays.asList(new TagType[]{TagType.geral}));
+		entryPattern.setImgXPath("//*/meta[starts-with(@name, 'og:image')]/@content");
 		return entryPattern;
 	}
 	
@@ -245,6 +248,7 @@ public class SourcePatternFactory {
 		entryPattern.setSourceLabel("ANotícia");
 		entryPattern.setSource("anoticia");
 		entryPattern.setTags(Arrays.asList(new TagType[]{TagType.geral}));
+		entryPattern.setImgXPath(DEFAULT_OG_IMAGE);
 		return entryPattern;
 	}
 	
@@ -254,6 +258,7 @@ public class SourcePatternFactory {
 		entryPattern.setSourceLabel("Portal Joinville");
 		entryPattern.setSource("portal_joinville");
 		entryPattern.setTags(Arrays.asList(new TagType[]{TagType.geral}));
+		entryPattern.setImgXPath(DEFAULT_OG_IMAGE);
 		return entryPattern;
 	}
 	
@@ -298,6 +303,7 @@ public class SourcePatternFactory {
 		entryPattern.setTags(Arrays.asList(new TagType[]{TagType.comunidade}));
 		
 		entryPattern.setLinkTextXPath("//*[@id=\"system\"]/article/div[1]/p");
+		entryPattern.setImgXPath(DEFAULT_OG_IMAGE);
 		return entryPattern;
 	}
 

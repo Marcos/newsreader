@@ -13,8 +13,8 @@
 		<appender-ref ref="stdout" />
 	</root>
 
-	<category name="com.openwp3x">
-		<priority value="INFO" />
+	<category name="com.wp3x">
+		<priority value="DEBUG" />
         <appender-ref ref="stdout" />
 	</category>
 

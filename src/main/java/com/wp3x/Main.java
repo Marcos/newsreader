@@ -14,7 +14,7 @@ public class Main {
 		EntityManagerUtil.getEntityManager();
 		logger.info("Starting app!");
 		new SchedulerJobs().start();
-		new ImportsEntries().start();
+		//new ImportsEntries().start();
 	}
 
 }

@@ -1,33 +1,35 @@
 package com.wp3x.model;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-@javax.persistence.Entity
+@Entity
 public class Picture {
 
-	public static final Integer DEFAULT_THUMB_WIDTH = 147;
-
-	public static final Integer DEFAULT_THUMB_HEIGHT = 110;
-
 	@Id
-	private String originalId;
+	@GeneratedValue(strategy=GenerationType.TABLE)
+	@Column(name="id")
+	private Long id;
+	
+	private String name;
 
-	private String thumbnailId;
-
-	public String getOriginalId() {
-		return this.originalId;
+	public String getName() {
+		return this.name;
 	}
 
-	public void setOriginalId(final String fileName) {
-		this.originalId = fileName;
+	public void setName(final String fileName) {
+		this.name = fileName;
 	}
 
-	public String getThumbnailId() {
-		return thumbnailId;
+	public Long getId() {
+		return id;
 	}
 
-	public void setThumbnailId(String thumbnail) {
-		this.thumbnailId = thumbnail;
+	public void setId(Long id) {
+		this.id = id;
 	}
 
 }

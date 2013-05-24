@@ -3,6 +3,7 @@ package com.wp3x.model;
 import java.util.Collection;
 import java.util.Date;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -11,9 +12,11 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
+import javax.persistence.OneToOne;
 import javax.persistence.Table;
 import javax.persistence.Transient;
 
+import org.hibernate.annotations.Cascade;
 import org.hibernate.annotations.Type;
 import org.joda.time.DateTime;
 
@@ -95,6 +98,9 @@ public class News {
 	
 	@Transient
 	private String formattedDate;
+	
+	@OneToOne(cascade={CascadeType.ALL})
+	private Picture picture;
 
 	public Long getId() {
 		return id;
@@ -238,6 +244,14 @@ public class News {
 
 	public void setFormattedDate(String formattedDate) {
 		this.formattedDate = formattedDate;
+	}
+
+	public Picture getPicture() {
+		return picture;
+	}
+
+	public void setPicture(Picture picture) {
+		this.picture = picture;
 	}
 
 	

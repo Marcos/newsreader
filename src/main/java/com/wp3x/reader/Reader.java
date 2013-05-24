@@ -60,7 +60,6 @@ public class Reader {
 		} catch (Exception e) {
 			String message = "Error parsing content from " + sourceURL.toString();
 			log.error(message, e);
-			throw new RuntimeException(message, e);
 		}
 	}
 
