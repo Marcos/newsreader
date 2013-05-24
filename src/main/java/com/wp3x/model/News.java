@@ -16,7 +16,6 @@ import javax.persistence.OneToOne;
 import javax.persistence.Table;
 import javax.persistence.Transient;
 
-import org.hibernate.annotations.Cascade;
 import org.hibernate.annotations.Type;
 import org.joda.time.DateTime;
 
@@ -24,7 +23,7 @@ import org.joda.time.DateTime;
 @Table(name="Entry")
 public class News {
 
-	public News(Long id, java.util.Date date, String formattedDate, String title, String link, String text, String shortText, String shortLink, String source, String sourceLabel) {
+	public News(Long id, java.util.Date date, String formattedDate, String title, String link, String text, String shortText, String shortLink, String source, String sourceLabel, String pictureName) {
 		this.id = id;
 		this.datePublished = date;
 		this.title = title;
@@ -35,6 +34,7 @@ public class News {
 		this.shortLink = shortLink;
 		this.sourceLabel = sourceLabel;
 		this.formattedDate = formattedDate;
+		this.pictureName = pictureName;
 	}
 	
 	public News() {
@@ -98,6 +98,9 @@ public class News {
 	
 	@Transient
 	private String formattedDate;
+	
+	@Transient
+	private String pictureName;
 	
 	@OneToOne(cascade={CascadeType.ALL})
 	private Picture picture;
@@ -252,6 +255,14 @@ public class News {
 
 	public void setPicture(Picture picture) {
 		this.picture = picture;
+	}
+
+	public String getPictureName() {
+		return pictureName;
+	}
+
+	public void setPictureName(String pictureName) {
+		this.pictureName = pictureName;
 	}
 
 	

@@ -58,6 +58,10 @@ public class TestPrefeituraEntries {
     	Assert.assertEquals(getExpectedLinkText1(), linkEntry.getText());
     	String formatedText = linkEntry.getFormattedText();
     	Assert.assertEquals(getExpectedFormattedLinkText1(), formatedText);
+    	
+    	String imgPath = linkEntry.getImgPath();
+    	String expectedImg = "http://www.joinville.sc.gov.br/public/portal/imagens/logo-pmj.png";
+    	Assert.assertEquals(expectedImg, imgPath);
     }
     
     private String getExpectedFormattedLinkText1() {
@@ -75,6 +79,10 @@ public class TestPrefeituraEntries {
     	Assert.assertEquals(getExpectedLinkText2(), linkEntry.getText());
     	String formatedText = linkEntry.getFormattedText();
     	Assert.assertEquals(getExpectedFormattedLinkText2(), formatedText);
+    	
+    	String imgPath = linkEntry.getImgPath();
+    	String expectedImg = "http://www.joinville.sc.gov.br/public/portaladm/imagens/fotos/thumb-1d9f973e575d65b9659e9b110176351e.jpg";
+    	Assert.assertEquals(expectedImg, imgPath);
     }
 
 	private String getExpectedFormattedLinkText2() {
