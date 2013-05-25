@@ -6,11 +6,15 @@ import java.awt.RenderingHints;
 import java.awt.image.BufferedImage;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
+import java.io.File;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.OutputStream;
 import java.net.URL;
 
 import javax.imageio.ImageIO;
+import javax.imageio.stream.ImageInputStream;
 
 import org.apache.log4j.Logger;
 
@@ -40,20 +44,34 @@ public class PictureRepository  {
 	public Picture savePicture(final InputStream originalStream, String imageName, String imageType, Integer thumbWidth, Integer thumbHeight) throws IOException {
 		String originalImageName = imageName + "." + imageType;
 		
-		BufferedImage originalImage = ImageIO.read(originalStream);
-		Integer width = originalImage.getWidth();
-		Integer height = originalImage.getHeight();
+		BufferedImage bufferedImage = getPictureStream(originalStream, imageType);
 		
-		InputStream pictureStream = originalStream;
-		if(width>MAX_WIDTH){
-			Integer maxHeight = getProportionalHeight(width, height, MAX_WIDTH);
-			pictureStream = resizeImage(originalImage, imageType, MAX_WIDTH, maxHeight);			
+		ByteArrayOutputStream os = new ByteArrayOutputStream();
+		ImageIO.write(bufferedImage, imageType, os);
+		InputStream inputStream = new ByteArrayInputStream(os.toByteArray());
+		
+		putInS3(inputStream, originalImageName);
+		
+		if(logger.isDebugEnabled()){
+			ImageIO.write(bufferedImage, imageType, new File("target"+File.separator+originalImageName));
 		}
-		putInS3(pictureStream, originalImageName);		
 
 		Picture picture = new Picture();
 		picture.setName(originalImageName);
 		return picture;
+	}
+
+	public BufferedImage getPictureStream(InputStream originalStream, String imageType) throws IOException {
+		BufferedImage originalImage = ImageIO.read(originalStream);
+		Integer width = originalImage.getWidth();
+		Integer height = originalImage.getHeight();
+		
+		BufferedImage pictureStream = originalImage;
+		if(width>MAX_WIDTH){
+			Integer maxHeight = getProportionalHeight(width, height, MAX_WIDTH);
+			pictureStream = resizeImage(originalImage, imageType, MAX_WIDTH, maxHeight);			
+		}
+		return pictureStream;
 	}
 
 	public void putInS3(InputStream pictureStream, String imageName) throws IOException {
@@ -106,22 +124,15 @@ public class PictureRepository  {
 		return newHeight;
 	}
 	
-	public InputStream resizeImage(BufferedImage originalImage, String imageType, Integer width, Integer height) throws IOException{
-	 	Integer type = originalImage.getType() == 0? BufferedImage.TYPE_INT_ARGB : originalImage.getType();
+	public BufferedImage resizeImage(BufferedImage originalImage, String imageType, Integer width, Integer height) throws IOException{   
+		Integer type = originalImage.getType() == 0? BufferedImage.TYPE_INT_ARGB : originalImage.getType();
 	 	BufferedImage resizedImage = new BufferedImage(width, height, type);
 		Graphics2D g = resizedImage.createGraphics();
 
 		g.drawImage(originalImage, 0, 0, width, height, null);
 		g.dispose();
-		g.setComposite(AlphaComposite.Src);
-		g.setRenderingHint(RenderingHints.KEY_INTERPOLATION,RenderingHints.VALUE_INTERPOLATION_BILINEAR);
-		g.setRenderingHint(RenderingHints.KEY_RENDERING,RenderingHints.VALUE_RENDER_QUALITY);
-		g.setRenderingHint(RenderingHints.KEY_ANTIALIASING,RenderingHints.VALUE_ANTIALIAS_ON);
-
-		ByteArrayOutputStream os = new ByteArrayOutputStream();
-		ImageIO.write(resizedImage, imageType, os);
-		InputStream resizedInputStream = new ByteArrayInputStream(os.toByteArray());
-		return resizedInputStream;
- }
-
+		return resizedImage;
+	}
+	
+	
 }

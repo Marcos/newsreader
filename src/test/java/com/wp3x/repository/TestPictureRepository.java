@@ -6,6 +6,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
+import java.net.URL;
 
 import javax.imageio.ImageIO;
 
@@ -87,48 +88,33 @@ public class TestPictureRepository {
 	}
 
 	@Test
-	public void testResizeImage() throws IOException {
+	public void testResizeImagePNG() throws IOException {
 		InputStream originalStream = TestPictureRepository.class.getClassLoader().getResourceAsStream("nuveo.png");
 		BufferedImage originalImage = ImageIO.read(originalStream);
-		InputStream newInputStream = pictureRepository.resizeImage(originalImage, "png", 40, 40);
-		BufferedImage newImage = ImageIO.read(newInputStream);
+		BufferedImage newImage = pictureRepository.resizeImage(originalImage, "png", 40, 40);
 		Assert.assertEquals(40, newImage.getWidth());
 		Assert.assertEquals(40, newImage.getHeight());
 		
-		saveToFile(newInputStream, "target/teste_resize_nuveo.png");
+		ImageIO.write(newImage, "png", new File("target/teste_resize_nuveo.png"));
 	}
-
-	private void saveToFile(InputStream originalStream, String dest) {
-		OutputStream outputStream = null;
-		InputStream inputStream = null;
-		try {
-			inputStream = originalStream;
-			outputStream = new FileOutputStream(new File(dest));
-
-			int read = 0;
-			byte[] bytes = new byte[1024];
-			while ((read = inputStream.read(bytes)) != -1) {
-				outputStream.write(bytes, 0, read);
-			}
-		} catch (IOException e) {
-			e.printStackTrace();
-		} finally {
-			if (inputStream != null) {
-				try {
-					inputStream.close();
-				} catch (IOException e) {
-					e.printStackTrace();
-				}
-			}
-			if (outputStream != null) {
-				try {
-					outputStream.close();
-				} catch (IOException e) {
-					e.printStackTrace();
-				}
-
-			}
-		}
-
+	
+	@Test
+	public void testResizeImageJPG() throws IOException {
+		InputStream originalStream = TestPictureRepository.class.getClassLoader().getResourceAsStream("nuveo.jpg");
+		BufferedImage originalImage = ImageIO.read(originalStream);
+		BufferedImage newImage = pictureRepository.resizeImage(originalImage, "jpg", 40, 40);
+		Assert.assertEquals(40, newImage.getWidth());
+		Assert.assertEquals(40, newImage.getHeight());
+		
+		ImageIO.write(newImage, "jpg", new File("target/teste_resize_nuveo.jpg"));
 	}
+	
+	@Test
+	public void testGetResizedStream() throws IOException{
+		InputStream inputStream = this.getClass().getClassLoader().getResourceAsStream("prefeitura-img1.jpg");
+		BufferedImage resizedStream = pictureRepository.getPictureStream(inputStream, "jpg");
+		ImageIO.write(resizedStream, "jpg", new File("target/prefeitura-img1.jpg"));		
+	}
+	
+	
 }
