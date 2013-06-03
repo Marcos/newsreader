@@ -42,10 +42,10 @@ public class SourceReader {
 					text = this.reader.getTextContent(this.getCurrentEntry(textXPath, counter));
 				}
 				entries.add(new SourceEntry(date, title, link, text, this.entryPattern));
-				counter += this.entryPattern.getInterval();
 			} catch (Exception e) {
 				log.error("Error getting entry from " + entryPattern.getSource(), e);
 			}
+			counter += this.entryPattern.getInterval();
 		}
 		this.log.info("Finished from " + entryPattern.getSource());
 		return entries;

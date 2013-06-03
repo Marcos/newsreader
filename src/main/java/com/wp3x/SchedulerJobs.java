@@ -15,7 +15,7 @@ public class SchedulerJobs extends Thread{
 			logger.info("Executing at " + new java.util.Date());
 			new LinkShortener().execute();
 			new TextImport().execute();
-			//new TwitterPublisher().execute();			
+			new TwitterPublisher().execute();			
 			waitNextExecution();
 		}
 	}

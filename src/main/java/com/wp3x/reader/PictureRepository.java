@@ -1,20 +1,15 @@
 package com.wp3x.reader;
 
-import java.awt.AlphaComposite;
 import java.awt.Graphics2D;
-import java.awt.RenderingHints;
 import java.awt.image.BufferedImage;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
-import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.OutputStream;
 import java.net.URL;
 
 import javax.imageio.ImageIO;
-import javax.imageio.stream.ImageInputStream;
 
 import org.apache.log4j.Logger;
 
@@ -36,7 +31,6 @@ public class PictureRepository  {
 	String secretKey = "buCh40vgpWif+9FU+3ktWw0hA92uE2kX/D2ldI9O";
 	String bucketName = "nuveo";
 	AWSCredentials picturesCredential = new BasicAWSCredentials(accessKey, secretKey);
-
 	AmazonS3 s3 = new AmazonS3Client(picturesCredential);
 	
 

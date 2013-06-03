@@ -233,8 +233,12 @@ public class SourcePatternFactory {
 	}
 
 	public static SourcePattern getNDJoinvillePattern() throws MalformedURLException {
-		final SourcePattern entryPattern = getRSSEntryPattern();
+		final SourcePattern entryPattern = new SourcePattern();
 		entryPattern.setSourceURL(new URL("http://feeds.feedburner.com/ndjoinville_noticias"));
+		entryPattern.setCharset("UTF-8");
+		entryPattern.setDateXPath("/html/body/rss/channel/item[1]/pubdate/text()");
+		entryPattern.setTitleXPath("/html/body/rss/channel/item[1]/title/text()");
+		entryPattern.setUrlXPath("/html/body/rss/channel/item[1]/text()");
 		entryPattern.setSourceLabel("Notícias do dia Joinville");
 		entryPattern.setSource("nd_joinville");
 		entryPattern.setTags(Arrays.asList(new TagType[]{TagType.geral}));
