@@ -17,11 +17,12 @@
 				<exclude name="**/db.properties"/>
 				<exclude name="**/twitter4j.properties"/>
 				<exclude name="**/persistence.xml"/>
+				<exclude name="**/log4j.xml"/>
 			</fileset>
 			<fileset dir="${basedir}/hotdeploy"/>
 			<zipgroupfileset dir="${lib.dir}" includes="**/*.jar" />
 			<manifest>
-				<attribute name="Main-Class" value="com.openwp3x.Main" />
+				<attribute name="Main-Class" value="com.wp3x.Main" />
 			</manifest>
 		</jar>
 		<copy file="${jar.dest}" todir="${web.dir}" />
