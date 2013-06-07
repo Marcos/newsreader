@@ -3,6 +3,7 @@ package com.wp3x.jobs;
 import java.util.Collection;
 import java.util.Random;
 
+import org.apache.commons.lang3.BooleanUtils;
 import org.apache.log4j.Logger;
 
 import com.wp3x.ImportNews;
@@ -23,7 +24,9 @@ public class ImportsEntries extends Thread{
 					@Override
 					public void run() {
 						try {
-							new ImportNews().importNews(new SourceReader(entryPattern).getEntries());
+							if(BooleanUtils.toBoolean(entryPattern.getEnabled())){							
+								new ImportNews().importNews(new SourceReader(entryPattern).getEntries());
+							}
 						} catch (Exception e) {
 							logger.error("Error executing scheduler with source " + entryPattern.getSource(), e);
 						} 

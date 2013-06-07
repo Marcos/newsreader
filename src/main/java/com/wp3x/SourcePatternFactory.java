@@ -274,6 +274,7 @@ public class SourcePatternFactory {
 		entryPattern.setSource("osny_martins");
 		entryPattern.setTitleNormalize(true);
 		entryPattern.setTags(Arrays.asList(new TagType[]{TagType.geral}));
+		entryPattern.setEnabled(false);
 		return entryPattern;
 	}
 

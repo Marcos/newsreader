@@ -78,6 +78,10 @@ public class TextImport implements NuveoJob{
 		}
 		return null;
 	}
+	
+	public static void main(String[] args) {
+		new TextImport().execute();
+	}
 
 
 }

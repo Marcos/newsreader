@@ -77,7 +77,7 @@ public class PictureRepository  {
 	}
 
 	public Picture getImportedImg(String imgPath, String source, String shortLink) {
-		try{			
+		try{
 			URL url = new URL(imgPath);
 			InputStream inputStream = url.openStream();
 			return savePicture(inputStream, getImageName(imgPath, source, shortLink), getImageType(imgPath), 200, null);

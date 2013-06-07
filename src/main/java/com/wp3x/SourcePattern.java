@@ -68,6 +68,8 @@ public class SourcePattern {
 	
 	private Collection<TagType> tags;
 
+	private Boolean enabled = true;
+
     /**
      * @return the title
      */
@@ -315,5 +317,13 @@ public class SourcePattern {
 
 	public void setImgXPath(String imgXPath) {
 		this.imgXPath = imgXPath;
+	}
+
+	public void setEnabled(Boolean disabled) {
+		this.enabled = disabled;
+	}
+
+	public Boolean getEnabled() {
+		return enabled;
 	}
 }

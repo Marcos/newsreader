@@ -19,7 +19,6 @@ public class LinkReader {
 		this.entryPattern = entryPattern;
 		this.linkUrl = linkUrl;
 		this.reader = new Reader(linkUrl, entryPattern.getSource(), SourceType.HTML, entryPattern.getCharset());
-		
 	}
 
 	public LinkEntry getLinkEntry() {
