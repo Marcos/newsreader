@@ -7,7 +7,7 @@
 		<properties>
 			<property name="hibernate.connection.username" value="nuveo"/>
 			<property name="hibernate.connection.password" value="nuveo.me"/>
-			<property name="hibernate.connection.url" value="jdbc:jtds:sqlserver://nuveo3.cgrysfd1kgsl.sa-east-1.rds.amazonaws.com/nuveo"/>
+			<property name="hibernate.connection.url" value="jdbc:jtds:sqlserver://nuveotest.cgrysfd1kgsl.sa-east-1.rds.amazonaws.com/nuveo"/>
 			<property name="hibernate.connection.driver_class" value="net.sourceforge.jtds.jdbc.Driver"/>
 			<property name="hibernate.dialect" value="org.hibernate.dialect.SQLServerDialect" />
 			<property name="hibernate.hbm2ddl.auto" value="update"/>

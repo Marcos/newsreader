@@ -49,7 +49,7 @@ public class SourcePatternFactory {
 				sourcePatternList.add(SourcePatternFactory.getDefesaCivilPattern());
 				sourcePatternList.add(SourcePatternFactory.getCVJoinvillePattern());
 				sourcePatternList.add(SourcePatternFactory.getOsnyMartinsPattern());
-				//entryPatternList.add(EntryPatternFactory.getAnoticiaPattern());
+				sourcePatternList.add(SourcePatternFactory.getAnoticiaPattern());
 				sourcePatternList.add(SourcePatternFactory.getNDJoinvillePattern());
 				sourcePatternList.add(SourcePatternFactory.getPortalJoinvillePattern());
 				sourcePatternList.add(SourcePatternFactory.getJecPattern());
