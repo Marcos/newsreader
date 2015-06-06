@@ -7,72 +7,73 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collection;
 
-import org.apache.log4j.Logger;
+import com.wp3x.Source;
 
-import com.wp3x.SourcePattern;
-
-/**
- * @author marcos.ferreira
- * 
- */
 public class SourceReader {
 
-	private final SourcePattern entryPattern;
+	private final Source entryPattern;
 	private Reader reader;
-	private Logger log = Logger.getLogger(this.getClass());
 
-	public SourceReader(final SourcePattern entryPattern)
+	public SourceReader(final Source entryPattern)
 			throws ReaderException, IOException {
 		this.entryPattern = entryPattern;
-		this.reader = new Reader(entryPattern.getSourceURL(),
+		reader = new Reader( entryPattern.getSourceURL(),
 				entryPattern.getSource(), entryPattern.getSourceType(),
-				entryPattern.getCharset());
+				entryPattern.getCharset() );
 	}
 
 	public Collection<SourceEntry> getEntries() {
-		this.log.info("Getting entries from " + entryPattern.getSource());
 		final Collection<SourceEntry> entries = new ArrayList<SourceEntry>();
-
-		Integer counter = this.entryPattern.getMinResult();
-		while (counter <= this.entryPattern.getMaxResult()) {
-			try {
-				final String date = this.reader.getDateContent(this
-						.getCurrentEntry(this.entryPattern.getDateXPath(),
-								counter), this.entryPattern
-						.getDateTextPattern());
-				final String title = this.reader.getTextContent(this
-						.getCurrentEntry(this.entryPattern.getTitleXPath(),
-								counter));
-				final String link = this.reader.getTextContent(this
-						.getCurrentEntry(this.entryPattern.getUrlXPath(),
-								counter));
-				String textXPath = this.entryPattern.getTextXPath();
-				String text = null;
-				if (textXPath != null) {
-					text = this.reader.getTextContent(this.getCurrentEntry(
-							textXPath, counter));
-				}
-				entries.add(new SourceEntry(date, title, link, text,
-						this.entryPattern));
-			} catch (Exception e) {
-				log.error(
-						"Error getting entry from " + entryPattern.getSource(),
-						e);
-			}
-			counter += this.entryPattern.getInterval();
+		Integer counter = entryPattern.getMinResult();
+		while (counter <= entryPattern.getMaxResult()) {
+			SourceEntry sourceEntry = getSourceEntry( counter );
+			entries.add( sourceEntry );
+			counter += entryPattern.getInterval();
 		}
-		this.log.info("Finished from " + entryPattern.getSource());
 		return entries;
 	}
 
-	/**
-	 * @param dateXPath
-	 * @param i
-	 * @return
-	 */
-	private String getCurrentEntry(final String xPath, final Integer i) {
-		if (xPath != null) {
-			return xPath.replace("{_counter}", i.toString());
+	private SourceEntry getSourceEntry(Integer counter) {
+		try {
+			final String date = readDate( counter );
+			final String title = readTitle( counter );
+			final String link = readLink( counter );
+			final String text = getText( counter );
+			SourceEntry sourceEntry = new SourceEntry( date, title, link, text,
+					entryPattern );
+			return sourceEntry;
+		} catch (Exception e) {
+			return new SourceEntry();
+		}
+	}
+
+	private String getText(Integer counter) throws ReaderException {
+		String text = entryPattern.getText();
+		if (text != null) {
+			return reader.getTextContent( getCurrentEntry( text, counter ) );
+		}
+		return null;
+	}
+
+	private String readLink(Integer counter) throws ReaderException {
+		return reader.getTextContent( getCurrentEntry(
+				entryPattern.getUrl(), counter ) );
+	}
+
+	private String readTitle(Integer counter) throws ReaderException {
+		return reader.getTextContent( getCurrentEntry(
+				entryPattern.getTitle(), counter ) );
+	}
+
+	private String readDate(Integer counter) throws ReaderException {
+		return reader.getDateContent(
+				getCurrentEntry( entryPattern.getDate(), counter ),
+				entryPattern.getDateTextPattern() );
+	}
+
+	private String getCurrentEntry(final String xpath, final Integer i) {
+		if (xpath != null) {
+			return xpath.replace( "{_counter}", i.toString() );
 		}
 		return null;
 	}

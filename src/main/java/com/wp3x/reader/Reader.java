@@ -45,7 +45,6 @@ public class Reader {
 			String charset) throws ReaderException, IOException {
 		final InputStream inputStream = getStream(sourceURL);
 		this.doc = getContent(inputStream, sourceType, charset);
-
 	}
 
 	public void writeFile(String fileDest) throws ReaderException {
