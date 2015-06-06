@@ -3,22 +3,25 @@ package com.wp3x.reader;
 import java.io.IOException;
 import java.net.URL;
 
-import com.wp3x.Link;
+import com.wp3x.content.Link;
+import com.wp3x.exceptions.ReaderException;
+import com.wp3x.pattern.LinkPattern;
+import com.wp3x.pattern.SourceType;
 
 public class LinkReader {
 
-	private Link link;
+	private LinkPattern link;
 	private Reader reader;
 
-	public LinkReader(Link pattern, URL linkUrl) throws ReaderException,
+	public LinkReader(LinkPattern pattern, URL linkUrl) throws ReaderException,
 			IOException {
 		this.link = pattern;
 		this.reader = new Reader( linkUrl, pattern.getSource(), SourceType.HTML,
 				pattern.getCharset() );
 	}
 
-	public LinkEntry getLinkEntry() throws ReaderException {
-		LinkEntry linkEntry = new LinkEntry();
+	public Link getLinkEntry() throws ReaderException {
+		Link linkEntry = new Link();
 		String linkText = readText();
 		linkEntry.setText( linkText );
 

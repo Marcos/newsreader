@@ -7,43 +7,43 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collection;
 
-import com.wp3x.Source;
+import com.wp3x.content.Entry;
+import com.wp3x.exceptions.ReaderException;
+import com.wp3x.pattern.EntryPattern;
 
-public class SourceReader {
+public class EntryReader {
 
-	private final Source entryPattern;
+	private final EntryPattern entryPattern;
 	private Reader reader;
 
-	public SourceReader(final Source entryPattern)
+	public EntryReader(final EntryPattern entryPattern, Reader reader)
 			throws ReaderException, IOException {
 		this.entryPattern = entryPattern;
-		reader = new Reader( entryPattern.getSourceURL(),
-				entryPattern.getSource(), entryPattern.getSourceType(),
-				entryPattern.getCharset() );
+		this.reader = reader;
 	}
 
-	public Collection<SourceEntry> getEntries() {
-		final Collection<SourceEntry> entries = new ArrayList<SourceEntry>();
+	public Collection<Entry> getEntries() {
+		final Collection<Entry> entries = new ArrayList<Entry>();
 		Integer counter = entryPattern.getMinResult();
 		while (counter <= entryPattern.getMaxResult()) {
-			SourceEntry sourceEntry = getSourceEntry( counter );
+			Entry sourceEntry = getSourceEntry( counter );
 			entries.add( sourceEntry );
 			counter += entryPattern.getInterval();
 		}
 		return entries;
 	}
 
-	private SourceEntry getSourceEntry(Integer counter) {
+	private Entry getSourceEntry(Integer counter) {
 		try {
 			final String date = readDate( counter );
 			final String title = readTitle( counter );
 			final String link = readLink( counter );
 			final String text = getText( counter );
-			SourceEntry sourceEntry = new SourceEntry( date, title, link, text,
+			Entry sourceEntry = new Entry( date, title, link, text,
 					entryPattern );
 			return sourceEntry;
 		} catch (Exception e) {
-			return new SourceEntry();
+			return new Entry();
 		}
 	}
 

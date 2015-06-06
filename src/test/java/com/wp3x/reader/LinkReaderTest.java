@@ -9,17 +9,18 @@ import java.net.URL;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.wp3x.Link;
+import com.wp3x.content.Link;
+import com.wp3x.pattern.LinkPattern;
 
 public class LinkReaderTest {
 
 	final URL link1 = getURL( "prefeitura-n1.htm" );
 	final URL link2 = getURL( "prefeitura-n2.htm" );
-	Link entryPattern;
+	LinkPattern entryPattern;
 
 	@Before
 	public void before() throws MalformedURLException {
-		entryPattern = Link.builder()
+		entryPattern = LinkPattern.builder()
 				.charset( "UTF-8" )
 				.source( "prefeitura" )
 				.text( "//*[@id=\"main\"]/div/div/div[1]/p[1]" )
@@ -30,7 +31,7 @@ public class LinkReaderTest {
 	@Test
 	public void testReadLink1() throws Exception {
 		LinkReader linkReader = new LinkReader( entryPattern, link1 );
-		LinkEntry linkEntry = linkReader.getLinkEntry();
+		Link linkEntry = linkReader.getLinkEntry();
 		assertEquals( getExpectedLinkText1(), linkEntry.getText() );
 		String formatedText = linkEntry.getFormattedText();
 		assertEquals( getExpectedFormattedLinkText1(), formatedText );
@@ -51,7 +52,7 @@ public class LinkReaderTest {
 	@Test
 	public void testReadLink2() throws Exception {
 		LinkReader linkReader = new LinkReader( entryPattern, link2 );
-		LinkEntry linkEntry = linkReader.getLinkEntry();
+		Link linkEntry = linkReader.getLinkEntry();
 		assertEquals( getExpectedLinkText2(), linkEntry.getText() );
 		String formatedText = linkEntry.getFormattedText();
 		assertEquals( getExpectedFormattedLinkText2(), formatedText );

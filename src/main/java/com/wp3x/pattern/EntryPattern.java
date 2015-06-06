@@ -1,6 +1,5 @@
-package com.wp3x;
+package com.wp3x.pattern;
 
-import java.net.URL;
 import java.util.Locale;
 
 import lombok.AllArgsConstructor;
@@ -8,17 +7,12 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import com.wp3x.reader.SourceType;
-
 @Data
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class Source {
+public class EntryPattern {
 
-	private URL sourceURL;
-	private SourceType sourceType = SourceType.HTML;
-	private String charset = "UTF-8";
 	private String dateTextPattern;
 	private String dateFormat = "dd/MM/yyyy";
 	private String title;
@@ -27,8 +21,6 @@ public class Source {
 	private String text;
 	private String linkText;
 	private String img;
-	private String source;
-	private String sourceLabel;
 	private String urlResource;
 	private String titlePrefixPattern;
 	private String titleSufixPattern;

@@ -1,9 +1,9 @@
-package com.wp3x.reader;
+package com.wp3x.content;
 
 import lombok.Data;
 
 @Data
-public class LinkEntry {
+public class Link {
 	
 	private String text;
 	

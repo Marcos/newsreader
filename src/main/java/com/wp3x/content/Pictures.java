@@ -1,4 +1,4 @@
-package com.wp3x.reader;
+package com.wp3x.content;
 
 import java.awt.Graphics2D;
 import java.awt.image.BufferedImage;

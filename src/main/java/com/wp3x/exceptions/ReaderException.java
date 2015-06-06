@@ -1,4 +1,4 @@
-package com.wp3x.reader;
+package com.wp3x.exceptions;
 
 public class ReaderException extends Exception {
 

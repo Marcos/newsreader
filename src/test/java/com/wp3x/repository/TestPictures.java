@@ -11,7 +11,7 @@ import javax.imageio.ImageIO;
 
 import org.junit.Test;
 
-import com.wp3x.reader.Pictures;
+import com.wp3x.content.Pictures;
 
 public class TestPictures {
 

@@ -4,6 +4,8 @@ import static org.junit.Assert.assertNull;
 
 import org.junit.Test;
 
+import com.wp3x.content.TextProcessor;
+
 public class TestTextPreProcessor {
 
 	TextProcessor textPreProcessor = new TextProcessor();
