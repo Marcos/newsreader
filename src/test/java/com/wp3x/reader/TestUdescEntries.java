@@ -1,74 +1,68 @@
-/**
- * 
- */
 package com.wp3x.reader;
+
+import static org.junit.Assert.assertEquals;
 
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.Collection;
-
-import junit.framework.Assert;
 
 import org.junit.Before;
 import org.junit.Test;
 
 import com.wp3x.SourcePattern;
 import com.wp3x.SourcePatternFactory;
-import com.wp3x.reader.LinkEntry;
-import com.wp3x.reader.LinkException;
-import com.wp3x.reader.LinkReader;
-import com.wp3x.reader.SourceEntry;
-import com.wp3x.reader.SourceReader;
 
-/**
- * @author marcos.ferreira
- * 
- */
 public class TestUdescEntries {
 
-    final URL resource = this.getClass().getClassLoader().getResource("udesc-list.htm");
-    final URL link1 = this.getClass().getClassLoader().getResource("udesc-n1.htm");
-    final URL link2 = this.getClass().getClassLoader().getResource("udesc-n2.htm");
-    SourcePattern entryPattern;
-    
-    @Before
-    public void before() throws MalformedURLException{
-    	entryPattern = SourcePatternFactory.getUdescPattern();
-    }
-    
-    
-    @Test
-    public void testGetLinks() throws Exception {
-    	entryPattern.setSourceURL(resource);
-    	SourceReader newsReader = new SourceReader(entryPattern);
-        final Collection<SourceEntry> entries = newsReader.getEntries();
-        
-        final SourceEntry firstEntry = entries.iterator().next();
-        Assert.assertEquals("Termina neste domingo prazo para submissão de trabalhos no Encontro Catarinense de LibreOffice", firstEntry.getFormattedTitle());
-        Assert.assertEquals("17/04/2013", firstEntry.getDate());
-        Assert.assertEquals("index.php?id=5160&pg=1", firstEntry.getUrl());
-        Assert.assertEquals("http://www.joinville.udesc.br/portal/noticias/index.php?id=5160&pg=1", firstEntry.getFormattedURL());
-        Assert.assertEquals(1366167600000L, firstEntry.getDateAsLong().longValue());
-        Assert.assertEquals(20, entries.size());
-    }
-    
-    @Test
-    public void testReadLink1() throws MalformedURLException, LinkException{
-    	LinkReader linkReader = new LinkReader(entryPattern, link1);
-    	LinkEntry linkEntry = linkReader.getLinkEntry();
-    	Assert.assertEquals(getExpectedLinkText1(), linkEntry.getText());
-    	String formatedText = linkEntry.getFormattedText();
-    	Assert.assertEquals(getExpectedFormattedLinkText1(), formatedText);
-    }
-    
-    @Test
-    public void testReadLink2() throws MalformedURLException, LinkException{
-    	LinkReader linkReader = new LinkReader(entryPattern, link2);
-    	LinkEntry linkEntry = linkReader.getLinkEntry();
-    	Assert.assertEquals(getExpectedLinkText2(), linkEntry.getText());
-    	String formatedText = linkEntry.getFormattedText();
-    	Assert.assertEquals(getExpectedFormattedLinkText2(), formatedText);
-    }
+	final URL resource = this.getClass().getClassLoader()
+			.getResource("udesc-list.htm");
+	final URL link1 = this.getClass().getClassLoader()
+			.getResource("udesc-n1.htm");
+	final URL link2 = this.getClass().getClassLoader()
+			.getResource("udesc-n2.htm");
+	SourcePattern entryPattern;
+
+	@Before
+	public void before() throws MalformedURLException {
+		entryPattern = SourcePatternFactory.getUdescPattern();
+	}
+
+	@Test
+	public void testGetLinks() throws Exception {
+		entryPattern.setSourceURL(resource);
+		SourceReader newsReader = new SourceReader(entryPattern);
+		final Collection<SourceEntry> entries = newsReader.getEntries();
+
+		final SourceEntry firstEntry = entries.iterator().next();
+		assertEquals(
+				"Termina neste domingo prazo para submissão de trabalhos no Encontro Catarinense de LibreOffice",
+				firstEntry.getFormattedTitle());
+		assertEquals("17/04/2013", firstEntry.getDate());
+		assertEquals("index.php?id=5160&pg=1", firstEntry.getUrl());
+		assertEquals(
+				"http://www.joinville.udesc.br/portal/noticias/index.php?id=5160&pg=1",
+				firstEntry.getFormattedURL());
+		assertEquals(1366167600000L, firstEntry.getDateAsLong().longValue());
+		assertEquals(20, entries.size());
+	}
+
+	@Test
+	public void testReadLink1() throws Exception {
+		LinkReader linkReader = new LinkReader(entryPattern, link1);
+		LinkEntry linkEntry = linkReader.getLinkEntry();
+		assertEquals(getExpectedLinkText1(), linkEntry.getText());
+		String formatedText = linkEntry.getFormattedText();
+		assertEquals(getExpectedFormattedLinkText1(), formatedText);
+	}
+
+	@Test
+	public void testReadLink2() throws Exception {
+		LinkReader linkReader = new LinkReader(entryPattern, link2);
+		LinkEntry linkEntry = linkReader.getLinkEntry();
+		assertEquals(getExpectedLinkText2(), linkEntry.getText());
+		String formatedText = linkEntry.getFormattedText();
+		assertEquals(getExpectedFormattedLinkText2(), formatedText);
+	}
 
 	private String getExpectedFormattedLinkText2() {
 		return "A Universidade do Estado de Santa Catarina (Udesc) anunciou nesta quinta-feira, 9, que as inscrições para o Vestibular de Inverno 2013 serão realizadas de 21 de maio a 18 de junho por meio do site http://www.vestibular.udesc.br/.\n\nAs provas serão aplicadas em 7 de julho nas cidades de Florianópolis, Joinville, Lages, Ibirama, São Bento do Sul, Chapecó, Laguna e Balneário Camboriú. O resultado será divulgado até 17 de julho.\n\nA coordenadora do Vestibular da Udesc, Rosângela de Souza Machado, informa ainda que o edital com o número de vagas e opções de cursos será divulgado até 21 de maio.\n\nOutras informações podem ser obtidas pelo e-mail vestiba@udesc.br ou com a Coordenadoria do Vestibular pelo telefone (48) 3321-8098, de segunda a sexta-feira, das 13h às 19h.\n\n--\n\nAssessoria de Comunicação da Udesc\nJornalista Thiago Augusto\nE-mail: thiago.augusto@udesc.br\nFone: (48) 3321-8142";

@@ -1,27 +1,17 @@
-/**
- * 
- */
 package com.wp3x.reader;
+import static org.junit.Assert.assertEquals;
 
 import java.net.URL;
 import java.util.Locale;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import junit.framework.Assert;
-
 import org.junit.Before;
 import org.junit.Test;
 
 import com.wp3x.SourcePattern;
 import com.wp3x.SourcePatternFactory;
-import com.wp3x.reader.Reader;
-import com.wp3x.reader.SourceEntry;
 
-/**
- * @author marcos.ferreira
- * 
- */
 
 public class TestReader {
 
@@ -44,7 +34,7 @@ public class TestReader {
     @Test
     public void testGetTitle() throws Exception {
         String entry = this.newsReader1.getTextContent( "//*[@id=\"wrapper\"]/table[1]/tbody/tr/td[1]/div[1]/p[2]");
-        Assert.assertEquals("Programa \"Extensão Udesc\" estreia na Rádio Udesc (91.9 FM) ", entry);
+        assertEquals("Programa \"Extensão Udesc\" estreia na Rádio Udesc (91.9 FM) ", entry);
     }
     
     @Test
@@ -52,20 +42,20 @@ public class TestReader {
         Locale.setDefault(Locale.ENGLISH);
         final String datePattern = "\\d{2}/\\d{2}/\\d{4}";
         String date = newsReader1.getDateContent("//*[@id=\"wrapper\"]/table[1]/tbody/tr/td[1]/div[1]/p", datePattern);
-        Assert.assertEquals("10/04/2013", date);
+        assertEquals("10/04/2013", date);
     }
 
     @Test
     public void testGetText() throws Exception {
         String entry = this.newsReader1.getTextContent("//*[@id=\"wrapper\"]/table[1]/tbody/tr/td[1]/div[1]");
-        Assert.assertEquals(this.getNewText(), entry);
+        assertEquals(this.getNewText(), entry);
     }
     
     @Test
     public void testGetOGImageTag() throws Exception {
         String entry = this.newsReader2.getTextContent("//*/meta[starts-with(@property, 'og:image')]/@content");
         String expectedImg = "http://defesacivil.joinville.sc.gov.br/public/portaldefesaadm/imagens/fotos/thumb-b8b96ef656c7ba80443447b49c4260a2.jpg";
-        Assert.assertEquals(expectedImg, entry);
+        assertEquals(expectedImg, entry);
     }
     
 
@@ -80,7 +70,7 @@ public class TestReader {
     	String endPattern = "Compartilhar: ";
     	String cleanedText = this.newsReader1.clearText(dirtText, startPattern, endPattern);
     	String exptectedText = getExpectedCleanedText();
-    	Assert.assertEquals(exptectedText, cleanedText);
+    	assertEquals(exptectedText, cleanedText);
     }
 
     private String getExpectedCleanedText() {
@@ -91,7 +81,7 @@ public class TestReader {
     public void testFindDateInText() {
         final String text = "Joinville, SC - 10/04/2013";
         final String datePatern = "\\d{2}/\\d{2}/\\d{4}";
-        Assert.assertEquals("10/04/2013", this.newsReader1.getDateFromText(text, datePatern));
+        assertEquals("10/04/2013", this.newsReader1.getDateFromText(text, datePatern));
     }
 
     
@@ -102,23 +92,23 @@ public class TestReader {
         final Pattern pattern = Pattern.compile("\\d+");
         Matcher matcher = pattern.matcher(dirtText);
         matcher.find();
-        Assert.assertEquals(matcher.group(), "13680");
+        assertEquals(matcher.group(), "13680");
 
         final String dirtText2 = "viewRegistro(1368088);return false;";
         matcher = pattern.matcher(dirtText2);
         matcher.find();
-        Assert.assertEquals(matcher.group(), "1368088");
+        assertEquals(matcher.group(), "1368088");
 
         final String dirtText3 = "viewRegistro(1368088);return 123;";
         matcher = pattern.matcher(dirtText3);
         matcher.find();
         final String cleanedText = matcher.group();
-        Assert.assertEquals(cleanedText, "1368088");
+        assertEquals(cleanedText, "1368088");
 
         final String dirtText4 = "viewRegistro(1);return false;";
         matcher = pattern.matcher(dirtText4);
         matcher.find();
-        Assert.assertEquals(matcher.group(), "1");
+        assertEquals(matcher.group(), "1");
     }
     
     @Test

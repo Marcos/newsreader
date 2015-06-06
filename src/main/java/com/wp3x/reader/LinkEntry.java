@@ -1,5 +1,8 @@
 package com.wp3x.reader;
 
+import lombok.Data;
+
+@Data
 public class LinkEntry {
 	
 	private String text;
@@ -8,14 +11,7 @@ public class LinkEntry {
 				
 	private TextProcessor textPreProcessor = new TextProcessor();
 
-	public String getText() {
-		return text;
-	}
-
-	public void setText(String text) {
-		this.text = text;
-	}
-
+	
 	public String getFormattedText() {
 		return textPreProcessor.normalizeText(this.getText());
 	}
@@ -23,13 +19,4 @@ public class LinkEntry {
 	public String getShortText() {
 		return textPreProcessor.getShortText(this.getText(), 200);
 	}
-
-	public String getImgPath() {
-		return imgPath;
-	}
-
-	public void setImgPath(String imgPath) {
-		this.imgPath = imgPath;
-	}
-
 }

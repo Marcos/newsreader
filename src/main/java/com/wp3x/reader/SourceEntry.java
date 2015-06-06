@@ -3,13 +3,13 @@
  */
 package com.wp3x.reader;
 
+import static java.lang.Boolean.TRUE;
+
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.Collection;
 import java.util.Locale;
 
 import com.wp3x.SourcePattern;
-import com.wp3x.model.TagType;
 
 /**
  * @author marcos.ferreira
@@ -53,7 +53,7 @@ public class SourceEntry  {
     	String title = this.getTitle();
     	title = textPreProcessor.treatPrefixPattern(title, this.entryPattern.getTitlePrefixPattern());
     	title = textPreProcessor.treatSufixPattern(title, this.entryPattern.getTitleSufixPattern());
-    	if(this.entryPattern.getTitleNormalize()){   		
+    	if(TRUE == this.entryPattern.getTitleNormalize()){   		
     		title = textPreProcessor.normalize(title);
     	}
     	return title.trim();
@@ -172,10 +172,7 @@ public class SourceEntry  {
 		return textPreProcessor.getShortText(text, DEFAULT_SHORT_TEXT);
 	}
 
-	public Collection<TagType> getTags() {
-		return this.entryPattern.getTags();
-	}
-    
+	
     
 
 }
