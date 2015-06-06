@@ -7,6 +7,8 @@ import java.util.Random;
 import javax.persistence.EntityManager;
 import javax.persistence.Query;
 
+import lombok.extern.log4j.Log4j;
+
 import org.apache.log4j.Logger;
 import org.joda.time.DateTime;
 
@@ -16,10 +18,9 @@ import com.wp3x.model.News;
 import com.wp3x.model.Tag;
 import com.wp3x.model.TagType;
 import com.wp3x.reader.SourceEntry;
-
+@Log4j
 public class ImportNews {
 	
-	Logger logger = Logger.getLogger(this.getClass());
 
 	public void importNews(Collection<SourceEntry> entries) {
 		EntityManager entityManager = EntityManagerUtil.getEntityManager();

@@ -1,21 +1,13 @@
-/**
- * 
- */
+
 package com.wp3x;
 
 import java.net.URL;
 import java.util.Collection;
 import java.util.Locale;
 
-import org.apache.commons.lang3.BooleanUtils;
-
 import com.wp3x.model.TagType;
 import com.wp3x.reader.SourceType;
 
-/**
- * @author marcos.ferreira
- * 
- */
 public class SourcePattern {
 	
 	private URL sourceURL;
@@ -304,7 +296,7 @@ public class SourcePattern {
 	}
 
 	public Boolean getTitleNormalize() {
-		return BooleanUtils.toBoolean(this.titleNormalize);
+		return this.titleNormalize;
 	}
 
 	public void setTitleNormalize(Boolean titleNormalize) {
